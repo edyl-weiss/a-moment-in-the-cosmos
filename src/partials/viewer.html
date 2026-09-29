@@ -1,0 +1,28 @@
+<dialog id="viewer" aria-label="Immersive view">
+  <div class="vsurface" id="vsurface">
+    <img id="vimg" alt="">
+  </div>
+  <div class="vbar top">
+    <div class="vgroup">
+      <button type="button" id="vZoomOut" aria-label="Zoom out">−</button>
+      <button type="button" id="vReset">Fit</button>
+      <button type="button" id="vZoomIn" aria-label="Zoom in">+</button>
+      <button type="button" id="vFull"></button>
+    </div>
+    <button type="button" id="vClose">Close <span aria-hidden="true">✕</span></button>
+  </div>
+  <section class="tour-card" id="tourCard" aria-label="Guided tour" hidden>
+    <p class="step" id="tourStep"></p>
+    <h3 id="tourTitle"></h3>
+    <p id="tourText"></p>
+    <div class="row">
+      <button type="button" id="tourPrev">Previous</button>
+      <button type="button" id="tourNext">Next</button>
+      <button type="button" id="tourEnd" class="end">End tour</button>
+    </div>
+  </section>
+  <div class="vbar bottom">
+    <span class="vcredit" id="vCredit"></span>
+    <span class="vstatus" id="vStatus" aria-live="polite"></span>
+  </div>
+</dialog>

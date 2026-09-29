@@ -4,11 +4,11 @@ import { COMPARISONS } from '../data/comparisons.js';
 import { $, esc, say, loadImage, reducedMotion } from './util.js';
 import { state } from './feature.js';
 
-const btn = $('#compareBtn'), panel = $('#compare'), range = $('#cmpRange');
+const btn = $('#compareBtn'), panel = $('#compare'), box = $('#cmpBox'), range = $('#cmpRange');
 let token = 0, current = null;
 
 function setSplit(v) {
-  panel.style.setProperty('--split', v + '%');
+  box.style.setProperty('--split', v + '%');   // .cmp-box declares --split itself, so set it there
   range.setAttribute('aria-valuetext', `${Math.round(v)}% ${current.left.label}, ${Math.round(100 - v)}% ${current.right.label}`);
 }
 
@@ -16,7 +16,6 @@ function fit() {
   const c = current;
   if (!c || panel.hidden) return;
   const stage = $('#stage'), s = Math.min(stage.clientWidth / c.w, stage.clientHeight / c.h);
-  const box = $('#cmpBox');
   box.style.width = Math.floor(c.w * s) + 'px';
   box.style.height = Math.floor(c.h * s) + 'px';
 }

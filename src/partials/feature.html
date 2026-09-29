@@ -1,0 +1,56 @@
+  <div class="context-bar">
+    <span class="chip" id="catChip" data-cat="nebula">Nebula</span>
+    <span class="when" id="whenLabel">Today’s photograph</span>
+    <span class="rollover" id="rollover"></span>
+  </div>
+  <p class="notice" id="notice" role="status" hidden></p>
+
+  <figure class="feature">
+    <div class="stage loading" id="stage">
+      <div class="frame" id="frame" role="button" tabindex="0" aria-label="Open immersive view">
+        <img id="photo" alt="" decoding="async">
+        <div class="labels" id="labels" aria-hidden="true"></div>
+      </div>
+      <div class="spinner" aria-hidden="true"><span class="dot"></span><span>Loading the photograph…</span></div>
+      <span class="dims" id="dims" title="Pixel dimensions of the image asset shown here"></span>
+      <div class="compare" id="compare" hidden>
+        <div class="cmp-box" id="cmpBox">
+          <img id="cmpLeft" alt="" decoding="async">
+          <img id="cmpRight" class="top" alt="" decoding="async">
+          <span class="cmp-handle" aria-hidden="true"></span>
+          <span class="cmp-tag left" id="cmpLeftLabel" aria-hidden="true"></span>
+          <span class="cmp-tag right" id="cmpRightLabel" aria-hidden="true"></span>
+          <input type="range" id="cmpRange" min="0" max="100" step="1" value="50" aria-label="Comparison divider: drag or use arrow keys to reveal each telescope’s view">
+        </div>
+      </div>
+    </div>
+    <figcaption class="credit" id="creditLine"></figcaption>
+    <figcaption class="credit" id="cmpCredit" hidden></figcaption>
+    <p class="cmp-note" id="cmpNote" hidden></p>
+  </figure>
+
+  <div class="titlebar">
+    <div>
+      <h2 id="photoTitle">Loading…</h2>
+      <p class="cap" id="caption"></p>
+    </div>
+    <div class="actions">
+      <a class="btn primary" id="sourceLink" href="#" target="_blank" rel="noopener">View original source
+        <svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.5" d="M6 3H3v10h10v-3M9 2h5v5M14 2 7 9"/></svg></a>
+      <button id="immersiveBtn" type="button">
+        <svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.5" d="M2 6V2h4M10 2h4v4M14 10v4h-4M6 14H2v-4"/></svg>Immersive view</button>
+      <button id="compareBtn" type="button" aria-pressed="false" aria-controls="compare" hidden>
+        <svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.5" d="M8 1.5v13M2 3.5h4v9H2zM10 3.5h4v9h-4z"/></svg><span>Hubble vs Webb</span></button>
+      <button id="tourBtn" type="button" hidden>
+        <svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m10.4 10.4 3.8 3.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>Look closer: guided tour <span class="count" id="tourCount"></span></button>
+      <button id="understandBtn" type="button" aria-pressed="false" aria-controls="understandPanel">
+        <svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 7v4.5M8 4.6v.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>Understand the image</button>
+      <button id="favBtn" type="button" aria-pressed="false">
+        <svg class="ic" viewBox="0 0 16 16" aria-hidden="true"><path id="favIcon" fill="none" stroke="currentColor" stroke-width="1.5" d="M8 1.8l1.9 3.9 4.3.6-3.1 3 .7 4.3L8 11.6l-3.8 2 .7-4.3-3.1-3 4.3-.6z"/></svg><span id="favText">Save to favorites</span></button>
+    </div>
+  </div>
+
+  <div id="understandPanel" hidden tabindex="-1">
+    <h3>Understanding this image</h3>
+    <div id="understandBody"></div>
+  </div>

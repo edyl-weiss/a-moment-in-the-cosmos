@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "h-potw1620a",
+    "caption": "Galaxy NGC 5308 and its globular clusters, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "An edge-on galaxy appears in this Hubble image, encircled by a scattering of bright dots like bees swarming around a hive. The galaxy is NGC 5308, a lenticular galaxy in Ursa Major, the Great Bear, at a distance of just under 100 million light-years.",
+      "Lenticular galaxies fall somewhere between spirals and ellipticals. They are disc galaxies that have either used up or lost most of their gas and dust, so very few new stars are born in them, and their light comes mainly from old and ageing stars.",
+      "Those bright dots are globular clusters: tight, gravitationally bound swarms that can each hold hundreds of thousands of older stars. Together they form a delicate halo as they orbit the main body of the galaxy. Galaxies like this one are often accompanied by such a retinue."
+    ],
+    "explore": [
+      "Old stars can still end dramatically. On 9 October 1996, one of NGC 5308's ageing stars exploded as a Type Ia supernova.",
+      "The faint, irregular smudge to the right of NGC 5308 is a separate galaxy with an unglamorous catalogue name, SDSS J134646.18+605911.9."
+    ],
+    "understand": {
+      "summary": "This image was taken in visible and near-infrared light with Hubble's Advanced Camera for Surveys, using blue and near-infrared filters. The colour assigned to each filter is not published.",
+      "eye": "The near-infrared light captured here is invisible to the eye, and the long exposure gathers far more light than any eye could, revealing faint clusters around the galaxy."
+    },
+    "scaleExtra": null,
+    "alt": "An edge-on disc galaxy surrounded by many small bright dots on a dark background, with a dim irregular galaxy to its right.",
+    "flags": []
+  },
+  {
+    "id": "e-eso0802a",
+    "caption": "Galaxy triplet NGC 7173, NGC 7174 and NGC 7176, imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "Three galaxies share this frame: NGC 7173 at the top, NGC 7174 at the bottom right and NGC 7176 at the bottom left. To some eyes, the combined shape of the lower pair resembles a sleeping baby. The trio lies about 106 million light-years away, in the direction of Piscis Austrinus, the Southern Fish, and belongs to one of the tight galaxy gatherings known as Hickson Compact Groups.",
+      "NGC 7173 and NGC 7176 are elliptical galaxies, smooth collections of stars without spiral arms. NGC 7174 is different: it is a spiral whose dust lanes look badly disturbed and which trails a long, twisted tail.",
+      "That disturbance seems to show that the two lower galaxies are interacting right now, their gravity pulling each other out of shape. Astronomers have suggested that all three galaxies will eventually merge into one."
+    ],
+    "explore": [
+      "The image covers an area of sky about 5.3 arcminutes across. It was assembled from data taken with the FORS1 instrument on ESO's Very Large Telescope, pulled from the ESO Science Archive, then processed by ESO's Henri Boffin."
+    ],
+    "understand": {
+      "summary": "This is a visible-light image made with the FORS1 instrument on ESO's Very Large Telescope through three filters, B, V and R. The colour assigned to each filter is not published.",
+      "eye": "The long telescope exposure collects far more light than the eye, helping to bring out faint features such as the twisted tail and dust lanes."
+    },
+    "scaleExtra": null,
+    "alt": "Three galaxies against a dark sky, one at the top and two at the bottom, one of them with a long twisted tail.",
+    "flags": []
+  },
+  {
+    "id": "e-eso1603a",
+    "caption": "Dwarf galaxy IC 1613, imaged by ESO's VLT Survey Telescope",
+    "captureDate": null,
+    "story": [
+      "This image from ESO's VLT Survey Telescope in Chile shows IC 1613, a small dwarf galaxy in the constellation of Cetus. It was captured with OmegaCAM, the telescope's camera, and what makes this galaxy notable is how clean it is.",
+      "Most galaxies are laced with cosmic dust, fine grains that absorb and scatter starlight and hide much of what lies behind them. IC 1613 contains very little of this dust. That lack of dust gives astronomers an unusually clear view into the galaxy, letting them explore what it contains with great clarity.",
+      "Dwarf galaxies are far smaller and fainter than big spirals like our own Milky Way, but they are common, and a clear window into one is valuable. With so little dust in the way, astronomers can explore the contents of IC 1613 without the usual veil dimming and reddening the light from its stars."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This is a visible-light image made with the OmegaCAM camera on ESO's VLT Survey Telescope, using u, g and r filters plus a hydrogen-alpha filter. The colour assigned to each filter is not published.",
+      "eye": "The camera's long exposures gather far more light than the eye, bringing out faint detail in the galaxy."
+    },
+    "scaleExtra": null,
+    "alt": "A telescope view of the small dwarf galaxy IC 1613.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-potw1801a",
+    "caption": "Barred spiral galaxy NGC 1398, imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "Ribbons of gas and dust wrap around a pearly centre in this view of the barred spiral galaxy NGC 1398. Dark lanes of dust mottle its spiral arms, and pink-hued star-forming regions are scattered through its outer parts. The galaxy lies about 65 million light-years away in the constellation of Fornax, the Furnace.",
+      "Its arms do not begin at the very centre and swirl outward. Instead they stem from a straight bar of stars that cuts across the galaxy's middle. Around two thirds of spiral galaxies are seen to have such a bar, yet astronomers still aren't sure whether, or how, bars shape the way a galaxy behaves and develops.",
+      "The data come from FORS2, an instrument on ESO's Very Large Telescope at Paranal Observatory in Chile, which recorded the galaxy in fine detail."
+    ],
+    "explore": [
+      "The picture was made for ESO's Cosmic Gems programme, an outreach effort that photographs interesting or attractive objects using telescope time that cannot be used for science. The data still go into ESO's science archive, where astronomers can use them."
+    ],
+    "understand": {
+      "summary": "This is a visible-light image from the FORS2 instrument on ESO's Very Large Telescope, using B, V and R filters plus a hydrogen-alpha filter that traces glowing hydrogen. The colour assigned to each filter is not published.",
+      "eye": "The long exposure collects far more light than the eye can, revealing faint dust lanes and pink star-forming regions that would not be visible by eye."
+    },
+    "scaleExtra": null,
+    "alt": "A barred spiral galaxy with a pale bright centre and curving arms marked by dark dust lanes and pink patches.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1923a",
+    "caption": "Spiral galaxy NGC 4051, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "This Hubble image shows NGC 4051, a spiral galaxy about 45 million light-years from Earth. It is a galaxy with a record of stellar explosions: supernovae have gone off here several times in recent decades, scattered through its centre and its spiral arms.",
+      "A supernova is what happens when a massive star dies at the end of its short life. The blast is so energetic and luminous that it looks like an especially bright new star, which then slowly fades. That brilliance means telescopes such as Hubble can pick supernovae out even in distant galaxies.",
+      "NGC 4051 has hosted three that we know of: SN 1983I, SN 2003ie and SN 2010br. The first and last were type Ic supernovae, produced when the core of a massive star collapses after the star has already shed its outer hydrogen and helium, through winds or by passing material to a companion star."
+    ],
+    "explore": [
+      "Because they have lost their outer layers, type Ic and type Ib supernovae are sometimes called stripped core-collapse supernovae.",
+      "NGC 4051 sits in the southern part of the Ursa Major I Cluster, a group rich in spiral galaxies that forms part of the larger Virgo Supercluster, which also contains the Milky Way."
+    ],
+    "understand": {
+      "summary": "This image comes from Hubble's Wide Field Camera 3, using filters from the ultraviolet through visible light. The colour assigned to each filter is not published.",
+      "eye": "Part of the light recorded here is ultraviolet, which the human eye cannot see, and the long exposure collects far more light than an eye could."
+    },
+    "scaleExtra": null,
+    "alt": "A spiral galaxy, seen by Hubble.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1731a",
+    "caption": "The Hockey Stick Galaxy, NGC 4656, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "This Hubble picture zooms in on the bright central region of NGC 4656, a galaxy found in Canes Venatici, the Hunting Dogs. From this partial view you would never guess its nickname: the Hockey Stick Galaxy.",
+      "Seen in full, the galaxy is stretched into a long, warped stick that curls around at one end, rather like the blade of a hockey stick. This framing captures only the middle, so the curl lies outside the picture.",
+      "The odd shape is thought to come from interactions with a couple of close neighbours, the Whale Galaxy, NGC 4631, and a small elliptical called NGC 4627. When galaxies pass near each other, gravity can pull their gas, stars and dust into distorted new arrangements, completely reshaping them. Hubble has photographed many such interacting systems, each bent into its own strange form."
+    ],
+    "explore": [
+      "Other interacting galaxies Hubble has captured include Arp 273, which resembles a rose, and Arp 142, whose pair looks like an egg next to a penguin."
+    ],
+    "understand": {
+      "summary": "This image comes from Hubble's Wide Field Camera 3, using filters from the ultraviolet through visible light to near-infrared, including a hydrogen-alpha filter. The colour assigned to each filter is not published.",
+      "eye": "Some of the light captured, in the ultraviolet and near-infrared, is invisible to the eye, and the long exposures gather far more light than an eye could."
+    },
+    "scaleExtra": null,
+    "alt": "A close view of the bright central region of an elongated galaxy.",
+    "flags": []
+  },
+  {
+    "id": "e-eso0643a",
+    "caption": "Central region of the starburst galaxy NGC 1313, imaged by ESO's Very Large Telescope",
+    "captureDate": "16 December 2003",
+    "story": [
+      "Green clouds and many knots of star formation crowd this view of the central parts of NGC 1313, a starburst galaxy. Its busy state is obvious at a glance: star-forming regions are everywhere.",
+      "A starburst galaxy is one making new stars at an unusually high rate. In NGC 1313, successive waves of star birth have blown and sculpted cocoons of gas called supershell nebulae, and a great many of these are visible here. The green patches mark gas glowing in the light of ionised oxygen, and they may hold clusters of very hot stars whose radiation makes the gas shine.",
+      "The picture was built from observations made using FORS1, an instrument mounted on one of the 8.2-metre Unit Telescopes of ESO's Very Large Telescope at Cerro Paranal. Combining broad colour filters with narrow ones tuned to single glowing gases lets astronomers map where the energetic young stars are reshaping their surroundings."
+    ],
+    "explore": [
+      "The data were obtained on the night of 16 December 2003, through broad-band R, B and z filters and narrow-band filters including hydrogen-alpha and oxygen lines."
+    ],
+    "understand": {
+      "summary": "This colour composite was made with the FORS1 instrument on ESO's Very Large Telescope, combining broad-band visible and near-infrared filters with narrow-band filters for hydrogen and oxygen. The caption notes that green marks ionised oxygen; the other colours' mapping is not published.",
+      "eye": "Narrow-band filters isolate light from single elements, and the long exposures gather far more light than the eye, so the glowing gas stands out much more than it would to an observer."
+    },
+    "scaleExtra": null,
+    "alt": "The crowded centre of a galaxy with many bright star-forming knots and green glowing clouds of gas.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1619a",
+    "caption": "Spiral galaxy NGC 6814, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "A brilliant nucleus sits at the heart of this face-on spiral galaxy, its sweeping arms rippled with intricate dark dust patterns and sprinkled with blue stars. This is NGC 6814, photographed by Hubble. Spiral and irregular galaxies together make up about 60% of the galaxies in the local Universe, yet like snowflakes no two spirals are alike.",
+      "That very bright nucleus is a telltale sign that NGC 6814 is a Seyfert galaxy, a type with an active centre that can emit strong bursts of radiation. Its core is a highly variable source of X-rays, which leads scientists to suspect a supermassive black hole there, weighing in at about 18 million times the mass of the Sun.",
+      "Along the spiral arms lie many regions of ionised gas. A recent burst of star birth in these big clouds has forged the brilliant blue stars seen dotted across the galaxy."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This image comes from Hubble's Wide Field Camera 3, using visible and near-infrared filters. The colour assigned to each filter is not published.",
+      "eye": "The near-infrared light included here is invisible to the eye, and the long exposure reveals fine dust detail far beyond what an eye could see."
+    },
+    "scaleExtra": null,
+    "alt": "A face-on spiral galaxy with a very bright centre and sweeping arms streaked with dark dust and dotted with blue stars.",
+    "flags": []
+  },
+  {
+    "id": "h-opo1008a",
+    "caption": "Hickson Compact Group 31, imaged by the Hubble, Spitzer and GALEX space telescopes",
+    "captureDate": "Hubble data: 8 August 2006; Spitzer: 22 February 2005; GALEX: 27 December 2004",
+    "story": [
+      "A bright, distorted object sits left of centre in this composite, with a cigar-shaped galaxy above it, a bridge of star clusters linking them, and a long rope of bright clusters leading to another galaxy at lower right. The bright object in the middle is simply a foreground star. These are members of Hickson Compact Group 31, four dwarf galaxies about 166 million light-years away.",
+      "The distorted object is actually two dwarf galaxies colliding head-on. Myriad star clusters have formed in the debris pulled from them and at the site of the crash, and the massive, hot young stars are pouring out ultraviolet radiation that heats nearby gas clouds and makes them glow.",
+      "Encounters like this between dwarf galaxies are usually seen billions of light-years away, and so billions of years in the past. This group is unusually close, offering a nearer look at the process."
+    ],
+    "explore": [
+      "Hubble's Advanced Camera for Surveys resolved the youngest and brightest clusters, letting astronomers estimate their ages. The brightest, hefty groups of at least 100,000 stars apiece, are under 10 million years old.",
+      "The galaxies appear to be entering the final stages of assembly, and astronomers expect them to become one large elliptical galaxy in another billion years."
+    ],
+    "understand": {
+      "summary": "This composite combines visible and near-infrared light from Hubble's ACS and WFPC2 cameras, infrared from NASA's Spitzer Space Telescope, and ultraviolet from GALEX. The colour assigned to each dataset is not published.",
+      "eye": "Much of the light combined here, in the ultraviolet and infrared, is invisible to the human eye."
+    },
+    "scaleExtra": null,
+    "alt": "A group of distorted galaxies linked by chains of bright star clusters, with a bright foreground star in the middle.",
+    "flags": []
+  },
+  {
+    "id": "h-heic1913c",
+    "caption": "Spiral galaxy NGC 3147, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "This Hubble image shows the spiral galaxy NGC 3147, seen from an angle that lays its shape and structure out plainly. The galaxy lies in Draco, the Dragon, and by the standards of galaxies it is a relatively close neighbour, at a distance of roughly 130 million light-years.",
+      "A spiral galaxy is a flat, rotating disc of stars, gas and dust, with arms that wind outward from a brighter central bulge. Seeing a spiral from a favourable perspective lets astronomers trace how those arms are arranged and how the disc is built.",
+      "Hubble recorded this galaxy with its Wide Field Camera 3, through filters spanning visible light and the near-infrared. Using several filters like this helps astronomers separate the light of different kinds of stars and pick out dust, which dims and reddens starlight passing through it."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This image comes from Hubble's Wide Field Camera 3, using filters from visible light into the near-infrared. The colour assigned to each filter is not published.",
+      "eye": "Part of the light recorded is near-infrared, invisible to the eye, and the long exposure gathers far more light than an eye could."
+    },
+    "scaleExtra": "NGC 3147 lies roughly 130 million light-years away, according to ESA/Hubble.",
+    "alt": "A spiral galaxy seen at an angle that shows its disc and spiral structure.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "w-potm2302a",
+    "caption": "Galaxy cluster RX J2129, imaged by the James Webb Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Mostly reddish stars and galaxies are scattered across a dark background here. In the upper right, a large elliptical galaxy with a bright centre and a diffuse white glow sits among many smaller, similar galaxies, and around it are distorted images and arcs of light. This is the massive galaxy cluster RX J2129, photographed by Webb.",
+      "The cluster is heavy enough to bend space around it, so it acts like a vast lens for light passing through from behind. The concentric arcs are background objects stretched by this gravitational lensing. The effect is so strong that the picture contains three separate images of one distant galaxy, which hosts a supernova.",
+      "Hubble spotted that supernova first, and astronomers suspected it was a very distant Type Ia. Such explosions shine with a fairly consistent brightness, so how dim one appears reveals its distance, making them useful 'standard candles'."
+    ],
+    "explore": [
+      "Because the supernova's true brightness is roughly known, it can also show how strongly RX J2129 magnifies things behind it, and so how massive the cluster is: in effect, measuring the lens's 'prescription'.",
+      "Webb's NIRCam measured the supernova's brightness, and NIRSpec took its spectrum, so it can be compared with Type Ia supernovae in the nearby Universe to check a trusted distance method."
+    ],
+    "understand": {
+      "summary": "This infrared image was taken with Webb's Near-InfraRed Camera (NIRCam). Light at 1.15 and 1.5 microns is shown in blue, 2.0 and 2.77 microns in green, and 3.56 and 4.44 microns in red.",
+      "eye": "All of this light is infrared, invisible to the human eye, so the colours are a translation of wavelengths we cannot see."
+    },
+    "scaleExtra": "The lensing cluster RX J2129 lies around 3.2 billion light-years from Earth, according to ESA/Webb.",
+    "alt": "Reddish galaxies on a dark background, with a large bright elliptical galaxy in the upper right surrounded by smaller galaxies and curved arcs of light.",
+    "flags": []
+  },
+  {
+    "id": "h-potw2012a",
+    "caption": "Barred spiral galaxy NGC 4618, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "This Hubble image shows NGC 4618, a barred spiral galaxy with an unusual feature: it has only one arm winding around its centre. That single arm sets it apart from other spirals.",
+      "The galaxy lies about 21 million light-years away in Canes Venatici and measures roughly a third of the Milky Way's diameter. It has a neighbour, NGC 4625, and the two form an interacting pair, close enough that each tugs on the other through gravity. Encounters like this may eventually lead galaxies to merge into something new, such as a ring galaxy.",
+      "NGC 4618 has a long history in astronomy. Wilhelm Herschel, the German-British astronomer who also found Uranus, discovered it in 1787. A year earlier he had argued that the fuzzy patches astronomers saw were probably big star clusters lying far beyond the individual stars he could make out."
+    ],
+    "explore": [
+      "Herschel logged NGC 4618 on 9 April 1787, some years after finding Uranus. Astronomers later came to understand that the 'foggy' objects he described were galaxies."
+    ],
+    "understand": {
+      "summary": "This image combines visible and near-infrared exposures from Hubble's Advanced Camera for Surveys and Wide Field Camera 3. The colour assigned to each filter is not published.",
+      "eye": "Part of the light is near-infrared, beyond what the eye can see, and the long exposures collect far more light than an eye could."
+    },
+    "scaleExtra": null,
+    "alt": "A barred spiral galaxy with a single arm winding around its centre.",
+    "flags": []
+  },
+  {
+    "id": "h-heic1505b",
+    "caption": "Galaxy cluster MACS J1149.5+2223, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "This Hubble image shows MACS J1149.5+2223, a huge cluster of galaxies. The light we see from it set out more than 5 billion years ago, so the picture shows the cluster as it was in the distant past.",
+      "A galaxy cluster is a vast gathering of galaxies bound together by gravity, and its enormous mass warps the space around it. Light from objects far behind the cluster is bent as it passes through, a process called gravitational lensing.",
+      "Here the lensing does two things. It magnifies and distorts the light of more distant galaxies, stretching them into unfamiliar shapes. And it can split the light of a single distant object along several paths, so that the same background source appears more than once in the image. For astronomers, a lens like this acts as a natural telescope, bringing faint, far-off galaxies into view that would otherwise be too dim to study."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This image combines near-infrared light from Hubble's Advanced Camera for Surveys and Wide Field Camera 3. The colour assigned to each filter is not published.",
+      "eye": "The filters used record near-infrared light, invisible to the eye, and the long exposures reveal galaxies far too faint to see by eye."
+    },
+    "scaleExtra": "Light from the cluster took over 5 billion years to reach us, according to ESA/Hubble.",
+    "alt": "A large cluster of galaxies, with the light of more distant galaxies magnified and distorted around it.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "h-potw1735a",
+    "caption": "Galaxies MCG+01-38-004 and MCG+01-38-005, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Two galaxies appear in this Hubble image, one above the other. The upper, red-tinted one is MCG+01-38-004; the lower, blue-tinted one is MCG+01-38-005, and it hides an unusual power source at its heart.",
+      "The lower galaxy has an active galactic nucleus, an especially bright and intense centre thought to be driven by a supermassive black hole that drags in surrounding material and throws out jets and radiation. That energy pours into nearby clouds of water. The hydrogen and oxygen atoms in the water absorb some of it and give it back at particular wavelengths, one of them in the microwave range. That makes MCG+01-38-005 a water megamaser, a far stronger cousin of the microwave lasers called masers.",
+      "Objects like this are useful tools. Astronomers used its microwave emission to refine the Hubble constant, which describes how fast the Universe is expanding."
+    ],
+    "explore": [
+      "Microwaves are the same kind of radiation used to heat food. Across the Universe, objects give off light across the whole spectrum, from high-energy gamma rays to low-energy microwaves and radio waves.",
+      "The Hubble constant is named after Edwin Hubble, whose observations revealed that the Universe is expanding and after whom the space telescope is named."
+    ],
+    "understand": {
+      "summary": "This image was taken with Hubble's Wide Field Camera 3 in near-ultraviolet, visible and near-infrared filters. The colour assigned to each filter is not published.",
+      "eye": "The microwave glow that makes the lower galaxy special does not appear in this picture; Hubble recorded ultraviolet, visible and near-infrared light, some of it beyond what the eye can see."
+    },
+    "scaleExtra": null,
+    "alt": "Two galaxies, one above the other: the upper one red-tinted and the lower one blue-tinted.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1535a",
+    "caption": "Spiral galaxy Messier 96, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Glowing gas swirls through this Hubble view of Messier 96 like a giant maelstrom, rippled with dark dust that spirals in towards the nucleus. The spiral galaxy lies just over 35 million light-years away in Leo, the Lion, and is roughly as massive and as large as our own Milky Way.",
+      "Look closely and Messier 96 turns out to be lopsided. Its gas and dust are spread unevenly through weak spiral arms, the arms themselves are asymmetrical, and even its core is slightly off the galaxy's centre. Astronomers think its lopsided arms were shaped by the gravity of other galaxies in its group.",
+      "That group, the M96 Group, also contains the bright galaxies Messier 105 and Messier 95, along with a number of smaller, fainter members. It is the nearest group to contain bright spirals as well as a bright elliptical, which is Messier 105."
+    ],
+    "explore": [
+      "Pierre Méchain discovered the galaxy in 1781, and Charles Messier added it to his famous catalogue of astronomical objects only four days later."
+    ],
+    "understand": {
+      "summary": "This image comes from Hubble's Wide Field Camera 3, using blue, green and near-infrared filters. The colour assigned to each filter is not published.",
+      "eye": "Part of the light is near-infrared, beyond human vision, and the long exposure gathers far more light than an eye could."
+    },
+    "scaleExtra": null,
+    "alt": "A spiral galaxy of glowing gas streaked with dark dust swirling in towards its nucleus.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1206a",
+    "caption": "Markarian 779 and neighbouring galaxies, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Several galaxies share this Hubble frame. At the bottom, a tilted spiral glows behind a star of our own Milky Way; at the top centre sits a small spiral; and at the top is Markarian 779, a galaxy with a distorted, peculiar shape.",
+      "Markarian 779 probably looks this way because two spiral galaxies recently merged. The collision destroyed their spiral arms and scattered much of their gas and dust, leaving a single galaxy of unusual form.",
+      "It takes its name from a catalogue of more than 1500 galaxies compiled by the Armenian astronomer B. E. Markarian, who studied them in the 1960s. He searched the sky for bright objects giving off unusually strong ultraviolet light. That light can come from an active nucleus powered by a supermassive black hole, or from starbursts, intense episodes of star formation possibly set off by collisions. So Markarian galaxies are often studied to understand active galaxies, starbursts and mergers."
+    ],
+    "explore": [
+      "Because ultraviolet light has several possible sources, the objects in the Markarian catalogue are quite varied."
+    ],
+    "understand": {
+      "summary": "The caption says this image was taken with Hubble's Wide Field Camera 3. The filters used and the colour mapping are not published.",
+      "eye": "The long exposure collects far more light than the eye, so faint galaxies appear clearly."
+    },
+    "scaleExtra": null,
+    "alt": "Several galaxies: a tilted spiral at the bottom behind a foreground star, a small spiral at top centre, and a distorted galaxy at the top.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1309a",
+    "caption": "Spiral galaxy IC 5052, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Speckled with blue, white and yellow light, this Hubble image shows part of the spiral galaxy IC 5052, seen side-on and surrounded by distant stars and galaxies. Its blue-white glow picks out a narrow, intricate structure. The galaxy lies in Pavo, the Peacock, in the southern sky.",
+      "From this edge-on angle it is hard to work out how a spiral is arranged. IC 5052 is in fact a barred spiral: its arms do not start at the very centre but attach to the ends of a straight bar of stars crossing its middle. Roughly two thirds of spirals, the Milky Way among them, have such a bar.",
+      "Pale blue bursts along the galaxy's length, partly hidden by winding lanes of darker gas and dust, are pockets of extremely hot newborn stars. Bars are thought to aid their formation by funnelling material inward from the arms towards these stellar nurseries."
+    ],
+    "explore": [
+      "Contestant Serge Meunier entered a version of this picture in Hubble's Hidden Treasures image processing competition."
+    ],
+    "understand": {
+      "summary": "This image combines visible and near-infrared light captured by Hubble's Advanced Camera for Surveys. The colour assigned to each filter is not published.",
+      "eye": "The near-infrared light included is invisible to the eye, and the long exposure brings out faint background galaxies no eye could see."
+    },
+    "scaleExtra": null,
+    "alt": "A narrow, edge-on spiral galaxy speckled with blue, white and yellow light and crossed by dark dust lanes, among distant stars and galaxies.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1242a",
+    "caption": "Spiral galaxy NGC 3344, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "We see the spiral galaxy NGC 3344 face-on in this Hubble image, which makes its structure easy to study. An outer ring swirls around an inner ring, with a subtle bar of stars across the centre. The galaxy is around half the size of the Milky Way and lies 25 million light-years away.",
+      "Young stars dominate its central regions, and its outer edges also host areas of active star formation. Central bars appear in around two thirds of spiral galaxies; the one in NGC 3344 is clearly visible, though less dramatic than some.",
+      "The galaxy holds a puzzle. The crowded stars near a galaxy's centre exert enough gravity to steer other stars, yet NGC 3344's outer stars move in an unusual way that the bar cannot fully explain. One possibility is that it once passed close to another galaxy and captured some of its stars, but more research is needed before anyone can say so confidently."
+    ],
+    "explore": [
+      "The picture combines visible and near-infrared exposures from Hubble's Advanced Camera for Surveys. The view spans around 3.4 arcminutes on each side, roughly a tenth of the full Moon's diameter."
+    ],
+    "understand": {
+      "summary": "This image combines visible and near-infrared light captured by Hubble's Advanced Camera for Surveys. The colour assigned to each filter is not published.",
+      "eye": "The near-infrared light included is invisible to the human eye, and the long exposures reveal detail far beyond what the eye could pick out."
+    },
+    "scaleExtra": null,
+    "alt": "A face-on spiral galaxy with an inner and outer ring around a faint central bar.",
+    "flags": []
+  },
+  {
+    "id": "h-opo0413c",
+    "caption": "Stars in the heart of spiral galaxy NGC 300, imaged by the Hubble Space Telescope",
+    "captureDate": "July and September 2002",
+    "story": [
+      "Countless stars fill this Hubble image of the heart of NGC 300, each resolved as its own point of light like grains of sand on a beach. Hot, young blue stars cluster in the spiral arms, ribbons of deep red trace curtains of dust that partly hide the stars behind, and near the centre lies the galaxy's bright, compact nucleus.",
+      "NGC 300 is a spiral much like the Milky Way and one of its closer neighbours, 6.5 million light-years away in the Sculptor group. From the ground only its brightest stars can be singled out, but Hubble's Advanced Camera for Surveys, with resolution some 10 times sharper, separates many more. Even so, the packed nucleus defeats it.",
+      "These data are testing a new way to measure distances to galaxies, using luminous blue supergiants. By combining their brightness with temperature, surface gravity and mass outflow, astronomers hope to check it against traditional methods based on Cepheid variables."
+    ],
+    "explore": [
+      "The Sculptor group of galaxies is named for the southern constellation in which it is found.",
+      "Measuring distances is a perpetual but important concern in astronomy, and Cepheids, stars that pulsate with a period linked to their brightness, have long been one of the standard tools."
+    ],
+    "understand": {
+      "summary": "This colour composite was made with Hubble's Advanced Camera for Surveys from images taken through blue, green and near-infrared filters. The exact colour assigned to each filter is not published.",
+      "eye": "Part of the light is near-infrared, invisible to the eye, and no eye or ground-based telescope could separate these stars as Hubble does."
+    },
+    "scaleExtra": null,
+    "alt": "A dense field of individual stars with clusters of blue stars, reddish dust ribbons and a bright compact nucleus near the centre.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1351a",
+    "caption": "Edge-on spiral galaxy ESO 373-8, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "A thin, glittering streak crosses this Hubble image. It is the spiral galaxy ESO 373-8, seen edge-on some 25 million light-years away, with everything in it lined up in one flat plane. It belongs to the NGC 2997 group, along with at least seven neighbouring galaxies.",
+      "We see so many flat, pancake-like galaxies that their shape seems unremarkable. But why are galaxies flattened at all? The answer lies in a principle called conservation of angular momentum, which you can feel in a swivel chair: spin with arms and legs out, pull them in, and you speed up.",
+      "This galaxy started as a huge, slowly rotating ball of gas. As it collapsed under its own gravity its spin quickened until, like pizza dough flung and stretched in the air, it flattened into a disc. Anything that drifted up or down out of that disc was pulled back into line, leaving the neat, streamlined shape we see today."
+    ],
+    "explore": [
+      "The same rule applies at every scale: angular momentum is conserved in a spinning galactic disc far across space just as it is for anyone twirling in an office chair."
+    ],
+    "understand": {
+      "summary": "This image combines visible and near-infrared light captured by Hubble's Advanced Camera for Surveys. The colour assigned to each filter is not published.",
+      "eye": "The near-infrared light included is invisible to the eye, and the long exposure collects far more light than an eye could."
+    },
+    "scaleExtra": null,
+    "alt": "A thin, glittering edge-on galaxy stretched across the frame.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1103a",
+    "caption": "Barred spiral galaxy NGC 1345, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "The loose, ragged arms of the spiral galaxy NGC 1345 fill this Hubble image, and all around it are more distant galaxies of many shapes and sizes, some even shining through the foreground galaxy. An elongated bar stretches out from its nucleus, with spiral arms reaching outward from it, which makes NGC 1345 a barred spiral.",
+      "The galaxy belongs to the Eridanus Galaxy Cluster, which gathers about 70 galaxies some 85 million light-years away in Eridanus, the River. The Fornax Cluster looks close by on the sky, though the two are really about 20 million light-years apart. Together they are called the Fornax or Southern Supercluster.",
+      "Sorting galaxies by shape tells astronomers a great deal about how the Universe has evolved, and people turn out to be better at recognising shapes than computers. That is why the citizen-science project Galaxy Zoo: Hubble has invited the public to help classify galaxies in Hubble's archive."
+    ],
+    "explore": [
+      "John Herschel discovered NGC 1345 in 1835 while observing from South Africa. He called it small and very faint, and even today it shows up as only a small, round fuzz in a fairly large amateur telescope."
+    ],
+    "understand": {
+      "summary": "This image was made with the Wide Field Channel of Hubble's Advanced Camera for Surveys. Light through a blue filter (F435W) is shown in blue and light through a near-infrared filter (F814W) in red.",
+      "eye": "The red channel is near-infrared light, invisible to the eye, and the exposures, 17.5 minutes per filter, gather far more light than an eye could."
+    },
+    "scaleExtra": null,
+    "alt": "A spiral galaxy with a central bar and loose, ragged arms, surrounded by many more distant galaxies of different shapes and sizes.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1806a",
+    "caption": "Barred spiral galaxy NGC 1559, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "This Hubble view from the Wide Field Camera 3 shows NGC 1559, a barred spiral roughly 50 million light-years away in Reticulum, the Reticule, a southern constellation that astronomers rarely study. Its massive spiral arms are packed with star formation.",
+      "The galaxy holds the mass of around ten billion Suns, which sounds large but is almost 100 times less than the Milky Way. It is also receding from us at about 1300 km/s. On the sky it appears near the Large Magellanic Cloud, one of our nearest neighbours, but that is only a chance alignment. Physically, NGC 1559 is a genuine loner, with no nearby galaxies and no membership of any cluster.",
+      "Lonely as it is, it has put on quite a show. Astronomers have seen four supernovae, exploding stars, go off in NGC 1559: in 1984, 1986, 2005 and 2009."
+    ],
+    "explore": [
+      "The four explosions are catalogued as SN 1984J, SN 1986L, SN 2005df, which was a Type Ia, and SN 2009ib, a Type II-P supernova with an unusually long plateau in its fading light."
+    ],
+    "understand": {
+      "summary": "This image comes from Hubble's Wide Field Camera 3, using filters from the near-ultraviolet through visible light to the near-infrared. The colour assigned to each filter is not published.",
+      "eye": "Some of the light recorded lies in the ultraviolet and near-infrared, beyond what the eye can see, and the exposures collect far more light than an eye could."
+    },
+    "scaleExtra": null,
+    "alt": "A barred spiral galaxy with massive spiral arms.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1715a",
+    "caption": "Starburst spiral galaxy NGC 4536, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "This detailed Hubble portrait, taken with the Wide Field Camera 3, shows NGC 4536, a spiral galaxy roughly 50 million light-years away in Virgo, the Virgin. It is a starburst galaxy, a hub of extreme star formation.",
+      "How galaxies form and change over time is still far from fully understood, which is why starburst galaxies are so useful. In them, one region or many is forming stars at such a breakneck pace that the galaxy is consuming its gas faster than the supply can be topped up. Studying the conditions inside them tells astronomers a lot about how galaxies evolve.",
+      "Several things can set off such a frenzy, but one ingredient is essential: a large enough supply of gas. A galaxy might gain it by passing very close to another galaxy, by colliding outright with one, or through some other event that squeezes a great deal of gas into a relatively small space, where it can collapse into new stars."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This image comes from Hubble's Wide Field Camera 3, using visible and near-infrared filters. The colour assigned to each filter is not published.",
+      "eye": "Part of the light is near-infrared, invisible to the eye, and the long exposure collects far more light than an eye could."
+    },
+    "scaleExtra": null,
+    "alt": "A detailed view of the starburst spiral galaxy NGC 4536.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1511a",
+    "caption": "Blue compact dwarf galaxy PGC 51017, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "A bright streak of glowing gas and stars runs across this Hubble image. This is PGC 51017, also known as SBS 1415+437, a type of galaxy called a blue compact dwarf.",
+      "It is a well-studied galaxy with an interesting history. Astronomers first thought it was very young, going through its first burst of star formation. More recent studies suggest it is a little older, containing stars more than 1.3 billion years old.",
+      "Starbursts are short, intense bouts of star formation in which a galaxy rapidly uses up large amounts of gas making new stars. Such bursts are known in gas-rich discs and in certain low-mass dwarfs, but it is unclear whether every dwarf galaxy goes through them. Some may cycle through repeated bursts over time. Dwarfs of this kind are thought to date from the early Universe, making some of the first stars. Those with very few heavy elements, like this one, remain good places to study star formation resembling early cosmic conditions."
+    ],
+    "explore": [
+      "Heavier elements build up as generations of stars live and die, so a galaxy poor in them has seen little of that recycling. Even so, our nearby patch of the Universe may not hold any galaxy that is going through its very first burst of star formation right now.",
+      "Nick Rose entered a version of this image in Hubble's Hidden Treasures image processing competition."
+    ],
+    "understand": {
+      "summary": "This image was taken with Hubble's Advanced Camera for Surveys using visible and near-infrared filters plus a hydrogen-alpha filter that traces glowing hydrogen. The colour assigned to each filter is not published.",
+      "eye": "Part of the light is near-infrared, which the eye cannot see, and the long exposure gathers far more light than any eye."
+    },
+    "scaleExtra": null,
+    "alt": "A bright elongated streak of glowing gas and stars.",
+    "flags": []
+  },
+  {
+    "id": "h-opo0838a",
+    "caption": "Core of the starburst galaxy NGC 1569, imaged by the Hubble Space Telescope",
+    "captureDate": "September 1999, November 2006 and January 2007",
+    "story": [
+      "The brilliant core of NGC 1569 sparkles with light from millions of young stars in this Hubble image. At its centre are giant star clusters sitting in a large cavity, with sculpted gas structures around them and two huge gas bubbles at left, floating like islands. The thousands of tiny white dots are stars in the galaxy's halo; the biggest and brightest objects are foreground stars in the Milky Way.",
+      "Among galaxies in our local neighbourhood, NGC 1569 is one of the most active, making stars 100 times faster than the Milky Way, at an almost continuous pace for the past 100 million years. Its central clusters each hold more than a million stars.",
+      "The cavity was blown out by massive young stars that already exploded as supernovae. Those blasts also drove a violent outflow of gas and particles that is carving giant structures, one of them, at lower right, about 3700 light-years long."
+    ],
+    "explore": [
+      "The whole core is 5000 light-years wide. The largest bubble is about 378 light-years across and the smallest 119 light-years, lit by bright young stars inside them.",
+      "A new analysis puts the galaxy 11 million light-years away, farther than thought, in a group of about 10 galaxies centred on a spiral galaxy. Interactions there may be compressing its gas and sparking star birth."
+    ],
+    "understand": {
+      "summary": "This image combines data from Hubble's Wide Field Planetary Camera 2 and Advanced Camera for Surveys, including visible-light filters and narrow filters that isolate glowing hydrogen, nitrogen and oxygen. The colour assigned to each filter is not published.",
+      "eye": "Narrow-band filters isolate the glow of particular gases, and Hubble's sharp view picks out individual halo stars as tiny white dots."
+    },
+    "scaleExtra": null,
+    "alt": "The bright core of a galaxy crowded with young stars, with a central cavity, sculpted gas structures, gas bubbles on the left and many tiny white dots around it.",
+    "flags": []
+  },
+  {
+    "id": "e-eso1129a",
+    "caption": "Spiral galaxy NGC 3521, imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "This picture shows NGC 3521, a large spiral galaxy in Leo, the Lion. It was taken with the FORS1 instrument on ESO's Very Large Telescope, which stands at Paranal Observatory in Chile. At only 35 million light-years away, it counts as a nearby galaxy.",
+      "A spiral galaxy like this is a vast rotating disc of stars, gas and dust, with a brighter central bulge and arms winding out from it. Our own Milky Way is a spiral too, so looking at galaxies such as NGC 3521 gives astronomers an outside view of the kind of system we live in, something we can never get of our own galaxy.",
+      "The image was built from three separate exposures, each taken through a different filter. One passed blue light, one yellow-green light and one near-infrared light. Combining them into a single colour picture lets astronomers compare how the galaxy looks at different wavelengths, since dust, young stars and older stars each stand out differently."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This image comes from the FORS1 instrument on ESO's Very Large Telescope. Blue light is shown as blue, yellow-green light as green and near-infrared light as red.",
+      "eye": "The red channel records near-infrared light, which the eye cannot see, and the long exposures gather far more light than an eye could."
+    },
+    "scaleExtra": null,
+    "alt": "The large spiral galaxy NGC 3521.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "h-potw1125a",
+    "caption": "The Propeller Galaxy, NGC 7479, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "The tightly wound arms of the spiral galaxy NGC 7479 trace an inverted 'S' in this Hubble image, turning anticlockwise. Many bright young stars dot its arms and disc. The three brightest stars in the picture, though, are foreground stars that simply lie between the galaxy and Hubble.",
+      "In radio light, the galaxy, sometimes called the Propeller Galaxy, seems to spin the other way. It has a jet of radiation that bends opposite to the stars and dust in its arms. Astronomers think a merger with another galaxy set the radio jet into this strange backwards twist.",
+      "Galactic collisions tend to reignite star formation, and NGC 7479 is indeed going through a starburst. Through a moderate-sized telescope it appears as an elongated fuzzy patch of light, while its spiral arms can be glimpsed, with more difficulty, in larger telescopes under dark skies."
+    ],
+    "explore": [
+      "The image was made with the Wide Field Channel of Hubble's Advanced Camera for Surveys. Each filter had a total exposure of 520 seconds, and the view spans 2.7 arcminutes."
+    ],
+    "understand": {
+      "summary": "This image combines visible and near-infrared light from Hubble's Advanced Camera for Surveys. Light through a yellow filter (F555W) is coloured blue and near-infrared light (F814W) is coloured red.",
+      "eye": "The red channel is near-infrared light, invisible to the eye, and the colours are assigned rather than natural."
+    },
+    "scaleExtra": null,
+    "alt": "A spiral galaxy whose tightly wound arms form an inverted S shape, with three bright foreground stars nearby.",
+    "flags": []
+  },
+  {
+    "id": "w-potm2211a",
+    "caption": "Merging galaxies II ZW 96, imaged by the James Webb Space Telescope",
+    "captureDate": null,
+    "story": [
+      "A galaxy merger sits at the centre of this Webb image. The blue cores of two galaxies lie below centre, wrapped in red star-forming regions that stretch up through and above the middle. The lower galaxy is still a mostly regular spiral, while the upper one is heavily distorted. Faint yellow diffraction spikes appear in the middle, and many tiny background galaxies are dotted across the black sky.",
+      "Catalogued as II ZW 96, the pair lies roughly 500 million light-years away in Delphinus, near the celestial equator. Their collision has given them a chaotic shape, with bright tendrils of star formation connecting their cores and the lower galaxy's arms twisted out of shape.",
+      "Those star-forming regions make the pair very bright in infrared light, which is exactly why Webb targeted it. It is one of the Luminous Infrared Galaxies, which glow more than 100 billion times as brightly as the Sun at these wavelengths."
+    ],
+    "explore": [
+      "An international team proposed studying complex galaxy systems like this soon after Webb was commissioned, to test the telescope. Their targets had already been observed with Hubble and ground-based telescopes, allowing comparison.",
+      "MIRI was contributed by ESA and NASA, built by a consortium of European institutes with JPL and the University of Arizona, which also provided NIRCam."
+    ],
+    "understand": {
+      "summary": "This infrared image combines Webb's NIRCam and MIRI instruments. Light at 1.5 microns is shown in blue, 2.0 microns in cyan, 3.56 and 5.6 microns in green, and 4.4, 7.7 and 15 microns in red.",
+      "eye": "All of this light is infrared and invisible to the eye; the colours translate wavelengths we cannot see, and the diffraction spikes come from the telescope itself."
+    },
+    "scaleExtra": null,
+    "alt": "Two merging galaxies with blue cores below centre, surrounded by red star-forming regions, one galaxy distorted, on a black background with many tiny galaxies.",
+    "flags": []
+  },
+  {
+    "id": "e-potw2130a",
+    "caption": "Galaxy group HCG 86, imaged by ESO's VLT Survey Telescope",
+    "captureDate": null,
+    "story": [
+      "Four galaxies form a loose triangle in this image from ESO's VLT Survey Telescope: three lie along a straight line and one sits below them. The bright objects just right of the elongated galaxy do not belong to the group. Together the four make up HCG 86, about 270 million light-years from Earth in Sagittarius.",
+      "HCG stands for Hickson Compact Group, a name for groups of four to ten galaxies packed very close together. That closeness makes such groups ideal places to study how galaxies interact, sometimes to the point of merging.",
+      "This view was made by a team led by Rossella Ragusa of Italy's Istituto Nazionale di Astrofisica. The survey telescope can pick up very faint structures in the outer parts of galaxies, relics of old interactions. By mapping the light in and around the group, the team concluded these faint features are remains of satellite galaxies swallowed by the group around seven billion years ago."
+    ],
+    "explore": [
+      "The image is part of the VST Early-type Galaxy Survey, known as VEGAS.",
+      "The VST, at ESO's Paranal Observatory in Chile, is one of the world's largest telescopes built to survey the sky in visible light. It marked a decade of operation in 2021, helping search for exoplanets and probe our galaxy and the wider Universe."
+    ],
+    "understand": {
+      "summary": "This visible-light image was taken with the OmegaCAM camera on ESO's VLT Survey Telescope through g, r and i filters. The colour assigned to each filter is not published.",
+      "eye": "The long exposures gather far more light than the eye, which helps reveal the faint structures in the galaxies' outskirts."
+    },
+    "scaleExtra": null,
+    "alt": "Four galaxies arranged in a triangle, three in a row and one below, with some bright objects to the right of the elongated galaxy.",
+    "flags": []
+  },
+  {
+    "id": "h-potw2039a",
+    "caption": "Spiral galaxy NGC 5643, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "This Hubble image shows the spiral galaxy NGC 5643 in Lupus, the Wolf, about 60 million light-years from Earth. Reaching this level of detail took real effort: thirty separate exposures adding up to 9 hours of observing time, combined with Hubble's sharp resolution.",
+      "The galaxy recently hosted a supernova, though it is not visible in this picture. Called SN 2017cbv, it was a particular kind of explosion in which a white dwarf, the dense remnant of a star, draws so much material off a companion star that it turns unstable and blows apart. The energy released makes that region of the galaxy flare brightly.",
+      "These observations were proposed by Adam Riess, who shared the 2011 Nobel Prize in physics with Saul Perlmutter and Brian Schmidt for their part in discovering that the expansion of the Universe is accelerating."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This image comes from Hubble's Wide Field Camera 3, using filters from visible light into the near-infrared. The colour assigned to each filter is not published.",
+      "eye": "Part of the light is near-infrared, invisible to the eye, and hours of exposure gather far more light than any eye could."
+    },
+    "scaleExtra": null,
+    "alt": "A spiral galaxy with detailed arms seen by Hubble.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1230a",
+    "caption": "Barred spiral galaxy NGC 4700, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Bright, pinkish clouds are scattered through NGC 4700 in this Hubble image, signs that the galaxy is busy giving birth to many new stars. It is a barred spiral, similar in structure to the Milky Way, lying about 50 million light-years away in Virgo, the Virgin.",
+      "Those pink clouds are H II regions. In them, fierce ultraviolet light from hot young stars makes the nearby hydrogen gas glow. They tend to appear alongside the vast molecular clouds where fresh stars are born, and the young stars ionise the gas around them.",
+      "Astronomers study H II regions both in the Milky Way and in other galaxies where they are easy to see. They use them to gauge the chemical makeup of these environments and to learn how that shapes star formation. The first one ever recorded was the Orion Nebula, spotted through a telescope in 1610 by the French astronomer Nicolas-Claude Fabri de Peiresc."
+    ],
+    "explore": [
+      "William Herschel discovered NGC 4700 in March 1786 and described it as a 'very faint nebula'. Because the Universe is expanding, the galaxy recedes from us at about 1400 km/second."
+    ],
+    "understand": {
+      "summary": "This image was taken with Hubble's Advanced Camera for Surveys through a red filter and a hydrogen-alpha filter that picks out glowing hydrogen. The colour assigned to each filter is not published.",
+      "eye": "The hydrogen-alpha filter isolates the glow of hydrogen gas, making star-forming clouds stand out far more than they would to the eye."
+    },
+    "scaleExtra": null,
+    "alt": "A galaxy dotted with many bright pinkish clouds of glowing gas.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1729a",
+    "caption": "Spiral galaxy NGC 4242, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "This Hubble image shows the bright centre of the galaxy NGC 4242, surrounded by a dimmer, more diffuse fuzz. The galaxy sits in Canes Venatici, the Hunting Dogs, a small northern constellation, some 30 million light-years away. That is not far on a cosmic scale, and even a basic telescope can pick it up.",
+      "It may look fairly bright here, but studies show NGC 4242 is actually quite dim, with a moderate-to-low surface brightness and low luminosity. It also forms stars at a low rate. A weak bar of stars seems to cut through its lopsided centre, and its spiral structure is very faint and poorly defined across its disc.",
+      "In other words, NGC 4242 is not an especially remarkable galaxy. Like much of the Universe, though, it is still a beautiful and ethereal sight, its bright centre fading into a dimmer, more diffuse glow around it."
+    ],
+    "explore": [
+      "The British astronomer William Herschel discovered NGC 4242 in 1788."
+    ],
+    "understand": {
+      "summary": "This image comes from Hubble's Wide Field Camera 3, with filters ranging from the ultraviolet through visible light to the near-infrared, plus a hydrogen-alpha filter. The colour assigned to each filter is not published.",
+      "eye": "Some of the light captured is ultraviolet or near-infrared, invisible to the eye, and the long exposure makes this dim galaxy look brighter than it would appear to an observer."
+    },
+    "scaleExtra": null,
+    "alt": "A galaxy with a bright centre surrounded by dimmer, diffuse glow.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1134a",
+    "caption": "Warped barred spiral galaxy NGC 2146, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "An immense, dusty arm of glittering material lies directly across the centre of NGC 2146 in this Hubble image. The galaxy has been badly warped and stretched out of shape, and that looping arm is its most distinctive feature from our point of view.",
+      "NGC 2146 is classed as a barred spiral. Pulling one of its arms out of place and twisting it by up to 45 degrees would take colossal forces. The likeliest culprit is a neighbouring galaxy whose gravity is disturbing it and distorting the orbits of many of its stars. We are probably seeing the late stages of a process that has run for tens of millions of years.",
+      "The galaxy is also going through intense bursts of star formation, making it a starburst galaxy. That is common for barred spirals, but the extra gravitational stress here is likely making it stronger by squeezing hydrogen-rich clouds and triggering star birth."
+    ],
+    "explore": [
+      "NGC 2146 is about 80 000 light-years across, a little smaller than the Milky Way, and lies about 70 million light-years away in Camelopardalis, the Giraffe. Friedrich Winnecke first spotted it in 1876 with a 16 cm telescope."
+    ],
+    "understand": {
+      "summary": "This image comes from the Wide Field Channel of Hubble's Advanced Camera for Surveys. A near-infrared filter (F814W) is shown in blue and orange-brown, a hydrogen filter (F658N) in red, and a green channel was made by combining the two.",
+      "eye": "Near-infrared light is invisible to the eye, and the green channel is synthesised, so these colours are an approximation of a natural view."
+    },
+    "scaleExtra": null,
+    "alt": "A warped galaxy with an immense dusty arm lying across its centre.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1004a",
+    "caption": "Hickson Compact Group 59, imaged by the Hubble Space Telescope",
+    "captureDate": "2007",
+    "story": [
+      "Galaxies of very different kinds share this Hubble frame. There are two large spirals, one seen face-on with smooth arms and delicate threads of dust, the other steeply tilted. Beside them is a strangely disorderly galaxy with clumps of blue young stars, and many smaller, probably more distant galaxies fill the background.",
+      "This is Hickson Compact Group 59. The astronomer Paul Hickson catalogued unusually tight groupings of galaxies in 1982, and this was the 59th in his list. The variety on show is what makes this picture interesting.",
+      "Hickson groups tend to be peculiar places. They often give off radio and infrared light and host active star-forming regions. Their galaxies frequently contain active galactic nuclei, bright centres powered by supermassive black holes, and large amounts of dark matter, the unseen material detected only by its gravity."
+    ],
+    "explore": [
+      "The picture was made with the Wide Field Channel of Hubble's Advanced Camera for Surveys through blue, yellow and near-infrared filters, with total exposures of 57, 41 and 35 minutes. It covers about 3.4 arcminutes of sky."
+    ],
+    "understand": {
+      "summary": "This image combines blue, yellow and near-infrared filters (F435W, F606W and F814W) on Hubble's Advanced Camera for Surveys. The colour assigned to each filter is not published.",
+      "eye": "The near-infrared light is invisible to the eye, and exposures lasting most of an hour per filter reveal faint background galaxies far beyond what an eye could see."
+    },
+    "scaleExtra": null,
+    "alt": "A group of galaxies: a face-on spiral, a tilted spiral and a disorderly galaxy with blue clumps, with many small galaxies in the background.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1035a",
+    "caption": "Barred spiral galaxy UGC 12158, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "The barred spiral UGC 12158 faces Hubble head-on here, its structure laid out in fine detail. Just to the lower left of the centre is a bright blue star, and it is not like the several foreground stars in the frame. It is a supernova inside the galaxy itself, about 400 million light-years away.",
+      "UGC 12158 is a textbook example of a barred spiral in the Hubble sequence, a scheme that sorts galaxies by shape. Its arms sweep out from a bar-shaped centre. About two thirds of spirals have bars, which are thought to funnel gas to the middle, where it piles up and forms new stars. Astronomers think bars slowly fade over time, so these galaxies eventually become regular spirals.",
+      "A galaxy's appearance barely changes over millions of years, but a supernova is brief. This one, SN 2004ef, was found in September 2004 by a pair of British amateur astronomers, and these Hubble data were part of the follow-up."
+    ],
+    "explore": [
+      "The exposures were 1160, 700, 700 and 1200 seconds, and the picture spans about 2.3 arcminutes."
+    ],
+    "understand": {
+      "summary": "This image comes from the Wide Field Channel of Hubble's Advanced Camera for Surveys. Blue light (F475W) is shown in blue, yellow light (F606W) in green, and red light (F814W) plus a filter isolating glowing hydrogen in red.",
+      "eye": "The long exposures gather far more light than the eye, and the hydrogen filter picks out glowing gas that ordinary colour vision would not isolate."
+    },
+    "scaleExtra": null,
+    "alt": "A face-on barred spiral galaxy with a bright blue point just to the lower left of its centre, and several foreground stars.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1634a",
+    "caption": "Dwarf galaxy NGC 5264, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Hubble's Advanced Camera for Surveys captured the glow of distant stars in NGC 5264, a dwarf galaxy with an irregular shape and knots of blue star formation. It lies just over 15 million light-years away in Hydra, the Sea Serpent.",
+      "Dwarf galaxies like this one usually hold around a billion stars, only one per cent of the number in the Milky Way. They are generally found orbiting larger galaxies, and they are thought to form from material left over when their bigger relatives came together in a messy process.",
+      "Unlike the more common spiral and elliptical galaxies, NGC 5264 has no neat shape. Astronomers believe it was bent this way by gravitational encounters with other nearby galaxies. Those past close passes also set off new generations of star formation, and the young stars that resulted now shine in bright shades of blue across the galaxy."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This image combines visible and near-infrared light captured by Hubble's Advanced Camera for Surveys. The colour assigned to each filter is not published.",
+      "eye": "Part of the light is near-infrared, invisible to the eye, and the long exposure gathers far more light than an eye could."
+    },
+    "scaleExtra": null,
+    "alt": "An irregularly shaped dwarf galaxy made of many faint stars, with knots of blue.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1415a",
+    "caption": "Barred spiral galaxy NGC 3455, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "This Hubble image shows NGC 3455, a spiral galaxy about 65 million light-years away in Leo, the Lion. Its partner galaxy, NGC 3454, lies just outside the frame.",
+      "Astronomers sort galaxies by their structure and appearance using the Hubble Sequence, a scheme devised by Edwin Hubble. In that system NGC 3455 is a type SB galaxy, a barred spiral, meaning a bar of stars seems to slice through the central bulge. Around two thirds of spirals are barred. The SB class is then split according to how the arms look. SBa galaxies have tightly wound arms, SBc galaxies have loose ones, and SBb galaxies like NGC 3455 fall in between.",
+      "The pair belongs to the NGC 3370 group, itself one of the Leo II groups, a big scattering of galaxies lying some 30 million light-years off to the right of the Virgo cluster."
+    ],
+    "explore": [
+      "Contestant Nick Rose entered a version of this image in Hubble's Hidden Treasures image processing competition."
+    ],
+    "understand": {
+      "summary": "This image comes from Hubble's Advanced Camera for Surveys, combining a blue filter and a near-infrared filter. The colour assigned to each filter is not published.",
+      "eye": "Part of the light is near-infrared, invisible to the eye, and the long exposure collects far more light than an eye could."
+    },
+    "scaleExtra": null,
+    "alt": "A barred spiral galaxy, with a bar of stars crossing its central bulge.",
+    "flags": []
+  },
+  {
+    "id": "e-eso0524a",
+    "caption": "Observed fields in spiral galaxy NGC 300, studied with ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "This picture marks the locations of three fields in NGC 300, a spiral galaxy in Sculptor, where astronomers took deep near-infrared images with the ISAAC instrument on ESO's Very Large Telescope. The observations were made through the J and K filters, two bands of infrared light.",
+      "The fields hold some special stars. Together they contain 16 Cepheids, with periods ranging from 6 to 83 days. A Cepheid is a pulsating star that brightens and dims in a regular rhythm, and the length of that rhythm is tied to how luminous the star really is.",
+      "That link makes Cepheids valuable measuring sticks. Once astronomers know a Cepheid's true brightness from its period, comparing it with how bright it appears reveals its distance. Observing them in infrared light has an advantage too: dust, which dims and reddens starlight, affects infrared light much less than visible light, so the measurements are cleaner."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "The observations described used the ISAAC instrument on ESO's Very Large Telescope through near-infrared J and K filters. The colour mapping of this picture is not published.",
+      "eye": "The J and K bands are infrared, invisible to the eye."
+    },
+    "scaleExtra": null,
+    "alt": "The spiral galaxy NGC 300 with three observed fields marked on it.",
+    "flags": [
+      "annotated",
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "h-heic1007a",
+    "caption": "'Mystic Mountain' in the Carina Nebula, imaged by the Hubble Space Telescope",
+    "captureDate": "1-2 February 2010",
+    "story": [
+      "A craggy peak wrapped in wispy clouds rises through this Hubble image, like a scene out of a fantasy novel. It is the top of a three-light-year-tall pillar of gas and dust, and it is being eaten away by the brilliant light of nearby stars. Streamers of hot gas flow off its ridges, and veils of starlit dust float around its peaks.",
+      "The pillar sits inside the Carina Nebula, a turbulent stellar nursery 7500 light-years away. Scorching radiation and fast winds of charged particles from super-hot newborn stars are shaping and compressing it, prompting new stars to form inside. Its densest parts are resisting erosion.",
+      "It is also under attack from within. Young stars buried in the pillar fire off jets: one pair shoots out both ways from the pedestal at the top, another from a peak near the centre. These jets, HH 901 and HH 902, are signs of star birth, launched by discs of gas and dust feeding the stars."
+    ],
+    "explore": [
+      "This image was released to celebrate 20 years since Hubble was launched and placed into orbit around the Earth."
+    ],
+    "understand": {
+      "summary": "This image comes from Hubble's Wide Field Camera 3. Blue shows the glow of oxygen, green shows hydrogen and nitrogen, and red shows sulphur.",
+      "eye": "The colours isolate light from particular elements, so they map chemistry rather than the hues an eye would see."
+    },
+    "scaleExtra": null,
+    "alt": "A craggy pillar of gas and dust with wispy clouds around its peaks and thin jets of gas streaming from its tips.",
+    "flags": []
+  },
+  {
+    "id": "e-eso1103a",
+    "caption": "The Orion Nebula, imaged by the MPG/ESO 2.2-metre telescope, La Silla, Chile",
+    "captureDate": null,
+    "story": [
+      "This image of the Orion Nebula, also known as Messier 42, was made using the Wide Field Imager, a camera mounted on the MPG/ESO 2.2-metre telescope, which stands at ESO's La Silla Observatory in Chile. It is a composite of several exposures taken through five different filters.",
+      "The Orion Nebula is a star-forming region, a cloud of gas in which new stars are being born. It is classed as an emission nebula, or H II region: hydrogen gas that glows because hot young stars are flooding it with energetic light. That glowing hydrogen is one of the things this image was designed to capture.",
+      "Each filter admits a different slice of light. Combining them into one picture lets astronomers show several kinds of emission at once, from the ultraviolet end of the spectrum to the red glow of hydrogen, so that different parts of the cloud and its stars stand out from one another."
+    ],
+    "explore": [
+      "The exposures lasted about 52 minutes through each filter."
+    ],
+    "understand": {
+      "summary": "This image comes from the Wide Field Imager on the MPG/ESO 2.2-metre telescope. Red-filter light and glowing hydrogen are shown in red, yellow-green light in green, blue light in blue and ultraviolet light in purple.",
+      "eye": "The ultraviolet light shown in purple is invisible to the eye, and exposures of nearly an hour per filter gather far more light than an eye could."
+    },
+    "scaleExtra": null,
+    "alt": "The Orion Nebula, a large glowing cloud of gas.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-eso1205a",
+    "caption": "The Helix Nebula in infrared light, imaged by ESO's VISTA telescope",
+    "captureDate": null,
+    "story": [
+      "This unusual view of the Helix Nebula, also catalogued as NGC 7293, comes from ESO's Visible and Infrared Survey Telescope for Astronomy, known as VISTA. The Helix is a planetary nebula about 700 light-years away, and here it is surrounded by a rich background of stars and galaxies.",
+      "A planetary nebula forms when a star like the Sun nears the end of its life and puffs its outer layers of gas out into space, where the hot core left behind makes them glow. Despite the name, planetary nebulae have nothing to do with planets.",
+      "What sets this picture apart is that it was made with infrared light. VISTA's infrared vision picks out strands of cold gas in the nebula that are mostly hidden in ordinary visible-light images of the Helix. It also reveals the many stars and galaxies in the background, giving a fuller picture of the nebula and its surroundings."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This colour picture was made by ESO's VISTA telescope and its VIRCAM camera from images taken through Y, J and K infrared filters. The colour assigned to each filter is not published.",
+      "eye": "All of this light is infrared, invisible to the eye; the strands of cold gas seen here are mostly hidden in visible-light images of the Helix."
+    },
+    "scaleExtra": null,
+    "alt": "The Helix Nebula seen in infrared, surrounded by many background stars and galaxies.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-eso2320a",
+    "caption": "The Running Chicken Nebula, imaged by ESO's VLT Survey Telescope",
+    "captureDate": null,
+    "story": [
+      "Wispy pink plumes of gas and dust fill this vast image of the Running Chicken Nebula, known to astronomers as IC 2944. The nebula is made up of several separate clouds, and all of them appear in this picture from the VLT Survey Telescope, which is hosted at ESO's Paranal site.",
+      "The pink clouds glow because young, hot stars within them are lighting them up. This kind of nebula is an H II region: hydrogen gas that shines after being energised by the intense light of newborn stars. Gas and dust are mixed together throughout these clouds.",
+      "The image itself is enormous. It contains 1.5 billion pixels and covers an area of sky about as large as 25 full Moons. Survey telescopes like the VST are built to capture wide stretches of sky in fine detail, so a single picture can show an entire nebula along with its surroundings."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This visible-light image was taken with the OmegaCAM camera on ESO's VLT Survey Telescope, through u, g, r and i filters plus a hydrogen-alpha filter. The colour assigned to each filter is not published.",
+      "eye": "The long exposures and the hydrogen-alpha filter bring out faint glowing gas that would be very hard to see by eye."
+    },
+    "scaleExtra": null,
+    "alt": "A wide field of stars with wispy pink clouds of gas and dust.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "h-heic2004a",
+    "caption": "LHA 120-N150 in the Tarantula Nebula, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "In this Hubble image we see LHA 120-N150, a smaller structure within the gigantic Tarantula Nebula. Among star-forming regions in the local Universe, the Tarantula is the largest known, a vast cloud where new stars are forming in large numbers.",
+      "More than 160 000 light-years from us, the nebula belongs to the Large Magellanic Cloud. That is a dwarf irregular galaxy, a small galaxy without a neat spiral or elliptical shape, and it orbits our own Milky Way as one of its neighbours.",
+      "Because the Large Magellanic Cloud is so close by cosmic standards, Hubble can study its star-forming regions in far more detail than those in more distant galaxies. Zooming in on a piece of the Tarantula like N150 lets astronomers examine one part of a huge nursery on its own, and see how gas, dust and young stars are arranged within it."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This image comes from Hubble's Wide Field Camera 3, combining visible and near-infrared filters with a hydrogen-alpha filter that traces glowing hydrogen. The colour assigned to each filter is not published.",
+      "eye": "Part of the light is near-infrared, invisible to the eye, and the hydrogen filter makes glowing gas stand out far more than it would to an observer."
+    },
+    "scaleExtra": null,
+    "alt": "A region of gas, dust and stars within the Tarantula Nebula.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-eso1403a",
+    "caption": "The Lagoon Nebula, imaged by ESO's VLT Survey Telescope",
+    "captureDate": null,
+    "story": [
+      "This richly detailed view of the Lagoon Nebula, also known as Messier 8, comes from the VLT Survey Telescope at ESO's Paranal Observatory in Chile. The Lagoon is a giant cloud of gas and dust that is busy producing intensely bright young stars, and it is home to young clusters of stars.",
+      "Clouds like this are the birthplaces of stars. Where the gas and dust are dense enough, gravity pulls material together until new stars ignite, often in groups that form clusters. The energetic light of those young stars in turn lights up the gas around them.",
+      "This picture is only a tiny part of a much bigger project. It comes from one of eleven public surveys of the sky being carried out with ESO telescopes. Together those surveys are building up a vast store of publicly available data that astronomers anywhere in the world can use for their own research."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This image was taken with ESO's VLT Survey Telescope using u, g, r and i filters plus a hydrogen-alpha filter that traces glowing hydrogen. The colour assigned to each filter is not published.",
+      "eye": "The long exposures gather far more light than the eye, and the hydrogen-alpha filter makes the glowing gas much more prominent than it would appear by eye."
+    },
+    "scaleExtra": null,
+    "alt": "The Lagoon Nebula, a large cloud of glowing gas and dust with young stars.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "h-heic1015a",
+    "caption": "The centre of the Lagoon Nebula, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "This Hubble close-up looks into the centre of the Lagoon Nebula, Messier 8, where delicate structures have formed in the gas. The blue-white flare at the upper left is not part of the nebula at all: it is stray light from a bright star lying just beyond the edge of the frame.",
+      "The shapes in the gas come from an encounter between young stars and the cloud of hydrogen they were born from. The newborn stars give off powerful radiation, and as it strikes the surrounding hydrogen it sculpts the gas into the fine features seen here.",
+      "The colours in this image are assigned to particular kinds of light. Red marks glowing hydrogen, green marks ionised nitrogen, and blue marks light through a yellow filter. Separating these gases lets astronomers see where different processes are happening in the cloud, and how the young stars are reshaping their surroundings."
+    ],
+    "explore": [
+      "The picture was made with the Wide Field Channel of Hubble's Advanced Camera for Surveys, with exposures of 1560, 1600 and 400 seconds. It covers about 3.3 by 1.7 arcminutes of sky."
+    ],
+    "understand": {
+      "summary": "This image comes from Hubble's Advanced Camera for Surveys. Glowing hydrogen (F658N) is shown in red, ionised nitrogen (F660N) in green, and light through a yellow filter (F550M) in blue.",
+      "eye": "The narrow filters isolate the glow of specific gases, so the colours map chemistry rather than what an eye would see."
+    },
+    "scaleExtra": null,
+    "alt": "Delicate structures of glowing gas at the centre of a nebula, with a blue-white flare of light at the upper left.",
+    "flags": []
+  },
+  {
+    "id": "h-heic0305a",
+    "caption": "Part of the Omega Nebula, Messier 17, imaged by the Hubble Space Telescope",
+    "captureDate": "29-30 May 1999",
+    "story": [
+      "Like a raging sea, a bubbly ocean of glowing gas fills this Hubble view of a small region inside Messier 17, also called the Omega or Swan Nebula. The nebula is a hotbed of star formation about 5500 light-years away in Sagittarius, and this patch is roughly 3 light-years across.",
+      "The wave-like shapes were sculpted and lit by a flood of ultraviolet light from young, massive stars that sit outside the picture, to the upper left. Their glow reveals the three-dimensional structure of the gas. The radiation is eroding and warming the outer layers of cold hydrogen clouds, and those warmed surfaces glow orange and red here.",
+      "Heat and pressure drive some material off those surfaces, forming a veil of even hotter gas, shown in green, which hides structures behind it. The pressure on the crests of the waves may be enough to trigger new stars inside them."
+    ],
+    "explore": [
+      "It was released for the thirteenth anniversary of the telescope's launch."
+    ],
+    "understand": {
+      "summary": "This image comes from Hubble's Wide Field Planetary Camera 2. The colours represent different gases: red for sulphur, green for hydrogen and blue for oxygen.",
+      "eye": "The colours are assigned to individual gases, so they map chemistry rather than the natural hues an eye would see."
+    },
+    "scaleExtra": null,
+    "alt": "Wave-like clouds of glowing gas in orange, red and green, resembling a stormy sea.",
+    "flags": []
+  },
+  {
+    "id": "h-potw2232a",
+    "caption": "Herbig-Haro object HH 505 in the Orion Nebula, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Gracefully curving structures arc across the top and bottom of this colourful Hubble cloudscape. They are outflows from a young star, surrounding a Herbig-Haro object called HH 505 at the edge of the Orion Nebula, some 1000 light-years from Earth.",
+      "Herbig-Haro objects are glowing regions around newborn stars. They form when winds or jets of gas from the young star slam into nearby gas and dust at high speed, creating shockwaves. The outflows of HH 505 come from a star named IX Ori, and they are bent into winding curves as they run into the broad stream of gas and dust flowing out from the nebula's core.",
+      "The Orion Nebula is flooded with intense ultraviolet light from bright young stars. That light makes the shockwaves shine, but it also lights up slower currents of material, so astronomers studying outflows and planet-forming discs can observe the jets directly and learn about their structure."
+    ],
+    "explore": [
+      "The Orion Nebula, where thousands of stars are forming, is the nearest place to Earth where massive stars are forming, so Hubble has often observed it. This view was also part of a Hubble mosaic of the nebula built from 520 images in five colours."
+    ],
+    "understand": {
+      "summary": "This image comes from Hubble's Advanced Camera for Surveys, using narrow filters that isolate the glow of oxygen, hydrogen and nitrogen. The colour assigned to each filter is not published.",
+      "eye": "The narrow filters pick out light from specific gases, making faint outflows stand out much more than they would to an eye."
+    },
+    "scaleExtra": null,
+    "alt": "Colourful clouds of gas with curving outflow structures at the top and bottom of the image.",
+    "flags": []
+  },
+  {
+    "id": "e-eso1705a",
+    "caption": "The Cat's Paw and Lobster Nebulae, imaged by ESO's VLT Survey Telescope",
+    "captureDate": null,
+    "story": [
+      "Two glowing nebulae share this giant image from the VLT Survey Telescope: the Cat's Paw Nebula, NGC 6334, at upper right, and the Lobster Nebula, NGC 6357, at lower left. Their gas glows red, and dark clouds of dust weave through the very rich star field around them.",
+      "Both are regions of active star formation. Hot young stars inside them are pouring out energetic light that makes the surrounding hydrogen gas shine red, the characteristic glow of hydrogen that has been energised in this way.",
+      "The picture is huge, with around two billion pixels, making it one of the largest images ESO has released. That scale lets viewers zoom from the full sweep of both nebulae right down to small details within them. One thing to be aware of: the circular features around bright stars are not real. They are reflections inside the optics of the telescope and camera."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This image was made with the OmegaCAM camera on ESO's VLT Survey Telescope, using g and r filters and a narrow-band filter. The colour assigned to each filter is not published.",
+      "eye": "The long exposures gather far more light than the eye, so the red glow and dark dust clouds appear much more vivid than they would to an observer."
+    },
+    "scaleExtra": null,
+    "alt": "Two nebulae glowing red, one at upper right and one at lower left, among many stars and dark dust clouds.",
+    "flags": []
+  },
+  {
+    "id": "e-eso1834a",
+    "caption": "The Skull and Crossbones Nebula, NGC 2467, imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "Dust, gas and bright young stars seem to form a grinning skull in this picture of NGC 2467, a nebula nicknamed the Skull and Crossbones. It is an active star-forming region, and the image was captured with the FORS instrument on ESO's Very Large Telescope.",
+      "In a star-forming region, clouds of gas and dust collapse under gravity to make new stars. Once those stars switch on, their intense light energises the surrounding gas and makes it glow. Here the gas, dust and stars happen to be arranged so that the whole thing suggests a face.",
+      "ESO's telescopes are normally busy collecting data for scientific research. Their immense resolving power, though, also makes them well suited to capturing images like this one, which are valued simply for their own beauty."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This visible-light image comes from the FORS2 instrument on ESO's Very Large Telescope, using b, v and R filters plus a hydrogen-alpha filter. The colour assigned to each filter is not published.",
+      "eye": "The long exposure and hydrogen-alpha filter bring out faint glowing gas much more clearly than an eye could see it."
+    },
+    "scaleExtra": null,
+    "alt": "A nebula of gas, dust and bright young stars arranged in a shape resembling a grinning skull.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "h-opo0635a",
+    "caption": "Supernova remnant E0102 in the Small Magellanic Cloud, imaged by the Hubble Space Telescope",
+    "captureDate": "Hubble ACS data 2003; WFPC2 oxygen images 1995",
+    "story": [
+      "A greenish-blue shell of debris sits just below the centre of this Hubble image, much like fireworks. It is E0102, formally 1E0102.2-7219, what remains after a massive star exploded as a supernova in the Small Magellanic Cloud, a nearby dwarf galaxy. In the upper right glows the star-forming region N 76, a delicate structure in lavender and peach hues.",
+      "The two look different because of what they are made of. N 76 shines mainly with glowing hydrogen. E0102 is an oxygen-rich remnant, with a great deal of oxygen and very little hydrogen or helium.",
+      "One explanation is that the star that exploded had already blown most of its hydrogen away in a stellar wind. It may have been a Wolf-Rayet star, a type that can be upward of 20 times the Sun's mass and famous for strong winds, which strip away outer shells and leave oxygen behind."
+    ],
+    "explore": [
+      "E0102 is only about 2000 years old, young enough that astronomers can study material from a massive star's core directly. It lies almost 50 light-years from the edge of N 76.",
+      "The Small Magellanic Cloud is visible from the Southern Hemisphere towards Tucana and lies roughly 210,000 light-years away."
+    ],
+    "understand": {
+      "summary": "This image combines 2003 data from Hubble's Advanced Camera for Surveys, through blue, visible, infrared and hydrogen filters, with oxygen images from the Wide Field Planetary Camera 2. The colour assigned to each filter is not published.",
+      "eye": "Narrow filters isolate the glow of specific gases like oxygen and hydrogen, so the colours map chemistry more than what an eye would see."
+    },
+    "scaleExtra": null,
+    "alt": "A greenish-blue shell of debris below centre, with a glowing lavender and peach cloud in the upper right.",
+    "flags": []
+  },
+  {
+    "id": "e-eso1804a",
+    "caption": "Star-forming region Lupus 3, imaged by ESO's VLT Survey Telescope and the MPG/ESO 2.2-metre telescope",
+    "captureDate": null,
+    "story": [
+      "Snaking across this wide view is a dark cloud of cosmic dust, lit by the brilliant light of newly formed stars. This dense cloud is Lupus 3, a star-forming region where very hot stars are being born from collapsing masses of gas and dust.",
+      "Stars begin life inside clouds like this one. Where the gas and dust are packed densely enough, gravity pulls material inward until it becomes hot and dense enough for a new star to ignite. The cloud looks dark because its dust blocks the light of the stars behind it, while the young stars nearby shine brightly beside it.",
+      "The picture was assembled from images taken with two ESO telescopes: the MPG/ESO 2.2-metre telescope and the VLT Survey Telescope. According to ESO, the result is the most detailed image yet made of this region, giving astronomers a sharp look at a place where stars are forming."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This visible-light image was assembled from data taken with ESO's VLT Survey Telescope and the MPG/ESO 2.2-metre telescope; the packet's filter list also includes blue and red Digitized Sky Survey 2 data. The colour assigned to each filter is not published.",
+      "eye": "The long exposures gather far more light than the eye, revealing the texture of the dark cloud and faint light around the young stars."
+    },
+    "scaleExtra": null,
+    "alt": "A dark, winding cloud of dust across a field of stars, with bright young stars lighting it.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-eso0928a",
+    "caption": "Reflection nebula around the star HD 87643, imaged by the MPG/ESO 2.2-metre telescope",
+    "captureDate": null,
+    "story": [
+      "An extended nebula of gas and dust surrounds the star HD 87643 at the centre of this image, reflecting the star's light back towards us. Bright, ragged tendrils of gas and dust stretch through it.",
+      "HD 87643 is a B[e] star, an unusual type of hot star surrounded by gas and dust. The wind flowing from the central star appears to have shaped the nebula, sweeping it into the tattered tendrils seen here.",
+      "Looking closely at those features has given astronomers a clue to the star's behaviour. A careful study of them seems to show that the star throws off matter at regular intervals, every 15 to 50 years. Those repeated episodes are written into the structure of the nebula around it. ESO's MPG/ESO 2.2-metre telescope at La Silla captured the image with its Wide Field Imager, combining data taken through three filters: B, V and R."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This visible-light image was made with the Wide Field Imager on the MPG/ESO 2.2-metre telescope through B, V and R filters. The colour assigned to each filter is not published.",
+      "eye": "The long exposures gather far more light than the eye, bringing out the faint reflected glow of the nebula."
+    },
+    "scaleExtra": null,
+    "alt": "A bright star at the centre of a nebula of gas and dust with ragged, bright tendrils.",
+    "flags": []
+  },
+  {
+    "id": "e-potw1044a",
+    "caption": "The Omega Nebula, Messier 17, imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "Vast clouds of gas and dust, lit by the intense radiation of young stars, give this view of Messier 17 the look of a painting. The nebula, also called the Omega or Swan Nebula, lies in Sagittarius, the Archer, about 6000 light-years from Earth. This picture shows a central region about 15 light-years across, while the whole nebula spans about 40 light-years.",
+      "At the centre is a cluster of massive young stars whose radiation makes the surrounding hydrogen glow. To its lower right lies a huge cloud of molecular gas. In visible light its dust blocks the view, but in infrared the hydrogen glow behind it shines faintly through.",
+      "Hidden in that dark reddish region, astronomers found the silhouette of an opaque disc of gas and dust. It looks small here but is about 20 000 AU across, dwarfing our Solar System. The disc is thought to be rotating and feeding material onto a protostar, a star in the making."
+    ],
+    "explore": [
+      "One AU equals the average Earth-Sun distance. Messier 17 is also a popular target for amateur astronomers, who can capture good images of it with small telescopes."
+    ],
+    "understand": {
+      "summary": "This near-infrared image was made with the ISAAC instrument on ESO's Very Large Telescope. The J filter (1.25 microns) is shown in blue, H (1.6 microns) in green and K (2.2 microns) in red.",
+      "eye": "All three bands are infrared, invisible to the eye, and infrared light passes through dust that blocks visible light, revealing glowing gas hidden from ordinary view."
+    },
+    "scaleExtra": null,
+    "alt": "Clouds of gas and dust around a central cluster of bright young stars, with a dark reddish cloud to the lower right.",
+    "flags": []
+  },
+  {
+    "id": "e-potw2403a",
+    "caption": "Part of the Vela supernova remnant, imaged by ESO's VLT Survey Telescope",
+    "captureDate": null,
+    "story": [
+      "Pink and orange filaments swirl across this picture, suggesting the ghostly shape of a giant bird: orange wings spread wide, a long pink body, and for an eye, one bright pinkish star. Countless stars are sprinkled all around. What we are seeing is one small patch of the Vela supernova remnant: the tangled debris of a massive star that exploded 11 000 years ago.",
+      "When massive stars reach the end of their lives, they explode as supernovae and hurl their outer layers into space. The blast drives shock waves through the surrounding gas, squeezing and reshaping it. That is what created this web of filaments, which still shine because of the energy the explosion released.",
+      "The constellation of Vela is visible without a telescope from the southern sky, but details like these are far beyond what the eye can pick out. This view is part of a huge, detailed mosaic made with the VLT Survey Telescope at ESO's Paranal Observatory in the Chilean desert."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This visible-light image was taken with the OmegaCAM camera on ESO's VLT Survey Telescope, through u, g, r and i filters plus a hydrogen-alpha filter. The colour assigned to each filter is not published.",
+      "eye": "The caption notes that Vela's stars are visible to the naked eye, but these faint filaments only emerge in long telescope exposures."
+    },
+    "scaleExtra": null,
+    "alt": "Pink and orange filaments of gas shaped like a bird with spread wings, among many stars.",
+    "flags": []
+  },
+  {
+    "id": "e-potw1709a",
+    "caption": "Supernova 1987A, imaged by ALMA, the Hubble Space Telescope and the Chandra X-ray Observatory",
+    "captureDate": null,
+    "story": [
+      "This composite image shows the remains of SN 1987A, a supernova in the Large Magellanic Cloud, a satellite galaxy of the Milky Way. It combines observations from ALMA, the NASA/ESA Hubble Space Telescope and NASA's Chandra X-ray Observatory.",
+      "The explosion was discovered on 23 February 1987. It was one of the brightest supernovae seen in more than 400 years, blazing for several months with the power of 100 million suns. As the nearest supernova observed in centuries, it quickly became the most thoroughly studied of all time. Decades of follow-up from space and the ground have let astronomers trace a massive star's death step by step, from star to supernova to remnant.",
+      "For several years now, ALMA has been studying the glowing debris in high resolution at millimetre and submillimetre wavelengths. It shows the remnant forming vast amounts of dust from new elements made in the original star."
+    ],
+    "explore": [
+      "Some of this dust will drift into interstellar space and may one day become material for planets around other stars. The findings hint that similar explosions produced the dust of the early Universe."
+    ],
+    "understand": {
+      "summary": "This composite combines millimetre-wave data from ALMA, visible light from Hubble and X-rays from Chandra. The colour assigned to each dataset is not published.",
+      "eye": "X-rays and millimetre waves are completely invisible to the eye, so much of what appears here could never be seen directly."
+    },
+    "scaleExtra": null,
+    "alt": "A composite image of the supernova remnant SN 1987A.",
+    "flags": []
+  },
+  {
+    "id": "h-heic1819b",
+    "caption": "The Serpens Nebula, imaged by the HAWK-I instrument on ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "Here the Serpens Nebula is seen by HAWK-I, an instrument installed on ESO's Very Large Telescope, operated by the European Southern Observatory. The nebula lies about 1300 light-years away.",
+      "The Serpens Nebula is a reflection nebula. Unlike nebulae that shine with their own glowing gas, a reflection nebula is a cloud of dust that scatters the light of nearby stars back towards us, a little like fog lit up by car headlights.",
+      "The filters HAWK-I used to make this picture cover wavelengths similar to those of filters used by the Hubble Space Telescope. That similarity is useful. When two telescopes observe the same object in comparable light, astronomers can set their images side by side and compare what each one reveals about the region."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This image comes from the HAWK-I instrument on ESO's Very Large Telescope, using filters similar in wavelength to Hubble's. The specific filters and colour mapping are not published.",
+      "eye": "A long telescope exposure gathers far more light than the eye, so faint reflected light in the nebula becomes visible."
+    },
+    "scaleExtra": null,
+    "alt": "The Serpens Nebula as seen by the HAWK-I instrument.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-ngc6188-3-6-m",
+    "caption": "Emission nebula NGC 6188, imaged by the ESO 3.6-metre telescope",
+    "captureDate": "1986",
+    "story": [
+      "This image shows the emission nebula NGC 6188, photographed long ago with ESO's 3.6-metre telescope at the La Silla observatory in Chile. The nebula lies about 4,000 light-years away in the southern constellation of Ara.",
+      "An emission nebula is a cloud of gas that gives off its own light rather than simply reflecting the light of nearby stars. In NGC 6188, the light comes from within: stars embedded in the nebula emit radiation that heats the gases around them, and the energised gas glows in response. Without those stars, the cloud would stay dark.",
+      "Because the picture is an old one, it is also a piece of ESO's own history, taken with one of the telescopes at La Silla long before many of the images in this collection. It is an older portrait of a cloud whose glow is powered by the stars shining inside it, recorded from one of ESO's long-serving observing sites."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This image was taken with the ESO 3.6-metre telescope at La Silla. The filters and colour mapping are not published.",
+      "eye": "A long telescope exposure gathers far more light than the eye, so the nebula's faint glow appears far brighter than it would to an observer."
+    },
+    "scaleExtra": null,
+    "alt": "The glowing emission nebula NGC 6188.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-ngc3132-cc",
+    "caption": "The Southern Ring Nebula, NGC 3132, imaged by ESO",
+    "captureDate": null,
+    "story": [
+      "This picture shows NGC 3132, a planetary nebula also known as the Eight-Burst or the Southern Ring Nebula. It shines about 2,000 light-years away in the constellation of Vela, which makes it one of the nearest objects of its kind.",
+      "A planetary nebula forms near the end of a star's life, when the star sheds its outer layers of gas into space. The core left behind gives off radiation that makes the expelled shell of gas glow, producing a round, bubble-like cloud.",
+      "Despite the name, these objects have nothing to do with planets. The term comes from their appearance through small telescopes, where their round shapes made them look a little like the planets of our Solar System. The name stuck even after astronomers understood what they really are: the glowing outer layers of dying stars, spreading slowly outward from what remains of the star at the centre."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This image was released by ESO. The telescope, filters and colour mapping are not published.",
+      "eye": "A long telescope exposure gathers far more light than the eye, so the glowing shell appears brighter and more detailed than it would through a small telescope."
+    },
+    "scaleExtra": null,
+    "alt": "The planetary nebula NGC 3132, a glowing shell of gas.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "h-opo9301a",
+    "caption": "Part of the Cygnus Loop supernova remnant, imaged by the Hubble Space Telescope",
+    "captureDate": "24 April 1991",
+    "story": [
+      "This Hubble image shows a small portion of the Cygnus Loop, the remains of a colossal stellar explosion. It was taken with Hubble's Wide Field and Planetary Camera.",
+      "The Cygnus Loop traces the rim of a bubble-shaped blast wave that is still expanding outward from a star that exploded about 15,000 years ago. A supernova hurls the outer layers of a star into space, and as that material and the shock wave in front of it plough into surrounding gas, they heat it and make it glow.",
+      "Seeing only a small section of the remnant is useful. Zooming in on the edge of the blast wave lets astronomers look closely at the boundary where the explosion meets the gas between the stars, and study how the shock is moving through it. The blast wave caught in this frame is still expanding, so the scene is slowly changing."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This image was taken with Hubble's Wide Field and Planetary Camera. The filters and colour mapping are not published.",
+      "eye": "A long telescope exposure gathers far more light than the eye, revealing faint structure along the blast wave."
+    },
+    "scaleExtra": null,
+    "alt": "A small section of the glowing edge of the Cygnus Loop supernova remnant.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "h-opo0417b",
+    "caption": "The heart of the Trifid Nebula, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "This Hubble image looks into the heart of the Trifid Nebula, catalogued by astronomers as Messier 20 or NGC 6514. It is a well-known region of star formation inside our own Milky Way, lying in the direction of the constellation of Sagittarius.",
+      "The nebula owes its name to its appearance in small telescopes. Three bands of dark interstellar dust lie across it, dividing it into three parts. That dust blocks the light of the glowing gas behind it, producing the dark lanes.",
+      "In a star-forming region like this, clouds of gas and dust collapse to form new stars, and the energetic light of those young stars in turn makes the surrounding gas glow. Hubble's camera recorded this glow through filters that each isolate light from a single kind of gas: oxygen, hydrogen and sulphur. Separating them this way helps astronomers map the conditions across the nebula and see how young stars are shaping it."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This image comes from Hubble's Wide Field Planetary Camera 2, using narrow filters for oxygen, hydrogen-alpha and sulphur. The colour assigned to each filter is not published.",
+      "eye": "The narrow filters isolate light from individual gases, so the colours map chemistry rather than what an eye would see."
+    },
+    "scaleExtra": "The Trifid Nebula lies about 9,000 light-years from Earth, according to ESA/Hubble.",
+    "alt": "The central region of the Trifid Nebula.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "h-heic1206a",
+    "caption": "The 30 Doradus star-forming region, imaged by the Hubble Space Telescope and the MPG/ESO 2.2-metre telescope",
+    "captureDate": null,
+    "story": [
+      "This panoramic view shows 30 Doradus, also known as the Tarantula Nebula, the brightest star-forming region in our galactic neighbourhood. It is home to the most massive stars ever seen, and it sits in the Large Magellanic Cloud, a small galaxy orbiting the Milky Way, 170 000 light-years from us.",
+      "No star-forming region we know of inside our own galaxy is as large or as productive as 30 Doradus. That makes it a natural laboratory for studying how big, heavy stars are born and how they shape the gas clouds around them.",
+      "The picture is one of the largest mosaics ever put together from Hubble photos. It stitches together observations from two Hubble cameras, the Advanced Camera for Surveys and Wide Field Camera 3, and adds data from the MPG/ESO 2.2-metre telescope of the European Southern Observatory, which traces where hydrogen and oxygen gas are glowing across the region."
+    ],
+    "explore": [
+      "The image was released to celebrate Hubble's 22nd anniversary."
+    ],
+    "understand": {
+      "summary": "This mosaic combines Hubble's Wide Field Camera 3 and Advanced Camera for Surveys with the Wide Field Imager on the MPG/ESO 2.2-metre telescope, whose narrow filters trace glowing hydrogen and oxygen. The colour assigned to each filter is not published.",
+      "eye": "Narrow filters isolate the glow of particular gases and the long exposures gather far more light than the eye, so the nebula appears far richer than it would to an observer."
+    },
+    "scaleExtra": null,
+    "alt": "A wide panorama of the 30 Doradus star-forming region.",
+    "flags": []
+  },
+  {
+    "id": "h-heic1009c",
+    "caption": "Star-forming region NGC 3603 and its central cluster, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "This Hubble view shows NGC 3603, a rich region of star formation, together with the massive, compact cluster of stars at its centre. The picture was taken with Hubble's Advanced Camera for Surveys. A box on the image marks the area that astronomers studied in detail.",
+      "That boxed region was used to detect how the stars inside the cluster are moving. Measuring such motion takes precise observations, because stars in a cluster shift their positions only very slightly from one image to the next.",
+      "A star cluster is a group of stars born together from the same cloud of gas and dust. In a massive, compact cluster like this one, the stars are packed tightly into a small space. Tracking their movements helps astronomers understand how the cluster holds together under its own gravity, and what may happen to it as it ages, whether it stays bound or its stars gradually drift apart into the wider galaxy."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This image was taken with Hubble's Advanced Camera for Surveys through blue, visible and near-infrared filters. The colour assigned to each filter is not published.",
+      "eye": "Part of the light is near-infrared, invisible to the eye, and Hubble's sharp view helps separate stars in the crowded cluster."
+    },
+    "scaleExtra": null,
+    "alt": "A star-forming region with a compact central cluster of stars, with a box drawn around the studied area.",
+    "flags": [
+      "annotated",
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "h-heic0616b",
+    "caption": "The core of globular cluster 47 Tucanae, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "This Hubble image shows the crowded core of 47 Tucanae, a globular cluster, a dense ball of stars. Repeated photographs of this region let astronomers follow the 'beehive swarm' motion of its stars, and they measured precise speeds for nearly 15,000 of them.",
+      "The work was part of a seven-year study using Hubble. It gave astronomers their strongest observational evidence so far that globular clusters sort their stars by mass. The sorting works like a game of gravitational billiards. As stars pass near one another, heavier stars lose speed and sink towards the core, while lighter stars gain speed and move out towards the edges.",
+      "This process is known as mass segregation. Astronomers had long suspected that it happens in globular clusters, but it had never before been directly observed in action. Tracking thousands of individual stars over years finally made that possible."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This image was taken with Hubble's Advanced Camera for Surveys through blue, visible and near-infrared filters. The colour assigned to each filter is not published.",
+      "eye": "Part of the light is near-infrared, invisible to the eye, and repeated sharp Hubble images let astronomers track individual stars in the crowded core."
+    },
+    "scaleExtra": null,
+    "alt": "The densely packed core of a globular cluster filled with stars.",
+    "flags": []
+  },
+  {
+    "id": "h-opo1824a",
+    "caption": "Globular cluster NGC 6397, imaged by the Hubble Space Telescope",
+    "captureDate": "July 2004 to June 2005",
+    "story": [
+      "Hundreds of thousands of stars glitter in this Hubble portrait of NGC 6397, an ancient globular cluster. Blue stars are scattered among them, a reddish glow comes from other stars, and a myriad of small white points fill the rest of the frame.",
+      "Each colour tells a story. The blue stars are nearing the end of their lives: they have used up the hydrogen fuel that made them shine and now convert helium to energy in their cores, which burns hotter and makes them appear blue. The reddish glow comes from red giants, stars that have also run through their hydrogen and swelled in size. Many of the small white objects are stars like our Sun.",
+      "Astronomers used Hubble to measure the cluster's distance at 7800 light-years, making it one of the nearest globular clusters to Earth. The distance measurement was made with Hubble's Wide Field Camera 3."
+    ],
+    "explore": [
+      "The image itself was built from a series of observations taken between July 2004 and June 2005 with Hubble's Advanced Camera for Surveys."
+    ],
+    "understand": {
+      "summary": "This image was taken with Hubble's Advanced Camera for Surveys through blue and red filters. The colour assigned to each filter is not published.",
+      "eye": "Hubble's sharp view picks out myriad individual stars, and the exposures gather far more light than an eye could."
+    },
+    "scaleExtra": null,
+    "alt": "A dense cluster of stars with scattered blue stars, reddish stars and many small white points.",
+    "flags": []
+  },
+  {
+    "id": "h-opo0840d",
+    "caption": "The core of globular cluster M13, imaged by the Hubble Space Telescope",
+    "captureDate": "November 1999, April 2000, August 2005 and April 2006",
+    "story": [
+      "Many hundreds of thousands of stars crowd this Hubble view of the globular cluster M13, caught in a single instant as they move about. Among the globular clusters of the northern sky, M13 is one of the brightest and most familiar, and it is easy to find in the constellation of Hercules.",
+      "A globular cluster is a dense, ball-shaped swarm of old stars held together by gravity. Near the centre the stars are packed especially closely, and Hubble's sharp vision can separate many of them into individual points of light.",
+      "This picture was not made from one observation. It is a composite of archival Hubble data from four separate science proposals, gathered with two Hubble cameras, WFPC2 and the Advanced Camera for Surveys. Broadband filters isolated light from the blue, visible and infrared parts of the spectrum."
+    ],
+    "explore": [
+      "ESA/Hubble describes this glittering metropolis of stars as easy to spot in the winter sky."
+    ],
+    "understand": {
+      "summary": "This composite combines archival data from Hubble's Wide Field Planetary Camera 2 and Advanced Camera for Surveys, through blue, visible and near-infrared filters. The colour assigned to each filter is not published.",
+      "eye": "Part of the light is near-infrared, invisible to the eye, and Hubble's sharp view picks out individual stars in the crowded centre."
+    },
+    "scaleExtra": null,
+    "alt": "The dense centre of a globular cluster packed with hundreds of thousands of stars.",
+    "flags": []
+  },
+  {
+    "id": "e-eso1730a",
+    "caption": "The shell around the cool red star U Antliae, imaged by ALMA",
+    "captureDate": null,
+    "story": [
+      "This ALMA image shows a delicate shell of material around the cool red star U Antliae, in finer detail than has ever been possible before.",
+      "The shell is a record of a dramatic episode in the star's life. Some 2700 years ago, the star briefly lost mass very rapidly. In a period lasting only a few hundred years, it threw off, at high speed, the material that makes up the shell seen here. That material now forms the delicate shell around the star.",
+      "Looking at the shell more closely reveals some evidence of thin, wispy clouds within it, known as filamentary substructures. Studying fine features like these helps astronomers understand how stars like U Antliae shed their material into space. ALMA can do this because it observes at millimetre wavelengths, which pick up cool gas that does not glow in visible light."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This image was made with the Atacama Large Millimeter/submillimeter Array (ALMA) in its Band 6, at a wavelength of about 1.3 millimetres. The colour mapping is not published.",
+      "eye": "Millimetre-wave light is invisible to the eye, so this view of the shell cannot be seen directly."
+    },
+    "scaleExtra": null,
+    "alt": "A thin, delicate shell of material surrounding a star.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "h-potw1121a",
+    "caption": "Globular cluster Terzan 5, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "This Hubble image shows the ancient globular cluster Terzan 5, deep within the Milky Way, in fine detail. What makes it especially interesting to astronomers, though, is not how it looks but how its stars are moving: chaotically.",
+      "Terzan 5 has an exceptionally dense core, so stars there are thought to collide more often than in almost any other globular cluster. With stars crammed together so tightly, many are pushed close enough to form tight pairs called binary systems.",
+      "Studies of individual stars have turned up a surprise. They fall into two separate age groups, one about 6 billion years old and the other about 12 billion. Some astronomers have suggested the younger group could have been pulled from a dwarf galaxy, though this remains a hypothesis."
+    ],
+    "explore": [
+      "The picture was made with the Wide Field Channel of Hubble's Advanced Camera for Surveys, with total exposures of 340 and 360 seconds per filter. It covers 3.1 by 1.4 arcminutes of sky."
+    ],
+    "understand": {
+      "summary": "This image comes from Hubble's Advanced Camera for Surveys. Light through a yellow-red filter (F606W) is coloured blue and near-infrared light (F814W) is coloured red.",
+      "eye": "The red channel records near-infrared light, invisible to the eye, and the colours are assigned rather than natural."
+    },
+    "scaleExtra": null,
+    "alt": "A dense cluster of many stars packed closely together.",
+    "flags": []
+  },
+  {
+    "id": "h-opo9313a",
+    "caption": "Hot blue stars at the core of globular cluster M15, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "This Hubble image looks into the centre of the globular cluster M15. In it, astronomers found about 15 very hot stars not seen before, sitting isolated at the cluster's core.",
+      "A globular cluster is a dense ball of stars held together by gravity, and its core is the most crowded part of all. That crowding may explain these unusual stars. The most likely explanation is that they are 'naked cores': stars that have been stripped of their outer envelopes of gas, exposing the hot interiors underneath.",
+      "For that to happen, the stars in the cluster's core must be so tightly packed that they can pull material off one another through gravity. Finding these stars therefore says something about conditions at the heart of M15: a place where stars crowd together closely enough to interfere with one another directly, very different from the Sun's surroundings, where neighbouring stars are far apart."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This image was taken with the Hubble Space Telescope. The instrument, filters and colour mapping are not published.",
+      "eye": "Hubble's sharp view helps separate individual stars in the crowded core."
+    },
+    "scaleExtra": null,
+    "alt": "The crowded centre of a globular cluster.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-image3_ncen",
+    "caption": "The Milky Way and Nova Centauri 2013, La Silla Observatory, Chile",
+    "captureDate": null,
+    "story": [
+      "The southern Milky Way crosses this view of the night sky above ESO's La Silla Observatory, a sea of stars stretching across the frame. On the left stands the Swedish-ESO Submillimetre Telescope, known as SEST.",
+      "Among all those stars, one is special and shining brightly: Nova Centauri 2013, also known as V1369 Centauri. A nova is a star system that suddenly flares up far brighter than normal, then gradually fades back over time. When that happens, a star that was once hard to see can briefly stand out in the sky.",
+      "Photographs like this one link the observatory on the ground with the sky it studies. The telescopes at La Silla are built to watch the heavens, and here the camera has caught the southern Milky Way with a newly brightened star among its crowd."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This is a landscape photograph at ESO's La Silla Observatory, in visible light. The camera settings and colour processing are not published.",
+      "eye": "A camera exposure can gather far more light than the eye, so the Milky Way may look richer and brighter than it would to someone standing there."
+    },
+    "scaleExtra": null,
+    "alt": "The Milky Way stretching across a starry sky above La Silla Observatory, with the Swedish-ESO Submillimetre Telescope on the left.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-271109-cc",
+    "caption": "Star trails over the ESO 3.6-metre telescope, La Silla Observatory, Chile",
+    "captureDate": null,
+    "story": [
+      "Stars trace long arcs across the sky above the ESO 3.6-metre telescope in this photograph. The trails form because the camera's shutter stays open while the Earth turns, so each star draws a curved line rather than appearing as a point.",
+      "Beneath them, the telescope is home to HARPS (the High Accuracy Radial velocity Planet Searcher), which ESO describes as the world's foremost exoplanet hunter. Instead of taking pictures of planets, instruments like HARPS look for the tiny back-and-forth wobble a planet causes in its star as the two orbit each other.",
+      "This image was shared through the Your ESO Pictures Flickr Group, a place where anyone can submit photos connected with ESO. That openness lets many different photographers share their own views of ESO's telescopes under the night sky."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This is a landscape photograph taken at ESO's La Silla Observatory, in visible light. The camera settings and colour processing are not published.",
+      "eye": "The eye sees stars as fixed points; only a long exposure turns the Earth's rotation into visible trails."
+    },
+    "scaleExtra": null,
+    "alt": "Curved star trails arcing across the night sky above the ESO 3.6-metre telescope.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-brammer_vlt_perseids",
+    "caption": "Swirling star trails above the Very Large Telescope, Paranal Observatory, Chile",
+    "captureDate": null,
+    "story": [
+      "Stars appear to swirl in circles above the enclosures of ESO's Very Large Telescope at Paranal in this photograph of the rotating night sky.",
+      "The stars are not really moving in loops. The effect comes from the way the picture was made: the photographer used a very long exposure, keeping the camera's shutter open while the Earth turned beneath the sky. As our planet rotates, the stars seem to glide slowly across the heavens, and over a long exposure each one leaves a curved streak of light in the image.",
+      "The result turns a still scene into a record of time passing. The telescope enclosures stay fixed and sharp in the foreground, because they turn along with the Earth, while the sky behind them wheels around. It is a reminder that every observation made from the ground is taken from a spinning platform, and that telescopes must steadily track the stars to keep them in view."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This is a landscape photograph at ESO's Paranal Observatory, in visible light, using a very long exposure. The exact camera settings and colour processing are not published.",
+      "eye": "The eye sees stars as fixed points at any moment; only a very long exposure turns the Earth's rotation into swirling trails."
+    },
+    "scaleExtra": null,
+    "alt": "Circular star trails swirling in the night sky above the enclosures of the Very Large Telescope.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-residenza-cc",
+    "caption": "The Milky Way arching over the Paranal Residencia, Paranal Observatory, Chile",
+    "captureDate": null,
+    "story": [
+      "The Milky Way arches across the sky above ESO's Paranal Observatory in this panorama. Up from the desert in the foreground rises the familiar glass dome of the Paranal Residencia.",
+      "Towards the horizon, the sky is tinged with a mixture of soft red and green hues. This glow is called airglow: a faint light given off by the Earth's upper atmosphere itself. In this panorama it fills the sky near the horizon, over the desert landscape.",
+      "Set within those glows are the Large and Small Magellanic Clouds, two small galaxies that are neighbours of the Milky Way. Seen beneath the arch of our own galaxy, the Residencia's rounded glass dome makes a quiet frame for the sky that the observatory's telescopes are there to study."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This is a panoramic landscape photograph at ESO's Paranal Observatory, in visible light. The camera settings and colour processing are not published.",
+      "eye": "A camera exposure can gather far more light than the eye, so the colours of the airglow and the Milky Way may look stronger than they would to someone standing there."
+    },
+    "scaleExtra": null,
+    "alt": "The Milky Way arching over a glass dome in a desert, with red and green glows near the horizon.",
+    "flags": []
+  },
+  {
+    "id": "e-armazones-1-v02",
+    "caption": "Cerro Armazones at night, Chile",
+    "captureDate": null,
+    "story": [
+      "This night-time image was taken at ESO's Astronomical Site Monitor on Cerro Armazones, a mountain in the Chilean desert close to Paranal Observatory, home of the Very Large Telescope.",
+      "When this picture was released, Cerro Armazones was one of about half a dozen candidate sites for the Extremely Large Telescope, or ELT. With a mirror in the 40-metre class, the ELT was described as set to become the world's biggest eye on the sky.",
+      "Choosing a site for a telescope like that is a careful process. An ELT Site Selection Advisory Committee reviewed the options, and Cerro Armazones came out as its recommended site on the final shortlist. The committee gave two reasons for its choice: the mountain's excellent sky quality, and the fact that its operation could be integrated with the existing observatory at nearby Paranal. Being close to an established site means the two can share operations rather than starting from scratch."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This is a night-time photograph taken at the Astronomical Site Monitor on Cerro Armazones, in visible light. The camera settings and colour processing are not published.",
+      "eye": "A camera exposure can gather far more light than the eye, so the night sky may look brighter here than it would to someone standing there."
+    },
+    "scaleExtra": null,
+    "alt": "A night-time view at the site monitoring station on Cerro Armazones in the Chilean desert.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-uhd_malin1_cc",
+    "caption": "The Milky Way beside an Auxiliary Telescope, Paranal Observatory, Chile",
+    "captureDate": null,
+    "story": [
+      "The Milky Way stretches across the sky next to one of the four 1.8-metre Auxiliary Telescopes at ESO's Paranal Observatory in this photograph, taken during the ESO Ultra HD Expedition.",
+      "These smaller telescopes do not work only on their own. Together with the four Unit Telescopes, whose main mirrors are 8.2 m across, they can be linked to form a giant 'interferometer' called the ESO Very Large Telescope Interferometer. By combining the light collected by several telescopes spread out on the mountain, an interferometer can see far finer detail than any one of them could manage alone.",
+      "ESO describes the combination as the world's most advanced optical instrument for exploring the depths of the Universe. Here, though, the Auxiliary Telescope stands quietly beneath the same galaxy it helps astronomers to study, with the band of the Milky Way stretched out overhead."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This is a landscape photograph at ESO's Paranal Observatory, in visible light. The camera settings and colour processing are not published.",
+      "eye": "A camera exposure can gather far more light than the eye, so the Milky Way may look brighter and more detailed than it would to someone standing there."
+    },
+    "scaleExtra": null,
+    "alt": "The Milky Way across the night sky beside one of the Auxiliary Telescopes.",
+    "flags": []
+  },
+  {
+    "id": "e-uhd_yuri_sest_trails",
+    "caption": "Star trails over the Swedish-ESO Submillimetre Telescope, La Silla Observatory, Chile",
+    "captureDate": null,
+    "story": [
+      "This night shot at ESO's La Silla Observatory shows the Swedish-ESO Submillimetre Telescope, known as SEST, with the ESO 3.6-metre telescope in the background. ESO titled the picture 'Star trails at La Silla', and the trails of stars sweep across the sky above the two instruments.",
+      "Star trails appear when a camera gathers light over a long period while the Earth turns. The stars seem to wheel across the sky, and the camera records that motion as streaks instead of points.",
+      "The two telescopes in the frame are very different. SEST, as its name says, was built to observe submillimetre light, a kind of radiation well beyond what our eyes can detect. ESO Photo Ambassador Yuri Beletsky took the photograph as part of the ESO Ultra High Definition Expedition."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This is a landscape photograph at ESO's La Silla Observatory, in visible light. The camera settings and colour processing are not published.",
+      "eye": "The eye sees stars as fixed points; only a long exposure turns the Earth's rotation into visible trails."
+    },
+    "scaleExtra": null,
+    "alt": "Star trails over the Swedish-ESO Submillimetre Telescope, with the ESO 3.6-metre telescope in the background.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-rwesson-paranal-11jan2014-cc",
+    "caption": "Star trails over the desert near Paranal Observatory, Chile",
+    "captureDate": null,
+    "story": [
+      "Stars leave long, curving paths across the sky in this view from the desert around ESO's Paranal Observatory in Chile. These star trails all seem to circle around a single fixed point, the Earth's Celestial South Pole, seen just above a rust-tinted horizon.",
+      "The stars are not really travelling around that point. The effect is caused by the Earth's rotation. As our planet spins, the sky appears to turn around us, and a camera gathering light over a long time records each star as a curved streak rather than a dot.",
+      "The point at the centre of the circles is where the Earth's axis points into the southern sky. Stars close to it trace small circles, while those farther away sweep out wider arcs. Photographs like this turn that everyday motion, too slow to notice by eye, into a pattern anyone can see at a glance."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This is a landscape photograph taken near ESO's Paranal Observatory, in visible light. The camera settings and colour processing are not published.",
+      "eye": "The eye sees stars as fixed points at any one moment; only a long exposure turns the Earth's rotation into visible trails."
+    },
+    "scaleExtra": null,
+    "alt": "Curved star trails circling a point in the sky above a rust-coloured desert horizon.",
+    "flags": []
+  },
+  {
+    "id": "e-nightwturbul-cc",
+    "caption": "Stars distorted by hot air above Paranal Observatory, Chile",
+    "captureDate": null,
+    "story": [
+      "The night sky in this photograph looks strangely warped and smeared. The cause is hot air rising from a chimney, which blurs and distorts the stars behind it.",
+      "The chimney belongs to the generator that keeps ESO's Paranal Observatory running. Because Paranal is too remote for Chile's power grid to reach, the observatory depends entirely on its own power station.",
+      "The distortion is a vivid, close-up version of a problem astronomers face all the time. Warm and cool pockets of air bend light slightly differently, so starlight passing through moving air gets jostled on its way to the ground. Here the effect is exaggerated by the hot exhaust right in front of the camera, but a gentler version of the same thing makes stars twinkle and limits how sharp telescopes on the ground can be. That is one reason observatories are built at high, dry sites where the air above is as calm as possible."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This is a landscape photograph at ESO's Paranal Observatory, in visible light. The camera settings and colour processing are not published.",
+      "eye": "Someone standing there might see stars shimmer through the hot air, but a camera exposure records that distortion as a frozen smear."
+    },
+    "scaleExtra": null,
+    "alt": "A night sky with stars blurred and distorted by hot air rising from a chimney.",
+    "flags": []
+  },
+  {
+    "id": "e-potw1225a",
+    "caption": "Yepun's laser and the Magellanic Clouds, Paranal Observatory, Chile",
+    "captureDate": null,
+    "story": [
+      "A powerful yellow laser beam shoots into the sky from Yepun, the fourth 8.2-metre Unit Telescope of ESO's Very Large Telescope. To the left of the beam is the Large Magellanic Cloud and to the right the Small Magellanic Cloud, nearby dwarf galaxies easily seen with the unaided eye from the southern hemisphere.",
+      "The laser serves a purpose. Earth's atmosphere blurs everything ground-based telescopes observe, so astronomers use adaptive optics: computer-controlled mirrors that change shape hundreds of times per second to cancel out the distortion.",
+      "The beam excites a layer of sodium atoms 90 km up, creating a glowing spot, an artificial star. Light returning from this Laser Guide Star is used as a reference to steer the deformable mirrors, giving images nearly as crisp as those a telescope in space would take."
+    ],
+    "explore": [
+      "Left of the Large Magellanic Cloud shines Canopus, the brightest star in Carina, and the one towards the upper right is Achernar, the brightest in Eridanus. Babak Tafreshi, an ESO Photo Ambassador, took the picture.",
+      "The VLT's Unit Telescopes carry names in Mapudungun, the Mapuche language: Antu (the Sun), Kueyen (the Moon), Melipal (the Southern Cross) and Yepun (Venus)."
+    ],
+    "understand": {
+      "summary": "This is a landscape photograph at ESO's Paranal Observatory, in visible light. The camera settings and colour processing are not published.",
+      "eye": "A camera exposure can gather far more light than the eye, so the Magellanic Clouds and the beam may look brighter than they would to someone on site."
+    },
+    "scaleExtra": null,
+    "alt": "A yellow laser beam rising from a telescope into a starry sky, with the two Magellanic Clouds on either side of it.",
+    "flags": []
+  },
+  {
+    "id": "e-ann14045a",
+    "caption": "ALMA antennas and the centre of the Milky Way, Chajnantor plateau, Chile",
+    "captureDate": null,
+    "story": [
+      "Several of the antennas of the Atacama Large Millimeter/submillimeter Array, ALMA, stand beneath the central regions of the Milky Way in this wide-field view. At the upper right glows the zodiacal light, at the lower left shines the planet Mars, and Saturn sits a little higher, towards the centre of the image.",
+      "The zodiacal light is a faint glow caused by sunlight scattering off dust in the Solar System. It shows up best from very dark places.",
+      "The antennas themselves are built to observe the sky at millimetre and submillimetre wavelengths, light far beyond what our eyes can detect. That makes this photograph an interesting contrast: the camera records the visible sky, while the dishes below are tuned to a completely different view of it. The picture was taken during the ESO Ultra HD Expedition, and it pairs two ways of seeing: a camera's view of the planets and galaxy above, and the antennas' own unseen one."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This is a wide-field landscape photograph at the ALMA site, in visible light. The camera settings and colour processing are not published.",
+      "eye": "A camera exposure can gather far more light than the eye, so the Milky Way and the faint zodiacal light may look brighter than they would to someone on the plateau."
+    },
+    "scaleExtra": null,
+    "alt": "Several antennas under the central regions of the Milky Way, with a glow at upper right and a bright point of light at lower left.",
+    "flags": []
+  },
+  {
+    "id": "e-potw2214a",
+    "caption": "Telescopes along the road at La Silla Observatory, Chile",
+    "captureDate": null,
+    "story": [
+      "A dense scattering of stars fills the sky above the road to ESO's La Silla Observatory in Chile's Atacama Desert, lined with a variety of telescopes. The Danish 1.54-metre telescope stands in the foreground, the MPG/ESO 2.2-metre telescope beyond it, and, furthest back, ESO's New Technology Telescope (NTT).",
+      "The Danish telescope is at work, and it has made many discoveries, including the afterglows of short gamma-ray bursts, which are probably the result of two neutron stars colliding. The 2.2-metre telescope also hunts these afterglows with its GROND instrument, flagging them for larger telescopes to follow up.",
+      "The NTT may be a speck here, but it made key advances. Big mirrors sag under their own weight and need constant adjustment to stay sharp. The NTT was the first telescope to make these corrections on the fly, keeping watch on a reference star. Called active optics, the method is now widely used in large professional telescopes."
+    ],
+    "explore": [
+      "Besides GROND, the MPG/ESO 2.2-metre telescope also carries a spectrograph, plus a wide-field camera that has produced striking pictures of the sky."
+    ],
+    "understand": {
+      "summary": "This is a landscape photograph at ESO's La Silla Observatory, in visible light. The camera settings and colour processing are not published.",
+      "eye": "A camera exposure can gather far more light than the eye, so the sky may look more densely packed with stars than it would to someone on the road."
+    },
+    "scaleExtra": null,
+    "alt": "A star-filled sky above a road lined with telescopes, one in the foreground and others further back.",
+    "flags": []
+  },
+  {
+    "id": "e-potw1347a",
+    "caption": "The Pleiades and Orion over ALMA, Chajnantor plateau, Chile",
+    "captureDate": null,
+    "story": [
+      "ALMA's antennas, part of the Atacama Large Millimeter/submillimeter Array, stand under a sky crowded with stars in this photograph by ESO Photo Ambassador Babak Tafreshi. In the upper left corner glows a tight bunch of young stars, the Pleiades cluster, surprisingly bright. The constellation of Orion, the Hunter, hangs over the nearest antenna; the three blue stars just left of the red light form his belt.",
+      "The clear skies over the Chajnantor Plateau show thousands of stars to the naked eye. That dry, transparent air is one of the reasons ALMA was built here.",
+      "The scene also carries an old story. The Pleiades were known to most ancient civilisations, and in classical mythology Orion was a hunter who pursued the Pleiades, the daughters of Atlas. Through the thin air over the Atacama, it almost looks as if the chase is really taking place."
+    ],
+    "explore": [
+      "ESO calls ALMA the biggest astronomical project in the world. Europe, North America and East Asia run it jointly, in cooperation with the Republic of Chile, with each region's share led by ESO, the National Radio Astronomy Observatory and the National Astronomical Observatory of Japan."
+    ],
+    "understand": {
+      "summary": "This is a landscape photograph at the ALMA site, in visible light. The camera settings and colour processing are not published.",
+      "eye": "The caption notes that thousands of stars are visible to the naked eye here, but a camera exposure gathers more light still, so star colours and faint stars show more clearly."
+    },
+    "scaleExtra": null,
+    "alt": "ALMA antennas under a starry sky, with a bright star cluster in the upper left and a row of three blue stars above the nearest antenna.",
+    "flags": []
+  },
+  {
+    "id": "e-potw2136a",
+    "caption": "Total lunar eclipse above the Very Large Telescope, Paranal Observatory, Chile",
+    "captureDate": "26 May 2021",
+    "story": [
+      "The eclipsed Moon hangs just above the domes of ESO's Very Large Telescope, as if the telescope were holding it up, like Atlas supporting the sky in Greek myth. The Moon glows faintly in the early morning twilight during a total lunar eclipse over Paranal Observatory in Chile's Atacama Desert.",
+      "The shot took careful planning. Astrophotographer Yuri Beletsky used precise calculations to find a spot nine kilometres east of Paranal, where the setting, eclipsed Moon would briefly line up just over the telescope domes.",
+      "A total lunar eclipse happens when the Earth passes directly between the Sun and the Moon. The Earth's shadow blocks direct sunlight, so the only light reaching the Moon has been bent through Earth's atmosphere, which gives it a reddish colour. Because that light has been filtered by our atmosphere, astronomers use eclipses to study the signatures life leaves in an atmosphere, useful in the search for life on other planets."
+    ],
+    "explore": [
+      "ESO picked the photograph to illustrate April in one of its annual calendars."
+    ],
+    "understand": {
+      "summary": "This is a landscape photograph near ESO's Paranal Observatory, in visible light. The camera settings and colour processing are not published.",
+      "eye": "The camera exposure brings out the faintly glowing eclipsed Moon more clearly than it might appear in the bright twilight to the eye."
+    },
+    "scaleExtra": null,
+    "alt": "The dim, eclipsed Moon sitting just above the domes of large telescopes in early morning twilight.",
+    "flags": []
+  },
+  {
+    "id": "e-potw2030a",
+    "caption": "The Milky Way over ALMA antennas, Chajnantor plateau, Chile",
+    "captureDate": null,
+    "story": [
+      "The vast, bright ripple of the Milky Way slices the sky in two above Chile's Chajnantor plateau. Beneath its glow, a cluster of white antennas points upward, lit by a bright yellow light that tells technicians whether it is safe to approach. From the southern hemisphere, the rich centre of our galaxy is often right overhead, stretching from horizon to horizon.",
+      "The antennas belong to ALMA, the Atacama Large Millimeter/submillimeter Array, a giant interferometer of 66 antennas that work together across distances of up to 16 kilometres. ALMA observes light the eye cannot see, at wavelengths of around a millimetre, between infrared and radio. This light is given off by the coldest, most remote parts of the cosmos, such as clouds of gas and dust between the stars and the most ancient galaxies.",
+      "This light is heavily absorbed by water vapour, so telescopes must sit on very high, dry sites. At over 5000 metres, the plateau is ideal."
+    ],
+    "explore": [
+      "Studying this cold, faint light lets ALMA explore how stars and planets form and change over time, revealing objects and processes that had never been seen before."
+    ],
+    "understand": {
+      "summary": "This is a landscape photograph at the ALMA site, in visible light. The camera settings and colour processing are not published.",
+      "eye": "A camera exposure can gather far more light than the eye, so the Milky Way may look brighter and more detailed than it would to someone on the plateau."
+    },
+    "scaleExtra": null,
+    "alt": "The bright band of the Milky Way across the sky above a group of white dish antennas lit by a yellow light.",
+    "flags": []
+  },
+  {
+    "id": "e-potw2516a",
+    "caption": "Laser beams from Unit Telescope 4, Paranal Observatory, Chile",
+    "captureDate": null,
+    "story": [
+      "Framed against the star-filled sky of Paranal, UT4, one of the four 8-m telescopes of ESO's Very Large Telescope, pierces the night with four laser beams from inside its dome.",
+      "The lasers come from the 4 Laser Guide Star Facility, which UT4 uses to make its own artificial stars. The beams excite sodium atoms about 90 km above the ground, making them glow. The telescope studies how these guide stars are smeared by the atmosphere, the same turbulence that makes stars twinkle, and works out how to compensate.",
+      "The corrections are carried out by UT4's adaptive optics system, which precisely reshapes the telescope's secondary mirror to cancel the atmospheric disturbances it measures. With adaptive optics, a telescope on the ground can take far sharper images than the air would normally allow, nearly as good as sending the VLT into space."
+    ],
+    "explore": [
+      "The other three 8-m telescopes are due to get one laser each, as part of upgrades to the VLT Interferometer and its GRAVITY+ instrument, which combines light from several telescopes into a huge 'virtual' telescope.",
+      "ESO's Extremely Large Telescope, being built not far from Paranal, will have at least 6 lasers."
+    ],
+    "understand": {
+      "summary": "This is a landscape photograph at ESO's Paranal Observatory, in visible light. The camera settings and colour processing are not published.",
+      "eye": "A camera exposure gathers more light than the eye, making the laser beams and faint stars more prominent than they would appear to someone standing there."
+    },
+    "scaleExtra": null,
+    "alt": "A telescope dome under a starry sky, with four laser beams shooting upward from it.",
+    "flags": []
+  },
+  {
+    "id": "e-potw1534a",
+    "caption": "Star trails over La Silla Observatory, Chile",
+    "captureDate": null,
+    "story": [
+      "Circles of starlight wheel around the south celestial pole, seen directly overhead at ESO's La Silla Observatory in this dizzying photograph by ESO Photo Ambassador Alexandre Santerne. At first glance it could pass for an optical illusion or an abstract painting.",
+      "Each circular streak is one star, recorded over a long period so that its apparent motion across the sky, caused by the Earth's rotation, becomes visible. La Silla sits on the outskirts of Chile's Atacama Desert some 2400 metres up, and enjoys over 300 clear nights a year, ideal for long exposures like this.",
+      "Several telescopes appear near the bottom. The ESO 3.6-metre telescope stands on the left peak and hosts HARPS, the High Accuracy Radial velocity Planet Searcher, which ESO calls the world's foremost extrasolar planet hunter. The New Technology Telescope partly hides it, and the silver-domed MPG/ESO 2.2-metre is visible too."
+    ],
+    "explore": [
+      "Other telescopes in view include the Swiss 1.2-metre Leonhard Euler Telescope, the ESO 1-metre Schmidt, the Danish 1.54-metre and the ESO 1.52-metre.",
+      "ESO ranks La Silla just behind the VLT among the world's most scientifically productive ground-based observatories, with almost 300 refereed publications a year."
+    ],
+    "understand": {
+      "summary": "This is a long-exposure landscape photograph at ESO's La Silla Observatory, in visible light. The exact camera settings and colour processing are not published.",
+      "eye": "The eye sees stars as fixed points; only a long exposure turns the Earth's rotation into these circular trails."
+    },
+    "scaleExtra": null,
+    "alt": "Concentric circular star trails filling the sky above several telescope domes on a mountain.",
+    "flags": []
+  },
+  {
+    "id": "e-potw1234a",
+    "caption": "Laser guide star beam sweeping across the sky, Paranal Observatory, Chile",
+    "captureDate": null,
+    "story": [
+      "A powerful laser beam from ESO's Very Large Telescope fans out across the night sky over the Atacama Desert in this image by Julien Girard. The fan comes from the Earth's rotation during the 30-minute exposure and the laser moving to follow it. The same motion stretches the stars into curved trails, which shows their slightly different colours.",
+      "The beam makes sodium atoms 90 kilometres up glow, creating an artificial star. Measuring it lets astronomers correct for the atmosphere's blurring, a technique called adaptive optics. Bright natural stars can also serve, but a laser guide star can be placed wherever it is needed, so the technique works across more of the sky.",
+      "In the frame, the big enclosures of all four 8.2-metre Unit Telescopes appear, with the smaller VLT Survey Telescope behind. Moving enclosures appear blurred, and faint streaks of light were left by people walking across the platform."
+    ],
+    "explore": [
+      "Girard is an ESO astronomer who works at the VLT. That night he was helping with observations on the Unit Telescope furthest to the right, so he set his camera on a fixed tripod before heading back to the control building.",
+      "He shared the picture through the Your ESO Pictures Flickr group, which ESO reviews for its Picture of the Week series."
+    ],
+    "understand": {
+      "summary": "This is a 30-minute exposure taken from a camera on a fixed tripod at ESO's Paranal Observatory, in visible light. Other camera settings and colour processing are not published.",
+      "eye": "The eye sees stars as points and a laser as a single thin line; only the long exposure spreads the beam into a fan and the stars into trails."
+    },
+    "scaleExtra": null,
+    "alt": "A laser beam fanning out across a sky of curved star trails above four large telescope enclosures.",
+    "flags": []
+  },
+  {
+    "id": "e-potw1315a",
+    "caption": "The Magellanic Clouds above ALMA antennas, Chajnantor plateau, Chile",
+    "captureDate": null,
+    "story": [
+      "The Large and Small Magellanic Clouds glow brightly above the antennas of ALMA, the Atacama Large Millimeter/submillimeter Array, in this image by ESO Photo Ambassador Christoph Malin. It is a single still frame from one of his carefully made time-lapse videos of the observatory.",
+      "The two Magellanic Clouds are nearby irregular dwarf galaxies, easy to see without any telescope from the southern hemisphere. Both circle our own galaxy, and there are signs that close passes near the Milky Way have pulled both of them badly out of shape.",
+      "ALMA stands 5000 metres up, on the Chajnantor Plateau. ESO describes it as the world's most powerful telescope for studying the Universe at millimetre and submillimetre wavelengths, light far beyond what the eye can see. At the time this picture was released, construction was still under way, with a total of 66 high-precision antennas planned for the site."
+    ],
+    "explore": [
+      "Europe, North America and East Asia share ALMA, in cooperation with the Republic of Chile. ESO leads construction and operations for Europe, the National Radio Astronomy Observatory for North America, and the National Astronomical Observatory of Japan for East Asia."
+    ],
+    "understand": {
+      "summary": "This is a still frame from a time-lapse video at the ALMA site, in visible light. The camera settings and colour processing are not published.",
+      "eye": "The Magellanic Clouds are visible to the naked eye from here, but a camera exposure gathers more light, making them and the surrounding stars look brighter."
+    },
+    "scaleExtra": null,
+    "alt": "Two glowing patches of light in a starry sky above ALMA antennas.",
+    "flags": []
+  },
+  {
+    "id": "e-potw2339a",
+    "caption": "Laser beams and star trails above the Very Large Telescope, Paranal Observatory, Chile",
+    "captureDate": null,
+    "story": [
+      "Long arcs of starlight curve across the sky above ESO's Paranal Observatory in this photograph, taken over several hours. Beams of orange light burst from one of the Unit Telescopes, and a smaller Auxiliary Telescope sits in the foreground on the right.",
+      "The Very Large Telescope combines four big Unit Telescopes with four smaller Auxiliary Telescopes that can be moved around. The orange beams come from the Four Laser Guide Star Facility, which sets sodium atoms high in the atmosphere glowing as artificial stars. The twinkling of those artificial stars is measured in real time, and the adaptive optics system uses it to undo the atmosphere's blurring so the telescope can take sharp images.",
+      "Each laser delivers 22 watts, roughly 4000 times the legal limit for a laser pointer, and its beam is about 30 centimetres wide. The beams point in opposite directions only because, during the hours-long exposure, the telescope moved to observe different targets."
+    ],
+    "explore": [
+      "ESO describes the VLT as one of the most advanced optical telescopes in the world."
+    ],
+    "understand": {
+      "summary": "This is a landscape photograph built up over several hours at ESO's Paranal Observatory, in visible light. The camera settings and colour processing are not published.",
+      "eye": "The eye would see stars as points and one set of beams at a time; the hours-long exposure records the star trails and beams pointing in different directions together."
+    },
+    "scaleExtra": null,
+    "alt": "Curved star trails above telescope domes, with orange laser beams shooting from one dome in opposite directions and a small telescope at lower right.",
+    "flags": []
+  },
+  {
+    "id": "e-potw1517a",
+    "caption": "The Milky Way behind Unit Telescope 4, Paranal Observatory, Chile",
+    "captureDate": null,
+    "story": [
+      "As the Sun sets over ESO's Paranal Observatory, the Milky Way emerges in fine detail behind Unit Telescope 4, known as Yepun. Paranal is home to the Very Large Telescope, the flagship facility of European ground-based astronomy.",
+      "To the naked eye, the Milky Way looks like a cloudy haze across the sky. In reality it is made of 100–400 billion individual stars spread along its 100 000 light-year length.",
+      "Yepun is the word for Venus in the language of the Mapuche, the indigenous people of southern Chile. It belongs to a set of four 8.2-metre telescopes that can be combined to act as one giant telescope, letting astronomers see details up to 16 times finer than any single telescope could. Working together, the VLT has opened a new age of discovery, with several notable scientific firsts; one was following single stars as they orbit the supermassive black hole at our galaxy's centre."
+    ],
+    "explore": [
+      "ESO Photo Ambassador John Colosimo took the picture and shared it through the Your ESO Pictures Flickr group, which ESO regularly reviews to choose images for its Picture of the Week series and gallery."
+    ],
+    "understand": {
+      "summary": "This is a landscape photograph taken at dusk at ESO's Paranal Observatory, in visible light. The camera settings and colour processing are not published.",
+      "eye": "The caption notes the Milky Way looks like a cloudy haze to the naked eye; a camera exposure brings out far more of its detail."
+    },
+    "scaleExtra": null,
+    "alt": "A large telescope enclosure against a dusk sky with the Milky Way appearing behind it.",
+    "flags": []
+  },
+  {
+    "id": "e-potw2222a",
+    "caption": "Laser guide stars and the Milky Way above Unit Telescope 4, Paranal Observatory, Chile",
+    "captureDate": null,
+    "story": [
+      "Four powerful laser beams leave Unit Telescope 4, or Yepun, at ESO's Very Large Telescope in Chile's Atacama Desert. Behind them, the familiar band of the Milky Way stretches across the sky, almost appearing to follow the beams, and a faint green wash of airglow tints the sky.",
+      "The beams form the VLT's 4 Laser Guide Star Facility, part of a technology called adaptive optics. Turbulence in the atmosphere makes stars twinkle and blur. To undo that, a deformable mirror reshapes itself as often as 1000 times a second, guided by the turbulence astronomers measure by watching a bright star in the field of view.",
+      "When no suitable star is available, they make one. The lasers shine at a very particular orange-yellow colour, a wavelength of 589 nm, which excites sodium atoms about 90 km up so they glow like a star. Airglow is light given off naturally by atoms and molecules in the atmosphere, visible only where skies are free of light pollution."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This is a landscape photograph at ESO's Paranal Observatory, in visible light. The camera settings and colour processing are not published.",
+      "eye": "A camera exposure gathers far more light than the eye, so the faint green airglow and the Milky Way appear stronger than they would to someone standing there."
+    },
+    "scaleExtra": null,
+    "alt": "Four laser beams rising from a telescope into a starry sky, with the Milky Way behind them and a faint green glow.",
+    "flags": []
+  },
+  {
+    "id": "e-potw1548a",
+    "caption": "The Carina Nebula and star clusters above an ALMA antenna, Chajnantor plateau, Chile",
+    "captureDate": null,
+    "story": [
+      "Three deep-sky objects seem to shine just in front of the dish of an ALMA antenna in this single-exposure image, taken during the ESO Ultra HD Expedition. The most striking is the reddish Carina Nebula. To its upper right is the star cluster NGC 3532, and to its upper left the cluster IC 2602.",
+      "The Carina Nebula is a large cloud of gas, mostly hydrogen, where stars have recently formed. Massive, short-lived blue stars born inside it pour out ultraviolet radiation that ionises the gas, making hydrogen glow its characteristic red. In time, supernovae and strong stellar winds will scatter the gas, leaving one or more star clusters behind, much like the two nearby.",
+      "The French astronomer Nicolas Louis de Lacaille was the first to catalogue all three, which lie in Carina, the Keel. Though they look close together here, their distances differ greatly."
+    ],
+    "explore": [
+      "IC 2602 is under 500 light-years away and NGC 3532 around 1300 light-years away, while the Carina Nebula is thought to be up to 10 000 light-years distant."
+    ],
+    "understand": {
+      "summary": "This is a single-exposure landscape photograph at the ALMA site, in visible light. The camera settings and colour processing are not published.",
+      "eye": "A camera exposure gathers more light than the eye, so the red glow of the Carina Nebula shows far more strongly than it would to someone on the plateau."
+    },
+    "scaleExtra": null,
+    "alt": "A reddish nebula and two star clusters in the night sky, appearing in front of a large dish antenna.",
+    "flags": []
+  },
+  {
+    "id": "e-potw1948a",
+    "caption": "The Milky Way over La Silla Observatory, Chile",
+    "captureDate": null,
+    "story": [
+      "The Milky Way rises above ESO's La Silla Observatory, its bright band dotted with red star-forming regions and woven with dark filaments of dust. Two of the site's telescopes are in view: the 1-metre Schmidt telescope on the left and the MPG/ESO 2.2-metre telescope on the right. Just above the 2.2-metre, towards the centre-right, is the Large Magellanic Cloud, a neighbouring dwarf galaxy, and a pink and green glow of airglow hangs just over the horizon.",
+      "Every star in the sky belongs to our galaxy, so why call only this streak the Milky Way? Our galaxy is shaped like a giant pancake with a bright central bulge, and nearly all its stars, gas and dust lie in a thin disc. The Solar System sits on one spiral arm, roughly two-thirds of the way out from the centre. The bright band is our view along that disc, looking in towards the crowded centre."
+    ],
+    "explore": [
+      "Airglow comes from excited atoms high in the Earth's upper atmosphere."
+    ],
+    "understand": {
+      "summary": "This is a landscape photograph at ESO's La Silla Observatory, in visible light. The camera settings and colour processing are not published.",
+      "eye": "A camera exposure can gather far more light than the eye, so the red star-forming regions and the airglow may look more vivid than they would to someone on site."
+    },
+    "scaleExtra": null,
+    "alt": "The Milky Way with red patches and dark dust filaments rising above two telescopes, with a pink and green glow just above the horizon.",
+    "flags": []
+  },
+  {
+    "id": "e-potw2230a",
+    "caption": "The BlackGEM telescopes under the Milky Way, La Silla Observatory, Chile",
+    "captureDate": null,
+    "story": [
+      "The Milky Way sparkles above BlackGEM, the newest addition to ESO's La Silla Observatory in Chile's Atacama Desert, its band crowded with stars and veiled by dark dust and glowing gas. A haze of ruby red and emerald green lights the scene. The rightmost pillar is empty here, but a third dome has since been installed on it.",
+      "BlackGEM is an array of optical telescopes built to find the sources of gravitational waves using visible light. Collisions of black holes and neutron stars send ripples through spacetime, which detectors such as Virgo and LIGO can pick up. BlackGEM then tries to pinpoint where they happened by searching the sky for short-lived events, such as sources of light that appear or vanish within a single night. Larger telescopes like ESO's Very Large Telescope can then follow up in more detail.",
+      "The red and green haze is airglow, produced mainly by chemical reactions between atoms high in the atmosphere."
+    ],
+    "explore": [
+      "BlackGEM works hand in hand with gravitational-wave observatories including EGO-Virgo and LIGO."
+    ],
+    "understand": {
+      "summary": "This is a landscape photograph at ESO's La Silla Observatory, in visible light. The camera settings and colour processing are not published.",
+      "eye": "A camera exposure can gather far more light than the eye, so the colours of the airglow and the Milky Way may look stronger than they would to someone standing there."
+    },
+    "scaleExtra": null,
+    "alt": "Telescope domes on pillars beneath the Milky Way, with a red and green glow across the sky.",
+    "flags": []
+  },
+  {
+    "id": "e-potw2009a",
+    "caption": "Orion and the Milky Way above the VLT Survey Telescope, Paranal Observatory, Chile",
+    "captureDate": null,
+    "story": [
+      "The soft glow of the Milky Way pours like a waterfall over the VLT Survey Telescope at ESO's Paranal Observatory. Just outside the galaxy's band, a few stars stand out. The bright reddish one is Betelgeuse and the fainter white star to its left is Bellatrix, the two shoulders of Orion the Hunter. Above them, three stars in a straight line form Orion's belt, and nearby is the purple-tinged glow of the Orion Nebula.",
+      "Betelgeuse, a red supergiant some 640 light-years off, is thought to be close to exploding as a supernova. The Orion Nebula looks like a fuzzy patch to the naked eye, but binoculars or a telescope show a nebula where huge amounts of star formation are taking place.",
+      "At 2635 metres above sea level, the VST enjoys exceptionally clear skies. It is the largest telescope in the world devoted to surveying the sky in visible light, and its work ranges from finding remote Solar System bodies to studying our galaxy's structure."
+    ],
+    "explore": [
+      "The VST also searches for exoplanet transits, the slight dimming when a planet crosses in front of its star, and contributes to studies of how our galaxy has evolved."
+    ],
+    "understand": {
+      "summary": "This is a landscape photograph at ESO's Paranal Observatory, in visible light. The camera settings and colour processing are not published.",
+      "eye": "A camera exposure gathers more light than the eye, so the Orion Nebula's purple tint and the Milky Way's glow appear stronger than they would to an observer."
+    },
+    "scaleExtra": null,
+    "alt": "The Milky Way above the VLT Survey Telescope, with a bright reddish star, a white star, three stars in a row and a small purple glow nearby.",
+    "flags": []
+  },
+  {
+    "id": "e-potw1321a",
+    "caption": "Star trails over Cerro Armazones, Chile",
+    "captureDate": null,
+    "story": [
+      "At first sight this picture could be ripples spreading from a stone dropped into a lake. In fact, the long bright stripes are star trails over Cerro Armazones, a peak 3046 metres above sea level in the central Atacama Desert, in the Chilean Andes. Every stripe traces one star's journey across the night.",
+      "The stars' motion is too slow for the naked eye to notice, but leaving a camera's shutter open reveals it. Exposures as short as 15 minutes are enough. Here the photographer combined many shorter exposures into the final picture, and a very wide-angle lens takes in the celestial pole on the right and the celestial equator just over the short tower.",
+      "The sheer number of trails reveals how good the sky at Armazones is: the air is extremely clear and, thanks to the remote mountaintop, there is no light pollution. That is one reason the mountain was chosen as the future home of the European Extremely Large Telescope."
+    ],
+    "explore": [
+      "ESO describes the planned telescope as set to become the world's biggest eye on the sky."
+    ],
+    "understand": {
+      "summary": "This landscape photograph was made by combining many shorter exposures taken with a very wide-angle lens at Cerro Armazones, in visible light. Other settings and colour processing are not published.",
+      "eye": "The eye sees stars as fixed points; only long exposure time, here built up from many shorter exposures, turns their slow motion into these rippling trails."
+    },
+    "scaleExtra": null,
+    "alt": "Concentric star trails resembling ripples on water, with a short tower on a mountaintop.",
+    "flags": []
+  },
+  {
+    "id": "e-potw2011a",
+    "caption": "The Milky Way above the Extremely Large Telescope construction site, Cerro Armazones, Chile",
+    "captureDate": null,
+    "story": [
+      "Countless stars, along with the Milky Way's hazy band, shine clearly above the construction site of the Extremely Large Telescope on Cerro Armazones in Chile. Seeing the Milky Way this distinctly takes a place with little light pollution, like this mountain, and a night with little or no moonlight.",
+      "When it starts operating, the ELT will be 'the world's biggest eye on the sky'. With a 39-metre primary mirror, it will search in optical and near-infrared light for new exoplanets, especially Earth-like planets orbiting other stars. It will also carry out a kind of 'stellar archaeology', tackling basic questions about how planets, the first stars, early galaxies and black holes form and evolve.",
+      "Perhaps its most exciting goal is to measure directly how quickly the Universe's expansion is speeding up. Astronomers have known for decades that galaxies are moving apart, and now think the expansion is accelerating; measuring that directly would greatly deepen our understanding of the Universe."
+    ],
+    "explore": [
+      "ESO lists this image as part of its Cosmic Gems programme, an outreach initiative that uses telescope time unsuitable for science to make images for education and public outreach."
+    ],
+    "understand": {
+      "summary": "This is a landscape photograph taken at the ELT construction site on Cerro Armazones, in visible light. The camera settings and colour processing are not published.",
+      "eye": "A camera exposure gathers more light than the eye, so the Milky Way appears brighter than it would to someone at the site."
+    },
+    "scaleExtra": null,
+    "alt": "The Milky Way and many stars above a mountaintop construction site.",
+    "flags": []
+  },
+  {
+    "id": "e-potw2141a",
+    "caption": "The Coalsack Nebula above an Auxiliary Telescope, Paranal Observatory, Chile",
+    "captureDate": null,
+    "story": [
+      "A person's silhouette stands out against one of the Auxiliary Telescopes at ESO's Paranal Observatory in Chile's Atacama Desert, while the Coalsack Nebula appears as a dark smudge at the centre of the starry sky.",
+      "The telescope is one of four 1.8-metre Auxiliary Telescopes belonging to ESO's Very Large Telescope, alongside four giant 8.2-metre Unit Telescopes. Depending on each project's needs, the Auxiliary Telescopes can be moved along tracks to up to 30 observing positions. Working together as the VLT Interferometer, they combine the light they gather, letting researchers see the cosmos in great detail.",
+      "Of all the dark nebulae in the sky, the Coalsack is the most prominent. It is rich in dust, which absorbs and scatters most of the starlight behind it, so it appears as a dark smudge in the sky. Infrared light, however, passes through dust almost unhindered, so the hidden stars can be seen at those wavelengths. Dark clouds like this are more striking from the southern hemisphere than from the north."
+    ],
+    "explore": [
+      "Many cultures see shapes in these dark clouds. The Mapuche people of Chile call the Coalsack pozoko, meaning 'water well'."
+    ],
+    "understand": {
+      "summary": "This is a landscape photograph at ESO's Paranal Observatory, in visible light. The camera settings and colour processing are not published.",
+      "eye": "A camera exposure gathers more light than the eye, so the star field around the dark Coalsack looks richer than it would to someone standing there."
+    },
+    "scaleExtra": null,
+    "alt": "A person's silhouette in front of an Auxiliary Telescope, under a starry sky with a dark patch in the middle.",
+    "flags": []
+  },
+  {
+    "id": "e-potw1604a",
+    "caption": "The Southern Cross and Alpha and Beta Centauri over La Silla Observatory, Chile",
+    "captureDate": null,
+    "story": [
+      "The Southern Cross is easy to spot in the dark sky over ESO's La Silla Observatory, just right of the Danish 1.54-metre telescope's dome. Towards the lower right, two stars sparkle: from right to left, Alpha Centauri and Beta Centauri. Alpha Centauri, a multiple star, is the closest star system to Earth.",
+      "Its third member, Proxima Centauri, is too faint to see with the naked eye but is a little closer than the bright pair, just 4.2 light-years away, making it our nearest neighbour. Past observations offered faint hints that a small companion circles this red dwarf.",
+      "A campaign called the Pale Red Dot, which began in January 2016, set out to search more sensitively for the tiny wobbles in Proxima's motion that could reveal an Earth-like planet. The main tool was HARPS, the High Accuracy Radial velocity Planet Searcher on ESO's 3.6-metre telescope at La Silla."
+    ],
+    "explore": [
+      "HARPS measurements were complemented by the Las Cumbres Observatory Global Telescope Network and the BOOTES system. The campaign also invited the public to follow the observations as they came in, with blog posts by astronomers, engineers and science writers on planet-hunting and the lives of stars."
+    ],
+    "understand": {
+      "summary": "This is a landscape photograph at ESO's La Silla Observatory, in visible light. The camera settings and colour processing are not published.",
+      "eye": "A camera exposure gathers more light than the eye, so the sky looks more crowded with stars than it would to someone standing at the observatory."
+    },
+    "scaleExtra": null,
+    "alt": "A telescope dome under a dark, starry sky, with a cross-shaped group of stars beside it and two bright stars at lower right.",
+    "flags": []
+  }
+]

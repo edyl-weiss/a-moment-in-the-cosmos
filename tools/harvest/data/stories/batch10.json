@@ -1,0 +1,1812 @@
+[
+ {
+  "id": "n-noirlab2521a",
+  "caption": "The southern Virgo Cluster, imaged by the NSF–DOE Vera C. Rubin Observatory",
+  "captureDate": null,
+  "story": [
+   "Countless specks of light fill this wide view: bright stars ranging from blue to red, nearby blue spiral galaxies and distant red groups of galaxies. The scene is the southern part of the Virgo Cluster, about 55 million light-years from Earth and the closest large gathering of galaxies to the Milky Way. It was one of the first images released by the NSF–DOE Vera C. Rubin Observatory.",
+   "Apart from a handful of foreground stars in our own galaxy, nearly every dot here is a galaxy, around 10 million of them. Even so, that is only about 0.05% of the roughly 20 billion that Rubin expects to record over the 10-year Legacy Survey of Space and Time (LSST).",
+   "The picture is a sample of how that survey will work. It combines 1185 exposures gathered over just 7 nights through different colour filters, and stacking them brings out faint detail no single exposure could capture. Rubin will return to this patch of sky many times, watching for supernovae and other brief events."
+  ],
+  "explore": [
+   "Asteroids moving through our Solar System appear as multicoloured streaks, because each one sat in a different place in every exposure. A single Rubin exposure covers 10 square degrees, about 45 full Moons, while this combined image spans 15 square degrees.",
+   "The 3200-megapixel LSST Camera that took it is described as the largest digital camera in the world. By mapping how galaxies like these are shaped and spread out, scientists hope to probe dark matter and dark energy."
+  ],
+  "understand": {
+   "summary": "Taken with the LSST Camera on Rubin Observatory's Simonyi Survey Telescope in optical light through u, g, r and i filters; the colour assigned to each filter isn't published.",
+   "eye": "The picture stacks many exposures, gathering far more light than the eye can and revealing galaxies much too faint to see directly."
+  },
+  "scaleExtra": null,
+  "alt": "A wide field scattered with stars ranging from blue to red and many small galaxies, including blue spirals and red galaxy groups.",
+  "flags": []
+ },
+ {
+  "id": "n-gemini1210a",
+  "caption": "The polar-ring galaxy NGC 660, imaged by the Gemini North telescope",
+  "captureDate": "August 2012",
+  "story": [
+   "This Gemini North image centres on NGC 660, a polar-ring galaxy in the direction of the constellation Pisces. A ring of gas and stars circles the galaxy, and the scene shows what was left after one galaxy pierced the heart of another.",
+   "The ring is not truly polar: it is tilted about 45 degrees from the plane of the galaxy's disk. Astronomers think it most likely formed about a billion years ago, when NGC 660 interacted with a gas-rich galaxy, stripped away its gas and funnelled it into its own core, setting off a furious burst of star birth.",
+   "The massive stars born in that burst lived only briefly before exploding as supernovae, and their shock waves are thought to have triggered more star formation in a chain that continues today. The youngest stars detected in the ring are only about seven million years old. NGC 660 is also unusually rich in gas, and it resolves into hundreds of objects, many of them blue and red supergiant stars."
+  ],
+  "explore": [
+   "The picture was built from exposures through g, r, i and hydrogen-alpha filters, with a total integration time of 1,620 seconds across all of them. The colour composite was produced by Travis Rector of the University of Alaska Anchorage."
+  ],
+  "understand": {
+   "summary": "Taken in visible light with the Gemini Multi-Object Spectrograph on Gemini North; the g, r, i and hydrogen-alpha images are shown as blue, green, orange and red respectively.",
+   "eye": "The hydrogen-alpha filter isolates one particular red glow from hydrogen gas, and the long exposure gathers far more light than the eye could."
+  },
+  "scaleExtra": "NGC 660 spans some 40,000 light-years and lies about 40 million light-years away, according to the International Gemini Observatory.",
+  "alt": "The polar-ring galaxy NGC 660, shown in a colour composite from the Gemini North telescope.",
+  "flags": []
+ },
+ {
+  "id": "n-gemini0901a",
+  "caption": "The barred spiral galaxy NGC 3359, imaged by the Gemini North telescope",
+  "captureDate": null,
+  "story": [
+   "A round pinwheel of spiral arms surrounds a straight bar running through the centre of NGC 3359. Light red patches dotted across the disk mark places where new stars are forming. The galaxy lies in Ursa Major and was imaged with the Gemini Multi-Object Spectrograph on Gemini North, on Mauna Kea in Hawai‘i.",
+   "The spiral arms make NGC 3359 easy to classify as a spiral galaxy, but its central bar sets it apart from many others. Research suggests the bar is young, only about 500 million years old, while the galaxy itself is several billion years old. Astronomers are still working out how such large bars form and how long they last.",
+   "The red patches are H II regions: clouds of hydrogen lit up by young stars recently born inside them. NGC 3359 holds roughly 100 of them, a sign of intense star formation. The Orion Nebula is a familiar example of this kind of region in our own galaxy."
+  ],
+  "explore": [
+   "The caption describes NGC 3359 as a relatively close spiral, at a distance of roughly 49 million light-years. Its apparent magnitude is 10.5, so it is easily visible in portable amateur telescopes. This image covers 4.3 by 5.3 arcminutes of sky."
+  ],
+  "understand": {
+   "summary": "Taken in visible light with the Gemini Multi-Object Spectrograph on Gemini North; the g, r, i and hydrogen-alpha images are shown as blue, green, orange and red.",
+   "eye": "The hydrogen-alpha filter picks out the red glow of hydrogen, making star-forming regions stand out more strongly than they would to the eye."
+  },
+  "scaleExtra": null,
+  "alt": "A face-on spiral galaxy with a straight central bar and pinwheel arms dotted with light red patches.",
+  "flags": [
+   "distance mismatch: packet says 60 million light-years, caption says roughly 49 million"
+  ]
+ },
+ {
+  "id": "n-gemini0501a",
+  "caption": "The Fireworks Galaxy, NGC 6946, imaged by the Gemini North telescope",
+  "captureDate": "August 12, 2004",
+  "story": [
+   "Pink bubbles of glowing hydrogen are scattered across the arms of NGC 6946, a spiral galaxy seen face-on in this sharp Gemini North image. Each pink patch is gas lit by hot, massive young stars, whose ultraviolet radiation makes the surrounding clouds glow red.",
+   "For reasons nobody yet understands, NGC 6946 forms stars at a much higher rate than any of the other large galaxies in our local neighbourhood. That busy star birth has a consequence: massive stars live short lives and end as supernovae, so the galaxy has seen explosions in rapid succession for tens of millions of years.",
+   "Eight supernovae are known to have exploded in its arms over the past century, making it the most prolific known galaxy for supernovae in that time and earning it the nickname the Fireworks Galaxy. If a million years of its history were squeezed into a few seconds of film, it would show an almost constant flicker of new stars flaring into view and old ones dying."
+  ],
+  "explore": [
+   "NGC 6946 lies about 20 million light-years away, according to the caption. The image was taken with the Gemini Multi-Object Spectrograph (GMOS) on Gemini North, on Mauna Kea in Hawai'i, and covers about 5.80 by 5.58 arcminutes of sky."
+  ],
+  "understand": {
+   "summary": "Taken in visible light with GMOS on Gemini North through g, r, i and hydrogen-alpha filters; the colour assigned to each filter isn't published for this image.",
+   "eye": "The hydrogen-alpha filter isolates the red glow of hydrogen, so star-forming regions stand out far more than they would to the eye."
+  },
+  "scaleExtra": null,
+  "alt": "A face-on spiral galaxy whose arms are dotted with pink bubbles of glowing hydrogen gas.",
+  "flags": [
+   "distance and constellation differ: packet says 22 million ly in Cygnus, caption says about 20 million ly toward Cepheus"
+  ]
+ },
+ {
+  "id": "n-noirlab2620a",
+  "caption": "The spiral galaxy Messier 96, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "Dark trails of dust wind unevenly through the spiral arms of Messier 96, and parts of the arms look smeared, giving the galaxy a lopsided appearance. Messier 96, also known as NGC 3368, lies in Leo about 35 million light-years from Earth. It spans some 100,000 light-years, slightly larger than the Milky Way.",
+   "It is the brightest galaxy in the Messier 96 Group, the nearest group of galaxies to our own Local Group. Its uneven dust and distorted arms hint at a history of gravitational encounters. Scientists also agree that its bright core is not exactly at the galaxy's centre, where they would expect it, though that is hard to see here.",
+   "Both clues point to disturbance by the gravity of other galaxies in the group, which have since drifted farther from this dominant member. The view comes from the DESI Legacy Imaging Surveys, a map holding nearly four billion objects."
+  ],
+  "explore": [
+   "The data were captured by the Dark Energy Camera (DECam), built by the U.S. Department of Energy and mounted on the NSF Víctor M. Blanco 4-meter Telescope at Cerro Tololo Inter-American Observatory, a Program of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken in optical light through g, r and i filters with DECam on the Blanco 4-meter Telescope; the colour mapping isn't published.",
+   "eye": "Long exposures collect far more light than the eye can."
+  },
+  "scaleExtra": null,
+  "alt": "A spiral galaxy with a bright core and uneven dark dust lanes threading its arms, some of which look smeared.",
+  "flags": []
+ },
+ {
+  "id": "n-noirlab2106a",
+  "caption": "The elliptical galaxy NGC 474, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "Faint shells and tails of starlight surround the smooth glow of NGC 474, an elliptical galaxy in the constellation Pisces, while a spiral galaxy sits to its left. The pairing makes a useful contrast: elliptical galaxies usually look smooth, whereas spirals show ragged, flocculent structure woven with dust lanes and arms.",
+   "The unusual features around NGC 474 are described as tidal tails and shell-like structures, which together contain hundreds of millions of stars. They are thought to be the result of recent mergers, within the last billion years, or of close encounters with smaller dwarf galaxies falling in toward it.",
+   "This view is an excerpt taken from the Dark Energy Survey, a global collaboration that has made public a huge set of calibrated images and data gathered over six years. It was taken with the Dark Energy Camera, built by the Department of Energy, which is mounted on the Víctor M. Blanco 4-meter Telescope in Chile."
+  ],
+  "explore": [
+   "The survey collaboration includes the Department of Energy's Fermi National Accelerator Laboratory, the National Center for Supercomputing Applications and NSF NOIRLab. A wider, zoomable excerpt of the same data shows thousands of distant galaxies in the background."
+  ],
+  "understand": {
+   "summary": "Taken in optical light through g, r and i filters with DECam on the Blanco 4-meter Telescope; the colour mapping isn't published.",
+   "eye": "The deep survey exposures gather far more light than the eye, revealing faint shells of stars that would otherwise be invisible."
+  },
+  "scaleExtra": "NGC 474 lies about 100 million light-years away, according to NOIRLab.",
+  "alt": "A smooth elliptical galaxy surrounded by faint shells and tails of stars, with a spiral galaxy to its left.",
+  "flags": []
+ },
+ {
+  "id": "n-gemini1508a",
+  "caption": "Jets from the young star cluster HH 24, imaged by the Gemini North telescope",
+  "captureDate": null,
+  "story": [
+   "At least six jets of gas shoot out of the reddish Herbig-Haro 24 complex in this Gemini North image, moving at supersonic speeds. HH 24 is a small cluster of young stars buried in a molecular cloud in the direction of Orion. The region holds the highest concentration of jets known anywhere, and this is described as the most detailed view of it ever obtained from the ground.",
+   "One jet is badly disturbed, which suggests its source may be a close binary star whose orbit jostles the jet. Most puzzling are five very-low-mass protostars sitting well outside the cloud's core, where the gas is far too thin for stars to have formed.",
+   "Astronomers think these orphans were most likely flung out soon after birth from the core, home to a small multiple protostellar system called SSV 63. Such ejections may happen when crowded young stars begin moving around one another chaotically, until the smallest are thrown out."
+  ],
+  "explore": [
+   "The bright, nebulous star to the south is SSV 59, a visible T Tauri star. The busy environment around the core may also explain why some of the region's lowest-mass stars have been expelled."
+  ],
+  "understand": {
+   "summary": "Taken in visible light with GMOS on Gemini North through hydrogen-alpha and sulfur (S II) filters; the colour mapping isn't published.",
+   "eye": "The narrow filters isolate particular red glows from hydrogen and sulfur, highlighting jets that would be hard to pick out by eye."
+  },
+  "scaleExtra": "HH 24 lies some 1,300 light-years away, according to the International Gemini Observatory.",
+  "alt": "A reddish cloud with several narrow jets of gas streaming outward and a bright nebulous star to the south.",
+  "flags": []
+ },
+ {
+  "id": "n-noirlab2406a",
+  "caption": "The Vela Supernova Remnant, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "Wispy filaments of gas in reds, yellows and blues weave a web across this view of the Vela Supernova Remnant. The nebula is the expanding debris left behind when a massive star exploded about 11,000 years ago.",
+   "A supernova remnant is what remains after a star blows itself apart: a cloud of gas flung outward that ploughs into its surroundings as it spreads. The tangled strands here trace that expanding cloud.",
+   "The colours come from three filters on the Dark Energy Camera (DECam), each collecting one specific colour of light. Separate images through each filter were stacked to build the final picture, which contains 1.3 gigapixels and shows the delicate filaments snaking through the gas. DECam, fabricated by the Department of Energy, works on the NSF Víctor M. Blanco 4-meter Telescope, which stands at Cerro Tololo Inter-American Observatory in Chile."
+  ],
+  "explore": [
+   "NOIRLab's Communication, Education & Engagement team produced the image for its Legacy Imaging Program, and Cerro Tololo is a Program of NSF NOIRLab. The three filters used here isolate light from oxygen, from sulfur, and from hydrogen together with nitrogen, and each was recorded as a separate image."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through filters for oxygen (O III), sulfur (S II) and hydrogen-alpha plus nitrogen; the caption doesn't say which colour each filter was given.",
+   "eye": "The narrow filters isolate faint glows from particular gases, and the stacked exposures gather far more light than the eye can."
+  },
+  "scaleExtra": null,
+  "alt": "A web of wispy red, yellow and blue gas filaments.",
+  "flags": []
+ },
+ {
+  "id": "n-noirlab2501a",
+  "caption": "The Antlia Cluster of galaxies, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "Two big elliptical galaxies dominate this deep view of the Antlia Cluster: NGC 3268 at the centre and NGC 3258 at lower right. Around them lies a crowd of other galaxies, for the cluster, also catalogued as Abell S636, holds at least 230 members about 130 million light-years away toward the constellation Antlia, the Air Pump.",
+   "The cluster contains a rich mix of galaxy types: lenticular galaxies, irregular galaxies and ultra-compact dwarfs are all present. A galaxy cluster is a large gathering of galaxies bound together by gravity, and it can bring together galaxies of very different shapes.",
+   "The picture was taken with the 570-megapixel Dark Energy Camera (DECam) on the NSF Víctor M. Blanco 4-meter Telescope, located at Cerro Tololo Inter-American Observatory in Chile. It captures only part of the cluster, yet its ultra-deep view shows galaxies both within Antlia and far beyond it in fine detail."
+  ],
+  "explore": [
+   "DECam was fabricated by the Department of Energy, and Cerro Tololo is a Program of NSF NOIRLab. The image processing was done by R. Colombari and M. Zamani of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken in optical light through g, r and i filters with DECam on the Blanco 4-meter Telescope; the colour mapping isn't published.",
+   "eye": "The ultra-deep exposures gather far more light than the eye, revealing faint galaxies well beyond the cluster itself."
+  },
+  "scaleExtra": null,
+  "alt": "A field of galaxies dominated by two large elliptical galaxies, one at the centre and one at lower right.",
+  "flags": []
+ },
+ {
+  "id": "n-noirlab2403a",
+  "caption": "The dusty galaxy NGC 4753, imaged by the Gemini South telescope",
+  "captureDate": null,
+  "story": [
+   "Intricate lanes of dust twist across NGC 4753 in this image from the Gemini South telescope, which forms half of the International Gemini Observatory run by NSF NOIRLab. The galaxy sits in the constellation Virgo, roughly 60 million light-years away, and was discovered by William Herschel in 1784.",
+   "NGC 4753 belongs to the NGC 4753 Group of galaxies, part of the Virgo II Cloud. That cloud is a chain of at least 100 individual galaxies and galaxy clusters that stretches away from the southern edge of the Virgo Supercluster.",
+   "What sets this galaxy apart is its tangled web of dust. A 1992 study concluded that the twisted lanes are likely the result of a merger with a small companion, a dwarf galaxy, roughly 1.3 billion years ago. Galaxy mergers can reshape the gas and dust of the galaxies involved, and in this case the study's interpretation is that such an encounter left the dust in its complex, twisted form."
+  ],
+  "explore": [
+   "The image was processed by J. Miller and M. Rodriguez of the International Gemini Observatory/NSF NOIRLab, and M. Zamani of NSF NOIRLab. Gemini South and its twin, Gemini North, together make up the International Gemini Observatory."
+  ],
+  "understand": {
+   "summary": "Taken in optical light through g, r and i filters with the Gemini Multi-Object Spectrograph on Gemini South; the colour mapping isn't published.",
+   "eye": "The long exposure gathers much more light than the eye, bringing out fine dust lanes against the galaxy's glow."
+  },
+  "scaleExtra": null,
+  "alt": "A galaxy crossed by intricate, twisting lanes of dark dust.",
+  "flags": []
+ },
+ {
+  "id": "n-noirlab2424a",
+  "caption": "The Rosette Nebula and star cluster NGC 2244, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "Red, gold and purple clouds billow around a hollowed-out centre in this view of the Rosette Nebula, with opaque towers of dust rising from the gas. Nestled in that cleared core is NGC 2244, the young star cluster the nebula gave birth to, whose stars now light it up. The nebula lies about 5000 light-years away in Monoceros.",
+   "The Rosette is an emission nebula: a cloud of gas that glows because hot young stars nearby pour energetic light into it. The members of a cluster like NGC 2244 are born from the same cloud they later illuminate, and their radiation and winds gradually push the surrounding gas away, which is how a cavity like this one can be carved out.",
+   "The dark towers are denser pockets of dust and gas that hold out against that erosion for longer. The picture was taken with the 570-megapixel Dark Energy Camera (DECam) and released to mark NOIRLab's fifth anniversary."
+  ],
+  "explore": [
+   "DECam was fabricated by the US Department of Energy and is mounted on the NSF Víctor M. Blanco 4-meter Telescope, which stands at Cerro Tololo Inter-American Observatory. NOIRLab's Communication, Education & Engagement team produced the image for its Legacy Imaging Program."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through narrow filters for sulfur (S II), oxygen (O III) and hydrogen-alpha; the colour assigned to each filter isn't published.",
+   "eye": "The narrow filters isolate glows from particular gases, and long exposures gather far more light than the eye, so the colours are much richer than a telescope view would show."
+  },
+  "scaleExtra": null,
+  "alt": "Red, gold and purple clouds of gas surround a hollowed-out centre, with dark towers of dust rising from the billowing clouds.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-noirlab2115a",
+  "caption": "The dwarf galaxy Sextans B, imaged by the Nicholas U. Mayall 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "Red patches of star formation glow near the centre of Sextans B, an irregular dwarf galaxy in the constellation Sextans. Around it, several bright stars show crisscross spikes, and many small, fuzzy background galaxies are scattered across the field.",
+   "Irregular dwarf galaxies are smaller than the Milky Way and have no tidy spiral or elliptical shape. Sextans B lies around 4.5 million light-years from Earth, in the southern sky, and its red regions mark places where new stars are being born.",
+   "The bright, spiky stars are not part of Sextans B at all. They belong to our own galaxy and sit much closer to us, and their crisscross spikes are produced as their light interacts with the structure of the telescope. The fuzzy smudges, by contrast, are galaxies that look tiny because they lie much farther away than Sextans B. The image was captured with the Nicholas U. Mayall 4-meter Telescope."
+  ],
+  "explore": [
+   "The data were obtained and processed by P. Massey of Lowell Observatory together with G. Jacoby, K. Olsen and C. Smith of AURA/NSF, using the Mosaic I camera. The filters include broadband U, B, V, R and I, plus narrow filters for hydrogen-alpha, oxygen and sulfur."
+  ],
+  "understand": {
+   "summary": "Taken with the Mosaic I camera on the NSF Nicholas U. Mayall 4-meter Telescope through broadband U, B, V, R and I filters plus narrow hydrogen-alpha, oxygen and sulfur filters; the colour mapping isn't published.",
+   "eye": "The hydrogen-alpha filter highlights glowing star-forming gas, and long exposures reveal faint background galaxies the eye could never see."
+  },
+  "scaleExtra": "Sextans B lies around 4.5 million light-years from Earth, according to NOIRLab.",
+  "alt": "A small irregular galaxy with red patches near its centre, surrounded by bright foreground stars with crisscross spikes and many small fuzzy background galaxies.",
+  "flags": []
+ },
+ {
+  "id": "n-gemini1205a",
+  "caption": "The planetary nebula Sh2-71, imaged by the Gemini North telescope",
+  "captureDate": null,
+  "story": [
+   "This Gemini North view shows Sh2-71, a complex planetary nebula in the direction of Aquila. The brightest star near its centre has long been assumed to be the star that created it, but some astronomers wonder whether a much dimmer, bluer star just to the right and slightly below might be the true parent.",
+   "Despite the name, a planetary nebula has nothing to do with planets. It is a shell of gas cast off by a star like the Sun late in its life, lit up by the hot, exposed core the star leaves behind. Knowing which star is the source matters, because that star's heat and light drive the glow of the gas around it.",
+   "The picture combines three narrow-band exposures, each lasting 15 minutes, taken with the Gemini Multi-Object Spectrograph on Mauna Kea in Hawai‘i. Hydrogen-alpha light is shown in orange, ionized helium (He II) in blue and oxygen ([O III]) in cyan, so the colours map where different gases glow."
+  ],
+  "explore": [
+   "This is one of Gemini's Legacy images. It covers 5.3 by 3.6 arcminutes of sky and is rotated 110 degrees clockwise from the usual north-up orientation, so the layout on screen differs from how the nebula sits on a standard sky chart."
+  ],
+  "understand": {
+   "summary": "Taken in visible light with the Gemini Multi-Object Spectrograph on Gemini North; hydrogen-alpha is shown as orange, He II as blue and [O III] as cyan.",
+   "eye": "Each narrow filter isolates the glow of one kind of gas, and the long exposures gather far more light than the eye."
+  },
+  "scaleExtra": null,
+  "alt": "A complex planetary nebula with a bright star near its centre and a dimmer, bluer star just below and to the right.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-noirlab2307a",
+  "caption": "The supernova remnant RCW 86, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "A ring of glowing debris fills this wide view of RCW 86, in the direction of Circinus. The tattered shell is what remains of the first supernova ever recorded: a white dwarf star, which blew apart more than 1800 years ago.",
+   "At the time, Chinese astronomers noted the event as a 'guest star', a new light that suddenly appeared in the sky, and the image's title ties it to the supernova seen in 185. A white dwarf is the dense, burnt-out core of a star, and under certain conditions one can blow itself apart. The blast drives an expanding shell of gas outward, and that shell can go on glowing for many centuries.",
+   "This view covers an impressive 45 arcminutes of sky, wide enough to give a rare look at the whole remnant in a single frame. It was captured by the Dark Energy Camera, fabricated by the US Department of Energy, which works on the NSF Víctor M. Blanco 4-meter Telescope in Chile."
+  ],
+  "explore": [
+   "The telescope stands at Cerro Tololo Inter-American Observatory, a Program of NSF NOIRLab. The image was processed by T.A. Rector of the University of Alaska Anchorage, J. Miller of Gemini Observatory, and M. Zamani and D. de Martin of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through broadband g and i filters and a narrow N662 filter; the colour mapping isn't published.",
+   "eye": "The remnant is faint and spread over a wide area, so it takes long exposures that gather far more light than the eye to bring it out."
+  },
+  "scaleExtra": null,
+  "alt": "A large, tattered ring of glowing gas.",
+  "flags": []
+ },
+ {
+  "id": "n-noirlab2204a",
+  "caption": "The young stellar jet MHO 2147, imaged by the Gemini South telescope",
+  "captureDate": null,
+  "story": [
+   "A sinuous jet of gas drifts lazily across a star field in this infrared image of MHO 2147, captured from Chile with the Gemini South telescope. The jet is an outflow from a young star hidden inside an infrared dark cloud, in the direction of Sagittarius.",
+   "Young stars often launch narrow jets while they are still growing, driving material away as gas continues to fall onto them. The jet of MHO 2147 does not run straight, though: it snakes from side to side. Astronomers suspect this sidewinding shape is caused by the gravitational pull of companion stars, which would tug the young star and swing the direction of its jet.",
+   "The crisp detail comes from Gemini South's adaptive optics system, which lets astronomers undo much of the blurring caused by turbulence in Earth's atmosphere. Infrared light also passes through dust more easily than visible light, which helps astronomers study young objects buried in dusty clouds."
+  ],
+  "explore": [
+   "The observations were led by principal investigator L. Ferrero of the Universidad Nacional de Córdoba. The image was processed by T.A. Rector of the University of Alaska Anchorage, with M. Zamani and D. de Martin of NSF NOIRLab. The Gemini Observatory is a Program of NSF's NOIRLab."
+  ],
+  "understand": {
+   "summary": "A near-infrared image from the GSAOI instrument on Gemini South, using adaptive optics, through a molecular hydrogen (H2) filter and a broadband filter; the colour mapping isn't published.",
+   "eye": "Infrared light is invisible to the eye, so the colours here are a translation of light we cannot see."
+  },
+  "scaleExtra": null,
+  "alt": "A winding, snake-like jet of gas crossing a field of stars.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-noirlab2515a",
+  "caption": "The Circinus West molecular cloud, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "A dark cloud creeps across this image like a shadow. It is the Circinus West molecular cloud, in the constellation Circinus, captured with the 570-megapixel Dark Energy Camera (DECam), which NOIRLab ranks among the world's most powerful digital cameras.",
+   "Hidden behind the cloud's opaque edges is a stellar nursery. There, infant stars ignite out of cold, dense gas and dust, while outflows from the young stars fling leftover material back into space.",
+   "Molecular clouds are cold, dense regions of the gas between the stars, and the dust mixed through them blocks visible light from whatever lies inside or behind, which is why they look dark. Where the gas is dense enough, gravity pulls clumps together until they grow hot enough to shine as new stars. Young stars can also drive jets and outflows that carve into and stir up the surrounding cloud, shaping the nursery that formed them."
+  ],
+  "explore": [
+   "DECam was built by the Department of Energy and works on the NSF Víctor M. Blanco 4-meter Telescope, which stands at Cerro Tololo in Chile, part of NSF NOIRLab. The image was processed by T.A. Rector of the University of Alaska Anchorage with D. de Martin and M. Kosari of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through broadband g and I filters and a narrow N662 filter; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye."
+  },
+  "scaleExtra": null,
+  "alt": "A dark, shadowy cloud stretching across the image.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-noirlab2507a",
+  "caption": "The nebula around NGC 2040, imaged by the Gemini South telescope",
+  "captureDate": null,
+  "story": [
+   "Wispy layers of red, orange and yellow wrap around NGC 2040 in this Gemini South image, giving the surrounding nebula the look of a rose in bloom. The object lies in the direction of the constellation Dorado.",
+   "NOIRLab presents this nebulous flower as a showcase of stellar life, death and rebirth. In broad terms, that cycle runs like this: stars form from clouds of gas and dust; massive stars live fast and die, returning much of their material to space; and that gas, enriched with heavier elements made inside stars, can later be gathered into new generations of stars and planets.",
+   "The glowing layers were recorded through filters for hydrogen-alpha and oxygen ([O III]), which each pick out light given off by one particular gas. Gemini South forms half of the International Gemini Observatory, which NSF NOIRLab operates with partial support from the U.S. National Science Foundation."
+  ],
+  "explore": [
+   "NOIRLab's Communication, Education & Engagement team produced the image for its Legacy Imaging Program. Image processing was by J. Miller and M. Rodriguez of the International Gemini Observatory, T.A. Rector of the University of Alaska Anchorage and M. Zamani of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken in visible light with the Gemini Multi-Object Spectrograph on Gemini South through hydrogen-alpha and [O III] filters; the colour mapping isn't published.",
+   "eye": "Narrow filters isolate the glow of specific gases, and the long exposure gathers far more light than the eye could."
+  },
+  "scaleExtra": null,
+  "alt": "Wispy layers of red, orange and yellow gas shaped like a blooming rose.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-noirlab2103a",
+  "caption": "The Copeland Septet galaxy group, imaged for the DESI Legacy Imaging Surveys (Kitt Peak and Cerro Tololo)",
+  "captureDate": null,
+  "story": [
+   "This view shows a group of galaxies known by the nickname the Copeland Septet, in the constellation Leo. Galaxy groups are small collections of galaxies held together by their mutual gravity, and their members can interact and disturb one another over time.",
+   "The image comes from the DESI Legacy Imaging Surveys. Astronomers combined pictures taken at Kitt Peak National Observatory and at Cerro Tololo Inter-American Observatory to assemble what was described as the largest map of the sky ever made, holding more than a billion galaxies.",
+   "That map, released in its final form, set the stage for a 5-year survey by the Dark Energy Spectroscopic Instrument (DESI). That project aims to shed new light on the nature of dark energy. Dark energy is the name astronomers give to whatever is causing the expansion of the Universe to speed up, and what it really is remains a major open question. Mapping the positions of huge numbers of galaxies is one way to trace how that expansion has changed."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "Taken in optical and near-infrared light through g, r and z filters with the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope, as listed in the image metadata; the colour mapping isn't published.",
+   "eye": "The z filter reaches into near-infrared light that the eye cannot see, and survey exposures gather far more light than the eye."
+  },
+  "scaleExtra": null,
+  "alt": "A group of galaxies known as the Copeland Septet.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-noirlab2315a",
+  "caption": "Supernova SN 2023ixf in the Pinwheel Galaxy, imaged by the Gemini North telescope",
+  "captureDate": null,
+  "story": [
+   "A bright point of light at lower left sits on a spiral arm of the Pinwheel Galaxy, Messier 101. That point is SN 2023ixf, an exploding star, and this image was the first observation Gemini North made after its primary mirror was repaired and refurbished.",
+   "The supernova was discovered on 19 May by the Japanese astronomer Koichi Itagaki, and it is described as the nearest supernova spotted in the past five years. The Pinwheel Galaxy lies about 23 million light-years away in Ursa Major.",
+   "A supernova is the explosion of a star, which can for a while outshine huge numbers of ordinary stars before fading over the following weeks and months. Because it changes so quickly, astronomers try to observe a new one early and follow it as it evolves. For Gemini North, which belongs to the International Gemini Observatory run by NSF NOIRLab, it made a fitting target for a return to observing."
+  ],
+  "explore": [
+   "The picture combines g, r, i and hydrogen-alpha images from the Gemini Multi-Object Spectrograph. Astronomical processing used the DRAGONS 3.1 software, and the image was processed by J. Miller, M. Rodriguez, M. Zamani, T.A. Rector and D. de Martin."
+  ],
+  "understand": {
+   "summary": "Taken in visible light with the Gemini Multi-Object Spectrograph on Gemini North through g, r, i and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "The long exposure brings out the galaxy's faint spiral arms far more clearly than the eye could through a telescope."
+  },
+  "scaleExtra": null,
+  "alt": "A spiral galaxy with a bright point of light, a supernova, on one of its arms at lower left.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-noirlab2426a",
+  "caption": "NGC 1270 and the heart of the Perseus Cluster, imaged by the Gemini North telescope",
+  "captureDate": null,
+  "story": [
+   "A crowd of galaxies fills this Gemini North view of the central region of the Perseus Cluster, among them NGC 1270. NOIRLab's title for the image calls the scene a galactic archipelago, as if each galaxy were an island. The cluster is a gathering of thousands of galaxies in the constellation Perseus, around 240 million light-years from Earth.",
+   "Galaxy clusters are enormous collections of galaxies bound together by gravity, along with hot gas and dark matter that fill the space between them. A cluster's central region tends to be especially crowded, and the galaxies there are influenced by their neighbours and by the gas they move through.",
+   "The image was taken with the Gemini Multi-Object Spectrograph (GMOS) on Gemini North, one of the two telescopes of the International Gemini Observatory. The observatory is operated by NSF NOIRLab with support in part from the U.S. National Science Foundation. The observations were led by principal investigator Jisu Kang of Seoul National University."
+  ],
+  "explore": [
+   "Image processing for this view was carried out by J. Miller and M. Rodriguez of the International Gemini Observatory, T.A. Rector of the University of Alaska Anchorage and M. Zamani of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken in visible light with GMOS on Gemini North through g, r and i filters; the colour mapping isn't published.",
+   "eye": "The long exposure gathers far more light than the eye, revealing galaxies that are much too faint to see directly."
+  },
+  "scaleExtra": null,
+  "alt": "A field crowded with galaxies at the centre of the Perseus Cluster.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-noirlab2519a",
+  "caption": "The Chamaeleon I dark cloud, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "This image captures the ominous Chamaeleon I dark cloud, described as the nearest star-forming region to Earth. Within it sit three reflection nebulae, lit up brightly by stars that have only recently formed nearby.",
+   "Chamaeleon I is one part of the larger Chamaeleon Complex. Dark clouds like this are dense concentrations of cold gas and dust, thick enough to block the light of stars behind them, and it is inside such clouds that new stars take shape. A reflection nebula works differently from the glowing gas of an emission nebula: its dust simply scatters the light of nearby stars toward us, much as fog brightens around a streetlamp.",
+   "The image was captured with the 570-megapixel Dark Energy Camera, fabricated by the Department of Energy, on the NSF Víctor M. Blanco 4-meter Telescope. That telescope stands at Cerro Tololo Inter-American Observatory, which is a Program of NSF NOIRLab."
+  ],
+  "explore": [
+   "The image was processed by T.A. Rector of the University of Alaska Anchorage together with M. Zamani and D. de Martin of NSF NOIRLab. It combines broadband g and i exposures with a narrow N662 filter."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through g and i filters and a narrow N662 filter; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye."
+  },
+  "scaleExtra": null,
+  "alt": "The Chamaeleon I dark cloud, home to reflection nebulae lit by newly formed stars.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-gemini0505a",
+  "caption": "The stellar nursery around RY Tau, imaged by the Gemini North telescope",
+  "captureDate": null,
+  "story": [
+   "Wispy remains of a gas cloud trail around a bright star at the bottom centre of this Gemini North image of RY Tau, a stellar nursery. That cloud is the one that formed the star, and the Gemini Multi-Object Spectrograph (GMOS) shows its wisps in remarkable detail.",
+   "The system lies approximately 140 parsecs, or 450 light-years, away in Taurus, and spans roughly two-thirds of a light-year. The central star is a variable star: its visual brightness wanders between magnitudes 9 and 11, with no regular schedule. On the magnitude scale, a larger number means a fainter star.",
+   "Young stars are often still surrounded by leftover gas and dust from the cloud that gave birth to them, and that material can reflect, block or be sculpted by the star's light. This picture was taken with Gemini North for a Canadian contest aimed at amateur astronomers."
+  ],
+  "explore": [
+   "The image credit names the Club d’astronomie de Dorval, along with Stephanie Cote of the Herzberg Institute of Astrophysics and Travis Rector of the University of Alaska, Anchorage. The picture combines g, r, i and hydrogen-alpha exposures."
+  ],
+  "understand": {
+   "summary": "Taken in visible light with GMOS on Gemini North through g, r, i and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "The long exposure gathers far more light than the eye, bringing out faint wisps of gas around the bright star."
+  },
+  "scaleExtra": null,
+  "alt": "Wispy clouds of gas surrounding a bright star at the bottom centre.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-noirlab2529a",
+  "caption": "The nebula and star cluster NGC 6820, imaged by the Gemini North telescope",
+  "captureDate": null,
+  "story": [
+   "This Gemini North image shows NGC 6820, an emission nebula paired with an open star cluster, in the direction of Vulpecula. Students in Hawai‘i voted to choose it as the subject of an image celebrating 25 years since the International Gemini Observatory was completed.",
+   "The picture's name, Ua ʻŌhiʻa Lani, means the Heavenly ʻŌhiʻa Rains and comes from a traditional Hawaiian story about the ʻŌhiʻa forests. An emission nebula is a cloud of gas that glows because energetic light from hot young stars excites it, while an open cluster is a loose group of stars born together from the same cloud. When the two appear together, the young cluster is often the source of the light that makes the nebula shine.",
+   "NSF NOIRLab operates the International Gemini Observatory, which receives part of its funding from the U.S. National Science Foundation. Its Gemini North telescope recorded this view with the Gemini Multi-Object Spectrograph through g, r, i and hydrogen-alpha filters."
+  ],
+  "explore": [
+   "Image processing for this view was carried out by J. Miller and M. Rodriguez of the International Gemini Observatory, T.A. Rector of the University of Alaska Anchorage and M. Zamani of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken in visible light with the Gemini Multi-Object Spectrograph on Gemini North through g, r, i and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "The hydrogen-alpha filter isolates the red glow of hydrogen, and the long exposure gathers far more light than the eye could."
+  },
+  "scaleExtra": null,
+  "alt": "An emission nebula with an open star cluster.",
+  "flags": [
+   "caption too thin",
+   "object name differs: metadata says NGC 6823, caption says NGC 6820"
+  ]
+ },
+ {
+  "id": "n-noirlab2325a",
+  "caption": "The shell galaxy NGC 3923, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "Symmetrical, onion-like layers surround the shell galaxy NGC 3923 in this image, which is also crowded with other galaxies. NGC 3923 lies in the direction of the constellation Hydra.",
+   "Shell galaxies are ringed by faint, curved shells of stars. Astronomers generally think such shells form when a large galaxy swallows a smaller one: the smaller galaxy's stars are pulled apart and spread into arcs that ripple outward around the larger one.",
+   "A nearby massive galaxy cluster also appears in the frame, displaying the effect known as gravitational lensing. In lensing, the huge mass of a cluster bends the light of more distant galaxies behind it, which can stretch their images into arcs or make them appear brighter. The picture was taken with the US Department of Energy's Dark Energy Camera, mounted on the NSF Víctor M. Blanco 4-meter Telescope, which is located at Cerro Tololo in Chile, a Program of NSF NOIRLab."
+  ],
+  "explore": [
+   "The image was processed by T.A. Rector of the University of Alaska Anchorage with M. Zamani, R. Colombari and D. de Martin of NSF NOIRLab, using data from the DESI Legacy Imaging Surveys."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through g, r, i and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "Deep exposures gather far more light than the eye, bringing out faint shells of stars that would otherwise be invisible."
+  },
+  "scaleExtra": null,
+  "alt": "A galaxy surrounded by symmetrical, onion-like layers, in a field full of other galaxies.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-noirlab2101a",
+  "caption": "The spiral galaxy NGC 1003, imaged by the Nicholas U. Mayall 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "The spiral galaxy NGC 1003 stands out in this deep view, while behind it lie small red galaxies belonging to a more distant cluster. It comes from a 70-minute observation with the Nicholas U. Mayall 4-meter Telescope, which is located at Kitt Peak National Observatory, part of NSF NOIRLab.",
+   "NGC 1003, in the direction of Perseus, sits in front of that galaxy cluster, a vast gathering of galaxies held together by their gravity. Background galaxies like these are usually overlooked because they are so faint, but this long exposure collected enough light to capture them.",
+   "A long exposure works by letting light build up on the camera for far longer than the eye can gather it, so faint objects slowly accumulate enough signal to appear. Very distant galaxies can also look redder than nearby ones, partly because the expansion of the Universe stretches their light toward longer wavelengths during its journey."
+  ],
+  "explore": [
+   "The observations were led by principal investigator M. T. Patterson of New Mexico State University. The image was processed by Travis Rector of the University of Alaska Anchorage with Mahdi Zamani and Davide de Martin."
+  ],
+  "understand": {
+   "summary": "Taken with the Mosaic I camera on the NSF Nicholas U. Mayall 4-meter Telescope through U, B, R and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "The long exposure reveals faint red background galaxies that the eye could not see even through a large telescope."
+  },
+  "scaleExtra": null,
+  "alt": "A spiral galaxy in the foreground, with small red galaxies scattered behind it.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-noirlab2306a",
+  "caption": "The galaxy cluster Abell 3158, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "This image is centred on Abell 3158, a relatively nearby galaxy cluster in the direction of Reticulum. Its galaxies show a redshift of 0.059, which means their light spent approximately 825 million years travelling to Earth.",
+   "Redshift measures how much light has been stretched to longer, redder wavelengths by the expansion of the Universe on its way to us. The larger the redshift, the farther the light has come, so astronomers can use it to gauge how long ago the light we now see set out. A galaxy cluster itself is a vast collection of galaxies held together by gravity.",
+   "The picture shows only a small piece of the DESI Legacy Imaging Surveys, which was a monumental six-year effort that covered nearly half the sky. Most of the data behind this particular view were originally gathered for a separate project, the LoVoCCS survey."
+  ],
+  "explore": [
+   "The image was processed by T.A. Rector of the University of Alaska Anchorage, with Jen Miller, M. Zamani and D. de Martin of NSF NOIRLab. It combines exposures through g, r and z filters."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through g, r and z filters, according to the image metadata; the colour mapping isn't published.",
+   "eye": "The z filter reaches into near-infrared light the eye cannot see, and survey exposures gather far more light than the eye."
+  },
+  "scaleExtra": null,
+  "alt": "A field of galaxies centred on the galaxy cluster Abell 3158.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-noirlab2126a",
+  "caption": "Galaxies of the Fornax Cluster, imaged by the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "Galaxies belonging to the Fornax Cluster are spread across this view from the Víctor M. Blanco 4-meter Telescope, which is located at Cerro Tololo Inter-American Observatory (CTIO). A few of the points of light are much closer: they are foreground stars in our own Milky Way.",
+   "The cluster appears in the constellation Fornax, the Furnace, and is relatively nearby for a galaxy cluster, at only about 60 million light-years. A galaxy cluster is a large collection of galaxies held together by gravity, and its members can include smooth ellipticals as well as spirals, all moving through the cluster and sometimes interacting.",
+   "Because the Fornax Cluster is comparatively close, it gives astronomers a chance to study the galaxies of a cluster in more detail than distant ones allow. CTIO, where the telescope stands, is a Program of NSF NOIRLab, and the image was made with its Dark Energy Camera through three filters."
+  ],
+  "explore": [
+   "The image was processed by T.A. Rector of the University of Alaska Anchorage, J. Miller of Gemini Observatory, and M. Zamani and D. de Martin of NSF NOIRLab. The filters used were g, r and i."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through g, r and i filters; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye, revealing the faint outer glow of galaxies that are too dim to see directly."
+  },
+  "scaleExtra": null,
+  "alt": "Many galaxies of the Fornax Cluster scattered across the frame, with a few foreground stars.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-gemini1604a",
+  "caption": "The N159W field in the Large Magellanic Cloud, imaged by the Gemini South telescope",
+  "captureDate": null,
+  "story": [
+   "This near-infrared view from Gemini South shows the N159W field in the Large Magellanic Cloud. It was made with the GeMS adaptive optics system and the GSAOI camera, and it resolves stars as finely as about 0.09 arcseconds.",
+   "The Large Magellanic Cloud is a small companion galaxy of the Milky Way, visible from the Southern Hemisphere. Adaptive optics measures how turbulence in Earth's atmosphere distorts incoming light and corrects it on the fly with a deformable mirror, letting a telescope on the ground produce much sharper images than it otherwise could.",
+   "Near-infrared light, just beyond the red end of what our eyes can see, passes through dust more easily than visible light. The picture combines three filters, J, H and Ks, with 25 minutes of exposure through each, and spans 1.5 arcminutes of sky. Travis Rector of the University of Alaska Anchorage produced the colour composite."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "A near-infrared image from GeMS/GSAOI on Gemini South through J, H and Ks filters; the colour mapping isn't published.",
+   "eye": "Near-infrared light is invisible to the eye, so the colours here are a translation of light we cannot see."
+  },
+  "scaleExtra": null,
+  "alt": "A near-infrared view of a star field in the Large Magellanic Cloud.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-gemini0801a",
+  "caption": "The supernova remnant DEM L316, imaged by the Gemini South telescope",
+  "captureDate": null,
+  "story": [
+   "A peanut-shaped nebula dominates this image from the Gemini Multi-Object Spectrograph on Gemini South. It is DEM L316, a vast cloud complex in the Large Magellanic Cloud.",
+   "Although it looks like a single object, recent research indicates that DEM L316 is really two separate clouds of gas and dust, each created by a different type of supernova explosion.",
+   "Supernovae come in more than one kind. Some happen when a massive star runs out of fuel and its core collapses; others occur when a white dwarf, the dense leftover core of a smaller star, is pushed past its limit and blows apart. Each kind leaves behind an expanding shell of debris, and the shells can differ in the chemical elements they contain. From our viewpoint, the two clouds in DEM L316 blend together into what looks like one peanut-shaped nebula."
+  ],
+  "explore": [
+   "The image credit lists P. Michaud, S. Fisher, R. Carrasco and T. Rector of the University of Alaska at Anchorage, with the International Gemini Observatory. The filters used isolate light given off by oxygen, sulfur and hydrogen."
+  ],
+  "understand": {
+   "summary": "Taken in visible light with GMOS on Gemini South through [O III], S II and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "Narrow filters isolate the glow of specific gases, and the long exposure gathers far more light than the eye."
+  },
+  "scaleExtra": null,
+  "alt": "A peanut-shaped nebula of glowing gas.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-noirlab2524a",
+  "caption": "The merging galaxy cluster Abell 3667, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "This deep image shows Abell 3667, a galaxy cluster in the direction of Pavo that is actively merging. It was assembled from more than 28 hours of observations with the 570-megapixel Dark Energy Camera (DECam).",
+   "Galaxy clusters grow over time by merging with other clusters and groups. When two clusters collide, their individual galaxies mostly slip past one another, because the gaps between galaxies are so vast. The hot gas that fills each cluster, however, crashes together and can be shocked and heated in the process.",
+   "Gathering so many hours of exposure lets faint galaxies and structures build up in the image that a short observation would miss. DECam, built by the Department of Energy, works on the NSF Víctor M. Blanco 4-meter Telescope, which stands at Cerro Tololo Inter-American Observatory in Chile, a Program of NSF NOIRLab."
+  ],
+  "explore": [
+   "The observations were led by principal investigator Anthony Englert of Brown University. The image was processed by T.A. Rector of the University of Alaska Anchorage with M. Zamani and D. de Martin of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through g, r, i and z filters; the colour mapping isn't published.",
+   "eye": "More than a day's worth of exposure gathers vastly more light than the eye, revealing galaxies far too faint to see."
+  },
+  "scaleExtra": null,
+  "alt": "A deep field of galaxies in the merging cluster Abell 3667.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-noirlab2129a",
+  "caption": "The Chamaeleon Infrared Nebula, imaged by the Gemini South telescope",
+  "captureDate": null,
+  "story": [
+   "Delicate as a butterfly's wing, this ethereal structure is the Chamaeleon Infrared Nebula, captured from Chile by the international Gemini Observatory. It lies close to the middle of the larger Chamaeleon I dark cloud, which ranks among the closest star-forming regions in the Milky Way.",
+   "Dark clouds are dense concentrations of cold gas and dust, and new stars form inside them when gravity pulls clumps of material together. Because the dust blocks much of their visible light, the young stars in such regions are often studied in infrared light, which passes through dust more easily.",
+   "Nebulae in star-forming regions can shine in different ways: some glow because nearby stars energize their gas, while others become visible because dust reflects starlight toward us. This image was taken with the Gemini Multi-Object Spectrograph on Gemini South through g, r, i and hydrogen-alpha filters. The Gemini Observatory is a Program of NSF NOIRLab."
+  ],
+  "explore": [
+   "The image was processed by T.A. Rector of the University of Alaska Anchorage, J. Miller of Gemini Observatory, and M. Zamani and D. de Martin of NSF NOIRLab. The Chamaeleon I dark cloud that surrounds it is itself a region where stars are forming."
+  ],
+  "understand": {
+   "summary": "Taken in visible light with the Gemini Multi-Object Spectrograph on Gemini South through g, r, i and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "The long exposure gathers far more light than the eye, bringing out faint, delicate structure in the nebula."
+  },
+  "scaleExtra": null,
+  "alt": "A delicate, wing-like nebula.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-noirlab2329a",
+  "caption": "The peculiar galaxy NGC 7727, imaged by the Gemini South telescope",
+  "captureDate": null,
+  "story": [
+   "Tangled spiral arms twist around the peculiar galaxy NGC 7727 in this Gemini South image. The scene is the aftermath, some billion years on, of a collision between two spiral galaxies, and it lies about 73 million light-years away in the direction of Aquarius.",
+   "At the heart of the chaos, entwined in the merger, is a pair of supermassive black holes, described as the closest such pair ever recorded from Earth. Large galaxies are generally thought to host a supermassive black hole at their centres, so when two galaxies merge, their central black holes can end up close together.",
+   "Over very long times, such a pair is expected to draw closer still. Gemini South, which forms half of the International Gemini Observatory run by NSF NOIRLab, recorded this view with the Gemini Multi-Object Spectrograph through g, r, i and hydrogen-alpha filters, revealing the disturbed structure left behind by the collision."
+  ],
+  "explore": [
+   "The observations were led by principal investigator C. Onken of the Australian National University. The image was processed by T.A. Rector of the University of Alaska Anchorage, J. Miller and M. Rodriguez of the International Gemini Observatory, and M. Zamani of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken in visible light with the Gemini Multi-Object Spectrograph on Gemini South through g, r, i and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "The long exposure gathers far more light than the eye, bringing out faint, tangled arms around the galaxy."
+  },
+  "scaleExtra": null,
+  "alt": "A galaxy with tangled, twisting spiral arms.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-noirlab2328a",
+  "caption": "The colliding galaxies NGC 520, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "This image shows NGC 520, which looks like a single galaxy but is really two disk galaxies in collision. Their encounter began more than 300 million years ago, and the pair will eventually merge into one larger, more massive system.",
+   "NGC 520 lies in the direction of Pisces. William Herschel discovered it in 1784, and the Siena Galaxy Atlas lists it among its largest and brightest galaxies. Galaxy collisions unfold slowly. The stars themselves rarely hit one another, because the space between them is so vast; instead, gravity reshapes the galaxies, pulling out streams of stars and stirring up gas and dust, which can set off new bursts of star formation.",
+   "The image was taken with the Dark Energy Camera on the NSF Víctor M. Blanco 4-meter Telescope through g, r and z filters, as part of observations led by J. Moustakas of Siena College."
+  ],
+  "explore": [
+   "The image was processed by T.A. Rector of the University of Alaska Anchorage with M. Zamani and D. de Martin of NSF NOIRLab. The Blanco telescope is operated as part of Cerro Tololo Inter-American Observatory."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through g, r and z filters; the colour mapping isn't published.",
+   "eye": "The z filter reaches into near-infrared light the eye cannot see, and long exposures gather far more light than the eye."
+  },
+  "scaleExtra": null,
+  "alt": "NGC 520, two colliding disk galaxies seen together.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-noirlab2029a",
+  "caption": "The CK Vulpeculae nebula, imaged by the Gemini North telescope",
+  "captureDate": null,
+  "story": [
+   "This Gemini North image shows the enigmatic CK Vulpeculae nebula. Two small reddish arcs, one about a quarter of the way up from the bottom and another about a quarter of the way down from the top, turned out to be key to understanding it.",
+   "A team of astronomers measured how fast those arcs are moving and how their positions have shifted over time. Their results helped show that the nebula is growing five times faster than astronomers had previously thought.",
+   "Comparing how fast something moves toward or away from us with how far it seems to drift across the sky over the years can help astronomers pin down its distance and the scale of the event that launched it. The picture was taken with the Gemini Multi-Object Spectrograph through filters for oxygen, sulfur and hydrogen-alpha, each isolating the light of one kind of glowing gas."
+  ],
+  "explore": [
+   "The image was processed by Travis Rector of the University of Alaska Anchorage, Jen Miller of Gemini Observatory, and Mahdi Zamani and Davide de Martin. The measurements focused on the two reddish arcs near the top and bottom of the frame."
+  ],
+  "understand": {
+   "summary": "Taken in visible light with GMOS on Gemini North through [O III], S II and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "Narrow filters isolate the glow of particular gases, and the long exposure gathers far more light than the eye."
+  },
+  "scaleExtra": null,
+  "alt": "A nebula with two small reddish arcs, one near the bottom and one near the top.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-gemini0603a",
+  "caption": "The Skull Nebula, NGC 246, imaged by the Gemini South telescope",
+  "captureDate": null,
+  "story": [
+   "This Gemini South image shows NGC 246, a planetary nebula in the constellation Cetus, nicknamed the Skull Nebula in the image's title. It lies about 1,600 light-years away.",
+   "Despite the name, planetary nebulae have nothing to do with planets. They are shells of gas thrown off by stars like the Sun near the end of their lives, lit up by the hot, exposed core left behind at the centre. Over time the shell spreads out and fades into space, while the core slowly cools.",
+   "The central star of NGC 246 shines at 12th magnitude, far too faint to see without a telescope. It is also moving quickly, whisking through space at about 80 kilometres (50 miles) per second. The image was made with the Gemini Multi-Object Spectrograph through filters for sulfur, hydrogen-alpha and oxygen, which each capture the glow of a different gas in the shell."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "Taken in visible light with GMOS on Gemini South through S II, hydrogen-alpha and [O III] filters; the colour mapping isn't published.",
+   "eye": "Narrow filters isolate the glow of particular gases, and the long exposure gathers far more light than the eye could."
+  },
+  "scaleExtra": "NGC 246 lies about 1,600 light-years away, according to the International Gemini Observatory.",
+  "alt": "A planetary nebula with a central star.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-noirlab2219a",
+  "caption": "The interacting galaxies NGC 4568 and NGC 4567, imaged by the Gemini North telescope",
+  "captureDate": null,
+  "story": [
+   "Two spiral galaxies appear together in this view taken by the Gemini North telescope in Hawai‘i: NGC 4568 at the bottom and NGC 4567 at the top. The pair are interacting, just beginning to clash and merge, in the direction of the constellation Virgo.",
+   "In around 500 million years, the two are expected to have become a single elliptical galaxy. Mergers like this can transform galaxies completely: the orderly disks and spiral arms are scrambled by gravity, and the stars settle into a smoother, rounder system. Gas pushed together during the collision can also spark bursts of new star formation along the way.",
+   "The object list for this image also includes SN 2020fqv; the SN prefix marks a supernova, an exploding star. The picture was taken through g, r, i and hydrogen-alpha filters, the last of which picks out the red glow of hydrogen gas in regions where stars are forming."
+  ],
+  "explore": [
+   "The image was processed by T.A. Rector of the University of Alaska Anchorage, J. Miller of Gemini Observatory, and M. Zamani and D. de Martin of NSF NOIRLab. Gemini North stands in Hawai‘i."
+  ],
+  "understand": {
+   "summary": "Taken in visible light with the Gemini Multi-Object Spectrograph on Gemini North through g, r, i and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "The long exposure gathers far more light than the eye."
+  },
+  "scaleExtra": null,
+  "alt": "Two interacting spiral galaxies, one at the bottom and one at the top.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-noirlab2313a",
+  "caption": "The reflection nebula Bernes 149 in the dark cloud Lupus 3, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "Two young, low-mass protostars, HR 5999 and HR 6000, light up nearby dust in this image, creating the reflection nebula Bernes 149. The scene lies about 600 light-years away.",
+   "The stars grew out of the dusty dark cloud Lupus 3, part of a bigger complex that holds as many as nine dark clouds. Dark clouds are dense pockets of cold gas and dust, and they look dark because their dust blocks the light of stars behind them.",
+   "A reflection nebula shines differently from glowing gas. Its dust produces no light of its own; it scatters the light of nearby stars toward us, rather like fog around a streetlamp. Protostars are stars still in the process of forming, gathering material from their surroundings. The picture was taken with the Dark Energy Camera (DECam) on the NSF Víctor M. Blanco 4-meter Telescope through g, r and i filters."
+  ],
+  "explore": [
+   "The image credit names T.A. Rector of the University of Alaska Anchorage, with image processing by D. de Martin and M. Zamani of NSF NOIRLab. The two stars, HR 5999 and HR 6000, are described as young and low in mass."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through g, r and i filters; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye, revealing the faint dust lit by the two young stars."
+  },
+  "scaleExtra": null,
+  "alt": "Dust lit up by two young stars, forming a reflection nebula within a dark cloud.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-gemini1504a",
+  "caption": "Molecular hydrogen in NGC 2346, imaged by the Gemini South telescope",
+  "captureDate": null,
+  "story": [
+   "This Gemini South image of NGC 2346 shows its molecular hydrogen gas at what was described as unprecedented resolution. NOIRLab's title compares the object to a cosmic butterfly with delicate wings. It lies in the direction of Monoceros.",
+   "The view is small: about 1 arcminute on a side, with north up and east to the left. For comparison, the full Moon spans about 30 arcminutes, so this entire picture covers only a tiny patch of sky.",
+   "Molecular hydrogen is hydrogen in which the atoms are paired up into molecules. When such gas is warmed or disturbed, it gives off a characteristic infrared glow, and a filter tuned to that glow reveals where the gas lies. The picture was taken with the GSAOI instrument on Gemini South through a single filter that isolates this light. Infrared light is invisible to our eyes, so the image is a translation of a glow we could never see directly."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "A near-infrared image from the GSAOI instrument on Gemini South through a single molecular hydrogen (H2) filter; how it was coloured isn't published.",
+   "eye": "Infrared light is invisible to the eye, so this glow of molecular hydrogen could not be seen directly."
+  },
+  "scaleExtra": null,
+  "alt": "Molecular hydrogen gas in NGC 2346, seen in a small patch of sky.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-gemini0302a",
+  "caption": "Hickson Compact Group 87, imaged by the Gemini South telescope",
+  "captureDate": "May 25, 2003",
+  "story": [
+   "This Gemini South image shows Hickson Compact Group 87 (HCG 87), a group of galaxies in the direction of Capricornus. It was taken while the Gemini Multi-Object Spectrograph (GMOS) was being commissioned in early 2003, when both images and spectra of the group were obtained.",
+   "The result compares very favourably with a space-based image of the same field, showing how sharp Gemini's view can be when atmospheric conditions are at their best. Telescopes on the ground normally look through a turbulent atmosphere that blurs fine detail, so steady air makes a big difference.",
+   "A compact group is a small collection of galaxies packed closely together, near enough that their gravity can distort one another's shapes over time. Commissioning is the testing period when a new instrument is checked and tuned before regular science observations begin, and a clear view like this one helps demonstrate what it can do."
+  ],
+  "explore": [
+   "Gemini South stands on Cerro Pachón in Chile. This image covers about 4 by 4 arcminutes of sky, with each pixel spanning 0.073 arcseconds, and the observations were made on May 25, 2003."
+  ],
+  "understand": {
+   "summary": "Taken with GMOS on Gemini South; the filters used and the colour mapping aren't published.",
+   "eye": "The telescope's large mirror and long exposure gather far more light than the eye, revealing faint detail in the galaxies."
+  },
+  "scaleExtra": null,
+  "alt": "A compact group of galaxies.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-iotw2344a",
+  "caption": "The Spare Tyre Nebula, IC 5148, imaged by the Gemini South telescope",
+  "captureDate": null,
+  "story": [
+   "Asymmetrical blooms of gas and a faint halo ring surround a central star, with a dark hole around it, in this Gemini South image of IC 5148, the Spare Tyre Nebula. This planetary nebula lies about 3000 light-years away near the 'neck' of the southern constellation Grus, the Crane.",
+   "The star at its centre is a white dwarf, the hot core of a dying star that was likely similar in mass to the Sun. Late in life, that star swelled into a red giant, and its outer layers were pushed into space to form the nebula. The dark hole exists because radiation pressure from the star shoves nearby gas away from the core. How the ring and the bow-like structures formed is still a mystery.",
+   "IC 5148 is one of the fastest-expanding planetary nebulae, moving outward at 180,000 kilometres per hour. Small telescopes show only a bright star with a ring; its faint layers need larger instruments to be seen this clearly."
+  ],
+  "explore": [
+   "IC 5148 was discovered in 1894, around the time researchers coined the term planetary nebula for these gas clouds that resembled giant planets; today they are known to be stellar remnants. This view used the Gemini Multi-Object Spectrograph (GMOS), and the expansion speed equals about 112,000 miles per hour."
+  ],
+  "understand": {
+   "summary": "Taken in visible light with GMOS on Gemini South through g, r, i, hydrogen-alpha and [O III] filters; the colour mapping isn't published.",
+   "eye": "Through small telescopes the nebula looks like a bright star with a ring; the long exposure on a large telescope reveals faint layers the eye would miss."
+  },
+  "scaleExtra": null,
+  "alt": "A planetary nebula with asymmetrical blooms of gas and a faint halo ring around a central star sitting in a dark hole.",
+  "flags": [
+   "caption also calls the object IC 1548 once, likely a typo for IC 5148"
+  ]
+ },
+ {
+  "id": "n-gemini0502b",
+  "caption": "The interacting galaxies NGC 1532 and NGC 1531, imaged by the Gemini South telescope",
+  "captureDate": "December 5, 2004",
+  "story": [
+   "Two galaxies are locked together in what NOIRLab calls a fiery waltz. The larger, NGC 1532, is a spiral that we see nearly edge-on from our vantage point in the Milky Way. Intense reddish star-forming regions spatter the edges of its dusty arms, which stand out in silhouette in the foreground against the galaxy's disk.",
+   "Farther back, fainter spiral arms dimmed by intervening gas and dust reveal the galaxy's three-dimensional shape. The smaller partner, NGC 1531, is dwarfed by its companion, much as the Large Magellanic Cloud is dwarfed by the Milky Way.",
+   "The encounter has left clues: at least two stray groupings of stars, and red clumps of glowing hydrogen. A warp in one of NGC 1532's background arms, together with a possible bridge of matter linking the pair, suggests the two are still influencing each other. Astronomers estimate that NGC 1532 is slightly more massive than our own galaxy."
+  ],
+  "explore": [
+   "According to the caption, the pair sits roughly 55 million light-years away in the direction of Eridanus, in the southern sky. It belongs to a larger group, with at least one more dwarf galaxy lying beyond the edges of this frame. The image was made with Gemini South's Multi-Object Spectrograph (GMOS)."
+  ],
+  "understand": {
+   "summary": "Taken with GMOS on Gemini South through U, g, r, i and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "The hydrogen-alpha filter highlights glowing hydrogen in star-forming regions, and the long exposure gathers far more light than the eye."
+  },
+  "scaleExtra": null,
+  "alt": "A large, nearly edge-on spiral galaxy with dusty arms and reddish star-forming regions, beside a much smaller companion galaxy.",
+  "flags": [
+   "distance mismatch: packet says 65 million light-years, caption says about 55 million"
+  ]
+ },
+ {
+  "id": "n-gemini1902a",
+  "caption": "HP 1, imaged by the Gemini South telescope",
+  "captureDate": null,
+  "story": [
+   "This Gemini South image shows HP 1, and the title of its release describes the subject as old stars captured in ultra-sharp detail. It is a colour composite made with the GSAOI camera working together with the GeMS adaptive optics system, with north up and east to the left.",
+   "Stars twinkle because turbulence in Earth's atmosphere constantly bends their light, and that same turbulence blurs pictures taken from the ground. An adaptive optics system measures the distortion continually and corrects it with a flexible mirror, so a telescope on the ground can produce much sharper views than it otherwise could.",
+   "Sharpness matters especially in crowded fields of stars, where blurring can merge neighbouring stars into a single smudge; separating them lets astronomers measure each star on its own. Mattia Libralato, of the Space Telescope Science Institute, produced the composite from observations made with the Gemini South telescope in Chile."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "Taken with the GSAOI camera and GeMS adaptive optics system on Gemini South; the filters and colour mapping aren't published.",
+   "eye": "Adaptive optics removes much of the atmospheric blurring that limits both telescopes and the eye, showing stars far more sharply."
+  },
+  "scaleExtra": null,
+  "alt": "A colour composite of the stars of HP 1.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-gemini0901b",
+  "caption": "NGC 3582 in the star-forming region RCW 57, imaged by the Gemini South telescope",
+  "captureDate": null,
+  "story": [
+   "Glowing gas and dark clouds of dust mingle among newly formed stars in this Gemini South view of NGC 3582, which lies at the centre of the star-forming region RCW 57 in the far-southern constellation Carina. Ultraviolet radiation from the young stars energizes the gas and makes it glow.",
+   "The intricate wisps in the cloud are sculpted by that radiation and by the explosions of nearby, very massive stars, which live exceptionally short lives compared with stars like the Sun. A 2006 study by M. Maercker found the region unusually rich in massive star formation, with more than 33 star-forming regions in the wider area in the final stages of formation.",
+   "The region can only be seen from the southern hemisphere, where it is a popular sight for small telescopes and binoculars. This picture is a mosaic of two pointings with the Gemini Multi-Object Spectrograph, covering 9.0 by 5.0 arcminutes. It was taken through three narrowband filters, with oxygen shown in blue, sulfur in green and hydrogen-alpha in red."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "Taken in visible light with the Gemini Multi-Object Spectrograph on Gemini South through narrowband filters: [O III] shown as blue, [S II] as green and hydrogen-alpha as red.",
+   "eye": "Narrow filters isolate the glow of individual gases, and the long exposures gather far more light than the eye, so the colours are much stronger than a telescope view."
+  },
+  "scaleExtra": null,
+  "alt": "Glowing gas and dark dust clouds with intricate wispy structures among young stars.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2530a",
+  "caption": "The surroundings of the gamma-ray pulsar PSR J2030+4415, imaged by the Gemini North telescope",
+  "captureDate": null,
+  "story": [
+   "This cloudy field in the direction of Cygnus hides an object the human eye cannot detect: the gamma-ray pulsar PSR J2030+4415. The image was taken with the Gemini Multi-Object Spectrograph (GMOS) on the Gemini North telescope in Hawai‘i. Evidence of a shock front can be seen in the upper left quarter of the frame.",
+   "A pulsar is a highly magnetized, rapidly spinning neutron star: the collapsed core left behind when a star 10–25 times more massive than the Sun dies in a supernova. Neutron stars pack roughly 1.5 times the Sun's mass into a sphere about 12 miles across, so dense that a teaspoon of their material would weigh as much as Mount Everest.",
+   "As a pulsar spins, it sends beams of radiation out from its poles, gamma rays in this case. When a beam sweeps across Earth, astronomers see it flash at regular intervals, like a lighthouse. The surrounding haze is a pulsar wind nebula: material shed by the supernova and blown around by winds from the pulsar."
+  ],
+  "explore": [
+   "Gemini North is one half of the International Gemini Observatory, which NSF NOIRLab operates with partial funding from the U.S. National Science Foundation. The credit acknowledges M. de Vries and R. Romani of Stanford University, and an annotated version of the image is also available."
+  ],
+  "understand": {
+   "summary": "Taken in visible light with GMOS on Gemini North through g, r, i and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "The pulsar's gamma rays are completely invisible to the eye; the image shows only the visible glow of the surrounding nebula."
+  },
+  "scaleExtra": null,
+  "alt": "A cloudy, glowing nebula with signs of a shock front in the upper left.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2543a",
+  "caption": "The galaxy cluster Abell 3574, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "In the top left of this view, the large galaxy IC 4329 is surrounded by rings of light, a sign of a past collision. On the right, spread-out fragments of blue and white gas hint at a similar clash involving the yellow galaxy NGC 5291. Both belong to Abell 3574, a gravitationally bound group of hundreds of galaxies in the direction of Centaurus.",
+   "Galaxy clusters are described as the second-largest-scale structures known in the Universe, yet even on that vast scale their galaxies are never very far apart, so encounters can happen. Look closely and you can find more evidence of galaxies interacting through gravity.",
+   "The picture was taken with the 570-megapixel Dark Energy Camera (DECam), fabricated by the Department of Energy, on the Víctor M. Blanco 4-meter Telescope, which is one of about 40 telescopes at Cerro Tololo Inter-American Observatory in Chile. DECam was designed for the Dark Energy Survey, which ran from 2013 to 2019 and mapped hundreds of millions of galaxies to help astronomers understand dark energy."
+  ],
+  "explore": [
+   "Since the survey ended, its data have been released to the public, and other researchers have been able to use DECam on the Blanco telescope. Cerro Tololo is a Program of NSF NOIRLab. The image was processed by R. Colombari, M. Zamani and T.A. Rector."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through g and i filters; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye, revealing faint rings and gas fragments around the galaxies."
+  },
+  "scaleExtra": "Abell 3574 lies about 200 million light-years away, according to NOIRLab.",
+  "alt": "A field of galaxies with a large galaxy surrounded by rings of light at top left and blue and white gas fragments beside a yellow galaxy on the right.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2421a",
+  "caption": "The interacting galaxy group RSCG 55, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "Faint trails of material stretch between the galaxies of RSCG 55, a group of gravitationally intertwined galaxies in the constellation Virgo. These trails are tidal bridges, made of stars, gas and dust pulled from one galaxy toward another during a close encounter in the past.",
+   "The galaxies are interacting, which means they sit close enough to influence each other through gravity. Over time, such interactions can greatly change how galaxies evolve, distorting their shapes, boosting their rates of star formation and eventually leading to mergers. Encounters like these have played a big part in producing the variety of galaxies seen in the Universe today.",
+   "The image was taken with the Dark Energy Camera (DECam), built by the Department of Energy and mounted at the prime focus of the Víctor M. Blanco 4-meter Telescope. That telescope stands at Cerro Tololo Inter-American Observatory in Chile, a Program of NSF NOIRLab."
+  ],
+  "explore": [
+   "The survey behind this image, the DESI Legacy Imaging Surveys, was carried out to pick out targets for the Dark Energy Spectroscopic Instrument (DESI). The object listing for this image also names NGC 4410."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through g, r, i and z filters; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye, revealing faint tidal bridges between the galaxies."
+  },
+  "scaleExtra": null,
+  "alt": "A group of galaxies linked by faint trails of material.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2338a",
+  "caption": "The interacting galaxies NGC 454, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "Two galaxies face off in the constellation Phoenix: at the top, a red elliptical galaxy called NGC 454 E, and below it NGC 454 W, a blue, gas-rich irregular galaxy. Together they are known as NGC 454, about 160 million light-years away, and their encounter spans a hundred thousand light-years.",
+   "Although their interaction is at an early stage, both galaxies are already badly distorted. Material from each has been stretched far beyond its main body, from scattered stars at the top right to globular clusters forming at the lower left of NGC 454 W. Dust lanes cross NGC 454 E, while NGC 454 W barely resembles the disk galaxy it was thought to be.",
+   "A faint, veil-like halo surrounds the pair, and many young stars populate the system, further evidence of an early merger. The two are now gravitationally bound and will eventually combine into one galaxy."
+  ],
+  "explore": [
+   "The pair was captured with the US Department of Energy's Dark Energy Camera (DECam), which works on the Víctor M. Blanco 4-meter Telescope in Chile, as part of the DESI Legacy Imaging Surveys. Image processing was by T.A. Rector, J. Miller, M. Rodriguez and M. Zamani."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through g, r and z filters; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye, bringing out the faint halo and stretched material around the pair."
+  },
+  "scaleExtra": null,
+  "alt": "A red elliptical galaxy above a blue irregular galaxy, both distorted and surrounded by a faint halo.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2508a",
+  "caption": "The dwarf galaxy NGC 3109, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "NGC 3109 shows blue hues in this view, but it is an irregular dwarf galaxy with no central bulge and no graceful spiral arms. It belongs to our Local Group of galaxies, lies around four million light-years away in the constellation Hydra, and measures about 40,000 light-years across.",
+   "It may look plain, but spectroscopic analysis shows that NGC 3109 ranks among the Local Group's most metal-poor galaxies. To astronomers, 'metals' means every element apart from hydrogen and helium, including carbon, nitrogen and oxygen. Stars forge these heavier elements from hydrogen and helium, then release them into space when they die, so later generations of stars contain them.",
+   "Because NGC 3109 has a composition similar to that of stars and galaxies in the early Universe, it may offer insight into how the chemistry of early galaxies evolved. The image was taken with the Dark Energy Camera on the NSF Víctor M. Blanco 4-meter Telescope in Chile."
+  ],
+  "explore": [
+   "DECam is a U.S. Department of Energy instrument, and the Blanco telescope stands at NSF Cerro Tololo Inter-American Observatory, a Program of NSF NOIRLab. Image processing was by R. Colombari and M. Zamani of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through g, r and I filters; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye, revealing the faint, spread-out stars of this dwarf galaxy."
+  },
+  "scaleExtra": null,
+  "alt": "A blue, featureless irregular dwarf galaxy with no central bulge or spiral arms.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2320a",
+  "caption": "The barred spiral galaxy NGC 1808, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "A faint blue ring encircles the smouldering centre of NGC 1808, a barred spiral galaxy in the southern constellation Columba, the Dove. Dark dust lanes lace through the galaxy's middle region, and softly glowing outer arms, slightly warped, surround it all.",
+   "The core is thought to host a supermassive black hole, marked by material falling onto it and unusually high brightness. The ring around it holds star clusters and supernova remnants and is a site of starburst activity, where an exceptional number of hot, bright young stars are being produced. The dust lanes are the result of large outflows of hydrogen gas from the nucleus.",
+   "This burst of star formation is thought to stem from tidal encounters in the past with NGC 1792, a nearby galaxy. The warped outer arms point the same way: such an encounter could have given NGC 1808 its lopsided shape and driven gas toward the nucleus, igniting star formation in its ring."
+  ],
+  "explore": [
+   "NGC 1808 lies about 40 million light-years away. The image was taken with the Dark Energy Camera (DECam) on the Víctor M. Blanco 4-meter Telescope, located at Cerro Tololo Inter-American Observatory in Chile, and processed by R. Colombari and M. Zamani of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through g, r and i filters; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye, bringing out the faint, warped outer arms."
+  },
+  "scaleExtra": null,
+  "alt": "A barred spiral galaxy with a bright centre ringed in faint blue, dark dust lanes through its middle and softly glowing, slightly warped outer arms.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2415a",
+  "caption": "The polar ring galaxy NGC 2685, imaged by the Gemini North telescope",
+  "captureDate": null,
+  "story": [
+   "This Gemini North image shows NGC 2685, also called the Helix Galaxy, about 40 million light-years away in Ursa Major. It is a peculiar lenticular galaxy of the type called a polar ring galaxy, meaning that a ring of gas, stars and dust circles it at right angles to the flat plane of the main galaxy.",
+   "Astronomers believe such crossed planes point to past galaxy interactions, mergers or the gravitational capture of material. Current research suggests NGC 2685 took on its present form when it pulled in material from another galaxy and stretched it into the ring that now encircles it. A lenticular galaxy, for reference, is a disk galaxy without prominent spiral arms.",
+   "As one of the closest known polar ring galaxies, it is among the easiest of its kind to study. Within the Shapley-Ames Catalog of Bright Galaxies it has been called the most unusual galaxy, and it appears as number 336 in Halton Arp's Atlas of Peculiar Galaxies."
+  ],
+  "explore": [
+   "Gemini North forms half of the International Gemini Observatory, which NSF NOIRLab operates with funding from the U.S. National Science Foundation. The WIYN 0.9-meter Telescope at Kitt Peak National Observatory recorded another view of this galaxy in 1998."
+  ],
+  "understand": {
+   "summary": "Taken in visible light with the Gemini Multi-Object Spectrograph on Gemini North through g, r and i filters; the colour mapping isn't published.",
+   "eye": "The long exposure gathers far more light than the eye, revealing the faint ring circling the galaxy."
+  },
+  "scaleExtra": null,
+  "alt": "A lenticular galaxy crossed by a ring of gas, stars and dust at right angles to its disk.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2241a",
+  "caption": "The galaxy NGC 4495, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "NGC 4495 lies in the constellation Coma Berenices, which hosts myriad other astronomical objects. It has had a turbulent past: astronomers have recorded several supernovae there over the years, including three named 1994S, 2010lo and 2011ca.",
+   "Those explosions did not all happen the same way. 1994S was a Type Ia supernova, set off when a white dwarf, the leftover core of a star, interacted with a companion star and its core reignited. 2011ca was a Type Ic supernova, which happens when the core of a single massive star collapses. A supernova is a dying star's final burst of energy, and several different processes can trigger one.",
+   "The image was taken with the Department of Energy's Dark Energy Camera (DECam), working on the Víctor M. Blanco 4-meter Telescope in Chile, as part of the DESI Legacy Imaging Surveys. Those surveys blended three projects that together observed a third of the night sky."
+  ],
+  "explore": [
+   "The Legacy Surveys were carried out to choose targets for the Dark Energy Spectroscopic Instrument (DESI), an international collaboration managed by the Department of Energy's Lawrence Berkeley National Laboratory. Most of the money to build and run DESI comes from the DOE's Office of Science."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through g, r and z filters; the colour mapping isn't published.",
+   "eye": "The z filter reaches into near-infrared light the eye cannot see, and long exposures gather far more light than the eye."
+  },
+  "scaleExtra": null,
+  "alt": "The galaxy NGC 4495 in the constellation Coma Berenices.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2110a",
+  "caption": "A field of galaxies including LEDA 14884, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "Bright dots scattered across black space make this look like a detailed photo of a star-filled night sky. It isn't. Although the image was taken from Earth's southern hemisphere, the dots are galaxies, and the distinctive ring-shaped one on the right is LEDA 14884.",
+   "The picture was assembled from Dark Energy Survey data. That ambitious project mapped hundreds of millions of galaxies using the Dark Energy Camera (DECam), a Department of Energy instrument that works on the Víctor M. Blanco 4-meter Telescope in Chile.",
+   "Thousands of very different galaxies crowd this single view. Yet only about 100 years ago, most astronomers believed the Milky Way was the only galaxy there was. In 1925, Edwin Hubble, drawing on earlier work by Henrietta Leavitt and Ejnar Hertzsprung, demonstrated that the Andromeda Galaxy sits outside our own galaxy, and people began to grasp how vast the Universe really is."
+  ],
+  "explore": [
+   "The object listed for this image is LCRS B041803.7-391607, in the direction of Eridanus. Image processing was by Travis Rector, Jen Miller, Mahdi Zamani and Davide de Martin, and the Blanco telescope is part of Cerro Tololo Inter-American Observatory."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through g, r and i filters; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye, revealing thousands of faint galaxies that look like stars at first glance."
+  },
+  "scaleExtra": null,
+  "alt": "Black space scattered with bright dots that are galaxies, including a distinctive ring-shaped galaxy on the right.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2221a",
+  "caption": "The spiral galaxy NGC 2403, imaged by the Nicholas U. Mayall 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "Glowing red spots dot NGC 2403, a spiral galaxy also catalogued as Caldwell 7, in this picture from the Mosaic camera on Kitt Peak's Nicholas U. Mayall 4-meter Telescope. Kitt Peak National Observatory (KPNO) is part of NSF NOIRLab. The red patches are H II regions, clouds of ionized hydrogen that mark where young, hot stars are being born.",
+   "Newborn stars often ionize the hydrogen around them as they form, making it glow. NGC 2403 has also seen the other end of a star's life: it hosted SN 2004dj, described as the brightest and nearest stellar death observed so far this millennium. The part of the galaxy holding the star that exploded in 2004 was observed before, during and after the blast, giving a revealing timeline of the event.",
+   "Stars form over timescales far longer than a human lifetime, so astronomers must piece their story together like a puzzle, studying different stars at different stages. Supernovae unfold very quickly, even by human standards, which makes them valuable for testing and refining theories of how stars live and die."
+  ],
+  "explore": [
+   "The galaxy lies in the direction of Camelopardalis. The credit names M. T. Patterson of New Mexico State University, with image processing by T.A. Rector, M. Zamani and D. de Martin."
+  ],
+  "understand": {
+   "summary": "Taken with the Mosaic camera on the NSF Nicholas U. Mayall 4-meter Telescope through U, B, R and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "The hydrogen-alpha filter isolates the red glow of ionized hydrogen, making star-forming regions stand out far more than they would to the eye."
+  },
+  "scaleExtra": null,
+  "alt": "A spiral galaxy dotted with glowing red spots.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2233a",
+  "caption": "The Triangulum Galaxy, Messier 33, imaged by the Nicholas U. Mayall 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "This view from the Nicholas U. Mayall 4-meter Telescope at Kitt Peak National Observatory shows the Triangulum Galaxy, also called Messier 33. Almost 3 million light-years from Earth, it is a close neighbour of the Andromeda Galaxy.",
+   "Triangulum is the third-largest member of the Local Group, the gathering of galaxies that includes the Milky Way and its nearest neighbours; Andromeda is the largest. The two share a history, though astronomers are still working out the details. Because they are so close, some researchers suggest Triangulum is a satellite of Andromeda, much as the Moon is a satellite of Earth, only on a vastly larger scale.",
+   "Others propose they are independent galaxies that have simply grazed each other, pointing to streams of stars and neutral hydrogen gas that link them. Whatever the case, the two will probably collide in 2.5 billion years, merging and eventually evolving into a lenticular galaxy."
+  ],
+  "explore": [
+   "The data were obtained and processed by P. Massey of Lowell Observatory with G. Jacoby, K. Olsen and C. Smith of AURA/NSF. Image processing was by M. Zamani, A. Hussein and D. de Martin of NSF NOIRLab. Kitt Peak is a Program of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken with the Mosaic I camera on the NSF Nicholas U. Mayall 4-meter Telescope through broadband U, B, V, R and I filters plus narrow [O III], S II and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "Narrow filters highlight glowing gas in star-forming regions, and long exposures gather far more light than the eye."
+  },
+  "scaleExtra": "The Triangulum Galaxy lies almost 3 million light-years from Earth, according to NOIRLab.",
+  "alt": "The Triangulum Galaxy, a spiral galaxy.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2347a",
+  "caption": "The grand design spiral galaxy NGC 5364, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "Swirling arms and a glowing core mark NGC 5364 as a spiral galaxy in the constellation Virgo. Below it, a fuzzy smear is the smaller lenticular galaxy NGC 5363.",
+   "NGC 5364 is classed as a grand design spiral, a type with prominent, well-defined arms winding outward from a distinct core. Only ten percent of spirals earn the label, and because of their seemingly perfect structure they are seen as the model of what a spiral galaxy should look like.",
+   "Look closer, though, and this one has flaws. Compared with other grand design spirals, its arms are shapeless in places and lopsided. Astronomers think NGC 5363 is responsible: although it is much smaller, it sits close enough that the two pull on each other, shifting stars and gas within NGC 5364's arms and warping the galaxy's overall shape."
+  ],
+  "explore": [
+   "NGC 5364 lies about 50 million light-years away. The picture comes from DECam, the Dark Energy Camera, working on the Blanco 4-meter Telescope in Chile, and was processed by R. Colombari and M. Zamani of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through g, r and z filters; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye, bringing out the full sweep of the spiral arms."
+  },
+  "scaleExtra": null,
+  "alt": "A spiral galaxy with swirling arms and a bright core, with a fuzzy smear of a smaller galaxy below it.",
+  "flags": []
+ },
+ {
+  "id": "n-noirlab2406f",
+  "caption": "The supernova remnant Puppis A, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "This image shows Puppis A (Pup A), a supernova remnant: the expanding cloud of debris left behind after a star exploded. It is one of many objects found within a large 1.3-gigapixel image of the Vela Supernova Remnant.",
+   "On the sky, Pup A overlaps the Vela Supernova Remnant, but the two are not neighbours. Pup A is four times more distant, roughly 6500–7000 light-years from Earth, and it measures about 100 light-years across.",
+   "Supernova remnants glow as their fast-moving gas collides with the thin material between the stars. The filters used here isolate light from oxygen, from sulfur, and from hydrogen-alpha combined with nitrogen, highlighting different parts of the glowing gas. The image was captured with the Dark Energy Camera (DECam), fabricated by the Department of Energy, which works on the NSF Víctor M. Blanco 4-meter Telescope in Chile."
+  ],
+  "explore": [
+   "NOIRLab's Communication, Education & Engagement team produced the image for its Legacy Imaging Program. The Blanco telescope stands at Cerro Tololo Inter-American Observatory, a Program of NSF NOIRLab, and the image was processed by T.A. Rector, M. Zamani and D. de Martin."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through [O III], S II and hydrogen-alpha plus nitrogen filters; the colour mapping isn't published.",
+   "eye": "Narrow filters isolate faint glows from particular gases, and long exposures gather far more light than the eye can."
+  },
+  "scaleExtra": "Puppis A is about 100 light-years in diameter and roughly 6500–7000 light-years away, according to NOIRLab.",
+  "alt": "The Puppis A supernova remnant.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2608a",
+  "caption": "The barred spiral galaxy NGC 1269, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "A bar slices through the centre of NGC 1269, and inner and outer disks form wheel-like rings around its core, earning it the title the Cosmic Steering Wheel. NGC 1269 is an early-type spiral galaxy in the constellation Eridanus, some 33 million light-years from Earth.",
+   "Bars are common features in spiral galaxies. The rings in NGC 1269 are thought to have formed after NGC 1269 merged with another galaxy, while the inner disk is believed to have been shaped further by density waves spreading outward from the galaxy's centre. Density waves are zones of slightly higher density that travel through a galaxy's disk, squeezing gas and stars as they pass.",
+   "The data were drawn from the Dark Energy Survey's archive, a project which the Department of Energy and NSF operated between 2013 and 2019 using the specially designed Dark Energy Camera (DECam). The survey imaged hundreds of millions of galaxies, and today DECam is open to other scientists on the Blanco telescope."
+  ],
+  "explore": [
+   "DECam was fabricated by the Department of Energy and is mounted on the NSF Víctor M. Blanco 4-meter Telescope, which stands at Cerro Tololo Inter-American Observatory. Image processing was by R. Colombari and M. Zamani of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through g and r filters; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye, revealing the outer disk that forms the outer 'wheel'."
+  },
+  "scaleExtra": null,
+  "alt": "A barred spiral galaxy with inner and outer rings forming wheel-like shapes around its core.",
+  "flags": [
+   "caption says the Dark Energy Survey studied dark matter; omitted as likely an error"
+  ]
+ },
+ {
+  "id": "n-iotw2403a",
+  "caption": "The spiral galaxy NGC 1058, imaged by the Gemini North telescope",
+  "captureDate": null,
+  "story": [
+   "A luminous centre and arms streaked with blues and pinks mark NGC 1058, a quiet-looking spiral galaxy imaged by the Gemini Multi-Object Spectrograph (GMOS) on Gemini North. The colours along its arms indicate active regions of star formation. In the night sky, the galaxy appears roughly as bright as Proxima Centauri.",
+   "Its calm appearance hides a record of starbursts and supernovae. NGC 1058 is a Seyfert Type 2 galaxy, a type with an active, bright centre, and it belongs to the NGC 1023 Group in the constellation Perseus. Astronomers have observed three supernovae there: SN 1961V, SN 1969L and SN 2007gr.",
+   "The first of these, SN 1961V, remains a mystery. A faint expanding shell of gas can just be made out, but some astronomers doubt it was a true supernova, because a bright star still shines near the spot. As the supposed explosion slowly fades, that suspect star keeps shining, dimming unusually slowly."
+  ],
+  "explore": [
+   "Another view of NGC 1058 has been captured from Kitt Peak National Observatory. Image processing for this Gemini picture was by T.A. Rector, J. Miller, M. Rodriguez and M. Zamani, and Gemini North is operated by NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken in visible and near-infrared light with GMOS on Gemini North through g, r, i, z and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "The long exposure gathers far more light than the eye, bringing out the faint arms and their star-forming regions."
+  },
+  "scaleExtra": "NGC 1058 lies about 30 million light-years away, according to NOIRLab.",
+  "alt": "A spiral galaxy with a bright centre and arms streaked with blue and pink.",
+  "flags": []
+ },
+ {
+  "id": "n-gemini1006b",
+  "caption": "The central galaxy of the cluster Abell 3827, imaged by the Gemini South telescope",
+  "captureDate": null,
+  "story": [
+   "At the centre of this Gemini South view of the galaxy cluster Abell 3827 sits a huge galaxy, ESO 146-IG 005, surrounded by its cluster companions. Within it are the remains of at least four galactic nuclei that the big galaxy is in the process of 'digesting'.",
+   "Out to a distance of about 1.5 billion light-years, this central galaxy is believed to outweigh every other in our local universe. Giant galaxies at the centres of clusters can grow by swallowing smaller galaxies that fall toward them, and the leftover nuclei here are traces of such meals still under way.",
+   "The image covers approximately 5 by 5 arcminutes of sky and was made with Gemini South's Multi-Object Spectrograph, in Chile. Travis Rector of the University of Alaska Anchorage combined and processed the g-, r- and i-band images into the colour composite. The cluster, in the direction of Indus, has a redshift of 0.097."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "Taken in visible light with the Gemini Multi-Object Spectrograph on Gemini South through g, r and i filters; the colour mapping isn't published.",
+   "eye": "The long exposure gathers far more light than the eye, revealing the faint remnants of swallowed galaxies."
+  },
+  "scaleExtra": null,
+  "alt": "A large central galaxy surrounded by its cluster companions.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2215a",
+  "caption": "The planetary nebula EGB 6, imaged by the Nicholas U. Mayall 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "Looking a little like an enormous bubble in space, this is the planetary nebula EGB 6, captured with the Nicholas U. Mayall 4-meter Telescope, which stands at Kitt Peak National Observatory (KPNO).",
+   "Planetary nebulae, despite the name, are unrelated to planets. They arise in the final millennia of intermediate-mass stars, those with between one and eight times the Sun's mass. Near the end of its life such a star becomes a red giant, as fusion temporarily reignites in its core. Layers of gas shed during that phase soak up huge amounts of energy and glow as a planetary nebula.",
+   "Those 'dying millennia' last only about 20,000 years. That is a mere blink compared with the lives of these stars, which shine steadily for between 30 million and 10 billion years, with heavier stars at the shorter end. Catching one in this phase means seeing a fleeting moment in a star's life."
+  ],
+  "explore": [
+   "The image was taken through filters for oxygen ([O III]) and hydrogen-alpha, and processed by T.A. Rector of the University of Alaska Anchorage with M. Zamani and D. de Martin of NSF NOIRLab. EGB 6 lies in the direction of Leo."
+  ],
+  "understand": {
+   "summary": "Taken with the Mosaic I camera on the NSF Nicholas U. Mayall 4-meter Telescope through [O III] and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "The narrow filters isolate the faint glow of oxygen and hydrogen, which long exposures gather far better than the eye."
+  },
+  "scaleExtra": null,
+  "alt": "A planetary nebula resembling an enormous bubble.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2126a",
+  "caption": "The dwarf galaxy Sextans A, imaged by the Nicholas U. Mayall 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "Bright young stars glitter across Sextans A, an irregular dwarf galaxy whose roughly square outline stands out in this image from Kitt Peak National Observatory's Nicholas U. Mayall 4-meter Telescope. It lies around 4.4 million light-years from Earth.",
+   "That odd outline has been twisted into shape by successive waves of supernova explosions. Sextans A is only a fraction of the Milky Way's size, measuring just about 5000 light-years across.",
+   "Irregular galaxies lack the orderly look of spirals or ellipticals and come in all sorts of strange shapes. They are relatively small, and they are often vulnerable to being pulled out of shape by close encounters or collisions with larger galaxies, which can sometimes explain their irregular forms. For Sextans A, the shaping is attributed to its own exploding stars. Bright young stars, like the ones sparkling here, are a sign that the galaxy is still forming new generations."
+  ],
+  "explore": [
+   "The data were obtained and processed by P. Massey of Lowell Observatory with G. Jacoby, K. Olsen and C. Smith of AURA/NSF. Image processing was by T.A. Rector of the University of Alaska Anchorage with M. Zamani and D. de Martin of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken with the Mosaic I camera on the NSF Nicholas U. Mayall 4-meter Telescope through broadband U, B, V, R and I filters plus narrow [O III], S II and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye."
+  },
+  "scaleExtra": "Sextans A lies around 4.4 million light-years from Earth and measures about 5000 light-years across, according to NOIRLab.",
+  "alt": "A roughly square irregular dwarf galaxy sprinkled with bright young stars.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2325a",
+  "caption": "The dark nebula LDN 1622, imaged by the Nicholas U. Mayall 4-meter Telescope",
+  "captureDate": "2018",
+  "story": [
+   "Shadowy clouds spread across this image of LDN 1622, a dark nebula. Dense clouds of gas and dust like this blot out the light of objects behind them, so they appear as ink-dark shapes against a backdrop of stars.",
+   "At a distance of 1300 light-years, LDN 1622 belongs to the nearby Orion complex, a star-forming area crowded with young stars and other dark nebulae. The picture was taken in 2018 with Mosaic-3, a wide-field camera on Kitt Peak National Observatory's Nicholas U. Mayall 4-meter Telescope in Arizona, built for covering large stretches of the night sky.",
+   "Mosaic-3 has since been retired to make room for the Dark Energy Spectroscopic Instrument (DESI), described as the world's most powerful multi-object survey spectrograph. The swap shows one advantage of telescopes on the ground: instruments can be upgraded or replaced as new technology arrives. This observation was made before the 2022 Contreras Fire, which affected Kitt Peak."
+  ],
+  "explore": [
+   "The image credit names T. A. Rector, who also processed the image together with M. Zamani and D. de Martin of NSF NOIRLab. It was made through g, i and hydrogen-alpha filters, and Kitt Peak is a Program of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken with the Mosaic-3 camera on the NSF Nicholas U. Mayall 4-meter Telescope through g, i and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye, bringing out the faint starry backdrop against which the dark clouds stand out."
+  },
+  "scaleExtra": null,
+  "alt": "Shadowy, ink-dark clouds silhouetted against a backdrop of stars.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2247a",
+  "caption": "The galaxy quartet NGC 6845, imaged by the Gemini South telescope",
+  "captureDate": null,
+  "story": [
+   "Four interacting galaxies share this view from Gemini South, all of them caught up in each other's gravity. The pair at the top are well-defined spiral galaxies, while the two below them are disk-shaped lenticular galaxies. Together they are known as NGC 6845, roughly 270 million light-years from Earth.",
+   "They sit in the constellation Telescopium, fittingly, one of a handful of constellations that honour scientific instruments instead of animals or figures from mythology. Between the galaxies are signs of star-forming regions and filaments of stars that have been pulled away from the galaxies they started in.",
+   "Because they are relatively close neighbours, the galaxies are interacting, and their mutual gravity is subtly distorting them. Astronomers believe the two spirals will eventually evolve into lenticular galaxies. A lenticular galaxy is a disk galaxy without prominent spiral arms, often with little ongoing star formation."
+  ],
+  "explore": [
+   "Gemini South and its twin make up the International Gemini Observatory, run by NSF NOIRLab. The credit names G. Gimeno, R. J. Díaz and H. Dottori, with image processing by T.A. Rector, M. Zamani and D. de Martin."
+  ],
+  "understand": {
+   "summary": "Taken with the Gemini Multi-Object Spectrograph on Gemini South through r, i and z filters; the colour mapping isn't published.",
+   "eye": "The z filter reaches into near-infrared light the eye cannot see, and the long exposure gathers far more light than the eye."
+  },
+  "scaleExtra": null,
+  "alt": "Four galaxies: two spiral galaxies at the top and two disk-shaped lenticular galaxies below, linked by filaments of stars.",
+  "flags": []
+ },
+ {
+  "id": "n-noirlab2204c",
+  "caption": "The young stellar jet MHO 1502, imaged by the Gemini South telescope",
+  "captureDate": null,
+  "story": [
+   "A knotted jet of gas stretches through this infrared image of MHO 1502, a young stellar jet captured from Chile by the international Gemini Observatory. The jet is embedded in an H II region, an area of star formation where hydrogen gas is lit up by young stars, in the direction of Vela.",
+   "The jet is bipolar, streaming out in two opposite directions, and it is made of a chain of knots. That pattern suggests its source, which is thought to be a pair of stars, has been emitting material in fits and starts rather than steadily, with each knot perhaps marking a separate outburst.",
+   "The crisp detail comes from Gemini South's adaptive optics system, which helps counteract the blurring caused by turbulence in Earth's atmosphere. Young stars often launch jets like this while they are still growing, and the jets can carry material far out into the surrounding cloud. The object listing for this image also includes DGL 4."
+  ],
+  "explore": [
+   "The observations were led by principal investigator L. Ferrero of the Universidad Nacional de Córdoba. Image processing was by T.A. Rector of the University of Alaska Anchorage with M. Zamani and D. de Martin of NSF NOIRLab. The Gemini Observatory is a Program of NSF's NOIRLab."
+  ],
+  "understand": {
+   "summary": "A near-infrared image from the GSAOI instrument on Gemini South, using adaptive optics, through a molecular hydrogen (H2) filter and a broadband filter; the colour mapping isn't published.",
+   "eye": "Infrared light is invisible to the eye, so the colours here are a translation of light we cannot see."
+  },
+  "scaleExtra": null,
+  "alt": "A knotted jet of gas made of a chain of knots, stretching in two directions.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-noirlab2406g",
+  "caption": "The dark nebula TGU H1674, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "An inky-black cloud blots out the stars in this view of the dark nebula TGU H1674, in the direction of Vela. Dark nebulae, also called absorption nebulae, are clouds of gas and dust so dense that they block visible light, leaving them black against the starry background.",
+   "The dust grains inside such clouds absorb and scatter the light of stars behind them. Dark nebulae are often cold and dense enough that new stars can form within them, hidden from view at visible wavelengths until they clear away their surroundings.",
+   "TGU H1674 is one of many objects found within a large 1.3-gigapixel image of the Vela Supernova Remnant. That image was captured with the Dark Energy Camera, which the Department of Energy fabricated, on the NSF Víctor M. Blanco 4-meter Telescope in Chile. Its filters isolate light from oxygen, from sulfur, and from hydrogen-alpha combined with nitrogen."
+  ],
+  "explore": [
+   "The Blanco telescope stands at Cerro Tololo Inter-American Observatory, a Program of NSF NOIRLab. Image processing was by T.A. Rector of the University of Alaska Anchorage with M. Zamani and D. de Martin of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through [O III], S II and hydrogen-alpha plus nitrogen filters; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye."
+  },
+  "scaleExtra": null,
+  "alt": "An inky-black cloud silhouetted against a starry background.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-iotw2332a",
+  "caption": "The spiral galaxy NGC 289, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "Bluish spiral arms reach across space in this view of NGC 289, a large, extended spiral galaxy in the constellation Sculptor. It lies around 75 million light-years away, yet its arms span more than 100,000 light-years, making it larger than our own Milky Way.",
+   "NGC 289 is classified as a Type II Seyfert galaxy, with rich patches of star formation and a bright core, yet overall it is relatively faint. Studies have found that it holds large amounts of dark matter, a common trait of galaxies with low surface brightness. Surface brightness describes how much light a galaxy gives off for each patch of sky it covers, so faint, spread-out galaxies score low.",
+   "Dark matter has never been directly observed; astronomers infer it from its gravitational pull on stars and gas. The image comes from the Dark Energy Camera (DECam), mounted on the Víctor M. Blanco 4-meter Telescope in Chile; the camera has been open to other scientists since its original survey ended."
+  ],
+  "explore": [
+   "The Blanco telescope stands at Cerro Tololo Inter-American Observatory (CTIO), which is part of NSF NOIRLab. Image processing was by T.A. Rector of the University of Alaska Anchorage, J. Miller of Gemini Observatory and M. Zamani of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through g, r and z filters; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye, revealing the faint outer arms of this low-surface-brightness galaxy."
+  },
+  "scaleExtra": null,
+  "alt": "A large spiral galaxy with a bright core and extended bluish arms.",
+  "flags": [
+   "caption says DECam was built to study dark matter; omitted as likely an error"
+  ]
+ },
+ {
+  "id": "n-iotw2316a",
+  "caption": "The Raspberry Nebula, LBN 867, imaged by the Nicholas U. Mayall 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "A characteristic red bloom of glowing gas marks this image of LBN 867, nicknamed the Raspberry Nebula, in the constellation Orion. The star HD 34989 shines prominently near the centre, wrapped in a subtle bluish glow.",
+   "Despite the nickname, the nebula is layered more like an onion than a raspberry, combining three objects in one. The red bloom is an emission nebula, glowing because light from HD 34989 ionizes its hydrogen gas. HD 34989 itself is a main sequence star; prominent as it looks here, from Earth it appears only about as bright as the planet Uranus.",
+   "The third object is easy to miss. The faint bluish glow around the star is the reflection nebula vdB 38, where nearby interstellar dust bounces the star's blue-white light toward us. The image was captured by the Nicholas U. Mayall 4-meter Telescope fitted with the Mosaic-3 detector, at Kitt Peak National Observatory, part of NSF NOIRLab."
+  ],
+  "explore": [
+   "Main sequence stars are those steadily fusing hydrogen in their cores, the long, stable stage of a star's life that the Sun is in today. The credit and image processing are by T.A. Rector of the University of Alaska Anchorage, with M. Zamani and D. de Martin of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken with the Mosaic-3 camera on the NSF Nicholas U. Mayall 4-meter Telescope through g, I and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "The hydrogen-alpha filter highlights the red glow of ionized hydrogen, and long exposures bring out the faint blue reflection nebula the eye would miss."
+  },
+  "scaleExtra": null,
+  "alt": "A red bloom of glowing gas with a bright star near the centre surrounded by a faint bluish glow.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2035a",
+  "caption": "The spiral galaxy NGC 3198, imaged by the Nicholas U. Mayall 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "The spiral galaxy NGC 3198 appears in full in this image, from its bright central bulge out to the faint edges of its tightly wound arms. The galaxy sits in the constellation Ursa Major, about 47 million light-years away.",
+   "Almost everything in the background is a galaxy or galaxy cluster, a sea of distant galaxies in every shape, size and orientation. NGC 3198 itself has helped astronomers with an old problem: measuring distances accurately. Working out how far away anything is, from the Sun to remote galaxies, takes a combination of measurements and methods.",
+   "NGC 3198 allowed astronomers to calibrate distance measurements based on Cepheid variables, a type of pulsating star. Cepheids brighten and dim with a period linked to their true brightness, so comparing how bright one really is with how bright it appears reveals its distance. This view was recorded by the Mosaic camera on the Nicholas U. Mayall 4-meter Telescope at Kitt Peak National Observatory."
+  ],
+  "explore": [
+   "The observations were led by principal investigator M. T. Patterson of New Mexico State University, and the image was processed by Travis Rector, Mahdi Zamani and Davide de Martin. Kitt Peak is a Program of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken with the Mosaic camera on the NSF Nicholas U. Mayall 4-meter Telescope through U, B, R and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye, revealing the galaxy's faint outer arms and the many distant galaxies behind it."
+  },
+  "scaleExtra": "NGC 3198 lies about 47 million light-years away, according to NOIRLab.",
+  "alt": "A spiral galaxy with a bright central bulge and tightly wound arms, set against many small background galaxies.",
+  "flags": []
+ },
+ {
+  "id": "n-noirlab2521bq",
+  "caption": "The galaxy pair NGC 4411a and NGC 4411b with RSCG 55, imaged by the NSF–DOE Vera C. Rubin Observatory",
+  "captureDate": null,
+  "story": [
+   "Two spiral galaxies swirl through this small section of one of the First Look images captured by the NSF–DOE Vera C. Rubin Observatory. Although NGC 4411b, on the left, and NGC 4411a, on the right, appear side by side, they show no signs of interacting, such as distorted arms.",
+   "Higher up in the frame sits RSCG 55, a group of galaxies that are interacting, linked by trails of material. Those trails are made of stars, gas and dust pulled from one galaxy to another during an earlier close encounter.",
+   "Galaxies that appear next to each other on the sky are not necessarily close in space; one may lie far behind the other along the same line of sight. Distorted arms, bridges and tails are the telltale signs astronomers look for when judging whether galaxies are truly interacting. This view was taken with the LSST Camera on Rubin's Simonyi Survey Telescope, looking toward the constellation Virgo."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "Taken with the LSST Camera on Rubin Observatory's Simonyi Survey Telescope through u, g, r and i filters; the colour mapping isn't published.",
+   "eye": "The image combines many exposures, gathering far more light than the eye and revealing faint trails between galaxies."
+  },
+  "scaleExtra": null,
+  "alt": "Two spiral galaxies side by side, with a group of interacting galaxies linked by trails of material above them.",
+  "flags": [
+   "caption too thin",
+   "caption misspells NGC 4411a as NCG 4411a"
+  ]
+ },
+ {
+  "id": "n-noirlab2321d",
+  "caption": "The galaxies NGC 1532 and NGC 1531, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "The spiral galaxy NGC 1532, also known as Haley's Coronet, is locked in a one-sided tug of war with a smaller neighbour, the dwarf galaxy NGC 1531, in this view from the Dark Energy Camera. The pair lie about 55 million light-years away in the direction of Eridanus.",
+   "The image captures the pull each galaxy exerts on the other as a massive galaxy and a dwarf galaxy move toward a merger. The contest is uneven, since the larger galaxy's gravity dominates, but the dwarf still leaves its mark: interactions like this can distort a spiral's arms and stir up star formation.",
+   "Encounters between a large galaxy and a dwarf companion are thought to be one way big galaxies grow over time. The picture was taken with the US Department of Energy's Dark Energy Camera (DECam), which works on the NSF Víctor M. Blanco 4-meter Telescope, located at Cerro Tololo Inter-American Observatory in Chile."
+  ],
+  "explore": [
+   "Cerro Tololo is a Program of NSF NOIRLab. Image processing was by R. Colombari, M. Rodriguez, M. Zamani and D. de Martin of NSF NOIRLab, using exposures through g, r and i filters."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through g, r and i filters; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye, revealing faint structure shaped by the two galaxies' interaction."
+  },
+  "scaleExtra": null,
+  "alt": "A large spiral galaxy beside a smaller dwarf galaxy.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-iotw2023a",
+  "caption": "The Silver Sliver Galaxy, NGC 891, imaged by the Nicholas U. Mayall 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "A spiral galaxy seen almost perfectly edge-on stretches across this image as a long, thin sliver. This is NGC 891, nicknamed the Silver Sliver Galaxy, captured with the Mosaic instrument on the Nicholas U. Mayall 4-meter Telescope at Kitt Peak National Observatory. Viewed this way, it bears a striking resemblance to our own Milky Way as we see it from Earth.",
+   "Its edge-on angle makes NGC 891 a good place to test the galactic fountain model. In this picture, stellar winds and supernovae in a galaxy's disk blast gas out into the surrounding space. Some of that gas can condense and rain back down onto the disk, where it becomes fresh fuel for new stars. Seeing a disk side-on makes gas above and below it easier to spot.",
+   "The frame is also crowded with other objects near and far. Bright foreground stars in our own galaxy intrude on the view, while distant galaxies lurk in the background. NGC 891 lies in the direction of the constellation Andromeda."
+  ],
+  "explore": [
+   "The observations were led by principal investigator M.T. Patterson of New Mexico State University, and the image was processed by Travis Rector, Mahdi Zamani and Davide de Martin. Kitt Peak is a Program of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken with the Mosaic camera on the NSF Nicholas U. Mayall 4-meter Telescope through U, B, R and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye, revealing the faint edges of the disk and the distant background galaxies."
+  },
+  "scaleExtra": null,
+  "alt": "A spiral galaxy seen edge-on as a long, thin sliver, with bright foreground stars and distant background galaxies.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2224a",
+  "caption": "The barred lenticular galaxy NGC 7020, imaged by the Gemini South telescope",
+  "captureDate": null,
+  "story": [
+   "In this Gemini South image, the centre of NGC 7020 has a subtle but unmistakable six-sided shape. NGC 7020 is a barred lenticular galaxy in Pavo, a constellation of the southern sky. Flanking the hexagon to the left and right are two denser clumps of stars, called ansae.",
+   "A hexagon is an uncommon shape for any object in space, and rarer still for a whole galaxy. To build one, a large number of stars must follow orbits confined to a very narrow band, and the ansae are part of that orbital path. The unusual shape seems to come from a very rare orbital resonance, or from some phenomenon not yet understood. An orbital resonance happens when orbits fall into a regular, repeating relationship, which can herd objects into distinct patterns.",
+   "The 8-meter Gemini South telescope stands on Cerro Pachón in the Chilean Andes. Together with its partner, Gemini North in Hawai‘i, it gives astronomers a deep view of the whole night sky."
+  ],
+  "explore": [
+   "The credit names H. Dottori, R. J. Díaz and G. Gimeno, with image processing by T.A. Rector, M. Zamani and D. de Martin. The International Gemini Observatory is a Program of NSF NOIRLab, and this image used g, r, i and hydrogen-alpha filters."
+  ],
+  "understand": {
+   "summary": "Taken in visible light with the Gemini Multi-Object Spectrograph on Gemini South through g, r, i and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "The long exposure gathers far more light than the eye, bringing out the subtle hexagonal shape of the core."
+  },
+  "scaleExtra": null,
+  "alt": "A lenticular galaxy whose core is hexagonal, with denser clumps of stars on its left and right sides.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2230a",
+  "caption": "The emission nebula RCW 120, imaged by the SMARTS 0.9-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "A crimson cloud glows in this view of RCW 120, also called Sharpless 2-3, an emission nebula and star-forming region in the constellation Scorpius. Dark lanes wind through the red gas.",
+   "The red colour comes from ionized hydrogen. Intense heat from young, massive stars inside the nebula energizes the gas, which then gives off light at deep red and infrared wavelengths. The dark lanes are made of the same material but are less energized, so they do not glow.",
+   "Emission nebulae often contain bright stars, and such stars build up many heavier elements, silicon and iron among them, by fusing lighter ones together. RCW 120 also shelters an unusual star still in its embryonic stage, which astronomers expect to grow into one of the Milky Way's brightest. The view comes from the SMARTS 0.9-meter Telescope, which operates at Cerro Tololo Inter-American Observatory (CTIO) in Chile."
+  ],
+  "explore": [
+   "The caption puts RCW 120 about 4300 light-years from Earth. The credit and image processing are by T.A. Rector of the University of Alaska Anchorage with M. Zamani and D. de Martin of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken with the Tek2K camera on the SMARTS 0.9-meter Telescope through g, r, i and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "Part of the nebula's light is infrared, which the eye cannot see, and the long exposure gathers far more light than the eye."
+  },
+  "scaleExtra": null,
+  "alt": "A crimson glowing cloud of gas crossed by dark lanes.",
+  "flags": [
+   "distance mismatch: packet says 5479 light-years, caption says about 4300"
+  ]
+ },
+ {
+  "id": "n-iotw2425a",
+  "caption": "The spiral galaxy NGC 3981, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "The outstretched arms of NGC 3981 seem to dissolve into space in this image. At the centre of this unbarred spiral galaxy, about 65 million light-years away in the constellation Crater, is a bright core that hosts a supermassive black hole, ringed by a disk of hot, young stars. Streams of dust thread through the spiral arms, along with further young stars.",
+   "The arms' irregular, stretched-out shape is probably the result of gravitational pull during an encounter with one of the galaxy's neighbours. NGC 3981 belongs to the NGC 4038 Group, which also includes the well-known interacting Antennae Galaxies.",
+   "That group, in turn, forms a small piece of the Virgo Supercluster, a vast assembly of galaxies to which the Milky Way also belongs. The picture was captured by the Dark Energy Camera (DECam), built by the Department of Energy, working on the Víctor M. Blanco 4-meter Telescope in Chile."
+  ],
+  "explore": [
+   "Only two filters, g and i, were used for this image. Image processing was by R. Colombari and M. Zamani of NSF NOIRLab, and Cerro Tololo Inter-American Observatory (CTIO) is a Program of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through g and i filters; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye, revealing the faint outer arms that fade into space."
+  },
+  "scaleExtra": null,
+  "alt": "A spiral galaxy with a bright core and irregular, outstretched arms laced with dust that fade into space.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2030a",
+  "caption": "The spiral galaxy NGC 2541, imaged by the Nicholas U. Mayall 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "Spiral arms wind around NGC 2541 in fine detail in this image from Kitt Peak National Observatory's Nicholas U. Mayall 4-meter Telescope. It is classified as an unbarred spiral galaxy: it has sweeping spiral arms but lacks the central bar-shaped structure seen in galaxies such as the Milky Way.",
+   "At a distance of 37 million light-years, NGC 2541 sits in Lynx, a constellation squeezed in among Ursa Major, Gemini and Leo. Lynx was one of 10 constellations newly introduced in the 17th century by the astronomer Johannes Hevelius.",
+   "Because its stars are so dim, Hevelius said that only the lynx-eyed, meaning people with unusually sharp vision, could ever find it. Astronomers sort galaxies into a variety of types, and whether a spiral has a central bar is one of the features they use to classify it."
+  ],
+  "explore": [
+   "The observations were led by principal investigator M. T. Patterson of New Mexico State University, and the image was processed by Travis Rector, Mahdi Zamani and Davide de Martin. Kitt Peak is a Program of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken with the Mosaic camera on the NSF Nicholas U. Mayall 4-meter Telescope through U, B, R and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye, bringing out the faint spiral arms in detail."
+  },
+  "scaleExtra": "NGC 2541 lies 37 million light-years from Earth, according to NOIRLab.",
+  "alt": "An unbarred spiral galaxy with sweeping arms.",
+  "flags": []
+ },
+ {
+  "id": "n-noirlab2521ak",
+  "caption": "Two galaxies in the Virgo Cluster, imaged by the NSF–DOE Vera C. Rubin Observatory",
+  "captureDate": null,
+  "story": [
+   "This close-up from the NSF–DOE Vera C. Rubin Observatory focuses on two galaxies that belong to the Virgo Cluster. The object listing for the image includes M61.",
+   "While Rubin was observing this part of the sky, it caught a plethora of asteroids zipping across the field. They left tiny streaks, which have been removed from this version of the picture. A second version keeps them, so viewers can blink between the two and spot the moving objects.",
+   "Asteroids are rocky bodies orbiting the Sun. Because they move against the background of distant stars and galaxies, they land in a slightly different position in each exposure, which is how a survey telescope can pick them out. A galaxy cluster, like Virgo, is a large gathering of galaxies held together by gravity. This view was taken with the LSST Camera on Rubin's Simonyi Survey Telescope, through u, g, r and i filters, combining several exposures."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "Taken with the LSST Camera on Rubin Observatory's Simonyi Survey Telescope through u, g, r and i filters; the colour mapping isn't published.",
+   "eye": "Combining many exposures gathers far more light than the eye, revealing faint galaxy structure."
+  },
+  "scaleExtra": null,
+  "alt": "Two galaxies of the Virgo Cluster.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-gemini0707b",
+  "caption": "The Pleiades star cluster and surroundings, imaged by the Digitized Sky Survey",
+  "captureDate": null,
+  "story": [
+   "This colour image shows the Pleiades star cluster and the region around it, in the constellation Taurus. A yellow arrow marks the position of the star HD 23514, and an inset of artwork sits in the lower right corner.",
+   "The release title explains why HD 23514 is singled out: astronomers spotted evidence there for colliding planet embryos, the building blocks from which planets are thought to grow. The Pleiades itself is an open star cluster, a group of stars born together from the same cloud of gas and dust.",
+   "Inseok Song, of the Spitzer Science Center, made the picture by merging B-, R- and I-band images taken from the second-generation Digitized Sky Survey, displayed as blue, green and red respectively. The inset is artwork credited to Gemini Observatory and Lynette Cook, not a photograph, so only the main image shows the real sky."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "A composite from second-generation Digitized Sky Survey images in B, R and I bands, shown as blue, green and red respectively.",
+   "eye": "The I band reaches into near-infrared light the eye cannot see, and the survey exposures gather far more light than the eye."
+  },
+  "scaleExtra": null,
+  "alt": "The Pleiades star cluster and its surroundings, with a yellow arrow pointing to one star and an artwork inset at lower right.",
+  "flags": [
+   "illustration?",
+   "annotated"
+  ]
+ },
+ {
+  "id": "n-iotw2301a",
+  "caption": "The triple star system HP Tau, imaged by the Nicholas U. Mayall 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "Three stars sit at the centre of this image, wrapped in a large arcing reflection nebula. They form a triple star system that includes HP Tau, a variable star in Taurus that lies more than 550 light-years away.",
+   "HP Tau belongs to the T Tauri class: young, unruly stars that are easing into a calmer phase of life called the main sequence. How long a star stays on the main sequence depends on its mass; the Sun, for example, is about halfway through its main-sequence lifetime of roughly 10 billion years.",
+   "The surrounding nebula shines by reflection rather than emission. Its dust reflects light from nearby stars instead of glowing on its own, the way emission nebulae elsewhere in the Universe do. The image was made from data gathered by Kitt Peak National Observatory's Nicholas U. Mayall 4-meter Telescope."
+  ],
+  "explore": [
+   "The credit names T.A. Rector of the University of Alaska Anchorage, who processed the image with M. Zamani and D. de Martin of NSF NOIRLab. It was built from exposures through g, r and i filters."
+  ],
+  "understand": {
+   "summary": "Taken with the Mosaic I camera on the NSF Nicholas U. Mayall 4-meter Telescope through g, r and i filters; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye, revealing the faint arc of reflecting dust around the stars."
+  },
+  "scaleExtra": null,
+  "alt": "Three stars at the centre surrounded by a large arcing reflection nebula.",
+  "flags": []
+ },
+ {
+  "id": "n-noirlab2521ae",
+  "caption": "The elliptical galaxy NGC 4261 and neighbours, imaged by the NSF–DOE Vera C. Rubin Observatory",
+  "captureDate": null,
+  "story": [
+   "A trail of galaxies and stars runs through this small section of one of the First Look images from the NSF–DOE Vera C. Rubin Observatory. Dominating the upper half is NGC 4261, a large elliptical galaxy, while the lenticular galaxy NGC 4281 sits at the bottom left.",
+   "Between and around them lies a crowd of other galaxies and stars. NGC 4261 is about 100 million light-years away, in the direction of Virgo. Elliptical galaxies are smooth, rounded collections of stars with little gas and few newly forming stars, while lenticular galaxies have a disk like a spiral but lack prominent spiral arms.",
+   "The view was captured with the LSST Camera on Rubin's Simonyi Survey Telescope, combining exposures through u, g, r and i filters. Stacking many exposures lets faint galaxies emerge that a single short look would miss, helping to bring out the many objects between and around the two big galaxies."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "Taken with the LSST Camera on Rubin Observatory's Simonyi Survey Telescope through u, g, r and i filters; the colour mapping isn't published.",
+   "eye": "Combining many exposures gathers far more light than the eye, revealing faint galaxies that fill the background."
+  },
+  "scaleExtra": null,
+  "alt": "A large elliptical galaxy in the top half and a lenticular galaxy at bottom left, surrounded by many galaxies and stars.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-iotw2048a",
+  "caption": "The reflection nebula NGC 2170, imaged by the SMARTS 0.9-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "Bright swathes of colour streak across this image of the reflection nebula NGC 2170. Dust grains bounce back blue light from hot stars buried inside the nebula, warm hydrogen gas glows deep red, and dark tendrils of dust absorb the light of stars and gas behind them.",
+   "In a reflection nebula, diffuse clouds of interstellar dust scatter the light of nearby stars toward us. Blue light is scattered more readily than red, which is one reason reflection nebulae often look blue. Here that blue mixes with the red glow of hydrogen and the dark threads of dust, so three different effects share one scene.",
+   "NGC 2170 belongs to Monoceros, the Unicorn, a dim constellation that straddles the celestial equator. The observations were made with the SMARTS 0.9-meter Telescope, which operates at Cerro Tololo Inter-American Observatory in Chile."
+  ],
+  "explore": [
+   "NOIRLab's Communication, Education & Engagement team produced the image for its Legacy Imaging Program, with processing by Travis Rector of the University of Alaska Anchorage and M. Zamani and D. de Martin of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken with the Tek2K camera on the SMARTS 0.9-meter Telescope through g, r, i and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye, so the nebula's colours appear far stronger than they would through a telescope."
+  },
+  "scaleExtra": null,
+  "alt": "Bright streaks of blue and deep red nebula crossed by dark tendrils of dust.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2115a",
+  "caption": "The reflection nebula NGC 2626, imaged by the SMARTS 0.9-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "So vivid it could almost pass for a painting, this is a real picture of NGC 2626, a reflection nebula in the direction of Vela, 3300 light-years from Earth. Red patches of nebulosity within it are glowing hydrogen gas.",
+   "A reflection nebula gives off no light of its own. Instead, its dust particles scatter light from one or more nearby stars back toward us. Blue light scatters more efficiently than red, so reflection nebulae often take on a bluish tint.",
+   "That is the same physics that turns Earth's daytime sky blue, as sunlight scatters in our atmosphere. The laws of nature work the same way everywhere, whether in our own sky or in a dust cloud thousands of light-years away. The observations behind this image were made with the SMARTS 0.9-meter Telescope, which operates at Cerro Tololo Inter-American Observatory (CTIO), part of NSF NOIRLab."
+  ],
+  "explore": [
+   "The credit names the SMARTS Consortium, with image processing by T. A. Rector of the University of Alaska Anchorage and M. Zamani and D. de Martin of NSF NOIRLab. The picture combines g, r, i and hydrogen-alpha exposures."
+  ],
+  "understand": {
+   "summary": "Taken with the SMARTS 0.9-meter Telescope at CTIO through g, r, i and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "Long exposures gather far more light than the eye, so the nebula's blue and red colours appear far stronger than they would through a telescope."
+  },
+  "scaleExtra": "NGC 2626 lies 3300 light-years from Earth, according to NOIRLab.",
+  "alt": "A reflection nebula with patches of red glowing hydrogen.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2248a",
+  "caption": "Mauna Loa's lava glow and a lava light pillar, seen from Maunakea, Hawaiʻi",
+  "captureDate": "29 November 2022, 02:15 local time",
+  "story": [
+   "The reddish glow of Mauna Loa's lava flows appears in this night view, recorded by a Cloudcam belonging to the International Gemini Observatory. The camera sits close to Maunakea's snowy summit, which is the highest point in the frame. The camera runs around the clock. Also visible is an exceptionally rare lava light pillar.",
+   "Mauna Loa, a volcano on the island of Hawaiʻi, started erupting on 27 November 2022, as lava broke out of fissures in Moku‘āweoweo, the caldera at its summit. Described as the world's largest active volcano, it had not erupted in nearly 40 years, and the glow of its flows could be seen across the island. This picture was taken at 02:15 local time on 29 November.",
+   "Light pillars are more often seen with the Sun. A lava pillar needs a rare combination: an erupting volcano to provide light near the horizon, plus high-altitude cloud and freezing temperatures. Together these produce millions of ice crystals floating horizontally, which reflect the light toward the observer."
+  ],
+  "explore": [
+   "Staff at Gemini North and the other Maunakea Observatories watched closely as flows moved down Mauna Loa's flank toward the Daniel K. Inouye Highway (Saddle Road). On Mauna Loa itself, lava crossed the access road to NOAA's Mauna Loa Observatory and cut its power, though the eruption posed no threat to the Maunakea observatories."
+  ],
+  "understand": {
+   "summary": "A photograph from one of Gemini's Cloudcams, a camera that runs continuously near the Maunakea summit; no filters or exposure details are published.",
+   "eye": "The caption gives no exposure details, so it is unclear how closely the brightness of the glow and pillar matches what an eye would see."
+  },
+  "scaleExtra": null,
+  "alt": "A night view from Maunakea's snow-covered summit showing the reddish glow of lava flows and a lava light pillar.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2113a",
+  "caption": "The planetary nebula PN M 2-53, imaged by the Gemini North telescope",
+  "captureDate": null,
+  "story": [
+   "Like an inky patch of space smudged by a giant thumbprint, this image shows PN M 2-53, a planetary nebula about 12000 light-years away in the direction of Lacerta. It was captured by Gemini North, one of the international Gemini Observatory's two telescopes.",
+   "The name 'planetary nebula' is thoroughly misleading: these objects have nothing to do with planets, or even with exoplanets. The term goes back to the late 1700s, when astronomers thought the glowing gas shapes looked like planets. Wrong as it is, the name has stuck.",
+   "In reality, planetary nebulae come from some dying stars at the very end of their lives. The stars shed layers of gas and dust, which are then lit up by the cores left behind. This image was made through filters for oxygen, sulfur and hydrogen-alpha, each capturing the glow of a particular gas in the shell."
+  ],
+  "explore": [
+   "The observations were led by principal investigator Rafael Andrés Pignata of the Universidad Nacional de Córdoba. Image processing was by T. A. Rector, J. Miller, M. Zamani and D. de Martin, and the Gemini Observatory is a Program of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken in visible light with the Gemini Multi-Object Spectrograph on Gemini North through [O III], S II and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "Narrow filters isolate the glow of particular gases, and the long exposure gathers far more light than the eye could."
+  },
+  "scaleExtra": null,
+  "alt": "A smudge-like planetary nebula against dark space.",
+  "flags": []
+ },
+ {
+  "id": "n-noirlab2521ad",
+  "caption": "The barred spiral galaxy NGC 4519, imaged by the NSF–DOE Vera C. Rubin Observatory",
+  "captureDate": null,
+  "story": [
+   "The barred spiral galaxy NGC 4519 features in this small section of one of the First Look images from the NSF–DOE Vera C. Rubin Observatory. Directly above it sits its companion, a lenticular galaxy called PGC 41706. NGC 4519 lies about 55 million light-years away, in the direction of Virgo.",
+   "A barred spiral has a straight bar of stars running through its centre, with spiral arms winding out from the ends of the bar. A lenticular galaxy has a disk like a spiral but lacks prominent arms. Neighbouring galaxies like these can influence each other through gravity over long periods, tugging on stars and gas.",
+   "This view comes from Rubin's LSST Camera on the Simonyi Survey Telescope, which combined exposures through u, g, r and i filters. Stacking many exposures reveals faint detail that a single short look would miss."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "Taken with the LSST Camera on Rubin Observatory's Simonyi Survey Telescope through u, g, r and i filters; the colour mapping isn't published.",
+   "eye": "Combining many exposures gathers far more light than the eye, revealing faint structure in both galaxies."
+  },
+  "scaleExtra": null,
+  "alt": "A barred spiral galaxy with a smaller lenticular companion galaxy directly above it.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-noirlab2328c",
+  "caption": "The barred spiral galaxy IC 4212, imaged by the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "This image shows IC 4212, a barred spiral galaxy in the constellation Virgo. It sits close to the celestial equator, so at certain times of year it can be seen, at least partly, from both hemispheres.",
+   "The celestial equator is the projection of Earth's equator onto the sky. Objects near it rise and set for observers both north and south of the equator, unlike objects near the celestial poles, which can only be seen from one hemisphere.",
+   "A barred spiral galaxy has a straight bar of stars across its centre, with spiral arms extending from the ends of the bar. Bars are thought to help funnel gas toward a galaxy's centre, where it can feed new star formation. The image was taken with the Dark Energy Camera on the NSF Víctor M. Blanco 4-meter Telescope, through g, r and z filters, as part of observations led by J. Moustakas of Siena College."
+  ],
+  "explore": [
+   "Image processing was by T.A. Rector of the University of Alaska Anchorage with M. Zamani and D. de Martin of NSF NOIRLab. The Blanco telescope is part of Cerro Tololo Inter-American Observatory, a Program of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken with DECam on the Blanco 4-meter Telescope through g, r and z filters; the colour mapping isn't published.",
+   "eye": "The z filter reaches into near-infrared light the eye cannot see, and long exposures gather far more light than the eye."
+  },
+  "scaleExtra": null,
+  "alt": "A barred spiral galaxy.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-iotw2121a",
+  "caption": "The planetary nebula Sh2-42, imaged by the SMARTS 0.9-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "This view shows Sh2-42, a planetary nebula in the constellation Sagittarius. It was captured with the SMARTS 0.9-meter Telescope, which operates at Cerro Tololo Inter-American Observatory.",
+   "Despite the name, planetary nebulae are unrelated to planets. NOIRLab likens them to funeral pyres, made by red giant stars as their lives draw to a close. As such a giant swells, it casts its outer layers of gas into space. The hot core left exposed then ionizes the surrounding material, making it glow in a range of vivid colours.",
+   "The Sun, too, is expected to produce a planetary nebula as it nears the end of its life, but not for another 5 billion years. The colours in images like this trace different gases: hydrogen-alpha and oxygen ([O III]) filters were among those used here, each picking out light given off by a specific element."
+  ],
+  "explore": [
+   "Cerro Tololo is a Program of NSF NOIRLab. Image processing was by T. A. Rector of the University of Alaska Anchorage with M. Zamani and D. de Martin of NSF NOIRLab."
+  ],
+  "understand": {
+   "summary": "Taken with the Tek2K camera on the SMARTS 0.9-meter Telescope through G, R and I broadband filters plus [O III] and hydrogen-alpha filters; the colour mapping isn't published.",
+   "eye": "Narrow filters isolate the glow of particular gases, and long exposures gather far more light than the eye."
+  },
+  "scaleExtra": null,
+  "alt": "The planetary nebula Sh2-42.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-iotw2414a",
+  "caption": "The Milky Way and zodiacal light over Cerro Tololo Inter-American Observatory, Chile",
+  "captureDate": "2022",
+  "story": [
+   "Two bands of light rise side by side from the horizon above Cerro Tololo Inter-American Observatory (CTIO) in Chile. One is an arm of our Milky Way; the other, to its right, is the fainter glow of zodiacal light.",
+   "The Milky Way's glow comes from unresolved stars and other material, interrupted here and there by dark patches of dust and gas. Zodiacal light is sunlight bouncing off interplanetary dust, debris that remains from the time the Solar System formed. Because most of that dust lies in the plane the planets travel, the ecliptic, the zodiacal light traces it. Planets inside the glow confirm the line: climbing upward from the horizon, they are Jupiter, Venus, Mars and Saturn.",
+   "The Milky Way arm appears between the DIMM1 Seeing Monitor and the decommissioned CHilean Automatic Supernova sEarch (CHASE). Other telescopes in the scene, from left to right, are the US Naval Observatory Deep South Telescope, the DIMM2 Seeing Monitor, aTmCam and the SMARTS 1.0-meter telescope."
+  ],
+  "explore": [
+   "CTIO, a Program of NSF NOIRLab, sits in a high, dry, remote mountain setting in Chile, where sensitive equipment can pick up subtle light in the night sky. The photo was taken during the NOIRLab 2022 Photo Expedition by Tomáš Slovinský, a NOIRLab Audiovisual Ambassador."
+  ],
+  "understand": {
+   "summary": "A landscape photograph by Tomáš Slovinský; no camera or exposure details are published.",
+   "eye": "The caption gives no exposure details, but long camera exposures generally gather more light than the eye, making faint glows like zodiacal light easier to see in photographs."
+  },
+  "scaleExtra": null,
+  "alt": "Two parallel bands of light, the Milky Way and zodiacal light, rising above the telescopes of Cerro Tololo Inter-American Observatory.",
+  "flags": []
+ }
+]

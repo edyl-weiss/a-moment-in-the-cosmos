@@ -1,0 +1,13 @@
+/* Colours, fonts, radius, category colours. Change them here only. */
+:root{
+  --bg:#04060d; --night:#080d1f; --deep:#0c1330; --violet:#221a45;
+  --panel:rgba(14,20,44,.72); --panel-solid:#0e142c;
+  --line:rgba(170,180,230,.16); --line-strong:rgba(190,200,245,.30);
+  --text:#ebe9f5; --muted:#b0b3cc; --faint:#8a8eab;
+  --star:#f4e6bf; --star-dim:rgba(244,230,191,.55);
+  --focus:#ffd98a;
+  --serif:"Cormorant Garamond", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --radius:14px;
+  --c-galaxy:#9fb7ff; --c-nebula:#f3a6c8; --c-star:#ffd98a; --c-night:#8fe0d0;
+}

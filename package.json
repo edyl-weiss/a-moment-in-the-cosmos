@@ -1,0 +1,11 @@
+{
+  "name": "a-moment-in-the-cosmos",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node scripts/validate-data.mjs",
+    "dev": "node build.mjs && node scripts/serve.mjs dist"
+  },
+  "engines": { "node": ">=18" }
+}

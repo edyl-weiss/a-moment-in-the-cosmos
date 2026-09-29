@@ -1,0 +1,8 @@
+/* Buttons and icon sizing, used everywhere. */
+button,.btn{font:500 .9rem/1 var(--sans);color:var(--text);background:rgba(255,255,255,.04);border:1px solid var(--line-strong);border-radius:999px;padding:11px 16px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:8px;min-height:42px}
+button:hover,.btn:hover{background:rgba(255,255,255,.09);color:#fff}
+button[disabled]{opacity:.45;cursor:not-allowed}
+.btn.primary{background:var(--star);color:#1a1606;border-color:var(--star)}
+.btn.primary:hover{background:#fff;color:#111}
+button[aria-pressed=true]{background:rgba(244,230,191,.14);border-color:var(--star-dim)}
+svg.ic{width:16px;height:16px;flex:none}

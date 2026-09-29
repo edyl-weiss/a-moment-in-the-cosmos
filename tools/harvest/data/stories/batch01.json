@@ -1,0 +1,1983 @@
+[
+  {
+    "id": "h-heic1705a",
+    "caption": "The Kleinmann-Low Nebula in the Orion Nebula complex, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Stars shining a vivid red are scattered through the clouds of this picture. They are the stars hidden inside the Kleinmann-Low Nebula, a part of the larger Orion Nebula complex, and they only show up because Hubble looked in near-infrared as well as optical light. The final view was stitched together from several separate Hubble pointings.",
+      "Dust is the reason infrared matters here. Star-forming clouds are thick with fine grains that block ordinary light, so in a visible-light picture many young stars stay buried. Longer infrared wavelengths slip through that dust much more easily, letting astronomers see the stars sitting inside the cloud.",
+      "The picture covers the heart of the Orion Nebula, about 1,400 light-years away, and it was made with a specific hunt in mind. Researchers were searching for rogue planets, which drift without a parent star, and brown dwarfs, objects too small to shine as true stars. Along the way they turned up something they had not been looking for: a star racing through the region at high speed."
+    ],
+    "explore": [
+      "The fast-moving star was a side result of the survey rather than its goal. Astronomers call such objects runaway stars, because they are travelling far faster than their neighbours in the nebula.",
+      "Combining optical and near-infrared observations lets one image show both the nebula and the stars its dust would otherwise hide."
+    ],
+    "understand": {
+      "summary": "Hubble's Advanced Camera for Surveys and Wide Field Camera 3 captured this scene in optical and near-infrared light; the exact colour assigned to each filter isn't published, though the caption notes the stars revealed by infrared appear bright red.",
+      "eye": "The near-infrared light that reveals the red stars is invisible to the human eye, so these stars would stay hidden behind dust to a viewer."
+    },
+    "scaleExtra": null,
+    "alt": "A cloudy region of the Orion Nebula dotted with stars that glow bright red.",
+    "flags": []
+  },
+  {
+    "id": "w-weic2605d",
+    "caption": "The Exposed Cranium Nebula (PMR 1), imaged by the James Webb Space Telescope",
+    "captureDate": null,
+    "story": [
+      "A see-through bubble with a blue rim holds two off-white lobes, split down the middle by a dark lane. Seen whole, it looks remarkably like a brain inside a semi-transparent skull. This is the nebula PMR 1, nicknamed the Exposed Cranium, seen in mid-infrared light by Webb's MIRI instrument.",
+      "The shape records two separate chapters in the life of a dying star. First it threw off an outer shell made mostly of hydrogen. Later came a more tangled, structured mix of material, which now sits nearer the centre. The skull and the brain are those two episodes.",
+      "At the top, the dark lane ends in an oval where material seems to be erupting outwards, and MIRI shows this ejection more clearly than Webb's near-infrared camera does. A fainter twin may be pushing out of the bottom, which hints at a two-sided outflow. Further analysis could show what is driving it."
+    ],
+    "explore": [
+      "In mid-infrared light more of the nebula's dust appears, while fewer stars and background galaxies show up than in Webb's NIRCam view. Comparing different infrared wavelengths should help astronomers judge how much material the central star is losing and what stage of its decline Webb has caught."
+    ],
+    "understand": {
+      "summary": "Webb's Mid-Infrared Instrument (MIRI) took this image through four mid-infrared filters, shown as blue (10 microns), green (11 microns), orange (12 microns) and red (18 microns).",
+      "eye": "Mid-infrared light is invisible to the human eye, so the colours here are a translation of light that we cannot see directly."
+    },
+    "scaleExtra": null,
+    "alt": "A transparent bubble with a blue edge surrounding two off-white lobes separated by a dark vertical lane, resembling a brain seen from above, with a few faint galaxies around it.",
+    "flags": []
+  },
+  {
+    "id": "e-eso9921c",
+    "caption": "A sky field near the Chamaeleon I complex, imaged by ESO's Very Large Telescope",
+    "captureDate": "a few days before the Paranal Inauguration on 1 April 1999",
+    "story": [
+      "This colour picture shows a patch of sky close to Chamaeleon I, a grouping of hot stars and bright nebulae in the southern constellation that shares its name. The region lies close to the southern celestial pole.",
+      "The image comes from the very start of the Very Large Telescope's working life. It was made with the FORS1 camera on ANTU, the first of the VLT's large unit telescopes, just days before the Paranal Observatory was inaugurated and formally handed over to astronomers.",
+      "Chamaeleon I is catalogued as a star-forming region, and its entry also lists dark nebula features, clouds of dust dense enough to block the light behind them. The picture itself is a quick look: it was built from six one-minute exposures, taken through three different filters, then combined into a single colour view."
+    ],
+    "explore": [
+      "The field shown measures 6.8 by 11.2 arcminutes, with north at the top and east to the left. The region is about 500 light-years away."
+    ],
+    "understand": {
+      "summary": "The image was taken with the FORS1 instrument on the VLT's first unit telescope in visible and near-infrared light (V, R and I bands); how each band was coloured isn't published.",
+      "eye": "The camera combined several exposures, collecting far more faint light than the eye could gather from this part of the sky."
+    },
+    "scaleExtra": null,
+    "alt": "A colour-composite view of a star field near the Chamaeleon I nebula complex.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "h-heic0609a",
+    "caption": "Cassiopeia A supernova remnant, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "This Hubble view shows the tattered wreckage of a star that blew itself apart. The remnant is called Cassiopeia A, or Cas A for short, and it lies about 11,000 light-years away in the constellation Cassiopeia.",
+      "A supernova remnant is the expanding cloud of debris left behind when a massive star explodes. Cas A is the youngest known remnant of such an explosion in our own galaxy, the Milky Way. It is also catalogued as SN 1680.",
+      "Hubble's sharp eye picks out how complicated that debris is. Rather than forming a smooth, simple shell, the shattered fragments of the star make up a complex and intricate structure. The picture was made with Hubble's Advanced Camera for Surveys, using three filters that record red and near-infrared light, and it offers a detailed look at what remains of the star."
+    ],
+    "explore": [
+      "The remnant is catalogued both as Cassiopeia A, named for the constellation in which it appears, and as SN 1680. The Hubble picture comes from the Advanced Camera for Surveys."
+    ],
+    "understand": {
+      "summary": "Hubble's Advanced Camera for Surveys recorded this image through red and near-infrared filters; the colour assigned to each filter isn't published.",
+      "eye": "Part of the light used here is near-infrared, which the eye cannot see, and the long exposures reveal debris far too faint to see directly."
+    },
+    "scaleExtra": null,
+    "alt": "The shattered, intricately structured remains of an exploded star.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1130a",
+    "caption": "The reflection nebula NGC 2023 in Orion, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Soft sunset shades wash across this scene of billowing gas, with a few odd greenish clumps tucked into the waves. It is the southern part of NGC 2023, a reflection nebula in Orion lying nearly 1,500 light-years from Earth, not far from the Flame and Horsehead Nebulae.",
+      "The nebula glows because of a massive young B-type star, a hot, blue-white kind of star several times hotter than the Sun. Its light makes the nebula unusually bright. The star sits just outside the frame at the upper left, and the bright flare along the left side is its light scattered inside Hubble's optics, not part of the nebula.",
+      "Stars are still forming here. Astronomers think the greenish clumps are Herbig–Haro objects: patches where gas shot out of newborn stars at hundreds of kilometres per second slams into surrounding material and makes it glow. Such features usually fade within a few thousand years."
+    ],
+    "explore": [
+      "The whole of NGC 2023 is about four light-years across, and its waves of gas are 5000 times denser than the interstellar medium. The field of view of this image is 3.2 arcminutes."
+    ],
+    "understand": {
+      "summary": "Hubble's Advanced Camera for Surveys took this image: a blue filter (F475W) is shown as blue, a yellow filter (F625W) as green, and a near-infrared filter (F850LP) as red.",
+      "eye": "The red channel records near-infrared light the eye cannot see, and total exposures of 800 to 1200 seconds per filter gather far more light than the eye could."
+    },
+    "scaleExtra": null,
+    "alt": "Billowing waves of gas in sunset-like shades with unusual greenish clumps, and a bright flare along the left side.",
+    "flags": []
+  },
+  {
+    "id": "e-eso1913a",
+    "caption": "Sharpless 2-296 in the Seagull Nebula, imaged by the VLT Survey Telescope",
+    "captureDate": null,
+    "story": [
+      "Wispy, colourful clouds glow among dark lanes of dust and bright stars in this view. The glowing gas is Sharpless 2-296, which forms the outstretched wings of the Seagull Nebula, a region of sky named because it looks like a gull in flight.",
+      "The Seagull Nebula is a stellar nursery. It is made of dust, hydrogen and helium, with traces of heavier elements, and it is a hot, energetic birthplace of new stars. Clouds like this are called H II regions: the intense light of young, hot stars strips electrons from the hydrogen gas around them, and the gas glows in response.",
+      "The dust lanes are just as much a part of the story as the glow. They are cooler, denser pockets of material that block the light behind them, and places like these are where future stars can form. The nebula lies about 3,500 light-years away in the constellation Monoceros."
+    ],
+    "explore": [
+      "The image was captured by the OmegaCAM camera on the VLT Survey Telescope, as part of the VPHAS+ survey, using filters that include one tuned to the red glow of hydrogen."
+    ],
+    "understand": {
+      "summary": "The VLT Survey Telescope's OmegaCAM camera recorded this visible-light image through several broadband filters and a hydrogen-alpha filter; the colour mapping isn't published.",
+      "eye": "The camera's long exposures build up faint glowing gas that the eye would struggle to see at all, even through a telescope."
+    },
+    "scaleExtra": null,
+    "alt": "Colourful, wispy glowing clouds woven through dark dust lanes and bright stars.",
+    "flags": []
+  },
+  {
+    "id": "e-eso0513a",
+    "caption": "Part of the H II region N214 in the Large Magellanic Cloud, imaged by ESO's New Technology Telescope",
+    "captureDate": null,
+    "story": [
+      "A large nebula fills the lower part of this picture, a star cluster sits from the upper left to the middle, and a string of compact reddish nebulae lies at the top right. Together they are part of N214, a region of glowing gas in the Large Magellanic Cloud, a small galaxy near our own.",
+      "Regions like this are called H II regions. Hot young stars pour out energetic light that strips hydrogen atoms of their electrons, and the gas glows as a result. The big nebula at the bottom is known as N214C.",
+      "The reddish knots at the upper right are N214H. The new observations show that it is made of four compact H II regions, each with its own star lighting it up, plus a more diffuse nebula. The image was made by combining many exposures taken through a mix of narrow and broad filters, which pick out light from particular gases as well as overall colour."
+    ],
+    "explore": [
+      "The field of view is 248 by 332 arcseconds, which corresponds to roughly 200 by 270 light-years. North is up and east is to the left. The region is about 170,000 light-years from Earth."
+    ],
+    "understand": {
+      "summary": "This six-colour composite was taken with the SuSI2 camera on ESO's New Technology Telescope in visible light, using narrowband filters such as hydrogen-alpha, hydrogen-beta and oxygen alongside broadband ones; the colour mapping isn't published.",
+      "eye": "Narrowband filters isolate the light of individual gases, and co-added exposures build up detail that an eye could not see."
+    },
+    "scaleExtra": null,
+    "alt": "A large nebula at the bottom, a star cluster from upper left to centre, and a group of compact reddish nebulae at top right.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1033a",
+    "caption": "The northwestern part of the Eagle Nebula, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Very bright young stars shine out of glowing gas in this Hubble view of the Eagle Nebula, also called Messier 16. This frame looks at the region's northwestern side, far from its middle.",
+      "The stars and the gas are family. The stars formed from the same cloud of material and now belong to an open cluster, catalogued as NGC 6611. These energetic youngsters give off ultraviolet radiation, which makes the surrounding nebula glow.",
+      "The cluster was discovered in the mid-eighteenth century, but the fainter nebula took almost two more decades to be noticed, when Charles Messier recorded it. The most famous part of the Eagle Nebula is not in this frame: its tall columns of star-forming gas and dust, known as the Pillars of Creation, became famous through an earlier Hubble image. The nebula lies about 7,000 light-years away."
+    ],
+    "explore": [
+      "Messier 16 is in Serpens Cauda, the Tail of the Serpent, between Aquila, Sagittarius and Ophiuchus. Amateur telescopes can show it too: a small one picks up broad faint patches of nebula, while a 30 cm instrument or bigger might show the dark pillars on a good night. Hubble's view relies on its 2.4-metre mirror."
+    ],
+    "understand": {
+      "summary": "Hubble's Advanced Camera for Surveys made this image: a near-infrared filter (F775W) is coloured red and a blue filter (F475W) is coloured blue, with a green channel filled in to complete the colour.",
+      "eye": "Exposures of an hour through one filter and 54 minutes through the other, including near-infrared light the eye cannot see, reveal far more than a visual observer would."
+    },
+    "scaleExtra": null,
+    "alt": "Bright young stars embedded in glowing gas in the outer part of the Eagle Nebula.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1024a",
+    "caption": "Herbig-Haro 502 in the Orion Nebula, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "The whole frame is filled with the colourful glow of the Orion Nebula. Just left of centre, a star sits in a pinkish haze, and a narrow pink jet reaches away from it, with curved shock fronts to the upper right and lower left. This is the area around Herbig-Haro 502, a tiny piece of a vast stellar nursery.",
+      "The star is very young and still wrapped in the gas cloud it formed from. That leftover material may one day build planets. The material of our own Earth probably sat in a similar cocoon about five billion years ago.",
+      "The jet and arcs are the Herbig-Haro object. Newborn stars fling out gas at hundreds of kilometres per second, and where it strikes surrounding gas and dust it forms glowing shocks. These are thought to fade after a few thousand years, though they are often much larger than our Solar System."
+    ],
+    "explore": [
+      "At only around 1500 light-years away, the Orion Nebula is one of the nearest star-forming regions to us. Young stars wrapped in their birth clouds are considered important enough that much Hubble observing time has been devoted to them, and studying them helps explain how the Universe developed and is still changing."
+    ],
+    "understand": {
+      "summary": "Hubble's Advanced Camera for Surveys used filters for glowing hydrogen (F658N, red), ionised oxygen (F502N, green) and yellow light (F550W, blue).",
+      "eye": "Narrowband filters isolate individual gases and exposures of up to 2000 seconds gather far more light than the eye, so the colours are a scientific mapping rather than the view in an eyepiece."
+    },
+    "scaleExtra": null,
+    "alt": "A colourful glowing nebula with a young star in a pink haze left of centre and a narrow pink jet with curved shock fronts.",
+    "flags": []
+  },
+  {
+    "id": "e-eso1521a",
+    "caption": "The star-forming cloud RCW 34, imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "A richly coloured cloud of gas fills this picture. It is RCW 34, a place where new stars are forming, in the southern constellation of Vela, the Sails. The image was taken with the FORS instrument on ESO's Very Large Telescope in northern Chile.",
+      "RCW 34 is catalogued as an H II region. That name describes clouds of hydrogen gas lit up by hot, young stars. The energetic light from those stars knocks electrons off the hydrogen atoms, and when the atoms recapture them they give off a characteristic glow, strongest in red light.",
+      "Clouds like this are where stars begin. Dense pockets of gas and dust collapse under their own gravity, heat up and eventually ignite. Once the new stars shine, their light and winds start to reshape and clear the cloud that made them. The region is about 10,000 light-years away."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "The VLT's FORS instrument captured this visible-light image through blue, visual, red and hydrogen-alpha filters; the colour mapping isn't published.",
+      "eye": "The telescope's long exposures and a filter tuned to glowing hydrogen reveal colour and detail that would be far too faint for the eye."
+    },
+    "scaleExtra": null,
+    "alt": "A richly coloured cloud of glowing gas with stars.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-eso1343a",
+    "caption": "The Toby Jug Nebula (IC 2220), imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "This picture shows the Toby Jug Nebula, known more formally as IC 2220, a glowing cloud of gas and dust about 1,200 light-years from Earth. It lies in the southern constellation of Carina, the Ship's Keel.",
+      "The Toby Jug is a reflection nebula. Unlike nebulae that glow because their own gas has been energised, a reflection nebula shines mostly because its dust grains scatter the light of a nearby star, much as fog lights up around a street lamp. Here the source of that light sits inside the cloud: a central star catalogued as HD 65750.",
+      "Because the nebula borrows its light, its appearance depends on both the star and the dust around it. Fine dust grains tend to scatter blue light more readily than red, which is why many reflection nebulae look bluish in colour photographs."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "The VLT's FORS1 instrument took this image through blue, visual, red, hydrogen-alpha and oxygen filters in visible light; the colour mapping isn't published.",
+      "eye": "The telescope's exposures collect far more light than the eye can, revealing a faint nebula that would be hard to see directly."
+    },
+    "scaleExtra": null,
+    "alt": "A cloud of gas and dust lit from within by a central star.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "h-potw1232a",
+    "caption": "The outskirts of the Tarantula Nebula, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Bright, wispy structures glowing green fill this close-up of the Tarantula Nebula's outer edge. The green is a quirk of the processing: the wisps mark ionised hydrogen gas, which really glows red, but the filters and colours chosen here make it look green.",
+      "The Tarantula sits in the Large Magellanic Cloud, a neighbouring galaxy about 170,000 light-years away. It is the brightest known nebula in our Local Group of galaxies and also its largest and most active star-forming region, around 650 light-years across.",
+      "Newborn stars in these clouds give off strong ultraviolet light that ionises the gas around them. The clouds will not last: stellar winds and that same radiation will eventually blow them away, leaving clusters of stars like the Pleiades. Most of the light here comes from a young, very bright cluster at the nebula's centre, just outside this frame."
+    ],
+    "explore": [
+      "The nebula is so luminous that, if it were within 1000 light-years of Earth, it would cast shadows on our planet. It also hosted supernova 1987A, the closest supernova seen since the telescope was invented, which was visible to the naked eye.",
+      "A version of this image was made by Judy Schmidt for the Hubble's Hidden Treasures image processing competition."
+    ],
+    "understand": {
+      "summary": "Hubble's Advanced Camera for Surveys took this image in visible and infrared light; the exact filter colours aren't published, but the caption notes that red-glowing hydrogen appears green here.",
+      "eye": "An eye would see this hydrogen as red rather than green, and the infrared part of the data is invisible to us."
+    },
+    "scaleExtra": null,
+    "alt": "Bright green wispy clouds of gas scattered with stars at the edge of the Tarantula Nebula.",
+    "flags": []
+  },
+  {
+    "id": "h-heic0301a",
+    "caption": "The Boomerang Nebula, imaged by the Hubble Space Telescope",
+    "captureDate": "1998",
+    "story": [
+      "Two smooth, diffuse lobes spread out in a bow-tie shape, laced with faint arcs and ghostly filaments. This is the Boomerang Nebula, a young planetary nebula 5,000 light-years away in Centaurus. No colder object has yet been found anywhere in the Universe.",
+      "A planetary nebula forms when a dying star casts off gas in the last stages of its life. Here, a fierce wind appears to be blowing ultracold gas away from the dying star, and the rapid expansion has cooled the nebula to just 1 degree above absolute zero. That is colder even than the faint afterglow of the Big Bang.",
+      "The name came from astronomers who saw it in 1980 with a ground-based telescope in Australia and noticed a slight curve in the lobes. Hubble's sharper view suggests Bow Tie Nebula might have suited it better. Most planetary nebulae have bubble-like lobes; the Boomerang may simply be too young to have formed them."
+    ],
+    "explore": [
+      "Its record low temperature was found in 1995 by Sahai and Nyman with Chile's 15-metre Swedish ESO Submillimetre Telescope. The central star has been shedding up to one-thousandth of a solar mass of material a year for 1500 years. The light we see is starlight reflected by dust."
+    ],
+    "understand": {
+      "summary": "Hubble recorded this image in visible light through a single green-yellow filter, with a 1000-second exposure; no colour mapping applies to a single-filter image.",
+      "eye": "A 1000-second exposure gathers far more light than the eye, revealing faint arcs and filaments no one could see directly."
+    },
+    "scaleExtra": null,
+    "alt": "A bow-tie-shaped nebula with smooth diffuse lobes containing faint arcs and wispy filaments.",
+    "flags": [
+      "instrument mismatch: metadata lists ACS but caption says image taken in 1998; UND now says only Hubble"
+    ]
+  },
+  {
+    "id": "e-eso9827a",
+    "caption": "The planetary nebula IC 4406, imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "This nebula has an unusual, almost rectangular outline. It is IC 4406, a planetary nebula in the southern constellation Lupus, the Wolf, at a distance that is uncertain but possibly about 5,000 light-years.",
+      "A planetary nebula is the shell of gas a Sun-like star throws off late in its life. IC 4406 belongs to the bipolar kind, where material streams out in two opposite directions. Other bipolar nebulae, such as the Butterfly Nebula, show a prominent dark band of dust across the middle. In IC 4406 that dusty band is weaker, and the inside of the nebula looks more even.",
+      "The colours carry information. Different parts of the nebula glow in different hues because they differ in what they are made of and in their physical conditions. This picture was taken with the Very Large Telescope's Test Camera, and the frames were combined without further processing beyond basic cleaning."
+    ],
+    "explore": [
+      "The image combines short blue, green-yellow and red exposures of a few minutes each. The field shown is 1.5 by 1.5 arcminutes, with north to the upper right and east to the upper left."
+    ],
+    "understand": {
+      "summary": "The VLT Test Camera took this visible-light image through B, V and R filters; the colour assigned to each filter isn't published.",
+      "eye": "The camera gathered light over several minutes, recording a faint nebula in far more colour and detail than an eye could see."
+    },
+    "scaleExtra": null,
+    "alt": "A planetary nebula with an almost rectangular outline, showing regions of different colours.",
+    "flags": []
+  },
+  {
+    "id": "e-eso1306a",
+    "caption": "Sharpless 2-296 in the Seagull Nebula, imaged by the MPG/ESO 2.2-metre telescope",
+    "captureDate": null,
+    "story": [
+      "Wisps of gas and dust twist through this scene, where dark clouds and glowing red ones weave among bright stars. This is Sharpless 2-296, which makes up part of the wings of the Seagull Nebula.",
+      "The red glow comes from hydrogen gas lit up by hot young stars. Their intense light strips electrons from the hydrogen, and as the atoms settle back they shine with a characteristic red colour. Regions like this are called H II regions. The dark clouds, by contrast, are cold dust dense enough to block the light behind it.",
+      "The Seagull Nebula takes its name from its resemblance to a bird with outstretched wings, and this image focuses on a portion of those wings. The region is a jumble of different kinds of objects packed into one patch of sky. This view was taken at ESO's La Silla Observatory in Chile, using the Wide Field Imager camera mounted on the 2.2-metre MPG/ESO telescope."
+    ],
+    "explore": [
+      "The nebula is about 3,500 light-years away. Its official short catalogue name is Sh 2-296, and the Seagull Nebula as a whole has its own formal entry in the IC catalogue."
+    ],
+    "understand": {
+      "summary": "The Wide Field Imager on the MPG/ESO 2.2-metre telescope recorded this visible-light image through several broadband filters and a hydrogen-alpha filter; the colour mapping isn't published.",
+      "eye": "Long exposures and a hydrogen filter bring out faint red gas that the eye would barely register, if at all."
+    },
+    "scaleExtra": null,
+    "alt": "Dark clouds and glowing red clouds of gas and dust winding among bright stars.",
+    "flags": []
+  },
+  {
+    "id": "e-eso1701a",
+    "caption": "The Orion A molecular cloud, imaged by ESO's VISTA telescope",
+    "captureDate": null,
+    "story": [
+      "Many young stars, and other objects usually hidden deep inside dusty clouds, shine out of this infrared view. Its subject is the Orion A molecular cloud, the closest large-scale star factory known, about 1,350 light-years from Earth.",
+      "The picture is part of the largest high-resolution infrared mosaic of Orion ever made, built from observations by VISTA, a survey telescope at ESO's Paranal Observatory in northern Chile.",
+      "A molecular cloud is a cold, dense store of gas and dust where stars are born. In visible light, the dust in such a cloud blocks the view, so the youngest stars stay out of sight. Infrared light passes through dust much more easily, so a telescope like VISTA can look inside and count the newborn stars still wrapped in their birth clouds. Surveys like this help astronomers see how star formation proceeds across a whole cloud, not just in one small patch."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "VISTA's VIRCAM camera captured this image in near-infrared light through J, H and Ks filters; the colour mapping isn't published.",
+      "eye": "Near-infrared light is invisible to the human eye, so the stars inside this dust would be hidden to a naked-eye observer."
+    },
+    "scaleExtra": null,
+    "alt": "An infrared view of a dusty cloud in Orion scattered with many young stars.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "h-heic0607b",
+    "caption": "The star-forming region LH 95 in the Large Magellanic Cloud, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "This sharp Hubble image shows a star-forming region in the Large Magellanic Cloud, a small galaxy neighbouring our own, about 150,000 light-years away. The region is catalogued as LH 95.",
+      "What makes the picture interesting is the mix of stars it reveals. Alongside young, massive stars, it shows a large number of low-mass infant stars living side by side with them. Hubble's sharp view lets these small, faint newborn stars be picked out one by one.",
+      "Massive stars are rare, hot and short-lived, while low-mass stars are common and faint. Here both kinds share the same young star-forming region, the hefty and the slight born side by side. Astronomers first showed the image in Prague, at the International Astronomical Union's 2006 General Assembly."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "Hubble's Advanced Camera for Surveys recorded this image in visible and near-infrared light; the colour mapping isn't published.",
+      "eye": "The faint infant stars here are far too dim and distant for any eye to pick out, and part of the data is near-infrared light we cannot see."
+    },
+    "scaleExtra": null,
+    "alt": "A star-forming region crowded with small, faint young stars alongside young massive stars.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-eso1147d",
+    "caption": "The sky around VFTS 102 in the Tarantula Nebula, imaged by ESO's MPG/ESO 2.2-metre and VISTA telescopes",
+    "captureDate": null,
+    "story": [
+      "At the centre of this wide view lies the brilliant star VFTS 102. Around it spreads part of the Tarantula Nebula, a stellar nursery in the Large Magellanic Cloud, a small neighbouring galaxy of the Milky Way.",
+      "No star has been found spinning faster than VFTS 102. It is described as brilliant, and here it sits right at the centre of the frame, with the gas and stars of the Tarantula Nebula spread out around it.",
+      "The picture blends visible-light and infrared images from two telescopes in Chile: the 2.2-metre MPG/ESO telescope at La Silla, via its Wide Field Imager, and the 4.1-metre VISTA infrared survey telescope at Paranal. Blending visible and infrared light in this way gives a single, combined view of the region around the star."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This composite combines visible-light images from the Wide Field Imager on the MPG/ESO 2.2-metre telescope with near-infrared images from VISTA; the colour mapping isn't published.",
+      "eye": "The infrared part of the image records light the eye cannot see, and long exposures reveal faint nebula far beyond naked-eye view."
+    },
+    "scaleExtra": null,
+    "alt": "A wide view of part of the Tarantula Nebula with a brilliant star at the centre.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "h-heic2102c",
+    "caption": "The supernova remnant 1E 0102.2-7219 in the Small Magellanic Cloud, imaged by the Hubble Space Telescope",
+    "captureDate": "2003 (combined with oxygen images from 1995)",
+    "story": [
+      "Just below the centre of this picture sits a greenish-blue shell of debris, the remains of an exploded star. It is the supernova remnant E0102, in the Small Magellanic Cloud, a dwarf galaxy near the Milky Way. In the upper right glows its neighbour N 76, a star-forming region in lavender and peach tones.",
+      "The two look different because they are made of different stuff. N 76 shines mainly with hydrogen, while E0102 is rich in oxygen and has almost no hydrogen or helium. One idea is that the star that exploded had blown away its outer hydrogen in a strong wind first. It may have been a Wolf-Rayet star.",
+      "At only about 2000 years old, E0102 is young. That lets astronomers study material from a massive star's core directly, learning how stars are built and how they enrich their surroundings."
+    ],
+    "explore": [
+      "E0102 lies almost 50 light-years from the edge of N 76. Wolf-Rayet stars can be upward of 20 times the Sun's mass and tens of thousands of times as luminous, and they have strong winds throughout their lives."
+    ],
+    "understand": {
+      "summary": "Hubble's Advanced Camera for Surveys imaged the region in 2003 through blue, visible, infrared and hydrogen filters, combined with oxygen-emission images from Wide Field Planetary Camera 2; the colour mapping isn't published.",
+      "eye": "Filters that isolate the glow of particular gases, such as oxygen and hydrogen, bring out colour differences an eye would not see."
+    },
+    "scaleExtra": "The Small Magellanic Cloud lies roughly 210,000 light-years away, according to the caption.",
+    "alt": "A greenish-blue shell of debris below centre, with lavender and peach glowing clouds at upper right.",
+    "flags": []
+  },
+  {
+    "id": "e-eso2416a",
+    "caption": "The Dark Wolf Nebula, imaged by the VLT Survey Telescope",
+    "captureDate": null,
+    "story": [
+      "Dark clouds form the silhouette of a wolf against a colourful backdrop of glowing gas. The resemblance has earned this cloud the nickname Dark Wolf Nebula. The shape is an illusion made by cold cosmic dust blocking the light from the glowing clouds behind it.",
+      "Dark nebulae like this are places where gas and dust are thick and cold enough to hide what lies beyond them. They are also where new stars are born: in their densest parts, material can collapse under gravity and eventually ignite. The nebula is catalogued as a star-forming region.",
+      "The image comes from the VLT Survey Telescope at ESO's Paranal Observatory in Chile, a telescope designed to photograph large areas of sky in detail. It is a big picture, with 283 million pixels, which lets it capture both the broad outline of the wolf and fine detail in the surrounding glowing clouds."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "The VLT Survey Telescope's OmegaCAM camera made this visible-light image through u, g, r and i filters plus a hydrogen-alpha filter; the colour mapping isn't published.",
+      "eye": "The camera builds up faint glowing gas over long exposures, so the colourful backdrop would be far dimmer to the eye."
+    },
+    "scaleExtra": "The nebula is around 5300 light-years from Earth, according to ESO.",
+    "alt": "A dark, wolf-shaped cloud of dust silhouetted against colourful glowing gas.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1721a",
+    "caption": "Part of the bubble nebula Sh2-308, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Wispy, nebulous fringes mark the edge of a vast bubble of gas in this Hubble view. The bubble is Sh2-308, a nebula blown around a massive and violent star called EZ Canis Majoris, and this picture shows only part of it.",
+      "EZ Canis Majoris is a Wolf-Rayet star, one of the brightest known of its type. It has used up its outer shell of hydrogen, laying bare deeper layers of heavier elements that burn intensely hot. The fierce radiation pouring out of it drives thick stellar winds, which push on the material around the star and sculpt it outwards.",
+      "The result is like blowing up a balloon: the star's former outer hydrogen layers form the skin of the bubble, and the flood of radiation from the centre plays the part of the air. The gas in the bubble is ionised hydrogen, a kind of glowing gas often found between the stars."
+    ],
+    "explore": [
+      "This image is a parallel field. Hubble can point two cameras at neighbouring patches of sky at once, one on the main target and one next to it. Here the Advanced Camera for Surveys took this view while a second Hubble camera imaged another part of the nebula. The nebula is about 2000 light-years away."
+    ],
+    "understand": {
+      "summary": "Hubble's Advanced Camera for Surveys recorded this visible-light image through filters isolating the glow of ionised oxygen and nitrogen; the colour mapping isn't published.",
+      "eye": "The filters pick out light from particular glowing gases, showing faint structure an eye could not see."
+    },
+    "scaleExtra": null,
+    "alt": "Wispy, nebulous fringes of a large gas bubble surrounding a star.",
+    "flags": []
+  },
+  {
+    "id": "h-opo0822a",
+    "caption": "A thin section of the supernova remnant SN 1006, imaged by the Hubble Space Telescope",
+    "captureDate": "February 2006 and April 2008",
+    "story": [
+      "A delicate ribbon of gas floats across this Hubble picture, surrounded by white dots and small orange smudges. The ribbon is a very thin slice of SN 1006, the remnant of a star that exploded more than 1,000 years ago.",
+      "Around 1 May 1006, people from Africa to Europe to the Far East saw and recorded a new light in the sky. It was probably the brightest star humans have ever seen, outshining Venus and fainter only than the Moon. It could be seen in daytime for weeks and without a telescope for two and a half years or more. A white dwarf star in its final death throes was behind the explosion.",
+      "The remnant sits more than 14 degrees from the plane of our galaxy's disc, so few other objects crowd the view. Most of the white dots are stars in the Milky Way, and the orange smudges are distant background galaxies."
+    ],
+    "explore": [
+      "The ribbon shows up only in the hydrogen-light filter and was given a red hue in the colour image. The hydrogen observations came from Hubble's Advanced Camera for Surveys, and the blue, yellow-green and near-infrared data from its Wide Field Planetary Camera 2."
+    ],
+    "understand": {
+      "summary": "This composite combines hydrogen-light images from Hubble's Advanced Camera for Surveys with Wide Field Planetary Camera 2 images in blue, yellow-green and near-infrared light; the remnant, seen only in hydrogen light, is coloured red.",
+      "eye": "The ribbon is visible only through a filter isolating hydrogen light, and it is far too faint for the eye in any case."
+    },
+    "scaleExtra": null,
+    "alt": "A thin, delicate ribbon of gas crossing a field of white stars and small orange background galaxies.",
+    "flags": [
+      "caption mismatch? first caption paragraph describes unrelated gas columns and EGGs; caption distance differs from metadata"
+    ]
+  },
+  {
+    "id": "h-heic1220a",
+    "caption": "The planetary nebula NGC 5189, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "This Hubble image shows the planetary nebula NGC 5189, whose intricate structure looks like a giant, brightly coloured ribbon twisting through space. Hubble released it as a holiday-season image.",
+      "A planetary nebula has nothing to do with planets. The name dates back to early astronomers, whose small telescopes showed some of these objects as round discs rather like planets. In fact, a planetary nebula is the gas thrown off by a star similar to the Sun as it reaches the end of its life. The exposed core of the star is left at the centre, and its strong ultraviolet light makes the expelled gas glow.",
+      "NGC 5189 is described as a stellar eruption with an intricate structure, and Hubble's sharp view shows that complexity in detail, from the broad sweep of the ribbon to its finer twists. The image used several filters, including ones tuned to the glow of particular gases such as hydrogen, oxygen and sulphur."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "Hubble's Wide Field Camera 3 took this image in visible and near-infrared light, including filters for hydrogen, oxygen and sulphur emission; the colour mapping isn't published.",
+      "eye": "Narrowband filters single out the glow of individual gases, so the colours show chemistry and structure an eye would not separate."
+    },
+    "scaleExtra": null,
+    "alt": "A planetary nebula with an intricate, brightly coloured ribbon-like structure.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-potw1236a",
+    "caption": "The superbubble in the star-forming region N44, imaged by the MPG/ESO 2.2-metre telescope, Chandra and Spitzer",
+    "captureDate": null,
+    "story": [
+      "Blue, red and yellow blend in this view of the star-forming region LHA 120-N44 in the Large Magellanic Cloud, one of the Milky Way's small companion galaxies. At its heart lies the star cluster NGC 1929.",
+      "The massive stars in that cluster give off intense radiation, blow matter out at high speed as stellar winds, and live fast before exploding as supernovae. Together, the winds and supernova shock waves have hollowed out a huge cavity in the surrounding gas, called a superbubble.",
+      "Each colour shows a different kind of light. X-rays from NASA's Chandra, shown in blue, trace very hot gas; infrared from NASA's Spitzer, in red, shows dust and cooler gas; and the MPG/ESO 2.2-metre telescope's visible-light view, in yellow, shows the young stars and glowing clouds. Together they helped explain why N44 is so bright in X-rays: supernova shocks hit the cavity walls, and hot material evaporates from them."
+    ],
+    "explore": [
+      "The name LHA 120-N44 comes from a 1956 catalogue, put together by the American astronomer and astronaut Karl Henize, listing stars and nebulae in the Magellanic Clouds that shine in hydrogen-alpha light. The letter N marks it as a nebula, and it is often called simply N44."
+    ],
+    "understand": {
+      "summary": "This is a multi-telescope composite: Chandra X-ray data in blue, Spitzer infrared data in red, and visible light from the Wide Field Imager on the MPG/ESO 2.2-metre telescope in yellow.",
+      "eye": "X-rays and infrared light are both invisible to the human eye; only the yellow part of this image shows light we could see."
+    },
+    "scaleExtra": null,
+    "alt": "A colourful star-forming region with a large cavity outlined in blue, red and yellow.",
+    "flags": []
+  },
+  {
+    "id": "h-heic1623a",
+    "caption": "The nebula NGC 248 in the Small Magellanic Cloud, imaged by the Hubble Space Telescope",
+    "captureDate": "September 2015",
+    "story": [
+      "This glowing nebula is NGC 248, which lies inside the Small Magellanic Cloud, a companion galaxy of the Milky Way roughly 200,000 light-years from Earth. Hubble's Advanced Camera for Surveys observed it in September 2015.",
+      "NGC 248 is an emission nebula, a cloud of gas that shines on its own. In such nebulae, hot stars typically flood the gas with energetic light, which strips electrons from hydrogen atoms; as the atoms recapture them, the gas gives off light of its own, especially in the red glow of hydrogen.",
+      "The observations were part of a survey nicknamed SMIDGE. Its full title spells out its purpose: to investigate how dust and gas evolve in the Small Magellanic Cloud. In other words, the survey studies how dust and gas behave and change in this galaxy. NGC 248 was one of the targets Hubble looked at for that project, using its Advanced Camera for Surveys."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "Hubble's Advanced Camera for Surveys imaged the nebula in visible and near-infrared light, including a hydrogen-alpha filter; the colour mapping isn't published.",
+      "eye": "The hydrogen filter and long exposures reveal a glow far too faint for the eye to see at this distance."
+    },
+    "scaleExtra": null,
+    "alt": "A glowing nebula of gas in a neighbouring galaxy.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-eso1348a",
+    "caption": "The star-forming region NGC 2035, imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "Clouds of gas and dust twist into odd shapes in this detailed view, while on the left thin filaments trail across the scene. This is NGC 2035, a lesser-known region of the Large Magellanic Cloud, one of the galaxies closest to our own.",
+      "The picture holds both the beginning and the end of stellar life. Hot new stars are being born inside the clouds, and as they switch on, their energetic light and winds sculpt the surrounding gas into the unusual forms seen here. The filaments on the left tell a different story: they were created by a supernova, the explosive death of a massive star.",
+      "Birth and death can sit side by side like this because the most massive stars live only briefly, so some can explode while others nearby are still forming. The Very Large Telescope's power allowed astronomers to explore this region in fine detail."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "The VLT's FORS2 instrument captured this visible-light image through broadband B, V and R filters plus oxygen and hydrogen-alpha filters; the colour mapping isn't published.",
+      "eye": "Filters isolating glowing oxygen and hydrogen, together with long exposures, show faint structure that an eye could not pick out."
+    },
+    "scaleExtra": null,
+    "alt": "Twisting clouds of gas and dust with thin supernova filaments on the left.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "h-potw1109a",
+    "caption": "An outer part of the nebula Messier 43, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Several brilliant hot young stars shine in this close-up of an outer part of Messier 43, the Orion Nebula's little brother. Around even younger stars, still wrapped in dust, the image picks out curious features.",
+      "Messier 43 is sometimes called De Mairan's Nebula after its discoverer. Only a dark lane of dust separates it from the famous Orion Nebula, Messier 42. Both belong to the Orion molecular cloud complex, a huge stellar nursery that also includes the Horsehead Nebula and the Flame Nebula.",
+      "The complex is about 1,400 light-years away, one of the closest regions of massive star formation to Earth. That nearness has made it a favourite Hubble target for two decades, tracking how stellar winds shape clouds, studying young stars and finding elusive objects such as brown dwarfs. This picture turns to a less-studied corner."
+    ],
+    "explore": [
+      "The Horsehead Nebula is also catalogued as Barnard 33, and the Flame Nebula as NGC 2024. The image spans roughly 3.3 arcminutes of sky, with 1000-second exposures through each filter."
+    ],
+    "understand": {
+      "summary": "Hubble's Advanced Camera for Surveys combined a yellow filter (F555W), coloured blue, with a near-infrared filter (F814W), coloured red.",
+      "eye": "The red channel records near-infrared light we cannot see, and yellow light is shown as blue, so the colours differ from what an eye would perceive."
+    },
+    "scaleExtra": null,
+    "alt": "Bright hot young stars amid clouds of gas and dust, with small features around dust-shrouded younger stars.",
+    "flags": []
+  },
+  {
+    "id": "e-eso1635a",
+    "caption": "The star-forming region Messier 78, imaged by ESO's VISTA telescope",
+    "captureDate": null,
+    "story": [
+      "Blue patches of reflected light, dark streams of dust and red jets fill this detailed view of Messier 78, a star-forming region in the constellation Orion, the Hunter.",
+      "Each feature has a different origin. The blue regions are dust clouds reflecting the light of hot young stars, in the same way that mist glows around a lamp. The dark streams are thicker dust that blocks the light from behind. The red jets are the most revealing: they come from stars still in the process of forming, which fling out narrow streams of material as they grow.",
+      "The image was taken with VISTA, an infrared survey telescope at ESO's Paranal Observatory in Chile. Infrared light can pass through dust that hides young stars at visible wavelengths, so VISTA can show jets and newborn stars that visible-light images miss."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "VISTA's VIRCAM camera imaged Messier 78 in near-infrared light through Z, Y, J, H and Ks filters; the colour mapping isn't published.",
+      "eye": "Most of this light is near-infrared, invisible to the eye, which is why the jets and hidden stars would not be seen directly."
+    },
+    "scaleExtra": null,
+    "alt": "Blue reflection nebulae, dark dust streams and red jets in a star-forming region.",
+    "flags": []
+  },
+  {
+    "id": "e-potw2322a",
+    "caption": "Filaments of the Vela supernova remnant, imaged by the VLT Survey Telescope",
+    "captureDate": null,
+    "story": [
+      "Pink clouds of gas fill this frame, stretching into thin and thick filaments that twist together like tentacles into an intricate web, with bright stars scattered across the scene. This is a small part of the Vela supernova remnant in the southern constellation of Vela.",
+      "The web is the wreckage of a massive star. Around eleven thousand years ago it exploded as a supernova, throwing off its outer layers. The blast also sent shock waves racing outward, and as they squeezed the surrounding gas they created the network of filaments seen here. Astronomers call the debris of such blasts a supernova remnant.",
+      "At 800 light-years from Earth, the Vela remnant is one of the closest known. The image comes from OmegaCAM, the wide-field camera on the VLT Survey Telescope at ESO's Paranal Observatory, which specialises in large visible-light images of the sky."
+    ],
+    "explore": [
+      "This frame is only a small section of a much larger OmegaCAM image. The data come from the VPHAS+ survey, and one of the filters used is tuned to the red light of glowing hydrogen."
+    ],
+    "understand": {
+      "summary": "The VLT Survey Telescope's OmegaCAM camera recorded this visible-light image through u, g, r, i and hydrogen-alpha filters; the colour mapping isn't published.",
+      "eye": "Long exposures and a hydrogen filter bring out filaments far too faint for the eye to see."
+    },
+    "scaleExtra": null,
+    "alt": "Pink filaments of gas twisting into a web among bright stars.",
+    "flags": []
+  },
+  {
+    "id": "w-weic2517d",
+    "caption": "The Butterfly Nebula (NGC 6302), imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Two broad, clumpy clouds in cream, yellow and orange spread from either side of a dark central lane, like the outstretched wings of a butterfly. This is NGC 6302, the Butterfly Nebula, in Hubble's optical view. The wings look nearly opaque, blocking most background stars.",
+      "The nebula is bipolar: its two lobes push out in opposite directions. The dark band forming the butterfly's body is a doughnut-shaped ring of dusty gas seen edge-on. It hides the central star, the ancient core of a Sun-like star, which powers the nebula and makes it glow.",
+      "That dusty doughnut may explain the whole shape. By stopping gas from escaping evenly in all directions, it could funnel material into the two wings. The colours trace chemistry: orange comes from ionised nitrogen and hydrogen, red accents from ionised sulfur, and blue from hydrogen atoms."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "Hubble's Wide Field Camera 3 imaged the nebula in visible light through narrowband filters: hydrogen-beta (blue), hydrogen-alpha (cyan), ionised nitrogen (orange) and ionised sulfur (red).",
+      "eye": "Narrowband filters separate the light of individual elements, so the colours map chemistry rather than exactly what an eye would see."
+    },
+    "scaleExtra": null,
+    "alt": "A butterfly-shaped nebula with a dark central dust lane and two broad clumpy wings in cream, yellow and orange against black space with a few pinkish stars.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1133a",
+    "caption": "The Necklace Nebula, imaged by the Hubble Space Telescope",
+    "captureDate": "2 July (year not stated)",
+    "story": [
+      "A glowing ring hangs in space, dotted with dense, bright knots of gas like diamonds on a necklace, with a single bright dot at its centre. This is the Necklace Nebula, a planetary nebula found only recently, made of gas shed by an ordinary star much like the Sun. The ring is about two light-years across.",
+      "The central dot is really two stars, only a few million kilometres apart, whirling around each other in little more than a day. About 25 000 years ago one star swelled so much that it swallowed its companion. The smaller star kept orbiting inside the giant, spinning it up until much of its gaseous envelope flew off into space.",
+      "Most of that gas escaped along the star's equator, forming the ring. The knots are dense clumps within it, glowing because they absorb ultraviolet light from the central stars."
+    ],
+    "explore": [
+      "For comparison, Mercury takes 88 days to orbit the Sun, so the central pair's orbit of just over a day is remarkably fast. The nebula lies 15 000 light-years away in Sagitta, the Arrow, and is also catalogued as PN G054.2-03.4."
+    ],
+    "understand": {
+      "summary": "Hubble's Wide Field Camera 3 captured the glow of hydrogen (shown in blue), oxygen (green) and nitrogen (red) in visible light.",
+      "eye": "Filters isolating single gases make each one a separate colour, which is not how an eye would see the blend of light."
+    },
+    "scaleExtra": null,
+    "alt": "A glowing ring of gas dotted with bright knots, with a single bright dot in the centre.",
+    "flags": []
+  },
+  {
+    "id": "e-eso9931c",
+    "caption": "The H II region N119 in the Large Magellanic Cloud, imaged by the MPG/ESO 2.2-metre telescope",
+    "captureDate": null,
+    "story": [
+      "This picture shows N119, a glowing cloud of gas in the Large Magellanic Cloud, a neighbouring galaxy about 170,000 light-years away. Its most remarkable feature is a pronounced spiral shape that recalls a barred spiral galaxy, even though N119 is a nebula, not a galaxy.",
+      "N119 is an H II region, a cloud of hydrogen gas lit by hot young stars. Their energetic light strips electrons from the hydrogen atoms, and the gas glows as the atoms recapture them. The image includes a filter tuned to that hydrogen glow.",
+      "The nebula is large and sits in an interesting place. It lies on the northern side of the Large Magellanic Cloud's stellar bar, a long band of stars across the galaxy, close to the centre around which the galaxy's neutral hydrogen rotates. That bar is also why the lower half of the full picture is packed with many more stars than the upper half."
+    ],
+    "explore": [
+      "N119 measures about 400 by 600 light-years. The image was made with the Wide Field Imager through blue, visual and hydrogen-alpha filters."
+    ],
+    "understand": {
+      "summary": "The Wide Field Imager on the MPG/ESO 2.2-metre telescope took this visible-light image through B, V and hydrogen-alpha filters; the colour mapping isn't published.",
+      "eye": "The hydrogen filter and long exposures reveal glowing gas far too faint for the eye to see."
+    },
+    "scaleExtra": null,
+    "alt": "A glowing nebula with a spiral shape among many stars, denser in the lower half.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1853a",
+    "caption": "The Herbig–Haro objects HH 7–11 in NGC 1333, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Five small objects glow blue near the top centre of this image. They are the Herbig–Haro objects HH 7 to 11, a smoking gun left by a newborn star, and they sit inside NGC 1333, a dusty, gas-rich reflection nebula.",
+      "Herbig–Haro objects form when a young star shoots out jets of ionised gas that crash into nearby clouds at high speed. These five were made by jets from the young star SVS 13, and the collisions produced five bright clumps of light in the nebula. Each of them is heading up and to the left, away from their parent star.",
+      "They will not last. Racing outward at up to 250 000 kilometres per hour, such objects fade away within a few tens of thousands of years, a short time for astronomers. HH 7 is now about 20 000 times as far from SVS 13 as Earth is from the Sun."
+    ],
+    "explore": [
+      "NGC 1333 lies about a thousand light-years from Earth. A reflection nebula shines by scattering the light of nearby stars off its dust."
+    ],
+    "understand": {
+      "summary": "Hubble's Advanced Camera for Surveys took this image through visible and near-infrared filters; the colour mapping isn't published.",
+      "eye": "Part of the data is near-infrared light the eye cannot see, and these small faint clumps would be invisible without a large telescope."
+    },
+    "scaleExtra": null,
+    "alt": "Five small blue glowing clumps near the top centre of a dusty nebula.",
+    "flags": [
+      "distance mismatch: caption says about a thousand light-years, metadata 800"
+    ]
+  },
+  {
+    "id": "e-potw1831a",
+    "caption": "The nebula NGC 3199, imaged by the VLT Survey Telescope",
+    "captureDate": null,
+    "story": [
+      "A crescent-shaped cocoon of gas and dust seems to plough through a star-studded sky, like a ship in stormy seas. The image suits its location: this is NGC 3199, which lies in Carina, a southern constellation named after the keel of a ship, about 12,000 light-years from Earth.",
+      "Inside the nebula is HD 89358, an extremely hot and massive Wolf-Rayet star. It drives fierce stellar winds and outflows that crash into the surrounding material and sweep it up, which helps give NGC 3199 its twisted, lopsided look. Astronomers now know the bright crescent belongs to a far bigger, dimmer bubble of gas and dust.",
+      "John Herschel discovered the nebula in 1834 while compiling his catalogue of interesting night-sky objects. Since then it has been observed many times, including with ESO's 8.2-metre Very Large Telescope. This image comes from its smaller neighbour, the 2.6-metre VLT Survey Telescope."
+    ],
+    "explore": [
+      "The VST began operations in 2011. Its 256-megapixel camera, OmegaCAM, can photograph an area of sky twice the size of the full Moon at once. That lets it survey interesting objects which the Very Large Telescope can then study in even more detail."
+    ],
+    "understand": {
+      "summary": "The VLT Survey Telescope's OmegaCAM camera recorded this visible-light image through g, r and i filters and a hydrogen-alpha filter; the colour mapping isn't published.",
+      "eye": "Long exposures and a hydrogen filter reveal faint gas that would be almost invisible to the eye."
+    },
+    "scaleExtra": null,
+    "alt": "A crescent-shaped cloud of gas and dust moving across a field packed with stars.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1630a",
+    "caption": "The supernova remnant DEM L316A, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Rippling wisps of ionised gas spread across this Hubble image. They are DEM L316A, the remains of a long-dead star, lying some 160 000 light-years away in the Large Magellanic Cloud, one of the Milky Way's nearest galactic neighbours.",
+      "The star died in an especially bright and energetic kind of explosion called a Type Ia supernova. These are thought to happen when a white dwarf pulls more material from a close companion star than it can handle and becomes unstable. The result is a violent blast that hurls the star's outer layers into space at immense speeds.",
+      "As that expelled gas ploughs through the material between the stars, it heats it and ionises it, meaning electrons are stripped from the atoms. This creates the faint glow captured here by Hubble's Wide Field Camera 3."
+    ],
+    "explore": [
+      "The Large Magellanic Cloud is a satellite of the Milky Way and the fourth-largest galaxy in the Local Group. Hubble has imaged other supernova remnants there too, including SNR 0509 in 2010 and SNR 0519 in 2013."
+    ],
+    "understand": {
+      "summary": "Hubble's Wide Field Camera 3 imaged the remnant in visible and near-infrared light, including a hydrogen-alpha filter; the colour mapping isn't published.",
+      "eye": "The glow is faint and partly in near-infrared light, so an eye would not see these wisps."
+    },
+    "scaleExtra": null,
+    "alt": "Rippling wisps of glowing gas from an exploded star.",
+    "flags": [
+      "distance mismatch: caption says 160 000 light-years, metadata 150000"
+    ]
+  },
+  {
+    "id": "h-potw1434a",
+    "caption": "The young star SSTC2D J033038.2+303212, reflection nebula [B77] 63 and dark nebula Dobashi 4173, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Near the upper middle, surrounded by bright stars, a small young star appears to push a murky chimney of material down and out, with bright gas bursting around it. Below it, a bright wispy cloud appears to spew a dark stream of smoke into space. Several kinds of objects share this Hubble frame.",
+      "The small star, catalogued as SSTC2D J033038.2+303212, is still forming. A bright disc of material swirls around it, which we see edge-on.",
+      "The bright cloud is [B77] 63, a reflection nebula shining with light from stars inside it, notably the emission-line star LkHA 326 and a close neighbour. These stars light up and sculpt the gas. The dark stream is Dobashi 4173, a dark nebula dense enough to hide the sky behind it, creating what look like empty rips in space. The stars that appear on top of that blackness actually lie between us and the cloud."
+    ],
+    "explore": [
+      "Among the stars lighting [B77] 63, the most notable is LkHA 326, an emission-line star with another star sitting very close beside it. Dark nebulae like Dobashi 4173 are extremely dense clouds of material that block background light."
+    ],
+    "understand": {
+      "summary": "Hubble's Advanced Camera for Surveys took this image through visible and near-infrared filters; the colour mapping isn't published.",
+      "eye": "Part of the light is near-infrared, invisible to the eye, and the faint wisps need long exposures to show up."
+    },
+    "scaleExtra": null,
+    "alt": "A small young star with a dark chimney of material near the top, and a bright wispy cloud with a dark stream of dust at the bottom.",
+    "flags": [
+      "constellation mismatch: caption says Perseus, metadata Taurus"
+    ]
+  },
+  {
+    "id": "w-weic2508a",
+    "caption": "The planetary nebula NGC 1514, imaged by the James Webb Space Telescope",
+    "captureDate": null,
+    "story": [
+      "What looks like one bright star with purple spikes sits in the middle of a tilted, diffuse cylinder of gas and dust. It is actually two stars. Around them is a bright pink, clumpy cloud, and two large rings, which appear joined at top left and bottom right, are orange in those places and blue at the bottom and centre right. This is the planetary nebula NGC 1514.",
+      "A planetary nebula is the gas cast off by a Sun-like star near the end of its life. Webb's mid-infrared view is the most detailed image of this one so far. It shows the rings as fuzzy, intricate clumps of dust rather than smooth bands.",
+      "Webb also reveals more clearly the holes that pierce the bright pink core. The rings have denser edges that bend inward in shallow V shapes. The nebula is about 1,500 light-years away."
+    ],
+    "explore": [
+      "Tiny stars and galaxies, mostly blue and yellow, speckle the black background. Some areas were not observed by Webb: strips along the top edges, a thin vertical line near the nebula at top left, and the bottom left and right corners."
+    ],
+    "understand": {
+      "summary": "Webb's Mid-Infrared Instrument (MIRI) captured this image through three mid-infrared filters, shown as blue (7.7 microns), yellow (12 microns) and red (25 microns).",
+      "eye": "Mid-infrared light is invisible to the human eye, so these rings of dust would not look like this to a viewer."
+    },
+    "scaleExtra": null,
+    "alt": "A bright double star with purple diffraction spikes inside a diffuse cylinder of gas, with a pink clumpy centre and two crossing rings in orange and blue.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1633a",
+    "caption": "The supernova remnant DEM L71, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Separate fiery filaments are scattered across this Hubble scene. They are the shrapnel of a star that exploded several thousand years ago, some 160 000 light-years away in the Large Magellanic Cloud, a galaxy close to our own. The remnant is called DEM L71.",
+      "The star that exploded was a white dwarf, the dense leftover core of a star. Most stars in the Milky Way with masses from a tenth of the Sun's up to eight times it are expected to end up this way. A white dwarf in a binary can siphon gas from a close companion. If it takes more than it can handle, it turns unstable and blows up in what is called a Type Ia supernova.",
+      "That is what happened here. The white dwarf ripped itself apart, flinging out a superheated cloud of debris. As the debris slammed into the surrounding gas, it slowly spread into the filaments seen here."
+    ],
+    "explore": [
+      "Around 97% of stars in that mass range are expected to become white dwarfs. Before it blows up, the white dwarf is thought to grow until it is about half again as large as the Sun. Supernovae are among the brightest events ever observed."
+    ],
+    "understand": {
+      "summary": "Hubble's Wide Field Camera 3 imaged the remnant in visible and near-infrared light, including a hydrogen-alpha filter; the colour mapping isn't published.",
+      "eye": "These faint filaments, partly recorded in near-infrared light, would be invisible to the eye."
+    },
+    "scaleExtra": null,
+    "alt": "Scattered fiery filaments of material from an exploded star.",
+    "flags": []
+  },
+  {
+    "id": "e-potw1949a",
+    "caption": "The star-forming nebula RCW 36, imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "Clouds strewn across this picture are thick enough in places to block the light behind them, leaving patches and wisps of inky black. This is RCW 36, also called Gum 20, an emission nebula in the constellation Vela, the Sails. At about 2,300 light-years away, it is among the nearest places to our Solar System where massive stars are forming.",
+      "Those dark clouds may look lifeless, but they are exactly where stars form. Inside them, clumps of dust and molecular hydrogen fall inward and pull together into new stars, which can end up with small families of planets around them, like our own Solar System.",
+      "RCW 36 is only one part of a larger star-forming complex known as the Vela Molecular Ridge. The picture was taken with FORS, an instrument on ESO's Very Large Telescope that combines a camera with a spectrograph."
+    ],
+    "explore": [
+      "This image was produced by ESO's Cosmic Gems programme, which uses telescope time that cannot be used for science to make outreach images of interesting objects. The data are also placed in ESO's science archive, where astronomers can use them."
+    ],
+    "understand": {
+      "summary": "The VLT's FORS2 instrument took this visible-light image through broadband filters and filters for oxygen and hydrogen-alpha emission; the colour mapping isn't published.",
+      "eye": "The camera's exposures and gas-specific filters bring out faint glowing gas that the eye could not see."
+    },
+    "scaleExtra": null,
+    "alt": "Glowing clouds with patches and wisps of inky black dust.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1848a",
+    "caption": "The supernova remnant SNR 0454-67.2, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Threads of red snake through dark, turbulent clouds in this tangled web. It is SNR 0454-67.2, a supernova remnant: the debris of a massive star that ended its life in a huge explosion and threw its material into surrounding space.",
+      "The remnant sits in the Large Magellanic Cloud, a small spiral galaxy neighbouring the Milky Way. It probably came from a Type Ia supernova. In this kind of explosion a white dwarf star keeps pulling material from a companion star until it reaches a critical mass, and then it blows apart.",
+      "Type Ia supernovae matter far beyond this one messy cloud. Because they happen in the same specific way, when the white dwarf reaches a particular mass, they always have a well-known brightness. That makes them useful as standard candles: by comparing how bright one looks with how bright it really is, scientists can measure distances across the Universe."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "Hubble's Wide Field Camera 3 imaged the remnant in visible and near-infrared light, including a hydrogen-alpha filter; the colour mapping isn't published.",
+      "eye": "The faint glowing threads need long exposures and are partly recorded in near-infrared light, so the eye would not see them."
+    },
+    "scaleExtra": null,
+    "alt": "Threads of red winding through dark, turbulent clouds.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1421a",
+    "caption": "The young star IRAS 14568-6304 in the Circinus molecular cloud, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "A young star wrapped in a haze of golden gas and dust sits within a sweeping curve of darkness that hides the sky behind it. The star is IRAS 14568-6304, and a tail extends below it. The dark swoosh is the Circinus molecular cloud.",
+      "That cloud holds around 250 000 times the Sun's mass in gas, dust and young stars. Two huge clumps within it, nicknamed Circinus-West and Circinus-East, are its leading star-forming sites. IRAS 14568-6304 lies under a blurry fog inside Circinus-West.",
+      "The tail is a protostellar jet. Most of the material a new star gathers from its parent cloud goes into the star and its accretion disc, which may one day form planets. But at some stage the star began flinging some of it into space at supersonic speeds. Jets like this give astronomers valuable clues about how stars form."
+    ],
+    "explore": [
+      "Each of the two big clumps holds roughly 5000 solar masses. Several stars in Circinus-West drive outflows, IRAS 14568-6304 among them, and together they form an outflow ranking among the most energetic, most massive and brightest yet reported. Some scientists have suggested calling Circinus-West the nest of molecular outflows. Serge Meunier entered a version of this image in the Hubble's Hidden Treasures competition."
+    ],
+    "understand": {
+      "summary": "Hubble's Advanced Camera for Surveys imaged this region through visible and near-infrared filters; the colour mapping isn't published.",
+      "eye": "Part of the light is near-infrared, invisible to the eye, and the faint golden haze would be far too dim to see directly."
+    },
+    "scaleExtra": null,
+    "alt": "A young star in a golden haze of gas and dust with a tail below it, set in a curving band of dark cloud.",
+    "flags": []
+  },
+  {
+    "id": "h-heic0415c",
+    "caption": "The expanding bubble of Tycho's Supernova, imaged by the Chandra X-ray Observatory",
+    "captureDate": null,
+    "story": [
+      "This wide view shows the region around Tycho's Supernova, where the explosion's hot, expanding bubble shows up in X-rays. The picture comes from NASA's Chandra X-ray Observatory, and its lower edge is clipped: the remnant's southern end lay beyond what the camera could see.",
+      "A supernova remnant is the cloud of debris and heated gas left after a star explodes. As the blast wave sweeps outward it heats material to extremely high temperatures, hot enough to shine in X-rays rather than just in visible light.",
+      "The colours here are not what an eye would see. Instead they sort the X-rays by energy: red marks low-energy X-rays, green medium, and blue high. The remnant is about 10,000 light-years away in the constellation Cassiopeia."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This is an X-ray image from the Chandra X-ray Observatory, with red, green and blue representing low, medium and high X-ray energies.",
+      "eye": "X-rays are completely invisible to the human eye, and they are blocked by Earth's atmosphere, so this view can only come from space."
+    },
+    "scaleExtra": null,
+    "alt": "An expanding bubble of hot gas shown in red, green and blue, cut off along the bottom edge.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "h-potw1944a",
+    "caption": "A group of stars in the reflection nebula NGC 1333, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "A small handful of stars, just about enough to make up a football team, shines out of the gas and dust in this Hubble view. They belong to NGC 1333, the cloud that formed them and that they still call home.",
+      "About 1,000 light-years from us, NGC 1333 sits in Perseus, the constellation known as the Hero. The cool gas and dust gathered here are still producing new stars. Their light bounces off the surrounding material and lights it up, which is how we can see the cloud at all. That is why NGC 1333 is classified as a reflection nebula.",
+      "Reflection nebulae shine with borrowed light. Instead of glowing on their own, their dust grains scatter starlight toward us. This picture covers just one region of NGC 1333. Earlier, wider Hubble images show that these stars have plenty of company: this small team is just one of many groups of young stars across the nebula."
+    ],
+    "explore": [
+      "Our galaxy hosts around 300 billion stars, so the handful caught here is a tiny sample. This team-sized group is only one gathering among many in NGC 1333."
+    ],
+    "understand": {
+      "summary": "Hubble's Advanced Camera for Surveys imaged the region through visible and near-infrared filters; the colour mapping isn't published.",
+      "eye": "Part of this light is near-infrared, invisible to us, and the faint reflected glow needs long exposures to show up."
+    },
+    "scaleExtra": null,
+    "alt": "A handful of stars embedded in clouds of gas and dust.",
+    "flags": []
+  },
+  {
+    "id": "h-heic2011b",
+    "caption": "The Butterfly Nebula (NGC 6302), imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "This Hubble image shows NGC 6302, better known as the Butterfly Nebula, a glowing cloud of gas within our Milky Way in the constellation of Scorpius.",
+      "The glowing gas once formed the outer layers of a star. Over about 2,200 years it has been cast off into space, building the butterfly shape. The nebula is a planetary nebula, the name astronomers give to gas thrown off by a Sun-like star near the end of its life. Despite the name, planetary nebulae have nothing to do with planets.",
+      "New observations have revealed unprecedented complexity in the nebula, and the jets and gas bubbles streaming from the star at its centre are changing quickly. The image uses several filters, including ones in near-infrared light and others tuned to the glow of particular gases."
+    ],
+    "explore": [
+      "From wingtip to wingtip the butterfly spans over two light-years, roughly half the gap between the Sun and Proxima Centauri, our nearest stellar neighbour."
+    ],
+    "understand": {
+      "summary": "Hubble's Wide Field Camera 3 imaged the nebula in visible and near-infrared light, using filters for oxygen, hydrogen, nitrogen and iron emission; the colour mapping isn't published.",
+      "eye": "Several filters isolate single gases and some record near-infrared light, so the colours represent chemistry rather than what the eye would see."
+    },
+    "scaleExtra": "The nebula lies roughly 3800 light-years away, according to the caption.",
+    "alt": "A glowing, butterfly-shaped nebula with jets and bubbles of gas.",
+    "flags": []
+  },
+  {
+    "id": "e-potw2424a",
+    "caption": "The Gum 3 nebula, imaged by the VLT Survey Telescope",
+    "captureDate": null,
+    "story": [
+      "Red and pink clouds mix with blue in this bright view of the Gum 3 nebula, and part of it resembles a koi fish. Just to the right of the brightest region, the pink fish, a patch of sky seems oddly empty of stars.",
+      "Each colour has its own cause. Intense ultraviolet light from nearby young stars strikes hydrogen atoms in the cloud, which then give off visible light at very specific colours, seen here as reds and pinks. Tiny dust particles also reflect starlight, especially blue light, for the same reason Earth's sky looks blue.",
+      "The empty-looking patch is not really short of stars. A large knot of dust sits there, soaking up visible light and screening the stars beyond it. Gum 3 is a cloud of gas and dust between the constellations Monoceros and Canis Major, named after the Australian astronomer Colin Stanley Gum."
+    ],
+    "explore": [
+      "Gum catalogued 84 nebulae in the southern sky. The picture was taken with the VLT Survey Telescope at ESO's Paranal Observatory, whose OmegaCAM camera has 268 megapixels and is built to map wide swathes of the southern sky in visible light."
+    ],
+    "understand": {
+      "summary": "The VLT Survey Telescope's OmegaCAM camera took this visible-light image; the filter details and colour mapping aren't published.",
+      "eye": "Long exposures gather far more light than the eye, so these colours would appear much fainter, if at all, to a viewer."
+    },
+    "scaleExtra": null,
+    "alt": "A brightly coloured nebula of red, pink and blue clouds, part shaped like a koi fish, with a dark, star-poor patch beside it.",
+    "flags": [
+      "distance mismatch: caption says about 3600 light-years, metadata 3500"
+    ]
+  },
+  {
+    "id": "e-potw2003a",
+    "caption": "The star-forming region Gum 26, imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "A faint pinkish glow fills this view of Gum 26, a star-forming region found in Vela, the Sails, a constellation of the southern sky. It was imaged by the FORS instrument on ESO's Very Large Telescope in Chile.",
+      "Our galaxy contains many places like this, where new stars spring to life inside collapsing clumps of gas and dust. Gum 26 is an HII region, or emission nebula. Newly formed stars stream out intense ultraviolet radiation that ionises the hydrogen gas around them, and that ionised gas gives off the pink glow.",
+      "Catching young stars pink-handed in this way is useful. By studying the glowing gas, astronomers can learn about the conditions in which stars form, and study how the newcomers then influence their cosmic surroundings."
+    ],
+    "explore": [
+      "The image was made through ESO's Cosmic Gems programme, which uses telescope time unsuitable for science to create outreach images. Its data also go into ESO's science archive for astronomers."
+    ],
+    "understand": {
+      "summary": "The VLT's FORS2 instrument captured this visible-light image through B, V and R filters and a hydrogen-alpha filter; the colour mapping isn't published.",
+      "eye": "A hydrogen filter and long exposures bring out a faint pink glow that the eye would struggle to see."
+    },
+    "scaleExtra": null,
+    "alt": "A cloud of gas glowing faintly pink among stars.",
+    "flags": [
+      "distance mismatch: caption says about 20,000 light-years, metadata 6500"
+    ]
+  },
+  {
+    "id": "e-eso1317a",
+    "caption": "The planetary nebula IC 1295, imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "A glowing green nebula surrounds a dim, dying star in this picture from ESO's Very Large Telescope. The object is the planetary nebula IC 1295, about 3,300 light-years from us in Scutum, a constellation whose name means the Shield. According to ESO, this is the most detailed picture of it ever taken.",
+      "A planetary nebula forms near the end of a Sun-like star's life. The star sheds its outer layers into space, leaving behind its hot core. Ultraviolet light from that core then makes the expelled gas glow. The name is a historical accident: through early telescopes such objects looked round like planets, but they have nothing to do with them.",
+      "The faint star at the centre is what remains of the original star. Described as dim and dying, it is the source of the light that sets the green shell glowing around it."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "The VLT's FORS1 instrument took this visible-light image through B, V and R filters; the colour mapping isn't published.",
+      "eye": "The camera gathers far more light than the eye, so the nebula's green glow would be much fainter to a viewer."
+    },
+    "scaleExtra": null,
+    "alt": "A glowing green nebula surrounding a dim central star.",
+    "flags": [
+      "distance mismatch: caption says about 3300 light-years, metadata 3500"
+    ]
+  },
+  {
+    "id": "e-potw2340a",
+    "caption": "The emission nebula IC1284 and reflection nebulae NGC6589 and NGC6590, imaged by the VLT Survey Telescope",
+    "captureDate": null,
+    "story": [
+      "A large, bright nebula glows rosy red in the centre of this picture, while blue nebulae sit in the lower right corner. The two colours mark two different kinds of nebula.",
+      "The red one is IC1284, a star-forming region made mostly of hydrogen. Radiation from young stars excites the electrons in the hydrogen atoms; as they settle back and lose energy, they give off light at one specific reddish wavelength. One of the camera's filters lets through exactly this colour, which gives the nebula its look.",
+      "The blue ones, NGC6589 and NGC6590, are reflection nebulae, highlighted by a different filter. Their dust scatters the shorter, bluer wavelengths from nearby stars more than the red, which gives them an eerie glow. It's the same reason our daytime sky is blue. The image was taken with OmegaCAM on the VLT Survey Telescope at ESO's Paranal Observatory."
+    ],
+    "explore": [
+      "The frame covers an area of sky roughly the size of a full Moon. It is part of VPHAS+, a large public ESO survey that records stars and nebulae in visible light, with the aim of learning how stars are born, how they live and how they die."
+    ],
+    "understand": {
+      "summary": "The VLT Survey Telescope's OmegaCAM camera took this visible-light image through u, g, r and i filters plus a hydrogen-alpha filter; the caption notes one filter captures the red hydrogen glow and another highlights the blue nebulae, but the full colour mapping isn't published.",
+      "eye": "Long exposures reveal both nebulae much more strongly than the eye could see them."
+    },
+    "scaleExtra": null,
+    "alt": "A large rosy-red nebula in the centre and small blue nebulae in the lower right corner.",
+    "flags": []
+  },
+  {
+    "id": "e-eso2518a",
+    "caption": "The RCW 94 and RCW 95 nebulae, imaged by ESO's VLT Survey Telescope and VISTA",
+    "captureDate": null,
+    "story": [
+      "A cloud of gas and dust spreads across this image in the shape of a bat, glowing an intense red. The most prominent clouds are RCW 94, forming the bat's right wing, and RCW 95, forming its body. The rest of the bat has not been given a formal name.",
+      "The red glow comes from hydrogen. Young stars inside the cloud give off intense radiation that strips electrons from hydrogen atoms, and the ionised gas shines in response. Clouds like these are where stars are born.",
+      "Most of the image comes from visible-light observations by the VLT Survey Telescope at ESO's Paranal Observatory in Chile, combined with extra infrared data from VISTA, the Visible and Infrared Survey Telescope for Astronomy, also at Paranal. The result is a single picture that combines visible and infrared light."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This combines visible-light data from the VLT Survey Telescope with infrared data from VISTA; the filters and colour mapping aren't published.",
+      "eye": "The infrared part of the data is invisible to the eye, and the red glow is gathered through long exposures."
+    },
+    "scaleExtra": null,
+    "alt": "A bat-shaped cloud of gas and dust glowing intense red.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-potw2609a",
+    "caption": "The RCW 36 nebula, imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "Dark clouds in the middle form the head and body of what looks like a hawk, with filaments to the left and right as outstretched wings. Below it lies a bright blue nebula lit by massive newborn stars, whose intense radiation makes the surrounding gas glow. This is the RCW 36 nebula in the constellation Vela.",
+      "Fittingly, the hawk-like nebula was captured by HAWK-I, an instrument on the Very Large Telescope. The astronomers were most interested in faint, hidden objects called brown dwarfs, which cannot fuse hydrogen in their cores.",
+      "HAWK-I suits this job. It works at infrared wavelengths, where cold failed stars are easier to spot, and uses adaptive optics to correct for atmospheric turbulence, producing sharp images. Lead author Afonso do Brito do Vale likened the massive stars clearing away their clouds to an animal breaking out of its eggshell."
+    ],
+    "explore": [
+      "Do Brito do Vale is a doctoral student working between a research institute in Portugal and an astrophysics laboratory in Bordeaux, France. The image appeared in a new paper, and the study should help explain how brown dwarfs form."
+    ],
+    "understand": {
+      "summary": "The VLT's HAWK-I instrument imaged RCW 36 in near-infrared light through J, H and Ks filters, with adaptive optics; the colour mapping isn't published.",
+      "eye": "Near-infrared light is invisible to the eye, and the dim brown dwarfs astronomers sought would not be seen directly."
+    },
+    "scaleExtra": "The nebula is about 2300 light-years away, according to ESO.",
+    "alt": "Dark hawk-shaped clouds with filament wings above a bright blue glowing nebula containing young stars.",
+    "flags": []
+  },
+  {
+    "id": "e-potw2411a",
+    "caption": "The cometary globule GN 16.43.7.01, the Dark Tower, imaged by the VLT Survey Telescope",
+    "captureDate": null,
+    "story": [
+      "A dusty head trails a long, dark tail in this picture, its outline traced by a pink glow. The object is a cometary globule catalogued as GN 16.43.7.01 and nicknamed the Dark Tower. About 5,000 light-years away, it sits in Scorpius, the Scorpion, a constellation of the southern sky.",
+      "Despite the name, cometary globules have nothing to do with comets. They are named only for their look: a dense head and a stretched-out tail. Inside this one are thick clumps of gas and dust that are collapsing, and out of which new stars will be born.",
+      "Its strange shape is sculpted from outside. A cluster of young, bright stars lies beyond the frame to the upper left, and their intense radiation pounds the globule, carving it into a tower. The same radiation wraps around its edges, lighting them with the pink glow typical of hot, excited gas. The picture was taken with the VLT Survey Telescope at ESO's Paranal Observatory in Chile."
+    ],
+    "explore": [
+      "The globule is classified as a Bok globule, a small, dense, dark cloud of gas and dust. Astronomers often give objects with odd catalogue names obvious nicknames, such as the Dark Tower."
+    ],
+    "understand": {
+      "summary": "The VLT Survey Telescope took this visible-light image; the filters and colour mapping aren't published.",
+      "eye": "Long exposures reveal the faint pink rim of glowing gas, which would be too dim for the eye."
+    },
+    "scaleExtra": null,
+    "alt": "A dark, tower-like cloud with a dusty head and elongated tail, outlined by a pink glow.",
+    "flags": []
+  },
+  {
+    "id": "e-potw2237a",
+    "caption": "The dark nebulae Barnard 92 and Barnard 93, imaged by the VLT Survey Telescope",
+    "captureDate": null,
+    "story": [
+      "Two dark, wispy clouds hang against a field of stars, like ghostly trails in the sky. They are Barnard 92, on the right, and Barnard 93, on the left, two dark nebulae photographed from ESO's Paranal Observatory in Chile.",
+      "Their inky darkness comes from thick gas and dust that block the light of the stars behind. That darkness hides activity: these clouds are stellar nurseries, where collapsing gas and dust give birth to new stars.",
+      "The rich starry backdrop is part of a much larger complex, the Small Sagittarius Star Cloud, also catalogued by Charles Messier as Messier 24. This part of the sky, in the constellation Sagittarius, is so crowded with stars that it can be seen with the naked eye on dark nights."
+    ],
+    "explore": [
+      "The image was taken with OmegaCAM, a 268-million-pixel camera on the VLT Survey Telescope designed for wide fields; this one could hold four full Moons. It is part of the VPHAS+ survey, which has mapped diffuse nebulae and both young and evolved stars in our galaxy."
+    ],
+    "understand": {
+      "summary": "The VLT Survey Telescope's OmegaCAM camera took this visible-light image through g, r and i filters plus a hydrogen-alpha filter; the colour mapping isn't published.",
+      "eye": "The star cloud is visible to the naked eye on dark nights, but the camera records far more stars and detail than the eye could."
+    },
+    "scaleExtra": null,
+    "alt": "Two dark, wispy clouds silhouetted against a field of stars.",
+    "flags": []
+  },
+  {
+    "id": "h-heic0414b",
+    "caption": "The faint halo of the Cat's Eye Nebula, imaged by the Nordic Optical Telescope",
+    "captureDate": null,
+    "story": [
+      "An enormous but extremely faint halo of gas surrounds the Cat's Eye Nebula in this picture, reaching more than three light-years across. Oxygen shows in blue and nitrogen in red. The Cat's Eye is a planetary nebula, the gas shed by a Sun-like star late in its life.",
+      "In recent years, astronomers have found that some planetary nebulae have halos like this. They probably formed from material thrown off during earlier active episodes in the star's life, probably between 50,000 and 90,000 years ago.",
+      "Seeing such a faint structure takes a long look through filters that isolate individual gases. Romano Corradi made this picture at the Nordic Optical Telescope, which stands on La Palma in the Canary Islands, using two narrow-band exposures of 1800 seconds each. The halo acts as a record of the star's past, preserving material it lost long ago."
+    ],
+    "explore": [
+      "The Cat's Eye Nebula is also catalogued as NGC 6543 and lies about 3,000 light-years away in the constellation Draco. Each of the two narrow-band exposures lasted 1800 seconds."
+    ],
+    "understand": {
+      "summary": "The Nordic Optical Telescope recorded this visible-light image through two narrow-band filters: oxygen is shown in blue and nitrogen in red.",
+      "eye": "The halo is far too faint for the eye; half-hour exposures through gas-specific filters were needed to bring it out."
+    },
+    "scaleExtra": null,
+    "alt": "A bright planetary nebula surrounded by an enormous, very faint halo of gas in blue and red.",
+    "flags": [
+      "not Hubble: image is from the Nordic Optical Telescope despite Hubble in telescope list"
+    ]
+  },
+  {
+    "id": "h-potw1401a",
+    "caption": "The nebula SBW1 and its giant star, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "A lidless purple eye seems to stare back from the centre of this Hubble image. It is a nebula known officially as [SBW2007] 1, nicknamed SBW1, with a giant star at its heart. The star was born about twenty times as massive as the Sun and now sits inside a swirling ring of purple gas.",
+      "That ring is left over from an earlier era, when the star threw off its outer layers through violent pulsations and winds. Scientists say the star is destined to explode as a supernova.",
+      "It closely resembles the star behind SN 1987A, a famous supernova. Early Hubble images of that explosion show a ring of the same size and age as SBW1's, moving at a similar speed. Both stars also sat in similar HII regions and had the same brightness. SBW1 is like a snapshot of SN 1987A before it blew up, so astronomers study the two together."
+    ],
+    "explore": [
+      "SBW1 lies over 20 000 light-years away, so its eventual explosion will pose no danger to watchers here, and if we are lucky it may happen within our lifetimes. Nick Rose and Steve Byrne entered versions of this image in the Hubble's Hidden Treasures competition."
+    ],
+    "understand": {
+      "summary": "Hubble's Wide Field Camera 3 imaged SBW1 through visible-light filters, including ones near the hydrogen-alpha and nitrogen wavelengths; the colour mapping isn't published.",
+      "eye": "The ring's glow is faint and was isolated with narrow filters, so an eye would not see it like this."
+    },
+    "scaleExtra": null,
+    "alt": "A purple ring of gas resembling an eye, with a giant star at its centre.",
+    "flags": []
+  },
+  {
+    "id": "h-potw1636a",
+    "caption": "The stellar nursery N159 in the Large Magellanic Cloud, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Glowing gas and dark dust swirl together like a storm in this Hubble shot. The scene is N159, a stellar nursery in the Large Magellanic Cloud, a satellite galaxy of the Milky Way. It is an HII region over 150 light-years across.",
+      "Many hot young stars live in N159. Their intense ultraviolet light makes the nearby hydrogen gas glow, while their fierce stellar winds carve the surrounding material into ridges, arcs and filaments. The stormy look is the stars reshaping the cloud they formed in.",
+      "At the heart of the cloud lies the Papillon Nebula, a small, dense, butterfly-shaped patch of glowing gas. It is classed as a High-Excitation Blob, a kind of object thought to be closely tied to how massive stars begin to form."
+    ],
+    "explore": [
+      "N159 is more than 160,000 light-years away, just south of the Tarantula Nebula, another large star-forming complex in the same galaxy. Hubble's earlier Wide Field Planetary Camera 2 imaged N159 before and was the first to resolve the Papillon Nebula."
+    ],
+    "understand": {
+      "summary": "Hubble's Advanced Camera for Surveys imaged N159 through visible and near-infrared filters; the colour mapping isn't published.",
+      "eye": "Part of the data is near-infrared light the eye cannot see, and the nebula is far too faint to see in this detail."
+    },
+    "scaleExtra": null,
+    "alt": "Swirling glowing gas and dark dust forming ridges, arcs and filaments.",
+    "flags": []
+  },
+  {
+    "id": "h-heic1301a",
+    "caption": "The star-forming region LHA 120-N11 in the Large Magellanic Cloud, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Gas clouds lit in a mix of colours fill this Hubble image of LHA 120-N11, a star-forming region in the Large Magellanic Cloud. That small galaxy is a satellite of the Milky Way, circling ours in a long, slow orbit.",
+      "The Milky Way's gravity gently tugs on its neighbour's gas clouds. As they are pulled, some of them collapse and form new stars. Those young stars then light up the clouds around them, painting them in a kaleidoscope of colours.",
+      "A star-forming region is a place where clouds of gas and dust gather, collapse and give rise to new stars. Here, the process is linked to the long gravitational relationship between the two galaxies, as the larger one's pull stirs up the gas of the smaller. The region is also catalogued as NGC 1769."
+    ],
+    "explore": [
+      "The image combines several filters, from blue light to near-infrared, and includes one that isolates the red glow of hydrogen gas."
+    ],
+    "understand": {
+      "summary": "Hubble's Advanced Camera for Surveys imaged the region through blue, visual, red, hydrogen-alpha and near-infrared filters; the colour mapping isn't published.",
+      "eye": "Long exposures, a hydrogen filter and near-infrared light reveal colours the eye could not see."
+    },
+    "scaleExtra": null,
+    "alt": "Colourful glowing gas clouds in a star-forming region.",
+    "flags": [
+      "caption too thin",
+      "distance mismatch: caption says nearly 200 000 light-years, metadata 160000"
+    ]
+  },
+  {
+    "id": "e-eso2301a",
+    "caption": "The Sh2-54 nebula, imaged by ESO's VISTA telescope",
+    "captureDate": null,
+    "story": [
+      "Stars shine through the clouds of the Sh2-54 nebula in this infrared view. It was taken with ESO's VISTA telescope at Paranal Observatory in Chile.",
+      "The picture shows how much the kind of light matters. In visible light, the dust and gas of Sh2-54 are obvious. In infrared light those clouds become much less noticeable, and the light of stars behind the nebula pierces through.",
+      "This happens because infrared light has longer wavelengths than visible light and passes through dust far more easily. Astronomers use this to look inside and behind dusty regions, spotting stars that would otherwise be hidden. Comparing infrared and visible views of the same nebula helps them build a fuller picture of what the cloud contains."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "VISTA's VIRCAM camera imaged the nebula in near-infrared light through J, H and Ks filters; the colour mapping isn't published.",
+      "eye": "Near-infrared light is invisible to the eye, and an eye would see the dusty clouds rather than the stars behind them."
+    },
+    "scaleExtra": null,
+    "alt": "Stars shining through the clouds of a nebula in infrared light.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-eso1839i",
+    "caption": "The Horsehead Nebula, imaged by the Callisto telescope of the SPECULOOS Southern Observatory",
+    "captureDate": null,
+    "story": [
+      "The famous Horsehead Nebula appears in the very first image taken by Callisto, one of the telescopes of the SPECULOOS Southern Observatory. A first light is the first image a newly commissioned telescope takes, and well-known objects like this are often chosen to mark the occasion.",
+      "The Horsehead is a dark nebula: a thick cloud of dust that blocks the light from behind it, so it shows up as a silhouette.",
+      "SPECULOOS has a different main job. It is made up of four 1-metre telescopes built to hunt for planets, and they are named after Jupiter's Galilean moons, of which Callisto is one. The observatory will look for planets the size of Earth around nearby brown dwarfs and ultra-cool stars. The telescopes sit at ESO's Paranal Observatory in Chile's Atacama Desert, near the Very Large Telescope and VISTA."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "The Callisto telescope took this image through visible and near-infrared filters; the colour mapping isn't published.",
+      "eye": "The Horsehead is too faint to see with the naked eye; a camera exposure gathers enough light to reveal its outline."
+    },
+    "scaleExtra": null,
+    "alt": "The Horsehead Nebula, a dark horse-head-shaped cloud.",
+    "flags": []
+  },
+  {
+    "id": "h-heic1912a",
+    "caption": "The Eta Carinae star system in ultraviolet light, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Two dusty bubbles bulge out in opposite directions, wrapped in blue glowing gas and edged with red filaments. This is the nebula around Eta Carinae, a star system prone to violent outbursts. The bubbles were formed by material ejected during one such episode in the 1840s.",
+      "This view uses ultraviolet light, captured by Hubble's Wide Field Camera 3. It revealed the glow of magnesium in warm gas, shown in blue, in places astronomers had not seen it before. The magnesium lies between the dusty bubbles and the outer filaments, which are rich in nitrogen and heated by shocks, shown in red.",
+      "The blue region outside the lower-left bubble has striking streaks. They form where the star's light pokes through clumps of dust on the bubble's surface. Where ultraviolet light hits the dense dust, it casts a long, thin shadow out into the surrounding gas."
+    ],
+    "explore": [
+      "Telescopes including Hubble have monitored the Eta Carinae system for more than two decades. The outburst that produced the two bubbles took place in the 1840s."
+    ],
+    "understand": {
+      "summary": "Hubble's Wide Field Camera 3 observed in ultraviolet and visible light: magnesium glow in warm gas is shown in blue and nitrogen-rich filaments in red.",
+      "eye": "Much of this light is ultraviolet, which the eye cannot see and which Earth's atmosphere blocks."
+    },
+    "scaleExtra": "Eta Carinae lies 7500 light-years away, according to the caption.",
+    "alt": "Two dusty bipolar bubbles surrounded by blue glowing gas with streaks and outer red filaments.",
+    "flags": []
+  },
+  {
+    "id": "e-eso1903a",
+    "caption": "The star-forming region LHA 120-N 180B, imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "This picture shows a region of newly forming stars in the Large Magellanic Cloud, a small galaxy near the Milky Way. It was captured by MUSE, the Multi Unit Spectroscopic Explorer, an instrument on ESO's Very Large Telescope.",
+      "MUSE is more than a camera. For every point in its field it records a full spectrum, splitting the light into its many colours. That lets astronomers map which gases are glowing where. For this image, light from oxygen, hydrogen and sulphur was used.",
+      "The Large Magellanic Cloud has relatively little dust, which makes it easier to see into its star-forming regions. Combined with MUSE's sharp vision, that allowed intricate details of this region to be picked out in visible light. The region is catalogued as LHA 120-N 180B."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "The VLT's MUSE instrument observed this region in visible light, and the image uses the emission of oxygen, hydrogen-alpha and sulphur; the colour mapping isn't published.",
+      "eye": "Selecting single wavelengths of glowing gas from MUSE's spectra brings out structure the eye would not separate."
+    },
+    "scaleExtra": null,
+    "alt": "A region of glowing gas clouds with newly forming stars.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "h-potw1317a",
+    "caption": "The supernova remnant SNR 0519, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Thin, blood-red shells made of delicate wisps of gas curve through this Hubble image. Together they form SNR B0519-69.0, usually shortened to SNR 0519: the debris of a star whose supernova explosion happened around 600 years ago.",
+      "There are several kinds of supernova. Here, astronomers know the exploding star was a white dwarf, the dense leftover core of a Sun-like star in the last stage of its life. The unstable star exploded violently, and these thin shells are what remains.",
+      "SNR 0519 lies more than 150,000 light-years away in the southern constellation Dorado, the Dolphinfish. That constellation also holds most of the Large Magellanic Cloud, a satellite galaxy of the Milky Way, so this part of the sky is crowded with interesting deep-sky objects. The remnant sits within that neighbouring galaxy."
+    ],
+    "explore": [
+      "The Large Magellanic Cloud is the fourth largest galaxy in our Local Group. Hubble has seen a similar remnant there, SNR B0509-67.5, which came from the same type of supernova and looks strikingly alike. Claude Cornen's version of this image won sixth prize in the Hubble's Hidden Treasures competition."
+    ],
+    "understand": {
+      "summary": "Hubble's Advanced Camera for Surveys imaged the remnant through a visual filter and a filter near the hydrogen-alpha line; the colour mapping isn't published.",
+      "eye": "The thin shells glow faintly in hydrogen light and would be invisible to the eye at this distance."
+    },
+    "scaleExtra": null,
+    "alt": "Thin, delicate red shells of gas from an exploded star.",
+    "flags": []
+  },
+  {
+    "id": "e-potw2518a",
+    "caption": "The nebula Sh2-46 (Gum 80) and the star HD 165319, imaged by the VLT Survey Telescope",
+    "captureDate": null,
+    "story": [
+      "Strong red clouds surround a big blue-white star at the centre of this picture. The cloud is the nebula Sh2-46, also named Gum 80, and the star is HD 165319. It seems to belong there, but astronomers think it is an impostor.",
+      "HD 165319 is an O-type star, among the brightest but rarest kinds of star. Its radiation ionises the hydrogen in the nebula, producing much of the red glow. Yet astronomers think it was born elsewhere, in the nearby Eagle Nebula, a busy star-forming region. Stars born together usually stay bound in an open cluster, but a few break free and wander, sometimes into unrelated nebulae.",
+      "A curved shock front beside the star, like the wave in front of a moving boat, suggests the star is currently plunging through Sh2-46. If the star eventually moves on, the nebula may end up looking quite different."
+    ],
+    "explore": [
+      "The VLT Survey Telescope, owned by the Italian National Institute for Astrophysics (INAF) and located at ESO's Paranal Observatory, took this detailed visible-light picture. It marked a centenary, the 100 years of the Planetarium, and a full-dome version was screened at the ESO Supernova Planetarium & Visitor Centre."
+    ],
+    "understand": {
+      "summary": "The VLT Survey Telescope took this image in visible light; the filters and colour mapping aren't published.",
+      "eye": "Long exposures gather far more light than the eye, making the red glow much stronger than it would appear directly."
+    },
+    "scaleExtra": "The nebula is roughly 6000 light-years away, according to ESO.",
+    "alt": "Strong red clouds of gas surrounding a big blue-white star at the centre.",
+    "flags": []
+  },
+  {
+    "id": "e-eso2511a",
+    "caption": "The supernova remnant SNR 0509-67.5, imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "Two concentric shells of blue sit inside a glow of orange in this image of SNR 0509-67.5. This spreading debris is all that is left of a star which blew up several centuries ago.",
+      "The colours are a chemical map. The data come from MUSE, the Multi-Unit Spectroscopic Explorer on ESO's Very Large Telescope, which can show where each chemical element lies. Calcium is shown in blue and hydrogen in orange.",
+      "The two calcium shells are the key finding. They indicate that the star died in a double detonation, exploding with two blasts rather than one. According to ESO, this is the first photographic evidence that stars can die this way. The two nested layers of calcium are read as the signature of those two blasts, preserved in the debris of the star as it spreads."
+    ],
+    "explore": [
+      "The background stars in the image come from Hubble data, while the chemical map of the remnant comes from the VLT. MUSE records a spectrum at every point, which is what allows each element to be pulled out and coloured separately."
+    ],
+    "understand": {
+      "summary": "The VLT's MUSE instrument mapped individual elements in visible light: calcium is shown in blue and hydrogen (H-alpha) in orange, with background stars from Hubble.",
+      "eye": "MUSE separates the light of individual elements, something no eye can do, so this is a map of chemistry rather than a direct view."
+    },
+    "scaleExtra": null,
+    "alt": "Two concentric blue shells inside an orange glow, surrounded by stars.",
+    "flags": []
+  },
+  {
+    "id": "e-potw2310a",
+    "caption": "The IC4701 nebula, imaged by the VLT Survey Telescope",
+    "captureDate": null,
+    "story": [
+      "Intense reddish gas and dark clouds of dust mingle with a crowd of stars in this view of the IC4701 nebula in the constellation Sagittarius. On the sky, the nebula spans twice the width of the full Moon.",
+      "The red colour comes from hydrogen. Energetic light from newborn stars ionises the gas, and it responds by shining in that particular reddish hue. The dark clouds are rich in interstellar dust, so thick that light from the stars behind them cannot get through.",
+      "IC4701 is part of a vast complex of dust and gas where new stars are springing to life. Most stars are born cooler, redder and less massive than the Sun. Hot, massive stars are much rarer and burn through their fuel quickly before dying. That short life makes brilliant blue massive stars, and the glowing gas around them, signposts of recent star formation."
+    ],
+    "explore": [
+      "The image was taken with OmegaCAM, the wide-field camera on the VLT Survey Telescope at ESO's Paranal Observatory, and the data come from the VPHAS+ survey."
+    ],
+    "understand": {
+      "summary": "The VLT Survey Telescope's OmegaCAM camera recorded this visible-light image through u, g, r and i filters plus a hydrogen-alpha filter; the colour mapping isn't published.",
+      "eye": "The hydrogen filter and long exposures reveal a red glow far too faint to see with the eye."
+    },
+    "scaleExtra": null,
+    "alt": "Reddish glowing gas and dark dust clouds among many stars.",
+    "flags": []
+  },
+  {
+    "id": "h-opo0813a",
+    "caption": "The planetary nebula NGC 2371, imaged by the Hubble Space Telescope",
+    "captureDate": "November 2007",
+    "story": [
+      "Prominent pink clouds lie on opposite sides of a central star in this glowing bubble of gas, with many tiny pink dots also lined up across the star. This is NGC 2371 in Gemini, a planetary nebula made from the cast-off gas of a star much like the Sun.",
+      "The star at the centre is the super-hot core of a former red giant, stripped of its outer layers, with a surface temperature of about 240,000 degrees Fahrenheit. Its ultraviolet light makes the nebula glow. The pink colour shows the paired clouds are relatively cool and dense.",
+      "The small pink knots seem to mark gas thrown out in a specific direction, and that direction has shifted over the past few thousand years. Why is not well understood; a second star orbiting the central one might be responsible. Within a few thousand years the nebula will fade away, and the star will cool into a white dwarf."
+    ],
+    "explore": [
+      "NGC 2371 lies about 4,300 light-years away. The images were taken with Wide Field Planetary Camera 2 as part of the Hubble Heritage programme, and they revealed many structures not seen before."
+    ],
+    "understand": {
+      "summary": "Hubble's Wide Field Planetary Camera 2 made this false-colour image: filters for sulfur and nitrogen are shown in red, hydrogen in green and oxygen in blue.",
+      "eye": "It is a false-colour image in which each gas is assigned its own colour, so it does not show what an eye would see."
+    },
+    "scaleExtra": null,
+    "alt": "A glowing bubble of gas with pink clouds on opposite sides of a central star and a line of small pink knots.",
+    "flags": [
+      "distance mismatch: caption says about 4,300 light-years, metadata 4500"
+    ]
+  },
+  {
+    "id": "h-potw2041a",
+    "caption": "The frEGG J025157.5+600606, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "A dark, compact globule of dust and gas is outlined by glowing purple and blue edges in this Hubble image. It is a free-floating evaporating gaseous globule, or frEGG, a special kind of star-forming nursery, formally known as J025157.5+600606.",
+      "FrEGGs live in harsh surroundings. When a massive new star begins to shine while still inside the cool molecular cloud that formed it, its energetic radiation ionises the cloud's hydrogen and blows a large, hot bubble of ionised gas. Surprisingly, dark frEGGs survive inside such bubbles around nearby massive stars, and some of them are giving birth to low-mass stars.",
+      "The glowing edge marks the boundary where the cool, dusty globule meets the hot gas around it. There, radiation from the massive star is slowly eating away at the globule, which is why it is described as evaporating."
+    ],
+    "explore": [
+      "An earlier ESA/Hubble Picture of the Week, in July 2020, featured another of these globules, catalogued as J025027.7+600849."
+    ],
+    "understand": {
+      "summary": "Hubble's Advanced Camera for Surveys imaged the globule through visible and near-infrared filters and a filter for nitrogen emission; the colour mapping isn't published.",
+      "eye": "The glowing rim is faint and partly recorded in light the eye cannot see, so it would not be visible directly."
+    },
+    "scaleExtra": null,
+    "alt": "A dark compact globule of dust and gas with glowing purple and blue edges.",
+    "flags": []
+  },
+  {
+    "id": "e-eso1320a",
+    "caption": "The star-forming region NGC 6559, imaged by the Danish 1.54-metre telescope at La Silla",
+    "captureDate": null,
+    "story": [
+      "Red clouds, blue patches and dark regions jostle together in this image of NGC 6559, a place where stars are forming inside an interstellar cloud. It was taken with the Danish 1.54-metre telescope at ESO's La Silla Observatory in Chile.",
+      "Each colour tells of a different process. The red clouds are made mostly of hydrogen gas, which glows when it is energised. The blue areas are where starlight bounces off tiny particles of dust, much as sunlight scatters in Earth's sky. The dark regions are places where dust is so thick that it becomes opaque and blocks the light behind it.",
+      "ESO describes the scene as showing the anarchy that reigns when stars form. Glowing gas, reflecting dust and dark clouds all end up tangled together in one patch of sky."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "The DFOSC instrument on the Danish 1.54-metre telescope took this visible-light image through B, V, R and hydrogen-alpha filters; the colour mapping isn't published.",
+      "eye": "The camera's long exposures reveal faint coloured clouds that the eye could not see."
+    },
+    "scaleExtra": null,
+    "alt": "Red glowing gas clouds, blue reflection patches and dark opaque dust regions among stars.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-potw2415a",
+    "caption": "The Gum 41 nebula, imaged by the VLT Survey Telescope",
+    "captureDate": null,
+    "story": [
+      "A rosy, fairly symmetric shell of glowing hydrogen fills most of this picture, set against a colourful backdrop of stars. This is the Gum 41 nebula in the southern constellation of Centaurus.",
+      "Gum 41 is a Strömgren sphere: a shell of hydrogen made to glow by radiation from a bright central star. That star, HD 100099, looks like one object, but it is thought to be two young, massive stars orbiting so closely that they cannot be told apart here. The region holds many such pairs, including HD 99944, the bright object on the lower right edge.",
+      "These partnerships will not last. Hot, massive stars have short lives of only a few million years, unlike our Sun. Once they are gone, nothing will be left to make the nebula glow, and Gum 41 will fade into transparency."
+    ],
+    "explore": [
+      "Gum 41 belongs to a much larger region nicknamed the Running Chicken Nebula. Whether Gum 41 is the chicken's foot or its head is, according to ESO, surprisingly controversial. The picture was taken with the VLT Survey Telescope at ESO's Paranal Observatory."
+    ],
+    "understand": {
+      "summary": "The VLT Survey Telescope took this visible-light image; the filters and colour mapping aren't published.",
+      "eye": "Long exposures bring out the rosy hydrogen glow, which would be far fainter to the eye."
+    },
+    "scaleExtra": null,
+    "alt": "A rosy, symmetric shell of glowing gas around a bright central star, against a colourful star field.",
+    "flags": []
+  },
+  {
+    "id": "e-potw2623a",
+    "caption": "The nebulae Gum 10 and Gum 11, imaged by the VLT Survey Telescope",
+    "captureDate": null,
+    "story": [
+      "Red-orange clouds sprawl across this picture, streaked with black lines. The bright cloud filling most of the frame is Gum 10, and the fainter, separate cloud at the bottom left is Gum 11. Some viewers may see a chicken pecking at seeds, or the head of a dragon.",
+      "The pair belong to a larger complex where stars are born, visible mostly from the southern hemisphere. Hot, massive stars in each nebula give off ultraviolet light strong enough to tear electrons away from hydrogen atoms. When the electrons later rejoin the hydrogen ions, they give off the particular shade of red seen here. The black lines are dust blocking the light behind it.",
+      "The picture marks an anniversary: it was released on the fifteenth anniversary of first light for the VLT Survey Telescope, which took it. The data come from VPHAS+, a project scanning the plane of the Milky Way to better understand the life cycle of stars."
+    ],
+    "explore": [
+      "The VST began as a joint project between ESO and the Capodimonte Astronomical Observatory, which belongs to INAF, Italy's national astrophysics institute. Today INAF manages it alone, and ESO hosts it at Paranal Observatory in Chile."
+    ],
+    "understand": {
+      "summary": "The VLT Survey Telescope took this visible-light image; the filters and colour mapping aren't published.",
+      "eye": "The camera builds up a red glow from hydrogen over long exposures, far brighter than the eye would see it."
+    },
+    "scaleExtra": null,
+    "alt": "Large red-orange clouds with black dust lanes, and a smaller detached cloud at bottom left.",
+    "flags": []
+  },
+  {
+    "id": "e-potw1448a",
+    "caption": "The molecular cloud IRAS 16562-3959, imaged by ESO's VISTA telescope",
+    "captureDate": null,
+    "story": [
+      "An orange smudge sits among a rich pool of stars at the centre of this infrared view. It is a dense cloud of dust and gas linked to the molecular cloud IRAS 16562-3959, in the constellation Scorpius close to the central plane of our galaxy.",
+      "Clouds like this are breeding grounds for stars. At its centre, a bright object called G345.4938+01.4677 can just be seen through the veil of gas and dust. It is a very young star, still forming as the cloud collapses under gravity, and it is heavy: roughly 15 times the Sun's mass.",
+      "Observations with ALMA, a radio telescope array, found surprises around it: a large disc of gas and dust, and a stream of material flowing out. Theory predicted neither should exist, because strong radiation from such massive newborn stars is expected to push material away."
+    ],
+    "explore": [
+      "The image comes from VISTA at ESO's Paranal Observatory, the world's largest survey telescope, with a main mirror over four metres across. It was produced by the VVV survey, one of six large public surveys mapping the southern sky. The bright star at bottom left is HD 153220."
+    ],
+    "understand": {
+      "summary": "VISTA's VIRCAM camera imaged this region in near-infrared light through J, H and Ks filters; the colour mapping isn't published.",
+      "eye": "Near-infrared light is invisible to the eye, and it lets the camera see partly through dust that would hide the young star."
+    },
+    "scaleExtra": null,
+    "alt": "An orange smudge of dust and gas among a dense field of stars, with a bright star at bottom left.",
+    "flags": []
+  },
+  {
+    "id": "e-potw2531a",
+    "caption": "The red supergiant Stephenson 2 DFK 52 and its cloud of ejected material, imaged by ALMA",
+    "captureDate": null,
+    "story": [
+      "Blue and red overlap in this image, rather like an old 3D picture meant for paper red-and-cyan glasses. It actually shows a red supergiant star, Stephenson 2 DFK 52, which is shedding gas and dust into space as its life draws to a close.",
+      "Such clouds are common around supergiants, but this one is a puzzle. It is the largest cloud of ejected material yet found around a supergiant. Astronomers expected something like the cloud around Betelgeuse, a similar star; instead, if DFK 52 were as close as Betelgeuse, its cocoon would look a third as wide as the full Moon.",
+      "The colours show motion: blue for gas moving toward us, red for gas moving away. The data suggest that about 4000 years ago the star shed mass at an extreme rate, before slowing to a pace more like Betelgeuse's. How it lost so much so quickly is still a mystery."
+    ],
+    "explore": [
+      "DFK 52 is estimated to be 10-15 times as massive as the Sun and has already lost 5-10% of its mass. Astronomers ask whether a companion star was involved, why the cloud's shape is so complex, and whether similar supergiants exist. The star is expected to explode as a supernova sometime in the next million years."
+    ],
+    "understand": {
+      "summary": "The Atacama Large Millimeter/submillimeter Array (ALMA) observed the star at millimetre wavelengths, tracing carbon monoxide gas and dust; blue marks gas moving towards us and red gas moving away.",
+      "eye": "Millimetre-wavelength radio light is invisible to the eye, and the colours encode motion rather than any colour the gas really has."
+    },
+    "scaleExtra": "The cloud of ejected material is about 1.4 light-years across, according to ESO.",
+    "alt": "An overlapping blue and red cloud of gas surrounding a red supergiant star, resembling a 3D image.",
+    "flags": []
+  },
+  {
+    "id": "h-opo0320a",
+    "caption": "The supernova remnant N 49 (DEM L 190), imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Delicate filaments spread across this Hubble image like puffs of smoke and sparks from a fireworks display. They are really sheets of debris from a stellar explosion in the Large Magellanic Cloud, a small companion galaxy of the Milky Way that can be seen from the southern hemisphere.",
+      "The remnant is called N 49, or DEM L 190. A massive star made it when it perished in a supernova, and the light of that blast would have reached Earth thousands of years ago. The remnant lies about 170,000 light-years away.",
+      "This wreckage will not go to waste. The filaments will eventually be recycled into new generations of stars in the Large Magellanic Cloud. The same thing happened in our own galaxy: the Sun and its planets were built from similar debris, left by stars in the Milky Way that blew up billions of years ago."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "Hubble's Wide Field Planetary Camera 2 took this image through filters for oxygen, hydrogen-alpha and sulphur emission plus yellow and near-infrared light; the colour mapping isn't published.",
+      "eye": "Filters that isolate glowing gases, and near-infrared light we cannot see, reveal filaments far too faint for the eye."
+    },
+    "scaleExtra": null,
+    "alt": "Delicate filaments of glowing debris resembling smoke and sparks from fireworks.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-eso2012a",
+    "caption": "The planetary nebula NGC 2899, imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "This highly detailed picture shows NGC 2899, a planetary nebula in the constellation Vela. Even its faint outer edges glow over the background stars, and according to ESO the object had never before been imaged in such detail. It was captured with the FORS instrument on ESO's Very Large Telescope in northern Chile.",
+      "A planetary nebula is the cloud of gas thrown off by a Sun-like star near the end of its life. As the star's outer layers drift away, its exposed hot core sends out ultraviolet light that makes the gas glow. Despite the name, these objects have nothing to do with planets.",
+      "The FORS instrument brought out the nebula's structure in striking detail, from its bright inner parts to the faint glow at its outer edges. The image combines several filters, including one tuned to the light of glowing oxygen."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "The VLT's FORS2 instrument took this visible-light image through b, v and R filters plus an oxygen filter; the colour mapping isn't published.",
+      "eye": "The faint outer edges only show up in the telescope's long exposures; to the eye they would be invisible."
+    },
+    "scaleExtra": null,
+    "alt": "A detailed planetary nebula whose faint outer edges glow over background stars.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-potw2442a",
+    "caption": "The nebula Gum 39 in the Running Chicken Nebula, imaged by the VLT Survey Telescope",
+    "captureDate": null,
+    "story": [
+      "A pink glow of hydrogen gas, crossed by dark lanes of cosmic dust, is surrounded by orange, white and blue stars scattered like fireworks. This is Gum 39, a nebula in the constellation Centaurus.",
+      "The much larger Running Chicken Nebula was captured in a 1.5-billion-pixel image, and Gum 39 is only a small piece of it. It forms the comb on the chicken's head, at least in some people's eyes, since viewers disagree about what the chicken looks like. The data were captured by the VLT Survey Telescope, which belongs to Italy's national astrophysics institute and is hosted and run by ESO.",
+      "The pink glow comes from hydrogen lit up by intense radiation from newborn stars, and the dark lanes are dust blocking the light behind them. Nebulae like this are called stellar nurseries: as dense clouds of molecular gas collapse under gravity, they give rise to many new stars."
+    ],
+    "explore": [
+      "Scientists use telescopes such as the VST and ALMA to study these nurseries and better understand the complex process of star birth. Gum 39 is the object's official name."
+    ],
+    "understand": {
+      "summary": "The VLT Survey Telescope took this visible-light image; the filters and colour mapping aren't published.",
+      "eye": "Long exposures bring out a pink glow and faint stars that the eye could not see."
+    },
+    "scaleExtra": "Gum 39 is about 6500 light-years from Earth, according to ESO.",
+    "alt": "Pink glowing gas crossed by dark dust lanes, surrounded by orange, white and blue stars.",
+    "flags": []
+  },
+  {
+    "id": "e-eso2019a",
+    "caption": "The Skull Nebula (NGC 246), imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "Pink and red tones fill this detailed view of the Skull Nebula, also known as NGC 246, in the constellation Cetus. It was captured by ESO's Very Large Telescope using its FORS instrument.",
+      "The Skull Nebula is a planetary nebula: a shell of gas cast off by a dying Sun-like star. As the star loses its outer layers, its hot exposed core lights up the surrounding gas with ultraviolet radiation, making it glow.",
+      "What makes NGC 246 special is the family at its heart. It is the first planetary nebula found to be linked with a pair of closely bound stars that are orbited by a third, more distant star. The picture combines several filters, including ones that pick out glowing oxygen and hydrogen."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "The VLT's FORS2 instrument captured this visible-light image through b, v and R filters plus oxygen and hydrogen-alpha filters; the colour mapping isn't published.",
+      "eye": "The telescope's exposures and gas filters bring out glowing structure that would be very faint to the eye."
+    },
+    "scaleExtra": null,
+    "alt": "A planetary nebula glowing in pink and red tones.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "w-southernring3",
+    "caption": "The Southern Ring Nebula (NGC 3132), imaged by the James Webb Space Telescope",
+    "captureDate": null,
+    "story": [
+      "A large, translucent pink-and-red oval, slightly misshapen and tilted from top left to bottom right, surrounds a single visible star at the centre. This is the Southern Ring Nebula, NGC 3132, seen by Webb's Near-Infrared Camera and Mid-Infrared Instrument together.",
+      "The nebula is made of gas cast off by the star at its centre. Webb's image traces the star's scattered outflows that have reached farther out into space.",
+      "Outside a band of cooler gas, most of the molecular gas is also cold, but it is far clumpier. It gathers into dense knots of molecular gas, which together form a halo around the central stars. The three filters used record molecular hydrogen at two wavelengths and PAH emission at a third. The nebula is about 2,500 light-years away."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This composite combines Webb's NIRCam and MIRI data from three filters: molecular hydrogen at 2.12 microns (blue), molecular hydrogen at 4.7 microns (green) and PAH emission at 7.7 microns (red).",
+      "eye": "All of this light is infrared and invisible to the eye, so the colours are assigned to show different kinds of material."
+    },
+    "scaleExtra": null,
+    "alt": "A translucent pink-and-red misshapen oval nebula around a single central star, tilted from top left to bottom right.",
+    "flags": []
+  },
+  {
+    "id": "e-potw2438a",
+    "caption": "The gas cloud IC 2948 in the Running Chicken Nebula, imaged by the VLT Survey Telescope",
+    "captureDate": null,
+    "story": [
+      "Countless young stars are scattered through this gas cloud, and creeping dark clouds shaped like open hands seem ready to grab them. This is IC2948, the brightest region of the Running Chicken Nebula in the constellation Centaurus.",
+      "The Running Chicken Nebula is enormous, covering an area of sky close to 25 full moons. The view shown here covers less than a third of one full moon. Such a detailed close-up came from a 1.5-billion-pixel image made by the VLT Survey Telescope, hosted and operated by ESO.",
+      "The nebula is a maze of gas, dust and young stars, whose intense radiation wears away the material around them. IC2948 was first discovered more than a century ago, and it is still helping astronomers understand how stars form and behave in their infancy."
+    ],
+    "explore": [
+      "To find IC2948 in the larger nebula, look for the chicken's rear end, though others say that spot is the head. Nearby you may also spot other regions, such as the Gum 41 nebula."
+    ],
+    "understand": {
+      "summary": "The VLT Survey Telescope took this visible-light image; the filters and colour mapping aren't published.",
+      "eye": "The long exposures reveal glowing gas and faint stars well beyond what an eye could see."
+    },
+    "scaleExtra": null,
+    "alt": "A glowing gas cloud crowded with young stars and dark, hand-shaped clouds.",
+    "flags": []
+  },
+  {
+    "id": "h-opo0214a",
+    "caption": "The Retina Nebula (IC 4406), imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "A rainbow of colours and fine tendrils fill this Hubble view of IC 4406, a dying star's nebula whose left and right halves are nearly mirror images. That symmetry is common among planetary nebulae, the clouds of gas cast off by stars near the end of their lives.",
+      "Its true shape is hidden by our viewpoint. If we could fly around IC 4406, we would see the gas and dust form a vast doughnut streaming outward from the dying star. From Hubble, near Earth, we see that doughnut from the side, so its ring shape does not show.",
+      "The side-on view has a bonus: it reveals intricate tendrils of material that have been likened to the retina at the back of an eye. That comparison gave IC 4406 its nickname, the Retina Nebula. The nebula lies about 5,000 light-years away in the constellation Lupus."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "Hubble's Wide Field Planetary Camera 2 imaged the nebula through filters for oxygen, hydrogen-alpha and nitrogen emission; the colour mapping isn't published.",
+      "eye": "Filters that isolate individual glowing gases produce colour distinctions the eye could not see."
+    },
+    "scaleExtra": null,
+    "alt": "A symmetric nebula in a rainbow of colours with intricate tendrils resembling a retina.",
+    "flags": []
+  },
+  {
+    "id": "e-potw1927a",
+    "caption": "The planetary nebula Abell 24, imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "A faint, red-hued cloud of gas glows in this image. It is Abell 24, a planetary nebula in Canis Minor, the Lesser Dog: gas and dust thrown into space when a star dies. The name misleads: William Herschel, who also discovered Uranus, coined it because such fuzzy objects looked like giant planets in early telescopes.",
+      "A Sun-like star spends most of its life turning hydrogen into helium in its core. When the fuel runs out, the core collapses and heats up while the outer layers swell, and the star becomes a red giant. When the Sun does this it will engulf the innermost planets and possibly Earth, swelling until its radius is more than 250 times what it is today.",
+      "Strong winds then blow off the outer layers, which spread into space. That exposes the hot core, whose ultraviolet light makes the gas glow. Abell 24 is that faint glow around the bright remnant of a long-dead star."
+    ],
+    "explore": [
+      "The image was taken with the VLT's FORS instrument as part of ESO's Cosmic Gems programme, which uses telescope time that cannot be used for science to make outreach images. The data are also archived for astronomers."
+    ],
+    "understand": {
+      "summary": "The VLT's FORS2 instrument captured this visible-light image through b, V, R and hydrogen-alpha filters; the colour mapping isn't published.",
+      "eye": "The nebula's glow is faint, and the camera's exposures record far more of it than the eye could."
+    },
+    "scaleExtra": null,
+    "alt": "A faint red cloud of gas around a bright central star.",
+    "flags": []
+  },
+  {
+    "id": "h-opo1235b",
+    "caption": "Two merging star clusters in the 30 Doradus Nebula, imaged by the Hubble Space Telescope",
+    "captureDate": "20–27 October 2009",
+    "story": [
+      "Two star clusters fill this Hubble image, and astronomers think they have just begun to merge. They lie in the gigantic 30 Doradus Nebula, also known as the Tarantula, 170,000 light-years from Earth.",
+      "The evidence for the coming collision is circumstantial. The cluster at upper left looks stretched out, and the two clusters appear to have different ages. A merger would also explain something puzzling: the unusually large number of fast-moving stars around 30 Doradus. They could be accounted for if a small cluster has merged into R136, the big cluster at the centre of the nebula.",
+      "Watching this happen nearby gives astronomers a window into the distant past. Because it is close by, this interaction may shed light on how clusters of stars might have formed in the early Universe."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "Hubble's Wide Field Camera 3 made this image in ultraviolet, visible and near-infrared light; blue shows light from the hottest, most massive stars, green the glow of oxygen, and red fluorescing hydrogen.",
+      "eye": "Part of the data is ultraviolet and near-infrared light that the eye cannot see, and gas-specific filters separate oxygen from hydrogen."
+    },
+    "scaleExtra": null,
+    "alt": "Two star clusters in a glowing nebula, one of them elongated, with blue stars and green and red gas.",
+    "flags": []
+  },
+  {
+    "id": "e-potw2434a",
+    "caption": "Dense star-forming gas in the RCW 106 region, imaged by APEX and the VLT Survey Telescope",
+    "captureDate": null,
+    "story": [
+      "Glowing red clouds lie over a field of stars in this picture of the RCW 106 region. The red marks dense gas where new stars are being born. It is a map made with the ArTéMiS camera on the Atacama Pathfinder Experiment (APEX), laid over an optical image from the VLT Survey Telescope.",
+      "The picture points to a puzzle. Only about 1% of this gas will ever become stars, and astronomers don't know why the share is so low. Stars form when parts of huge clouds of cold gas clump together and collapse, which happens once the gas reaches a critical density.",
+      "So do even denser regions make even more stars? New APEX results suggest not: packing gas more tightly does not make a region better at turning it into stars. One possible reason is the way these dense clouds break up into filaments and cores, the seeds of future stars. Many questions remain open."
+    ],
+    "explore": [
+      "The APEX results were accepted for publication in the journal Astronomy & Astrophysics. APEX is continuing to investigate why so little gas turns into stars, and the highlighted red regions show the areas of interest for that work."
+    ],
+    "understand": {
+      "summary": "This composite overlays a red map of dense gas from the ArTéMiS camera on APEX, which observes at submillimetre wavelengths, onto an optical image from the VLT Survey Telescope.",
+      "eye": "The red layer shows submillimetre light from cold dense gas, which the eye cannot see at all; only the background comes from visible light."
+    },
+    "scaleExtra": null,
+    "alt": "Glowing red regions of dense gas overlaid on a starry optical image.",
+    "flags": [
+      "overlay: APEX submillimetre dense-gas map laid over an optical VST image"
+    ]
+  },
+  {
+    "id": "h-potw1008a",
+    "caption": "The nebula IRAS 05437+2502, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "A little-known nebula billows out among bright stars and dark dust clouds in this Hubble image, with a bright, sharp-edged boomerang-shaped arc standing out. The nebula is IRAS 05437+2502, in Taurus, the Bull, near the central plane of the Milky Way.",
+      "Few detailed studies of it exist, unlike many objects Hubble looks at, so what it really is remains uncertain. On a first look it looks like a small, fairly isolated star-forming region, shaped by ultraviolet light from young stars.",
+      "The boomerang arc may tell a more dramatic story. It could have been created by a fast young star ploughing through the cloud of gas and dust. Such a star would have been thrown out of the distant young cluster where it formed, and would be racing through the nebula at 200 000 km/hour or more."
+    ],
+    "explore": [
+      "The Infrared Astronomical Satellite, IRAS, found this cloud in 1983; it was the first space telescope to map the entire sky in infrared. Hubble took this picture as part of a snapshot survey, filling gaps in its schedule with no guarantee the observation would happen at all."
+    ],
+    "understand": {
+      "summary": "Hubble's Advanced Camera for Surveys combined yellow (F606W) and near-infrared (F814W) filters, with about eleven minutes per filter; the colour mapping isn't published.",
+      "eye": "The near-infrared light is invisible to the eye, and eleven-minute exposures reveal faint gas well beyond naked-eye reach."
+    },
+    "scaleExtra": null,
+    "alt": "A billowing nebula among bright stars and dark dust, with a bright sharp-edged boomerang-shaped arc.",
+    "flags": []
+  },
+  {
+    "id": "h-heic9910a",
+    "caption": "The planetary nebula NGC 2392, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "This is NGC 2392, a planetary nebula in the constellation Gemini: the glowing remains of a dying star much like the Sun. It was among the first views Hubble captured after the successful servicing mission of December 1999.",
+      "A planetary nebula forms when a Sun-like star reaches the end of its life. The star puffs off its outer layers of gas, which drift out into space. The exposed hot core left behind shines with strong ultraviolet light, and that light makes the surrounding gas glow. The name comes from early astronomers, who thought such round fuzzy objects looked a little like planets; they have nothing to do with planets.",
+      "Servicing missions sent astronauts to repair and upgrade Hubble in orbit, and this image came from the telescope's first look at the sky after the one in December 1999. It used filters that pick out the glow of helium, oxygen, hydrogen and nitrogen."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "Hubble's Wide Field Planetary Camera 2 imaged the nebula through filters for helium, oxygen, hydrogen-alpha and nitrogen emission; the colour mapping isn't published.",
+      "eye": "Filters that isolate individual gases give each one a colour, which is not how an eye would see the nebula."
+    },
+    "scaleExtra": null,
+    "alt": "A glowing planetary nebula around a dying star.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-potw1724a",
+    "caption": "The Boomerang Nebula, imaged by ALMA and the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "A purple double-lobed shape with a very narrow waist sits behind a more elongated orange shape in this view of the Boomerang Nebula. The purple is Hubble's visible-light view; the orange is cold molecular gas seen by ALMA, the Atacama Large Millimeter/submillimeter Array, revealing the nebula's longer true shape.",
+      "The Boomerang is a protoplanetary nebula, about 5,000 light-years away, and since 2003 it has held the record as the coldest known object in the Universe. Astronomers think it grew out of the outer envelope of an ageing star after that star engulfed a smaller companion. That may explain its ultra-cold outflows, which are lit by the dying central star.",
+      "ALMA examined the dusty central disc and the outflows further out. Those outflows are colder even than the cosmic microwave background, the faint afterglow of the Big Bang, and they are expanding at 590 000 kilometres per hour."
+    ],
+    "explore": [
+      "The outflows stretch almost four light-years across the sky, and reach temperatures below -270 °C. The combined picture shows how different the same object can look depending on the kind of light used to observe it."
+    ],
+    "understand": {
+      "summary": "This combines ALMA observations of carbon monoxide gas at submillimetre wavelengths (orange) with a visible-light Hubble image (purple).",
+      "eye": "The orange ALMA data trace submillimetre light from cold gas, which is invisible to the eye."
+    },
+    "scaleExtra": null,
+    "alt": "A purple double-lobed nebula with a narrow centre, overlaid with a longer orange shape of cold gas.",
+    "flags": []
+  },
+  {
+    "id": "e-wr124",
+    "caption": "The wind nebula M1-67 around the star WR124, imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "This image shows M1-67, a nebula blown by the wind of a star called WR124. It is the youngest known wind nebula around a Wolf-Rayet star in our galaxy, and it lies about 10,000 light-years away.",
+      "Wolf-Rayet stars begin life with dozens of times the Sun's mass, but they lose most of it through a powerful wind. That wind is what ultimately builds nebulae like M1-67. Eventually WR124 will explode as a supernova, blowing everything around it away.",
+      "Earlier Hubble observations had shown that the nebula is full of little knots and fine structure. That team, led by Cédric Foellmi of ESO, returned with ESO's Very Large Telescope to see how those structures have changed. Watching them evolve can reveal how stellar winds behave, what they are made of, and how they blend into the gas and dust between the stars."
+    ],
+    "explore": [
+      "The image uses FORS1 data taken by the Paranal Science team through 2 wide filters (B and V) and 3 narrow-band filters. The broad filters capture overall colour, while the narrow ones isolate light from specific glowing gases in the wind."
+    ],
+    "understand": {
+      "summary": "The VLT's FORS1 instrument took this visible-light image through two broadband filters (B and V) and three narrow-band filters; the colour mapping isn't published.",
+      "eye": "The narrow-band filters isolate specific glowing gases, showing structure an eye could not pick out."
+    },
+    "scaleExtra": null,
+    "alt": "The wind nebula M1-67 around the Wolf-Rayet star WR124.",
+    "flags": []
+  },
+  {
+    "id": "h-opo0215a",
+    "caption": "The supernova remnant Cassiopeia A, imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "Glowing streamers of red, white and blue, with touches of green and pink, float across this Hubble photo like festive fireworks. They were made by a huge supernova explosion, the death of a massive star.",
+      "The shredded remains are called Cassiopeia A, or Cas A. No younger supernova remnant is known in our Milky Way galaxy; it sits in the constellation Cassiopeia. Light from the explosion reached Earth about 320 years ago, in the late 1600s.",
+      "Because the remnant is so far away, the star actually exploded long before anyone could see it: the light had to travel across the whole distance to reach us. The colourful streamers are the shredded remains of that star. Hubble shows those remains as streamers glowing in many colours across the sky."
+    ],
+    "explore": [
+      "Cas A lies about ten thousand light-years away, which means the star blew up that many years before its light arrived here in the late 1600s."
+    ],
+    "understand": {
+      "summary": "Hubble's Wide Field Planetary Camera 2 imaged the remnant through blue, red and near-infrared filters; the colour mapping isn't published.",
+      "eye": "Part of the light is near-infrared, invisible to us, and the streamers are much too faint for the eye to see."
+    },
+    "scaleExtra": null,
+    "alt": "Glowing gaseous streamers in red, white, blue, green and pink spreading across the sky.",
+    "flags": [
+      "distance mismatch: caption says 10,000 light-years, metadata 11000"
+    ]
+  },
+  {
+    "id": "e-potw2604a",
+    "caption": "The young star Ve 7-27 and the Vela Junior supernova remnant, imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "Energetic jets studded with knots, like bullets, shoot out of one object in this picture, while a compact yellowish-green smudge sits centre-left. The object with jets is Ve 7-27, which astronomers long believed was a planetary nebula, the final stage in the life of a star like the Sun. ESO's Very Large Telescope has shown it is actually a baby star still forming.",
+      "MUSE, an instrument on the VLT, captured the first detailed image of it. Jets with knots are typical of newborn stars. Lead author Janette Suherli put it this way: rather than a dying star's last breath, it is a newborn.",
+      "A dead star is nearby too. The yellowish-green smudge hosts a neutron star left by a supernova, part of the Vela Junior remnant. The baby star is embedded in that supernova's debris, so the two are at the same distance. That finally pins down the remnant's size, expansion speed, energy and age."
+    ],
+    "explore": [
+      "Suherli is a PhD candidate at the University of Manitoba in Canada. She describes the scene as a remarkable example of a star being born right beside the remains of one that died, and the finding resolves decades of inconsistencies about Vela Junior."
+    ],
+    "understand": {
+      "summary": "The VLT's MUSE instrument imaged the region in visible light, using the emission of nickel, nitrogen and hydrogen-alpha; the colour mapping isn't published.",
+      "eye": "MUSE separates the light of individual elements, revealing jets and knots the eye could not distinguish."
+    },
+    "scaleExtra": "Ve 7-27, and therefore Vela Junior, is about 4500 light-years away, according to ESO.",
+    "alt": "A young star shooting knotty jets, with a compact yellowish-green smudge to the centre-left.",
+    "flags": []
+  },
+  {
+    "id": "h-opo9738a",
+    "caption": "The Twin Jet Nebula (M2-9), imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "This Hubble image shows M2-9, a bipolar planetary nebula, also described as a butterfly. A more revealing name might be the Twin Jet Nebula: if you imagine slicing across the star, each side looks like a pair of exhausts from a jet engine.",
+      "That comparison is more than a figure of speech. The nebula's shape, and the speed of its gas, which moves at more than 200 miles per second, lead astronomers to describe it as a super-supersonic jet exhaust. The gas is streaming out from a central star in two opposite directions.",
+      "Ground-based studies have measured the nebula growing over time. Working backwards from that expansion suggests that the outburst which formed the lobes happened only about twelve centuries ago, which is very recent by astronomical standards. Planetary nebulae form when dying Sun-like stars shed their outer layers, and M2-9's lobes show how dramatic that shedding can be. The nebula lies about 2,000 light-years away."
+    ],
+    "explore": [
+      "The gas speed of more than 200 miles per second is roughly 322 kilometres per second. M2-9 is described as a striking example of the butterfly, or bipolar, type of planetary nebula."
+    ],
+    "understand": {
+      "summary": "The Hubble instrument, filters and colour mapping used for this image aren't published.",
+      "eye": "The nebula's faint lobes are far beyond what the eye could see without a large telescope and long exposures."
+    },
+    "scaleExtra": null,
+    "alt": "A bipolar planetary nebula with two lobes extending in opposite directions like jet exhausts.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-potw1334a",
+    "caption": "Part of the emission nebula NGC 6357, imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "A mesh of red-glowing gas, dark dust and newly born and still-forming stars fills this close-up. It shows a small part of NGC 6357, a well-known emission nebula in the tail of Scorpius, the Scorpion. It was captured by ESO's Very Large Telescope at Paranal.",
+      "The red is typical of an H II region, a cloud rich in ionised and excited hydrogen. The cloud is flooded with intense ultraviolet light, coming mostly from Pismis 24, an open cluster that contains several massive, young blue stars. The gas absorbs that radiation and gives it back as visible light in this distinctive red.",
+      "The cluster itself sits outside the frame. Its diffuse light can be seen brightening the cloud on the centre-right of the image. What remains in view is the surrounding nebula, where the next generation of stars is taking shape amid the gas and dust."
+    ],
+    "explore": [
+      "NGC 6357 lies some 8000 light-years away. Pismis 24's massive blue stars are the main source of the ultraviolet light that powers the glow across this part of the nebula."
+    ],
+    "understand": {
+      "summary": "The Very Large Telescope took this visible-light image; the instrument, filters and colour mapping aren't published.",
+      "eye": "Long exposures reveal the red glow and faint stars far more strongly than the eye could see them."
+    },
+    "scaleExtra": null,
+    "alt": "A mesh of red glowing gas and dark dust with young stars, brighter at centre-right.",
+    "flags": [
+      "distance mismatch: caption says some 8000 light-years, metadata 10000"
+    ]
+  },
+  {
+    "id": "e-potw2113a",
+    "caption": "The emission nebula Sh 2-305, imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "A gently glowing patch of sky fills this image. It is in fact Sh 2-305, a hot bubble of hydrogen gas lit up by intense radiation from nearby stars. Clouds like this are called emission nebulae, or HII regions, pronounced H-two.",
+      "The ultraviolet light behind the glow is thought to come from at least two O-type stars, and probably several others. O-type stars are the brightest and hottest kind known: they can hold up to 90 times the Sun's mass and shine an incredible one million times as brightly. Their radiation strips electrons from the hydrogen, which then glows.",
+      "Sh 2-305 is part of something much bigger. With five neighbouring bubbles, it belongs to a giant complex of dense dust and gas clouds, and on a larger scale to an enormous ring called the GS234-02 star-forming supershell. The supershell sits in the Milky Way's Perseus arm, toward the constellation Puppis."
+    ],
+    "explore": [
+      "The picture was taken through the ESO Cosmic Gems programme, which turns telescope time unsuitable for science into outreach images, using the FORS instrument on the Very Large Telescope. The data also go into ESO's science archive for astronomers."
+    ],
+    "understand": {
+      "summary": "The VLT's FORS2 instrument took this visible-light image through B, V, R and hydrogen-alpha filters; the colour mapping isn't published.",
+      "eye": "The glow is faint, and the hydrogen filter and long exposures make it far more visible than it would be to the eye."
+    },
+    "scaleExtra": null,
+    "alt": "A gently glowing bubble of hydrogen gas scattered with stars.",
+    "flags": []
+  },
+  {
+    "id": "e-potw2318a",
+    "caption": "Part of the Gum 10 nebula, imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "A sea of scarlet gas, broken by dark patches, fills this view of part of the Gum 10 nebula in the constellation Puppis, seen through ESO's Very Large Telescope in Chile.",
+      "The colour has a clear cause. Hot blue stars inside Gum 10 pour out energetic ultraviolet radiation that ionises the nebula's gas, stripping electrons from their atoms. When the electrons rejoin the atoms, they give off light at very particular colours. Here the red is the signature of hydrogen, which is more plentiful than any other element in the Universe.",
+      "Darker patches mark thick clouds of dust that partly block our view of whatever lies behind them. The nebula takes its name from the Australian astronomer Colin Stanley Gum, who discovered it and in 1955 published a catalogue of more than 80 similar diffuse nebulae."
+    ],
+    "explore": [
+      "The image was taken with the FORS2 instrument as part of ESO's Cosmic Gems programme, which uses telescope time that cannot be used for science to make outreach images. The data are also made available to astronomers through ESO's science archive."
+    ],
+    "understand": {
+      "summary": "The VLT's FORS2 instrument took this visible-light image through b, v and R filters plus a hydrogen-alpha filter; the colour mapping isn't published.",
+      "eye": "The hydrogen filter and long exposures bring out a red glow that would be very faint to the eye."
+    },
+    "scaleExtra": null,
+    "alt": "Scarlet glowing gas with dark patches of dust and scattered stars.",
+    "flags": []
+  },
+  {
+    "id": "h-opo0429h",
+    "caption": "Kepler's Supernova remnant, imaged by the Chandra X-ray Observatory",
+    "captureDate": null,
+    "story": [
+      "This image shows the remains of Kepler's Supernova, seen by NASA's Chandra X-ray Observatory. It is the most recent exploding star to have been seen in our Milky Way galaxy.",
+      "When people first saw it, 400 years ago, they thought a new star had appeared. In reality, it was a star blowing itself apart, its gas and dust rushing outward. That debris is still spreading today, racing outward at 4 million miles per hour, and it has now grown to 14 light-years across.",
+      "X-ray telescopes are well suited to remnants like this. The blast wave from a supernova heats gas to extremely high temperatures, hot enough to shine brightly in X-rays. Chandra can map that hot gas. Because X-rays are absorbed by Earth's atmosphere, such observations must be made from space. The remnant lies about 13,000 light-years away in the constellation Ophiuchus."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "This is an X-ray image from the Chandra X-ray Observatory; how X-ray energies were mapped to colours isn't published.",
+      "eye": "X-rays are invisible to the human eye, so any colours here are a translation of light we cannot see."
+    },
+    "scaleExtra": null,
+    "alt": "The expanding shell of a supernova remnant seen in X-rays.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-ngc2060-cc",
+    "caption": "The supernova remnant NGC 2060, imaged by ESO",
+    "captureDate": null,
+    "story": [
+      "This picture shows NGC 2060, the aftermath of a supernova in the Large Magellanic Cloud, a small galaxy near our own, about 170,000 light-years away. On our sky it lies in the direction of the constellation Dorado.",
+      "A supernova marks the violent death of a massive star. The explosion blasts heated matter out into the surrounding space at great speed, and what is left behind is called a supernova remnant.",
+      "NGC 2060 is described as resplendent, and it sits in a galaxy beyond our own. The Large Magellanic Cloud is a small companion of the Milky Way, and on our sky it appears in the direction of Dorado. Looking at this remnant means looking at the wreckage of a massive star in another galaxy."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "The telescope, instrument, filters and colour mapping for this ESO image aren't published.",
+      "eye": "The remnant is far too faint and distant to see with the eye; a telescope's long exposure is needed."
+    },
+    "scaleExtra": null,
+    "alt": "The glowing aftermath of a supernova in a neighbouring galaxy.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-potw2119a",
+    "caption": "The HII region DG121, imaged by ESO's Very Large Telescope",
+    "captureDate": null,
+    "story": [
+      "A soft purple haze with no sharp edges spreads across this picture, with a bright star near the centre. This is DG121, a glowing cloud of ionised hydrogen known as an HII region, in the constellation Puppis, the Stern.",
+      "HII regions are a kind of emission nebula. They form when young, massive stars give off enough ultraviolet energy to ionise the gas clouds around them, making the gas glow. Their structure tends to be irregular, without crisp boundaries, which gives them their hazy but photogenic look. The brightest star in the region, near the centre here, is HD 60068.",
+      "The image was taken with FORS2 on ESO's Very Large Telescope in the Chilean Atacama Desert. Astronomers have nicknamed it Paranal's Swiss army knife, because it can study many kinds of objects in many different ways. Here it was used as a camera, recording the nebula through several colour filters."
+    ],
+    "explore": [
+      "FORS2 stands for FOcal Reducer and low dispersion Spectrograph 2. Besides taking images, it can spread light into spectra, which lets astronomers measure what objects are made of and how they move."
+    ],
+    "understand": {
+      "summary": "The VLT's FORS2 instrument took this visible-light image through B, V, R and hydrogen-alpha filters; the colour mapping isn't published.",
+      "eye": "The haze is faint, and the camera's long exposures make it far more visible than it would appear to the eye."
+    },
+    "scaleExtra": null,
+    "alt": "A soft purple haze of glowing gas with a bright star near the centre.",
+    "flags": []
+  },
+  {
+    "id": "e-eso-flame",
+    "caption": "The Flame Nebula (NGC 2024), imaged by the Danish 1.54-metre telescope at La Silla",
+    "captureDate": null,
+    "story": [
+      "On the fringe of a huge cloud of gas and dust shines the Flame Nebula, with a dark, forked structure of dust across the centre of the image. The nebula, also known as NGC 2024, lies towards the constellation of Orion.",
+      "In fact it conceals a cluster of massive, young, blue stars. Their light sets the gas ablaze, and the nebula's typical colour comes from hydrogen atoms heated by these stars.",
+      "Yet the stars themselves can't be seen here. They are hidden behind that dark, forked band of dust, and only infrared observations can reveal them, because infrared light passes through dust far more easily than visible light. This picture, made in visible light, shows the glowing gas the stars light up rather than the stars. It was built from three short exposures with the 1.5-metre Danish telescope at ESO's La Silla Observatory in Chile, through blue, visual and red filters."
+    ],
+    "explore": [
+      "The exposures lasted 40 seconds in B, 80 seconds in V and 40 seconds in R. The Flame Nebula lies about 1,300 light-years away."
+    ],
+    "understand": {
+      "summary": "The DFOSC camera on the Danish 1.54-metre telescope took this visible-light image through B, V and R filters; the colour mapping isn't published.",
+      "eye": "Even with telescope exposures, visible light can't reach the hidden stars; seeing them takes infrared, which the eye cannot detect."
+    },
+    "scaleExtra": null,
+    "alt": "A glowing nebula at the edge of a gas cloud, with a dark, forked dust structure in the centre.",
+    "flags": [
+      "distance mismatch: caption says 1,300 light-years, metadata 1500"
+    ]
+  },
+  {
+    "id": "h-opo0225a",
+    "caption": "The Little Ghost Nebula (NGC 6369), imaged by the Hubble Space Telescope",
+    "captureDate": null,
+    "story": [
+      "A colourful, ghostly cloud surrounds a faint central star in this Hubble view. It is NGC 6369, the glowing remains of a dying star. Amateur astronomers know it as the Little Ghost Nebula, because it appears as a small, ghostly cloud around its faint central star.",
+      "NGC 6369 is a planetary nebula. When a star like the Sun nears the end of its life, it throws off its outer layers of gas. The hot core that remains gives off strong ultraviolet light, which makes the expelled gas glow. Despite the name, these objects are unrelated to planets.",
+      "Hubble's view shows the colourful glow of this ghostly cloud. The image combines several filters, some tuned to the light of particular gases such as oxygen, hydrogen and nitrogen. The nebula lies about 3,500 light-years away in the constellation Ophiuchus."
+    ],
+    "explore": [],
+    "understand": {
+      "summary": "Hubble's Wide Field Planetary Camera 2 imaged the nebula through broadband and near-infrared filters and filters for oxygen, hydrogen-alpha and nitrogen emission; the colour mapping isn't published.",
+      "eye": "Hubble's filters, including near-infrared light we cannot see, reveal colour and detail the eye cannot."
+    },
+    "scaleExtra": null,
+    "alt": "A colourful, ghostly cloud of glowing gas around a faint central star.",
+    "flags": [
+      "caption too thin"
+    ]
+  },
+  {
+    "id": "e-trapeziumdk15b",
+    "caption": "The Orion Nebula and Trapezium cluster, imaged by the Danish 1.54-metre telescope at La Silla",
+    "captureDate": null,
+    "story": [
+      "Clouds of glowing gas in many colours and shapes spread across this picture of the Orion Nebula, also known as Messier 42. It is one of the great star-forming nurseries in our part of the Milky Way.",
+      "The nebula holds enough gas to make 10,000 suns. It is mostly hydrogen, with helium, carbon, nitrogen and oxygen in decreasing amounts. At its heart sits the Trapezium, four extremely hot stars whose light makes the nebula shine. They are the brightest members of a sprawling cluster of several thousand young stars, many of them hidden inside the opaque gas and dust.",
+      "The Orion Nebula is easy to find with the unaided eye, yet there is apparently no written record of it before the 17th century. The image was made with the 1.5-metre Danish telescope at ESO's La Silla Observatory in Chile."
+    ],
+    "explore": [
+      "The picture combines three filters: B for 60 seconds, V for 30 seconds and R for 21 seconds. East is at the upper right and north at the lower right. The nebula lies about 1,500 light-years away."
+    ],
+    "understand": {
+      "summary": "The Danish 1.54-metre telescope took this visible-light image through B, V and R filters; the colour mapping isn't published.",
+      "eye": "The nebula is visible to the naked eye as a faint patch, but its colours and detail only appear in telescope exposures."
+    },
+    "scaleExtra": null,
+    "alt": "Colourful clouds of glowing gas in many shapes, lit by a group of hot stars.",
+    "flags": [
+      "distance mismatch: caption says 1,500 light-years, metadata 1400"
+    ]
+  },
+  {
+    "id": "e-ngc6781-potw",
+    "caption": "The planetary nebula NGC 6781, imaged by the ESO 3.6-metre telescope",
+    "captureDate": null,
+    "story": [
+      "Shells of gas glow in intricate patterns around a faint central star in this picture of NGC 6781, a planetary nebula in the direction of the constellation Aquila, the Eagle.",
+      "Stars like our Sun lack the mass to end their lives as supernovae. Instead, before fading into dense, Earth-sized embers called white dwarfs, they cast off colourful shells of gas. These are known as planetary nebulae, a misleading name that comes from how these round clouds resembled giant planets through small telescopes.",
+      "Inside NGC 6781, shells of gas blown off the surface of the faint but very hot central star are expanding into space. Harsh ultraviolet light from the star makes them shine. Over time the star will steadily cool and darken until it disappears from view."
+    ],
+    "explore": [
+      "The image was captured with EFOSC2, the ESO Faint Object Spectrograph and Camera, on the 3.6-metre telescope at La Silla Observatory in Chile. It used three wide-band filters and two narrow-band ones, and EFOSC2's field of view is 4.1 by 4.1 arcminutes."
+    ],
+    "understand": {
+      "summary": "The EFOSC2 instrument on the ESO 3.6-metre telescope took this visible-light image through B, V and R filters plus hydrogen-alpha and oxygen filters; the colour mapping isn't published.",
+      "eye": "Narrow-band filters and long exposures reveal glowing shells too faint and too finely coloured for the eye."
+    },
+    "scaleExtra": "The nebula lies a few thousand light-years away and is approximately two light-years across, according to ESO.",
+    "alt": "Glowing shells of gas in intricate patterns around a faint central star.",
+    "flags": []
+  }
+]

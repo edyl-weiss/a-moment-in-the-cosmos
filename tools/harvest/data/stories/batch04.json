@@ -1,0 +1,2021 @@
+[
+ {
+  "id": "w-weic2617a",
+  "caption": "The field around the evolved star IRS 3 near the Milky Way's centre, imaged by the James Webb Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Countless stars crowd this frame, set against glowing clouds of red, orange, pink, white and blue. A bright, almost white concentration of stars sits at the centre, wrapped in fine filaments of lit-up gas and dust, while dark, opaque patches of dust cut into the glow, especially on the left. This is the neighbourhood of IRS 3, a highly evolved star lying only 0.55 light-years from Sagittarius A*, the supermassive black hole at the heart of our galaxy.",
+   "Webb combined its near-infrared and mid-infrared cameras to produce what the team describes as the most detailed mid-infrared view yet of this field. That matters because this whole region is bathed in intense radiation from the surroundings of the black hole.",
+   "Even so, an international team found that dust and even water can form and survive surprisingly close to Sagittarius A*. IRS 3 keeps seeding its surroundings with freshly made material despite the harsh environment."
+  ],
+  "explore": [
+   "The Galactic Centre lies about 26,000 light-years away in the direction of the constellation Sagittarius. The picture draws on four separate Webb observing programmes led by J. Lu, F. Yusef-Zadeh, N. B. Sabha and C. Chan, whose data were combined into this single view."
+  ],
+  "understand": {
+   "summary": "This view combines Webb's NIRCam (near-infrared) and MIRI (mid-infrared) instruments across nine filters. Shorter wavelengths are shown in purple, blue and cyan, and progressively longer ones in green, yellow, orange and red; some filters trace molecular hydrogen, hydrogen emission, carbon-rich PAH molecules and silicate dust.",
+   "eye": "All of this light is infrared and invisible to the human eye, so every colour here is assigned to make the data readable."
+  },
+  "scaleExtra": null,
+  "alt": "A dense star field over glowing red, orange, pink, white and blue clouds, with a bright white core of stars at the centre, wispy filaments radiating outward, and dark dust patches toward the left.",
+  "flags": []
+ },
+ {
+  "id": "h-heic0702a",
+  "caption": "The star-forming region N90 in the Small Magellanic Cloud, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Bright blue stars, freshly formed, sit inside a hollow they have carved in the middle of a nebula. Around them, the cloud's outer reaches remain, and beyond those a scattering of distant galaxies shows through, tinted reddish-brown by dust. This is N90, a star-forming region in the Small Magellanic Cloud, a small companion galaxy of the Milky Way.",
+   "The young stars are hot, and they pour out high-energy radiation. That radiation is wearing the nebula away from the inside. The thin outer parts of the cloud stop the energetic outflows from escaping straight out of the cluster, so the erosion works on the nebula's edges from within.",
+   "N90 sits well away from the main body of the Small Magellanic Cloud. Because of that position, many far more distant galaxies can be seen in Hubble's view. They form a grand backdrop for the stellar newcomers, and dust in the region gives them a reddish-brown tint."
+  ],
+  "explore": [
+   "The region, also catalogued with the star cluster NGC 602, is listed at a distance of about 200,000 light-years, in the direction of the constellation Hydrus. The image comes from the Hubble Heritage Team working with the ESA/Hubble collaboration."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys recorded this scene through visible, near-infrared and hydrogen-alpha filters. The colour assigned to each filter isn't published.",
+   "eye": "The near-infrared filter captures light the eye cannot see, and Hubble's long exposures reveal faint background galaxies far beyond what any eye could detect."
+  },
+  "scaleExtra": null,
+  "alt": "Bright blue young stars inside a cavity in a nebula, with many small reddish-brown background galaxies visible around it.",
+  "flags": []
+ },
+ {
+  "id": "w-weic2611a",
+  "caption": "The bulge fossil fragment Terzan 5, imaged by the James Webb and Hubble Space Telescopes",
+  "captureDate": null,
+  "story": [
+   "Thousands of tiny white, orange and blue points pack this frame like a shaken snow globe. They crowd into a roughly round swarm at the centre and thin out toward the edges, where a few larger orange stars carry prominent diffraction spikes. This is Terzan 5, a stellar system orbiting inside the bulge of the Milky Way, the bright, crowded central region of our galaxy that is also thick with gas and dust.",
+   "Terzan 5 was long classified as a globular cluster. Astronomers already knew it held two groups of stars of very different ages. Combining Webb and Hubble data, a team found strong evidence for two more, dating from 3.8 billion and just 2.5 billion years ago, and pinned the older groups at 12.5 billion and 4.7 billion years.",
+   "That mix proved Terzan 5 is not a globular cluster at all. It belongs to a new category, the bulge fossil fragment: a self-contained system that enriches itself, building generations of stars with different ages and iron content."
+  ],
+  "explore": [
+   "Terzan 5 lies about 22,000 light-years away in Sagittarius. Its mass, about 2 million times the Sun's, is squeezed into a system just a few tens of light-years wide, which makes it one of the most massive and densely packed cluster-like systems in the Milky Way."
+  ],
+  "understand": {
+   "summary": "This combines Hubble's Advanced Camera for Surveys in visible and near-infrared light (shown in blue and cyan) with Webb's NIRCam in infrared light (shown in orange and red).",
+   "eye": "The Webb data are infrared and invisible to the eye, which helps see through the dust that fills the galaxy's bulge."
+  },
+  "scaleExtra": "Terzan 5 is 22,000 light-years away, according to ESA/Webb.",
+  "alt": "A dense field of thousands of white, orange and blue stars concentrated in a roughly circular swarm at the centre, with larger orange stars showing diffraction spikes near the edges.",
+  "flags": []
+ },
+ {
+  "id": "h-heic0514a",
+  "caption": "The star cluster NGC 346 and star-forming region N66, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "A brilliant cluster of stars sits at the centre of this view, ringed by arched, ragged filaments with a distinct ridge. The dark edge of that ridge, seen in silhouette, is beaded with fine detail. This is NGC 346, the cluster at the heart of the star-forming region N66 in the Small Magellanic Cloud, a satellite galaxy of the Milky Way.",
+   "The region is one of the most active and intricately structured places where stars are being born. Hot stars in the cluster give off a torrent of radiation that eats into the denser gas around them, carving the dust and gas into sculpted shapes.",
+   "Look along the ridge and you can find several small globules of dust. Each one points back toward the central cluster, like a windsock caught in a strong wind. That alignment suggests they are being shaped by the radiation streaming outward from the young stars at the centre."
+  ],
+  "explore": [
+   "The region lies about 210,000 light-years away, far beyond our own galaxy, in the direction of the constellation Tucana. Hubble's view shows how the radiation from a young cluster can reshape the cloud in which its stars were born."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took this view through visible, near-infrared and hydrogen-alpha filters. The colour assigned to each filter isn't published.",
+   "eye": "Part of the data is near-infrared light that the eye cannot see, and the long exposures reveal fine dusty detail no eye could pick out at this distance."
+  },
+  "scaleExtra": null,
+  "alt": "A bright star cluster at the centre surrounded by arched, ragged filaments of gas and a dark, beaded ridge of dust seen in silhouette.",
+  "flags": [
+   "distance conflict: packet says 170000 light years, caption says 210,000"
+  ]
+ },
+ {
+  "id": "e-eso0848a",
+  "caption": "NGC 2264 with the Christmas Tree cluster and the Cone Nebula, imaged by ESO's La Silla Observatory",
+  "captureDate": null,
+  "story": [
+   "Sparkling blue stars stand out in this colour view of NGC 2264, a patch of sky containing the Christmas Tree star cluster as well as the Cone Nebula. The Christmas Tree is a star cluster, while the Cone Nebula is a cloud of gas and dust in the same region.",
+   "The picture was built from four separate exposures, each through a different filter: blue, visual, red and hydrogen-alpha. Combining them lets astronomers show both the light of the stars and the glow of hydrogen gas in one frame. The camera that took them is the Wide Field Imager, which sits on the MPG/ESO 2.2-metre telescope at La Silla Observatory.",
+   "La Silla stands 2400 metres high, in Chile's Atacama Desert among the Andean foothills. Wide-field cameras like this one are well suited to sweeping regions of sky that are too large for narrower instruments."
+  ],
+  "explore": [
+   "The region shown here is about 30 light-years across. NGC 2264 is listed at a distance of about 3000 light-years, in the constellation Monoceros."
+  ],
+  "understand": {
+   "summary": "This is a visible-light image from the Wide Field Imager on the MPG/ESO 2.2-metre telescope, made with B, V, R and hydrogen-alpha filters. The colour assigned to each filter isn't published.",
+   "eye": "A long camera exposure gathers far more light than the eye can, so the faint glowing gas looks far brighter here than it would to the eye."
+  },
+  "scaleExtra": null,
+  "alt": "A colour view of the NGC 2264 region with sparkling blue stars of the Christmas Tree cluster and the Cone Nebula.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "w-weic2506a",
+  "caption": "Herbig-Haro 49/50 and a background spiral galaxy, imaged by the James Webb Space Telescope",
+  "captureDate": null,
+  "story": [
+   "A cone-shaped, orange-red cloud angles from the upper left toward the lower right, its upper end rounded and translucent. Right at that tip sits a spiral galaxy with a blue centre fading into red arms. The cloud is Herbig-Haro 49/50, an outflow from a nearby star that is still forming within the Milky Way. The galaxy is a chance alignment, far more distant.",
+   "Young protostars generally launch narrow jets of material. As this jet races outward, it slams into the surrounding dust and gas, like the wake behind a speeding boat, and piles it into arcs. That material is squeezed and heated, then cools by giving off light, and Webb's infrared view picks out molecular hydrogen and carbon monoxide within it.",
+   "The background galaxy has a prominent blue central bulge of older stars and hints of side lobes, suggesting it could be a barred spiral. Reddish clumps in its arms mark warm dust and groups of young stars."
+  ],
+  "explore": [
+   "The outflow's intricate features help astronomers understand how young stars form and how their jets affect the space around them. Many more galaxies lie further away in the background, some shining right through the diffuse infrared glow of the Herbig-Haro object. The object lies in the direction of Chamaeleon."
+  ],
+  "understand": {
+   "summary": "Webb's NIRCam (near-infrared) and MIRI (mid-infrared) instruments captured this view. Shorter wavelengths are shown in blue and cyan, a middle band in green, a molecular hydrogen filter in orange, and a MIRI filter tracing carbon-rich PAH molecules in red.",
+   "eye": "This is all infrared light, invisible to the eye; the colours are assigned so the different features can be told apart."
+  },
+  "scaleExtra": null,
+  "alt": "A conical orange-red cloud angled from the upper left to lower right, with a spiral galaxy with a blue centre and red arms at its rounded upper end, against a black background dotted with stars and faint galaxies.",
+  "flags": []
+ },
+ {
+  "id": "e-eso0926a",
+  "caption": "The Eagle Nebula, imaged by the MPG/ESO 2.2-metre telescope at La Silla",
+  "captureDate": null,
+  "story": [
+   "The famous Pillars of Creation stand at the centre of this wide view of the Eagle Nebula, also known as Messier 16. Around them, other pillars rise from the same star-forming region, and a huge number of stars are scattered across the frame, some in front of the nebula, some inside it and some behind. In the middle left stands another large column, known as the Spire.",
+   "To the upper right is a cluster of bright stars, NGC 6611. Its stars are massive and hot, and it is their light that illuminates the pillars. Pillars like these are dense clouds of gas and dust where new stars can form.",
+   "The picture is a mosaic, stitched from several images taken at La Silla Observatory by the MPG/ESO 2.2-metre telescope's Wide-Field Imager camera. A wide-field view shows the pillars in context, as part of a much larger nebula, rather than in close-up."
+  ],
+  "explore": [
+   "The Eagle Nebula is listed at a distance of about 7000 light-years, in the constellation Serpens Cauda. The nebula also carries the catalogue number NGC 6611, the same as its central cluster."
+  ],
+  "understand": {
+   "summary": "This is a visible-light composite from the Wide-Field Imager, using three filters: B shown in blue, V in green and R in red.",
+   "eye": "The colours roughly follow the filters' own colours, but long camera exposures gather far more light than the eye, so the faint nebula appears much brighter here than it would through an eyepiece."
+  },
+  "scaleExtra": null,
+  "alt": "A wide view of the Eagle Nebula with the Pillars of Creation at the centre, a bright star cluster at upper right, a tall pillar at middle left, and many stars throughout.",
+  "flags": []
+ },
+ {
+  "id": "e-eso1422a",
+  "caption": "The star cluster NGC 3293, imaged by the MPG/ESO 2.2-metre telescope at La Silla",
+  "captureDate": null,
+  "story": [
+   "Young stars huddle together in this view, set against clouds of glowing gas and lanes of dust. This is the star cluster NGC 3293, photographed at ESO's La Silla Observatory in Chile by the MPG/ESO 2.2-metre telescope's Wide Field Imager.",
+   "The cluster was not always this bright group of stars. About ten million years ago it would have been only a cloud of gas and dust. As stars began to form inside that cloud, it turned into the cluster seen here. In astronomical terms, that makes these stars youthful.",
+   "Clusters like NGC 3293 act as natural laboratories. Because their stars formed together from the same cloud at around the same time, they share a common starting point, which lets astronomers compare how stars of different masses change as they age. Studying them helps build a picture of how stars evolve over their lives."
+  ],
+  "explore": [
+   "NGC 3293 is listed at a distance of about 8000 light-years, in the direction of the southern constellation Carina."
+  ],
+  "understand": {
+   "summary": "This view comes from the Wide Field Imager, using B, V, I and hydrogen-alpha filters that span visible and near-infrared light. The colour assigned to each filter isn't published.",
+   "eye": "The near-infrared filter records light the eye cannot see, and the long exposures bring out faint glowing gas that would be invisible through an eyepiece."
+  },
+  "scaleExtra": null,
+  "alt": "A group of young stars clustered together in front of clouds of glowing gas crossed by lanes of dust.",
+  "flags": []
+ },
+ {
+  "id": "w-weic2503a",
+  "caption": "The actively forming star system Lynds 483, imaged by the James Webb Space Telescope",
+  "captureDate": null,
+  "story": [
+   "A thin, vertical cloud shaped roughly like an hourglass runs through the centre of this image, its edges ragged. The top lobe is shown in full, fading away at the top, while the lower lobe is slightly cut off. This is Lynds 483, or L483, and its lobes are shimmering material thrown out by two stars that are still forming.",
+   "Young stars often eject material as they grow, and that material slams into the gas and dust around them. Webb's sharp near-infrared view brings out new detail and structure inside these lobes.",
+   "Among the most intriguing features are asymmetrical lines that seem to run into one another. The high resolution of Webb's camera is what makes such fine structure visible at all, revealing detail inside the lobes that had not been seen before. The light it records is near-infrared, beyond the red end of what our eyes can detect."
+  ],
+  "explore": [
+   "L483 lies about 650 light-years away, in the constellation Serpens. The image was taken with Webb's Near-Infrared Camera, NIRCam."
+  ],
+  "understand": {
+   "summary": "This is a near-infrared image from Webb's NIRCam. The two shortest-wavelength filters are shown in blue, a filter tracing carbon-rich PAH molecules in cyan, another in yellow, and a molecular hydrogen filter in red.",
+   "eye": "Near-infrared light is invisible to the human eye, so the colours are assigned to separate the different kinds of emission."
+  },
+  "scaleExtra": null,
+  "alt": "A thin vertical hourglass-shaped cloud with irregular edges at the centre, its top lobe fading out at the top and its lower lobe slightly cut off.",
+  "flags": []
+ },
+ {
+  "id": "h-heic2105a",
+  "caption": "The giant star AG Carinae and its nebula, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "An expanding shell of gas and dust surrounds a single brilliant star in this Hubble portrait. The star is AG Carinae, one of the brightest stars that can be seen in our galaxy, and the picture was made to mark the 31st anniversary of Hubble's launch.",
+   "AG Carinae is a giant, and it lives in a precarious balance. Its own gravity pulls inward while the intense radiation it produces pushes outward. The star is locked in this tug-of-war to avoid tearing itself apart.",
+   "The shell around it is expanding outward into space and is about five light-years wide. That is the same as the distance from the Sun to Alpha Centauri, our nearest neighbouring star system. Hubble's sharp view lets astronomers study the structure of such shells in detail."
+  ],
+  "explore": [
+   "AG Carinae is listed at a distance of about 15,000 light-years, in the constellation Carina. Hubble captured it with its Wide Field Camera 3, using filters that include ultraviolet light."
+  ],
+  "understand": {
+   "summary": "This image comes from Hubble's Wide Field Camera 3, using ultraviolet, visible, hydrogen-alpha and near-infrared filters. The colour assigned to each filter isn't published.",
+   "eye": "The ultraviolet part of the data is invisible to the human eye, and the long exposures reveal a faint shell that the eye could not pick out."
+  },
+  "scaleExtra": null,
+  "alt": "A bright star at the centre of an expanding shell of gas and dust.",
+  "flags": []
+ },
+ {
+  "id": "w-weic2519a",
+  "caption": "A giant stellar jet in the proto-cluster Sh2-284, imaged by the James Webb Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Yellow-orange filaments bunch together just above the centre, looking like a rose seen from the side. From that knot, two red lobes stretch toward the upper left and lower right, each a tall, narrow triangle with a rounded tip, built from wavy, irregular lines. A bright white star with eight diffraction spikes sits at the top of the rose.",
+   "The red lobes belong to an extremely large stellar jet, a Herbig-Haro object: streams of plasma blasting out from newly formed stars. Webb found it in Sh2-284, a proto-cluster on the outskirts of the Milky Way, where a group of stars is still in the making.",
+   "Its size is what makes it important. Its detection provides evidence that such jets scale with the mass of the stars powering them: the heavier the star driving the plasma, the bigger the jet it produces."
+  ],
+  "explore": [
+   "Dozens of other stars are scattered across the field, including a bright blue star with especially prominent diffraction spikes to the lower left of the rose. The proto-cluster lies in the direction of the constellation Monoceros."
+  ],
+  "understand": {
+   "summary": "This is a near-infrared image from Webb's NIRCam. The shorter-wavelength filters are shown in blue and green, and the longest ones, which trace hydrogen emission and molecular hydrogen, in red.",
+   "eye": "Near-infrared light is invisible to the eye, so the colours are chosen to separate glowing gas from starlight."
+  },
+  "scaleExtra": "The jet is 8 light-years across, about double the distance from the Sun to the Alpha Centauri system, according to ESA/Webb.",
+  "alt": "Yellow-orange filaments shaped like a side-on rose above centre, with long red triangular lobes of wavy lines extending to the upper left and lower right, and bright stars with diffraction spikes on a black background.",
+  "flags": []
+ },
+ {
+  "id": "w-potm2508a",
+  "caption": "The Butterfly Star, IRAS 04302+2247, imaged by the James Webb and Hubble Space Telescopes",
+  "captureDate": null,
+  "story": [
+   "A dense, dark streak of dusty gas runs vertically through this view, with two gauzy clouds spreading out on either side. The streak is a planet-forming disc seen edge-on around the young star IRAS 04302+2247, which lies in a dark cloud in the Taurus star-forming region. The dust blocks the star's bright light, and the two clouds, lit by reflected starlight, have earned it the nickname the Butterfly Star.",
+   "The star is a protostar, still gathering mass from its surroundings. Webb measures its disc at 65 billion kilometres across, several times the width of our Solar System. The disc's gas and dust is raw material in which young planets could grow.",
+   "Seen face-on, such discs can show rings, gaps and spirals. Edge-on, this one reveals its vertical structure instead. Dust grains sink toward the disc's midplane into a thin, dense layer that favours planet formation, so the disc's thickness shows how efficiently that settling has worked."
+  ],
+  "explore": [
+   "Discs like this can help researchers understand what happened roughly 4.5 billion years ago, when the Sun and planets formed. Hubble's data highlight clumps and streaks around the dust lane that suggest the star is still feeding and launching jets and outflows. The system lies about 525 light-years away."
+  ],
+  "understand": {
+   "summary": "This combines Hubble's WFPC2 camera in optical light (shown in blue) with Webb's NIRCam and MIRI in infrared light, with longer wavelengths shown progressively in blue, cyan, green, orange and red.",
+   "eye": "Most of this light is infrared and invisible to the eye, and the reflected glow would be far too faint to see without a telescope."
+  },
+  "scaleExtra": null,
+  "alt": "A narrow dark vertical band of dusty gas with two gauzy, glowing clouds spreading out on either side of it.",
+  "flags": [
+   "image description mismatch?"
+  ]
+ },
+ {
+  "id": "w-weic2407a",
+  "caption": "The star-forming region NGC 604 in the Triangulum Galaxy, imaged by the James Webb Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Clumpy red clouds with filament-like strands fill the centre of this frame. On their centre-right is a large, cavernous bubble holding a hazy blue glow sprinkled with stars, its rim edged in white dust, and smaller bubbles sit near the top. This is NGC 604, a star-forming region in the Triangulum Galaxy, a neighbouring galaxy also known as M33.",
+   "The hollows are the work of bright, hot young stars, whose winds blow cavities in the surrounding gas and dust. Webb's infrared camera sorts that material by type. Bright orange streaks mark carbon-based molecules called polycyclic aromatic hydrocarbons, or PAHs.",
+   "Farther from the cavities, deeper red traces molecular hydrogen, cooler gas that is a prime place for new stars to form. Hydrogen that has been ionised by ultraviolet radiation shows up as the ghostly white and blue glow. Together they map how young stars reshape the cloud that made them."
+  ],
+  "explore": [
+   "NGC 604 lies 2.73 million light-years from Earth. It offers astronomers a nearby place to examine a dense concentration of very young, massive stars. A few disc-shaped background galaxies and some small red stars are scattered around the image."
+  ],
+  "understand": {
+   "summary": "This is a near-infrared image from Webb's NIRCam, with the shortest filters shown in blue and cyan, a middle band in green, a PAH filter in yellow and the longest filters, including molecular hydrogen, in red.",
+   "eye": "Almost all of this light is infrared and invisible to the eye; the colours are assigned to separate the different kinds of gas and dust."
+  },
+  "scaleExtra": null,
+  "alt": "Clumpy red filamentary clouds on black, with a large bubble at centre-right containing a blue glow with stars and white dust at its edges, and smaller bubbles near the top.",
+  "flags": []
+ },
+ {
+  "id": "w-weic2520a",
+  "caption": "The Sagittarius B2 molecular cloud, imaged by the James Webb Space Telescope",
+  "captureDate": null,
+  "story": [
+   "A wide field of stars, broken up by clumps of orange cloud, fills this view. It shows Sagittarius B2, a molecular cloud near the centre of our galaxy, as seen by Webb's Near-Infrared Camera. A molecular cloud is a cold, dense region of gas and dust, the kind of place where new stars can form.",
+   "In near-infrared light, stars, gas and dust in the cloud all glow. This particular kind of light shows more of the region's diverse, colourful stars, but less of the structure in its gas and dust than other views do.",
+   "That trade-off is why astronomers use more than one instrument. Each of Webb's instruments adds its own piece of information, and together they help build a fuller picture of what is going on in this part of the galactic centre. This near-infrared image is one part of that larger set of observations."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "This is a near-infrared image from Webb's NIRCam using eleven filters. The shortest wavelengths are shown in blue, then cyan, green, yellow and orange, with the longest, including a carbon monoxide filter, in red.",
+   "eye": "Near-infrared light is invisible to the human eye, so the colours are assigned to reveal differences between stars and clouds."
+  },
+  "scaleExtra": null,
+  "alt": "A wide region of space filled with stars and clumps of orange clouds.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "h-potw1225a",
+  "caption": "The globular cluster Messier 10, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "This Hubble view looks into the brightest part of the core of Messier 10, a globular cluster, which is a dense ball of stars. The region shown is about 13 light-years across.",
+   "Messier 10 owes its catalogue name to Charles Messier, the 18th-century French astronomer who mainly hunted comets. Through the telescopes of his day, comets, nebulae, star clusters and galaxies all looked like faint, fuzzy blobs. The difference was motion: comets drift slowly against the background stars, while the others stay put. Messier listed the fixed objects so they would not be mistaken for comets, and his list of just over 100 entries now includes many of the sky's best-known sights. Messier 10 appeared in the very first edition, published in 1774, which had 45 objects.",
+   "The cluster is roughly 80 light-years across, so in principle it should look about two thirds the size of the Moon. Yet its outskirts are extremely diffuse, and even its brighter core is too faint for the unaided eye."
+  ],
+  "explore": [
+   "Messier 10 lies about 15 000 light-years away in Ophiuchus. The observations came from a large Hubble survey of the Milky Way's globular clusters. A contestant called flashenthunder entered a version of the image in Hubble's Hidden Treasures competition, which invited enthusiasts to search the archive."
+  ],
+  "understand": {
+   "summary": "This image combines visible and near-infrared observations from Hubble's Advanced Camera for Surveys. The colour assigned to each filter isn't published.",
+   "eye": "The cluster's core is too dim to see with the naked eye, and the near-infrared data are invisible to it; Hubble's long exposures reveal its individual stars."
+  },
+  "scaleExtra": null,
+  "alt": "A dense field of stars from the bright core of a globular cluster.",
+  "flags": []
+ },
+ {
+  "id": "w-potm2408a",
+  "caption": "The young star cluster NGC 1333 in Perseus, imaged by the James Webb Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Soft, wispy clouds of gas and dust spread across this mosaic, with thin, finely layered structures pressed together at the centre. Large, bright stars carry six long spikes of light, and smaller stars lie buried in the clouds. Near the stars the clouds glow blue, while orange marks gas shining in infrared light. This is NGC 1333, a young star-forming cluster in the Perseus molecular cloud.",
+   "Those orange patches are Herbig-Haro objects, which form when ionised material thrown out by young stars crashes into the surrounding cloud. They are signs of a very busy star-forming site.",
+   "Webb's sensitivity lets astronomers probe objects of extremely low mass. Some of the faintest 'stars' here are actually newborn free-floating brown dwarfs, with masses comparable to giant planets. On the right, the shadow of an edge-on disc around a young star appears as two dark cones against a bright background."
+  ],
+  "explore": [
+   "Hubble featured this cluster as its 33rd anniversary image, but dust hid much of the action. The cluster is only 1–3 million years old and about 960 light-years away. Our Sun formed 4.6 billion years ago in a similar dusty cloud, as part of a cluster perhaps even more massive than this one."
+  ],
+  "understand": {
+   "summary": "This mosaic comes from Webb's NIRISS instrument in near-infrared light, with the shorter-wavelength filter shown in blue and green and the longer one in green and red.",
+   "eye": "Infrared light is invisible to the eye, and it passes through dust that hid much of this cluster in Hubble's earlier view."
+  },
+  "scaleExtra": null,
+  "alt": "Wispy clouds of gas and dust with finely layered structures at the centre, bright six-pointed stars scattered throughout, blue glow near stars and orange glowing patches.",
+  "flags": []
+ },
+ {
+  "id": "w-potm2409a",
+  "caption": "The super star cluster Westerlund 1, imaged by the James Webb Space Telescope",
+  "captureDate": null,
+  "story": [
+   "A dense crowd of bright stars fills this frame, each carrying six large and two small diffraction spikes from the telescope's optics. Their sizes and colours vary with brightness, distance and type, and patches of billowing red gas glow around them. This is Westerlund 1, an open cluster that sits behind a vast interstellar cloud of dust and gas.",
+   "It is a super star cluster, holding hundreds of very massive stars packed together. Its population has no match elsewhere in the Milky Way, spanning Wolf-Rayet stars, OB supergiants, yellow hypergiants and luminous blue variables. Some shine with almost a million times the Sun's brilliance. Because such stars live short lives, the cluster must be very young, estimated at between 3.5 and 5 million years old.",
+   "Super star clusters are thought to be where most of our galaxy's stars formed long ago. Only a few remain, so Westerlund 1 offers a rare window on that era."
+  ],
+  "explore": [
+   "The cluster lies roughly 12 000 light-years away in Ara and was discovered in 1961 by Bengt Westerlund. Astronomers believe it holds between 50 000 and 100 000 times the Sun's mass in a region less than six light-years across. Within 40 million years it may host more than 1 500 supernovae."
+  ],
+  "understand": {
+   "summary": "This is a near-infrared image from Webb's NIRCam taken for the EWOCS survey, with the shorter-wavelength filters shown in blue, middle ones in green and the longest in red.",
+   "eye": "Near-infrared light is invisible to the eye, and it lets Webb see through the dust cloud that dims this cluster in visible light."
+  },
+  "scaleExtra": null,
+  "alt": "A dense cluster of bright stars of varied sizes and colours with eight-pointed diffraction spikes, surrounded by patches of billowing red gas against distant stars and galaxies on black.",
+  "flags": []
+ },
+ {
+  "id": "w-weic2331a",
+  "caption": "The central part of the star cluster IC 348, imaged by the James Webb Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Fine, hair-like pink-purple filaments fill the middle of this image, curving to either side of the centre. On the right they form a dramatic loop that seems to reach toward the viewer, while yellowish filaments sit at lower left. Two bright stars near the centre show Webb's eight-point spikes. This is the heart of IC 348, a star cluster.",
+   "The wispy curtains are a reflection nebula, interstellar material bouncing back the light of the cluster's stars. It also contains carbon-bearing molecules called PAHs. The bright star closest to the centre is really a pair of type B stars, the most massive in the cluster, and their winds may help shape the large loop.",
+   "Astronomers searched IC 348 for free-floating brown dwarfs: bodies with too little mass to be stars, yet bigger than most planets. They found three with less than eight times Jupiter's mass. The smallest weighs only three to four times as much as Jupiter, which challenges theories of how stars form."
+  ],
+  "explore": [
+   "IC 348 is listed at a distance of about 1000 light-years, in the constellation Perseus."
+  ],
+  "understand": {
+   "summary": "This is a near-infrared image from Webb's NIRCam using three filters, with the shortest wavelength shown in blue, the middle in green and the longest in red.",
+   "eye": "This near-infrared light is invisible to the eye, and the faint brown dwarfs would be far too dim to see without a large telescope."
+  },
+  "scaleExtra": null,
+  "alt": "Pink-purple hair-like filaments curving across the middle, forming a loop on the right, with yellowish filaments at lower left and two bright stars with eight-point spikes near the centre.",
+  "flags": []
+ },
+ {
+  "id": "h-potw1240a",
+  "caption": "The globular cluster Messier 69, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Thousands of white, silvery stars crowd this view, with a few foreground stars standing out large and golden against them. This is the globular cluster Messier 69, or M 69, a dense collection of old stars.",
+   "M 69 stands out for its chemistry. As globular clusters go, it is one of the most metal-rich known. In astronomy, a 'metal' is any element heavier than hydrogen and helium, the two most common elements in the Universe. Every one of those heavier elements, from the calcium in bones to the carbon in diamonds, was forged by nuclear fusion in stars, and each generation of stars has added to the supply.",
+   "Globular cluster stars are ancient, so their metal content is much lower than that of younger stars such as the Sun. Measuring what these old stars are made of has helped astronomers trace how the cosmos has changed over time."
+  ],
+  "explore": [
+   "M 69 lies 29 700 light-years away in Sagittarius, the Archer. The famed comet hunter Charles Messier added it to his catalogue, and it also carries an NGC catalogue number. The image covers a field of about 3.4 by 3.4 arcminutes."
+  ],
+  "understand": {
+   "summary": "This view combines visible and near-infrared exposures from Hubble's Advanced Camera for Surveys. The colour assigned to each filter isn't published.",
+   "eye": "The near-infrared light is invisible to the eye, and Hubble's sharp view separates thousands of individual stars."
+  },
+  "scaleExtra": null,
+  "alt": "Thousands of white, silvery stars packed together, with a few larger golden foreground stars.",
+  "flags": []
+ },
+ {
+  "id": "h-potw1115a",
+  "caption": "The young open cluster IC 1590 in the Pacman Nebula, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "The brightest stars at the core of the young open cluster IC 1590 appear toward the top of this view, and a dark region below is part of the hungry mouth of the Pacman Nebula, NGC 281. The star-forming region takes its nickname from its resemblance to the arcade game character.",
+   "Pacman is not really eating these stars. Instead, its gas and dust are raw material for making new ones. The cluster's stars are, in a sense, planning their escape: open clusters are only loosely held together, and this group is expected to drift apart within a few tens of millions of years.",
+   "Through small telescopes, the core of the cluster looks like a triple star, while the surrounding nebula is much fainter and very hard to spot. The American astronomer E. E. Barnard first recorded the nebula in the late nineteenth century, using a 15 cm telescope."
+  ],
+  "explore": [
+   "IC 1590 lies about ten thousand light-years away in Cassiopeia. The total exposure times were 450, 1017 and 678 seconds for the three filters, and the frame spans about 3.3 arcminutes."
+  ],
+  "understand": {
+   "summary": "This image comes from the Wide Field Channel of Hubble's Advanced Camera for Surveys. A yellow filter is shown in blue and an orange filter in green; a red filter isolating glowing hydrogen completes the set, with its display colour not specified.",
+   "eye": "The nebula is very hard to see through small telescopes, but Hubble's long exposures gather far more light than the eye can."
+  },
+  "scaleExtra": null,
+  "alt": "Bright young stars at the top of the frame above a dark region of nebula.",
+  "flags": []
+ },
+ {
+  "id": "h-potw1150a",
+  "caption": "The globular cluster NGC 6642, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "This Hubble view looks into the core of NGC 6642, a globular cluster in our own galaxy whose centre is packed so tightly with stars that it is a hard target for most telescopes. A globular cluster is a dense, roughly spherical swarm of stars held together by gravity.",
+   "That crowding cuts both ways. Because the stars in such a cluster share a similar age, together they preserve clues to the chemical makeup of the Milky Way early in its history. Yet the same density makes individual stars near the core hard to pick apart. NGC 6642 adds a further problem: it sits in a very central part of our galaxy, so any picture of it also catches many 'field stars' that are not part of the cluster at all.",
+   "Hubble's Advanced Camera for Surveys can identify and remove those interlopers and resolve the crowded core in unprecedented detail. Studies with it have turned up many 'blue stragglers', stars that seem to age more slowly than their neighbours, and shown that the cluster is short of low-mass stars."
+  ],
+  "explore": [
+   "The cluster lies about 25,000 light-years away in the constellation Sagittarius. The picture combines visible and infrared exposures from the Advanced Camera for Surveys' Wide Field Channel and covers a patch of sky roughly 1.6 arcminutes on each side."
+  ],
+  "understand": {
+   "summary": "This image combines visible and infrared exposures from the Wide Field Channel of Hubble's Advanced Camera for Surveys. The colour assigned to each filter isn't published.",
+   "eye": "The infrared exposure records light the eye cannot see, and Hubble's sharp view separates stars in a core that most telescopes cannot resolve."
+  },
+  "scaleExtra": null,
+  "alt": "A crowded field of stars thickening toward the dense core of the globular cluster NGC 6642.",
+  "flags": []
+ },
+ {
+  "id": "h-potw2036a",
+  "caption": "The globular cluster NGC 1805 in the Large Magellanic Cloud, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Stars of many colours crowd together in this Hubble image, some blue and others red. This is NGC 1805, a tight globular cluster of thousands of stars close to the rim of the Large Magellanic Cloud, a small galaxy that orbits the Milky Way.",
+   "The stars here swarm around one another like bees around a hive. In the dense centre of such a cluster, stars sit 100 to 1000 times closer together than the Sun's nearest stellar neighbours are to us, so crowded that planetary systems around them are considered unlikely.",
+   "The contrast in colour comes from combining two kinds of light: the blue stars are brightest in near-ultraviolet light, the red ones in red and near-infrared light. Hubble can record ultraviolet because it sits above Earth's atmosphere, which absorbs most of it. NGC 1805 is unusual in another way too. Rather than a single generation, it appears to host two populations of stars whose ages differ by millions of years."
+  ],
+  "explore": [
+   "Visible from the southern hemisphere, this young globular cluster lies in the constellation Dorado, whose name is Portuguese for dolphinfish. Studying clusters like it helps astronomers work out how stars evolve and what decides whether a star ends as a white dwarf or explodes as a supernova."
+  ],
+  "understand": {
+   "summary": "This picture comes from Hubble's Wide Field Camera 3 and combines near-ultraviolet light, in which the blue stars shine brightest, with red and near-infrared light, which brings out the red stars. The exact colour assigned to each filter isn't published.",
+   "eye": "Near-ultraviolet light is invisible to the eye and mostly absorbed by Earth's atmosphere, so only a telescope above the atmosphere can record it like this."
+  },
+  "scaleExtra": null,
+  "alt": "A tightly packed cluster of many blue and red stars.",
+  "flags": []
+ },
+ {
+  "id": "e-eso1436a",
+  "caption": "The protoplanetary disc around HL Tauri, imaged by the Atacama Large Millimeter/submillimeter Array (ALMA)",
+  "captureDate": null,
+  "story": [
+   "This is the disc of material surrounding the young star HL Tauri, seen by the Atacama Large Millimeter/submillimeter Array (ALMA) in what ESO describes as the sharpest image the observatory had ever taken. Dark patches lie within the disc, and ALMA revealed substructures there that had never been seen before.",
+   "A protoplanetary disc is the flattened ring of gas and dust around a newborn star, the raw material from which planets are thought to form. The detail here is sharper than the Hubble Space Telescope routinely achieves in visible light, and that sharpness is what lets such fine structure show up.",
+   "Most intriguing of all, the observations may show where planets are taking shape: the dark patches could mark the positions of planets in the process of forming. ALMA works at millimetre wavelengths, picking up a faint glow from the disc that visible-light telescopes cannot see."
+  ],
+  "explore": [
+   "HL Tauri lies about 450 light-years away in the direction of the constellation Taurus. ALMA is an array of many antennas that work together as a single telescope, and this view was made at a wavelength of 1.28 millimetres."
+  ],
+  "understand": {
+   "summary": "ALMA observed this disc in millimetre-wavelength light, at 1.28 mm. The colour mapping isn't published.",
+   "eye": "Millimetre-wavelength light is invisible to the eye, so this picture is a rendering of that signal rather than a view anyone could see through an eyepiece."
+  },
+  "scaleExtra": null,
+  "alt": "The disc around the young star HL Tauri, with dark patches within it.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "w-potm2404a",
+  "caption": "The globular cluster NGC 6440, imaged by the James Webb Space Telescope",
+  "captureDate": "2023",
+  "story": [
+   "A round swarm of stars fills this Webb view, with a tight knot of bright white stars at its centre, larger yellow stars scattered across the frame, and many stars showing spiky diffraction patterns against black space. This is NGC 6440, a globular cluster roughly 28,000 light-years away in Sagittarius, first discovered by William Herschel.",
+   "Globular clusters are roughly spherical, tightly bound groups of old stars. NGC 6440 is massive and rich in metals, and it formed and still orbits inside the Galactic bulge, the dense, near-spherical crowd of old stars in the Milky Way's inner region.",
+   "Webb's near-infrared camera was used to study the cluster's stars and its pulsars, rapidly spinning, strongly magnetised neutron stars whose beams sweep past us as pulses. The data give the first evidence from Webb of varying helium and oxygen abundances among a globular cluster's stars. Heavy crowding and reddening by interstellar dust had put such bulge clusters out of reach of other telescopes."
+  ],
+  "explore": [
+   "Globular clusters hold hundreds of thousands to millions of stars, on average about one light-year apart, though they can be packed as tightly as the span of our Solar System. The fastest known pulsars spin more than 716 times per second, and in theory one could reach 1500 before losing energy or breaking apart."
+  ],
+  "understand": {
+   "summary": "This is a near-infrared image from Webb's NIRCam, with the shortest-wavelength filter shown in blue, two middle filters in green and the longest in red.",
+   "eye": "Near-infrared light is invisible to the eye, and it passes more easily through the interstellar dust that reddens and dims this cluster in visible light."
+  },
+  "scaleExtra": null,
+  "alt": "A spherical cluster of stars filling the frame, with bright white stars concentrated at the centre, larger yellow stars scattered around, and diffraction spikes on many stars against a black background.",
+  "flags": []
+ },
+ {
+  "id": "h-potw1847a",
+  "caption": "The star cluster NGC 1866 in the Large Magellanic Cloud, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Stars fill this image from Hubble's Wide Field Camera 3. They belong to NGC 1866, a star cluster on the outermost fringes of the Large Magellanic Cloud, a small galaxy near the Milky Way. The Scottish astronomer James Dunlop discovered it in 1826.",
+   "NGC 1866 is a surprisingly young globular cluster, and it is close enough for its stars to be studied one by one. Most globular clusters are dominated by old stars with low metallicity; astronomers call any element other than hydrogen and helium a 'metal'. Because stars forge heavier elements over their lives, a star built from unenriched material is taken to be very old, and some globular cluster stars may be among the first to form after the Big Bang.",
+   "Here, though, the stars are not all alike. Different generations are thought to live side by side. One idea is that after its first stars formed, the cluster met a giant gas cloud that triggered a fresh wave of star birth, producing a younger population and explaining its youthful look."
+  ],
+  "explore": [
+   "How globular clusters form is still debated. Star clusters like this one are bound together by gravity and can contain hundreds of thousands of stars. James Dunlop, who found NGC 1866, went on to list thousands of stars and deep-sky objects over his career."
+  ],
+  "understand": {
+   "summary": "This image comes from Hubble's Wide Field Camera 3, using five filters from the U band through visible light to the near-infrared I band. The colour assigned to each filter isn't published.",
+   "eye": "Hubble separates individual stars in a cluster belonging to another galaxy, something no eye could do, and part of the light it recorded lies beyond what the eye can see."
+  },
+  "scaleExtra": null,
+  "alt": "A field densely filled with the stars of the cluster NGC 1866.",
+  "flags": []
+ },
+ {
+  "id": "e-eso1005a",
+  "caption": "The starburst region NGC 3603, imaged by ESO's Very Large Telescope",
+  "captureDate": null,
+  "story": [
+   "A star cluster sits amid richly textured clouds of gas and dust in this wide view from ESO's Very Large Telescope. This is NGC 3603, a starburst region: a place where stars are forming at a furious pace from the nebula's sprawling clouds of gas and dust.",
+   "About 22,000 light-years from the Sun, NGC 3603 is the closest known region of its kind in our galaxy. That makes it a valuable local test bed. Intense bursts of star formation like this are very common in other galaxies, but those are so far away that the process is hard to study in detail there.",
+   "The image was made with the FORS instrument on one of the four 8.2-metre Unit Telescopes of the VLT at Cerro Paranal in Chile. It combines exposures through three filters, two in visible light and one in the near-infrared, and shows a wide field around the cluster, bringing out the texture of its surroundings."
+  ],
+  "explore": [
+   "The picture spans a field 7 arcminutes wide and was assembled from exposures through the V, R and I filters. NGC 3603 lies in the direction of the constellation Carina, and ESO has also offered this view as a mounted print in its shop."
+  ],
+  "understand": {
+   "summary": "This is a three-colour composite from the FORS instrument on the Very Large Telescope, using visible (V and R) and near-infrared (I) filters. The colour assigned to each filter isn't published.",
+   "eye": "Part of the light is near-infrared and invisible to the eye, and the long exposures gather far more light than the eye can."
+  },
+  "scaleExtra": null,
+  "alt": "A star cluster surrounded by textured clouds of gas and dust.",
+  "flags": []
+ },
+ {
+  "id": "h-potw1804a",
+  "caption": "The globular cluster NGC 3201, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "This Hubble image looks into NGC 3201, a glistening, ancient globular cluster of hundreds of thousands of stars held together by gravity. James Dunlop found it in 1826 and described it as 'pretty large, pretty bright', becoming 'rather irregular' towards its centre.",
+   "Globular clusters surround all large galaxies, yet how they formed and what part they played in building galaxies is still unclear. NGC 3201 recently added a twist: astronomers found a black hole at its heart, betrayed by a star being flung quickly around a massive, invisible partner.",
+   "The cluster also stands out among the Milky Way's more than 150 globulars. It moves extremely fast relative to the Sun, and its orbit around the galactic centre is retrograde, running against the usual direction. That behaviour hints that it may have come from outside our galaxy and been captured. Yet its stars are chemically very like those of other globulars in the Milky Way, suggesting they formed at a similar place and time."
+  ],
+  "explore": [
+   "The cluster lies about 16,000 light-years away in the constellation Vela. Whether it was adopted by the Milky Way or simply evolved differently from the clusters it grew up with remains an open question."
+  ],
+  "understand": {
+   "summary": "This view combines Hubble's Wide Field Camera 3 in ultraviolet and near-ultraviolet light with its Advanced Camera for Surveys in visible and near-infrared light. The colour assigned to each filter isn't published.",
+   "eye": "The ultraviolet and near-infrared light are invisible to the eye, and the black hole at the cluster's heart cannot be seen at all; it was found only through a star's motion."
+  },
+  "scaleExtra": null,
+  "alt": "A dense, glistening gathering of stars in the globular cluster NGC 3201.",
+  "flags": []
+ },
+ {
+  "id": "e-potw1621a",
+  "caption": "Carbon monoxide gas in the debris disc around HD 181327, imaged by the Atacama Large Millimeter/submillimeter Array (ALMA)",
+  "captureDate": null,
+  "story": [
+   "A ring of gas encircles the star HD 181327 in this view from the Atacama Large Millimeter/submillimeter Array (ALMA), which maps the density of carbon monoxide within the star's disc of debris. HD 181327 is an F-type star, and this is the first time the gas has been detected around a star of that type.",
+   "Only molecular hydrogen is more common than carbon monoxide in the space between the stars, but the gas had previously been found only around a few A-type stars, which are considerably more massive and luminous. HD 181327 belongs to the Beta Pictoris moving group and lies almost 170 light-years from Earth.",
+   "The gas sits alongside the dust grains in the ring and was produced recently. One possible source is destructive collisions between icy planetesimals, which usually need larger bodies to nudge them into smashing together hard enough. The ice's inferred make-up resembles the comets of our Solar System, hinting that icy comets could be common around Sun-like stars."
+  ],
+  "explore": [
+   "Astronomers used 39 of ALMA's 66 antennas, which sit on the Chajnantor plateau high in the Chilean Andes, at an altitude of 5000 metres. The results appeared in Monthly Notices of the Royal Astronomical Society, in a paper by S. Marino and colleagues titled 'Exocometary gas in the HD 181327 debris ring'."
+  ],
+  "understand": {
+   "summary": "ALMA observed at millimetre wavelengths (around 220 GHz), and this view maps carbon monoxide gas in the disc. The colour mapping isn't published.",
+   "eye": "Millimetre-wavelength light is invisible to the eye; this is a map of gas that no visible-light telescope could show."
+  },
+  "scaleExtra": null,
+  "alt": "A ring of gas around the star HD 181327.",
+  "flags": []
+ },
+ {
+  "id": "e-potw1714a",
+  "caption": "The ringed dusty disc around the young star HD 169142, imaged by the Atacama Large Millimeter/submillimeter Array (ALMA)",
+  "captureDate": null,
+  "story": [
+   "Vivid rings, separated by deep gaps, circle the young star HD 169142 in this image from the Atacama Large Millimeter/submillimeter Array (ALMA). The rings are thick bands of dust, and ALMA captured them sharply by detecting weak signals from the disc's millimetre-sized grains.",
+   "ALMA is built to study cold gas and dust, and it has revealed many young planetary systems with similar gaps and cavities. Several explanations have been proposed, including turbulence from an effect called magnetorotational instability and dust grains fusing together, but the most plausible is that giant protoplanets carved the gaps.",
+   "As a planetary system forms, gas and dust gather into planets, which then sweep their orbits clean and herd the leftover material into sharp bands. The deep gaps here fit the presence of several protoplanets, in agreement with optical and infrared studies of the same star. Watching discs like this lets scientists probe the first steps of planet formation."
+  ],
+  "explore": [
+   "HD 169142 is a young, isolated star about 380 light-years away in the direction of Sagittarius. ALMA recorded this disc at a wavelength of about 1.3 millimetres, using its Band 6 receivers."
+  ],
+  "understand": {
+   "summary": "ALMA imaged the disc in millimetre-wavelength light at 1.3 mm, tracing the glow of dust grains. The colour mapping isn't published.",
+   "eye": "This millimetre light is invisible to the eye; the image shows the glow of cold dust that visible-light telescopes cannot pick up in this way."
+  },
+  "scaleExtra": null,
+  "alt": "A disc around a young star made of rings of dust separated by deep gaps.",
+  "flags": []
+ },
+ {
+  "id": "e-eso9925a",
+  "caption": "The star-forming region RCW 108 in Ara, imaged by the MPG/ESO 2.2-metre telescope",
+  "captureDate": "27 March 1999",
+  "story": [
+   "Bright and dark nebulae spread across this wide-field view, with the star cluster NGC 6193 on the left. The subject is RCW 108, a molecular cloud that is being destroyed by intense ultraviolet radiation from heavy, hot stars in that neighbouring cluster.",
+   "The complex belongs to Ara OB1, a star-forming association deep in the southern sky in the constellation Ara, the Altar. A molecular cloud is a cold, dense cloud of gas and dust where new stars can form; here, radiation from stars that have already formed is eroding that raw material.",
+   "The picture was taken with the Wide Field Imager, a camera made from a mosaic of detectors that covers a large patch of sky at once. It combines 12 separate images. Through each filter, four frames were taken with the telescope shifted slightly between them, so that the gaps between the camera's eight detectors were filled in."
+  ],
+  "explore": [
+   "Each full frame records over 67 million pixels across a field 32 arcminutes square. Exposures lasted 300 seconds per frame through the hydrogen-alpha filter and 60 seconds in B and V. Very faint seams may show where frames were joined, and star colours are slightly misaligned at the far corners because air bends different colours of light by different amounts. East is to the left and north is at the top."
+  ],
+  "understand": {
+   "summary": "This visible-light composite comes from the Wide Field Imager on the MPG/ESO 2.2-metre telescope: the B filter is shown in blue, V in green and hydrogen-alpha in red.",
+   "eye": "Long exposures build up light the eye cannot gather, so the faint nebulae here would be far too dim to see like this by eye."
+  },
+  "scaleExtra": null,
+  "alt": "A wide star field with bright and dark nebulae and a star cluster on the left.",
+  "flags": []
+ },
+ {
+  "id": "h-heic0708a",
+  "caption": "The globular cluster NGC 2808, imaged by the Hubble Space Telescope",
+  "captureDate": "May 2005, August 2006 and November 2006",
+  "story": [
+   "A dense swarm of stars fills this Hubble view of the central region of NGC 2808, a globular cluster in our galaxy. Globular clusters are compact, gravity-bound groups of typically hundreds of thousands of stars, and they were among the earliest settlers of the Milky Way, born as the galaxy itself took shape.",
+   "For decades astronomers assumed that all of a cluster's stars formed together, at one time and place and from one batch of material, then aged side by side for billions of years. NGC 2808 upset that picture: Hubble surprised astronomers by finding three generations of stars in it.",
+   "All three were born within a span of 200 million years, early in the life of this 12.5-billion-year-old cluster. NGC 2808 is one of the most massive of the roughly 150 known globular clusters in the Milky Way, with more than 1 million stars. The three populations were told apart using Hubble's sharp Advanced Camera for Surveys, which measured the brightness and colours of the cluster's stars."
+  ],
+  "explore": [
+   "The cluster lies about 30,000 light-years away in the direction of the constellation Carina. The Hubble images behind this view were not taken in one go but gathered during several separate observing sessions, a common approach for detailed studies of a single cluster."
+  ],
+  "understand": {
+   "summary": "This image combines blue, visible and near-infrared exposures from Hubble's Advanced Camera for Surveys. The colour assigned to each filter isn't published.",
+   "eye": "The near-infrared light is invisible to the eye, and only a view as sharp as Hubble's can separate the crowded stars at the cluster's centre."
+  },
+  "scaleExtra": null,
+  "alt": "A dense swarm of stars in the central region of the globular cluster NGC 2808.",
+  "flags": []
+ },
+ {
+  "id": "e-eso0310a",
+  "caption": "The nebula around the Wolf-Rayet binary star AB7, imaged by ESO's Very Large Telescope",
+  "captureDate": null,
+  "story": [
+   "Blue bubbles of gas and a small network of green filaments stand out in this ESO view of AB7, one of the most highly excited nebulae in the Magellanic Clouds, the two satellite galaxies of the Milky Way. At its heart is a binary star: a Wolf-Rayet star, which is a highly evolved massive star, paired with a middle-aged massive companion of spectral type O.",
+   "Both stars blow exceptionally strong stellar winds, constant outflows of energetic particles, much like our Sun's solar wind, but between 10 and 1,000 million times stronger. These winds press hard on the surrounding interstellar material and sculpt it into bubbles, which show up clearly here by their blue colour.",
+   "AB7 stands out even among such stars. The huge nebula around it, together with a region of glowing ionised helium, indicates that its Wolf-Rayet star is among the hottest known, perhaps the hottest, with a surface temperature above 120,000 degrees. The green filaments just outside the nebula are the remains of a supernova explosion."
+  ],
+  "explore": [
+   "The view was made with the FORS1 instrument on ESO's Very Large Telescope, using filters that isolate light from helium, oxygen and hydrogen. AB7 lies about 180,000 light-years away in the direction of the constellation Tucana."
+  ],
+  "understand": {
+   "summary": "This is a visible-light image from the FORS1 instrument on ESO's Very Large Telescope, taken through filters that isolate light from helium, oxygen and hydrogen. The wind-blown bubbles appear blue, but the colour assigned to each filter isn't published.",
+   "eye": "These narrow filters isolate the glow of particular gases, and long exposures reveal a nebula far too faint for the eye to see."
+  },
+  "scaleExtra": null,
+  "alt": "A nebula containing blue wind-blown bubbles, with a small network of green filaments just outside it.",
+  "flags": []
+ },
+ {
+  "id": "e-eso9946a",
+  "caption": "The starburst region NGC 3603 in near-infrared light, imaged by ESO's Very Large Telescope",
+  "captureDate": null,
+  "story": [
+   "This near-infrared view from ESO's Very Large Telescope looks into NGC 3603, a massive region of glowing gas that lies in our galaxy's Carina spiral arm, about 20,000 light-years away. At its centre sits a cluster of hot O- and B-type stars pouring out ultraviolet radiation that ionises the surrounding nebula.",
+   "Astronomers call such a place an HII region, because part of its hydrogen is ionised. NGC 3603 is the only massive one in our galaxy where the central ionising cluster can be studied at both visible and near-infrared wavelengths, because the line of sight happens to be fairly clear of dust. Intervening matter dims its near-infrared light only by about a factor of 2, compared with 80 in visible light.",
+   "The cluster's more than fifty heavy, bright O stars together have about 100 times the ionising power of the Trapezium cluster in the Orion Nebula. Importantly, the study found plenty of stars with less mass than the Sun, showing that, contrary to several theoretical predictions, low-mass stars do form in violent starbursts."
+  ],
+  "explore": [
+   "The hot O and B stars add up to over 2,000 times the mass of the Sun. In many ways the cluster resembles the core of the ionising cluster in the Tarantula Nebula in the Large Magellanic Cloud, which is about eight times farther away. Young stars still contracting in the innermost region are between 300 000 and 1 000 000 years old."
+  ],
+  "understand": {
+   "summary": "This image comes from the ISAAC instrument on the VLT's ANTU telescope, taken through three near-infrared filters (Js, H and Ks). The colour assigned to each filter isn't published.",
+   "eye": "Near-infrared light is invisible to the eye, but it is dimmed far less by intervening dust than visible light on its way to us."
+  },
+  "scaleExtra": null,
+  "alt": "A near-infrared view of the NGC 3603 region and its central star cluster.",
+  "flags": []
+ },
+ {
+  "id": "h-heic0918a",
+  "caption": "The globular cluster Messier 30, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "This Hubble image shows Messier 30, a globular cluster in which several hundred thousand stars crowd together. It lies about 28,000 light-years from Earth, measures about 90 light-years across, and formed some 13 billion years ago. Charles Messier discovered it in 1764.",
+   "Globular clusters like this one are mostly made of old stars. Yet in such a crowded place, some old stars appear to regain their youth, becoming what astronomers call blue stragglers: stars that look hotter and bluer, and so younger, than they ought to.",
+   "Using data from Hubble's Wide Field Planetary Camera 2, since retired, researchers identified two kinds of blue stragglers in Messier 30. Some form when stars crash into each other almost head-on. Others live in binary pairs, where the less massive star draws hydrogen fuel away from its heavier partner and is rejuvenated by it."
+  ],
+  "explore": [
+   "The picture itself was taken with Hubble's Advanced Camera for Surveys, while the blue straggler study relied on the older camera. Messier 30 lies in the direction of the constellation Capricornus, and its crowded core is exactly what makes stellar collisions possible there."
+  ],
+  "understand": {
+   "summary": "This image comes from Hubble's Advanced Camera for Surveys, combining red and near-infrared exposures. The colour assigned to each filter isn't published.",
+   "eye": "The near-infrared data are invisible to the eye, and Hubble's sharp view separates individual stars packed into this dense swarm."
+  },
+  "scaleExtra": null,
+  "alt": "A dense swarm of stars forming the globular cluster Messier 30.",
+  "flags": []
+ },
+ {
+  "id": "e-eso0929c",
+  "caption": "The region around the star cluster RCW 38, imaged by the MPG/ESO 2.2-metre telescope at La Silla",
+  "captureDate": null,
+  "story": [
+   "This wide view from ESO's La Silla Observatory takes in the region around RCW 38, a star cluster about 5,500 light-years away in the direction of Vela, the Sails. It is what astronomers call an embedded cluster: its stars are still wrapped in the cloud of gas and dust from which they formed.",
+   "Life there is harsh. Young, giant stars batter nearby fledgling suns and planets with powerful winds and floods of light, aided by massive stars that live fast and end as supernovae. At times this onslaught boils away material that might otherwise have gone on to build new planetary systems.",
+   "Scientists think our own Solar System emerged from a similarly dramatic setting, which makes regions like RCW 38 useful for understanding our own origins. An embedded cluster is a snapshot of star formation still under way, before the stars have cleared away the cloud they were born in."
+  ],
+  "explore": [
+   "This image comes from the Wide Field Imager, a camera mounted on La Silla's MPG/ESO 2.2-metre telescope, and combines data taken through four filters: B, V, R and hydrogen-alpha. The field of view is 30 arcminutes across."
+  ],
+  "understand": {
+   "summary": "This visible-light image from the Wide Field Imager on the MPG/ESO 2.2-metre telescope combines B, V, R and hydrogen-alpha filters. The colour assigned to each filter isn't published.",
+   "eye": "Long camera exposures gather far more light than the eye can, bringing out faint glowing gas around the cluster."
+  },
+  "scaleExtra": null,
+  "alt": "A wide field around the star cluster RCW 38 and its surrounding nebula.",
+  "flags": []
+ },
+ {
+  "id": "w-weic2219a",
+  "caption": "The protostar L1527, imaged by the James Webb Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Glowing cavities open above and below a young star in this Webb infrared view, their edges shining orange and blue. The star is the protostar L1527, buried in a cloud of gas and dust that it is feeding on as it grows. Material thrown out by the star has cleared these cavities.",
+   "In the upper central region, bubble-like shapes mark stellar 'burps', sporadic ejections from the young star. Webb also picks out filaments of molecular hydrogen that has been shocked by earlier outbursts, a record of the star's restless past.",
+   "The shapes are curiously uneven: the cavity edges at upper left and lower right look straight, while those at upper right and lower left curve. The colours carry information too. The lower right region looks blue because there is less dust between it and Webb than in the orange regions above it. Working in infrared lets Webb look into the dusty cloud around the protostar."
+  ],
+  "explore": [
+   "L1527 lies about 460 light-years away in the direction of the constellation Taurus. A protostar is a star still in the making, gathering mass from its surroundings before it begins to shine by nuclear fusion in its core."
+  ],
+  "understand": {
+   "summary": "This near-infrared image comes from Webb's NIRCam: the shortest filter is shown in blue, a filter tracing PAH molecules in green, a molecular hydrogen filter in orange and another long-wavelength filter in red.",
+   "eye": "This is infrared light, invisible to the eye; the colours are assigned, and here they also hint at how much dust lies in front of each region."
+  },
+  "scaleExtra": null,
+  "alt": "A young star's cloud with glowing cavities above and below it, their boundaries orange and blue, bubble-like shapes in the upper centre and a bluer region at lower right.",
+  "flags": []
+ },
+ {
+  "id": "h-heic1321a",
+  "caption": "The globular cluster Messier 15, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Hot blue stars and cooler golden ones swarm together in this Hubble image, crowding ever more densely toward the cluster's bright centre. This is Messier 15, a globular cluster some 35,000 light-years away in the constellation Pegasus, the Winged Horse.",
+   "At around 12 billion years old, Messier 15 is one of the oldest globular clusters known. It is also one of the densest, with most of its mass packed into its core. A star's colour is a guide to its surface temperature, which is why the blue and golden stars here are described as hot and cooler.",
+   "The cluster holds more than stars. It was the first star cluster found to contain a planetary nebula, the glowing shell of gas cast off by a dying Sun-like star, and a rare type of black hole has been found at its centre. This image combines Hubble observations across ultraviolet, visible and infrared light."
+  ],
+  "explore": [
+   "The picture draws on two Hubble instruments: the Wide Field Camera 3 supplied the ultraviolet and blue exposures, and the Advanced Camera for Surveys supplied the visible and near-infrared ones. Combining them captures both the hot blue stars and the cooler golden ones."
+  ],
+  "understand": {
+   "summary": "This image combines Hubble's Wide Field Camera 3 and Advanced Camera for Surveys in ultraviolet, visible and infrared light. The colour assigned to each filter isn't published.",
+   "eye": "The ultraviolet and infrared parts of this image lie beyond what the eye can see."
+  },
+  "scaleExtra": null,
+  "alt": "A globular cluster of blue and golden stars that grow more crowded toward a bright centre.",
+  "flags": []
+ },
+ {
+  "id": "h-heic1704a",
+  "caption": "The supernova remnant SN 1987A, imaged by the Hubble Space Telescope",
+  "captureDate": "January 2017",
+  "story": [
+   "A bright ring surrounds the remains of an exploded star at the centre of this Hubble image, set against a backdrop of stars and wrapped in red clouds of gas. This is Supernova 1987A, and the ring is made of material the star threw off about 20 000 years before it exploded.",
+   "A supernova remnant is the expanding debris left behind when a massive star blows itself apart. The red colour of the surrounding clouds traces the glow of hydrogen gas. Hubble's Wide Field Camera 3 took this image in January 2017, while the colours of the stars in front of and behind the supernova were added from observations with the older Wide Field Planetary Camera 2.",
+   "Since its launch in 1990, Hubble has returned to SN 1987A several times, watching its dust cloud expand. Those repeated visits have helped astronomers build a better understanding of these powerful explosions."
+  ],
+  "explore": [
+   "SN 1987A lies about 170,000 light-years away in the direction of the constellation Dorado. The full picture combines blue, visible, hydrogen-alpha and near-infrared filters from two different Hubble cameras."
+  ],
+  "understand": {
+   "summary": "The central view comes from Hubble's Wide Field Camera 3, including a hydrogen-alpha filter, with star colours added from Wide Field Planetary Camera 2 data. The red clouds show glowing hydrogen; the other colour assignments aren't published.",
+   "eye": "Hubble's long exposures and sharp view reveal a ring and clouds far too small and faint for the eye to make out."
+  },
+  "scaleExtra": null,
+  "alt": "A bright ring around a central exploded star, surrounded by red clouds of gas and a backdrop of stars.",
+  "flags": []
+ },
+ {
+  "id": "h-heic1221a",
+  "caption": "The globular cluster NGC 6388, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "This Hubble image shows NGC 6388, a globular cluster in the Milky Way. Like all globular clusters, it formed long ago and is more than ten billion years old. Yet astronomers describe it as dynamically middle-aged.",
+   "The distinction is between calendar age and internal evolution. Over time, the heaviest stars in a cluster gradually sink toward its centre. By studying how the cluster's bright blue stars are spread out, researchers found that NGC 6388 has aged at a moderate pace, with its heaviest stars still in the middle of that migration.",
+   "Those bright blue stars are blue stragglers, stars that look younger than their neighbours. A study using Hubble data showed that globulars of matching age may have strikingly different distributions of blue stragglers, which suggests that clusters can age at substantially different rates. A cluster's internal clock, in other words, need not match its birthday."
+  ],
+  "explore": [
+   "NGC 6388 lies about 35,000 light-years away in the direction of the constellation Scorpius. The image was made with Hubble's Advanced Camera for Surveys through blue, visible and near-infrared filters."
+  ],
+  "understand": {
+   "summary": "This image comes from Hubble's Advanced Camera for Surveys, using blue, visible and near-infrared filters. The colour assigned to each filter isn't published.",
+   "eye": "The near-infrared light is invisible to the eye, and Hubble's sharp view separates stars that would otherwise blur together."
+  },
+  "scaleExtra": null,
+  "alt": "The stars of the globular cluster NGC 6388.",
+  "flags": []
+ },
+ {
+  "id": "e-eso1252b",
+  "caption": "The globular cluster NGC 6388, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "This view from the Hubble Space Telescope captures NGC 6388, one of the Milky Way's globular clusters, which are ancient, gravity-bound balls of stars. Its stars formed in the distant past, more than ten billion years ago, as is true of every globular cluster.",
+   "Even so, astronomers call NGC 6388 dynamically middle-aged. What they mean is how far its internal evolution has progressed. Looking at where its bright blue stars are located, they concluded that it has aged at a moderate speed: its heaviest stars are partway through a slow migration toward the centre.",
+   "Those blue stars, known as blue stragglers, appear younger than the stars around them, and because they are relatively heavy they act as tracers of this settling. Hubble data showed that clusters of the same age can differ dramatically in how their blue stragglers are spread out, suggesting that clusters age at markedly different rates."
+  ],
+  "explore": [
+   "The cluster lies about 35,000 light-years away in the constellation Scorpius. This version of the image was released by ESO and combines visible and near-infrared exposures from Hubble's Advanced Camera for Surveys."
+  ],
+  "understand": {
+   "summary": "This image combines visible and near-infrared exposures from Hubble's Advanced Camera for Surveys. The colour assigned to each filter isn't published.",
+   "eye": "The near-infrared light is invisible to the eye, and Hubble's sharp view picks out stars that would blur together through an ordinary telescope."
+  },
+  "scaleExtra": null,
+  "alt": "The stars of the globular cluster NGC 6388.",
+  "flags": [
+   "possible duplicate of h-heic1221a"
+  ]
+ },
+ {
+  "id": "e-eso0425a",
+  "caption": "The globular cluster NGC 6397, imaged by the MPG/ESO 2.2-metre telescope at La Silla",
+  "captureDate": null,
+  "story": [
+   "Spikes jut from some of the brighter stars in this ESO image of NGC 6397, a globular cluster about 7,200 light-years away in the southern constellation Ara. Those spikes are not real features of the stars: they appear because the brightest stars overexposed the camera's detector, an effect called CCD bleeding.",
+   "Globular clusters are dense, roughly spherical groups of old stars bound by gravity. NGC 6397 has gone through what astronomers call core collapse, and its central region is very dense. In core collapse, encounters between stars gradually drive many of them into a tightly packed centre.",
+   "The cluster contains about 400,000 stars. Based on models of how stars evolve, its age is put at 13,400 million years, give or take 800 million, which places it among very old objects indeed."
+  ],
+  "explore": [
+   "The image combines B-, V- and I-band exposures from the Wide Field Imager on the 2.2-metre ESO/MPI telescope at La Silla, taken as part of the Pilot Stellar Survey. The ESO Imaging Survey team prepared and supplied the picture."
+  ],
+  "understand": {
+   "summary": "This composite comes from the Wide Field Imager, using B and V filters in visible light and an I filter in the near-infrared. The colour assigned to each filter isn't published.",
+   "eye": "The I-band light is near-infrared and invisible to the eye, and the spikes on bright stars are a camera artefact, not something the eye would see."
+  },
+  "scaleExtra": null,
+  "alt": "A dense globular cluster of stars, with spikes extending from some of the brighter stars.",
+  "flags": []
+ },
+ {
+  "id": "e-eso0844a",
+  "caption": "The globular cluster Omega Centauri, imaged by the MPG/ESO 2.2-metre telescope at La Silla",
+  "captureDate": null,
+  "story": [
+   "This ESO image looks into the central part of Omega Centauri, a globular cluster that holds as many as ten million stars. Even this central region covers a patch of sky about as big as the full Moon, roughly half a degree across.",
+   "A globular cluster is a dense, roughly spherical collection of stars bound together by gravity, and Omega Centauri, also known as NGC 5139, counts its stars in the millions. The picture was captured from ESO's La Silla Observatory with the Wide Field Imager, and it is a colour composite of images taken through three filters known as B, V and I.",
+   "There is a small puzzle hidden in the frame. The Wide Field Imager uses a mosaic of detectors, which leaves narrow gaps between them. Two small gaps in this image were patched with lower-quality data from the Digitized Sky Survey, and ESO invites viewers to try to spot them. North is at the top and east is to the left."
+  ],
+  "explore": [
+   "The cluster lies about 17,000 light-years away in the direction of the constellation Centaurus. Its alternative name, NGC 5139, is its number in the New General Catalogue, a long-standing list of nebulae, clusters and galaxies."
+  ],
+  "understand": {
+   "summary": "This colour composite from the Wide Field Imager combines images taken through B, V and I filters. The colour assigned to each filter isn't published.",
+   "eye": "The I-band light is near-infrared and invisible to the eye, and long camera exposures gather far more light than the eye can."
+  },
+  "scaleExtra": null,
+  "alt": "The dense central part of the globular cluster Omega Centauri, packed with stars.",
+  "flags": []
+ },
+ {
+  "id": "h-heic0822a",
+  "caption": "The massive stars WR 25 and Tr16-244 in the cluster Trumpler 16, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "The brightest star in this Hubble image, near the centre, is WR 25; just to its upper left shines Tr16-244, the third brightest. Together they form a pair of colossal stars in the open cluster Trumpler 16. The second-brightest star, to the left of WR 25, is an impostor of sorts: a low-mass star much closer to Earth than the others.",
+   "Trumpler 16 is embedded in the Carina Nebula, a vast cauldron of gas and dust about 7500 light-years away in the constellation Carina, the Keel. An open cluster is a loose group of stars that formed together from the same cloud, and young ones can still be surrounded by the gas from which they were born.",
+   "WR 25 is catalogued as a Wolf-Rayet star, a type of massive, highly evolved star that sheds material in powerful winds. Such stars are rare and short-lived, which makes a pair of giants like this in one field worth a close look."
+  ],
+  "explore": [
+   "The image was made with Hubble's Advanced Camera for Surveys through blue, visible and near-infrared filters. The foreground star's brightness is a reminder that how bright a star looks depends on its distance as well as its true power."
+  ],
+  "understand": {
+   "summary": "This image comes from Hubble's Advanced Camera for Surveys, using blue, visible and near-infrared filters. The colour assigned to each filter isn't published.",
+   "eye": "Near-infrared light is invisible to the eye, and, as the second-brightest star here shows, a modest nearby star can outshine a distant giant."
+  },
+  "scaleExtra": null,
+  "alt": "A star field with a very bright star near the centre, another bright star to its left and a third just to its upper left.",
+  "flags": []
+ },
+ {
+  "id": "e-eso0620a",
+  "caption": "The core of the globular cluster 47 Tucanae, imaged by ESO's Very Large Telescope",
+  "captureDate": null,
+  "story": [
+   "This image from ESO's Very Large Telescope zooms into the central core of 47 Tucanae, a globular cluster about 15,000 light-years away in the constellation Tucana. The frame is 7 arcminutes wide, yet the whole cluster spans about 30 arcminutes on the sky, so this is only its heart.",
+   "A globular cluster is a dense, roughly spherical ball of old stars held together by gravity. Their cores are crowded, so separating the individual stars there calls for a large telescope.",
+   "The data were taken with the FORS1 instrument on Kueyen, the second of the VLT's Unit Telescopes, through three filters: U, R and a narrow-band filter centred near 485 nm. The total exposure time was under 5 minutes. The observations were retrieved from the ESO Science Archive; Rubina Kotak processed them and Henri Boffin carried out the final image processing, giving these stored measurements a new life as a picture."
+  ],
+  "explore": [
+   "North is at the top and east is to the left. Because the picture was built from observations already held in an archive, it shows how data gathered for one purpose can later be turned into a new image."
+  ],
+  "understand": {
+   "summary": "This image comes from FORS1 on the VLT's Kueyen telescope, using a U filter at the ultraviolet end of the spectrum, a narrow-band filter near 485 nm and an R filter. The colour assigned to each filter isn't published.",
+   "eye": "The U filter reaches into ultraviolet light the eye cannot see, and the telescope collects far more light than the eye can."
+  },
+  "scaleExtra": null,
+  "alt": "The crowded central core of the globular cluster 47 Tucanae.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "e-eso1235d",
+  "caption": "The centre of the globular cluster Messier 4, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Hubble has broken the centre of the globular cluster Messier 4 into a multitude of glowing points, each one a star, a colossal nuclear furnace. Lying 7200 light-years away, Messier 4 is relatively close to us, which makes it a prime target for study. Tens of thousands of stars belong to it.",
+   "The cluster stands out for its large population of white dwarfs: the exposed cores of old, dying stars that have shed their outer layers into space. It also hosts an unusual planet, PSR B1620-26 b, about 2.5 times the mass of Jupiter, circling a binary pair: a white dwarf together with a pulsar, which is a kind of neutron star. The planet's age is estimated at around 13 billion years, almost three times that of the Solar System.",
+   "Since Messier 4 is bright as globular clusters go, amateur stargazers can seek it out with binoculars or a small telescope near the orange-red star Antares in Scorpius. Don't expect Hubble's detail, though: in an eyepiece it looks like a fuzzy ball of light."
+  ],
+  "explore": [
+   "Hubble helped make the discovery of the planet PSR B1620-26 b in July 2003. This view was made with Hubble's Advanced Camera for Surveys through blue, visible and near-infrared filters, and the cluster is also catalogued as NGC 6121."
+  ],
+  "understand": {
+   "summary": "This image comes from Hubble's Advanced Camera for Surveys, using blue, visible and near-infrared filters. The colour assigned to each filter isn't published.",
+   "eye": "Through binoculars or a small telescope Messier 4 appears only as a fuzzy ball of light; Hubble's sharp view resolves it into individual stars."
+  },
+  "scaleExtra": "Messier 4 lies about 7200 light-years from Earth, according to ESA/Hubble.",
+  "alt": "The centre of a globular cluster resolved into a multitude of glowing stars.",
+  "flags": []
+ },
+ {
+  "id": "e-eso1218a",
+  "caption": "The star cluster NGC 6604 and the nebula Sh2-54, imaged by the MPG/ESO 2.2-metre telescope at La Silla",
+  "captureDate": null,
+  "story": [
+   "A bright grouping of stars toward the upper left of this image is the young star cluster NGC 6604. Around it lie the cluster's associated nebula, a cloud of glowing hydrogen gas called Sh2-54, and clouds of dust. The picture was taken by the Wide Field Imager on the 2.2-metre MPG/ESO telescope at ESO's La Silla Observatory in Chile.",
+   "The cluster forms the densest part of a looser association of about one hundred brilliant blue-white stars. A stellar association is a widely spread group of young stars that share a common origin but are only weakly held together by gravity, if at all.",
+   "Clouds of glowing hydrogen like Sh2-54 typically shine because ultraviolet light from hot young stars makes the gas glow. Together, the cluster, the gas and the dust show a region where stars have recently formed and some of the raw material still remains."
+  ],
+  "explore": [
+   "NGC 6604 lies about 5,500 light-years away in the direction of Serpens Cauda. The image combines five filters spanning ultraviolet and visible light, including one that isolates the red glow of hydrogen."
+  ],
+  "understand": {
+   "summary": "This image from the Wide Field Imager combines U, B, V, R and hydrogen-alpha filters, from the ultraviolet end of the spectrum through visible light. The colour assigned to each filter isn't published.",
+   "eye": "Long exposures and a hydrogen-alpha filter bring out faint glowing gas that the eye could not see directly."
+  },
+  "scaleExtra": null,
+  "alt": "A bright group of stars at upper left amid a cloud of glowing hydrogen gas and dust clouds.",
+  "flags": []
+ },
+ {
+  "id": "h-heic1605a",
+  "caption": "The star cluster R136 in the Tarantula Nebula, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Hubble looks here into the heart of the Tarantula Nebula, which lies in the Large Magellanic Cloud. At lower right sits R136, a young, dense star cluster packed with hundreds of young blue stars. Among them is the most massive star yet detected in the Universe.",
+   "Using Hubble, astronomers studied the central, densest part of R136 in detail and found nine stars each weighing more than 100 times the mass of the Sun. The Large Magellanic Cloud is a small companion galaxy of the Milky Way, and the Tarantula Nebula within it is a vast cloud of gas where new stars are forming.",
+   "Stars of such enormous mass are rare and burn through their fuel quickly, so finding a group of them together offers a valuable chance to learn how the most massive stars form and live. Hubble's sharp view is what makes it possible to separate them in such a crowded cluster."
+  ],
+  "explore": [
+   "R136 lies about 170,000 light-years away in the direction of the constellation Dorado. The image was made with Hubble's Wide Field Camera 3 through filters ranging from ultraviolet to near-infrared, including one that isolates glowing hydrogen."
+  ],
+  "understand": {
+   "summary": "This image comes from Hubble's Wide Field Camera 3, using ultraviolet, visible, hydrogen-alpha and near-infrared filters. The colour assigned to each filter isn't published.",
+   "eye": "Part of this light is ultraviolet or near-infrared and invisible to the eye, and Hubble's sharpness separates individual stars in a crowded cluster in another galaxy."
+  },
+  "scaleExtra": null,
+  "alt": "The central Tarantula Nebula, with a dense cluster of blue stars at lower right.",
+  "flags": []
+ },
+ {
+  "id": "h-heic1601a",
+  "caption": "The star cluster Trumpler 14, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "A prominent dark patch sits close to the centre of this Hubble view of the star cluster Trumpler 14. It is a Bok globule: a small, isolated dark nebula containing dense dust and gas, seen against the stars around it.",
+   "Few places in the Milky Way gather as many hot, massive, bright stars as Trumpler 14, and it contains several of the most luminous stars found anywhere in our galaxy. Massive stars are short-lived and pour out intense light, which makes clusters like this natural places to study stellar heavyweights.",
+   "Bok globules remain a subject of active research, because their internal structure and density are still something of a mystery. Dark nebulae like this one are visible only because they block the light of stars or glowing gas behind them, so they appear as shadows rather than shining objects."
+  ],
+  "explore": [
+   "Trumpler 14 lies about 8000 light-years away in the direction of the constellation Carina. The image was taken with Hubble's Advanced Camera for Surveys through blue, visible, red and near-infrared filters."
+  ],
+  "understand": {
+   "summary": "This image comes from Hubble's Advanced Camera for Surveys, using blue, visible, red and near-infrared filters. The colour assigned to each filter isn't published.",
+   "eye": "Near-infrared light is invisible to the eye, and the dark globule is seen only because it blocks light from behind it."
+  },
+  "scaleExtra": null,
+  "alt": "A cluster of bright stars with a prominent dark patch near its centre.",
+  "flags": []
+ },
+ {
+  "id": "h-heic0619a",
+  "caption": "The star cluster Pismis 24 in the nebula NGC 6357, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "The bright stars in this Hubble image belong to Pismis 24, a small open cluster sitting at the heart of NGC 6357, a large emission nebula, in the direction of Scorpius. The nebula spans one degree on the sky. Intense ultraviolet light from the cluster's hottest stars heats the surrounding gas and has blown a bubble in the nebula.",
+   "Pismis 24-1, a bright young star in the cluster's core about 8,000 light-years from Earth, had been one of the leading candidates for the Milky Way's heaviest star. It was thought to weigh an astonishing 200 to 300 times as much as the Sun.",
+   "New Hubble measurements changed that picture. They resolved Pismis 24-1 into two separate stars, which roughly halved its mass estimate to around 100 solar masses. The cluster's youngest, bluest heavyweights ionise part of the nebula, and the surrounding gas clouds make the region harder to study."
+  ],
+  "explore": [
+   "An emission nebula is a cloud of gas that glows because nearby hot stars energise it. This image combines data from two Hubble cameras, the Advanced Camera for Surveys and the Wide Field Planetary Camera 2, including filters that isolate glowing hydrogen."
+  ],
+  "understand": {
+   "summary": "This image combines Hubble's Advanced Camera for Surveys and Wide Field Planetary Camera 2, using visible, hydrogen-alpha and near-infrared filters. The colour assigned to each filter isn't published.",
+   "eye": "Hubble's sharp view split what looked like one star into two, a separation far beyond what the eye could make."
+  },
+  "scaleExtra": null,
+  "alt": "A group of bright stars in the core of a glowing nebula.",
+  "flags": []
+ },
+ {
+  "id": "e-eso1326a",
+  "caption": "The open star cluster NGC 3766, imaged by the MPG/ESO 2.2-metre telescope at La Silla",
+  "captureDate": null,
+  "story": [
+   "These young stars make up NGC 3766, an open star cluster, in the constellation Centaurus, the Centaur. ESO's MPG/ESO 2.2-metre telescope at La Silla Observatory in Chile took the picture.",
+   "An open cluster is a loose family of stars born together from the same cloud of gas, so its members share a similar age and origin. That makes clusters like this a useful place to compare stars that started out under the same conditions.",
+   "NGC 3766 has turned out to hold a surprise. A team from the Geneva Observatory watched its stars very carefully with the Swiss 1.2-metre Leonhard Euler Telescope, also at La Silla, and found that 36 of them belong to a new and previously unknown class of variable star. Variable stars are stars whose brightness changes over time, and each class tells astronomers something different about what goes on inside them."
+  ],
+  "explore": [
+   "NGC 3766 lies about 7000 light-years away. The colour image was built from exposures through B, V and I filters taken with the telescope's Wide Field Imager, spanning visible light into the near-infrared."
+  ],
+  "understand": {
+   "summary": "This image from the Wide Field Imager on the MPG/ESO 2.2-metre telescope combines B, V and I filters, spanning visible light into the near-infrared. The colour assigned to each filter isn't published.",
+   "eye": "The I-band light is near-infrared and invisible to the eye, and the subtle brightness changes of variable stars can only be found with careful measurements over time."
+  },
+  "scaleExtra": null,
+  "alt": "A group of young stars forming the open cluster NGC 3766.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "e-eso1009a",
+  "caption": "The nebula NGC 1788 in Orion, imaged by the MPG/ESO 2.2-metre telescope at La Silla",
+  "captureDate": null,
+  "story": [
+   "A delicate, ghostly cloud glows in this finely detailed ESO image. This is the nebula NGC 1788, which lies about 3000 light-years away in a dark and often overlooked corner of the constellation Orion, somewhat isolated from Orion's bright stars.",
+   "Isolation does not mean independence. The powerful winds and light of those bright stars strongly affect the nebula, sculpting its shape and helping to make it home to a multitude of infant stars. NGC 1788 is catalogued as a reflection nebula: a cloud of dust that shines mainly by scattering the light of nearby stars.",
+   "Nebulae like this show how star birth in one place can be shaped by stars elsewhere. Radiation and winds travel across space, pressing on gas and dust and influencing where and how new stars form, even in a quiet corner of the sky."
+  ],
+  "explore": [
+   "Taken with La Silla's MPG/ESO 2.2-metre telescope and its Wide Field Imager, the picture combines blue, green and red filters with a special filter tuned to the glow of hydrogen gas. The frame spans about 30 arcminutes, with north up and east to the left."
+  ],
+  "understand": {
+   "summary": "This visible-light image from the Wide Field Imager combines blue, green and red filters with one that isolates glowing hydrogen. The colour assigned to each filter isn't published.",
+   "eye": "Long camera exposures gather far more light than the eye can, revealing a faint nebula that would be hard to see directly."
+  },
+  "scaleExtra": null,
+  "alt": "A faint, delicate nebula in a dark region of sky.",
+  "flags": []
+ },
+ {
+  "id": "e-eso1406a",
+  "caption": "The open star cluster Messier 7, imaged by the MPG/ESO 2.2-metre telescope at La Silla",
+  "captureDate": null,
+  "story": [
+   "Messier 7, a bright star cluster also catalogued as NGC 6475, is the subject of this view from the Wide Field Imager at ESO's La Silla Observatory in Chile. It lies about 800 light-years away, in the direction of the tail of Scorpius, the Scorpion.",
+   "Messier 7 is easy to spot with the naked eye and ranks among the most prominent open clusters in the sky. An open cluster is a loose group of stars born together from the same cloud of gas and dust and only weakly held together by gravity; over time such clusters tend to drift apart.",
+   "Because the stars of an open cluster share a common age and distance, differences between them reveal how stars of different masses evolve. That is one reason Messier 7 is an important target for research as well as an easy sight for skywatchers."
+  ],
+  "explore": [
+   "The image combines exposures through B, V and I filters, spanning visible light into the near-infrared. Although the cluster is plain to the naked eye, a camera on a large telescope records far fainter stars in the surrounding field."
+  ],
+  "understand": {
+   "summary": "This image from the Wide Field Imager on the MPG/ESO 2.2-metre telescope combines B, V and I filters, from visible light into the near-infrared. The colour assigned to each filter isn't published.",
+   "eye": "Messier 7 is visible to the naked eye, but the camera's long exposures reveal many fainter stars, and the I-band light is invisible to the eye."
+  },
+  "scaleExtra": null,
+  "alt": "The bright open star cluster Messier 7.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "e-eso0940b",
+  "caption": "The open cluster NGC 4755, known as the Jewel Box, imaged by the MPG/ESO 2.2-metre telescope at La Silla",
+  "captureDate": null,
+  "story": [
+   "The star cluster NGC 4755, widely known as the Jewel Box, sits among rich, multicoloured surroundings in this wide view from ESO's La Silla Observatory. The picture comes from the Wide Field Imager on the MPG/ESO 2.2-metre telescope and spans 20 arcminutes of sky.",
+   "NGC 4755 is an open cluster lying about 6500 light-years away in the direction of Crux. Open clusters are groups of stars born together from the same cloud of gas and dust. Because their members share a common age, they help astronomers compare how stars of different masses develop.",
+   "Stars shine in different colours because their surfaces have different temperatures: hotter stars look bluer, cooler ones redder. A wide field like this one places the cluster in context, showing its rich surroundings as well as the cluster itself."
+  ],
+  "explore": [
+   "The picture is based on images taken through B, V and I filters, covering visible light and the near-infrared. Its wide field shows the cluster together with its surroundings rather than in isolation."
+  ],
+  "understand": {
+   "summary": "This image from the Wide Field Imager combines B, V and I filters, from visible light into the near-infrared. The colour assigned to each filter isn't published.",
+   "eye": "The I-band light is near-infrared and invisible to the eye, and the long exposures bring out far fainter stars than the eye could see."
+  },
+  "scaleExtra": null,
+  "alt": "A star cluster surrounded by a rich, multicoloured field of stars.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "e-eso1323a",
+  "caption": "The globular star cluster NGC 6752, imaged by the MPG/ESO 2.2-metre telescope at La Silla",
+  "captureDate": null,
+  "story": [
+   "This view from the MPG/ESO 2.2-metre telescope's Wide Field Imager at La Silla shows NGC 6752, a globular star cluster in the southern constellation Pavo, the Peacock, about 14,000 light-years away.",
+   "Globular clusters are dense, ball-shaped groups of old stars held together by gravity. Because their stars formed at roughly the same time, they are natural laboratories for testing ideas about how stars age and die.",
+   "NGC 6752 delivered a surprise. Studies of the cluster with ESO's Very Large Telescope unexpectedly showed that many of its stars do not go through a phase of mass loss at the end of their lives. Ageing stars are generally expected to shed material into space as they near the end, so the finding challenges the standard picture of how such stars finish their lives."
+  ],
+  "explore": [
+   "The picture combines exposures through two filters, B and V, both in visible light. It was taken with a wide-field camera at La Silla, while the study of the stars' mass loss relied on ESO's Very Large Telescope."
+  ],
+  "understand": {
+   "summary": "This visible-light image from the Wide Field Imager uses B and V filters. The colour assigned to each filter isn't published.",
+   "eye": "Long camera exposures gather far more light than the eye can, revealing individual stars across the cluster."
+  },
+  "scaleExtra": null,
+  "alt": "The globular star cluster NGC 6752, a dense ball of stars.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "h-heic0809a",
+  "caption": "The globular cluster Omega Centauri, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "This Hubble image looks into Omega Centauri, which is both the biggest and the brightest of the sky's globular clusters. A globular cluster is a dense, roughly spherical swarm of old stars held together by gravity, and Omega Centauri has long posed puzzles for astronomers.",
+   "A discovery has now resolved part of that mystery. Images from Hubble's Advanced Camera for Surveys, together with measurements from the GMOS spectrograph at Chile's Gemini South telescope, suggest that the cluster seems to hide a hard-to-find intermediate-mass black hole in its core.",
+   "Intermediate-mass black holes are thought to bridge the gap between the black holes left by single stars and the supermassive ones found at the hearts of large galaxies. They have proved hard to find, which is why a candidate in a cluster within our own galaxy attracts attention. Like any black hole, it cannot be seen directly; its presence has to be inferred from its effect on its surroundings."
+  ],
+  "explore": [
+   "Omega Centauri lies about 17,000 light-years away in the direction of the constellation Centaurus, and it is also catalogued as NGC 5139. The black hole result drew on two very different instruments: a camera in space and a spectrograph on the ground."
+  ],
+  "understand": {
+   "summary": "This image comes from Hubble's Advanced Camera for Surveys, using blue and red filters. The colour mapping isn't published.",
+   "eye": "Hubble's sharp view separates individual stars in the crowded cluster, while the black hole itself is invisible and can only be detected through its influence."
+  },
+  "scaleExtra": null,
+  "alt": "The crowded stars of the globular cluster Omega Centauri.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "e-eso1439a",
+  "caption": "The open star cluster NGC 3532, imaged by the MPG/ESO 2.2-metre telescope at La Silla",
+  "captureDate": null,
+  "story": [
+   "Stars of contrasting colours fill this vivid view of NGC 3532, a bright star cluster. Some still shine with a hot bluish light, while many of the heavier ones have already swollen into red giants and glow a rich orange.",
+   "The difference tells a story about age. A star's colour reflects its surface temperature, and the most massive stars run through their fuel fastest. In a cluster whose stars were born together, the heaviest ones are therefore the first to swell into cool red giants, while less massive stars carry on shining much as before.",
+   "NGC 3532 is an open cluster, a loose group of stars born together from the same cloud, lying about 1300 light-years away in the direction of Carina. The picture was captured with La Silla's MPG/ESO 2.2-metre telescope in Chile."
+  ],
+  "explore": [
+   "The image combines exposures through B, V and I filters, reaching from visible light into the near-infrared, plus a hydrogen-alpha filter that isolates the red glow of hydrogen gas in the field."
+  ],
+  "understand": {
+   "summary": "This image from the Wide Field Imager combines B, V, I and hydrogen-alpha filters, spanning visible light and the near-infrared. The colour assigned to each filter isn't published.",
+   "eye": "Part of the light is near-infrared and invisible to the eye, and the long exposures show far more stars than the eye could see."
+  },
+  "scaleExtra": null,
+  "alt": "A bright star cluster of bluish and orange stars.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "e-eso1243a",
+  "caption": "The globular cluster NGC 6362, imaged by the MPG/ESO 2.2-metre telescope at La Silla",
+  "captureDate": null,
+  "story": [
+   "This colourful view shows NGC 6362, a brilliant ball of ancient stars in the southern constellation Ara, the Altar. It was recorded at ESO's La Silla Observatory in Chile by the Wide Field Imager on the MPG/ESO 2.2-metre telescope.",
+   "NGC 6362 is a globular cluster lying about 25,000 light-years away. Globular clusters are dense, roughly spherical collections of stars bound tightly by gravity, and their stars are typically very old, formed early in the history of their galaxy.",
+   "Because nearly all their stars formed at about the same time, globular clusters act as fossils, preserving a record of conditions long ago. Differences in colour among their stars largely reflect differences in temperature and in how far each star has progressed through its life."
+  ],
+  "explore": [
+   "The picture combines exposures through B, V and I filters, spanning visible light into the near-infrared. A wide-field camera like this one can capture the whole cluster and its surroundings in a single view."
+  ],
+  "understand": {
+   "summary": "This image from the Wide Field Imager combines B, V and I filters, from visible light into the near-infrared. The colour assigned to each filter isn't published.",
+   "eye": "The I-band light is near-infrared and invisible to the eye, and the long exposures separate stars the eye could never pick out."
+  },
+  "scaleExtra": null,
+  "alt": "A colourful, brilliant ball of ancient stars.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "e-eso1316a",
+  "caption": "The open star cluster NGC 2547, imaged by the MPG/ESO 2.2-metre telescope at La Silla",
+  "captureDate": null,
+  "story": [
+   "Bright stars of the open cluster NGC 2547 are scattered across this image from ESO's La Silla Observatory. Look between them, far in the background, and many remote galaxies appear, some clearly spiral in shape.",
+   "NGC 2547 lies about 1500 light-years away in the direction of Vela, well inside our own galaxy. The galaxies behind it are separate systems far beyond the Milky Way, so this single frame spans an enormous range of distances, from nearby stars to faraway galaxies.",
+   "An open cluster is a loose group of young stars born together from the same cloud of gas and dust. Their shared age and distance make such clusters useful for studying how stars develop. The image was taken with the MPG/ESO 2.2-metre telescope's Wide Field Imager."
+  ],
+  "explore": [
+   "The picture combines exposures through B, V and R filters, all in visible light. Long exposures of a nearby cluster also reveal much fainter objects far beyond it, such as the background galaxies seen here."
+  ],
+  "understand": {
+   "summary": "This visible-light image from the Wide Field Imager combines B, V and R filters. The colour assigned to each filter isn't published.",
+   "eye": "Long camera exposures gather far more light than the eye can, bringing out remote galaxies far too faint to see directly."
+  },
+  "scaleExtra": null,
+  "alt": "Bright stars of an open cluster, with many faint, distant galaxies in the background, some of them spiral-shaped.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "e-eso1711a",
+  "caption": "Debris from an explosive star birth in the Orion Molecular Cloud, imaged by ALMA, Gemini South and ESO's Very Large Telescope",
+  "captureDate": null,
+  "story": [
+   "This composite view of the Orion Nebula complex captures firework-like debris, with the well-known Trapezium Cluster of hot, young stars near the bottom. The debris is what remains of an explosion some 500 years ago, set off as a group of massive stars was being born.",
+   "Stellar explosions usually bring to mind supernovae, the violent deaths of stars. These new ALMA observations show that the other end of a star's life cycle, its birth, can also be violent and explosive.",
+   "The colours in the ALMA data come from carbon monoxide gas and encode motion through the Doppler shift. Blue marks gas rushing toward us at the highest speeds, while red marks gas approaching more slowly. The Doppler effect changes the wavelength of light from a moving source, so it reveals how fast gas is moving along our line of sight."
+  ],
+  "explore": [
+   "The background combines optical and near-infrared images from the Gemini South telescope and ESO's Very Large Telescope, and the ALMA data do not cover the whole frame. The Orion Molecular Cloud lies about 1400 light-years away."
+  ],
+  "understand": {
+   "summary": "ALMA's millimetre observations of carbon monoxide are colour-coded by speed: blue for gas approaching fastest, red for gas approaching more slowly. The background is optical and near-infrared imaging from Gemini South and the VLT.",
+   "eye": "The millimetre-wavelength and near-infrared light are invisible to the eye, and the blue and red here encode speeds, not colours anyone would see."
+  },
+  "scaleExtra": null,
+  "alt": "A composite view of part of the Orion Nebula complex with blue and red firework-like debris and a cluster of stars towards the bottom.",
+  "flags": []
+ },
+ {
+  "id": "h-heic1510a",
+  "caption": "The globular cluster 47 Tucanae, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "This Hubble image shows the globular cluster 47 Tucanae, also called NGC 104, which belongs to the constellation Tucana, the Toucan, in the southern sky. It hosts tens of thousands of stars and, it is second only to Omega Centauri in brightness among the night sky's globular clusters.",
+   "Scientists used Hubble to study the cluster's white dwarfs, the faint remnants of dying stars. These stars move out from the crowded centre of the cluster toward its outskirts. Astronomers already knew the process should happen, but it had never been seen in action until this detailed study of 47 Tucanae.",
+   "In crowded clusters, gravitational encounters between stars tend to sort them by mass over time, with heavier stars settling inward and lighter ones spreading outward. Watching white dwarfs travel outward offers a direct look at how a cluster rearranges its stars."
+  ],
+  "explore": [
+   "47 Tucanae lies about 15,000 light-years away. The image combines ultraviolet data from Hubble's Wide Field Camera 3 with visible and near-infrared data from its Advanced Camera for Surveys."
+  ],
+  "understand": {
+   "summary": "This image combines ultraviolet light from Hubble's Wide Field Camera 3 with visible and near-infrared light from its Advanced Camera for Surveys. The colour assigned to each filter isn't published.",
+   "eye": "The ultraviolet and near-infrared data lie beyond what the eye can see, and Hubble's sharp view separates the individual stars of this crowded cluster."
+  },
+  "scaleExtra": null,
+  "alt": "A dense globular cluster packed with stars.",
+  "flags": []
+ },
+ {
+  "id": "e-eso0416a",
+  "caption": "The star-forming region Messier 17, imaged by ESO's Very Large Telescope",
+  "captureDate": null,
+  "story": [
+   "This near-infrared view from ESO's Very Large Telescope looks into the sky region of Messier 17, a glowing cloud of gas energised by a cluster of young, hot stars. Astronomers call such a place an H II region: a cloud in which hydrogen has been ionised by the intense ultraviolet light of hot young stars.",
+   "The notable find here lies to the south-west of the cluster's centre: a large disc seen in silhouette. Discs of gas and dust are thought to form around young stars, and seeing one in silhouette lets astronomers trace its outline against the brighter background.",
+   "Near-infrared light passes through dust more easily than visible light, which helps in dusty star-forming regions like this one. The image was made with the ISAAC instrument on ANTU, one of the 8.2-metre telescopes of the VLT at Paranal."
+  ],
+  "explore": [
+   "Messier 17 lies about 5500 light-years away in the direction of the constellation Sagittarius. This is a three-colour composite built from J, H and K filters, and it covers a field about six arcminutes across."
+  ],
+  "understand": {
+   "summary": "This is a three-colour near-infrared composite from ISAAC on the VLT, using J, H and K filters. The colour assigned to each filter isn't published.",
+   "eye": "Near-infrared light is invisible to the eye, and it reveals structure in dusty regions that visible light cannot penetrate as well."
+  },
+  "scaleExtra": null,
+  "alt": "A near-infrared view of the Messier 17 region, with a silhouetted disc south-west of the cluster centre.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "h-heic1210a",
+  "caption": "The Herbig-Haro object HH 110, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "This Hubble image shows Herbig-Haro 110, a geyser of hot gas streaming away from a newborn star. Herbig-Haro objects are glowing patches that form where jets of material shot out by young stars slam into the surrounding gas and dust.",
+   "HH 110 is unusual. Most Herbig-Haro objects come in pairs, marking jets that shoot out in opposite directions, but this one appears on its own. Astronomers suspect it could be the extension of a second object, HH 270, whose flow has been deflected after striking a dense cloud of gas.",
+   "If that idea is right, HH 110 shows how the outflows of young stars can interact with their surroundings, changing course when they meet denser material. Hubble's view combines visible and infrared light, including a filter that picks out glowing hydrogen."
+  ],
+  "explore": [
+   "HH 110 lies about 1500 light-years away in the direction of the constellation Orion. The picture combines data from two Hubble cameras: the Advanced Camera for Surveys and the Wide Field Camera 3."
+  ],
+  "understand": {
+   "summary": "This image combines a hydrogen-alpha filter from Hubble's Advanced Camera for Surveys with visible and near-infrared filters from Wide Field Camera 3. The colour assigned to each filter isn't published.",
+   "eye": "The near-infrared data are invisible to the eye, and the hydrogen-alpha filter isolates the glow of hot gas in the jet."
+  },
+  "scaleExtra": null,
+  "alt": "A jet of glowing gas flowing from a newborn star.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "e-eso0803b",
+  "caption": "The region around the young star MWC 147 in Monoceros, imaged from ESO's Paranal Observatory with a 200 mm lens",
+  "captureDate": null,
+  "story": [
+   "The rich, colourful region around the Cone Nebula sits at centre left of this wide-field image, with the Rosette Nebula at top right. Both lie in the constellation Monoceros, very close to the better-known Orion. The view takes in the star-forming complex NGC 2247 and the young star MWC 147.",
+   "MWC 147 sits near a dark nebula in the upper left part of the frame. It is classed as a Herbig Ae/Be object, a young star still in its formative stages, and it belongs to Monoceros OB1, an association of massive stars. A dark nebula is a dense cloud of dust that blocks light from behind it.",
+   "This picture was not taken with a large observatory telescope. Stéphane Guisard of ESO photographed it from Paranal with a 200 mm lens, combining exposures through R, V, B and hydrogen-alpha filters for a total of more than 16 hours. That long total exposure is what brings out the faint glow of the nebulae."
+  ],
+  "explore": [
+   "MWC 147 lies about 2500 light-years away. Grouping massive stars into associations such as Monoceros OB1 helps astronomers trace which stars formed together from the same clouds of gas and dust."
+  ],
+  "understand": {
+   "summary": "This is a visible-light colour composite made with a 200 mm camera lens, using R, V, B and hydrogen-alpha filters. The colour assigned to each filter isn't published.",
+   "eye": "More than 16 hours of total exposure gather far more light than the eye can, revealing nebulae far too faint to see like this unaided."
+  },
+  "scaleExtra": null,
+  "alt": "A wide field of sky with a colourful nebula region at centre left, another nebula at top right and a dark nebula at top left.",
+  "flags": []
+ },
+ {
+  "id": "h-potw1215a",
+  "caption": "The globular cluster Messier 70, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "The compact, brilliant centre of the globular cluster Messier 70 fills this Hubble image, the cluster growing steadily brighter toward its middle. Globular clusters are tight quarters: gravity binds hundreds of thousands of stars into a small region of space.",
+   "Messier 70 is special because it has undergone core collapse. As stars in a cluster interact over time, lighter ones tend to speed up and wander toward the edges, while heavier ones slow down and gather in orbits near the centre. That huddling creates the dense, bright cores typical of core-collapsed clusters. Of the Milky Way's more than 150 globulars, roughly one in five has been through it.",
+   "While many globular clusters live in the galaxy's outskirts, this one circles near the heart of the Milky Way, around 30 000 light-years from the Solar System. That it has stayed intact despite the strong gravitational pull of the galactic hub."
+  ],
+  "explore": [
+   "Just about 68 light-years wide, Messier 70 can be glimpsed, very faintly, with binoculars under dark skies in Sagittarius. Charles Messier logged it in 1780, making it number seventy in his famous list. The picture comes from the Advanced Camera for Surveys and covers about 3.3 by 3.3 arcminutes."
+  ],
+  "understand": {
+   "summary": "This image combines visible and near-infrared exposures from Hubble's Advanced Camera for Surveys. The colour assigned to each filter isn't published.",
+   "eye": "Through binoculars Messier 70 is only very faintly visible; Hubble resolves the individual stars of its crowded core."
+  },
+  "scaleExtra": null,
+  "alt": "The bright, compact centre of a globular cluster, growing brighter toward the middle.",
+  "flags": []
+ },
+ {
+  "id": "h-potw1234a",
+  "caption": "The globular cluster Messier 56, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Hubble has resolved Messier 56 (NGC 6779), a globular cluster, into a multitude of individual stars, tightly bound together by gravity. It lies about 33 000 light-years from Earth in the constellation Lyra, the Lyre.",
+   "Charles Messier did not know it was made of stars when he first observed it. His telescope could not separate them, so it looked like a fuzzy ball, and he described it as 'a nebula without stars'. Studying such a cluster is tricky, because it lies near the plane of our galaxy, where unrelated field stars in the same direction can contaminate its light.",
+   "By comparing Hubble's observations with the standard theory of stellar evolution, astronomers estimate that the cluster is about 13 billion years old. Its stars hold comparatively little of any element beyond hydrogen and helium, which points to a birth early in the Universe's history. Most clusters with a similar chemistry are lined up along a plane in the Milky Way's halo, which suggests they were taken from a satellite galaxy instead of being the galaxy's own oldest clusters."
+  ],
+  "explore": [
+   "Astronomers study clusters like this with the colour-magnitude, or Hertzsprung-Russell, diagram, which compares stars' brightness and colour and so reveals their surface temperatures. Gilles Chapdelaine entered a version of this image in Hubble's Hidden Treasures image processing competition."
+  ],
+  "understand": {
+   "summary": "This image combines visible and near-infrared exposures from Hubble's Advanced Camera for Surveys. The colour assigned to each filter isn't published.",
+   "eye": "Through Messier's telescope this cluster looked like a fuzzy ball; Hubble separates it into individual stars, partly using near-infrared light the eye cannot see."
+  },
+  "scaleExtra": null,
+  "alt": "A globular cluster resolved into many individual stars.",
+  "flags": []
+ },
+ {
+  "id": "e-eso1430a",
+  "caption": "The Wild Duck Cluster, Messier 11, imaged by the MPG/ESO 2.2-metre telescope at La Silla",
+  "captureDate": null,
+  "story": [
+   "Blue stars gather at the centre of this image, surrounded by a scattering of redder ones. The blue stars are the young, hot members of the Wild Duck Cluster, an open cluster also catalogued as Messier 11. The redder stars around them are older, cooler stars lying in the background.",
+   "A star's colour is a guide to its temperature: hotter stars shine bluer, cooler ones redder. So the colour contrast here helps separate the cluster from the unrelated stars behind it, which simply happen to lie in the same direction.",
+   "Open clusters are groups of stars born together from the same cloud of gas and dust, so their members share an age. The Wild Duck Cluster lies about 6000 light-years away in the direction of the constellation Scutum. The picture was taken with the MPG/ESO 2.2-metre telescope's Wide Field Imager at La Silla in Chile."
+  ],
+  "explore": [
+   "The picture combines exposures through B, V and I filters, reaching from visible light into the near-infrared. Together the filters bring out both the hot blue cluster members and the cooler, redder stars that lie far behind them."
+  ],
+  "understand": {
+   "summary": "This image from the Wide Field Imager combines B, V and I filters, from visible light into the near-infrared. The colour assigned to each filter isn't published.",
+   "eye": "The blue and red star colours reflect real differences in temperature, but the I-band data are near-infrared and invisible to the eye."
+  },
+  "scaleExtra": null,
+  "alt": "A cluster of blue stars at the centre, surrounded by redder background stars.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "h-potw1140a",
+  "caption": "The globular cluster Messier 53, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Thousands upon thousands of brilliant stars make up Messier 53, the globular cluster in this Hubble image. Bound tightly by gravity, it is roughly spherical and grows denser toward its heart.",
+   "Such clusters are far from rare; more than 150 exist in the Milky Way. Messier 53 lies on the outer edges of our galaxy, roughly as far from the galactic centre as it is from the Sun. William Herschel, not known for poetic flourishes, once counted a globular cluster among the most beautiful sights he could recall in the heavens.",
+   "Messier 53 holds a surprise: an unusual number of blue stragglers. Because all of a globular cluster's stars are expected to form at about the same time, they should follow a trend set by the cluster's age and their masses. Blue stragglers break that rule, looking brighter and younger than they should. Their exact nature is still a mystery, but they most likely arise when stars in the packed centre pass very close to each other or even collide."
+  ],
+  "explore": [
+   "Messier 53, also catalogued as NGC 5024, lies about 60,000 light-years away in Coma Berenices. Since globulars are far older and bigger than open clusters, astronomers expect them to contain fewer massive blue stars and more old red ones. The picture combines visible and infrared exposures from the Advanced Camera for Surveys' Wide Field Channel and spans about 3.4 arcminutes."
+  ],
+  "understand": {
+   "summary": "This image combines visible and infrared exposures from the Wide Field Channel of Hubble's Advanced Camera for Surveys. The colour assigned to each filter isn't published.",
+   "eye": "The infrared exposure records light the eye cannot see, and Hubble's sharp view separates thousands of individual stars."
+  },
+  "scaleExtra": null,
+  "alt": "A roughly spherical cluster of thousands of brilliant stars, growing denser toward its centre.",
+  "flags": []
+ },
+ {
+  "id": "h-potw1023a",
+  "caption": "The globular cluster NGC 6934, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "A bright spray of stars fills this Hubble image of NGC 6934, a globular cluster in the small constellation Delphinus, the Dolphin. Globular clusters are big balls of ancient stars, usually a few hundred thousand of them, found on the outskirts of galaxies.",
+   "Lying 50 000 light-years away in the Milky Way's outer reaches, NGC 6934 holds some of the most distant stars still belonging to our galaxy: a far-flung suburb of the galactic city. William Herschel first saw it in the late eighteenth century, but he could not resolve it into stars and classed it as a 'bright nebula'.",
+   "The cluster is invisible to the naked eye and very hard to see even with binoculars, yet amateur astronomers like it because fairly inexpensive telescopes show it easily. Its faintness comes from its distance, not a lack of stars: it holds many thousands. Patrick Moore included it in his Caldwell catalogue of objects for amateurs to seek out."
+  ],
+  "explore": [
+   "For more than 50 years Moore presented The Sky at Night on BBC TV. This picture was built from two filters, one near-infrared and one orange, with exposures of 29 minutes each, and it covers a field 3.3 arcminutes across."
+  ],
+  "understand": {
+   "summary": "This image comes from the Wide Field Channel of Hubble's Advanced Camera for Surveys: the near-infrared filter (F814W) is shown in red and the orange filter (F606W) in blue.",
+   "eye": "The near-infrared light is invisible to the eye, and the cluster itself is too faint to see without a telescope."
+  },
+  "scaleExtra": null,
+  "alt": "A bright spray of stars forming the globular cluster NGC 6934.",
+  "flags": []
+ },
+ {
+  "id": "h-potw1101a",
+  "caption": "The young star cluster NGC 6611 in the Eagle Nebula, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Dazzling stars scattered across a section of the Eagle Nebula make up NGC 6611 in this Hubble image, with dark patches punctuating the stellar landscape. NGC 6611 is an open star cluster about 6500 light-years from Earth, whose stars formed about 5.5 million years ago.",
+   "It is a very young cluster, full of hot blue stars whose fierce ultraviolet light makes the surrounding nebula glow. Astronomers call places like this HII regions, after the ionised hydrogen that makes up most of them. In the far future the region will disperse, helped along by shock waves from supernovae as its more massive young stars end their short lives.",
+   "The dark patches are not empty. They are very dense clouds of gas and dust that block light, and many may hide the early stages of star formation, before young stars clear their surroundings and emerge into view."
+  ],
+  "explore": [
+   "The picture used an unusual pairing of two near-infrared filters, each exposed for 2000 seconds, and a ground-based image through more standard filters added a subtle touch of colour. The frame spans about 3.2 arcminutes. From a dark site, huge dark nebulae can be seen against the Milky Way with the naked eye."
+  ],
+  "understand": {
+   "summary": "This image comes from the Wide Field Channel of Hubble's Advanced Camera for Surveys, using two near-infrared filters: F775W shown in blue and F850LP in red, with subtle extra colour from a ground-based image.",
+   "eye": "Both Hubble filters record light at or beyond the red limit of human vision, so the colours here are a translation rather than what the eye would see."
+  },
+  "scaleExtra": null,
+  "alt": "Bright stars of a young cluster scattered across part of a nebula, with dark patches of dust among them.",
+  "flags": []
+ },
+ {
+  "id": "h-heic1905c",
+  "caption": "The globular cluster NGC 4147, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "This Hubble image shows NGC 4147, a globular cluster lying about 60 000 light-years away in Coma Berenices, a northern constellation whose name means Berenice's Hair. A globular cluster is a dense, roughly spherical ball of old stars held together by gravity.",
+   "NGC 4147 played a part in a larger project. It was one of many globular clusters that astronomers used to work out how much mass the Milky Way holds in total. In general, the way objects orbit a galaxy depends on how much mass pulls on them, so tracking distant clusters offers a way to weigh the whole system.",
+   "Much of a galaxy's mass is thought to lie in forms that do not shine, so measurements like this rely on indirect tracers. Far-off clusters such as NGC 4147 are useful because they sample the galaxy's gravity well away from its bright centre."
+  ],
+  "explore": [
+   "The picture was made with Hubble's Advanced Camera for Surveys through visible and near-infrared filters. Hubble's sharp view separates the cluster's crowded stars individually, which is what makes such a distant object useful for precise measurements."
+  ],
+  "understand": {
+   "summary": "This image combines visible and near-infrared exposures from Hubble's Advanced Camera for Surveys. The colour assigned to each filter isn't published.",
+   "eye": "The near-infrared light is invisible to the eye, and a cluster this distant needs a powerful telescope to be seen as individual stars."
+  },
+  "scaleExtra": null,
+  "alt": "A globular cluster of densely packed stars.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "h-potw1231a",
+  "caption": "The globular cluster Messier 68, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Stars crowd together in this Hubble view of Messier 68, a globular cluster: a spherical, star-filled region of space. In such clusters, the shared gravitational pull of hundreds of thousands, sometimes millions, of stars lets them survive as a group for many billions of years.",
+   "Astronomers can read a cluster's age in the light of its stars. Chemical elements leave signatures in starlight, and globular cluster stars usually contain less carbon, oxygen, iron and other heavy elements than stars like the Sun. Because successive generations of stars build up these elements through nuclear fusion, stars poor in them are relics of earlier times. Globular cluster stars rank among the oldest known, at more than 10 billion years.",
+   "More than 150 globular clusters surround the Milky Way, and on a galactic scale they are small. Messier 68's stars fill a volume little more than a hundred light-years across, while the Milky Way's disc stretches some 100 000 light-years or more."
+  ],
+  "explore": [
+   "About 33 000 light-years from Earth, Messier 68 sits in the constellation Hydra, the Female Water Snake, and was the sixty-eighth entry in Charles Messier's catalogue. The image combines visible and infrared light from the Advanced Camera for Surveys and covers about 3.4 by 3.4 arcminutes."
+  ],
+  "understand": {
+   "summary": "This image combines visible and infrared exposures from the Wide Field Camera of Hubble's Advanced Camera for Surveys. The colour assigned to each filter isn't published.",
+   "eye": "The infrared exposure records light the eye cannot see, and Hubble's sharp view separates the cluster's crowded stars."
+  },
+  "scaleExtra": null,
+  "alt": "A crowded, spherical cluster of stars.",
+  "flags": []
+ },
+ {
+  "id": "h-heic1617a",
+  "caption": "The stellar cluster Terzan 5, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "This Hubble view peers through the thick dust clouds of our galaxy's central bulge to reveal Terzan 5, a stellar cluster with an unusual mix of stars. An international team of astronomers studied that mix and reached a striking conclusion about the cluster's origins.",
+   "Their results indicate that Terzan 5 is not an ordinary cluster but one of the original building blocks of the bulge, probably left over from the Milky Way's earliest days. The bulge is the dense, crowded region of stars around the centre of our galaxy, and working out how it was assembled is a key part of understanding the Milky Way's history.",
+   "The observations drew on several telescopes: Hubble's Wide Field Camera 3, the Multi-conjugate Adaptive Optics Demonstrator (MAD) on ESO's Very Large Telescope, and the second-generation Near Infrared Camera at the Keck Telescope. Infrared light helps here, because it passes through dust that blocks much of the visible light from this region."
+  ],
+  "explore": [
+   "Terzan 5 lies about 20,000 light-years away in the direction of the constellation Sagittarius. This image combines visible and near-infrared filters from Hubble's Advanced Camera for Surveys and Wide Field Camera 3."
+  ],
+  "understand": {
+   "summary": "This image combines visible and near-infrared exposures from Hubble's Advanced Camera for Surveys with near-infrared data from Wide Field Camera 3. The colour assigned to each filter isn't published.",
+   "eye": "The near-infrared light is invisible to the eye and passes through dust that dims this cluster in visible light."
+  },
+  "scaleExtra": null,
+  "alt": "A dense stellar cluster seen through the dusty central region of the Milky Way.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "e-eso1810b",
+  "caption": "The supernova remnant 1E 0102.2-7219 in the Small Magellanic Cloud, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Blue wisps of gas near the centre of this Hubble image form the supernova remnant 1E 0102.2-7219, while part of N 76 (also called Henize 1956), a massive star-forming region, glows green and pink at lower right. The scene lies in the Small Magellanic Cloud, one of our nearest neighbouring galaxies.",
+   "A supernova remnant is the expanding cloud of debris left behind when a massive star explodes. This picture sets the scene for a search for an elusive missing object hidden in a complex tangle of gaseous filaments: a neutron star, the ultra-dense collapsed core that such an explosion can leave behind.",
+   "Finding such a remnant core is difficult, because a neutron star is tiny and faint compared with the glowing gas around it. Hubble's wide range of filters, from ultraviolet to near-infrared, helps separate the different gases in the scene."
+  ],
+  "explore": [
+   "The Small Magellanic Cloud lies in the direction of the constellation Tucana. This image draws on two Hubble cameras, the Advanced Camera for Surveys and Wide Field Camera 3, and on many filters that isolate light from specific elements such as oxygen, hydrogen, nitrogen and sulphur."
+  ],
+  "understand": {
+   "summary": "This image combines many filters from Hubble's Advanced Camera for Surveys and Wide Field Camera 3, from ultraviolet to near-infrared, including ones that isolate glowing oxygen, hydrogen and sulphur. The remnant's gas appears blue, but the full colour mapping isn't published.",
+   "eye": "Several of these filters capture ultraviolet or near-infrared light the eye cannot see, and narrow filters isolate the glow of particular gases."
+  },
+  "scaleExtra": null,
+  "alt": "Blue wisps of gas near the centre and a green and pink star-forming region at lower right.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "h-potw1914a",
+  "caption": "The globular cluster Messier 3, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "This Hubble image shows Messier 3, a globular cluster containing an incredible half a million stars. About eight billion years old, it ranks among the biggest and brightest globulars yet found.",
+   "Its real distinction is a remarkable number of variable stars, which change in brightness over time: 274 so far, far more than any other globular cluster, with more still turning up. At least 170 are RR Lyrae variables, whose pulsation period is linked to their true brightness. Comparing true and apparent brightness gives their distance, so they serve as standard candles.",
+   "The cluster also holds a relatively high number of blue stragglers, which show up clearly in this image. They appear youthful, outshining their neighbours and looking bluer, yet all of a globular cluster's stars are thought to have formed together. One explanation is that an old star gains mass, for example by stripping it from a nearby star, which turns it bluer and makes it seem younger than it is."
+  ],
+  "explore": [
+   "Messier 3 lies about 34,000 light-years away in the direction of the constellation Canes Venatici. The image was made with Hubble's Wide Field Camera 3 through ultraviolet, visible and near-infrared filters."
+  ],
+  "understand": {
+   "summary": "This image comes from Hubble's Wide Field Camera 3, using ultraviolet, visible and near-infrared filters. The colour assigned to each filter isn't published.",
+   "eye": "The ultraviolet and near-infrared light are invisible to the eye, and the brightness changes of variable stars only reveal themselves through repeated measurements."
+  },
+  "scaleExtra": null,
+  "alt": "A dense globular cluster of stars, including a number of conspicuous blue stars.",
+  "flags": []
+ },
+ {
+  "id": "e-eso1816a",
+  "caption": "The Tarantula Nebula and its surroundings in the Large Magellanic Cloud, imaged by the VLT Survey Telescope",
+  "captureDate": null,
+  "story": [
+   "Star clusters, glowing clouds of gas and the scattered remains of supernova explosions spread across this detailed view from the VLT Survey Telescope at ESO's Paranal Observatory in Chile. The main attraction is the Tarantula Nebula, glowing brightly in the Large Magellanic Cloud, a satellite galaxy of the Milky Way.",
+   "About 160 000 light-years away, the Tarantula is the Large Magellanic Cloud's most spectacular feature. This picture shows not only the nebula itself but also its rich surroundings in great detail.",
+   "A nebula like this is a vast cloud of gas and dust where new stars form, and hot young stars make the gas glow. Supernova remnants are the expanding debris of massive stars that have exploded, so the scene mixes stellar birth and stellar death in a single frame."
+  ],
+  "explore": [
+   "The image was built with OmegaCAM, the survey telescope's camera, from exposures through several filters, including one that isolates the red glow of hydrogen. The field lies in the direction of the constellation Dorado."
+  ],
+  "understand": {
+   "summary": "This image from OmegaCAM on the VLT Survey Telescope combines g, r, i and hydrogen-alpha filters, covering visible light and the edge of the near-infrared. The colour assigned to each filter isn't published.",
+   "eye": "Long exposures reveal glowing gas in another galaxy in far more detail than the eye could ever see."
+  },
+  "scaleExtra": "The Tarantula Nebula lies about 160 000 light-years away, according to ESO.",
+  "alt": "A wide landscape of star clusters, glowing gas clouds and supernova remains around the Tarantula Nebula.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "h-heic0405a",
+  "caption": "The light echo around the star V838 Monocerotis, imaged by the Hubble Space Telescope",
+  "captureDate": "8 February 2004",
+  "story": [
+   "Swirling spirals of dust sweep across this Hubble image, lit by a red supergiant star at its middle. The star is V838 Monocerotis, and the glowing pattern is an expanding halo of light spreading into the interstellar dust around it. The resemblance to Vincent van Gogh's 'Starry Night', with its bold whorls of light, is striking.",
+   "The illumination comes from a flashbulb-like pulse of light that the star gave off two years before this picture was taken. As that light travels outward, it lights up successive parts of the surrounding dust, revealing spirals never seen before across trillions of kilometres of space. This effect is known as a light echo.",
+   "Van Gogh's sky came only from his imagination, but here nature produced something similar. V838 Mon lies about 20,000 light-years from Earth in the direction of Monoceros, which puts it on the outer edge of our galaxy."
+  ],
+  "explore": [
+   "Hubble's Advanced Camera for Surveys took this image on February 8, 2004, and at the time it was the telescope's latest look at the star's expanding halo. Repeated views like this let astronomers follow the light as it moves outward through the dust."
+  ],
+  "understand": {
+   "summary": "This image comes from Hubble's Advanced Camera for Surveys, using blue, visible and near-infrared filters. The colour assigned to each filter isn't published.",
+   "eye": "The dust is visible only because it reflects the star's earlier outburst, and the faint halo would be far too dim to see without a large telescope."
+  },
+  "scaleExtra": null,
+  "alt": "Swirling spirals of illuminated dust around a red star at the centre.",
+  "flags": []
+ },
+ {
+  "id": "h-potw1113a",
+  "caption": "The globular cluster Messier 12, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Stars crowd into this Hubble image of Messier 12, a globular cluster whose high concentration of stars makes it a fine photographic subject. Its distance is about 23 000 light-years, in the direction of Ophiuchus, the Serpent Bearer. The calm appearance is deceptive: this cluster seems to have had a violent past.",
+   "Crowded quarters in globular clusters can create exotic binary systems, in which two stars are locked in tight orbits and one devours matter from the other, giving off X-rays. Such X-ray binaries are thought to form in very close stellar encounters, and even though Messier 12 is fairly spread out for a globular cluster, X-ray sources have been found in it.",
+   "Messier 12 also has far fewer low-mass stars than expected. Using ESO's Very Large Telescope, astronomers gauged how bright and what colour more than 16 000 of its 200 000 stars are. Their speculation is that close to one million low-mass stars were pulled away as the cluster passed through the densest parts of the Milky Way on its orbit around the galactic centre."
+  ],
+  "explore": [
+   "The image was taken with the Advanced Camera for Surveys' Wide Field Channel. Exposure times were 1360 seconds through the blue filter, 200 seconds through the red filter and 364 seconds in the near-infrared, and the frame spans about 3.2 by 3.1 arcminutes."
+  ],
+  "understand": {
+   "summary": "This image comes from the Wide Field Channel of Hubble's Advanced Camera for Surveys: a blue filter (F435W) is shown in blue, a red filter (F625W) in green and a near-infrared filter (F814W) in red.",
+   "eye": "The near-infrared exposure records light the eye cannot see, and the red filter is displayed as green, so the colours are not exactly those the eye would perceive."
+  },
+  "scaleExtra": null,
+  "alt": "A crowded globular cluster of stars.",
+  "flags": []
+ },
+ {
+  "id": "e-eso1823a",
+  "caption": "The young star cluster RCW 38, imaged by ESO's Very Large Telescope",
+  "captureDate": null,
+  "story": [
+   "Dark tendrils of dust thread through the bright core of the young star cluster RCW 38 in this view from ESO's Very Large Telescope, and clouds of brightly glowing gas surround the cluster. The picture shows the region in exquisite detail.",
+   "The image was taken while testing the HAWK-I camera together with the GRAAL adaptive optics system. Adaptive optics measures how Earth's turbulent atmosphere blurs incoming light and corrects for it in real time, so a ground-based telescope can produce much sharper images than it otherwise could.",
+   "HAWK-I works in near-infrared light, which passes through dust more easily than visible light. That is an advantage in a young cluster like RCW 38, where dust threads through the region, as the dark tendrils show."
+  ],
+  "explore": [
+   "RCW 38 lies in the direction of the constellation Vela. The image combines three near-infrared filters, J, H and Ks, and covers a field about eight arcminutes across. Test observations like this check that new instruments work as designed before regular science begins."
+  ],
+  "understand": {
+   "summary": "This is a near-infrared image from the HAWK-I camera on the VLT, working with the GRAAL adaptive optics system and using J, H and Ks filters. The colour assigned to each filter isn't published.",
+   "eye": "Near-infrared light is invisible to the eye, and adaptive optics undoes much of the blurring caused by Earth's atmosphere."
+  },
+  "scaleExtra": null,
+  "alt": "A young star cluster surrounded by brightly glowing gas, with dark tendrils of dust running through its bright core.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "h-potw1107a",
+  "caption": "The globular cluster Messier 15 and the planetary nebula Pease 1, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Dazzling stars fill this Hubble image of Messier 15, and they look fresh and new. In fact they are all roughly 13 billion years old, among the most ancient objects in the Universe. To the lower left of the cluster's core, a small blue blob marks Pease 1, a planetary nebula.",
+   "As a globular cluster, Messier 15 is a ball-shaped gathering of old stars born together out of a single gas cloud. It sits in the halo, the outer reaches of the Milky Way, orbiting the Galactic Centre about 35 000 light-years from Earth in Pegasus. Few known globulars are as dense, and most of its mass is packed into the core. Astronomers think such dense clusters went through core collapse, in which gravitational interactions drew many stars toward the centre.",
+   "Messier 15 was the first globular cluster known to host a planetary nebula, and it remains one of just four such clusters. A planetary nebula is the glowing shell of gas cast off by a dying Sun-like star."
+  ],
+  "explore": [
+   "Unlike the unusually sparse cluster Palomar 1, featured in another Hubble Picture of the Week, Messier 15 remains rich and bright in spite of its great age. The image comes from the Advanced Camera for Surveys' Wide Field Channel, with exposures of 535 and 615 seconds, and spans 3.4 arcminutes."
+  ],
+  "understand": {
+   "summary": "This image comes from the Wide Field Channel of Hubble's Advanced Camera for Surveys: a yellow/orange filter (F606W) is shown in blue and a near-infrared filter (F814W) in red.",
+   "eye": "The near-infrared light is invisible to the eye, and the colours are reassigned, so the image does not show the stars' natural hues."
+  },
+  "scaleExtra": null,
+  "alt": "A dense cluster of bright stars with a small blue blob to the lower left of its core.",
+  "flags": []
+ },
+ {
+  "id": "e-eso2116b",
+  "caption": "The star cluster NGC 1850 in the Large Magellanic Cloud, imaged by ESO's Very Large Telescope and the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Reddish filaments surround a cluster of thousands of stars in this image. The cluster is NGC 1850, which lies in the Large Magellanic Cloud, a neighbour of the Milky Way, roughly 160 000 light-years away. The filaments are vast clouds of hydrogen, believed to be the remains of supernova explosions.",
+   "The picture overlays two sets of visible-light observations. ESO's Very Large Telescope captured the wide field and the filaments, while the NASA/ESA Hubble Space Telescope imaged the central cluster.",
+   "Among its many stars, NGC 1850 hosts a black hole with 11 times the Sun's mass, circled by a star of five solar masses. Astronomers inferred the black hole's presence from the star's orbit, using the MUSE instrument at the VLT; it was the first small black hole beyond the Milky Way to be discovered by this method. Black holes give off no light of their own, so watching how they tug on companions is one of the few ways to find them."
+  ],
+  "explore": [
+   "The Large Magellanic Cloud lies in the direction of the constellation Dorado. The filters used include ones that isolate the red glow of hydrogen, on both the VLT's FORS1 instrument and Hubble's Wide Field Planetary Camera 2."
+  ],
+  "understand": {
+   "summary": "This is a visible-light overlay combining FORS1 on the VLT with Hubble's Wide Field Planetary Camera 2, including hydrogen-alpha filters. The hydrogen filaments appear reddish, but the full colour mapping isn't published.",
+   "eye": "The black hole itself is invisible; its presence was inferred only from the motion of a star around it."
+  },
+  "scaleExtra": "NGC 1850 lies roughly 160 000 light-years away, according to ESO.",
+  "alt": "A cluster of thousands of stars surrounded by reddish filaments of gas.",
+  "flags": []
+ },
+ {
+  "id": "e-eso1220a",
+  "caption": "The globular star cluster Messier 55, imaged by ESO's VISTA survey telescope",
+  "captureDate": null,
+  "story": [
+   "This infrared view from the VISTA survey telescope at ESO's Paranal Observatory in Chile shows Messier 55, a globular star cluster in the constellation Sagittarius, the Archer. This vast ball of ancient stars lies about 17 000 light-years from Earth.",
+   "A globular cluster is a dense, roughly spherical group of stars bound together by gravity. Its stars are typically very old, formed early in the history of their galaxy, which makes clusters like this valuable records of the distant past.",
+   "VISTA is a survey telescope, built to map large areas of sky, and it works in infrared light. Infrared passes through interstellar dust more easily than visible light and is especially good at picking up cooler stars, so an infrared view of a cluster can look quite different from a visible-light one."
+  ],
+  "explore": [
+   "The image combines two infrared filters, Y and H, from VISTA's camera, VIRCAM, and covers a field about 17 arcminutes across. VISTA's full name is the Visible and Infrared Survey Telescope for Astronomy."
+  ],
+  "understand": {
+   "summary": "This is an infrared image from the VIRCAM camera on ESO's VISTA telescope, using Y and H filters. The colour assigned to each filter isn't published.",
+   "eye": "Infrared light is invisible to the eye, so the colours are a translation of light we cannot see."
+  },
+  "scaleExtra": null,
+  "alt": "The globular cluster Messier 55, a vast ball of stars, seen in infrared light.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "h-potw1229a",
+  "caption": "The globular cluster Messier 107, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Hubble's view of Messier 107 resembles a stadium with the lights down before a performance, twinkling only with camera flashes from the crowd. Unlike flashbulbs, though, these stars are no fleeting phenomenon: they have been shining for many billions of years.",
+   "The Milky Way's disc is ringed by more than 150 globular clusters, Messier 107 among them. Each of these spherical groups contains hundreds of thousands of extremely old stars, making them some of the oldest objects in our galaxy. How they formed, and what part they played in the evolution of galaxies, is still somewhat unclear, which is why astronomers keep studying them.",
+   "By globular standards, this cluster is fairly loose. Set beside others like Messier 53 or Messier 54, its stars are packed less tightly, so its members stand out more individually, like separate fans in the stands."
+  ],
+  "explore": [
+   "About 20 000 light-years from the Solar System, Messier 107 lies in Ophiuchus, the Serpent Bearer. Pierre Méchain first noted it in 1782 and William Herschel recorded it independently a year later; much later, the Canadian astronomer Helen Sawyer Hogg added it to Messier's catalogue. The image covers about 3.4 by 3.4 arcminutes."
+  ],
+  "understand": {
+   "summary": "This image combines visible and near-infrared exposures from the Wide Field Camera of Hubble's Advanced Camera for Surveys. The colour assigned to each filter isn't published.",
+   "eye": "The near-infrared light is invisible to the eye, and Hubble's sharp view separates stars that would blur together through a small telescope."
+  },
+  "scaleExtra": null,
+  "alt": "A loosely packed crowd of stars in the globular cluster Messier 107.",
+  "flags": []
+ },
+ {
+  "id": "h-potw1431a",
+  "caption": "The globular cluster IC 4499, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Hubble captures IC 4499 here, a globular cluster: one of the large, ball-shaped groups of old stars circling a galaxy. It has long been thought that all the stars in one form at about the same time, a property that can be used to work out a cluster's age.",
+   "For heavier globulars, careful observations tell a different story: they appear to hold several populations of stars born at different times. Gravity is thought to be one reason. IC 4499 is a useful in-between case, with a mass between the simple low-mass clusters and the more complex massive ones. Astronomers found no sign of multiple generations in it, supporting the idea that less massive clusters generally host just one.",
+   "Hubble has also helped pin down the cluster's age. Observations from the 1990s suggested it was puzzlingly young compared with other Milky Way globulars, but newer Hubble data make it much more likely that IC 4499 is roughly as old as the others, at about 12 billion years."
+  ],
+  "explore": [
+   "IC 4499 lies about 55,000 light-years away in the direction of the constellation Apus. The image was made with Hubble's Wide Field Camera 3 through visible and near-infrared filters."
+  ],
+  "understand": {
+   "summary": "This image combines visible and near-infrared exposures from Hubble's Wide Field Camera 3. The colour assigned to each filter isn't published.",
+   "eye": "The near-infrared light is invisible to the eye, and Hubble's sharp view separates stars in a distant cluster."
+  },
+  "scaleExtra": null,
+  "alt": "A globular cluster of old stars.",
+  "flags": []
+ },
+ {
+  "id": "h-potw1406a",
+  "caption": "The globular cluster Terzan 7, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "This Hubble image shows Terzan 7, a globular cluster that takes its name from Agop Terzan, the French-Armenian astronomer who found it. It is a densely packed ball of stars bound by gravity, lying just over 75 000 light-years away on the far side of the Milky Way, and it is peculiar in several ways.",
+   "Evidence shows that Terzan 7 once belonged to the Sagittarius Dwarf Galaxy, a mini-galaxy that is colliding with the far larger Milky Way and being absorbed by it. The cluster seems to have already been pulled away from its former home and become part of our galaxy.",
+   "Astronomers found that all of Terzan 7's stars formed at roughly the same moment, some eight billion years ago, which is unusually young for such a cluster. A single generation is also uncommon, since many globular clusters seem to have at least two. Explanations vary: clusters born in dwarf galaxies may differ in composition, Terzan 7 may have had enough material for only one batch of stars, or it may simply be too young to have formed another."
+  ],
+  "explore": [
+   "The image, a view of a cluster that came from another galaxy, combines visible and near-infrared exposures from Hubble's Advanced Camera for Surveys. A version of it was entered into Hubble's Hidden Treasures image processing competition by Gilles Chapdelaine."
+  ],
+  "understand": {
+   "summary": "This image combines visible and near-infrared exposures from Hubble's Advanced Camera for Surveys. The colour assigned to each filter isn't published.",
+   "eye": "The near-infrared light is invisible to the eye, and Hubble's sharp view resolves individual stars in a cluster on the far side of the galaxy."
+  },
+  "scaleExtra": null,
+  "alt": "A densely packed ball of stars.",
+  "flags": [
+   "distance conflict: packet says 10000 light years, caption says just over 75 000"
+  ]
+ },
+ {
+  "id": "h-potw1514a",
+  "caption": "The centre of the globular cluster Messier 22, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "This Hubble image shows the crowded centre of the globular cluster Messier 22. Globular clusters are ball-shaped swarms of tightly packed stars left over from the early Universe, typically 12 to 13 billion years old, which is remarkably old given that the Universe itself is only 13.8 billion years old.",
+   "At just 10 000 light-years away, Messier 22 is one of the closest of the Milky Way's roughly 150 globular clusters. Abraham Ihle discovered it in 1665, one of the earliest globulars to be discovered. Little wonder: it ranks among the brightest seen from the northern hemisphere, lying in Sagittarius near the Galactic Bulge. Even so, dust and gas between us and the cluster dim its starlight.",
+   "Messier 22 has some unusual residents. Six planet-sized objects that do not orbit any star have been detected there, the cluster seems to host two black holes, and it is among just three clusters known to hold a planetary nebula, a short-lived shell of gas thrown off by a dying star."
+  ],
+  "explore": [
+   "The cluster is about 70 light-years across and covers a patch of sky as large as the full Moon. The image combines visible and near-infrared exposures from Hubble's Advanced Camera for Surveys."
+  ],
+  "understand": {
+   "summary": "This image combines visible and near-infrared exposures from Hubble's Advanced Camera for Surveys. The colour assigned to each filter isn't published.",
+   "eye": "The near-infrared light is invisible to the eye, and Hubble's sharp view separates the crowded stars at the cluster's centre."
+  },
+  "scaleExtra": null,
+  "alt": "The crowded centre of a globular cluster, densely packed with stars.",
+  "flags": []
+ },
+ {
+  "id": "e-eso1526a",
+  "caption": "The young open cluster NGC 2367, imaged by the MPG/ESO 2.2-metre telescope at La Silla",
+  "captureDate": null,
+  "story": [
+   "Colourful stars and gas spread across this rich view from the Wide Field Imager at ESO's La Silla Observatory in Chile. The subject is NGC 2367, a young open cluster: an infant grouping of stars.",
+   "Curiously, this youthful cluster sits in the middle of a vast, much older structure out on the edges of the Milky Way. An open cluster is a loose group of stars born together from the same cloud of gas and dust, and a young one like this can still be surrounded by some of that gas.",
+   "The contrast is striking: a stellar infant set within something ancient. Young clusters are useful for studying how stars begin their lives, while their setting can hint at the longer history of the region around them."
+  ],
+  "explore": [
+   "The picture was made with the Wide Field Imager on the MPG/ESO 2.2-metre telescope, combining U, B, V and I filters with one that isolates the glow of hydrogen. NGC 2367 lies in the direction of the constellation Canis Major."
+  ],
+  "understand": {
+   "summary": "This image from the Wide Field Imager combines U, B, V, I and hydrogen-alpha filters, from the ultraviolet end of the spectrum into the near-infrared. The colour assigned to each filter isn't published.",
+   "eye": "Long camera exposures gather far more light than the eye can, and some of the filters record light at the edges of human vision or beyond."
+  },
+  "scaleExtra": null,
+  "alt": "A rich field of colourful stars and gas.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "e-eso1441a",
+  "caption": "The open star cluster Messier 47, imaged by the MPG/ESO 2.2-metre telescope at La Silla",
+  "captureDate": null,
+  "story": [
+   "A sprinkling of brilliant blue stars dominates this image of the star cluster Messier 47, with a few contrasting red giant stars among them. The picture was taken with the Wide Field Imager camera at ESO's La Silla Observatory in Chile.",
+   "Messier 47 is a young open cluster, a loose group of stars that formed together from the same cloud of gas and dust. A star's colour reveals its surface temperature: the blue stars here are hot, while red giants are cooler stars that have swollen in size late in their lives.",
+   "Because all the stars in a cluster share roughly the same age, the mix of colours carries information. The most massive stars evolve fastest, so they are the first to become red giants, while less massive stars stay in their longer, steadier phase for much longer."
+  ],
+  "explore": [
+   "The Wide Field Imager is mounted on the MPG/ESO 2.2-metre telescope. This colour picture was built from exposures through B, V and R filters, all in visible light. Messier 47 lies in the direction of the constellation Puppis."
+  ],
+  "understand": {
+   "summary": "This visible-light image from the Wide Field Imager combines B, V and R filters. The colour assigned to each filter isn't published.",
+   "eye": "The blue and red star colours reflect real temperature differences, but long exposures reveal far more stars than the eye could see."
+  },
+  "scaleExtra": null,
+  "alt": "A sprinkling of brilliant blue stars with a few red giant stars among them.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "h-potw1910a",
+  "caption": "The globular cluster Messier 28, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "In bright, sharp detail, Hubble reveals Messier 28, a globular cluster lying in Sagittarius, the Archer. It lies about 18 000 light-years from Earth.",
+   "When Charles Messier added it to his list in 1764, he described it as a '[round] nebula containing no star'. That was not as strange as it sounds. Until the early twentieth century, 'nebula' meant any hazy, poorly defined light in the sky, and all 110 objects Messier identified were gathered under the title Catalogue of Nebulae and Star Clusters. Star clusters and even supernova remnants were lumped together as nebulae.",
+   "Messier's mistake is understandable. From Earth, even through binoculars, the cluster appears only as a very faint smudge, because the atmosphere's distorting effects blur it, and larger telescopes are needed to pick out single stars. From space, Hubble shows it clearly as the star cluster it really is."
+  ],
+  "explore": [
+   "Today, a nebula means a vast, often glowing cloud of interstellar dust and ionised gas. This image combines data from Hubble's Advanced Camera for Surveys and Wide Field Camera 3 across a range of visible and near-infrared filters, including one that isolates glowing hydrogen."
+  ],
+  "understand": {
+   "summary": "This image combines Hubble's Advanced Camera for Surveys and Wide Field Camera 3, using filters from violet light through visible and hydrogen-alpha to the near-infrared. The colour assigned to each filter isn't published.",
+   "eye": "Through binoculars Messier 28 is only a very faint smudge; from above the atmosphere Hubble resolves its individual stars."
+  },
+  "scaleExtra": null,
+  "alt": "A globular cluster shown in sharp detail, with many individual stars.",
+  "flags": []
+ },
+ {
+  "id": "e-eso1510a",
+  "caption": "The star cluster NGC 6193 and the nebula NGC 6188, imaged by the VLT Survey Telescope",
+  "captureDate": null,
+  "story": [
+   "The young open cluster NGC 6193 sits at the centre of this view from the VLT Survey Telescope at ESO's Paranal Observatory, with the emission nebula NGC 6188 to its right. Both belong to Ara OB1, a stellar association, and the picture shows one section of it.",
+   "An emission nebula is a cloud of gas that glows because it is energised by radiation. Here the ionising radiation comes from the brightest stars nearby, which strip electrons from the gas atoms; when the atoms recapture them, the gas gives off light.",
+   "A stellar association is a loose, widely spread group of stars that share a common origin. Young clusters like NGC 6193 and the glowing clouds beside them show star formation in progress, with newborn stars already lighting up the gas around them."
+  ],
+  "explore": [
+   "The image was taken with OmegaCAM, the camera on the VLT Survey Telescope, using B, g, r and hydrogen-alpha filters. The region lies in the direction of the constellation Ara, the Altar."
+  ],
+  "understand": {
+   "summary": "This visible-light image from OmegaCAM on the VLT Survey Telescope combines B, g, r and hydrogen-alpha filters. The colour assigned to each filter isn't published.",
+   "eye": "Long camera exposures and a hydrogen-alpha filter bring out glowing gas far too faint for the eye to see like this."
+  },
+  "scaleExtra": null,
+  "alt": "A young star cluster at the centre with a glowing nebula to its right.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "e-eso0630a",
+  "caption": "The globular cluster NGC 6397, imaged by the MPG/ESO 2.2-metre telescope at La Silla",
+  "captureDate": null,
+  "story": [
+   "Yellow squares mark some of the stars in this ESO image of NGC 6397, a nearby globular cluster about 7,200 light-years away in the southern constellation Ara. The highlighted stars were targets for detailed study with the FLAMES-UVES instrument.",
+   "NGC 6397 is described as metal-poor, meaning its stars contain relatively little of the elements heavier than hydrogen and helium, which astronomers call metals. Stars poor in these elements generally formed early, before later generations of stars had enriched the gas of their galaxy.",
+   "Some of the brighter stars show spikes. These are not real features: they are caused by overexposure, when too much light floods the camera's detector, an effect known as CCD bleeding. A globular cluster is a dense, roughly spherical group of old stars bound together by gravity."
+  ],
+  "explore": [
+   "The picture is a composite of B, V and I exposures from La Silla's Wide Field Imager, made for the Pilot Stellar Survey and prepared by the ESO Imaging Survey team."
+  ],
+  "understand": {
+   "summary": "This composite comes from the Wide Field Imager, using B and V filters in visible light and an I filter in the near-infrared. The colour assigned to each filter isn't published.",
+   "eye": "The yellow squares and the spikes on bright stars are added markings and camera artefacts, not things the eye would see in the sky."
+  },
+  "scaleExtra": null,
+  "alt": "A dense globular cluster with some stars outlined by yellow squares and spikes on the brighter stars.",
+  "flags": [
+   "annotated",
+   "possible duplicate of e-eso0425a (same cluster and data, with markers)"
+  ]
+ },
+ {
+  "id": "h-potw1001a",
+  "caption": "The globular cluster Messier 72, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Scattered stars fill this Hubble image of Messier 72, looking rather like a city seen from an aeroplane window at night, with small glints from suburban homes dotting the outskirts of a bright centre. In reality it is a globular cluster: an ancient ball of old stars that crowd together much more tightly toward the middle, like buildings at a city's heart.",
+   "Besides its own huge numbers of stars, the picture also catches many far more distant galaxies, visible between and around the cluster's stars. They are separate systems lying far beyond our galaxy, glimpsed through the gaps.",
+   "Pierre Méchain, a French astronomer, found the cluster in August 1780, yet it is named after his colleague Charles Messier, who logged it as the 72nd entry in his catalogue of comet-like objects only two months afterwards. Its home is Aquarius, the Water Bearer, some 50 000 light-years away."
+  ],
+  "explore": [
+   "This was the first image in ESA/Hubble's weekly Picture of the Week series. It was taken with the Advanced Camera for Surveys' Wide Field Channel through yellow and near-infrared filters, with exposures of about ten minutes each, and covers about 3.4 arcminutes."
+  ],
+  "understand": {
+   "summary": "This image comes from the Wide Field Channel of Hubble's Advanced Camera for Surveys, using yellow (F606W) and near-infrared (F814W) filters. The colour assigned to each filter isn't published.",
+   "eye": "The near-infrared light is invisible to the eye, and the distant background galaxies are far too faint to see without a large telescope."
+  },
+  "scaleExtra": null,
+  "alt": "A rich collection of scattered stars, densest at a bright centre, with faint distant galaxies between and around them.",
+  "flags": []
+ },
+ {
+  "id": "h-potw1137a",
+  "caption": "The globular cluster NGC 7006, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "This Hubble image shows NGC 7006, a compact and distant globular cluster in Delphinus, the Dolphin, among the tiniest of the constellations. Because it is modest in size, very far away and relatively faint, amateur astronomers often overlook it, yet Hubble's Advanced Camera for Surveys renders it bright and clear.",
+   "NGC 7006 lies in the outskirts of the Milky Way, about 135 000 light-years away, or five times as far as the Sun is from the galactic centre. It belongs to the galactic halo, a roughly spherical zone of dark matter, gas and thinly spread star clusters. Its highly eccentric orbit hints that it may have been born on its own, inside a small outside galaxy that the Milky Way then captured.",
+   "Distant as it is, the cluster is far nearer than the numerous faint background galaxies in the frame. Each of those faint smudges probably has its own family of globular clusters like NGC 7006, too faint for even Hubble to see."
+  ],
+  "explore": [
+   "Remote clusters like this one offer important clues to how stars formed and gathered in the Milky Way's halo. The image combines visible and near-infrared light and covers a field a little over 3 by 3 arcminutes."
+  ],
+  "understand": {
+   "summary": "This image comes from the Wide Field Channel of Hubble's Advanced Camera for Surveys, combining visible and near-infrared light. The colour assigned to each filter isn't published.",
+   "eye": "The near-infrared light is invisible to the eye, and this cluster is too faint and small for most amateur telescopes to show in such detail."
+  },
+  "scaleExtra": null,
+  "alt": "A compact globular cluster with many faint galaxies in the background.",
+  "flags": []
+ },
+ {
+  "id": "e-potw1341a",
+  "caption": "The super star cluster Westerlund 1 and the red supergiant W26, imaged by the VLT Survey Telescope",
+  "captureDate": null,
+  "story": [
+   "Green features in this image from the VLT Survey Telescope at ESO's Paranal Observatory are clouds of glowing hydrogen gas around W26, a red supergiant in the super star cluster Westerlund 1. W26 is possibly the biggest star known, and finding such clouds around it was a surprise.",
+   "Westerlund 1 shines exceptionally brightly from about 16 000 light-years away, in Ara, the Altar, a southern constellation. It holds hundreds of very massive, brilliant stars, none more than a few million years old, but gas and dust block most of its visible light from reaching us. Such glowing clouds are rare around massive stars, and this is the first ionised nebula ever found around a red supergiant.",
+   "W26 is not hot enough to light the gas itself. The team speculates that the energy comes either from other hot blue stars in the cluster or from a fainter but much hotter companion. W26 will eventually explode as a supernova, and studying its nebula should help show how such stars lose mass before their explosive end."
+  ],
+  "explore": [
+   "The picture belongs to VPHAS+, a public survey that uses the VST to map much of the Milky Way in detail, hunting for new objects, among them young stars and planetary nebulae. The nebula around W26 closely resembles the one around SN1987A, the closest supernova seen from Earth since 1604."
+  ],
+  "understand": {
+   "summary": "This image from OmegaCAM on the VLT Survey Telescope combines G, R, I and hydrogen-alpha filters. The glowing hydrogen around W26 is shown in green; the other colour assignments aren't published.",
+   "eye": "Dust blocks most of this cluster's visible light, and the hydrogen glow appears green here only because that colour was chosen to display it."
+  },
+  "scaleExtra": null,
+  "alt": "A star field with green glowing gas features around one star in a bright cluster.",
+  "flags": []
+ },
+ {
+  "id": "h-potw1145a",
+  "caption": "The globular cluster Messier 54, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "This Hubble image shows Messier 54, a dense, faint group of stars that could pass for just another globular cluster. In fact it was the first globular cluster found outside our galaxy. Charles Messier discovered it in 1778, and it belongs to the Sagittarius Dwarf Elliptical Galaxy, a satellite of the Milky Way.",
+   "Messier had no idea of its significance. Only in 1994, more than two centuries later, did astronomers realise that it belongs to the small galaxy rather than our own. Current estimates put the Sagittarius dwarf, and so the cluster, almost 90 000 light-years away, which puts it over three times farther from the galactic centre than the Solar System.",
+   "There is an irony here. Although Messier 54 lies outside the Milky Way today, it will become part of it. The Milky Way's powerful gravity is gradually swallowing the Sagittarius dwarf, and in time the two will merge into one larger galaxy."
+  ],
+  "explore": [
+   "The picture combines images from the Advanced Camera for Surveys' Wide Field Channel, with total exposures of 3460 and 3560 seconds, and covers about 3.4 by 3.4 arcminutes. A dwarf elliptical galaxy is a small, faint galaxy with a smooth, rounded shape."
+  ],
+  "understand": {
+   "summary": "This image comes from the Wide Field Channel of Hubble's Advanced Camera for Surveys: a yellow-orange filter (F606W) is shown in blue and a near-infrared filter (F814W) in red.",
+   "eye": "The near-infrared light is invisible to the eye, and the colours are reassigned rather than natural."
+  },
+  "scaleExtra": null,
+  "alt": "A dense group of stars forming the globular cluster Messier 54.",
+  "flags": []
+ },
+ {
+  "id": "h-potw1244a",
+  "caption": "The core of the globular cluster NGC 6362, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Hubble takes a deep look into the core of the globular cluster NGC 6362, where a high concentration of stars shines in a range of different colours. Globular clusters are spherical collections of old stars, tightly bound by gravity; at around 10 billion years old, their stars are much older than the Sun.",
+   "More than 150 are known in the Milky Way, and more have been found in other galaxies. They rank among the oldest things in the Universe we can study directly, living fossils of the early cosmos. For years they were seen as ideal laboratories for testing the standard theory of stellar evolution, which suggests that most stars in a globular cluster should be of similar age.",
+   "High-precision measurements, mainly with Hubble, have led some to question that picture. Certain stars, called blue stragglers, look younger and bluer than their companions, and NGC 6362 contains many of them. Because they usually sit in crowded cores, the likeliest explanation is stellar collisions or material passing between stars in binary pairs, which heats a star and makes it look younger."
+  ],
+  "explore": [
+   "About 25 000 light-years away, NGC 6362 is found in Ara, the Altar, and the British astronomer James Dunlop was the first to observe it. The image combines ultraviolet, visible and infrared data from Hubble's Advanced Camera for Surveys and Wide Field Camera 3."
+  ],
+  "understand": {
+   "summary": "This image combines ultraviolet light from Hubble's Wide Field Camera 3 with red and near-infrared light from its Advanced Camera for Surveys. The colour assigned to each filter isn't published.",
+   "eye": "The ultraviolet and near-infrared light are invisible to the eye, and Hubble's sharp view separates the crowded stars of the core."
+  },
+  "scaleExtra": null,
+  "alt": "The core of a globular cluster with a high concentration of stars of different colours.",
+  "flags": []
+ },
+ {
+  "id": "e-eso1347a",
+  "caption": "The star cluster NGC 3572 and its surroundings, imaged by the MPG/ESO 2.2-metre telescope at La Silla",
+  "captureDate": null,
+  "story": [
+   "Clouds of gas and dust around the young star cluster NGC 3572 have been carved into playful bubbles and arcs, along with curious shapes called elephant trunks, in this image from ESO's La Silla Observatory in Chile. The shaping is done by stellar winds flowing from the cluster's bright stars.",
+   "NGC 3572 is a gathering of young stars, and ESO describes this as the best image of it so far, made with the MPG/ESO 2.2-metre telescope's Wide Field Imager. Elephant trunks are dense columns of gas and dust that resist erosion by the winds and radiation of nearby stars, leaving pillar-like shapes behind.",
+   "The cluster's brightest members outweigh the Sun, and their brief lives will finish in supernova explosions. Massive stars burn through their fuel much faster than lower-mass ones, which is why the most luminous members of a young cluster are also the shortest-lived."
+  ],
+  "explore": [
+   "The picture combines two visible-light filters, B and V, with a hydrogen-alpha filter that isolates the glow of hydrogen gas in the surrounding clouds. NGC 3572 lies in the direction of the constellation Carina."
+  ],
+  "understand": {
+   "summary": "This image from the Wide Field Imager combines B and V filters with a hydrogen-alpha filter. The colour assigned to each filter isn't published.",
+   "eye": "Long camera exposures and a hydrogen-alpha filter reveal faint glowing gas that the eye could not see."
+  },
+  "scaleExtra": null,
+  "alt": "A young star cluster surrounded by clouds of gas and dust shaped into bubbles, arcs and elephant trunks.",
+  "flags": []
+ },
+ {
+  "id": "e-eso1239a",
+  "caption": "The spiral structure around the red giant R Sculptoris, imaged by the Atacama Large Millimeter/submillimeter Array (ALMA)",
+  "captureDate": null,
+  "story": [
+   "An outer circular ring encloses a clear spiral pattern in this view of the gas and dust surrounding R Sculptoris, an old star. The picture is a slice through observations from the Atacama Large Millimeter/submillimeter Array (ALMA): the ring is a shell around the star, and the spiral lies in the material inside it.",
+   "The spiral was unexpected and had never been seen before. A likely cause is an unseen companion star in orbit around R Sculptoris, which could wind the material around the old star into a spiral as it circles.",
+   "R Sculptoris is classed as a red giant, an ageing star that has swollen up and sheds material into space. ALMA works at millimetre and submillimetre wavelengths, picking up the faint glow of cool gas and dust that visible-light telescopes cannot easily see. Because this is a slice through the data rather than a conventional picture, it shows structure in a way no ordinary photograph could."
+  ],
+  "explore": [
+   "R Sculptoris lies about 1500 light-years away and is also a variable star, one whose brightness changes over time. ALMA observed it in its Band 7, at a wavelength of about 870 micrometres."
+  ],
+  "understand": {
+   "summary": "ALMA observed this star at submillimetre wavelengths (Band 7, 870 μm). This is a data visualisation, and its colour mapping isn't published.",
+   "eye": "Submillimetre light is invisible to the eye, and this image is a slice through the data rather than a view of the sky as it would look."
+  },
+  "scaleExtra": null,
+  "alt": "A circular ring enclosing a spiral pattern of material around a star.",
+  "flags": [
+   "not a sky photo (data visualisation: slice through ALMA data)"
+  ]
+ },
+ {
+  "id": "h-potw1534a",
+  "caption": "The globular cluster NGC 1783 in the Large Magellanic Cloud, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "NGC 1783's symmetry and the crowding of its stars toward the centre stand out plainly in this image from Hubble's Advanced Camera for Surveys. Both are typical features of globular clusters, tightly packed, self-gravitating star groups that circle galaxies like satellites.",
+   "Among the largest globulars in the Large Magellanic Cloud, a small galaxy that orbits our own, NGC 1783 lies nearly 160 000 light-years from Earth. John Herschel first observed it in 1835. It weighs in at around 170 000 Suns.",
+   "From the colours and brightnesses of its individual stars, astronomers estimate that NGC 1783 has existed for less than one and a half billion years, which is very young for a globular. It is thought to have had at least two bursts of star formation, 50 to 100 million years apart. The idea is that supernovae from the first massive stars blew away the leftover gas, which gentler, longer-lived stars later replenished before a second round began."
+  ],
+  "explore": [
+   "This ebb and flow can repeat a few times, until the remaining gas is thought to be too little to form new stars. The cluster lies in the southern constellation Dorado, and Judy Schmidt entered a version of this image in Hubble's Hidden Treasures competition."
+  ],
+  "understand": {
+   "summary": "This image comes from Hubble's Advanced Camera for Surveys, using blue, visible and near-infrared filters. The colour assigned to each filter isn't published.",
+   "eye": "The near-infrared light is invisible to the eye, and Hubble's sharp view separates individual stars in a cluster in another galaxy."
+  },
+  "scaleExtra": null,
+  "alt": "A symmetrical globular cluster with stars concentrated toward the centre.",
+  "flags": []
+ }
+]

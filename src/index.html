@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>A Moment in the Cosmos</title>
+<meta name="description" content="One extraordinary, verified photograph of the universe each day — with its story, its scale and its provenance.">
+<meta name="color-scheme" content="dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://cdn.esahubble.org">
+<link rel="preconnect" href="https://cdn.esawebb.org">
+<link rel="preconnect" href="https://cdn.eso.org">
+<link rel="preconnect" href="https://storage.noirlab.edu">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<a class="skip" href="#feature">Skip to today’s photograph</a>
+<div id="sky" aria-hidden="true"></div>
+<div class="page">
+<!-- @include partials/header.html -->
+
+<main id="main">
+<section id="feature" aria-labelledby="photoTitle">
+<!-- @include partials/feature.html -->
+<!-- @include partials/discover.html -->
+<!-- @include partials/story.html -->
+</section>
+
+<!-- @include partials/archive.html -->
+<!-- @include partials/favorites.html -->
+<!-- @include partials/about.html -->
+</main>
+
+<!-- @include partials/footer.html -->
+</div>
+
+<p class="sr-only" aria-live="polite" id="live"></p>
+
+<!-- @include partials/viewer.html -->
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
