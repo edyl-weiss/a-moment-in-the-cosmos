@@ -1,15 +1,14 @@
 /* Hubble-vs-Webb slider. The right image sits on top, clipped from the left at --split. */
 .compare{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
-
 .stage.comparing .frame,.stage.comparing .dims{display:none}
 .cmp-box{position:relative;--split:50%}
 .cmp-box img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;user-select:none;-webkit-user-drag:none}
 .cmp-box img.top{clip-path:inset(0 0 0 var(--split))}
-.cmp-handle{position:absolute;top:0;bottom:0;left:var(--split);width:2px;margin-left:-1px;background:var(--star);pointer-events:none;box-shadow:0 0 0 1px rgba(0,0,0,.4)}
-.cmp-handle::after{content:"◂ ▸";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);padding:6px 9px;border-radius:999px;background:var(--star);color:#1a1606;font:600 .8rem/1 var(--sans);white-space:nowrap}
+.cmp-handle{position:absolute;top:0;bottom:0;left:var(--split);width:1px;background:var(--ink);pointer-events:none}
+.cmp-handle::after{content:"";position:absolute;top:50%;left:50%;width:14px;height:44px;transform:translate(-50%,-50%);background:var(--ink);box-shadow:0 0 0 1px rgba(0,0,0,.5)}
 .cmp-box input[type=range]{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:ew-resize;touch-action:pan-y}
 .cmp-box:has(input:focus-visible) .cmp-handle::after{outline:2px solid var(--focus);outline-offset:3px}
-.cmp-tag{position:absolute;top:10px;padding:3px 9px;border-radius:6px;background:rgba(4,6,13,.78);border:1px solid rgba(255,255,255,.25);font:500 .78rem/1.4 var(--sans);pointer-events:none}
-.cmp-tag.left{left:10px} .cmp-tag.right{right:10px}
-.cmp-note{margin:10px 2px 0;font-size:.92rem;color:var(--muted);max-width:80ch}
-.cmp-note .src{color:var(--faint)}
+.cmp-tag{position:absolute;bottom:10px;font:400 .74rem/1.4 var(--mono);color:#fff;text-shadow:0 0 3px #000,0 0 8px #000;pointer-events:none}
+.cmp-tag.left{left:12px} .cmp-tag.right{right:12px;text-align:right}
+.cmp-note{max-width:var(--wide);margin:10px auto 0;padding:0 var(--gutter);font-size:.95rem;font-style:italic;color:var(--ink-2)}
+.cmp-note .src{font-style:normal;color:var(--ink-3)}

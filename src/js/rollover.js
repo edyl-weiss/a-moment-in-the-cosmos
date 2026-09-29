@@ -10,7 +10,7 @@ let timer;
 export function scheduleRollover() {
   const next = nextRollover();
   const local = new Date(next).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
-  $('#rollover').textContent = `New photograph daily at 00:00 UTC (${local} your time)`;
+  $('#rollover').textContent = `Next photograph at ${local} (00:00 UTC)`;
   clearTimeout(timer);
   timer = setTimeout(() => {
     renderArchive();

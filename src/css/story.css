@@ -1,33 +1,37 @@
-/* Story column, scale callout, sidebar cards, understand panel, expandable panels. */
-.story-grid{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);gap:36px;margin-top:28px}
-@media (max-width:900px){.story-grid{grid-template-columns:1fr}}
-.story p{font-size:1.07rem;margin:0 0 1em;max-width:68ch}
-.story p:first-child::first-letter{font:600 3.1em/0.8 var(--serif);float:left;margin:6px 8px 0 0;color:var(--star)}
-.scale{margin:22px 0 0;padding:16px 18px;border-left:2px solid var(--star);background:rgba(244,230,191,.05);border-radius:0 10px 10px 0}
-.scale h3{margin:0 0 4px;font:500 .78rem/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--star)}
-.scale p{margin:0}
-.side .card{border:1px solid var(--line);border-radius:var(--radius);background:var(--panel);padding:16px 18px;margin-bottom:14px}
-.side h3{margin:0 0 8px;font:500 .78rem/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--faint)}
-.side p{margin:0;font-size:.93rem}
-.side .src{color:var(--muted);font-size:.86rem}
-.side ul{margin:0;padding-left:18px;font-size:.88rem;color:var(--muted)}
-.side li{margin:4px 0}
+/* Story column with margin notes, scale line, understand panel, fold-out panels. */
+.story-grid{display:grid;grid-template-columns:minmax(0,var(--measure)) minmax(0,1fr);gap:24px clamp(32px,6vw,96px);margin-top:40px;align-items:start}
+@media (max-width:860px){.story-grid{grid-template-columns:minmax(0,1fr)}}
+.story p{margin:0 0 1.1em;font-size:1.14rem;line-height:1.62;hyphens:auto}
+.story p:first-child{font-size:1.3rem;line-height:1.5}
+.story p + p{text-indent:1.5em;margin-top:-1.1em}     /* book paragraphs: indent, no gap */
+.scale{margin:1.6em 0 0;font-style:italic;color:var(--ink-2)}
+.scale .label{font-style:normal;font-size:.76rem;color:var(--red);margin-right:.4em}
 
-#understandPanel{margin-top:18px;border:1px solid var(--line-strong);border-radius:var(--radius);padding:18px 20px;background:var(--panel)}
+.notes dl{margin:0;display:grid;gap:0}
+.notes dt{font-size:.74rem;color:var(--ink-3);margin-top:22px}
+.notes dt:first-child{margin-top:4px}
+.notes dd{margin:4px 0 0;font-size:.98rem;line-height:1.5;color:var(--ink-2)}
+.notes .src{color:var(--ink-3)}
+.notes ul{margin:0;padding:0;list-style:none}
+.notes li{margin:2px 0}
 
-#understandPanel h3{margin:0 0 8px;font:600 1.4rem/1.2 var(--serif)}
-table.filters{border-collapse:collapse;width:100%;margin:10px 0;font-size:.9rem}
-table.filters th,table.filters td{text-align:left;padding:6px 10px;border-bottom:1px solid var(--line)}
-table.filters th{color:var(--faint);font-weight:500}
-.sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:middle;border:1px solid rgba(255,255,255,.3)}
+#understandPanel{margin:36px 0 0;max-width:46rem}
+#understandPanel h3{margin:0 0 8px;font:italic 400 1.35rem/1.2 var(--serif)}
+#understandPanel p{margin:0 0 .8em;color:var(--ink)}
+table.filters{border-collapse:collapse;width:100%;margin:14px 0 18px;font:400 .8rem/1.45 var(--mono)}
+table.filters th,table.filters td{text-align:left;padding:5px 16px 5px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.filters th{font-weight:400;color:var(--ink-3)}
+.sw{display:inline-block;width:.8em;height:.8em;margin-right:6px;vertical-align:-.05em}
 
-details.panel{margin-top:14px;border:1px solid var(--line);border-radius:var(--radius);background:var(--panel)}
-details.panel > summary{cursor:pointer;list-style:none;padding:16px 20px;font:600 1.35rem/1.2 var(--serif);display:flex;justify-content:space-between;align-items:center;border-radius:var(--radius)}
+details.panel{margin-top:22px}
+details.panel > summary{cursor:pointer;list-style:none;padding:0;font:italic 400 1.25rem/1.3 var(--serif)}
 details.panel > summary::-webkit-details-marker{display:none}
-details.panel > summary::after{content:"+";font:400 1.4rem/1 var(--sans);color:var(--muted)}
-details.panel[open] > summary::after{content:"–"}
-details.panel .body{padding:0 20px 18px}
-dl.meta{display:grid;grid-template-columns:minmax(140px,220px) 1fr;gap:8px 18px;margin:0;font-size:.92rem}
-dl.meta dt{color:var(--faint)} dl.meta dd{margin:0}
-@media (max-width:560px){dl.meta{grid-template-columns:1fr} dl.meta dd{margin-bottom:6px}}
-.missing{color:var(--faint);font-style:italic}
+details.panel > summary::before{content:"+";display:inline-block;width:1.1em;font:400 1rem var(--mono);font-style:normal;color:var(--red)}
+details.panel[open] > summary::before{content:"−"}
+details.panel .body{padding:10px 0 0 1.1em}
+details.panel .body p{margin:0 0 .8em}
+dl.meta{display:grid;grid-template-columns:minmax(120px,11rem) 1fr;gap:6px 18px;margin:0}
+dl.meta dt{font-size:.74rem;color:var(--ink-3);padding-top:.25em}
+dl.meta dd{margin:0;font-size:.98rem;color:var(--ink-2)}
+@media (max-width:560px){dl.meta{grid-template-columns:1fr} dl.meta dd{margin-bottom:8px}}
+.missing{color:var(--ink-3);font-style:italic}

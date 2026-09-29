@@ -35,7 +35,7 @@ document.addEventListener('photo:change', ({ detail: { item, dims } }) => {
   $('#scaleBox').hidden = !item.scale;
   $('#scaleText').textContent = item.scale || '';
   $('#celestial').textContent = item.celestial;
-  $('#recognition').innerHTML = `${esc(item.recognition.text)} <span class="src">(Editorial or institutional recognition.)</span>`;
+  $('#recognition').innerHTML = esc(item.recognition.text);
   $('#sourcesList').innerHTML = list(item.sources);
   $('#exploreBody').innerHTML = item.explore.map((p) => `<p>${esc(p)}</p>`).join('') +
     `<p><strong>Further reading</strong></p><ul>${list(item.sources)}</ul>`;

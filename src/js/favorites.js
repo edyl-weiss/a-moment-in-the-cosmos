@@ -11,7 +11,6 @@ function syncButton() {
   const on = Boolean(state.item && has(state.item.id));
   $('#favBtn').setAttribute('aria-pressed', String(on));
   $('#favText').textContent = on ? 'Saved to favorites' : 'Save to favorites';
-  $('#favIcon').setAttribute('fill', on ? 'currentColor' : 'none');
 }
 
 function remove(f) {

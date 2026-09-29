@@ -1,10 +1,7 @@
   <div class="story-grid">
-    <div>
+    <div class="story-main">
       <div class="story" id="story"></div>
-      <div class="scale" id="scaleBox">
-        <h3>A sense of scale</h3>
-        <p id="scaleText"></p>
-      </div>
+      <p class="scale" id="scaleBox"><span class="label">Scale</span> <span id="scaleText"></span></p>
       <details class="panel" id="exploreDetails">
         <summary>Explore further</summary>
         <div class="body" id="exploreBody"></div>
@@ -14,10 +11,12 @@
         <div class="body"><dl class="meta" id="behindList"></dl></div>
       </details>
     </div>
-    <aside class="side" aria-label="Photograph facts">
-      <div class="card"><h3>Where in the sky</h3><p id="celestial"></p></div>
-      <div class="card"><h3>Recognition</h3><p id="recognition"></p></div>
-      <div class="card"><h3>Usage rights</h3><p id="rights"></p></div>
-      <div class="card"><h3>Sources for this story</h3><ul id="sourcesList"></ul></div>
+    <aside class="notes" aria-label="Photograph facts">
+      <dl>
+        <dt>Where in the sky</dt><dd id="celestial"></dd>
+        <dt>Recognition</dt><dd id="recognition"></dd>
+        <dt>Usage rights</dt><dd id="rights"></dd>
+        <dt>Sources</dt><dd><ul id="sourcesList"></ul></dd>
+      </dl>
     </aside>
   </div>

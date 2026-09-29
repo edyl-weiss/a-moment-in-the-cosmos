@@ -50,12 +50,12 @@ export async function show(id, ctx, { push = true, notice = '' } = {}) {
     if (alt) {
       return show(alt, { ...ctx, standIn: title }, {
         push,
-        notice: `“${title}” could not be shown — ${err.message}${org ? ` (${SOURCE[org]})` : ''}. Showing a previously verified photograph from the collection instead.`
+        notice: `“${title}” could not be shown: ${err.message}${org ? ` (${SOURCE[org]})` : ''}. Showing a previously verified photograph from the collection instead.`
       });
     }
     $('#stage').classList.remove('loading');
     $('#photoTitle').textContent = 'Photographs are unavailable right now';
-    setNotice('Photographs can’t be loaded from ESA/Hubble, ESA/Webb, ESO or NOIRLab right now — please check your connection and try again. No substitute images are shown.');
+    setNotice('Photographs can’t be loaded from ESA/Hubble, ESA/Webb, ESO or NOIRLab right now. Check your connection and try again. No substitute images are shown.');
   } finally {
     if (mine === token) emit('photo:busy', false);
   }
@@ -76,10 +76,10 @@ function setNotice(text) {
 
 function contextLine(item, ctx) {
   if (ctx.standIn) return `Standing in for “${ctx.standIn}”`;
-  if (ctx.mode === 'daily') return `Today’s photograph · ${fmtDate(dateOf(ctx.day))}`;
-  if (ctx.mode === 'archive') return `Archive · featured ${fmtDate(dateOf(ctx.day))}`;
+  if (ctx.mode === 'daily') return 'Today’s photograph';
+  if (ctx.mode === 'archive') return `From the archive, ${fmtDate(dateOf(ctx.day))}`;
   if (ctx.mode === 'favorite') return 'From your favorites';
-  return `Random discovery · ${CAT[item.cat]}`;
+  return 'Chosen at random';
 }
 
 function render(item, ctx, dims) {

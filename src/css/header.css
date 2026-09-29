@@ -1,10 +1,13 @@
-/* Site header and main column. */
-header.site{max-width:1240px;margin:0 auto;padding:28px 24px 8px;display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px}
-.brand h1{font:600 clamp(2rem,4.2vw,3rem)/1.05 var(--serif);margin:0;letter-spacing:.01em}
-.brand p{margin:6px 0 0;color:var(--muted);font-size:.95rem}
-nav.site-nav ul{list-style:none;margin:0;padding:0;display:flex;gap:4px;flex-wrap:wrap}
-nav.site-nav a{display:inline-block;padding:8px 12px;border-radius:999px;color:var(--muted);text-decoration:none;font-size:.92rem}
-nav.site-nav a:hover{color:var(--text);background:rgba(255,255,255,.05)}
+/* Masthead and main column. */
+.masthead{max-width:var(--wide);margin:0 auto;padding:28px var(--gutter) 0}
+.masthead-row{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:6px 24px}
+.masthead-row + .masthead-row{border-top:1px solid var(--rule);margin-top:14px;padding:8px 0 0}
+.masthead h1{margin:0;font:300 clamp(2.2rem,6vw,4.4rem)/1 var(--serif);letter-spacing:-.02em}
+.issue{margin:0;display:flex;gap:18px;font-size:.8rem;color:var(--ink-2)}
+.motto{margin:0;font-style:italic;color:var(--ink-2);font-size:1rem}
+nav.site-nav ul{list-style:none;margin:0;padding:0;display:flex;gap:22px;flex-wrap:wrap}
+nav.site-nav a{text-decoration:none;font-size:1rem}
+nav.site-nav a:hover{text-decoration:underline;text-decoration-color:var(--red)}
 
-main{max-width:1240px;margin:0 auto;padding:8px 24px 64px}
+main{max-width:var(--wide);margin:0 auto;padding:0 var(--gutter) 80px}
 section{scroll-margin-top:16px}
