@@ -1,0 +1,7 @@
+/* Decorative star background (aria-hidden), fixed behind the page. */
+#sky{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+#sky svg{width:100%;height:100%;display:block}
+#sky .tw{animation:twinkle 6s ease-in-out infinite}
+@keyframes twinkle{0%,100%{opacity:.25}50%{opacity:.9}}
+@media (prefers-reduced-motion: reduce){#sky .tw{animation:none}}
+.page{position:relative;z-index:1}
