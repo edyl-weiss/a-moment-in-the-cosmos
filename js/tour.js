@@ -1,0 +1,47 @@
+// Guided "look closer" tour: opens the immersive viewer and flies between the
+// stops in data/tours.js, with a caption card and Previous / Next controls.
+import { TOURS } from '../data/tours.js';
+import { $, say } from './util.js';
+import { state } from './feature.js';
+import { openViewer, flyTo } from './viewer.js';
+
+const card = $('#tourCard');
+let stops = null, i = 0;
+
+function go(n) {
+  i = n;
+  const s = stops[i];
+  $('#tourStep').textContent = `Stop ${i + 1} of ${stops.length}`;
+  $('#tourTitle').textContent = s.title;
+  $('#tourText').textContent = s.text;
+  $('#tourPrev').disabled = i === 0;
+  $('#tourNext').textContent = i === stops.length - 1 ? 'Finish' : 'Next';
+  flyTo(s.x, s.y, s.zoom, card.offsetHeight + 80);
+  say(`Stop ${i + 1} of ${stops.length}: ${s.title}. ${s.text}`);
+}
+
+function end() {
+  stops = null;
+  card.hidden = true;
+  flyTo(50, 50, 1);
+}
+
+export function startTour(opener) {
+  stops = TOURS[state.item.id];
+  if (!stops) return;
+  openViewer(opener);
+  card.hidden = false;
+  go(0);
+  $('#tourNext').focus();
+}
+
+$('#tourPrev').addEventListener('click', () => go(Math.max(0, i - 1)));
+$('#tourNext').addEventListener('click', () => (i < stops.length - 1 ? go(i + 1) : end()));
+$('#tourEnd').addEventListener('click', end);
+$('#tourBtn').addEventListener('click', (e) => startTour(e.currentTarget));
+document.addEventListener('viewer:close', () => { stops = null; card.hidden = true; });
+document.addEventListener('photo:change', ({ detail: { item } }) => {
+  const n = TOURS[item.id]?.length;
+  $('#tourBtn').hidden = !n;
+  $('#tourCount').textContent = n ? `${n} stops` : '';
+});
