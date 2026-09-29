@@ -97,7 +97,7 @@ for rid, r in recs.items():
     telescopes = sorted({glue(t) for t in r['telescopes']} | {f['instrument'] for f in fs if f['instrument']})
     tels = ', '.join(telescopes) if telescopes else ('Camera photograph' if r['cat'] == 'night' else 'Not listed on the source page')
     photo = {
-        'id': rid, 'cat': r['cat'], 'org': r['org'], 'title': r['title'],
+        'id': rid, 'cat': r['cat'], 'org': r['org'], 'title': re.sub(r'\s*;\s*', ', ', re.sub(r'\s+[—–]\s+', ': ', r['title'])),
         'caption': s['caption'].rstrip('.'),
         'captureDate': s.get('captureDate'), 'captureShort': s.get('captureDate'),
         'releaseDate': r['releaseDate'] or 'not listed',

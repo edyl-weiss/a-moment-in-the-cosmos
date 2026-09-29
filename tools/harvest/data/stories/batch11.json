@@ -12,7 +12,7 @@
    "The Dark Energy Camera ranks among the world's most powerful digital cameras. It was built with the Dark Energy Survey in mind, and the US Department of Energy and NSF operated it between 2013 and 2019."
   ],
   "understand": {
-   "summary": "The image combines visible-light exposures from the Dark Energy Camera on the Blanco 4-meter Telescope, taken through g, r and i filters. The packet does not say which display colour was assigned to each filter.",
+   "summary": "The image combines visible-light exposures from the Dark Energy Camera on the Blanco 4-meter Telescope, taken through g, r and i filters. The source does not say which display colour was assigned to each filter.",
    "eye": "The camera collects light over long exposures from a large telescope, so it records a faint, distant galaxy that would be invisible to the unaided eye."
   },
   "scaleExtra": null,
@@ -26,17 +26,17 @@
   "caption": "The Andromeda Galaxy (M31) with its companions M32 and NGC 205, imaged by the Burrell Schmidt Telescope at Kitt Peak",
   "captureDate": "1979",
   "story": [
-   "The large spiral filling this frame is M31, the Andromeda Galaxy, with two small companions: M32 below the centre and NGC 205, also called M110, towards the upper right. The view spans more than two and a quarter degrees of sky, more than four full-Moon widths, and still does not take in the whole galaxy.",
+   "The large spiral filling this frame is M31, the Andromeda Galaxy, with two small companions, M32 below the centre and NGC 205, also called M110, towards the upper right. The view spans more than two and a quarter degrees of sky, more than four full-Moon widths, and still does not take in the whole galaxy.",
    "Andromeda is our nearest large, normal neighbour, a spiral very much like the Milky Way and a little bigger. Seen from far away, the two would look like a pair. It is faintly visible to the naked eye, and the Persian astronomer Al-Sufi described it as a 'little cloud' as early as 964 AD.",
    "Dark dust lanes show up against the core only on the western, right-hand side, which tells astronomers that side is tipped towards us. The galaxy's rotation also hints that there may be ten times more matter than we can see, spread through a vast dark halo."
   ],
   "explore": [
    "The picture began as three photographic plates taken in 1979 on the Burrell Schmidt telescope at Kitt Peak. Undergraduate Vanessa Harvey digitised them in the summer of 1996 with Kitt Peak's PDS scanner, as part of an NSF-funded Research Experience for Undergraduates program.",
-   "At Andromeda's heart is a tightly packed star cluster, though it is washed out in this saturated image."
+   "At Andromeda's heart is a tightly packed star cluster, though it is washed out because the image is saturated there."
   ],
   "understand": {
    "summary": "This is a visible-light image built from three digitised photographic plates, each made with a different emulsion and filter. The three frames approximate red, green and blue, giving an estimate of true colour.",
-   "eye": "To the unaided eye only Andromeda's bright inner bulge is visible; the long plate exposures reveal the spiral arms, dust lanes and companions."
+   "eye": "To the unaided eye only Andromeda's bright inner bulge is visible. The long plate exposures reveal the spiral arms, dust lanes and companions."
   },
   "scaleExtra": "The Andromeda Galaxy is approximately 2.2 million light-years away and over 65,000 light-years across, according to NOIRLab.",
   "alt": "A large, tilted spiral galaxy stretches across the frame, with a small companion galaxy below its centre and another to the upper right.",
@@ -47,12 +47,12 @@
   "caption": "The Whirlpool Galaxy, M51 (NGC 5194/5195), imaged by the Kitt Peak 0.9-meter telescope",
   "captureDate": "1991",
   "story": [
-   "This colour view shows M51, the Whirlpool: the large spiral galaxy NGC 5194 and its smaller, barred and more shapeless companion NGC 5195. The companion takes on a reddish tint because it sits behind the dusty arm that links it to the main galaxy.",
-   "M51 holds a special place in history. In 1845 the Third Earl of Rosse made out spiral structure here, the first time it had been seen in any astronomical object. Its arms are perhaps the neatest textbook example in any nearby galaxy, and such regularity suggests something keeps them in shape. The tidal pull of NGC 5195 may do it, by generating spiral density waves.",
+   "This colour view shows M51, the Whirlpool, made up of the large spiral galaxy NGC 5194 and its smaller, barred and more shapeless companion NGC 5195. The companion takes on a reddish tint because it sits behind the dusty arm that links it to the main galaxy.",
+   "M51 has a place in the history of astronomy. In 1845 the Third Earl of Rosse made out spiral structure here, the first time it had been seen in any astronomical object. Its arms are perhaps the neatest textbook example in any nearby galaxy, and such regularity suggests something keeps them in shape. The tidal pull of NGC 5195 may do it, by generating spiral density waves.",
    "Although the Whirlpool is smaller and less massive than our own Galaxy, it is considerably brighter. That is because recent star formation has filled it with hot, luminous young stars of the O and B types."
   ],
   "explore": [
-   "Because the system is so large on the sky, the image was made with a 'drift scan': the telescope stayed fixed while the sky moved across the detector, with each row of the chip shifted along in step. The same spiral pattern also shows up in radio emission, suggesting the galaxy's magnetic fields are squeezed by the density wave."
+   "Because the system is so large on the sky, the image was made with a 'drift scan', in which the telescope stayed fixed while the sky moved across the detector, with each row of the chip shifted along in step. The same spiral pattern also shows up in radio emission, suggesting the galaxy's magnetic fields are squeezed by the density wave."
   ],
   "understand": {
    "summary": "Three CCD frames from the Kitt Peak 0.9-meter telescope, taken through filters roughly matching red, green and blue, were combined to recreate a true-colour picture. The colour balance was reworked in July 2000.",
@@ -67,7 +67,7 @@
   "caption": "SOAR and Gemini South beneath the Milky Way, Cerro Pachón, Chile",
   "captureDate": "2022",
   "story": [
-   "Under a dusty Milky Way and the faint glow of the upper atmosphere, two telescope domes stand on Cerro Pachón in Chile. The Southern Astrophysical Research Telescope, SOAR, is at the centre, and the International Gemini Observatory's Gemini South is on the right. A photographer at the lower left, gazing over the dry landscape, gives a sense of how big the 4.1-meter SOAR telescope is.",
+   "Under a dusty Milky Way and the faint glow of the upper atmosphere, two telescope domes stand on Cerro Pachón in Chile. The Southern Astrophysical Research Telescope, SOAR, is at the centre, and the International Gemini Observatory's Gemini South is on the right. A photographer at the lower left, gazing over the dry landscape, shows how big the 4.1-meter SOAR telescope is.",
    "Behind SOAR, Gemini South is firing its laser guide star, an artificial point of light in the sky. Adaptive optics systems need a sharp reference light to measure and undo the blurring caused by Earth's atmosphere, yet only a few real stars are bright enough for the job. A laser can be aimed wherever the telescope points.",
    "On 8-meter-class telescopes such as Gemini South, this technology lets a ground-based observatory produce images as sharp as those from telescopes in space."
   ],
@@ -131,7 +131,7 @@
   "caption": "Full Moon rising over Maunakea, Hawaiʻi",
   "captureDate": null,
   "story": [
-   "The full Moon rises over Maunakea, and beneath it a dark triangle stretches across the sky: the shadow of the volcano itself. Maunakea is a dormant volcano that hosts Gemini North, one of the two telescopes of the International Gemini Observatory, along with a number of other observatories.",
+   "The full Moon rises over Maunakea, and beneath it a dark triangle, the shadow of the volcano itself, stretches across the sky. Maunakea is a dormant volcano that hosts Gemini North, one of the two telescopes of the International Gemini Observatory, along with a number of other observatories.",
    "The shadow's neat triangular shape is an optical effect, since the mountain is not triangular. The shadow is so long that its irregular edges blur together into a rectangle. That rectangle then tapers into the distance and seems to meet at a single point on the horizon, thanks to the curvature of the Earth and ordinary perspective.",
    "The summit is very dry even though the island below is tropical and frequently cloudy. The climb of about 4000 meters (14,000 feet) from the Pacific Ocean to the top creates an inversion layer, which traps thick clouds below and leaves the peak above them."
   ],
@@ -152,15 +152,15 @@
   "captureDate": "2014",
   "story": [
    "Glowing clouds shaped like the North American continent spread across this wide view in the constellation Cygnus. This is NGC 7000, the North America Nebula. Much of the nebulosity lies in front of the Milky Way's band, and where the dust and gas thin out, crowds of stars in that spiral arm show through.",
-   "The four-frame mosaic covers more than 4 degrees of sky, enough to fit over 30 full Moons. The very bright star at right is Deneb, but it has nothing to do with the nebula; it is well over 1,500 light-years away, while the glowing clouds are closer.",
+   "The four-frame mosaic covers more than 4 degrees of sky, enough to fit over 30 full Moons. The very bright star at right is Deneb, but it has nothing to do with the nebula. Deneb is well over 1,500 light-years away, while the glowing clouds are closer.",
    "For a long time, astronomers were puzzled about which star makes the nebula shine. A paper by Fernando Comeron and Anna Pasquali, published in fall 2004, seems to have identified it. The star hides behind thick dust, and they found it by searching in infrared light for a hot, bright star."
   ],
   "explore": [
    "The culprit sits just off the coast of the nebula's 'Florida', in its 'Atlantic Ocean'. The image was made by Adam Block through the Advanced Observing Program at the Kitt Peak Visitor Center in 2014."
   ],
   "understand": {
-   "summary": "This is a visible-light mosaic of four frames taken with a 16-inch RCOS telescope and CCD camera, using several broadband filters. The packet does not say which colour each filter was assigned.",
-   "eye": "The nebula is far too faint and too large for the eye to see in this detail; long exposures stitched together reveal its glow and shape."
+   "summary": "This is a visible-light mosaic of four frames taken with a 16-inch RCOS telescope and CCD camera, using several broadband filters. The source does not say which colour each filter was assigned.",
+   "eye": "The nebula is far too faint and too large for the eye to see in this detail. Long exposures stitched together reveal its glow and shape."
   },
   "scaleExtra": null,
   "alt": "A glowing cloud shaped like the North American continent spreads across a dense star field, with a very bright star at the right edge.",
@@ -213,14 +213,14 @@
   "story": [
    "This Gemini Observatory image of the star cluster NGC 6624 was made with the GeMS system, and it separates individual stars all the way into the cluster's crowded core. Normally, the heart of a dense cluster blurs into a single glow when seen from the ground, because Earth's turbulent atmosphere smears starlight.",
    "Being able to pick out stars one by one matters because a cluster's stars are generally thought to have formed at around the same time. Measuring them carefully lets astronomers work out how old the whole group is.",
-   "The study behind this image found an age of between 11.5 and 12.5 billion years for NGC 6624. That confirms the cluster took shape when the cosmos was still young, just a fraction of its present age, which is about 13.8 billion years. Old clusters like this preserve stars that formed when the Universe was young."
+   "The study behind the observations found an age of between 11.5 and 12.5 billion years for NGC 6624. That confirms the cluster took shape when the cosmos was still young, just a fraction of its present age, which is about 13.8 billion years."
   ],
   "explore": [
    "The composite colour image was produced by Travis Rector of the University of Alaska Anchorage."
   ],
   "understand": {
-   "summary": "The image was taken at Gemini Observatory with the GeMS system and assembled as a colour composite. The packet does not list the filters or say what the colours represent.",
-   "eye": "No eye could separate these tightly packed stars; the telescope and its sharp-focus system resolve them individually."
+   "summary": "The image was taken at Gemini Observatory with the GeMS system and assembled as a colour composite. The source does not list the filters or say what the colours represent.",
+   "eye": "No eye could separate these tightly packed stars. The telescope and its sharp-focus system resolve them individually."
   },
   "scaleExtra": null,
   "alt": "A dense star cluster whose individual stars are resolved right into its crowded centre.",
@@ -233,16 +233,16 @@
   "caption": "The interacting galaxy trio LGG 455 (NGC 7232, NGC 7233 and NGC 7232B), imaged by Gemini South",
   "captureDate": "2012",
   "story": [
-   "Three galaxies share this view: NGC 7232 at upper right, NGC 7233 at lower right and NGC 7232B on the left. Together they form an interacting trio called Lyon Group of Galaxies #455, or LGG 455. The two brightest points near the centre are not galaxies at all, but foreground stars in our own Milky Way.",
+   "Three galaxies share this view, with NGC 7232 at upper right, NGC 7233 at lower right and NGC 7232B on the left. Together they form an interacting trio called Lyon Group of Galaxies #455, or LGG 455. The two brightest points near the centre are not galaxies at all, but foreground stars in our own Milky Way.",
    "Dark lanes of dust cross NGC 7232 and NGC 7233, while NGC 7232B has bright spots of young, blue stars scattered along its weak spiral arms.",
-   "Little detailed research has been done on the group, but it is thought to contain a rare 'dark galaxy': a cloud holding the raw ingredients for stars that has never managed to form any. Its gas could make more than 400 million Suns, yet this deep Gemini image finds no significant population of stars there, just left of the lower foreground star."
+   "Little detailed research has been done on the group, but it is thought to contain a rare 'dark galaxy', a cloud holding the raw ingredients for stars that has never managed to form any. Its gas could make more than 400 million Suns, yet deep Gemini imaging finds no significant population of stars there, just left of the lower foreground star."
   ],
   "explore": [
    "Most likely, that gas was thrown out of NGC 7233 when it passed close to one of the other two galaxies. Ryan Soares suggested this field for the Australian/Gemini Student Imaging Contest, and Travis Rector of the University of Alaska Anchorage produced the colour composite."
   ],
   "understand": {
-   "summary": "The data were taken with the Gemini Multi-Object Spectrograph (GMOS) on Gemini South in Chile, in visible and near-infrared light through g, r and i filters. The packet does not say which colour each filter was assigned.",
-   "eye": "These galaxies are far too faint for the eye; a large telescope collecting light over long exposures reveals their dust lanes and young stars."
+   "summary": "The data were taken with the Gemini Multi-Object Spectrograph (GMOS) on Gemini South in Chile, in visible and near-infrared light through g, r and i filters. The source does not say which colour each filter was assigned.",
+   "eye": "These galaxies are far too faint for the eye. A large telescope collecting light over long exposures reveals their dust lanes and young stars."
   },
   "scaleExtra": null,
   "alt": "Two galaxies with dark dust lanes on the right and a spiral with blue spots on the left, with two bright foreground stars near the centre.",
@@ -273,15 +273,15 @@
   "caption": "The Cygnus X-1 black hole system and its jet bowshock, imaged by the Mayall 4-meter Telescope",
   "captureDate": null,
   "story": [
-   "Near the centre of this wide view sit two stars; the brighter, lower one is Cygnus X-1. It looks like a single star, but it is actually a binary system that contains a black hole. Above it, at top centre, curves a bluish shape like an umbrella, and bright orange gas spreads along the left side.",
-   "In Cygnus X-1, the black hole pulls gas away from its companion star. Before the gas falls in, it grows so hot that it gives off X-rays, which is how the system was discovered. Not all of it is swallowed: some is launched outwards in jets of hot gas.",
-   "The jet itself can't be seen here, but its effect can. The bluish umbrella is a bowshock, formed where gas in the jet slams into gas in the surrounding nebula. The orange glow on the left belongs to Sharpless 101, an emission nebula whose western edge reaches into the frame."
+   "Near the centre of this wide view sit two stars, and the brighter, lower one is Cygnus X-1. It looks like a single star, but it is actually a binary system that contains a black hole. Above it, at top centre, curves a bluish shape like an umbrella, and bright orange gas spreads along the left side.",
+   "In Cygnus X-1, the black hole pulls gas away from its companion star. Before the gas falls in, it grows so hot that it gives off X-rays, which is how the system was discovered. Not all of it is swallowed, and some is launched outwards in jets of hot gas.",
+   "The jet itself is invisible, but its effect shows. The bluish umbrella is a bowshock, formed where gas in the jet slams into gas in the surrounding nebula. The orange glow on the left belongs to Sharpless 101, an emission nebula whose western edge reaches into the frame."
   ],
   "explore": [
    "Kitt Peak National Observatory's Mayall 4-meter telescope took the image using its wide-field Mosaic camera. North is up and east is to the left."
   ],
   "understand": {
-   "summary": "The Mosaic camera on the Mayall 4-meter Telescope recorded light from specific glowing gases. According to the caption, hydrogen-alpha is shown in red and sulphur [S II] in blue, though the packet's filter table lists oxygen [O III] and hydrogen-alpha filters.",
+   "summary": "The Mosaic camera on the Mayall 4-meter Telescope recorded light from specific glowing gases. According to the caption, hydrogen-alpha is shown in red and sulphur [S II] in blue, though the source's filter table lists oxygen [O III] and hydrogen-alpha filters.",
    "eye": "Narrow filters isolate light from individual gases, so faint structures like the bowshock stand out in a way the eye could never see."
   },
   "scaleExtra": null,
@@ -296,14 +296,14 @@
   "captureDate": "2014",
   "story": [
    "A large oval crowd of bluish stars stands out towards the right of this picture. This is M24, the Sagittarius Star Cloud. Also near the right side, IC 1284 shines a vivid red, while NGC 6590 spreads a bluish haze around a handful of bright stars.",
-   "Our galaxy, as this view shows, is always partly cloudy. Just as clouds on Earth can hide part of a starry sky, vast clouds of gas and dust block whatever lies behind them. Yet there are gaps, even towards the densest regions of the Milky Way.",
-   "Looking at M24, a grouping of young, bright stars, means peering through one such gap to regions much deeper, towards an inner spiral arm. In the northern part of the star cloud, several dark nebulae provide contrast against the countless background stars. Red glows usually come from hydrogen gas, while blue haze is typically starlight scattered by dust."
+   "Our galaxy is always partly cloudy. Just as clouds on Earth can hide part of a starry sky, vast clouds of gas and dust block whatever lies behind them. There are gaps, though, even towards the densest regions of the Milky Way.",
+   "Viewing M24, a grouping of young, bright stars, means peering through one such gap to regions much deeper, towards an inner spiral arm. In the northern part of the star cloud, several dark nebulae provide contrast against the countless background stars. Red glows usually come from hydrogen gas, while blue haze is typically starlight scattered by dust."
   ],
   "explore": [
    "The image was made by Fred Calvert and Adam Block through the Advanced Observing Program at the Kitt Peak Visitor Center in 2014."
   ],
   "understand": {
-   "summary": "This is a visible-light image taken with a 16-inch RCOS telescope and CCD camera using several broadband filters. The packet does not say which colour each filter was assigned.",
+   "summary": "This is a visible-light image taken with a 16-inch RCOS telescope and CCD camera using several broadband filters. The source does not say which colour each filter was assigned.",
    "eye": "Long exposures gather far more light than the eye, revealing faint red and blue nebulae and dark clouds that would be hard to see even through a telescope."
   },
   "scaleExtra": "The stars of M24 are many thousands of light-years away, perhaps about 10,000, according to NOIRLab.",
@@ -323,8 +323,8 @@
    "The picture was unveiled in Austin, Texas, during the American Astronomical Society's 211th meeting and featured in an NOAO press release."
   ],
   "understand": {
-   "summary": "The Mosaic-1 camera on the Mayall 4-meter Telescope used narrowband filters that isolate light from oxygen, sulphur and hydrogen gas. The packet does not say which colour each filter was assigned.",
-   "eye": "The remnant is too faint to see by eye; narrow filters and long exposures bring out its glowing gas."
+   "summary": "The Mosaic-1 camera on the Mayall 4-meter Telescope used narrowband filters that isolate light from oxygen, sulphur and hydrogen gas. The source does not say which colour each filter was assigned.",
+   "eye": "The remnant is too faint to see by eye. Narrow filters and long exposures bring out its glowing gas."
   },
   "scaleExtra": "Pickering's Triangle is about 1,500 light-years from Earth, according to NOIRLab.",
   "alt": "A wide-field view of Pickering's Triangle, part of the Cygnus Loop supernova remnant, among stars.",
@@ -343,8 +343,8 @@
    "The nebula's age is estimated at 3,500 years. The image was made by Joe and Gail Metcalf with Adam Block through the Advanced Observing Program at the Kitt Peak Visitor Center in 2014."
   ],
   "understand": {
-   "summary": "This is a visible-light image taken with a CCD camera at the Kitt Peak Visitor Center's roll-off-roof observatory, using several broadband filters. The packet does not say which colour each filter was assigned.",
-   "eye": "Through a small telescope the eye sees mainly the bright apple-core shape; a long camera exposure reveals the complete, fainter bubble."
+   "summary": "This is a visible-light image taken with a CCD camera at the Kitt Peak Visitor Center's roll-off-roof observatory, using several broadband filters. The source does not say which colour each filter was assigned.",
+   "eye": "Through a small telescope the eye sees mainly the bright apple-core shape. A long camera exposure reveals the complete, fainter bubble."
   },
   "scaleExtra": "M27 is perhaps 1,000 light-years away, according to NOIRLab.",
   "alt": "A glowing bubble of gas with a brighter central region, and a slightly bluish star at its centre above a small triangle of white stars.",
@@ -355,7 +355,7 @@
   "caption": "The Little Dumbbell Nebula (M76), imaged at the Kitt Peak Visitor Center",
   "captureDate": "2014",
   "story": [
-   "M76, the Little Dumbbell, shows two distinct features: a bright inner rectangle and very faint outer loops. The rectangle is in fact a ring-shaped torus seen edge-on.",
+   "M76, the Little Dumbbell, shows two distinct features, a bright inner rectangle and very faint outer loops. The rectangle is in fact a ring-shaped torus seen edge-on.",
    "Like most nebulae of this type, these loops were shed as a star of average mass came to the end of its life. More massive stars explode, but this process is much gentler, and it produces the tangled bubbles seen here.",
    "At the heart of the nebula lies a double star, and the upper one is distinctly blue. That hot star is what makes the Little Dumbbell glow, as its energetic light excites the surrounding gas. Its distance is not well known, but most estimates put it between 3000 and 5000 light-years away, which would make the bubble roughly a light-year across. On a dark night, the nebula is a rewarding sight through the 20-inch telescope at Kitt Peak."
   ],
@@ -363,7 +363,7 @@
    "The full-resolution image shows the central double star most clearly. The picture was taken by Adam Block through the Advanced Observing Program at the Kitt Peak Visitor Center in 2014."
   ],
   "understand": {
-   "summary": "This is a visible-light image taken with a CCD camera at the Kitt Peak Visitor Center's roll-off-roof observatory, using several broadband filters. The packet does not say which colour each filter was assigned.",
+   "summary": "This is a visible-light image taken with a CCD camera at the Kitt Peak Visitor Center's roll-off-roof observatory, using several broadband filters. The source does not say which colour each filter was assigned.",
    "eye": "Through the 20-inch telescope the eye can make out both the bright rectangle and the very dim outer loops, but the camera gathers far more of their faint light."
   },
   "scaleExtra": "M76 is thought to lie between 3000 and 5000 light-years away, making the bubble about a light-year across, according to NOIRLab.",
@@ -375,13 +375,13 @@
   "caption": "Sharpless 157 (WR 157), imaged by the Mayall 4-meter Telescope",
   "captureDate": null,
   "story": [
-   "This image is titled Sharpless 157 (WR 157), a nebula in the constellation Cassiopeia. It was recorded with the Mosaic camera on the Mayall 4-meter Telescope, through narrow filters that each pick out light from one kind of glowing gas: oxygen, sulphur or hydrogen.",
+   "This image is titled Sharpless 157 (WR 157), a nebula in the constellation Cassiopeia. It was recorded with the Mosaic camera on the Mayall 4-meter Telescope, through narrow filters that each pick out light from one kind of glowing gas, whether oxygen, sulphur or hydrogen.",
    "Objects in the Sharpless catalogue are clouds of gas that glow in visible light. In nebulae like these, hot stars flood nearby gas with energetic light, stripping electrons from its atoms. When the atoms recapture electrons, they give off light at particular colours, and each element leaves its own signature.",
-   "That is why narrow filters are so useful. By isolating each gas separately, astronomers can map where oxygen, sulphur and hydrogen are glowing and learn about the conditions inside the cloud. The official caption supplied with this image describes a different object, so no further details about this nebula are given here."
+   "That is why narrow filters are so useful. By isolating each gas separately, astronomers can map where oxygen, sulphur and hydrogen are glowing and learn about the conditions inside the cloud. The official caption supplied with the picture describes a different object, so no further details about this nebula are given here."
   ],
   "explore": [],
   "understand": {
-   "summary": "The Mosaic camera on the Mayall 4-meter Telescope recorded this through narrowband filters for oxygen [O III], sulphur [S II] and hydrogen-alpha light. The packet does not say which colour each filter was assigned.",
+   "summary": "The Mosaic camera on the Mayall 4-meter Telescope recorded this through narrowband filters for oxygen [O III], sulphur [S II] and hydrogen-alpha light. The source does not say which colour each filter was assigned.",
    "eye": "Narrow filters isolate faint light from individual gases, revealing structure the eye could not see."
   },
   "scaleExtra": null,
@@ -397,14 +397,14 @@
   "captureDate": "1997",
   "story": [
    "This picture shows Abell 39, a planetary nebula with rare and beautiful spherical symmetry, in the constellation Hercules. The name comes from its place as number 39 in George Abell's 1966 catalogue of large nebulae he had discovered.",
-   "A planetary nebula is the shell of gas cast off by a Sun-like star late in its life; the name is historical and has nothing to do with planets. Most are lopsided or complicated in shape, which is why this near-perfect sphere caught the attention of astronomers George Jacoby of WIYN Observatory, Gary Ferland of the University of Kentucky and Kirk Korista of Western Michigan University.",
+   "A planetary nebula is the shell of gas cast off by a Sun-like star late in its life. The name is historical and has nothing to do with planets. Most are lopsided or complicated in shape, which is why this near-perfect sphere caught the attention of astronomers George Jacoby of WIYN Observatory, Gary Ferland of the University of Kentucky and Kirk Korista of Western Michigan University.",
    "The team selected it for study precisely because of that unusual symmetry. The nebula measures about five light-years across, while its shell is only about a third of a light-year thick."
   ],
   "explore": [
    "The picture was taken in 1997 at Kitt Peak National Observatory near Tucson, using the 3.5-m (138-inch) telescope of the WIYN Observatory. It was the subject of a press release at the 197th meeting of the American Astronomical Society in January 2001."
   ],
   "understand": {
-   "summary": "The WIYN 3.5-meter Telescope took this through a single blue-green filter that isolates light emitted by oxygen atoms at 500.7 nanometers. The packet does not describe how the image was coloured.",
+   "summary": "The WIYN 3.5-meter Telescope took this through a single blue-green filter that isolates light emitted by oxygen atoms at 500.7 nanometers. The source does not describe how the image was coloured.",
    "eye": "A long telescope exposure gathers far more light than the eye, and the filter records only one narrow colour of light from oxygen."
   },
   "scaleExtra": null,
@@ -423,7 +423,7 @@
    "Sh2-174 breaks that pattern. Its white dwarf, the very blue star, is shifted off to the right rather than sitting at the centre. Astronomers put this lopsidedness down to the nebula running into the thin interstellar gas that surrounds it. A planetary nebula normally expands evenly around its star, so an off-centre white dwarf is a clue that something outside the nebula is at work."
   ],
   "explore": [
-   "The wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope recorded the scene. In this image north is up and east is to the left."
+   "The wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope recorded the scene. North is up and east is to the left."
   ],
   "understand": {
    "summary": "The Mosaic camera on the Mayall 4-meter Telescope combined broadband and narrowband filters. B is shown in blue, I in orange, hydrogen-alpha in red and oxygen [O III] in blue.",
@@ -439,15 +439,15 @@
   "captureDate": "2014",
   "story": [
    "This wide view shows M8, the Lagoon Nebula, a vast region of our galaxy where stars are forming. On a dark night it is easy to spot without any optical aid, just above the spout of the 'teapot' pattern of stars in Sagittarius. Through a small telescope, a milky glow of nebulosity fills the whole field of view.",
-   "A star cluster called NGC 6530 shows how star formation is proceeding inside the cloud. A few of its stars appear at the bottom right of this picture, though most of the cluster lies just beyond the frame to the right.",
+   "A star cluster called NGC 6530 shows how star formation is proceeding inside the cloud. A few of its stars appear at the bottom right, though most of the cluster lies just beyond the frame to the right.",
    "CCD images such as this one hint at how turbulent the nebula's gas is. As new stars form, their strong winds and radiation heat and stir up the material they were born from, sculpting the cloud around them. Regions like the Lagoon are where stars like the Sun are thought to be born."
   ],
   "explore": [
    "The image was taken by Adam Block through the Advanced Observing Program at the Kitt Peak Visitor Center, in 2014."
   ],
   "understand": {
-   "summary": "This is a visible-light image taken with a 16-inch RCOS telescope and CCD camera using several broadband filters. The packet does not say which colour each filter was assigned.",
-   "eye": "By eye the Lagoon appears as a faint, milky glow; a long camera exposure brings out its colour and turbulent structure."
+   "summary": "This is a visible-light image taken with a 16-inch RCOS telescope and CCD camera using several broadband filters. The source does not say which colour each filter was assigned.",
+   "eye": "By eye the Lagoon appears as a faint, milky glow. A long camera exposure brings out its colour and turbulent structure."
   },
   "scaleExtra": null,
   "alt": "A wide field of glowing, turbulent nebulosity with a few cluster stars at the lower right.",
@@ -466,7 +466,7 @@
    "The image was made by John Vickery and Jim Matthes with Adam Block through the Advanced Observing Program at the Kitt Peak Visitor Center, in 2014."
   ],
   "understand": {
-   "summary": "This is a visible-light image taken with a CCD camera at the Kitt Peak Visitor Center's roll-off-roof observatory, using several broadband filters. The packet does not say which colour each filter was assigned.",
+   "summary": "This is a visible-light image taken with a CCD camera at the Kitt Peak Visitor Center's roll-off-roof observatory, using several broadband filters. The source does not say which colour each filter was assigned.",
    "eye": "Long exposures reveal faint features such as tidal tails that the eye could not see even through a telescope."
   },
   "scaleExtra": "This group of galaxies lies between 25 and 30 million light-years away, according to NOIRLab.",
@@ -480,7 +480,7 @@
   "story": [
    "Bright young stars of the open cluster NGC 6520 stand out against a crowded backdrop, with the dark dust cloud Barnard 86 nearby. The pair lies in the constellation Sagittarius, towards one of the densest parts of our Galaxy.",
    "The background is packed with older stars from our Galaxy's central bulge. The cluster's young stars contrast with them sharply, and they probably formed out of gas connected to the neighbouring dust cloud.",
-   "An open cluster is a loose group of stars born together from the same cloud of gas and dust. Dark clouds like Barnard 86 are dense enough to block the light of the stars behind them, so they appear as shadowy shapes against the starry background. Seeing a young cluster sitting beside such a cloud offers a glimpse of where its stars may have come from."
+   "An open cluster is a loose group of stars born together from the same cloud of gas and dust. Dark clouds like Barnard 86 are dense enough to block the light of the stars behind them, so they appear as shadowy shapes against the starry background. Seeing a young cluster sitting beside such a cloud hints at where its stars may have come from."
   ],
   "explore": [
    "The image was taken on June 24th, 2007 with NSF's Blanco 4-m telescope at Cerro Tololo. It was released during 'Around the World in 80 Telescopes', a webcast held on April 3-4, 2009, as part of the 100 Hours of Astronomy during the International Year of Astronomy 2009."
@@ -506,8 +506,8 @@
    "The image was taken by Adam Block through the Advanced Observing Program at the Kitt Peak Visitor Center, in 2014."
   ],
   "understand": {
-   "summary": "This is a visible-light image taken with a 16-inch RCOS telescope and CCD camera using several broadband filters. The packet does not say which colour each filter was assigned.",
-   "eye": "To the naked eye Andromeda is a faint smudge; long camera exposures reveal much more of its extent and structure."
+   "summary": "This is a visible-light image taken with a 16-inch RCOS telescope and CCD camera using several broadband filters. The source does not say which colour each filter was assigned.",
+   "eye": "To the naked eye Andromeda is a faint smudge. Long camera exposures reveal much more of its extent and structure."
   },
   "scaleExtra": "The Andromeda Galaxy is located 2.3 million light-years away, according to NOIRLab.",
   "alt": "A wide telescope view of the Andromeda Galaxy.",
@@ -520,7 +520,7 @@
   "story": [
    "In the upper-right corner of this image is NGC 3718, a spiral galaxy with a strangely twisted shape. To its left sits a smaller spiral, NGC 3729. The distorted form of NGC 3718 is probably the result of gravitational tugging between the two.",
    "Lower down and to the right of the twisted spiral lies a tight knot of galaxies known as Hickson Compact Group 56, made up of five galaxies that are interacting with each other.",
-   "These five look tiny next to the big twisted spiral, but that is an illusion of distance. They are not actually smaller; instead, their distance from us is roughly eight times that of the two big spirals. In a flat picture of the sky, objects at very different distances can appear side by side, and apparent size alone can be misleading."
+   "These five look tiny next to the big twisted spiral, but that is an illusion of distance. They are not actually smaller. Their distance from us is roughly eight times that of the two big spirals. In a flat picture of the sky, objects at very different distances can appear side by side, and apparent size alone can be misleading."
   ],
   "explore": [
    "The picture comes from the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. The image is rotated 35 degrees counterclockwise from the usual orientation of north up and east left."
@@ -538,16 +538,16 @@
   "caption": "The Soap Bubble Nebula (PN G75.5+1.7), imaged by the Mayall 4-meter Telescope",
   "captureDate": "June 19, 2009",
   "story": [
-   "A remarkably round shell floats in this image: the planetary nebula nicknamed the Soap Bubble, officially PN G75.5+1.7, in the constellation Cygnus. It lies not far from the Crescent Nebula, NGC 6888.",
-   "A planetary nebula is the shell of gas cast off by a dying Sun-like star. Most are irregular, but this shell's spherical symmetry is striking, making it very much like another planetary nebula, Abell 39.",
-   "Despite its neat shape, it was found only recently. The Soap Bubble is faint, and it sits within a larger, diffuse nebula, which together kept it hidden. Amateur astronomer Dave Jurasevich discovered it on July 6th, 2008, and Keith Quattrocchi and Mel Helm noted and reported it on July 17th, 2008."
+   "The planetary nebula nicknamed the Soap Bubble, officially PN G75.5+1.7, is a very round shell of gas in the constellation Cygnus. It lies not far from the Crescent Nebula, NGC 6888.",
+   "A planetary nebula is the shell of gas cast off by a dying Sun-like star. Most are irregular in shape, but this shell is spherically symmetric and looks very much like another planetary nebula, Abell 39.",
+   "Despite its neat shape, it was found only recently. The Soap Bubble is faint, and it sits within a larger, diffuse nebula, which together kept it hidden from observers. Amateur astronomer Dave Jurasevich discovered it on July 6th, 2008, and Keith Quattrocchi and Mel Helm noted and reported it on July 17th, 2008."
   ],
   "explore": [
-   "Kitt Peak's Mayall 4-meter telescope captured this view on June 19th, 2009. In this view, north points left and east points down."
+   "Kitt Peak's Mayall 4-meter telescope captured the nebula on June 19th, 2009, with north pointing left and east down."
   ],
   "understand": {
    "summary": "The Mayall 4-meter Telescope's Mosaic camera used two narrowband filters. Hydrogen-alpha is shown in orange and oxygen [O III] in blue.",
-   "eye": "The nebula is so faint that it went unnoticed until 2008; narrow filters and a large telescope bring out its shell."
+   "eye": "The nebula is so faint that it went unnoticed until 2008. Narrow filters and a large telescope bring out its shell."
   },
   "scaleExtra": null,
   "alt": "A faint, nearly perfectly round shell of gas set within a wider haze of nebulosity and stars.",
@@ -559,11 +559,11 @@
   "captureDate": null,
   "story": [
    "A nearly circular nebula glows much more brightly along its lower-left side, while faint wisps trail away in the opposite direction. This is Sharpless 2-188, or Sh2-188, an unusual planetary nebula in the constellation Cassiopeia.",
-   "Planetary nebulae are shells of gas thrown off by stars late in their lives. Here, the expanding gas is crashing into the ambient gas of the interstellar medium, the thin material that fills the space between stars.",
+   "Planetary nebulae are shells of gas thrown off by stars late in their lives. In Sh2-188, the expanding gas is crashing into the ambient gas of the interstellar medium, the thin material that fills the space between stars.",
    "The lopsided brightness has a simple cause. The central star is moving rapidly towards the southeast, the lower left in this view, and that side of the nebula shines much more brightly as it pushes into the surrounding gas. Faint wisps of gas can also be traced on the opposite side."
   ],
   "explore": [
-   "The picture was made to show off what the newly installed CCD detectors could do in the Mosaic 1.1 camera, which is mounted on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points up."
+   "The picture was made to show off what the newly installed CCD detectors could do in the Mosaic 1.1 camera, which is mounted on Kitt Peak National Observatory's Mayall 4-meter telescope. North points up."
   ],
   "understand": {
    "summary": "Deep exposures with the Mosaic 1.1 camera on the Mayall 4-meter Telescope used two narrowband filters. Hydrogen-alpha is shown in red and oxygen [O III] in cyan.",
@@ -580,14 +580,14 @@
   "story": [
    "Just above and to the right of the centre of this wide view is the bright planetary nebula NGC 3242, nicknamed the Ghost of Jupiter. Around it spreads a much larger, fainter cloud of gas.",
    "A planetary nebula forms when a dying star casts off its outer layers, and the exposed hot core makes that gas glow. Close-up images usually focus on the bright nebula itself, but this wide field captures what lies around it.",
-   "The nature of that extended cloud is still unknown. One possibility is that it is a shell of gas thrown off by NGC 3242 earlier, when the star was a red giant. Another is that it is simply a nearby cloud of interstellar gas being lit up by the planetary nebula. Either way, the wide field reveals something a close-up would miss."
+   "The nature of that extended cloud is still unknown. One possibility is that it is a shell of gas thrown off by NGC 3242 earlier, when the star was a red giant. Another is that it is simply a nearby cloud of interstellar gas being lit up by the planetary nebula."
   ],
   "explore": [
    "Kitt Peak National Observatory's Mayall 4-meter telescope recorded the scene with its wide-field Mosaic camera on December 15th, 2006. North is to the left and east is down."
   ],
   "understand": {
    "summary": "The Mayall 4-meter Telescope's Mosaic camera used two narrowband filters. Oxygen [O III] is shown in blue and hydrogen-alpha in orange.",
-   "eye": "The surrounding cloud is far too faint for the eye; narrow filters and long exposures bring it out."
+   "eye": "The surrounding cloud is far too faint for the eye. Narrow filters and long exposures bring it out."
   },
   "scaleExtra": null,
   "alt": "A small bright nebula just above and right of centre, surrounded by a large, faint cloud of gas.",
@@ -599,7 +599,7 @@
   "captureDate": null,
   "story": [
    "This image focuses on IC 1396A, a dense, dark cloud of gas sitting inside a much larger glowing nebula. Its distinctive shape has earned it the informal name Elephant Trunk Nebula.",
-   "The larger nebula, IC 1396, is a giant emission nebula more than 3 degrees across on the sky. Its light comes from HD 206267, a hot and massive O-type star close to the nebula's centre. That star lies just beyond the top edge of this frame, so it does not appear here.",
+   "The larger nebula, IC 1396, is a giant emission nebula more than 3 degrees across on the sky. Its light comes from HD 206267, a hot and massive O-type star close to the nebula's centre. That star lies just beyond the top edge of the picture, so it does not appear here.",
    "An emission nebula glows because intense light from hot stars energises its gas. Dense clouds like the Elephant Trunk resist that light for longer than the thinner gas around them, so they stand out as dark shapes silhouetted against the glow."
   ],
   "explore": [
@@ -618,12 +618,12 @@
   "caption": "The Omega Nebula (M17), imaged by the WIYN 0.9-meter Telescope",
   "captureDate": null,
   "story": [
-   "This wide view shows M17 in Sagittarius, a nebula with many informal names: it is called the Omega, the Swan and the Lobster Nebula, among others. It ranks among the biggest and brightest regions of star formation in our galaxy.",
+   "This wide view shows M17 in Sagittarius, a nebula with many informal names, among them the Omega, the Swan and the Lobster Nebula. It ranks among the biggest and brightest regions of star formation in our galaxy.",
    "Being so large and bright, M17 was one of the earliest nebulae ever found, discovered back in 1745. Its hydrogen gas glows with a distinctive red colour, energised by hot, massive blue stars buried within the cloud.",
    "Nebulae like this are stellar nurseries. When young, massive stars switch on, their intense ultraviolet light strips electrons from the surrounding hydrogen atoms. As the atoms recapture those electrons, they give off light at particular colours, which is why such clouds glow. The same stars also carve and sculpt the gas around them, shaping the nebula as it evolves."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's WIYN 0.9-meter Telescope. In this view, north points left."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's WIYN 0.9-meter Telescope. North points left."
   ],
   "understand": {
    "summary": "The WIYN 0.9-meter Telescope's Mosaic camera used three narrowband filters. Hydrogen-alpha is shown in orange, oxygen [O III] in green and sulphur [S II] in blue.",
@@ -638,16 +638,16 @@
   "caption": "The planetary nebula PuWe 1, imaged by the Mayall 4-meter Telescope",
   "captureDate": null,
   "story": [
-   "This wide-field image shows PuWe 1 in the constellation Lynx, one of the biggest and faintest planetary nebulae known. Despite the name, a planetary nebula has nothing to do with planets: the term dates from early telescopes, when some of these round glowing clouds looked a little like planetary discs.",
+   "This wide-field image shows PuWe 1 in the constellation Lynx, one of the biggest and faintest planetary nebulae known. Despite the name, a planetary nebula has nothing to do with planets. The term dates from early telescopes, when some of these round glowing clouds looked a little like planetary discs.",
    "PuWe 1 formed when a red giant star shed its outer layers as it neared its death. What remains of the star's core, a white dwarf, energises the expelled gas and makes it glow.",
    "Its faintness comes from its size. As a planetary nebula expands, its gas moves further and further from the white dwarf that powers it, and it grows dimmer. Over time such nebulae spread out and fade, eventually mixing into the gas between the stars."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points left."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points left."
   ],
   "understand": {
    "summary": "The Mayall 4-meter Telescope's Mosaic camera used two narrowband filters. Hydrogen-alpha is shown in red and oxygen [O III] in blue.",
-   "eye": "The nebula is far too faint for the eye; narrow filters and long exposures on a large telescope bring it out."
+   "eye": "The nebula is far too faint for the eye. Narrow filters and long exposures on a large telescope bring it out."
   },
   "scaleExtra": null,
   "alt": "A large, faint nebula of glowing gas spread across a star field.",
@@ -660,10 +660,10 @@
   "story": [
    "A reflection nebula perches on top of a dark Bok globule in this image of vdB 152, also known as Barnard 175, in the constellation Cepheus. Thin red filaments run through the upper-right corner.",
    "A reflection nebula shines by starlight scattered off dust, while a Bok globule is a dense, dark cloud of gas and dust that can hide forming stars. Embedded in the upper-right side of vdB 152 is the Herbig-Haro object HH 450, a jet shot out by a newly forming star.",
-   "Those red filaments in the corner are the remains of a supernova explosion. Whether that remnant will eventually crash into vdB 152 is not yet clear. The scene brings together the very start of a star's life, in the young jet, and the violent end of another, in the supernova debris."
+   "Those red filaments in the corner are the remains of a supernova explosion. Whether that remnant will eventually crash into vdB 152 is not yet clear. The scene therefore holds both a newly forming star, marked by its jet, and the debris of a star that has already exploded."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points down."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points down."
   ],
   "understand": {
    "summary": "The Mosaic camera on the Mayall 4-meter Telescope used four filters. B is shown in blue, V in green, I in yellow and hydrogen-alpha in red.",
@@ -678,7 +678,7 @@
   "caption": "The young star cluster Cep OB 3b, imaged by the WIYN 0.9-meter Telescope",
   "captureDate": null,
   "story": [
-   "Cep OB 3b is a rich, young star cluster in the northern constellation Cepheus. The brightest yellow star near the centre of this image is not a member: it is a foreground star that happens to sit between us and the cluster.",
+   "Cep OB 3b is a rich, young star cluster in the northern constellation Cepheus. The brightest yellow star near the centre of this image is not a member but a foreground star that happens to sit between us and the cluster.",
    "The cluster's own bright stars are young and massive. They heat the surrounding gas and dust and blow out hollow cavities in the cloud.",
    "Around these heavyweights are thousands of smaller young stars. Some of them may be in the middle of forming planetary systems. Young stars are often born surrounded by discs of gas and dust, the material from which planets can eventually assemble, so a cluster like this is a natural laboratory for studying how stars and planets begin."
   ],
@@ -686,7 +686,7 @@
    "Kitt Peak's 0.9 meter telescope supplied the four separate filtered exposures combined here. The image credit names T.A. Rector of the University of Alaska Anchorage and T. Allen of the University of Toledo."
   ],
   "understand": {
-   "summary": "The WIYN 0.9-meter Telescope's Mosaic camera used four filters: blue shown as blue, visual as cyan, near-infrared as orange, and a hydrogen emission line as red.",
+   "summary": "The WIYN 0.9-meter Telescope's Mosaic camera used four filters, with blue shown as blue, visual as cyan, near-infrared as orange, and a hydrogen emission line as red.",
    "eye": "The near-infrared filter records light the eye cannot see, and the hydrogen filter isolates the glow of heated gas."
   },
   "scaleExtra": null,
@@ -698,12 +698,12 @@
   "caption": "The northeastern part of IC 1396, imaged by the Mayall 4-meter Telescope",
   "captureDate": null,
   "story": [
-   "This image shows a small section of the northeastern part of IC 1396, a giant emission nebula in Cepheus that spans more than 3 degrees of sky. The slice seen here covers only about 5% of the whole nebula.",
-   "IC 1396 gets its glow from HD 206267, a hot and massive O-type star close to the nebula's centre. That star falls just outside the top edge of this frame, so it is not visible here.",
+   "This image shows a small section of the northeastern part of IC 1396, a giant emission nebula in Cepheus that spans more than 3 degrees of sky. The slice covers only about 5% of the whole nebula.",
+   "IC 1396 gets its glow from HD 206267, a hot and massive O-type star close to the nebula's centre. That star falls just outside the top edge of the picture.",
    "An emission nebula is a cloud of gas that shines because intense ultraviolet light from nearby hot stars energises it. The gas then releases that energy as light at particular colours, with hydrogen and sulphur each giving off their own characteristic glow. Narrow filters that isolate those colours let astronomers see where each gas is shining and how the cloud is structured."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points left. The same gallery holds images of other parts of IC 1396."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points left. The same gallery holds images of other parts of IC 1396."
   ],
   "understand": {
    "summary": "The Mayall 4-meter Telescope's Mosaic camera used two narrowband filters. Hydrogen-alpha is shown in red and sulphur [S II] in blue.",
@@ -722,10 +722,10 @@
   "story": [
    "The bluish interior of Sh2-290 comes from energised oxygen atoms, and one side of the nebula is noticeably brighter than the rest. This is an ancient planetary nebula in the constellation Cancer.",
    "A planetary nebula forms when a star of low mass throws off its outer layers as it dies. Sh2-290 is among the largest planetary nebulae known.",
-   "Its lopsided brightness has an explanation: on that side, the nebula is running into the thin interstellar gas around it, and the collision makes it glow more strongly. Old planetary nebulae like this one have had time to expand a long way, so their surroundings play a bigger part in shaping them. Different elements in the gas each glow at their own colours, which is how the oxygen in the interior can be picked out."
+   "Its lopsided brightness comes from the nebula running into the thin interstellar gas on that side, and the collision makes it glow more strongly. Old planetary nebulae like this one have had time to expand a long way, so their surroundings play a bigger part in shaping them. Different elements in the gas each glow at their own colours, which is how the oxygen in the interior can be picked out."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points left."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points left."
   ],
   "understand": {
    "summary": "The Mayall 4-meter Telescope's Mosaic camera used three narrowband filters. Hydrogen-alpha is shown in red, sulphur [S II] in cyan and oxygen [O III] in blue.",
@@ -740,12 +740,12 @@
   "caption": "The Wolf-Rayet star WR 134 and its blue arc, imaged by the Mayall 4-meter Telescope",
   "captureDate": null,
   "story": [
-   "The brightest star below the centre of this image is WR 134, and in the upper left curves a blue arc of gas. WR 134 is a Wolf-Rayet star: a very hot, massive star that is shedding its outer layers.",
+   "The brightest star below the centre of this image is WR 134, and in the upper left curves a blue arc of gas. WR 134 is a Wolf-Rayet star, a very hot, massive star that is shedding its outer layers.",
    "Those layers stream away from the star at very high speeds. Part of the ejected material shows up as the blue arc, which formed where the star's outer layer slammed into the nebula already surrounding it.",
    "Massive stars live fast and short lives, and they return large amounts of material to space. Structures like this arc show that process in action, as outflowing gas sweeps up and shapes the clouds that surround the star, long before it reaches the end of its life."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points left."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points left."
   ],
   "understand": {
    "summary": "The Mayall 4-meter Telescope's Mosaic camera used two narrowband filters. Hydrogen-alpha is shown in red and sulphur [S II] in blue.",
@@ -764,10 +764,10 @@
   "story": [
    "At the centre of this wide-field view shines the bright star WR 136, wrapped in the glowing shell of the Crescent Nebula, also known as NGC 6888. It lies in the constellation Cygnus, the Swan.",
    "The nebula is a shell of gas energised by the powerful stellar wind blowing from WR 136. That star is a Wolf-Rayet star, one of a class of very hot, massive stars that are casting off their outer layers.",
-   "A stellar wind is a stream of particles flowing out from a star. In Wolf-Rayet stars it is especially intense, and it can sweep surrounding gas into a shell and make it glow. The Crescent is a striking example of a massive star reshaping its surroundings."
+   "A stellar wind is a stream of particles flowing out from a star. In Wolf-Rayet stars it is especially intense, and it can sweep surrounding gas into a shell and make it glow. The Crescent is a clear example of a massive star reshaping its surroundings."
   ],
   "explore": [
-   "The image was made with the NOAO Mosaic CCD camera on the National Science Foundation's 0.9-meter telescope at Kitt Peak. In this view, north points down."
+   "The image was made with the NOAO Mosaic CCD camera on the National Science Foundation's 0.9-meter telescope at Kitt Peak. North points down."
   ],
   "understand": {
    "summary": "The picture combines three emission-line images from the 0.9-meter telescope's Mosaic camera. Hydrogen-alpha is shown in red, oxygen [O III] in blue and sulphur [S II] in yellow.",
@@ -783,15 +783,15 @@
   "captureDate": null,
   "story": [
    "Hartl-Dengel-Weinberger 3, or HDW 3, is a large and ancient planetary nebula in the constellation Perseus, with a distinctive braided shape. The star that produced it is the faint bluish one just below and right of the bright star near the image centre.",
-   "A planetary nebula is the gas cast off by a dying star of modest mass. HDW 3's braids are thought to come from motion: as the nebula travels through the galaxy, it collides with the interstellar gas around it, and that collision twists and shapes the glowing material.",
-   "Older planetary nebulae like this one have expanded and thinned out, which makes them more easily reshaped by their surroundings. The bright star near the centre is not the source of the nebula; the true parent is its fainter neighbour."
+   "A planetary nebula is the gas cast off by a dying star of modest mass. HDW 3's braids are thought to come from motion. As the nebula travels through the galaxy, it collides with the interstellar gas around it, and that collision twists and shapes the glowing material.",
+   "Older planetary nebulae like this one have expanded and thinned out, which makes them more easily reshaped by their surroundings. The bright star near the centre is not the source of the nebula. The true parent is its fainter neighbour."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points up."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points up."
   ],
   "understand": {
    "summary": "The Mayall 4-meter Telescope's Mosaic camera used two narrowband filters. Hydrogen-alpha is shown in red and oxygen [O III] in blue.",
-   "eye": "The nebula is too faint for the eye; narrow filters and long exposures reveal its braided structure."
+   "eye": "The nebula is too faint for the eye. Narrow filters and long exposures reveal its braided structure."
   },
   "scaleExtra": null,
   "alt": "A faint, braided nebula with a bright star near the centre and a faint bluish star just below and to its right.",
@@ -807,11 +807,11 @@
    "An open cluster is a loose group of stars born together from the same cloud. The Pleiades also go by other names. They are often called the Seven Sisters, and in Japan the cluster is called Subaru."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on the WIYN 0.9-meter telescope at Kitt Peak, Arizona. In this view, north points right."
+   "The picture was made with the wide-field Mosaic camera on the WIYN 0.9-meter telescope at Kitt Peak, Arizona. North points right."
   ],
   "understand": {
    "summary": "The WIYN 0.9-meter Telescope's Mosaic camera used three filters. B is shown in blue, V in green and I in red.",
-   "eye": "The naked eye sees the cluster's bright stars, but the faint blue dust haze shows up only in long exposures; the I filter also records near-infrared light the eye cannot see."
+   "eye": "The naked eye sees the cluster's bright stars, but the faint blue dust haze shows up only in long exposures. The I filter also records near-infrared light the eye cannot see."
   },
   "scaleExtra": null,
   "alt": "A cluster of bright stars surrounded by blue haze.",
@@ -831,7 +831,7 @@
   ],
   "understand": {
    "summary": "The Mosaic camera on the Mayall 4-meter Telescope used four filters. B is shown in blue, V in green, I in orange and hydrogen-alpha in red.",
-   "eye": "The faint tidal tail is far too dim for the eye; long exposures on a large telescope reveal it, and the I filter records near-infrared light we cannot see."
+   "eye": "The faint tidal tail is far too dim for the eye. Long exposures on a large telescope reveal it, and the I filter records near-infrared light we cannot see."
   },
   "scaleExtra": null,
   "alt": "An edge-on spiral galaxy with a warped disc and a faint blue streak extending to the upper-left corner.",
@@ -847,11 +847,11 @@
    "Small central black holes like this interest astronomers because they may help show how such objects grow and how they relate to the galaxies around them. A faint, diffuse galaxy with a modest core offers a very different case from the big, bright spirals that are more commonly studied."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points down."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points down."
   ],
   "understand": {
    "summary": "The Mosaic camera on the Mayall 4-meter Telescope used four filters. B is shown in blue, V in green, I in orange and hydrogen-alpha in red.",
-   "eye": "A galaxy this faint and diffuse would be almost impossible to see by eye; long exposures on a large telescope bring out its disc."
+   "eye": "A galaxy this faint and diffuse would be almost impossible to see by eye. Long exposures on a large telescope bring out its disc."
   },
   "scaleExtra": null,
   "alt": "A faint spiral galaxy with a small, dim centre.",
@@ -864,10 +864,10 @@
   "story": [
    "A bluish bowshock curves ahead of this nebula while a red trail of gas stretches out behind it. This is HFG1, a planetary nebula in the constellation Cassiopeia.",
    "HFG1 was produced by V664 Cas, a binary star system that is racing through our Galaxy. In this image the system is heading towards the upper right.",
-   "As the nebula ploughs through the interstellar medium, the thin gas between the stars, it builds up a bowshock at its front, much like the wave that forms at the bow of a moving boat. Behind, it leaves a red trail of gas in its wake. The result is a planetary nebula shaped not only by the dying star but also by its rapid journey through its surroundings, a reminder that these objects do not sit still."
+   "As the nebula ploughs through the interstellar medium, the thin gas between the stars, it builds up a bowshock at its front, much like the wave that forms at the bow of a moving boat. Behind, it leaves a red trail of gas in its wake. Its shape therefore comes both from the dying star that produced it and from its rapid journey through the surrounding gas."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points down."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points down."
   ],
   "understand": {
    "summary": "The Mayall 4-meter Telescope's Mosaic camera used two narrowband filters. Hydrogen-alpha is shown in red and oxygen [O III] in blue.",
@@ -882,9 +882,9 @@
   "caption": "The Flaming Star, AE Aurigae, and its nebula, imaged by the Kitt Peak 0.9-meter Telescope",
   "captureDate": null,
   "story": [
-   "The bright blue star at the centre of this image is AE Aurigae, in the constellation Auriga, the Charioteer. Around it, gas glows dramatically.",
+   "The bright blue star at the centre of this image is AE Aurigae, in the constellation Auriga, the Charioteer. Gas glows around it.",
    "AE Aurigae is hot and massive, and it pours out enormous amounts of energy. That energy excites the surrounding gas and makes it shine, which is why the star is also nicknamed 'the flaming star'.",
-   "Hot, massive stars give off a lot of ultraviolet light, which can strip electrons from atoms in nearby gas. As the atoms settle back down, they release light at specific colours, and each element produces its own set. This image isolates the glow of hydrogen, oxygen and sulphur separately, then assigns each one a colour, so the result shows where the different gases are shining rather than what the eye would see."
+   "Hot, massive stars give off a lot of ultraviolet light, which can strip electrons from atoms in nearby gas. As the atoms settle back down, they release light at specific colours, and each element produces its own set. The picture isolates the glow of hydrogen, oxygen and sulphur separately, then assigns each one a colour, so the result shows where the different gases are shining rather than what the eye would see."
   ],
   "explore": [
    "The NOAO Mosaic CCD camera captured it on Kitt Peak, mounted on the National Science Foundation's 0.9-meter telescope."
@@ -907,7 +907,7 @@
    "The orange haze to the upper right has a different origin. It comes from the nebula's movement through the disc of our galaxy, as it runs into the gas along its path. Planetary nebulae usually fade and disperse over time, so one this old offers a look at a late stage in the life of these objects, when their surroundings shape them more and more."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points right."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points right."
   ],
   "understand": {
    "summary": "The Mayall 4-meter Telescope's Mosaic camera used two narrowband filters. Hydrogen-alpha is shown in red and oxygen [O III] in blue.",
@@ -922,9 +922,9 @@
   "caption": "The ionisation front in the Pelican Nebula (IC 5070), imaged by the WIYN 0.9-meter Telescope",
   "captureDate": "May 24, 2002",
   "story": [
-   "Pillars of gas rise along a glowing boundary in this view of the Pelican Nebula, IC 5070, in the constellation Cygnus. The Pelican is a giant star-forming region close to us, and this image focuses on its 'ionisation front'.",
+   "Pillars of gas rise along a glowing boundary in this view of the Pelican Nebula, IC 5070, in the constellation Cygnus. The Pelican is a giant star-forming region close to us, and the picture concentrates on its 'ionisation front'.",
    "An ionisation front is the edge where energetic light from hot stars is eating into a cloud of cold gas, stripping electrons from its atoms and making it glow.",
-   "Here, massive stars that formed recently inside the nebula pour out intense ultraviolet radiation. That radiation sculpts the cloud into pillars, eroding the thinner gas and leaving denser clumps standing. Because the Pelican is relatively nearby, it offers a close look at how newborn massive stars reshape the very cloud they grew from."
+   "Massive stars that formed recently inside the nebula pour out intense ultraviolet radiation. That radiation sculpts the cloud into pillars, eroding the thinner gas and leaving denser clumps standing. Because the Pelican is relatively nearby, it offers a close look at how newborn massive stars reshape the very cloud they grew from."
   ],
   "explore": [
    "The KPNO/WIYN 0.9m telescope captured the scene on May 24, 2002. It combines 7x6min exposures in hydrogen-alpha, 4x6min in oxygen and 5x6min in sulphur, and is rotated 135 degrees clockwise from the standard north-up orientation."
@@ -942,19 +942,19 @@
   "caption": "The galaxy trio NGC 5981, NGC 5982 and NGC 5985, imaged by the Mayall 4-meter Telescope",
   "captureDate": null,
   "story": [
-   "Three very different galaxies line up in this image in the constellation Draco. At the top is NGC 5981, seen edge-on; in the middle is the elliptical galaxy NGC 5982; and at the bottom is the spiral galaxy NGC 5985. Together they make a distinct trio.",
-   "An elliptical galaxy is a smooth, rounded collection of stars without spiral arms, while a spiral is a flat disc with arms. An edge-on spiral appears as a thin line because we see its disc side-on.",
+   "Three very different galaxies line up in this image in the constellation Draco. NGC 5981, seen edge-on, is at the top, the elliptical galaxy NGC 5982 is in the middle and the spiral galaxy NGC 5985 is at the bottom.",
+   "An elliptical galaxy is a smooth, rounded collection of stars without spiral arms, while a spiral is a flat disc with arms. An edge-on spiral appears as a thin line because we see its disc from the side, as with NGC 5981.",
    "Whether, or when, these three will merge is not clear. But NGC 5982 already shows evidence that it has recently swallowed at least one smaller galaxy. Mergers are thought to play an important part in how galaxies grow and change shape over time."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points left."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points left."
   ],
   "understand": {
    "summary": "The Mosaic camera on the Mayall 4-meter Telescope used three filters. B is shown in blue, V in green and I in red.",
    "eye": "These galaxies are far too faint for the eye, and the I filter records near-infrared light we cannot see."
   },
   "scaleExtra": null,
-  "alt": "Three galaxies in a line: an edge-on galaxy at the top, an elliptical in the middle and a spiral at the bottom.",
+  "alt": "Three galaxies in a line, with an edge-on galaxy at the top, an elliptical in the middle and a spiral at the bottom.",
   "flags": []
  },
  {
@@ -967,7 +967,7 @@
    "Those red knots and jets are outflows. Young stars often blast narrow jets of gas away from their poles as they grow, and where the jets slam into the surrounding cloud, the gas lights up. Seeing so many outflows here is a sign of an active nursery, with stars at different stages of development sharing the same neighbourhood."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points left."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points left."
   ],
   "understand": {
    "summary": "The Mosaic camera on the Mayall 4-meter Telescope used four filters. B is shown in blue, V in green, I in orange and hydrogen-alpha in red.",
@@ -983,11 +983,11 @@
   "captureDate": null,
   "story": [
    "At the centre of this image sits the open star cluster NGC 6823, wrapped in the diffuse glowing gas of the emission nebula NGC 6820. On the left, distinctive pillar shapes rise from the cloud. The pair lies in the constellation Vulpecula.",
-   "The cluster contains hot, massive stars, and their intense light is blowing the nebula's gas away. The pillars on the left are a product of that process: denser pockets of gas resist the onslaught longer than the thinner material around them, leaving columns standing.",
-   "An emission nebula glows because energetic light from hot stars excites its gas. Here the same stars that make the nebula shine are also slowly dismantling it, a pattern seen in many regions where massive stars have recently formed."
+   "The cluster contains hot, massive stars, and their intense light is blowing the nebula's gas away. The pillars on the left are a product of that process. Denser pockets of gas resist the onslaught longer than the thinner material around them, leaving columns standing.",
+   "An emission nebula glows because energetic light from hot stars excites its gas. In NGC 6820 the same stars that make the nebula shine are also slowly dismantling it, a pattern seen in many regions where massive stars have recently formed."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on the KPNO 0.9-meter telescope at Kitt Peak National Observatory. In this view, north points up."
+   "The picture was made with the wide-field Mosaic camera on the KPNO 0.9-meter telescope at Kitt Peak National Observatory. North points up."
   ],
   "understand": {
    "summary": "The 0.9-meter telescope's Mosaic camera used three narrowband filters. Hydrogen-alpha is shown in red, oxygen [O III] in green and sulphur [S II] in blue.",
@@ -1003,11 +1003,11 @@
   "captureDate": null,
   "story": [
    "Blue nebulosity near the centre of this image sits just above a bright star, and brownish gas surrounds it all. This is vdB 24, a reflection nebula in the constellation Perseus.",
-   "The bright star just below the blue glow is XY Per, a luminous variable star that lights up the nebula. A reflection nebula does not produce its own light; instead, its dust scatters the light of nearby stars. Blue light scatters most easily, which is why such nebulae usually look blue.",
+   "The bright star just below the blue glow is XY Per, a luminous variable star that lights up the nebula. A reflection nebula does not produce its own light. Its dust scatters the light of nearby stars. Blue light scatters most easily, which is why such nebulae usually look blue.",
    "vdB 24 is set inside a much larger dark nebula called LDN 1442, which appears as the brownish gas all around it. Dark nebulae are dense clouds of gas and dust thick enough to block the light of stars behind them, so here a bright patch of reflected starlight is embedded within a dim, shadowy cloud."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points down."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points down."
   ],
   "understand": {
    "summary": "The Mosaic camera on the Mayall 4-meter Telescope used three filters. B is shown in blue, V in green and I in red.",
@@ -1023,11 +1023,11 @@
   "captureDate": null,
   "story": [
    "Red hydrogen gas fills this view of Sh2-282, an HII emission nebula in the constellation Monoceros. Bright blue stars surround the gas, and several pillars are embedded within it.",
-   "An HII region is a cloud in which hydrogen atoms have had their electrons stripped away by energetic light. Here, the intense light of the bright blue stars energises the hydrogen and makes it glow red.",
-   "The pillars tell a story of erosion. Radiation and a strong wind of particles streaming from the brilliant blue star at upper left are sculpting them, wearing away thinner gas and leaving denser columns behind. Massive, hot stars shape their birth clouds in this way in many star-forming regions, and pillars like these are among the most recognisable signs of that process at work."
+   "An HII region is a cloud in which hydrogen atoms have had their electrons stripped away by energetic light. In Sh2-282, the intense light of the bright blue stars energises the hydrogen and makes it glow red.",
+   "The pillars are a product of erosion. Radiation and a strong wind of particles streaming from the brilliant blue star at upper left are sculpting them, wearing away thinner gas and leaving denser columns behind. Massive, hot stars shape their birth clouds in this way in many star-forming regions, and pillars like these are among the most recognisable signs of that process at work."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points up."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points up."
   ],
   "understand": {
    "summary": "The Mosaic camera on the Mayall 4-meter Telescope used three filters. B is shown in blue, I in orange and hydrogen-alpha in red.",
@@ -1047,10 +1047,10 @@
    "Open clusters do not last forever. Over time, gravitational nudges from passing stars and clouds tend to pull their members apart, so the stars gradually drift away and join the general population of the galaxy. Studying clusters of known age like M39 helps astronomers compare how stars of different masses change as they grow older, because all the members started out at roughly the same time."
   ],
   "explore": [
-   "The image combines 33 frames in B, V and R colours taken with the Mosaic camera on Kitt Peak's WIYN 0.9-meter telescope, outside Tucson, Arizona, during one night: September 15th, 2003. The camera uses eight separate CCD chips, so small shifts between exposures, called dithers, fill in the gaps between them."
+   "The image combines 33 frames in B, V and R colours taken with the Mosaic camera on Kitt Peak's WIYN 0.9-meter telescope, outside Tucson, Arizona, during the night of September 15th, 2003. The camera uses eight separate CCD chips, so small shifts between exposures, called dithers, fill in the gaps between them."
   ],
   "understand": {
-   "summary": "The WIYN 0.9-meter Telescope's Mosaic camera took visible-light frames through B, V and R filters. The packet does not say which colour each filter was assigned.",
+   "summary": "The WIYN 0.9-meter Telescope's Mosaic camera took visible-light frames through B, V and R filters. The source does not say which colour each filter was assigned.",
    "eye": "The combined exposures record fainter stars than the eye could pick out, even through a telescope."
   },
   "scaleExtra": "M39 lies about 800 light-years away, according to NOIRLab.",
@@ -1064,14 +1064,14 @@
   "story": [
    "This image shows Sh2-140, an HII emission nebula in the constellation Cepheus. It sits on the southwest edge of a dark nebula called Lynds 1204, and also on the rim of the Cepheus Ring, a ring of molecular gas and dust.",
    "An HII region is a cloud of hydrogen gas whose atoms have been stripped of their electrons by energetic starlight, which makes it glow. Dark nebulae, by contrast, are dense clouds of gas and dust that block the light behind them.",
-   "Hidden in the dark gas in the lower-left corner are about fifty young stars, deeply embedded and invisible in this picture. They cannot be seen in visible light because the surrounding dust absorbs it, which is one reason astronomers often turn to infrared observations to peer into such clouds."
+   "Hidden in the dark gas in the lower-left corner are about fifty young stars, deeply embedded and out of sight. The surrounding dust absorbs their visible light, which is one reason astronomers often turn to infrared observations to peer into such clouds."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points left."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points left."
   ],
   "understand": {
    "summary": "The Mosaic camera on the Mayall 4-meter Telescope used three filters. B is shown in blue, I in orange and hydrogen-alpha in red.",
-   "eye": "Even with these filters, the dust hides the young stars in the lower-left corner; the I filter reaches near-infrared light the eye cannot see."
+   "eye": "Even with these filters, the dust hides the young stars in the lower-left corner. The I filter reaches near-infrared light the eye cannot see."
   },
   "scaleExtra": null,
   "alt": "A glowing nebula beside dark clouds of gas and dust, which fill the lower-left corner.",
@@ -1083,11 +1083,11 @@
   "captureDate": null,
   "story": [
    "Three gravitationally interacting galaxies make up Arp 286, in the constellation Virgo. The large spiral in the centre is NGC 5566. Below it and to the left lies the small, blue spiral NGC 5569, and at the top is NGC 5560, a spiral that has been pulled out of shape.",
-   "NGC 5560's distortion is presumably caused by the gravity of NGC 5569. When galaxies pass close to one another, their mutual pull can stretch, warp or twist their discs.",
+   "NGC 5560's distortion is presumably caused by the gravity of NGC 5569. When galaxies pass close to one another, their mutual pull can warp and twist their discs.",
    "Galaxies that are close neighbours can pull material out of each other, bend their arms and sometimes trigger new star formation. Groups of neighbouring galaxies tugging on each other give astronomers a chance to watch, in a single snapshot, how gravity can reshape galaxies over time."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points left."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points left."
   ],
   "understand": {
    "summary": "The Mosaic camera on the Mayall 4-meter Telescope used three filters. B is shown in blue, V in green and I in red.",
@@ -1104,10 +1104,10 @@
   "story": [
    "A blue, two-lobed nebula is embedded in a vast red glow in this image in Cepheus. The blue structure is Outters 4, a bipolar nebula, and the red is Sh2-129, a giant HII emission nebula.",
    "A bipolar nebula has two lobes extending in opposite directions, often shaped by outflows of gas. An HII region is a cloud of hydrogen whose atoms have been stripped of electrons by strong starlight, making it glow.",
-   "Outters 4 is named after Nicolas Outters, the amateur astronomer who discovered it, a reminder that amateurs still find new objects in the sky. Its origin remains open: it is not yet clear whether it is linked to HR 8119, the bright star at the centre of the image. Answering that question would help explain what created the lobes."
+   "Outters 4 is named after Nicolas Outters, the amateur astronomer who discovered it. Its origin remains uncertain, and it is not yet clear whether it is linked to HR 8119, the bright star at the centre of the image. Answering that question would help astronomers explain what created the lobes."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points up."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points up."
   ],
   "understand": {
    "summary": "The Mayall 4-meter Telescope's Mosaic camera used two narrowband filters. Hydrogen-alpha is shown in red and sulphur [S II] in blue.",
@@ -1127,7 +1127,7 @@
    "What gives Sh2-260 its twisted, two-lobed form is unknown. One possibility is that it is connected to the giant lambda Orionis molecular region lying just to the east. Molecular clouds are cold, dense reservoirs of gas where stars can form, and a large neighbour could plausibly influence the nebula's shape, although this remains an open question."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points up."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points up."
   ],
   "understand": {
    "summary": "The Mosaic camera on the Mayall 4-meter Telescope used three filters. B is shown in blue, I in orange and hydrogen-alpha in red.",
@@ -1149,7 +1149,7 @@
    "Photographing one is a challenge. The core is so bright that a single long exposure would wash it out, while the outer stars are much fainter. To avoid overexposing the centre, many short exposures were taken and combined. That approach lets the image show individual stars in the outskirts without the middle becoming a featureless blaze. Because their stars are so old, globular clusters are valued as relics from an early era of our galaxy."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points left."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points left."
   ],
   "understand": {
    "summary": "The Mosaic camera on the Mayall 4-meter Telescope used three filters. B is shown in blue, V in green and I in red.",
@@ -1169,7 +1169,7 @@
    "Spiral arms are where much of a galaxy's star formation happens. Massive stars form there, burn through their fuel quickly and explode, seeding the surrounding gas with new material that can go into future generations of stars. In NGC 6946 this cycle appears to be especially busy."
   ],
   "explore": [
-   "The image was taken with the wide-field Mosaic camera on Kitt Peak National Observatory's Nicholas U. Mayall 4-meter Telescope on September 5th, 2008. In this view, north points left."
+   "The image was taken with the wide-field Mosaic camera on Kitt Peak National Observatory's Nicholas U. Mayall 4-meter Telescope on September 5th, 2008. North points left."
   ],
   "understand": {
    "summary": "The Mosaic camera on the Mayall 4-meter Telescope observed in five filters. U is shown as violet, B as blue, V as green, I as orange and hydrogen-alpha as red.",
@@ -1192,8 +1192,8 @@
    "Beyond the broadband U, B, V, R and I filters, the survey also collected images through filters centred on emission lines from hydrogen (H-alpha), sulphur [S II] and oxygen [O III]."
   ],
   "understand": {
-   "summary": "This is a true-colour combination of images taken through three of the survey's filters with the Mosaic II camera on the Blanco 4-meter Telescope. The packet does not say which three filters were used.",
-   "eye": "The galaxy is far too faint for the unaided eye; a large telescope and long exposures reveal its stars."
+   "summary": "This is a true-colour combination of images taken through three of the survey's filters with the Mosaic II camera on the Blanco 4-meter Telescope. The source does not say which three filters were used.",
+   "eye": "The galaxy is far too faint for the unaided eye. A large telescope and long exposures reveal its stars."
   },
   "scaleExtra": null,
   "alt": "The WLM dwarf galaxy as recorded for the Local Group Survey.",
@@ -1206,12 +1206,12 @@
   "caption": "The spiral galaxies NGC 5905 and NGC 5908, imaged by the Mayall 4-meter Telescope",
   "captureDate": "April 10, 2007",
   "story": [
-   "Two spiral galaxies share this view in the constellation Draco. In the upper-right corner, NGC 5905 faces us directly; in the lower left, NGC 5908 is turned edge-on. The two are relatively close to each other in space.",
-   "The contrast shows how much our viewing angle matters. A face-on spiral displays its arms like a pinwheel, while an edge-on spiral appears as a narrow band, often crossed by a lane of dust. NGC 5908 bears a striking resemblance to M104, the famous Sombrero Galaxy.",
-   "Scattered across the image are many bright, reddish stars. These have nothing to do with the two galaxies; they belong to our own Milky Way and simply lie in the foreground, between us and the distant galaxies."
+   "Two spiral galaxies share this view in the constellation Draco. NGC 5905, in the upper-right corner, faces us directly, while NGC 5908 in the lower left is turned edge-on. The two are relatively close to each other in space.",
+   "The contrast shows how much our viewing angle matters. A face-on spiral displays its arms like a pinwheel, while an edge-on spiral appears as a narrow band, often crossed by a lane of dust. NGC 5908 closely resembles M104, the famous Sombrero Galaxy.",
+   "Scattered across the image are many bright, reddish stars. These stars have nothing to do with the two galaxies. They belong to our own Milky Way and simply lie in the foreground, between us and the much more distant galaxies."
   ],
   "explore": [
-   "The KPNO Mayall 4-meter telescope captured the scene on April 10, 2007. In this view, north points up."
+   "The KPNO Mayall 4-meter telescope captured the scene on April 10, 2007. North points up."
   ],
   "understand": {
    "summary": "The Mosaic camera on the Mayall 4-meter Telescope used three filters. B is shown in blue, V in green and I in red.",
@@ -1226,12 +1226,12 @@
   "caption": "The Cocoon Nebula (Sh2-82), imaged by the Mayall 4-meter Telescope",
   "captureDate": null,
   "story": [
-   "A small red glow sits inside a blue haze, and a long lane of dust cuts diagonally across the frame. This is Sh2-82 in the constellation Sagitta, which goes by two informal names: the Cocoon Nebula and the 'little Trifid Nebula'.",
+   "A small red glow sits inside a blue haze, and a long lane of dust cuts diagonally across the frame. This is Sh2-82 in the constellation Sagitta, which is informally known as both the Cocoon Nebula and the 'little Trifid Nebula'.",
    "Sh2-82 is a fairly small emission nebula, the red part, surrounded by a blue reflection nebula. The two kinds of nebula shine for different reasons. An emission nebula glows because hot stars energise its gas, while a reflection nebula shines by starlight bouncing off dust grains, which scatter blue light most readily.",
    "The dark diagonal dust lane hides most of the stars that lie beyond it, which is why the star field looks thinner along its path. Dust like this is common in star-forming regions of our galaxy, where it both hides and helps build new stars."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points right."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points right."
   ],
   "understand": {
    "summary": "The Mosaic camera on the Mayall 4-meter Telescope used four filters. B is shown in blue, V in green, I in orange and hydrogen-alpha in red.",
@@ -1248,10 +1248,10 @@
   "story": [
    "Sharpless 112, an emission nebula in the constellation Cygnus, glows a deep red in this image. Its colour comes from hydrogen gas that has been energised by a star embedded within the nebula, known as BD +45 3216.",
    "That star is far more massive than our Sun and gives off huge quantities of ultraviolet light. The ultraviolet light is what makes the surrounding gas shine.",
-   "Here is how the process works. Ultraviolet light carries enough energy to knock electrons off hydrogen atoms. When the atoms capture electrons again, they release light at particular wavelengths, and one of the strongest of these is a deep red line called hydrogen-alpha. That is why so many emission nebulae, including this one, look red in images that include a hydrogen-alpha filter."
+   "Ultraviolet light carries enough energy to knock electrons off hydrogen atoms. When the atoms capture electrons again, they release light at particular wavelengths, and one of the strongest of these is a deep red line called hydrogen-alpha. That is why so many emission nebulae, including this one, look red in images that include a hydrogen-alpha filter."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points right."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points right."
   ],
   "understand": {
    "summary": "The Mosaic camera on the Mayall 4-meter Telescope used three filters. B is shown in blue, I in orange and hydrogen-alpha in red.",
@@ -1271,10 +1271,10 @@
    "Star-forming clouds like this collapse under gravity into dense clumps that ignite as stars. Once massive stars switch on, their light and winds begin to shape and clear the surrounding gas. Despite how often it is photographed, the nebula's distance from the Solar System is still debated."
   ],
   "explore": [
-   "Estimates of the Trifid's distance range widely, which is a reminder of how difficult it can be to measure how far away objects in our own galaxy are."
+   "Estimates of the Trifid's distance range widely, because it can be difficult to measure how far away objects in our own galaxy are."
   ],
   "understand": {
-   "summary": "The Gemini Multi-Object Spectrograph (GMOS) on Gemini North recorded this through g, r and z filters, covering visible and near-infrared light. The packet does not say which colour each filter was assigned.",
+   "summary": "The Gemini Multi-Object Spectrograph (GMOS) on Gemini North recorded this through g, r and z filters, covering visible and near-infrared light. The source does not say which colour each filter was assigned.",
    "eye": "The z filter reaches into near-infrared light beyond the eye's range, and an 8-meter telescope collects far more light than the eye."
   },
   "scaleExtra": "The Trifid Nebula's distance is disputed but generally agreed to be somewhere between 2,200 and 9,000 light-years, according to Gemini Observatory.",
@@ -1294,8 +1294,8 @@
    "The image was obtained in late 2006 using the Mayall 4-meter telescope and its 64-megapixel Mosaic-1 digital imager, and it was the subject of an NOAO press release."
   ],
   "understand": {
-   "summary": "The Mosaic-1 imager on the Mayall 4-meter Telescope recorded this through B, V, I and hydrogen-alpha filters. The packet does not say which colour each filter was assigned.",
-   "eye": "The galaxy is far too faint to see this way by eye; long exposures reveal its arms, and the I filter records near-infrared light."
+   "summary": "The Mosaic-1 imager on the Mayall 4-meter Telescope recorded this through B, V, I and hydrogen-alpha filters. The source does not say which colour each filter was assigned.",
+   "eye": "The galaxy is far too faint to see this way by eye. Long exposures reveal its arms, and the I filter records near-infrared light."
   },
   "scaleExtra": "IC 342 is located roughly 11 million light-years from Earth, according to NOIRLab.",
   "alt": "A face-on spiral galaxy with arms spreading around its centre.",
@@ -1314,7 +1314,7 @@
    "The image was made by Jeff Hapeman with Adam Block through the Advanced Observing Program at the Kitt Peak Visitor Center, in 2014."
   ],
   "understand": {
-   "summary": "This is a visible-light image taken with a CCD camera at the Kitt Peak Visitor Center's roll-off-roof observatory, using several broadband filters. The packet does not say which colour each filter was assigned.",
+   "summary": "This is a visible-light image taken with a CCD camera at the Kitt Peak Visitor Center's roll-off-roof observatory, using several broadband filters. The source does not say which colour each filter was assigned.",
    "eye": "Long camera exposures gather far more light than the eye can, bringing out the colours of its star-forming regions."
   },
   "scaleExtra": "M66 is estimated to be 35 million light-years away, according to NOIRLab.",
@@ -1331,7 +1331,7 @@
    "A dark nebula is a cloud dense enough to block the light of stars behind it, so it looks like a shadow against the starry background. Such clouds are cold and full of dust, the kind of environment where gravity can pull material together into new stars. As the cloud breaks up, each fragment may give rise to its own stars."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points left."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points left."
   ],
   "understand": {
    "summary": "The Mosaic camera on the Mayall 4-meter Telescope used four filters. B is shown in blue, V in cyan, I in orange and hydrogen-alpha in red.",
@@ -1346,16 +1346,16 @@
   "caption": "The planetary nebula Abell 74, imaged by the Mayall 4-meter Telescope",
   "captureDate": null,
   "story": [
-   "Abell 74, in the constellation Vulpecula, is an ancient planetary nebula, and its age makes it a very faint target.",
+   "Abell 74, in the constellation Vulpecula, is an ancient planetary nebula, and its great age makes it a very faint target to observe.",
    "A planetary nebula is the shell of gas thrown off by a dying Sun-like star. Over time, the shell expands and thins out, and it grows dimmer as it spreads further from the star that lights it.",
-   "Old planetary nebulae are often bent out of shape, because as they drift through space they collide with the interstellar medium, the thin gas between the stars. Abell 74 is a surprise: in spite of its age, it is remarkably symmetric. That makes it an intriguing object, since it seems to have kept its shape where many others of its age have been distorted by their surroundings."
+   "Old planetary nebulae are often bent out of shape, because as they drift through space they collide with the interstellar medium, the thin gas between the stars. Abell 74 is unusual because it has stayed highly symmetric in spite of its age. It seems to have kept its round shape where many others of its age have been distorted by their surroundings."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points left."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points left."
   ],
   "understand": {
    "summary": "The Mayall 4-meter Telescope's Mosaic camera used two narrowband filters. Hydrogen-alpha is shown in red and oxygen [O III] in blue.",
-   "eye": "The nebula is too faint for the eye; narrow filters and long exposures bring out its glow."
+   "eye": "The nebula is too faint for the eye. Narrow filters and long exposures bring out its glow."
   },
   "scaleExtra": null,
   "alt": "A faint, symmetric nebula of glowing gas in a star field.",
@@ -1373,7 +1373,7 @@
    "Over time, the light and winds from the cluster's hottest stars are expected to erode and disperse the surrounding gas. For now, the glowing cloud and its newborn stars share the same space, offering a view of a cluster at an early stage of its life."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points left."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points left."
   ],
   "understand": {
    "summary": "The Mayall 4-meter Telescope's Mosaic camera used three narrowband filters. Hydrogen-alpha is shown in red, oxygen [O III] in blue and sulphur [S II] in orange.",
@@ -1389,7 +1389,7 @@
   "captureDate": "1988",
   "story": [
    "Red filaments, a broader green glow and a faint blue outer region make up this false-colour view of the Dumbbell Nebula, M27 or NGC 6853, in the constellation Vulpecula. Its central blue star is only just visible.",
-   "The Dumbbell is a planetary nebula. Its central star is still ionising the gas around it, stripping electrons from atoms and making it glow. The name 'planetary nebula' is now a historical curiosity: astronomers now regard these nebulae as an ordinary phase in the lives of stars, when significant material is returned to interstellar space, and they have nothing to do with forming planets.",
+   "The Dumbbell is a planetary nebula. Its central star is still ionising the gas around it, stripping electrons from atoms and making it glow. The name 'planetary nebula' is now a historical curiosity. Astronomers now regard these nebulae as an ordinary phase in the lives of stars, when significant material is returned to interstellar space, and they have nothing to do with forming planets.",
    "The nebula's distance and size are not known very accurately, because it is inherently very hard to measure how far away any planetary nebula is."
   ],
   "explore": [
@@ -1414,7 +1414,7 @@
   ],
   "explore": [],
   "understand": {
-   "summary": "DECam on the Blanco 4-meter Telescope recorded this through g, r and z filters, spanning visible and near-infrared light. The packet does not say which colour each filter was assigned.",
+   "summary": "DECam on the Blanco 4-meter Telescope recorded this through g, r and z filters, spanning visible and near-infrared light. The source does not say which colour each filter was assigned.",
    "eye": "The z band reaches into near-infrared light beyond the eye's range, and the survey camera records galaxies far too faint to see by eye."
   },
   "scaleExtra": null,
@@ -1433,7 +1433,7 @@
    "The red glow around the funnel comes from hydrogen gas. When hydrogen is energised by strong starlight, it gives off light at a deep red wavelength, which the hydrogen-alpha filter used here is designed to capture. The combination of a lit-up dark cloud and a glowing red backdrop shows two very different ways that gas and dust in our galaxy can become visible."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points up."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points up."
   ],
   "understand": {
    "summary": "The Mosaic camera on the Mayall 4-meter Telescope used four filters. B is shown in blue, V in green, I in orange and hydrogen-alpha in red.",
@@ -1455,7 +1455,7 @@
    "Once massive stars form, their intense light energises the surrounding gas and makes it glow, which is why star-forming regions often stand out in red hydrogen light. Massive stars are relatively rare and short-lived, so places where they are being born are important for understanding how galaxies build up their stars and how those stars shape the clouds around them."
   ],
   "explore": [
-   "The image was taken on January 11th, 2012 at Cerro Tololo Inter-American Observatory, using the Blanco 4-meter telescope's wide-field Mosaic II camera. In this view, north points right."
+   "The image was taken on January 11th, 2012 at Cerro Tololo Inter-American Observatory, using the Blanco 4-meter telescope's wide-field Mosaic II camera. North points right."
   ],
   "understand": {
    "summary": "The Blanco 4-meter Telescope's Mosaic II camera used two narrowband filters. Sulphur [S II] is shown in blue and hydrogen-alpha in red.",
@@ -1472,10 +1472,10 @@
   "story": [
    "Complex, wispy structures fill this view of Sh2-114, an unusual HII emission nebula in the constellation Cygnus.",
    "An HII region is a cloud of hydrogen gas whose atoms have been stripped of electrons by the energetic light of hot stars, which makes the gas glow. Most are shaped by the stars that light them, but Sh2-114 has a particularly tangled appearance.",
-   "Its wispy form probably arises as winds blowing from hot, massive stars interact with magnetic fields in the interstellar medium, the thin gas between the stars. Beyond that, very little is known about this nebula. Magnetic fields cannot be seen directly, but they can guide the flow of charged gas, and in nebulae like this they may help explain why the glowing material forms such intricate strands. For now, Sh2-114 remains something of a puzzle."
+   "Its wispy form probably arises as winds blowing from hot, massive stars interact with magnetic fields in the interstellar medium, the thin gas between the stars. Beyond that, very little is known about this nebula. Magnetic fields cannot be seen directly, but they can guide the flow of charged gas, and in nebulae like this they may help explain why the glowing material forms such intricate strands."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points left."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points left."
   ],
   "understand": {
    "summary": "The Mayall 4-meter Telescope's Mosaic camera used two narrowband filters. Hydrogen-alpha is shown in red and oxygen [O III] in blue.",
@@ -1497,7 +1497,7 @@
    "Stars like these pour out intense light that energises the surrounding gas and makes the emission nebula glow. Where that light meets the edge of a dense, dark cloud, the boundary is brightly lit while the interior stays in shadow. Over time, such radiation can erode dense clouds, gradually reshaping them."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points left."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points left."
   ],
   "understand": {
    "summary": "The Mosaic camera on the Mayall 4-meter Telescope used three filters. Hydrogen-alpha is shown in red, sulphur [S II] in blue and I in orange.",
@@ -1514,7 +1514,7 @@
   "story": [
    "Two very different galaxies occupy opposite corners of this image in the constellation Virgo. In the upper left is NGC 5363, an elliptical galaxy, and in the lower right is NGC 5364, a spiral.",
    "An elliptical galaxy is a smooth, rounded collection of mostly older stars with little of the gas and dust needed to make new ones. A spiral galaxy, by contrast, is a flattened disc with arms that wind out from the centre, where much of its star formation takes place.",
-   "These two are likely in the early stages of a gravitational interaction. As galaxies draw closer, their mutual pull can distort their shapes and stir up gas. Pairs like this one give astronomers a chance to see how interactions begin, long before any dramatic merger."
+   "These two are likely in the early stages of a gravitational interaction. As galaxies draw closer, their mutual pull can distort their shapes and stir up gas. Pairs like this one give astronomers a chance to see how interactions begin, long before any merger."
   ],
   "explore": [
    "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. The image is rotated 15 degrees clockwise from an orientation with north to the left."
@@ -1539,11 +1539,11 @@
    "A molecular cloud is a cold, dense reservoir of gas and dust, the kind of place where new stars can form. Reflection nebulae like this one show where dust is present and lit by nearby stars. Clouds like the Taurus Molecular Cloud are important places for studying how young stars take shape inside their dusty birthplaces."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points down."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points down."
   ],
   "understand": {
    "summary": "The Mosaic camera on the Mayall 4-meter Telescope used three filters. B is shown in blue, V in green and I in red.",
-   "eye": "The dusty cloud is too faint for the eye; long exposures reveal it, and the I filter records near-infrared light we cannot see."
+   "eye": "The dusty cloud is too faint for the eye. Long exposures reveal it, and the I filter records near-infrared light we cannot see."
   },
   "scaleExtra": null,
   "alt": "Brownish clouds of dust and gas lit by embedded and nearby stars.",
@@ -1556,14 +1556,14 @@
   "story": [
    "Several stars are embedded in vdB 141, a reflection nebula in the constellation Cepheus, and their light gives it a ghoulish brown colour. It is sometimes called the Ghost Nebula.",
    "Its less memorable official name comes from a catalogue. vdB 141 is its number in Sidney van den Bergh's list of reflection nebulae, published in 1966.",
-   "A reflection nebula does not glow on its own. Instead, clouds of dust scatter and reflect the light of nearby stars, so the nebula's colour depends on both the stars and the dust. Because the stars that light vdB 141 are embedded inside it, the dust is illuminated from within rather than from the side. The brownish tint seen here is a reminder that the colour of a reflection nebula is not always blue."
+   "A reflection nebula does not glow on its own. Instead, clouds of dust scatter and reflect the light of nearby stars, so the nebula's colour depends on both the stars and the dust. Because the stars that light vdB 141 are embedded inside it, the dust is illuminated from within rather than from the side. Its brownish tint shows that a reflection nebula need not be blue."
   ],
   "explore": [
-   "The image was taken on August 28, 2009, with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points down."
+   "The image was taken on August 28, 2009, with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points down."
   ],
   "understand": {
-   "summary": "The Mosaic camera on the Mayall 4-meter Telescope recorded this through B, V, I and hydrogen-alpha filters. The packet does not say which colour each filter was assigned.",
-   "eye": "The nebula is too faint for the eye; long exposures reveal its dusty glow, and the I filter records near-infrared light."
+   "summary": "The Mosaic camera on the Mayall 4-meter Telescope recorded this through B, V, I and hydrogen-alpha filters. The source does not say which colour each filter was assigned.",
+   "eye": "The nebula is too faint for the eye. Long exposures reveal its dusty glow, and the I filter records near-infrared light."
   },
   "scaleExtra": null,
   "alt": "A brownish cloud of dust with several stars embedded in it.",
@@ -1581,7 +1581,7 @@
    "Ultraviolet light carries enough energy to knock electrons off hydrogen atoms. When the atoms recapture electrons, they emit light at particular wavelengths, and a strong red line called hydrogen-alpha dominates the glow. That is why emission nebulae so often appear red. Hot, massive stars are young, since they burn through their fuel quickly, so a glowing nebula like this generally signals a region where stars have formed recently. Their light and winds also gradually push the gas around, shaping the nebula over time."
   ],
   "explore": [
-   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. In this view, north points right."
+   "The picture was made with the wide-field Mosaic camera on Kitt Peak National Observatory's Mayall 4-meter telescope. North points right."
   ],
   "understand": {
    "summary": "The Mosaic camera on the Mayall 4-meter Telescope used three filters. B is shown in blue, I in orange and hydrogen-alpha in red.",
@@ -1606,7 +1606,7 @@
    "The image was made by Allan Cook with Adam Block through the Advanced Observing Program at the Kitt Peak Visitor Center, in 2014."
   ],
   "understand": {
-   "summary": "This is a visible-light image taken with a 16-inch RCOS telescope and CCD camera using several broadband filters. The packet does not say which colour each filter was assigned.",
+   "summary": "This is a visible-light image taken with a 16-inch RCOS telescope and CCD camera using several broadband filters. The source does not say which colour each filter was assigned.",
    "eye": "The cluster is visible to the naked eye, but a long camera exposure records many fainter background stars and their colours."
   },
   "scaleExtra": "M7 is only 980 light-years away and 25 light-years across, according to NOIRLab.",
@@ -1620,7 +1620,7 @@
   "story": [
    "The Milky Way's band spans the night sky over the SOAR telescope, which sits on Cerro Pachón, a mountain among the Andean foothills of Chile. Along the horizon, airglow adds vivid colours to the scene.",
    "Airglow is a faint light given off by energised atoms in Earth's upper atmosphere. It is always present, but it is usually too dim to notice by eye, and cameras taking long exposures pick it up as bands of colour low in the sky.",
-   "Cerro Pachón hosts more than SOAR. Other facilities share the summit area: Gemini South, which forms half of the NSF NOIRLab-operated International Gemini Observatory, and Vera C. Rubin Observatory. High, dry mountaintops like this one are favoured for telescopes because they offer dark skies and a steady atmosphere, placing instruments above much of the air that blurs starlight."
+   "Cerro Pachón hosts more than SOAR. Gemini South, which forms half of the NSF NOIRLab-operated International Gemini Observatory, and Vera C. Rubin Observatory also share the summit area. High, dry mountaintops like this one are favoured for telescopes because they offer dark skies and a steady atmosphere, placing instruments above much of the air that blurs starlight."
   ],
   "explore": [],
   "understand": {
@@ -1644,8 +1644,8 @@
   ],
   "explore": [],
   "understand": {
-   "summary": "The Gemini Multi-Object Spectrograph on Gemini North recorded this through g, r, i and hydrogen-alpha filters. The packet does not say which colour each filter was assigned.",
-   "eye": "These galaxies are far too faint for the eye; a large telescope and long exposures reveal them, and the hydrogen-alpha filter highlights star-forming clouds."
+   "summary": "The Gemini Multi-Object Spectrograph on Gemini North recorded this through g, r, i and hydrogen-alpha filters. The source does not say which colour each filter was assigned.",
+   "eye": "These galaxies are far too faint for the eye. A large telescope and long exposures reveal them, and the hydrogen-alpha filter highlights star-forming clouds."
   },
   "scaleExtra": "The interacting members of Stephan's Quintet are almost 300 million light-years away, according to Gemini Observatory.",
   "alt": "A group of galaxies, with one at top centre dotted with many red blobs.",
@@ -1679,14 +1679,14 @@
   "captureDate": "2014",
   "story": [
    "This image shows NGC 2158, an open star cluster in the constellation Gemini, lying very close on the sky to another cluster, M35.",
-   "For an open cluster, NGC 2158 is quite old: its age is estimated at about one billion years. Open clusters are loose groups of stars that formed together from the same cloud of gas and dust, and most of them do not last very long.",
+   "For an open cluster, NGC 2158 is quite old, with an age estimated at about one billion years. Open clusters are loose groups of stars that formed together from the same cloud of gas and dust, and most of them do not last very long.",
    "Over time, gravitational tugs from passing stars and clouds in the galaxy tend to pull the members of an open cluster apart, so many disperse while still young. A cluster that has held together for about a billion years is therefore something of a survivor. Because all its stars formed at roughly the same time, an old cluster like this helps astronomers study how stars change as they age."
   ],
   "explore": [
    "The image was made by Neil Jacobstein with Adam Block through the Advanced Observing Program at the Kitt Peak Visitor Center, in 2014."
   ],
   "understand": {
-   "summary": "This is a visible-light image taken with a CCD camera at the Kitt Peak Visitor Center's roll-off-roof observatory, using several broadband filters. The packet does not say which colour each filter was assigned.",
+   "summary": "This is a visible-light image taken with a CCD camera at the Kitt Peak Visitor Center's roll-off-roof observatory, using several broadband filters. The source does not say which colour each filter was assigned.",
    "eye": "Long camera exposures record far more of the cluster's faint stars than the eye could pick out, even through a telescope."
   },
   "scaleExtra": "NGC 2158 is located about 11,000 light-years away, according to NOIRLab.",
@@ -1701,7 +1701,7 @@
   "captureDate": null,
   "story": [
    "This view from Cerro Tololo Inter-American Observatory looks towards the lights of the town of Andacollo in Chile. It shows the town's light pollution at its usual, everyday level.",
-   "The photograph was part of a comparison. During an event called Blackout for Our Skies, the lights of Andacollo were visibly reduced, and this image records how the town normally looks from the observatory.",
+   "The photograph was part of a comparison with an event called Blackout for Our Skies, during which the lights of Andacollo were visibly reduced. It records how the town normally looks from the observatory.",
    "Light pollution is artificial light that spills into the night sky, brightening it and washing out fainter stars. For observatories, even distant town lights can add a glow to the sky that makes faint objects harder to study. Events like this one help show how much of that glow comes from human lighting, and how much darker the sky can become when lights are dimmed."
   ],
   "explore": [],
@@ -1729,8 +1729,8 @@
    "The image was made by Mitch and Michael Dye with Adam Block through the Advanced Observing Program at the Kitt Peak Visitor Center, in 2014."
   ],
   "understand": {
-   "summary": "This is a visible-light image taken with a CCD camera at the Kitt Peak Visitor Center's roll-off-roof observatory, using several broadband filters. The packet does not say which colour each filter was assigned.",
-   "eye": "The galaxy is far too faint to see in detail by eye; long camera exposures reveal its spiral structure."
+   "summary": "This is a visible-light image taken with a CCD camera at the Kitt Peak Visitor Center's roll-off-roof observatory, using several broadband filters. The source does not say which colour each filter was assigned.",
+   "eye": "The galaxy is far too faint to see in detail by eye. Long camera exposures reveal its spiral structure."
   },
   "scaleExtra": "NGC 4654 is located about 55 million light-years away, according to NOIRLab.",
   "alt": "The spiral galaxy NGC 4654.",
@@ -1752,8 +1752,8 @@
    "NGC 2685 also shows weak optical emission lines but none in the infrared, which makes it an atypical member of a class of active galaxies known as LINERs. It is sometimes classified as SB0(pec)."
   ],
   "understand": {
-   "summary": "This is a colour composite of CCD images from the 0.9-meter telescope at Kitt Peak National Observatory, near Tucson, Arizona, taken in November 1998. The packet does not list the filters or colour mapping.",
-   "eye": "The galaxy is too faint to see in this detail by eye; CCD exposures reveal its faint ring and filaments. The image spans 8.5 arcminutes."
+   "summary": "This is a colour composite of CCD images from the 0.9-meter telescope at Kitt Peak National Observatory, near Tucson, Arizona, taken in November 1998. The source does not list the filters or colour mapping.",
+   "eye": "The galaxy is too faint to see in this detail by eye. CCD exposures reveal its faint ring and filaments. The image spans 8.5 arcminutes."
   },
   "scaleExtra": null,
   "alt": "A galaxy with a central spindle-shaped body wrapped by faint, twisting filaments.",
@@ -1769,11 +1769,11 @@
    "The crowd of galaxies around it is a coincidence. They are not companions but a chance alignment of far more distant galaxies, forming a backdrop from well beyond. Astronomers suspect IC 5332 belongs to the Sculptor group, one of the galaxy groups closest to our own Local Group."
   ],
   "explore": [
-   "Isobelle Teljega, a student at St. Margaret's Anglican Girls School in Ascot, a Brisbane suburb in Queensland, Australia, suggested that Gemini South take this image. The suggestion formed her winning entry in the student category of Australia's 2013 Gemini Astronomy Imaging Contest."
+   "Isobelle Teljega, a student at St. Margaret's Anglican Girls School in Ascot, a Brisbane suburb in Queensland, Australia, suggested that Gemini South take the picture. The suggestion formed her winning entry in the student category of Australia's 2013 Gemini Astronomy Imaging Contest."
   ],
   "understand": {
-   "summary": "This image was taken with the Gemini South telescope. The packet does not list the instrument, filters or colour mapping.",
-   "eye": "The galaxy and its faint background companions are far too dim to see by eye; a large telescope collecting light over long exposures reveals them."
+   "summary": "This image was taken with the Gemini South telescope. The source does not list the instrument, filters or colour mapping.",
+   "eye": "The galaxy and its faint background companions are far too dim to see by eye. A large telescope collecting light over long exposures reveals them."
   },
   "scaleExtra": "The Sculptor group, to which IC 5332 is suspected to belong, lies about 10 million light-years away, according to Gemini Observatory.",
   "alt": "A spiral galaxy with symmetric, branching arms dotted with pink patches, surrounded by many small distant galaxies.",

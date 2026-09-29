@@ -29,22 +29,21 @@
     <p class="cmp-note" id="cmpNote" hidden></p>
   </figure>
 
-  <div class="titlebar">
-    <div>
-      <h2 id="photoTitle">Loading…</h2>
-      <p class="cap" id="caption"></p>
-    </div>
-    <div class="actions">
-      <a class="btn" id="sourceLink" href="#" target="_blank" rel="noopener">Original source <span aria-hidden="true">↗</span></a>
-      <button id="immersiveBtn" type="button">Immersive view</button>
-      <button id="compareBtn" type="button" aria-pressed="false" aria-controls="compare" hidden><span>Hubble vs Webb</span></button>
-      <button id="tourBtn" type="button" hidden>Guided tour <span class="count" id="tourCount"></span></button>
-      <button id="understandBtn" type="button" aria-pressed="false" aria-controls="understandPanel">Understand the image</button>
-      <button id="favBtn" type="button" aria-pressed="false"><span id="favText">Save to favorites</span></button>
-    </div>
+  <div class="actions" role="group" aria-label="Photograph options">
+    <a class="btn" id="sourceLink" href="#" target="_blank" rel="noopener">Original source <span aria-hidden="true">↗</span></a>
+    <button id="immersiveBtn" type="button">Immersive view</button>
+    <button id="compareBtn" type="button" aria-pressed="false" aria-controls="compare" hidden><span>Hubble vs Webb</span></button>
+    <button id="tourBtn" type="button" hidden>Guided tour <span class="count" id="tourCount"></span></button>
+    <button id="understandBtn" type="button" aria-pressed="false" aria-controls="understandPanel">Understand the image</button>
+    <button id="favBtn" type="button" aria-pressed="false"><span id="favText">Save to favorites</span></button>
   </div>
 
   <div id="understandPanel" hidden tabindex="-1">
     <h3>Understanding this image</h3>
     <div id="understandBody"></div>
+  </div>
+
+  <div class="titlebar">
+    <h2 id="photoTitle">Loading…</h2>
+    <p class="cap" id="caption"></p>
   </div>

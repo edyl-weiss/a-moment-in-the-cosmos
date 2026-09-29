@@ -1,5 +1,5 @@
 /* "Another photograph" line. */
-.discover{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:4px 24px;margin:44px 0 0;padding:0}
+.discover{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:4px 24px;margin:56px 0 0;padding-top:16px;border-top:1px solid var(--rule)}
 .discover .row{display:flex;flex-wrap:wrap;align-items:baseline;gap:0 16px;margin:0}
 .discover #discoverHead{font-style:italic;color:var(--ink-2)}
 .discover .or{color:var(--ink-3);font-style:italic}

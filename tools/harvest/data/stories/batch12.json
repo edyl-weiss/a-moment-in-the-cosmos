@@ -5,8 +5,8 @@
   "captureDate": "July 1995",
   "story": [
    "Stars crowd this frame, broken here and there by black patches where no background stars shine through, while one bright star stands out at the upper right. This is M23, also listed as NGC 6494, a large, bright and richly populated star cluster in the constellation Sagittarius.",
-   "M23 lies some 2200 light-years from us and measures about 20 light-years across, which on the sky covers roughly 30 arcminutes; the whole picture is 35 arcminutes wide. The cluster is thought to be more than 200 million years old. That bright star at the upper right is not a member at all: it sits in the foreground, between us and the cluster.",
-   "Because M23 lies in the plane of our Galaxy, light from stars farther away has to pass through dust on its way here. The dust makes those background stars look progressively redder, and where it is thickest it hides them completely, producing the dark gaps in this view."
+   "M23 lies some 2200 light-years from us and measures about 20 light-years across, which on the sky covers roughly 30 arcminutes. The whole picture is 35 arcminutes wide. The cluster is thought to be more than 200 million years old. The bright star at the upper right is not a member. It sits in the foreground, between us and the cluster.",
+   "Because M23 lies in the plane of our Galaxy, light from stars farther away has to pass through dust on its way here. The dust makes those background stars look progressively redder, and where it is thickest it hides them completely, producing the dark gaps across the field."
   ],
   "explore": [
    "The true-colour picture was built from six exposures taken through B, V and R filters with the Burrell Schmidt telescope, which belongs to Case Western Reserve University's Warner and Swasey Observatory and stands on Kitt Peak, near Tucson, Arizona. The images date from July 1995, during the Research Experiences for Undergraduates program run at Kitt Peak National Observatory with support from the National Science Foundation."
@@ -25,14 +25,14 @@
   "captureDate": "June 1996 and September 1997",
   "story": [
    "This picture covers most of the central part of M24, the Sagittarius Star Cloud. A small open star cluster, NGC 6603, sits toward the upper left, and two dark nebulae, Barnard 92 and Barnard 93, lie toward the upper right.",
-   "M24 is an unusual entry in Messier's original catalogue. He recorded it as a big patch of \"nebulosity\" about a degree and a half across, but it is not a single object. Instead it is a chance lineup on the sky: a great many stars lying at many different distances from us, one behind another, all belonging to the Sagittarius spiral arm of our own Galaxy.",
-   "The dark nebulae are a reminder that the space between stars is not empty. A dark nebula is a cloud of gas and dust dense enough to block the light of stars behind it, so it shows up as a shadow against a busier background of stars."
+   "M24 is an unusual entry in Messier's original catalogue. He recorded it as a big patch of \"nebulosity\" about a degree and a half across, but it is not a single object. It is a chance lineup of a great many stars lying at many different distances from us, one behind another, all belonging to the Sagittarius spiral arm of our own Galaxy.",
+   "The dark nebulae show that the space between stars is not empty. A dark nebula is a cloud of gas and dust dense enough to block the light of stars behind it, so it shows up as a shadow against a busier background of stars."
   ],
   "explore": [
    "The image is a mosaic. Seven frames were taken through B, V and R filters in June 1996 with Case Western Reserve University's Burrell Schmidt telescope, part of its Warner and Swasey Observatory, near Tucson, Arizona, on Kitt Peak, as part of the Research Experiences for Undergraduates program supported by the National Science Foundation. Another nine frames were added from the same telescope in September 1997."
   ],
   "understand": {
-   "summary": "The Burrell Schmidt telescope on Kitt Peak recorded this star field in visible light through B, V and R filters, and many frames were stitched into a mosaic; exactly how each filter was coloured is not published.",
+   "summary": "The Burrell Schmidt telescope on Kitt Peak recorded this star field in visible light through B, V and R filters, and many frames were stitched into a mosaic. Exactly how each filter was coloured is not published.",
    "eye": "The mosaic's long exposures gather far more light than the eye, so the camera picks out a great many faint individual stars."
   },
   "scaleExtra": null,
@@ -72,7 +72,7 @@
    "This CCD colour composite was taken with the 0.9-meter telescope at Kitt Peak National Observatory on 5 February 1996 (Universal Time). Every picture of M105 includes NGC 3384, because the two sit so close together on the sky."
   ],
   "understand": {
-   "summary": "A CCD camera on the 0.9-meter telescope at Kitt Peak recorded these galaxies in visible light, and the frames were combined into a colour composite; the colour mapping is not published.",
+   "summary": "A CCD camera on the 0.9-meter telescope at Kitt Peak recorded these galaxies in visible light, and the frames were combined into a colour composite. The colour mapping is not published.",
    "eye": "The camera's exposures gather far more light than the eye, bringing out the extended glow of all three galaxies."
   },
   "scaleExtra": "The Leo I group is about 40 million light-years away, according to NOIRLab.",
@@ -88,13 +88,13 @@
   "story": [
    "We look straight down onto M99, a spiral galaxy of type Sc in the constellation Coma Berenices. Because it faces us, its spiral arms are on full display. The picture was processed, or \"flattened\", so that arm structure shows up both close to the nucleus and out toward the galaxy's faint edges.",
    "Most images of M99 either let the bright centre overflow into a white blob or stop before the dim outskirts appear. Compressing the range of brightness this way keeps both ends visible in a single frame.",
-   "M99 belongs to the Virgo Cluster of galaxies, the dominant cluster in our Local Supercluster, roughly 60 million light-years away. It also has a place in history: in 1848 Lord Rosse recognised its spiral shape, making it only the second such nebula known. His first had been M51, three years earlier in 1845."
+   "M99 belongs to the Virgo Cluster of galaxies, the dominant cluster in our Local Supercluster, roughly 60 million light-years away. In 1848 Lord Rosse recognised its spiral shape, making it only the second such nebula known. His first had been M51, three years earlier in 1845."
   ],
   "explore": [
    "The 0.9-meter telescope at Kitt Peak National Observatory took this picture in February 1996. The Virgo Cluster also contains many other Messier galaxies, among them M49, M58, M59, M60, M61 and M84, as well as M85, M86, M87, M88 and M89, plus M90, M91, M98 and M100."
   ],
   "understand": {
-   "summary": "The 0.9-meter telescope at Kitt Peak captured M99 in visible light, and the image's brightness scale was compressed to show both core and outer arms; the colour mapping is not published.",
+   "summary": "The 0.9-meter telescope at Kitt Peak captured M99 in visible light, and the image's brightness scale was compressed to show both core and outer arms. The colour mapping is not published.",
    "eye": "A camera can record a far wider range of brightness than the eye picks out in a faint galaxy, and the processing here squeezes that range so the dim outer arms and bright centre can be seen together."
   },
   "scaleExtra": "The Virgo Cluster, which includes M99, is about 60 million light-years away, according to NOIRLab.",
@@ -114,7 +114,7 @@
    "The images behind this composite were taken in July 1998 with the 0.9-meter telescope at Kitt Peak National Observatory, during the Research Experiences for Undergraduates program run at the observatory with support from the National Science Foundation."
   ],
   "understand": {
-   "summary": "The 0.9-meter telescope at Kitt Peak recorded M71 in visible light, and several images were combined into a colour composite; the filters and colour mapping are not published.",
+   "summary": "The 0.9-meter telescope at Kitt Peak recorded M71 in visible light, and several images were combined into a colour composite. The filters and colour mapping are not published.",
    "eye": "The telescope's exposures gather much more light than the eye, so the cluster's many faint stars are resolved individually rather than blurring into a hazy patch."
   },
   "scaleExtra": "M71 is about 12000 light-years away and probably around 30 light-years across, according to NOIRLab.",
@@ -128,14 +128,14 @@
   "story": [
    "This approximately true-colour picture shows M5, also known as NGC 5904, a globular cluster in the constellation Serpens. It is perhaps the finest globular cluster that can be seen from the northern hemisphere, and under excellent conditions it is even faintly visible without a telescope.",
    "A globular cluster is a dense, ball-shaped swarm of stars held together by their shared gravity. M5 is an elongated example, and it ranks among the largest and oldest such clusters, with an age that may be about 13 billion years. Its stars formed very early, long before our Sun existed.",
-   "The cluster lies almost 25000 light-years from us. Its light has therefore been travelling for about as long as that number of years before reaching the telescope on Kitt Peak, so we see M5 as it was long before any human history was written."
+   "The cluster lies almost 25000 light-years from us, so the light that reached the telescope on Kitt Peak left M5 long before any human history was written."
   ],
   "explore": [
    "Fourteen images were combined to make this view, taken through B, V and R filters in June and July 1997 with Case Western Reserve University's Burrell Schmidt telescope, part of its Warner and Swasey Observatory, on Kitt Peak, near Tucson, Arizona. The work was part of the Research Experiences for Undergraduates program at Kitt Peak National Observatory. The field is 34.6 arcminutes across."
   ],
   "understand": {
    "summary": "The Burrell Schmidt telescope on Kitt Peak captured M5 in visible light through B, V and R filters, and the images were combined into an approximately true-colour picture.",
-   "eye": "To the unaided eye, M5 is at best a faint fuzzy spot; the telescope's long exposures separate it into a great many individual stars."
+   "eye": "To the unaided eye, M5 is at best a faint fuzzy spot. The telescope's long exposures separate it into a great many individual stars."
   },
   "scaleExtra": "M5 lies almost 25000 light-years away, according to NOIRLab.",
   "alt": "A dense, elongated ball of stars in a field of scattered stars.",
@@ -146,9 +146,9 @@
   "caption": "The open star cluster M103, imaged by the Kitt Peak 2.1-meter telescope",
   "captureDate": "24 December 2000",
   "story": [
-   "This true-colour picture shows M103, also catalogued as NGC 581, a star cluster in the constellation Cassiopeia. The bright pair of stars at the upper right is a binary that does not belong to the cluster. The whole view is only 8.6 arcminutes across.",
-   "M103 is one of the more remote open clusters, at roughly 8000 light-years away. It looks fairly small on the sky, but at that distance its modest size still corresponds to a diameter of about 14 light-years. Its age is debated; it may be more than 20 million years old.",
-   "The cluster has an interesting place in the history of the Messier catalogue. It is one of the extra objects that were added based on observations by Méchain, and Messier himself never actually looked at it. An open cluster like this is a loose group of stars that formed together."
+   "This true-colour picture shows M103, also catalogued as NGC 581, a star cluster in the constellation Cassiopeia. The bright pair of stars at the upper right is a binary that does not belong to the cluster. The field is only 8.6 arcminutes across.",
+   "M103 is one of the more remote open clusters, at roughly 8000 light-years away. It looks fairly small on the sky, but at that distance its modest size still corresponds to a diameter of about 14 light-years. Its age is debated. It may be more than 20 million years old.",
+   "M103 is one of the extra objects added to the Messier catalogue on the strength of observations by Méchain, and Messier himself never actually looked at it. An open cluster like this is a loose group of stars that formed together."
   ],
   "explore": [
    "The picture combines fifteen images taken through B, V and R filters with the 2.1-meter telescope at Kitt Peak National Observatory. They were all captured on a single night, 24 December 2000, which the caption cheerfully notes was Christmas Eve."
@@ -167,7 +167,7 @@
   "captureDate": "June 1996",
   "story": [
    "This approximately true-colour picture shows M92, also catalogued as NGC 6341, a globular cluster in the constellation Hercules. Under excellent sky conditions it can even be seen with the naked eye.",
-   "A globular cluster is a tightly packed, roughly spherical collection of very old stars bound together by gravity. M92 lies about 28000 light-years away and measures more than 100 light-years across, which means an enormous number of stars are squeezed into the ball seen here.",
+   "A globular cluster is a tightly packed, roughly spherical collection of very old stars bound together by gravity. M92 lies about 28000 light-years away and measures more than 100 light-years across, which means an enormous number of stars are squeezed into the ball.",
    "M92 has a well-known neighbour on the sky, the globular cluster M13, also in Hercules. Compared with M13, M92 is slightly farther away and a little younger. Clusters like these are valuable to astronomers because all their stars formed at about the same time, making them natural laboratories for studying how stars age."
   ],
   "explore": [
@@ -175,7 +175,7 @@
   ],
   "understand": {
    "summary": "The Burrell Schmidt telescope on Kitt Peak recorded M92 in visible light through B, V and R filters, combined into an approximately true-colour picture.",
-   "eye": "To the naked eye M92 is at best a faint smudge; the telescope's exposures resolve it into many individual stars."
+   "eye": "To the naked eye M92 is at best a faint smudge. The telescope's exposures resolve it into many individual stars."
   },
   "scaleExtra": "M92 is about 28000 light-years away and more than 100 light-years across, according to NOIRLab.",
   "alt": "A dense, round ball of stars set in a field of scattered stars.",
@@ -188,7 +188,7 @@
   "caption": "The spiral galaxy M90, imaged by the Kitt Peak 0.9-meter telescope",
   "captureDate": "April 1998",
   "story": [
-   "This CCD composite shows M90, also listed as NGC 4569, a large Sb-type spiral galaxy in the constellation Virgo. To its north lies a smaller spiral, IC 3583, which has a high surface brightness and is clearly visible in this picture.",
+   "This CCD composite shows M90, also listed as NGC 4569, a large Sb-type spiral galaxy in the constellation Virgo. To its north lies a smaller spiral, IC 3583, which has a high surface brightness and stands out clearly.",
    "IC 3583 appears somewhat distorted. That odd appearance led the astronomer H. C. Arp to include the pair in his Atlas of Peculiar Galaxies, a catalogue of galaxies with unusual shapes, many of them thought to be disturbed by neighbours.",
    "Despite its size, M90 appears to have relatively little mass, which would make it a galaxy of low density. It belongs to the Virgo Cluster of galaxies, the dominant cluster in our Local Supercluster, at a distance of about 60 million light-years. A galaxy cluster is a large family of galaxies bound together by gravity."
   ],
@@ -196,7 +196,7 @@
    "The composite was taken in April 1998 with the 0.9-meter telescope at Kitt Peak. The Virgo Cluster also contains many other Messier galaxies, including M49, M58, M59, M60, M61 and M84, as well as M85, M86, M87, M88 and M89, plus M91, M98, M99 and M100."
   ],
   "understand": {
-   "summary": "A CCD camera on the Kitt Peak 0.9-meter telescope recorded M90 in visible light, and the images were combined into a composite; the colour mapping is not published.",
+   "summary": "A CCD camera on the Kitt Peak 0.9-meter telescope recorded M90 in visible light, and the images were combined into a composite. The colour mapping is not published.",
    "eye": "The camera's exposures gather far more light than the eye, bringing out the extended disc of the galaxy and its smaller neighbour."
   },
   "scaleExtra": "The Virgo Cluster, to which M90 belongs, is about 60 million light-years away, according to NOIRLab.",
@@ -208,16 +208,16 @@
   "caption": "Arp 104, Keenan's System, imaged by the Mayall 4-meter telescope at Kitt Peak",
   "captureDate": null,
   "story": [
-   "Two spiral galaxies are joined here by a slender, blue bridge. This pair is Arp 104, also called Keenan's System: NGC 5216 is at the bottom and NGC 5218 at the top, in the constellation Ursa Major.",
+   "Two spiral galaxies in the constellation Ursa Major are joined by a slender blue bridge. The pair is Arp 104, also called Keenan's System, with NGC 5216 at the bottom and NGC 5218 at the top.",
    "The thin stream linking them is made of gas, and new stars are forming inside it. It was produced when the two galaxies swept past one another and their mutual gravity pulled gas out of them. The newborn stars in the stream are hot and massive, and their light is what gives it a blue colour.",
-   "The stream stretches for about 150,000 light-years. Encounters like this one show that galaxies are not isolated islands: a close pass can reshape them, drag material across intergalactic space and set off fresh bursts of star formation far from either galaxy's centre."
+   "The stream stretches for about 150,000 light-years. Encounters like this one show that galaxies are not isolated islands. A close pass can reshape them, drag material across intergalactic space and set off fresh bursts of star formation far from either galaxy's centre."
   ],
   "explore": [
    "The picture comes from the wide-field Mosaic camera of Kitt Peak National Observatory's Mayall 4-meter telescope. It is oriented with north at the top and east to the left."
   ],
   "understand": {
-   "summary": "The Mosaic camera on the Mayall 4-meter telescope observed Arp 104 through B, V and I filters, shown as blue, green and red respectively; B and V are visible light and I lies at the red edge of the visible, reaching into the near-infrared.",
-   "eye": "The faint gas stream is far too dim to see by eye; the camera's long exposures and the I filter, which extends toward light the eye barely senses, bring it out."
+   "summary": "The Mosaic camera on the Mayall 4-meter telescope observed Arp 104 through B, V and I filters, shown as blue, green and red respectively. B and V are visible light and I lies at the red edge of the visible, reaching into the near-infrared.",
+   "eye": "The faint gas stream is far too dim to see by eye. The camera's long exposures and the I filter, which extends toward light the eye barely senses, bring it out."
   },
   "scaleExtra": "The gas stream joining the two galaxies is about 150,000 light-years long, according to NOIRLab.",
   "alt": "Two spiral galaxies, one above the other, connected by a thin blue stream of gas.",
@@ -228,15 +228,15 @@
   "caption": "The spiral galaxy M94, imaged by the KPNO 0.9-meter telescope",
   "captureDate": "May 1998",
   "story": [
-   "At the heart of M94 is an extremely bright inner region. Around it runs a blue ring made of young star clusters; next comes a dimmer yellowish zone of older stars edged with traces of young stars, and farther out still, a much fainter outer ring. This is the spiral galaxy M94, of type Sab, in the constellation Canes Venatici.",
-   "Seeing all these layers in one picture takes special handling. The brightness scale was drastically compressed, so that the glaring centre and the very dim outer ring can both be shown without one swamping the other.",
+   "At the heart of M94 is an extremely bright inner region. Around it runs a blue ring made of young star clusters. Next comes a dimmer yellowish zone of older stars edged with traces of young stars, and farther out still lies a much fainter outer ring. This is the spiral galaxy M94, of type Sab, in the constellation Canes Venatici.",
+   "To show all these layers at once, the brightness scale was drastically compressed so that the glaring centre and the very dim outer ring could both appear without one swamping the other.",
    "That same stretch also brings out quite a few small, faint galaxies scattered in the background, far beyond M94. Some astronomers place M94 in a group with M64 and several fainter galaxies, while others do not, so its family ties remain a matter of debate."
   ],
   "explore": [
    "The picture was taken in May 1998 with the 0.9-meter telescope at Kitt Peak National Observatory. The field is 17.0 arcminutes across."
   ],
   "understand": {
-   "summary": "The 0.9-meter telescope at Kitt Peak captured M94 in visible light, and the image's brightness range was heavily compressed to show every ring at once; the colour mapping is not published.",
+   "summary": "The 0.9-meter telescope at Kitt Peak captured M94 in visible light, and the image's brightness range was heavily compressed to show every ring at once. The colour mapping is not published.",
    "eye": "A camera can record a much wider range of brightness than can be shown directly, so compressing the scale reveals the faint outer ring that would otherwise be lost next to the bright core."
   },
   "scaleExtra": null,
@@ -250,7 +250,7 @@
   "story": [
    "Two star clusters share this approximately true-colour view. The large, scattered one is M35, an open cluster in the constellation Gemini. Toward the lower right, to the south-west, sits NGC 2158, a fainter but more compact neighbour.",
    "M35 holds a couple of hundred stars and lies about 2800 light-years away. At an age of some 110 million years it is a youthful group by stellar standards. Under good conditions it can be seen with the naked eye, while NGC 2158 is much harder to pick out through small telescopes.",
-   "Here, though, the smaller cluster stands out clearly. The caption credits this to the camera on a research telescope at a good mountain site, which can record faint, closely packed stars that a backyard instrument struggles to separate. An open cluster is a loose family of stars that formed together from one cloud of gas."
+   "On the Burrell Schmidt frames, though, the smaller cluster stands out clearly. The caption credits this to the camera on a research telescope at a good mountain site, which can record faint, closely packed stars that a backyard instrument struggles to separate. An open cluster is a loose family of stars that formed together from one cloud of gas."
   ],
   "explore": [
    "Twelve images went into this picture, taken through B, V and R filters in January 1997 with Case Western Reserve University's Burrell Schmidt telescope, part of its Warner and Swasey Observatory on Kitt Peak, near Tucson, Arizona."
@@ -268,7 +268,7 @@
   "caption": "The open star cluster M41, imaged by the Burrell Schmidt telescope at Kitt Peak",
   "captureDate": "September 1997",
   "story": [
-   "Among the many stars in this approximately true-colour picture, a few glow orange. These are red giants belonging to M41, an open cluster in the constellation Canis Major; red giants like these always look orange in images such as this one. The bright star in the lower left corner, the south-east, is a blue giant in the foreground and not part of the cluster.",
+   "Among the many stars in this approximately true-colour picture, a few glow orange. These are red giants belonging to M41, an open cluster in the constellation Canis Major. Red giants like these always look orange in images of this kind. The bright star in the lower left corner, the south-east, is a blue giant in the foreground and not part of the cluster.",
    "M41 is a modest group of only about one hundred stars. It lies roughly 2300 light-years away and spans around 25 light-years, and it is about 200 million years old.",
    "A red giant is a star that has used up the hydrogen fuel in its core and swelled up, its cooler outer layers giving it a warmer colour. Finding several of them here tells astronomers that the cluster's heaviest stars have already begun to reach this late stage of their lives."
   ],
@@ -288,15 +288,15 @@
   "caption": "The globular cluster M54, imaged by the KPNO 0.9-meter telescope",
   "captureDate": "July 1998",
   "story": [
-   "This composite shows M54, also catalogued as NGC 6715, a globular cluster in Sagittarius. It appears bright but small on the sky, and its crowded core is too dense to be split into separate stars in this picture.",
+   "This composite shows M54, also catalogued as NGC 6715, a globular cluster in Sagittarius. It appears bright but small on the sky, and its crowded core is too dense for this telescope to split into separate stars.",
    "A globular cluster is a tightly packed ball of old stars, held together by their combined gravity. Most globular clusters orbit our own Milky Way, and for a long time M54 was assumed to be one of them, at a distance of some 60000 light-years.",
-   "There is now a claim that M54 actually belongs to another galaxy altogether: the Sagittarius Dwarf, a small member of the Local Group, the collection of galaxies that includes the Milky Way. If so, M54 would lie nearly 90000 light-years away, making it a visitor from outside our Galaxy that only appears to sit among Sagittarius's stars."
+   "There is now a claim that M54 actually belongs to another galaxy altogether, the Sagittarius Dwarf, which is a small member of the Local Group, the collection of galaxies that includes the Milky Way. If so, M54 would lie nearly 90000 light-years away, making it a visitor from outside our Galaxy that only appears to sit among Sagittarius's stars."
   ],
   "explore": [
    "The images for this composite were taken in July 1998 with the 0.9-meter telescope at Kitt Peak National Observatory, as part of the Research Experiences for Undergraduates program there, supported by the National Science Foundation. The field is 11.6 arcminutes across."
   ],
   "understand": {
-   "summary": "The 0.9-meter telescope at Kitt Peak recorded M54 in visible light, and the images were combined into a composite; the filters and colour mapping are not published.",
+   "summary": "The 0.9-meter telescope at Kitt Peak recorded M54 in visible light, and the images were combined into a composite. The filters and colour mapping are not published.",
    "eye": "The telescope's exposures separate the cluster's outer stars, though even this camera cannot resolve the densely packed core."
   },
   "scaleExtra": "M54 was long thought to be about 60000 light-years away, though if it belongs to the Sagittarius Dwarf it would be nearly 90000 light-years away, according to NOIRLab.",
@@ -319,7 +319,7 @@
   ],
   "understand": {
    "summary": "The Burrell Schmidt telescope on Kitt Peak recorded M34 in visible light through B, V and R filters, combined into an approximately true-colour picture.",
-   "eye": "To the naked eye M34 is a faint hazy patch; the telescope's exposures show its individual stars and their colours."
+   "eye": "To the naked eye M34 is a faint hazy patch. The telescope's exposures show its individual stars and their colours."
   },
   "scaleExtra": "M34 is about 1400 light-years away and some dozen light-years across, according to NOIRLab.",
   "alt": "A loose scattering of bright stars against a field of fainter stars.",
@@ -332,7 +332,7 @@
   "caption": "The spiral galaxy M100, imaged by the WIYN 0.9-meter telescope at Kitt Peak",
   "captureDate": "20 December 2002",
   "story": [
-   "Strong blue spiral arms, lit by young stars, wind around the centre of M100, a nearly face-on spiral galaxy of type Sc. Two small dwarf galaxies nearby also appear in the frame, and the picture manages to show them without letting M100's bright inner regions overflow into a white glare.",
+   "Strong blue spiral arms, lit by young stars, wind around the centre of M100, a nearly face-on spiral galaxy of type Sc. Two small dwarf galaxies nearby are also visible, and M100's bright inner regions are kept from overflowing into a white glare.",
    "M100 ranks among the brighter members of the Virgo Cluster, even though on the sky it lies within the neighbouring constellation Coma Berenices. A galaxy cluster is a large family of galaxies bound by gravity, and the Virgo Cluster is home to many of the galaxies in Messier's catalogue.",
    "The blue colour of the arms is a sign of recent star birth. Young, hot, massive stars shine blue, and in a spiral galaxy they tend to be strung along the arms, where gas gathers and new stars form."
   ],
@@ -340,7 +340,7 @@
    "The WIYN 0.9-meter telescope at Kitt Peak National Observatory captured this image on the night of 20 December 2002 (Universal Time), and covers 15.3 arcminutes. Other Messier galaxies in the Virgo Cluster include M49, M58, M59, M60, M61 and M84, as well as M85, M86, M87, M88 and M89, plus M90, M91, M98 and M99."
   ],
   "understand": {
-   "summary": "The WIYN 0.9-meter telescope at Kitt Peak captured M100 in visible light; the filters and colour mapping are not published.",
+   "summary": "The WIYN 0.9-meter telescope at Kitt Peak captured M100 in visible light. The filters and colour mapping are not published.",
    "eye": "The camera's exposures gather far more light than the eye and can hold both the bright core and the fainter arms in one frame."
   },
   "scaleExtra": null,
@@ -353,14 +353,14 @@
   "captureDate": "September 1997",
   "story": [
    "Two star clusters sit side by side in this colour picture. On the left is chi Persei, also called NGC 884, and beside it is h Persei, or NGC 869. Together they form the Double Cluster in the constellation Perseus, usually known by these transliterated Greek labels.",
-   "The pair lies about 7000 light-years from us, and the two clusters are less than 100 light-years apart. Open clusters, loose groups of stars born together, are quite common, but this pair is exceptional.",
-   "What sets it apart is how many young, bright O and B stars each cluster holds. These are the hottest and most massive kinds of stars, which burn through their fuel quickly and so do not last long; seeing so many of them marks both clusters as young. The two are also unusual for being so close together while still clearly separate."
+   "The pair lies about 7000 light-years from us, and the two clusters are less than 100 light-years apart. Open clusters, loose groups of stars born together, are quite common, but this pair is unusual.",
+   "Both clusters contain many young, bright O and B stars. These are the hottest and most massive kinds of stars, which burn through their fuel quickly and so do not last long. Seeing so many of them marks both clusters as young. The two are also unusual for being so close together while still clearly separate."
   ],
   "explore": [
    "CCD images from September 1997 were used to make the picture with Case Western Reserve University's Burrell Schmidt telescope, part of its Warner and Swasey Observatory, on Kitt Peak in southwestern Arizona."
   ],
   "understand": {
-   "summary": "A CCD camera on the Burrell Schmidt telescope at Kitt Peak recorded the Double Cluster in visible light, combined into a colour picture; the colour mapping is not published.",
+   "summary": "A CCD camera on the Burrell Schmidt telescope at Kitt Peak recorded the Double Cluster in visible light, combined into a colour picture. The colour mapping is not published.",
    "eye": "The camera's exposures gather far more light than the eye, revealing many more faint stars and recording their colours."
   },
   "scaleExtra": "The two clusters are about 7000 light-years away and less than 100 light-years apart, according to NOIRLab.",
@@ -374,13 +374,13 @@
   "story": [
    "This picture shows M10, also catalogued as NGC 6254, a globular cluster in the constellation Ophiuchus. It lies close on the sky to another globular cluster, M12, and shines at seventh magnitude.",
    "M10 measures about 70 light-years across and lies about 16000 light-years away. On the sky it spans roughly half the width of the full Moon.",
-   "A globular cluster is a dense, ball-shaped swarm of very old stars bound together by their shared gravity. The stars are packed most tightly toward the centre and thin out toward the edges. Clusters like this orbit around the centre of our Galaxy, often far above or below its disc, and because their stars all formed at about the same time, they serve as useful records of the Galaxy's early history."
+   "A globular cluster is a dense, ball-shaped swarm of very old stars bound together by their shared gravity. The stars are packed most tightly toward the centre and thin out toward the edges. Clusters like this orbit around the centre of our Galaxy, often far above or below its disc, and because their stars all formed at about the same time, they are useful records of the Galaxy's early history."
   ],
   "explore": [
    "The picture was made from CCD images taken in June 1996 with Case Western Reserve University's Burrell Schmidt telescope, part of its Warner and Swasey Observatory, on Kitt Peak in southwestern Arizona, during the Research Experiences for Undergraduates program at Kitt Peak National Observatory."
   ],
   "understand": {
-   "summary": "A CCD camera on the Burrell Schmidt telescope at Kitt Peak recorded M10 in visible light; the filters and colour mapping are not published.",
+   "summary": "A CCD camera on the Burrell Schmidt telescope at Kitt Peak recorded M10 in visible light. The filters and colour mapping are not published.",
    "eye": "The camera's exposures gather far more light than the eye, resolving many of the cluster's individual stars."
   },
   "scaleExtra": "M10 is about 16000 light-years away and about 70 light-years across, according to NOIRLab.",
@@ -396,7 +396,7 @@
   "story": [
    "This approximately true-colour picture shows M44, the Beehive Cluster, also called Praesepe, which is Latin for manger. It is an open cluster in the constellation Cancer, and one of the nearest open clusters to us, close to 600 light-years away.",
    "The Beehive is easy to see with the naked eye and covers a patch of sky more than twice as wide as the full Moon. Because it is so obvious, people have noticed it since prehistoric times.",
-   "It also has a place in the history of the telescope. When Galileo acquired his new instrument, the Beehive was among the first things he pointed it at. An open cluster like this is a loose group of stars that formed together, and being so close makes M44 a convenient place to study how such stars develop."
+   "When Galileo acquired his new telescope, the Beehive was among the first things he pointed it at. An open cluster like this is a loose group of stars that formed together, and being so close makes M44 a convenient place to study how such stars develop."
   ],
   "explore": [
    "Fifteen images went into this picture, taken through B, V and R filters in January 1997 with Case Western Reserve University's Burrell Schmidt telescope at its Warner and Swasey Observatory, on Kitt Peak near Tucson, Arizona."
@@ -422,7 +422,7 @@
    "The images for this composite were taken in June 1996 with Case Western Reserve University's Burrell Schmidt telescope at its Warner and Swasey Observatory, as part of the Research Experiences for Undergraduates program at Kitt Peak National Observatory, supported by the National Science Foundation."
   ],
   "understand": {
-   "summary": "The Burrell Schmidt telescope on Kitt Peak recorded M55 in visible light, combined into a composite; the filters and colour mapping are not published.",
+   "summary": "The Burrell Schmidt telescope on Kitt Peak recorded M55 in visible light, combined into a composite. The filters and colour mapping are not published.",
    "eye": "The camera's exposures gather much more light than the eye, resolving many stars across the cluster's loose spread."
   },
   "scaleExtra": "M55 is about 18000 light-years away and about 100 light-years across, according to NOIRLab.",
@@ -438,7 +438,7 @@
   "story": [
    "This approximately true-colour picture shows M50, also listed as NGC 2323, an open cluster in the constellation Monoceros, the Unicorn. It is a cluster of modest size, holding perhaps a couple of hundred stars. Some observers with more imaginative eyes have described its shape as a heart.",
    "M50 lies about 3000 light-years away and measures around 20 light-years across.",
-   "An open cluster is a loose group of stars that were born together from the same cloud of gas and dust. Because its members share a birthplace and an age, a cluster is a natural experiment: stars of different masses start out together, and the differences between them show how mass shapes the way a star lives. Open clusters are only loosely bound, so over time the pull of the rest of the Galaxy tends to scatter their members, and the stars eventually drift away to mix with the general population."
+   "An open cluster is a loose group of stars that were born together from the same cloud of gas and dust. Because its members share a birthplace and an age, a cluster is a natural experiment. Stars of different masses start out together, and the differences between them show how mass shapes the way a star lives. Open clusters are only loosely bound, so over time the pull of the rest of the Galaxy tends to scatter their members, and the stars eventually drift away to mix with the general population."
   ],
   "explore": [
    "Twelve images went into this picture, taken through B, V and R filters in September 1997 with Case Western Reserve University's Burrell Schmidt telescope, at its Warner and Swasey Observatory on Kitt Peak near Tucson, Arizona."
@@ -466,7 +466,7 @@
    "The composite was taken in April 1998 with the 0.9-meter telescope at Kitt Peak. Other Messier galaxies in the Virgo Cluster include M49, M59, M60, M61 and M84, as well as M85, M86, M87, M88 and M89, plus M90, M91, M98, M99 and M100."
   ],
   "understand": {
-   "summary": "A CCD camera on the Kitt Peak 0.9-meter telescope recorded M58 in visible light, and the images were combined into a composite; the colour mapping is not published.",
+   "summary": "A CCD camera on the Kitt Peak 0.9-meter telescope recorded M58 in visible light, and the images were combined into a composite. The colour mapping is not published.",
    "eye": "The camera's exposures gather far more light than the eye, showing structure in the galaxy that would be hard to see directly."
   },
   "scaleExtra": "The Virgo Cluster, which includes M58, is about 60 million light-years away, according to NOIRLab.",
@@ -482,13 +482,13 @@
   "story": [
    "This colour composite shows M37, also listed as NGC 2099, an open star cluster in the constellation Auriga. The field shown is 14.2 by 11.3 arcminutes.",
    "M37 contains approximately 200 stars within a diameter of 27 light-years, and it lies some 4600 light-years from us. It shares its part of the sky with two other clusters, M36 and M38, and of the three it is the brightest and the richest.",
-   "An open cluster is a loose group of stars that formed together from one cloud of gas and dust, so its members share roughly the same age and makeup. That makes clusters like M37 useful for studying how stars change over time: the heavier stars age faster than the lighter ones, so comparing them within one cluster shows different stages of stellar life side by side. Such clusters are only loosely held together, and over time their stars slowly drift apart."
+   "An open cluster is a loose group of stars that formed together from one cloud of gas and dust, so its members share roughly the same age and makeup. That makes clusters like M37 useful for studying how stars change over time. The heavier stars age faster than the lighter ones, so comparing them within one cluster shows different stages of stellar life side by side. Such clusters are only loosely held together, and over time their stars slowly drift apart."
   ],
   "explore": [
    "The picture was made from CCD images taken in December 1994 with the 0.9-meter telescope at Kitt Peak National Observatory, near Tucson, Arizona."
   ],
   "understand": {
-   "summary": "A CCD camera on the 0.9-meter telescope at Kitt Peak recorded M37 in visible light, and the images were combined into a colour composite; the colour mapping is not published.",
+   "summary": "A CCD camera on the 0.9-meter telescope at Kitt Peak recorded M37 in visible light, and the images were combined into a colour composite. The colour mapping is not published.",
    "eye": "The camera's exposures gather far more light than the eye, so many of the cluster's fainter stars appear that a small telescope would not show."
   },
   "scaleExtra": "M37 is some 4600 light-years away and 27 light-years across, according to NOIRLab.",
@@ -503,14 +503,14 @@
   "captureDate": "January 1997",
   "story": [
    "This colour composite shows M36, also catalogued as NGC 1960, an open star cluster in the southern part of the constellation Auriga. The field shown is 20.4 arcminutes across.",
-   "M36 is one of three bright open clusters in that region of the sky, alongside M37 and M38. The three sit at similar distances, about 4000 light-years from us. What sets M36 apart is its youth: it is significantly younger than its two neighbours and contains no evolved red giant stars.",
-   "That missing ingredient is a clue to its age. When a star exhausts the hydrogen in its core it swells into a red giant, and the most massive stars reach that stage first. In an older cluster, some members have already made the change. In M36 none has yet, which fits a cluster that has not been around long. An open cluster like this is a loose family of stars born together from the same cloud of gas."
+   "M36 is one of three bright open clusters in that region of the sky, alongside M37 and M38. The three sit at similar distances, about 4000 light-years from us. M36 is significantly younger than its two neighbours and contains no evolved red giant stars.",
+   "The lack of red giants is a clue to its age. When a star exhausts the hydrogen in its core it swells into a red giant, and the most massive stars reach that stage first. In an older cluster, some members have already made the change. In M36 none has yet, which fits a cluster that has not been around long. An open cluster like this is a loose family of stars born together from the same cloud of gas."
   ],
   "explore": [
    "The composite was made from CCD images taken in January 1997 with the 0.9-meter telescope at Kitt Peak National Observatory, near Tucson, Arizona."
   ],
   "understand": {
-   "summary": "A CCD camera on the 0.9-meter telescope at Kitt Peak recorded M36 in visible light, and the images were combined into a colour composite; the colour mapping is not published.",
+   "summary": "A CCD camera on the 0.9-meter telescope at Kitt Peak recorded M36 in visible light, and the images were combined into a colour composite. The colour mapping is not published.",
    "eye": "The camera's exposures show many more faint stars than the eye could see, and record colours that are hard to perceive in dim light."
   },
   "scaleExtra": "M36 and its neighbours M37 and M38 all lie about 4000 light-years away, according to NOIRLab.",
@@ -532,7 +532,7 @@
    "The image was built from data gathered in October 1998 with the 0.9-meter telescope at Kitt Peak National Observatory. The field is 9.1 arcminutes across."
   ],
   "understand": {
-   "summary": "The 0.9-meter telescope at Kitt Peak recorded M75 in visible light; the filters and colour mapping are not published.",
+   "summary": "The 0.9-meter telescope at Kitt Peak recorded M75 in visible light. The filters and colour mapping are not published.",
    "eye": "The camera's exposures gather far more light than the eye, showing the concentrated glow of the cluster's stars."
   },
   "scaleExtra": "M75 is more than 61000 light-years away, possibly as much as 100000, and over 100 light-years across, according to NOIRLab.",
@@ -548,14 +548,14 @@
   "story": [
    "Stars sweep across the sky as trails above Maunakea in Hawaiʻi in this classic star-trail photograph. The landscape below is lit by a first-quarter Moon, which stayed up for the whole time the pictures were being taken.",
    "The trails were not captured in a single shot. More than 150 separate digital photographs, each lasting one minute, were stacked together in Photoshop, following a technique described in the March 2004 issue of Sky and Telescope magazine.",
-   "Stacking works because each short frame records the stars as small dots or short dashes in slightly different places. Layered together, those positions join up into continuous arcs. The arcs themselves come from Earth's rotation: as our planet turns, the whole sky appears to wheel slowly overhead, and a camera that stays fixed to the ground records that apparent motion as a streak of light for every star bright enough to register."
+   "Stacking works because each short frame records the stars as small dots or short dashes in slightly different places. Layered together, those positions join up into continuous arcs. The arcs themselves come from Earth's rotation. As our planet turns, the whole sky appears to wheel slowly overhead, and a camera that stays fixed to the ground records that apparent motion as a streak of light for every star bright enough to register."
   ],
   "explore": [
    "The same set of images was also used to make a high-definition time-lapse movie, in which the individual frames are played in sequence so the sky can be seen turning."
   ],
   "understand": {
-   "summary": "This is a landscape photograph made with a digital camera: over 150 one-minute exposures in visible light were stacked in Photoshop to build the trails.",
-   "eye": "The eye sees stars as fixed points at any moment; only by adding many exposures together does a photograph reveal their slow apparent motion as trails."
+   "summary": "This is a landscape photograph made with a digital camera. Over 150 one-minute exposures in visible light were stacked in Photoshop to build the trails.",
+   "eye": "The eye sees stars as fixed points at any moment. Only by adding many exposures together does a photograph reveal their slow apparent motion as trails."
   },
   "scaleExtra": null,
   "alt": "Star trails across the night sky above a moonlit landscape on Maunakea.",
@@ -576,8 +576,8 @@
    "The WIYN 0.9-meter telescope at Kitt Peak National Observatory recorded it on the night of 19 December 2002 (Universal Time)."
   ],
   "understand": {
-   "summary": "The WIYN 0.9-meter telescope at Kitt Peak recorded M65 in visible light; the filters and colour mapping are not published.",
-   "eye": "Through a small telescope M65 is a faint elongated smudge; the camera's exposures gather enough light to show the galaxy's structure."
+   "summary": "The WIYN 0.9-meter telescope at Kitt Peak recorded M65 in visible light. The filters and colour mapping are not published.",
+   "eye": "Through a small telescope M65 is a faint elongated smudge. The camera's exposures gather enough light to show the galaxy's structure."
   },
   "scaleExtra": "M65 is about 35 million light-years away, according to NOIRLab.",
   "alt": "A spiral galaxy seen at an angle, with a bright central bulge.",
@@ -592,11 +592,11 @@
   "story": [
    "Stars trace trails across the sky in this photograph taken from the summit of Cerro Pachón, while the laser guide star system of the Gemini South telescope is in action. Gemini South is part of the International Gemini Observatory, which NSF NOIRLab runs as one of its programs.",
    "The laser is a tool for sharpening the telescope's view. Its light interacts with particles high in Earth's upper atmosphere, creating a point of reference in the sky. By watching that artificial reference, the system can correct the telescope's optics in real time to compensate for turbulence in the air.",
-   "Turbulence is the reason stars twinkle. Pockets of air at different temperatures bend starlight in constantly shifting ways, blurring the images that even large telescopes collect. Correcting for this in real time is called adaptive optics, and a laser guide star lets it work in any part of the sky, not only near a bright natural star."
+   "Turbulence is the reason stars twinkle. Pockets of air at different temperatures bend starlight in constantly shifting ways, blurring the images that even large telescopes collect. Correcting for this in real time is called adaptive optics, and a laser guide star lets it work in any part of the sky rather than only near a bright natural star."
   ],
   "explore": [],
   "understand": {
-   "summary": "This is a landscape photograph taken with a camera at Cerro Pachón in visible light; the camera settings and processing are not published.",
+   "summary": "This is a landscape photograph taken with a camera at Cerro Pachón in visible light. The camera settings and processing are not published.",
    "eye": "A long exposure lets the stars drift into trails as Earth turns, whereas the eye sees stars as points."
   },
   "scaleExtra": null,
@@ -618,8 +618,8 @@
    "The image was created from data taken in November 1998 with the 0.9-meter telescope at Kitt Peak National Observatory. The field is 8.5 arcminutes across."
   ],
   "understand": {
-   "summary": "The 0.9-meter telescope at Kitt Peak recorded M28 in visible light, and the image was stretched to show the crowded core; the filters and colour mapping are not published.",
-   "eye": "A camera can capture a wider range of brightness than can be shown directly; stretching the image lets the dense centre appear without being swamped."
+   "summary": "The 0.9-meter telescope at Kitt Peak recorded M28 in visible light, and the image was stretched to show the crowded core. The filters and colour mapping are not published.",
+   "eye": "A camera can capture a wider range of brightness than can be shown directly. Stretching the image lets the dense centre appear without being swamped."
   },
   "scaleExtra": "M28 is around 80 light-years across and some 18000 light-years away, according to NOIRLab.",
   "alt": "A slightly oval ball of stars with detail visible in its crowded centre.",
@@ -633,14 +633,14 @@
   "captureDate": "April 1998",
   "story": [
    "This picture shows M14, also catalogued as NGC 6402, a globular cluster in the constellation Ophiuchus. Compared with many globular clusters it is somewhat loose, and it is very nearly circular on the sky, with only a very small ellipticity.",
-   "Ellipticity is simply a measure of how far an object's outline departs from a perfect circle. M14 lies about 29000 light-years away and is about 72 light-years across.",
+   "Ellipticity is a measure of how far an object's outline departs from a perfect circle. M14 lies about 29000 light-years away and is about 72 light-years across.",
    "A globular cluster is a dense, roughly spherical collection of old stars held together by gravity. Clusters differ in how tightly their stars are packed, and looser ones like M14 let a telescope pick out individual stars farther toward the centre. These clusters orbit our Galaxy and contain some of its oldest stars, so they are valuable for studying how the Milky Way formed and how stars grow old."
   ],
   "explore": [
    "The picture was made from CCD images taken in April 1998 with the 0.9-meter telescope at Kitt Peak National Observatory. The field is 11.6 arcminutes across."
   ],
   "understand": {
-   "summary": "A CCD camera on the 0.9-meter telescope at Kitt Peak recorded M14 in visible light; the filters and colour mapping are not published.",
+   "summary": "A CCD camera on the 0.9-meter telescope at Kitt Peak recorded M14 in visible light. The filters and colour mapping are not published.",
    "eye": "The camera's exposures gather far more light than the eye and resolve many of the cluster's individual stars."
   },
   "scaleExtra": "M14 is about 29000 light-years away and about 72 light-years across, according to NOIRLab.",
@@ -654,7 +654,7 @@
   "caption": "The starburst galaxy NGC 1313, imaged by the Gemini South telescope",
   "captureDate": null,
   "story": [
-   "Colourful clouds of gas blaze along the spiral arms of NGC 1313 in this view from the Gemini South 8-meter telescope in Chile. Those glowing clouds are a clear sign that the galaxy is forming stars at a furious pace.",
+   "Colourful clouds of gas glow along the spiral arms of NGC 1313 in this view from the Gemini South 8-meter telescope in Chile. The clouds show that the galaxy is forming stars at a furious pace.",
    "NGC 1313 is a starburst galaxy, producing stars on a scale rarely seen in a galaxy of its size. It is a late-type barred spiral, about 15 million light-years away, and a relatively close neighbour of the Milky Way. Its shape is deformed, and its past is something of a mystery.",
    "Starbursts are usually set off by a close encounter with another galaxy, yet NGC 1313 seems to be a lone drifter, far from any group. Astronomers have several ideas. Perhaps a thousand supernovae went off within a few million years, blowing a superbubble whose expansion triggered new stars. Perhaps an unseen companion punched through the disc, sending out shock waves like ripples in a pond. Or gas clouds may be falling into, or orbiting, the galaxy."
   ],
@@ -662,7 +662,7 @@
    "No single explanation has won out, so the combination of NGC 1313's distorted shape and its high rate of star formation remains an open puzzle. The image was made with the GMOS-S instrument on Gemini South."
   ],
   "understand": {
-   "summary": "Gemini South's GMOS-S instrument imaged NGC 1313 in visible light through narrow filters that isolate glowing helium (He II), oxygen (O III) and hydrogen-alpha; the colours assigned to each filter are not published.",
+   "summary": "Gemini South's GMOS-S instrument imaged NGC 1313 in visible light through narrow filters that isolate glowing helium (He II), oxygen (O III) and hydrogen-alpha. The colours assigned to each filter are not published.",
    "eye": "Narrowband filters pick out the specific colours emitted by glowing gas, emphasising the star-forming clouds."
   },
   "scaleExtra": null,
@@ -676,15 +676,15 @@
   "caption": "The Southern Pinwheel Galaxy, Messier 83, imaged by the Dark Energy Camera on the Blanco 4-meter Telescope",
   "captureDate": null,
   "story": [
-   "We see Messier 83 face-on, its spiral arms lined with dark lanes of dust and dotted with reddish clouds of hydrogen gas where stars are forming. Around the edges of the frame, many background galaxies appear, all far more distant than the spiral itself.",
+   "We see Messier 83 face-on, its spiral arms lined with dark lanes of dust and dotted with reddish clouds of hydrogen gas where stars are forming. Many background galaxies are scattered around it, all far more distant than the spiral itself.",
    "Nicknamed the Southern Pinwheel, and also catalogued as NGC 5236, Messier 83 lies in the southern constellation Hydra, about 15 million light-years away. This is one of the deepest images ever made of it, combining more than 11 hours of exposure time.",
-   "That long exposure is what helps faint features appear, such as the far-off galaxies scattered behind it. The reddish clouds glow because young, hot stars inside them energise the surrounding hydrogen, making these patches markers of fresh star birth."
+   "The long exposure is what lets faint features appear, such as the far-off galaxies scattered behind it. The reddish clouds glow because young, hot stars inside them energise the surrounding hydrogen, making these patches markers of fresh star birth."
   ],
   "explore": [
    "The view was captured with the Dark Energy Camera, or DECam, a camera the US Department of Energy built. It is mounted on Cerro Tololo Inter-American Observatory's Víctor M. Blanco 4-meter Telescope, a Program of NSF NOIRLab."
   ],
   "understand": {
-   "summary": "DECam on the Blanco 4-meter Telescope observed M83 through u, g, r, i and z filters plus a hydrogen-alpha filter, spanning near-ultraviolet, visible and near-infrared light; the colours assigned to each filter are not published.",
+   "summary": "DECam on the Blanco 4-meter Telescope observed M83 through u, g, r, i and z filters plus a hydrogen-alpha filter, spanning near-ultraviolet, visible and near-infrared light. The colours assigned to each filter are not published.",
    "eye": "More than 11 hours of combined exposure gathers vastly more light than the eye ever could, and the z filter reaches into near-infrared light that the eye cannot see."
   },
   "scaleExtra": null,
@@ -698,13 +698,13 @@
   "story": [
    "A luminous glow of stars surrounds dark tendrils of dust that hide the bright centre of Centaurus A. Red clouds of hydrogen and, at each end of that dark lane, large numbers of faint blue stars show where new stars are being born.",
    "Seen toward the southern constellation Centaurus, the Centaur, Centaurus A lies more than 12 million light-years away. Its dust is left over from a collision in the past, when a giant elliptical galaxy absorbed a smaller spiral.",
-   "The merger did more than add dust. Along with large amounts of gas, the dust lane now hosts star formation across wide areas, and the red hydrogen clouds and many faint blue stars are the evidence. Collisions like this are a reminder that galaxies grow and change by swallowing one another, and that such events can spark fresh generations of stars."
+   "The merger did more than add dust. Along with large amounts of gas, the dust lane now hosts star formation across wide areas, and the red hydrogen clouds and many faint blue stars are the evidence. Collisions like this show that galaxies grow and change by swallowing one another, and that such events can spark fresh generations of stars."
   ],
   "explore": [
    "The image was taken with the Dark Energy Camera mounted on the Víctor M. Blanco 4-meter Telescope. NOIRLab invites viewers to zoom into the image to see more."
   ],
   "understand": {
-   "summary": "DECam on the Blanco 4-meter Telescope observed Centaurus A through u, g, r, i and z filters plus a hydrogen-alpha filter, covering near-ultraviolet, visible and near-infrared light; the colours assigned to each filter are not published.",
+   "summary": "DECam on the Blanco 4-meter Telescope observed Centaurus A through u, g, r, i and z filters plus a hydrogen-alpha filter, covering near-ultraviolet, visible and near-infrared light. The colours assigned to each filter are not published.",
    "eye": "The z filter records near-infrared light the eye cannot see, and the camera's long exposures bring out faint blue stars that would be invisible by eye."
   },
   "scaleExtra": "Centaurus A lies more than 12 million light-years away, according to NOIRLab.",
@@ -724,7 +724,7 @@
    "The image comes from Cerro Tololo Inter-American Observatory's Víctor M. Blanco 4-meter Telescope, operated by NSF NOIRLab, using the Mosaic II camera. NOIRLab describes it as its best view yet of this neighbouring galaxy."
   ],
   "understand": {
-   "summary": "The Mosaic II camera on the Blanco 4-meter Telescope observed Barnard's Galaxy through U, B, V, R and I filters plus narrow oxygen (O III) and hydrogen-alpha filters, covering near-ultraviolet to the edge of near-infrared light; the colours assigned to each filter are not published.",
+   "summary": "The Mosaic II camera on the Blanco 4-meter Telescope observed Barnard's Galaxy through U, B, V, R and I filters plus narrow oxygen (O III) and hydrogen-alpha filters, covering near-ultraviolet to the edge of near-infrared light. The colours assigned to each filter are not published.",
    "eye": "Narrow filters isolate the light of glowing hydrogen and oxygen, emphasising star-forming regions and bubbles far too faint for the eye to see."
   },
   "scaleExtra": null,
@@ -736,15 +736,15 @@
   "caption": "The spiral galaxy Messier 106, imaged by the Mayall 4-meter Telescope at Kitt Peak",
   "captureDate": null,
   "story": [
-   "This view captures the whole of Messier 106, also known as NGC 4258: glowing spiral arms, dust lanes and wisps of gas near its centre, and slowly twisting bands of stars around its outer edges. Two dwarf galaxies also appear, UGC 7358 at the lower left and NGC 4248 at the lower right.",
+   "This view captures the whole of Messier 106, also known as NGC 4258, from the glowing spiral arms, dust lanes and wisps of gas near its centre to the slowly twisting bands of stars around its outer edges. Two dwarf galaxies also appear, UGC 7358 at the lower left and NGC 4248 at the lower right.",
    "Messier 106 lies in the constellation Canes Venatici and is a popular target for amateur astronomers, since it can be spotted with a small telescope.",
-   "A spiral galaxy is a flat, rotating disc of stars, gas and dust, with arms that wind out from a bright central region. The arms glow because they hold concentrations of gas and young stars, while dust lanes block light from behind. Dwarf galaxies like the two nearby here are much smaller systems, and they are often found keeping company with larger galaxies."
+   "A spiral galaxy is a flat, rotating disc of stars, gas and dust, with arms that wind out from a bright central region. The arms glow because they hold concentrations of gas and young stars, while dust lanes block light from behind. Dwarf galaxies like UGC 7358 and NGC 4248 are much smaller systems, and they are often found keeping company with larger galaxies."
   ],
   "explore": [
    "The image was taken with Kitt Peak National Observatory's Nicholas U. Mayall 4-meter Telescope, part of NSF NOIRLab, using the Mosaic I camera."
   ],
   "understand": {
-   "summary": "The Mosaic I camera on the Mayall 4-meter Telescope observed Messier 106 through U, B and R filters plus a hydrogen-alpha filter, spanning near-ultraviolet and visible light; the colours assigned to each filter are not published.",
+   "summary": "The Mosaic I camera on the Mayall 4-meter Telescope observed Messier 106 through U, B and R filters plus a hydrogen-alpha filter, spanning near-ultraviolet and visible light. The colours assigned to each filter are not published.",
    "eye": "The large telescope's long exposures gather far more light than the eye, revealing the galaxy's faint outer bands and the dwarf galaxies nearby."
   },
   "scaleExtra": null,
@@ -759,14 +759,14 @@
   "captureDate": null,
   "story": [
    "Bright pinks and blues burst across this view of NGC 4449, scattered through the galaxy like confetti. Gemini North, which makes up half of the International Gemini Observatory, took the image, which was released to mark the telescope's 25th anniversary.",
-   "NGC 4449 is a textbook case of a starburst galaxy, a galaxy forming new stars far faster than usual. Here the burst is driven by galaxies interacting and mingling, as NGC 4449 slowly absorbs its smaller neighbours. It lies about 12 million light-years away, in the constellation Canes Venatici.",
-   "When galaxies interact, their gravity stirs and compresses clouds of gas, and dense gas is where stars are born. Encounters like the ones NGC 4449 is going through can therefore set off star birth across a whole galaxy, which is what makes it such a clear example of a starburst."
+   "NGC 4449 is a textbook case of a starburst galaxy, a galaxy forming new stars far faster than usual. Its burst is driven by galaxies interacting and mingling, as NGC 4449 slowly absorbs its smaller neighbours. It lies about 12 million light-years away, in the constellation Canes Venatici.",
+   "When galaxies interact, their gravity stirs and compresses clouds of gas, and dense gas is where stars are born. Encounters like the ones NGC 4449 is going through can therefore set off star birth across a whole galaxy."
   ],
   "explore": [
    "The image was obtained by NOIRLab's Communication, Education and Engagement team for NOIRLab's Legacy Imaging Program, using the GMOS-N instrument on Gemini North."
   ],
   "understand": {
-   "summary": "Gemini North's GMOS-N instrument observed NGC 4449 in visible light through an r filter and narrow hydrogen-alpha and sulphur (S II) filters; the colours assigned to each filter are not published.",
+   "summary": "Gemini North's GMOS-N instrument observed NGC 4449 in visible light through an r filter and narrow hydrogen-alpha and sulphur (S II) filters. The colours assigned to each filter are not published.",
    "eye": "Narrowband filters isolate the specific colours given off by glowing gas, so star-forming clouds stand out far more than they would to the eye through a telescope."
   },
   "scaleExtra": null,
@@ -780,7 +780,7 @@
   "caption": "The spiral galaxy M74, imaged by the Gemini North telescope",
   "captureDate": "13–14 August 2001",
   "story": [
-   "This colour picture shows NGC 628, better known as M74, a spiral galaxy in the constellation Pisces, nicknamed the Perfect Spiral in its release title. It was taken on Mauna Kea, Hawaiʻi, with the 8.1-meter Gemini North telescope, using an instrument that had just been commissioned: the Gemini Multi-Object Spectrograph, or GMOS.",
+   "This colour picture shows NGC 628, better known as M74, a spiral galaxy in the constellation Pisces, nicknamed the Perfect Spiral in its release title. It was taken on Mauna Kea, Hawaiʻi, with the 8.1-meter Gemini North telescope, using the Gemini Multi-Object Spectrograph, or GMOS, an instrument that had just been commissioned.",
    "To make the colour image, three separate pictures were combined as the red, green and blue layers of a composite. The observations were made on 13 and 14 August 2001, and the field covers 5.7 by 5.4 arcminutes.",
    "A spiral galaxy is a flat, rotating disc of stars, gas and dust whose arms wind out from a bright central region. The arms stand out because they are where gas collects and young stars form. Galaxies like M74, seen with their arms laid out clearly, are useful for studying how that spiral pattern is organised."
   ],
@@ -788,7 +788,7 @@
    "Although GMOS is a spectrograph, able to split light from many objects into spectra at once, it can also take direct images, as it did here during its commissioning, the period when a new instrument is tested on the telescope."
   ],
   "understand": {
-   "summary": "GMOS on Gemini North imaged M74 in visible and near-infrared light through g, r and i filters, combined into a red, green and blue composite; which filter went to which colour is not stated.",
+   "summary": "GMOS on Gemini North imaged M74 in visible and near-infrared light through g, r and i filters, combined into a red, green and blue composite. Which filter went to which colour is not stated.",
    "eye": "The i filter reaches into near-infrared light the eye cannot see, and an 8-meter mirror gathers far more light than a human eye."
   },
   "scaleExtra": null,
@@ -803,14 +803,14 @@
   "captureDate": null,
   "story": [
    "This portrait from NOIRLab's Kitt Peak National Observatory shows IC 10, a disorderly irregular galaxy that is forming stars at a high rate. Besides many bright young stars, it hosts exotic Wolf-Rayet stars and a black hole.",
-   "Seen toward the constellation Cassiopeia, IC 10 is around 2 million light-years from Earth. That sounds enormously far, yet it places the galaxy within our Local Group, the growing family of galaxies that includes the Milky Way.",
+   "Seen toward the constellation Cassiopeia, IC 10 is around 2 million light-years from Earth, which places it within our Local Group, the growing family of galaxies that includes the Milky Way.",
    "An irregular galaxy has no clear spiral or elliptical shape, and a starburst galaxy is one making new stars much faster than usual. Wolf-Rayet stars are very hot, massive stars that drive powerful winds and are shedding their outer layers, a short phase late in their lives. Finding many young stars alongside them fits a galaxy in the middle of an energetic burst of star birth."
   ],
   "explore": [
-   "The data were obtained with the Mosaic II camera on the Nicholas U. Mayall 4-meter Telescope at Kitt Peak, by P. Massey, G. Jacoby, K. Olsen and C. Smith; Travis Rector, Mahdi Zamani and Davide de Martin processed the image."
+   "The data were obtained with the Mosaic II camera on the Nicholas U. Mayall 4-meter Telescope at Kitt Peak, by P. Massey, G. Jacoby, K. Olsen and C. Smith. Travis Rector, Mahdi Zamani and Davide de Martin processed the image."
   ],
   "understand": {
-   "summary": "The Mosaic II camera on the Mayall 4-meter Telescope observed IC 10 through U, B, V, R and I filters plus narrow oxygen (O III), hydrogen-alpha and sulphur (S II) filters, from near-ultraviolet to the edge of near-infrared; the colours assigned to each filter are not published.",
+   "summary": "The Mosaic II camera on the Mayall 4-meter Telescope observed IC 10 through U, B, V, R and I filters plus narrow oxygen (O III), hydrogen-alpha and sulphur (S II) filters, from near-ultraviolet to the edge of near-infrared. The colours assigned to each filter are not published.",
    "eye": "Narrowband filters single out light from glowing gas, and long exposures gather far more light than the eye, so faint star-forming regions become visible."
   },
   "scaleExtra": "IC 10 lies around 2 million light-years from Earth, according to NOIRLab.",
@@ -825,15 +825,15 @@
   "captureDate": null,
   "story": [
    "Two galaxies are caught in a gravitational embrace in this image from Gemini South. NGC 6872 is on the left, and its companion, IC 4970, is on the right. The pair is seen toward the constellation Pavo, the Peacock, at a distance of about 200 million light-years.",
-   "The two are interacting: each galaxy's gravity pulls on the other, and over time that tug can reshape both of them. Interactions like this often draw stars and gas out into long arms or streams, and they can squeeze gas clouds hard enough to start new bursts of star formation.",
+   "The two are interacting. Each galaxy's gravity pulls on the other, and over time that tug can reshape both of them. Interactions like this often draw stars and gas out into long arms or streams, and they can squeeze gas clouds hard enough to start new bursts of star formation.",
    "Many galaxies go through encounters of this kind, and some eventually merge. Studying pairs caught partway through the process helps astronomers understand how galaxies grow and change shape over their long lives."
   ],
   "explore": [
    "The image was made with Gemini South's GMOS-S instrument. Besides the Australian Gemini Office, its full credit names Travis Rector (University of Alaska Anchorage), the Sydney Girls High School Astronomy Club and Ángel López-Sánchez, from the Australian Astronomical Observatory and Macquarie University."
   ],
   "understand": {
-   "summary": "GMOS-S on Gemini South imaged the pair through g, r and i filters, covering visible and near-infrared light; the colours assigned to each filter are not published.",
-   "eye": "At about 200 million light-years these galaxies are far too faint for the eye; the i filter also records near-infrared light we cannot see."
+   "summary": "GMOS-S on Gemini South imaged the pair through g, r and i filters, covering visible and near-infrared light. The colours assigned to each filter are not published.",
+   "eye": "At about 200 million light-years these galaxies are far too faint for the eye. The i filter also records near-infrared light we cannot see."
   },
   "scaleExtra": "The two galaxies lie about 200 million light-years away, according to Gemini Observatory.",
   "alt": "Two galaxies interacting, NGC 6872 on the left and its companion IC 4970 on the right.",
@@ -854,7 +854,7 @@
    "The full image can be explored in a zoomable version, which lets visitors pan across the thousands of cluster and background galaxies it contains."
   ],
   "understand": {
-   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed the Coma Cluster through g, r, i and z filters, covering visible and near-infrared light; the colours assigned to each filter are not published.",
+   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed the Coma Cluster through g, r, i and z filters, covering visible and near-infrared light. The colours assigned to each filter are not published.",
    "eye": "These galaxies are far too faint to see with the eye, and the z filter records near-infrared light that is invisible to us."
   },
   "scaleExtra": null,
@@ -868,15 +868,15 @@
   "caption": "The Sombrero Galaxy, Messier 104, imaged by the Dark Energy Camera on the Blanco 4-meter Telescope",
   "captureDate": null,
   "story": [
-   "This image shows Messier 104, also catalogued as NGC 4594 and nicknamed the Sombrero Galaxy, in the constellation Virgo. Its familiar features are both here: an extended halo and a disc filled with dust.",
+   "This image shows Messier 104, also catalogued as NGC 4594 and nicknamed the Sombrero Galaxy, in the constellation Virgo. Both of its familiar features, an extended halo and a disc filled with dust, are visible.",
    "The Sombrero is a popular target both for amateur observers and for professional research. Its nickname comes from its resemblance to a broad-brimmed hat, with the dusty disc forming the brim.",
-   "Dust in a galaxy's disc absorbs and blocks the light of stars behind it, which is why a dusty disc seen at an angle appears as a dark band. A galaxy's halo is a faint, extended region of stars surrounding the main body. Imaging both at once calls for a camera that can capture a wide field and also record faint light, and this view captures both."
+   "Dust in a galaxy's disc absorbs and blocks the light of stars behind it, which is why a dusty disc seen at an angle appears as a dark band. A galaxy's halo is a faint, extended region of stars surrounding the main body. Imaging both at once calls for a camera that can capture a wide field and also record faint light."
   ],
   "explore": [
    "The image was taken with the Dark Energy Camera, a DOE-built instrument mounted on the NSF's Víctor M. Blanco 4-meter Telescope, which stands at Chile's Cerro Tololo Inter-American Observatory and is part of NSF NOIRLab. A cropped close-up version is also available."
   ],
   "understand": {
-   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed the Sombrero through g, r and i filters and a narrowband N662 filter, covering visible and near-infrared light; the colours assigned to each filter are not published.",
+   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed the Sombrero through g, r and i filters and a narrowband N662 filter, covering visible and near-infrared light. The colours assigned to each filter are not published.",
    "eye": "The camera's long exposures gather far more light than the eye, bringing out the faint extended halo."
   },
   "scaleExtra": null,
@@ -898,7 +898,7 @@
    "The image was taken with the Dark Energy Camera, built by the US Department of Energy, on Cerro Tololo Inter-American Observatory's Víctor M. Blanco 4-meter Telescope, a Program of NSF NOIRLab. It is credited to the Dark Energy Survey."
   ],
   "understand": {
-   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed NGC 1566 through g, r, i, z and Y filters, spanning visible and near-infrared light; the colours assigned to each filter are not published.",
+   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed NGC 1566 through g, r, i, z and Y filters, spanning visible and near-infrared light. The colours assigned to each filter are not published.",
    "eye": "The z and Y filters record near-infrared light that the eye cannot see, and the camera gathers far more light than an eye could."
   },
   "scaleExtra": null,
@@ -912,7 +912,7 @@
   "caption": "The Large Magellanic Cloud from the SMASH survey, imaged by the Dark Energy Camera on the Blanco 4-meter Telescope",
   "captureDate": null,
   "story": [
-   "This image comes from the SMASH survey and gives a wide-angle view of the Large Magellanic Cloud unlike any before. The lower part of the image shows how deep the survey goes: a great many stars appear even in the galaxy's outer regions.",
+   "This image comes from the SMASH survey and gives a wide-angle view of the Large Magellanic Cloud unlike any before. In the lower part, a great many stars appear even in the galaxy's outer regions, which shows how deep the survey goes.",
    "Of all the galaxies orbiting the Milky Way, the Large and Small Magellanic Clouds are the biggest. Unlike the other galaxies that orbit ours, they are still actively forming stars, and doing so at a rapid pace.",
    "A satellite galaxy is a smaller galaxy that orbits a larger one, bound to it by gravity. Most of the Milky Way's satellites are small and have largely stopped making new stars, which makes the two Magellanic Clouds stand out. Mapping the faint outskirts of the Large Magellanic Cloud helps astronomers trace how far its stars extend and how it has been shaped by its larger neighbour."
   ],
@@ -920,7 +920,7 @@
    "The data were gathered with the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope. The SMASH data are credited to D. Nidever of Montana State University."
   ],
   "understand": {
-   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed the Large Magellanic Cloud through g, r, i and z filters, covering visible and near-infrared light; the colours assigned to each filter are not published.",
+   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed the Large Magellanic Cloud through g, r, i and z filters, covering visible and near-infrared light. The colours assigned to each filter are not published.",
    "eye": "The survey's deep exposures gather far more light than the eye, resolving a great many individual stars, even in the galaxy's outer regions."
   },
   "scaleExtra": null,
@@ -934,7 +934,7 @@
   "caption": "The interacting galaxies NGC 1512 and NGC 1510, imaged by the Dark Energy Camera on the Blanco 4-meter Telescope",
   "captureDate": null,
   "story": [
-   "Two galaxies take centre stage in this image: NGC 1512 and its smaller neighbour NGC 1510, a pair caught in the act of interacting, in the constellation Horologium.",
+   "Two galaxies in the constellation Horologium, NGC 1512 and its smaller neighbour NGC 1510, take centre stage in this image, caught in the act of interacting.",
    "NGC 1512 has been merging with NGC 1510 for 400 million years. That long, slow interaction has set off waves of star formation and bent both galaxies out of shape.",
    "When galaxies interact, their gravity pulls on each other's stars and gas. Clouds of gas get compressed, and compressed gas is where new stars form, so encounters like this often trigger bursts of star birth. The same forces can distort a galaxy's disc, twisting or warping it. Over enough time, a smaller galaxy can be absorbed entirely by a larger one, and mergers of this kind are thought to be one of the main ways galaxies grow."
   ],
@@ -942,7 +942,7 @@
    "The image was taken with the Dark Energy Camera, a wide-field imager on Cerro Tololo Inter-American Observatory's Víctor M. Blanco 4-meter Telescope, a Program of NSF NOIRLab. It is credited to the Dark Energy Survey."
   ],
   "understand": {
-   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed the pair through g, r, i, z and Y filters, covering visible and near-infrared light; the colours assigned to each filter are not published.",
+   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed the pair through g, r, i, z and Y filters, covering visible and near-infrared light. The colours assigned to each filter are not published.",
    "eye": "The z and Y filters capture near-infrared light the eye cannot see, and the camera gathers far more light than an eye could."
   },
   "scaleExtra": null,
@@ -965,8 +965,8 @@
    "This view is a small piece of the Dark Energy Survey, a global collaboration including Fermilab, NCSA and NSF NOIRLab, which released a huge public collection of data from six years of work, all taken with DOE's Dark Energy Camera on the Blanco 4-meter Telescope."
   ],
   "understand": {
-   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed IC 1613 in visible and near-infrared light through G, R and I filters; the colours assigned to each filter are not published.",
-   "eye": "The foreground star's spikes are not real: they are diffraction spikes, created as light bends around structures inside the telescope, something the eye would not see looking at the sky."
+   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed IC 1613 in visible and near-infrared light through G, R and I filters. The colours assigned to each filter are not published.",
+   "eye": "The foreground star's spikes are not real. They are diffraction spikes, created as light bends around structures inside the telescope, and the eye would not see them looking at the sky."
   },
   "scaleExtra": "IC 1613 lies 2.4 million light-years away, according to NOIRLab.",
   "alt": "A loose irregular galaxy of stars, with a small cluster of orange-yellow galaxies at lower right and a bright spiked star to the left.",
@@ -977,16 +977,16 @@
   "caption": "The Great Barred Spiral Galaxy, NGC 1365, imaged by the Dark Energy Camera on the Blanco 4-meter Telescope",
   "captureDate": null,
   "story": [
-   "A prominent bar crosses the middle of NGC 1365, along with graceful spiral arms and lanes of dust dimming the broad, diffuse glow of stars. Also known as the Great Barred Spiral Galaxy, it belongs to the Fornax Cluster of galaxies and is a strikingly clean example of its type.",
-   "The central bar affects star formation throughout the whole galaxy. It also hides a supermassive black hole, concealed behind crowds of newly formed stars.",
-   "Barred spirals like NGC 1365 interest astronomers for more than their looks. Our own Milky Way is also a barred spiral, and because we cannot see it from outside, galaxies like this one offer clues to how our home galaxy works. Studying NGC 1365 is, in a sense, a way of looking at ourselves from afar."
+   "A prominent bar crosses the middle of NGC 1365, along with graceful spiral arms and lanes of dust dimming the broad, diffuse glow of stars. Also known as the Great Barred Spiral Galaxy, it belongs to the Fornax Cluster of galaxies and is an unusually clean example of a barred spiral.",
+   "The central bar of NGC 1365 affects star formation throughout the whole galaxy. It also hides a supermassive black hole, concealed behind crowds of newly formed stars.",
+   "Barred spirals like NGC 1365 interest astronomers for more than their looks. Our own Milky Way is also a barred spiral, and because we cannot see it from outside, galaxies like NGC 1365, seen whole from outside, offer clues to how our home galaxy works."
   ],
   "explore": [
    "The image uses data from the Dark Energy Survey, which mapped hundreds of millions of galaxies with the Dark Energy Camera on Cerro Tololo Inter-American Observatory's Víctor M. Blanco 4-meter Telescope.",
-   "The 570-megapixel camera, one of the best-performing wide-field CCD imagers in the world, was designed for the survey, funded by the DOE and built and tested at Fermilab. The DOE and NSF operated it for the survey from 2013 to 2019; it now serves many other science programs."
+   "The 570-megapixel camera, one of the best-performing wide-field CCD imagers in the world, was designed for the survey, funded by the DOE and built and tested at Fermilab. The DOE and NSF operated it for the survey from 2013 to 2019. It now serves many other science programs."
   ],
   "understand": {
-   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed NGC 1365 through g, r and i filters, covering visible and near-infrared light; the colours assigned to each filter are not published.",
+   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed NGC 1365 through g, r and i filters, covering visible and near-infrared light. The colours assigned to each filter are not published.",
    "eye": "The i filter reaches into near-infrared light the eye cannot see, and the survey's exposures gather far more light than an eye could."
   },
   "scaleExtra": null,
@@ -998,15 +998,15 @@
   "caption": "The spiral galaxy NGC 6744, imaged by the Dark Energy Camera on the Blanco 4-meter Telescope",
   "captureDate": null,
   "story": [
-   "A luminous core sits at the centre of NGC 6744, surrounded by spiral arms that span 175,000 light-years. At the lower right, at the end of one arm, is a faint blob: its companion galaxy, NGC 6744A. On the left, a faint extended arm is visible, a feature rarely seen in most images.",
-   "Found in the constellation Pavo, NGC 6744 lies around 30 million light-years away. Its anatomy resembles that of our own Milky Way, only larger, and even its companion echoes ours: the pairing is similar to the one between the Milky Way and the Large Magellanic Cloud, its dwarf companion.",
-   "Nobody can step outside the Milky Way to photograph it. Galaxies like NGC 6744 give astronomers a stand-in, offering a sense of how our home might look to an observer far away."
+   "A luminous core sits at the centre of NGC 6744, surrounded by spiral arms that span 175,000 light-years. At the lower right, at the end of one arm, is its companion galaxy, NGC 6744A, a faint blob. On the left, a faint extended arm is visible, a feature rarely seen in most images.",
+   "Found in the constellation Pavo, NGC 6744 lies around 30 million light-years away. Its anatomy resembles that of our own Milky Way, only larger. Even its companion echoes ours, in a pairing similar to the one between the Milky Way and the Large Magellanic Cloud, its dwarf companion.",
+   "Nobody can step outside the Milky Way to photograph it. Galaxies like NGC 6744 give astronomers a stand-in, showing how our home might look to an observer far away."
   ],
   "explore": [
    "Few images of NGC 6744 have ever gone this deep. It was made with the Dark Energy Camera on Cerro Tololo Inter-American Observatory's Víctor M. Blanco 4-meter Telescope in Chile. The image belongs to the DESI Legacy Imaging Surveys, an effort to build the largest 3D map of the night sky."
   ],
   "understand": {
-   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed NGC 6744 in visible light through g and r filters and a hydrogen-alpha filter; the colours assigned to each filter are not published.",
+   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed NGC 6744 in visible light through g and r filters and a hydrogen-alpha filter. The colours assigned to each filter are not published.",
    "eye": "The deep exposures reveal the faint outer arm and companion galaxy, which would be far too dim for the eye to see through a telescope."
   },
   "scaleExtra": null,
@@ -1026,7 +1026,7 @@
    "This image was taken with Gemini North, half of the International Gemini Observatory. The observatory is supported in part by the US National Science Foundation and operated by NSF NOIRLab. Earlier views of NGC 7331, taken at Kitt Peak National Observatory in 1975 and 2014, can be found in the NOIRLab image archive."
   ],
   "understand": {
-   "summary": "Gemini North's GMOS-N instrument imaged NGC 7331 through g, r and i filters, covering visible and near-infrared light; the colours assigned to each filter are not published.",
+   "summary": "Gemini North's GMOS-N instrument imaged NGC 7331 through g, r and i filters, covering visible and near-infrared light. The colours assigned to each filter are not published.",
    "eye": "The i filter records near-infrared light the eye cannot see, and the telescope gathers far more light than an eye, revealing the fine dust lanes."
   },
   "scaleExtra": null,
@@ -1040,14 +1040,14 @@
   "story": [
    "An umbrella-shaped tidal tail spreads out from NGC 922 in this image, a feature only recently detected. The peculiar galaxy lies in the southern constellation Fornax, about 140 million light-years away, and its structure has puzzled astronomers for years.",
    "Its distinctive features, a plume of stars and a galactic bar that sits off-centre, were once blamed on a collision, some 330 million years ago, with a dwarf galaxy nearby. The new observations challenge that story. The newly seen tail does not line up with the path of the dwarf galaxy, and the dwarf itself is still forming stars and has a well-defined shape, which does not fit the aftermath of a direct hit.",
-   "So a new idea has emerged: NGC 922 may have merged with a stripped dwarf galaxy, one that had already lost much of its material in earlier encounters with other galaxies."
+   "A newer idea is that NGC 922 may have merged with a stripped dwarf galaxy, one that had already lost much of its material in earlier encounters with other galaxies."
   ],
   "explore": [
    "As scientists rewrite the galaxy's history, its tidal features make NGC 922 a valuable case for understanding how galaxies develop after interactions. The image was taken with the DOE-built Dark Energy Camera on the NSF's Víctor M. Blanco 4-meter Telescope at Cerro Tololo Inter-American Observatory."
   ],
   "understand": {
-   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed NGC 922 through g, r and z filters, covering visible and near-infrared light; the colours assigned to each filter are not published.",
-   "eye": "The faint tidal tail is far too dim to see by eye; deep exposures and a z filter reaching into invisible near-infrared light bring it out."
+   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed NGC 922 through g, r and z filters, covering visible and near-infrared light. The colours assigned to each filter are not published.",
+   "eye": "The faint tidal tail is far too dim to see by eye. Deep exposures and a z filter reaching into invisible near-infrared light bring it out."
   },
   "scaleExtra": null,
   "alt": "A distorted galaxy with an off-centre bar and an umbrella-shaped tail of stars spreading from it.",
@@ -1059,15 +1059,15 @@
   "captureDate": null,
   "story": [
    "NGC 1398 shows off a bright central bar and delicate spiral arms, a barred spiral galaxy that seems to drift alone in a field of stars. Its home on the sky is the constellation Fornax, roughly 65 million light-years from Earth.",
-   "Look more closely, though, and the galaxy is far from alone. The sky around it is full of the smudges and swirls of distant galaxies, far beyond NGC 1398. This deep portrait captures the galaxy and its surroundings together.",
-   "In a barred spiral, a straight band of stars crosses the centre, and the spiral arms begin near its ends. Deep images like this one, covering a wide field, let astronomers study one galaxy in detail while also recording huge numbers of much more distant galaxies in the same frame."
+   "A closer look shows that the galaxy is far from alone. The sky around it is full of the smudges and swirls of distant galaxies, far beyond NGC 1398.",
+   "In a barred spiral, a straight band of stars crosses the centre, and the spiral arms begin near its ends. Deep images like this one, covering a wide field, let astronomers study one galaxy in detail while also recording huge numbers of much more distant galaxies at the same time."
   ],
   "explore": [
    "The image was taken with Cerro Tololo Inter-American Observatory's Víctor M. Blanco 4-meter Telescope. In 1995 the telescope was named in honour of Víctor Manuel Blanco, a Puerto Rican astronomer who became the observatory's second director. It was captured for the DOE-funded Dark Energy Survey using DECam, built and tested at Fermilab."
   ],
   "understand": {
-   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed NGC 1398 through g, r and i filters, covering visible and near-infrared light; the colours assigned to each filter are not published.",
-   "eye": "The distant background galaxies are far too faint for the eye; the survey's deep exposures reveal them, and the i filter reaches into near-infrared light."
+   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed NGC 1398 through g, r and i filters, covering visible and near-infrared light. The colours assigned to each filter are not published.",
+   "eye": "The distant background galaxies are far too faint for the eye. The survey's deep exposures reveal them, and the i filter reaches into near-infrared light."
   },
   "scaleExtra": null,
   "alt": "A barred spiral galaxy with a bright bar and delicate arms, surrounded by stars and many small, faint distant galaxies.",
@@ -1087,7 +1087,7 @@
    "The photo was taken during the NOIRLab 2022 Photo Expedition to all NOIRLab sites by Tomáš Slovinský, a NOIRLab Audiovisual Ambassador."
   ],
   "understand": {
-   "summary": "This is a landscape photograph taken with a camera in visible light from Maunakea; the camera settings and processing are not published.",
+   "summary": "This is a landscape photograph taken with a camera in visible light from Maunakea. The camera settings and processing are not published.",
    "eye": "A long camera exposure gathers far more light than the eye, so the Milky Way's glow and the colours of its nebulae look far richer than they would to someone on the summit."
   },
   "scaleExtra": null,
@@ -1099,7 +1099,7 @@
   "caption": "The needle-thin galaxy IC 2233, imaged by the Mayall 4-meter Telescope at Kitt Peak",
   "captureDate": null,
   "story": [
-   "The remarkably thin galaxy IC 2233 is the subject of this image, its profile as slender as a needle. Its slender profile comes from two things together: its structure and the way it is oriented toward Earth.",
+   "IC 2233 is an unusually thin galaxy, its profile as slender as a needle. That shape comes from its structure together with the way it is oriented toward Earth.",
    "Astronomers call a galaxy's tilt its inclination, and IC 2233 is seen almost exactly edge-on, which makes it one of the flattest galaxies known. It also lacks the prominent central bulge that thickens the profile of spirals such as Andromeda and the Milky Way. The exposure is deep, and the whole field is scattered with other galaxies tilted at all sorts of angles.",
    "The galaxy's wafer-thin shape has intrigued observers for nearly 150 years. It was discovered in 1874 by Isaac Roberts, a Welsh amateur astronomer who was one of the pioneers of photographing the sky."
   ],
@@ -1107,7 +1107,7 @@
    "The image was taken with Kitt Peak National Observatory's Nicholas U. Mayall 4-meter Telescope, part of NSF NOIRLab, using the Mosaic I camera. IC 2233 lies in the constellation Lynx."
   ],
   "understand": {
-   "summary": "The Mosaic I camera on the Mayall 4-meter Telescope observed IC 2233 through U, B and R filters plus a hydrogen-alpha filter, spanning near-ultraviolet and visible light; the colours assigned to each filter are not published.",
+   "summary": "The Mosaic I camera on the Mayall 4-meter Telescope observed IC 2233 through U, B and R filters plus a hydrogen-alpha filter, spanning near-ultraviolet and visible light. The colours assigned to each filter are not published.",
    "eye": "The deep exposure gathers far more light than the eye, revealing the many faint background galaxies that fill the field."
   },
   "scaleExtra": null,
@@ -1119,7 +1119,7 @@
   "caption": "The Small Magellanic Cloud from the SMASH survey, imaged by the Dark Energy Camera on the Blanco 4-meter Telescope",
   "captureDate": null,
   "story": [
-   "This image, part of the SMASH survey, offers what may be the finest wide-angle view yet of the Small Magellanic Cloud, one of our Galaxy's closest companions.",
+   "This image, part of the SMASH survey, may be the finest wide-angle view yet of the Small Magellanic Cloud, one of our Galaxy's closest companions.",
    "Of all the galaxies orbiting the Milky Way, the two Magellanic Clouds are the biggest. They also differ from the rest in that both are still busily making new stars, and quickly.",
    "A satellite galaxy is a smaller galaxy that orbits a larger one, held by its gravity. The rest of the Milky Way's satellites are no longer actively forming stars, which is why the two Magellanic Clouds stand out. A galaxy that is still making stars keeps a supply of gas and dust, and the young stars born from it are often hot and bright. Wide, deep surveys like this one let astronomers study huge numbers of individual stars across a whole galaxy in a single consistent set of images, which helps them piece together how and when its stars formed."
   ],
@@ -1127,7 +1127,7 @@
    "The data were taken with the Dark Energy Camera on the Víctor M. Blanco 4-meter Telescope, and the SMASH data are credited to D. Nidever of Montana State University."
   ],
   "understand": {
-   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed the Small Magellanic Cloud through g, r, i and z filters, covering visible and near-infrared light; the colours assigned to each filter are not published.",
+   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed the Small Magellanic Cloud through g, r, i and z filters, covering visible and near-infrared light. The colours assigned to each filter are not published.",
    "eye": "The survey's deep exposures gather far more light than the eye, resolving the galaxy into individual stars."
   },
   "scaleExtra": null,
@@ -1149,7 +1149,7 @@
    "The image was made with the GMOS-S instrument on Gemini South, part of the International Gemini Observatory, operated by NSF NOIRLab."
   ],
   "understand": {
-   "summary": "GMOS-S on Gemini South imaged NGC 7793 through g, r and i filters, covering visible and near-infrared light; the colours assigned to each filter are not published.",
+   "summary": "GMOS-S on Gemini South imaged NGC 7793 through g, r and i filters, covering visible and near-infrared light. The colours assigned to each filter are not published.",
    "eye": "The i filter records near-infrared light the eye cannot see, and the telescope gathers far more light, bringing out the galaxy's tufted texture."
   },
   "scaleExtra": null,
@@ -1163,7 +1163,7 @@
   "caption": "The galaxy pair NGC 672 and IC 1727, imaged by the Mayall 4-meter Telescope at Kitt Peak",
   "captureDate": null,
   "story": [
-   "Two galaxies seem almost to elbow each other in this image: NGC 672 at the top right and IC 1727 at the bottom left. They are classed as a galactic pair, meaning the gravity of each one affects the other.",
+   "Two galaxies seem almost to elbow each other in this image, with NGC 672 at the top right and IC 1727 at the bottom left. They are classed as a galactic pair, meaning the gravity of each one affects the other.",
    "The pair lies around 20 million light-years from Earth, in the constellation Triangulum. The gap between them spans more than 80,000 light-years, which sounds enormous. From the galaxies' own point of view, however, it is not so large, since that separation is roughly the same as the size of the galaxies themselves.",
    "Gravitational interactions between neighbouring galaxies can gradually reshape them, pulling on their stars and gas and stirring up clouds that may go on to form new stars. Pairs like this one give astronomers a chance to study galaxies that are influencing each other."
   ],
@@ -1171,7 +1171,7 @@
    "The image comes from NSF Kitt Peak National Observatory, part of NSF NOIRLab, with the Mosaic I camera on the Nicholas U. Mayall 4-meter Telescope."
   ],
   "understand": {
-   "summary": "The Mosaic I camera on the Mayall 4-meter Telescope observed the pair through U, B and R filters plus a hydrogen-alpha filter, spanning near-ultraviolet and visible light; the colours assigned to each filter are not published.",
+   "summary": "The Mosaic I camera on the Mayall 4-meter Telescope observed the pair through U, B and R filters plus a hydrogen-alpha filter, spanning near-ultraviolet and visible light. The colours assigned to each filter are not published.",
    "eye": "Long exposures on a large telescope gather far more light than the eye could."
   },
   "scaleExtra": "The pair is around 20 million light-years away, and the space between the galaxies spans over 80,000 light-years, according to NOIRLab.",
@@ -1185,16 +1185,16 @@
   "caption": "The collision-ringed galaxy NGC 5291 and the Seashell, imaged by the SMARTS 0.9-meter Telescope at Cerro Tololo",
   "captureDate": null,
   "story": [
-   "At the centre of this image is a hazy, golden oval: the elliptical galaxy NGC 5291. Faint, glowing clouds spread out to its left and right, forming a ring of debris left behind by a violent galactic collision.",
+   "The hazy, golden oval at the centre of this image is the elliptical galaxy NGC 5291. Faint, glowing clouds spread out to its left and right, forming a ring of debris left behind by a violent galactic collision.",
    "More than 300 million years ago, NGC 5291 was struck by a rogue galaxy hurtling through space. The debris ring is the aftermath of that impact. NGC 5291 lies about 200 million light-years away, in the constellation Centaurus.",
-   "The image also shows a much gentler encounter. Just to the right of NGC 5291 is an unusually curved galaxy known as the Seashell, and the two are interacting calmly with each other. An elliptical galaxy is a smooth, rounded collection of stars without spiral arms, and collisions like this one show how violently such galaxies can be disturbed."
+   "NGC 5291 is also part of a much gentler encounter. Just to the right of NGC 5291 is an unusually curved galaxy known as the Seashell, and the two are interacting calmly with each other. An elliptical galaxy is a smooth, rounded collection of stars without spiral arms, and collisions like this one show how violently such galaxies can be disturbed."
   ],
   "explore": [
    "Cerro Tololo Inter-American Observatory's SMARTS 0.9-meter Telescope made the observation."
   ],
   "understand": {
-   "summary": "The SMARTS 0.9-meter Telescope at Cerro Tololo observed NGC 5291 through u, g, r and i filters, from near-ultraviolet through visible light to the edge of near-infrared; the colours assigned to each filter are not published.",
-   "eye": "The faint debris clouds are far too dim for the eye; the camera's exposures gather enough light to reveal them."
+   "summary": "The SMARTS 0.9-meter Telescope at Cerro Tololo observed NGC 5291 through u, g, r and i filters, from near-ultraviolet through visible light to the edge of near-infrared. The colours assigned to each filter are not published.",
+   "eye": "The faint debris clouds are far too dim for the eye. The camera's exposures gather enough light to reveal them."
   },
   "scaleExtra": null,
   "alt": "A hazy golden oval galaxy at centre, with faint glowing clouds stretching left and right and a curved galaxy just to its right.",
@@ -1209,13 +1209,13 @@
   "story": [
    "The NSF–DOE Vera C. Rubin Observatory sits beneath the dense tangle of gas and dust of the Milky Way, its dome open. From behind Cerro Pachón, the mountain it calls home, peek faint blue and red hints of airglow, which blend into the warm glow of city lights from La Serena.",
    "Airglow is a faint light given off by energised atoms in Earth's upper atmosphere. The open dome means Rubin is ready to survey the southern sky with the LSST Camera, a 3200-megapixel instrument that is the largest digital camera in the world, roughly as big as an SUV, with a weight of around 3000 kg.",
-   "Rubin can record very faint objects that give off or reflect little light, such as ultra diffuse galaxies: systems as large as the Milky Way but with only a hundredth to a thousandth as many stars. Studying them lets scientists test ideas about dark matter and learn how galaxies grow, interact and collide."
+   "Rubin can record very faint objects that give off or reflect little light, such as ultra diffuse galaxies, which are as large as the Milky Way but have only a hundredth to a thousandth as many stars. Studying them lets scientists test ideas about dark matter and learn how galaxies grow, interact and collide."
   ],
   "explore": [
    "The photographer, Hernán Stockebrand, is a DevOps engineer at Rubin Observatory and a NOIRLab Audiovisual Ambassador. Rubin is jointly funded by the US National Science Foundation and the Department of Energy's Office of Science, and is operated jointly by NSF NOIRLab and DOE's SLAC National Accelerator Laboratory."
   ],
   "understand": {
-   "summary": "This is a landscape photograph taken with a camera in visible light at Cerro Pachón; the camera settings and processing are not published.",
+   "summary": "This is a landscape photograph taken with a camera in visible light at Cerro Pachón. The camera settings and processing are not published.",
    "eye": "A long camera exposure gathers much more light than the eye, so faint airglow and the Milky Way's dust show up more strongly than they would to someone standing there."
   },
   "scaleExtra": null,
@@ -1227,15 +1227,15 @@
   "caption": "The Milky Way and the Rho Ophiuchi cloud complex, near Cerro Pachón, Chile",
   "captureDate": null,
   "story": [
-   "The Milky Way's glowing disc stretches across this sky near Cerro Pachón in Chile, partly hidden by dark interstellar dust clouds known as the Great Rift. Some fragments of these dark nebulae seem to reach toward a small cluster of colour: the Rho Ophiuchi cloud complex.",
+   "The Milky Way's glowing disc stretches across this sky near Cerro Pachón in Chile, partly hidden by dark interstellar dust clouds known as the Great Rift. Some fragments of these dark nebulae seem to reach toward a small cluster of colour, the Rho Ophiuchi cloud complex.",
    "That complex mixes reflection nebulae, which scatter blue and yellow light from nearby stars, with emission nebulae, which shine with the reddish light of hot hydrogen gas. Tucked inside it are the star Rho Ophiuchi and Antares, the heart of Scorpius. Above the group lies a much larger deep red emission nebula, Sh2-27, surrounding the star Zeta Ophiuchi.",
-   "The soft light to the right of centre is the gegenschein: sunlight bounced back by dust particles in the outer Solar System. That dust, which also produces the zodiacal light, comes from sources that include comet tails and collisions between asteroids."
+   "The soft light to the right of centre is the gegenschein, sunlight bounced back by dust particles in the outer Solar System. That dust, which also produces the zodiacal light, comes from sources that include comet tails and collisions between asteroids."
   ],
   "explore": [
    "Cerro Pachón is home to several NSF NOIRLab facilities, among them the SOAR Telescope, Vera C. Rubin Observatory and half of the International Gemini Observatory. This 170-megapixel photograph was taken during the NOIRLab 2022 Photo Expedition by P. Horálek of the Institute of Physics in Opava, and can be explored with a zoom feature."
   ],
   "understand": {
-   "summary": "This is a landscape photograph taken with a camera in visible light near Cerro Pachón; the camera settings and processing are not published.",
+   "summary": "This is a landscape photograph taken with a camera in visible light near Cerro Pachón. The camera settings and processing are not published.",
    "eye": "A long camera exposure gathers much more light than the eye, so the colours of the nebulae and the faint gegenschein appear far more clearly than they would to the naked eye."
   },
   "scaleExtra": null,
@@ -1248,14 +1248,14 @@
   "captureDate": null,
   "story": [
    "Gemini South, which makes up half of the International Gemini Observatory, stands on Cerro Pachón in this night photograph. Behind it rises the NSF–DOE Vera C. Rubin Observatory, which has just begun operating.",
-   "The photograph's theme is speed. A meteor may be visible for only a few seconds, and many astronomical objects change quickly. Studying these fleeting changes is called time-domain astronomy, and Gemini is often one of the observatories that follows up on fast-changing events: supernovae, asteroids, variable stars, active galactic nuclei and meteors. In 2025, Gemini South follow-up helped astronomers characterise the nearest supernova known to be tied to a fast X-ray transient, as well as the near-Earth asteroid 2024 YR4.",
+   "The photograph's theme is speed. A meteor may be visible for only a few seconds, and many astronomical objects change quickly. Studying these fleeting changes is called time-domain astronomy, and Gemini is often one of the observatories that follows up on fast-changing events such as supernovae, asteroids, variable stars, active galactic nuclei and meteors. In 2025, Gemini South follow-up helped astronomers characterise the nearest supernova known to be tied to a fast X-ray transient, as well as the near-Earth asteroid 2024 YR4.",
    "Rubin works hand in hand with this kind of follow-up. As a survey telescope, it will sweep the southern sky and pick up as many as 10 million changes each night, with every one triggering an alert to astronomers within minutes."
   ],
   "explore": [
    "Rubin is jointly funded by the US National Science Foundation and the Department of Energy's Office of Science. A fulldome version of the photograph is also available. The photographer, Petr Horálek, is a NOIRLab Audiovisual Ambassador."
   ],
   "understand": {
-   "summary": "This is a landscape photograph taken with a camera in visible light on Cerro Pachón; the camera settings and processing are not published.",
+   "summary": "This is a landscape photograph taken with a camera in visible light on Cerro Pachón. The camera settings and processing are not published.",
    "eye": "A long camera exposure gathers much more light than the eye, so the night sky looks brighter and richer in stars than it would to someone standing there."
   },
   "scaleExtra": null,
@@ -1275,7 +1275,7 @@
    "From left to right, the buildings beneath the Milky Way are the US Naval Observatory Deep South Telescope, the DIMM1 Seeing Monitor, the dome of the CHilean Automatic Supernova sEarch, aTmCam (straight back), the SMARTS 1.0-meter Telescope, the UBC Southern Observatory and the Curtis Schmidt Telescope. This 250-megapixel photograph was taken by T. Slovinský during the NOIRLab 2022 Photo Expedition."
   ],
   "understand": {
-   "summary": "This is a landscape photograph taken with a camera in visible light at Cerro Tololo; the camera settings and processing are not published.",
+   "summary": "This is a landscape photograph taken with a camera in visible light at Cerro Tololo. The camera settings and processing are not published.",
    "eye": "A long camera exposure gathers much more light than the eye, so the Milky Way's core appears far brighter and more detailed than it would to someone standing there."
   },
   "scaleExtra": null,
@@ -1289,11 +1289,11 @@
   "story": [
    "This is a detailed image of NGC 6240, a galaxy in the direction of the constellation Ophiuchus, taken with the Dark Energy Camera, or DECam.",
    "The US Department of Energy built DECam, and it sits on Cerro Tololo Inter-American Observatory's Víctor M. Blanco 4-meter Telescope in Chile, part of NSF NOIRLab. It is a wide-field camera, designed to photograph large areas of sky in a single exposure while still picking up faint objects.",
-   "For this picture it recorded light through three filters, known as g, r and z. The g and r filters cover parts of the visible spectrum, while z reaches into near-infrared light just beyond what human eyes can see. Combining separate exposures like these is how astronomers build a colour image: each filter is assigned a colour, and together they approximate the full picture. Observing across several wavelengths also helps astronomers compare how different kinds of stars, gas and dust contribute to a galaxy's light."
+   "For NGC 6240 it recorded light through three filters, known as g, r and z. The g and r filters cover parts of the visible spectrum, while z reaches into near-infrared light just beyond what human eyes can see. Combining separate exposures like these is how astronomers build a colour image. Each filter is assigned a colour, and together they approximate the full picture. Observing across several wavelengths also helps astronomers compare how different kinds of stars, gas and dust contribute to a galaxy's light."
   ],
   "explore": [],
   "understand": {
-   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed NGC 6240 through g, r and z filters, covering visible and near-infrared light; the colours assigned to each filter are not published.",
+   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed NGC 6240 through g, r and z filters, covering visible and near-infrared light. The colours assigned to each filter are not published.",
    "eye": "The z filter records near-infrared light that the eye cannot see, and the camera's exposures gather far more light than an eye could."
   },
   "scaleExtra": null,
@@ -1310,14 +1310,14 @@
   "story": [
    "A blazing rock streaks through the atmosphere in the pale orange sky above Gemini North, caught by one of the telescope's cloud cameras. Gemini North makes up half of the International Gemini Observatory, which NSF NOIRLab operates with partial funding from the US National Science Foundation.",
    "The streak over Hawaiʻi Island is a meteor, or shooting star. This one is a special kind called a fireball, named for how bright it is. The American Meteor Society defines a fireball as a meteor that looks brighter than Venus does in the morning or evening sky to someone on Earth.",
-   "Fireballs can occasionally make striking sounds as they pass through the air. If an exceptionally bright one explodes in the stratosphere, people on the ground may hear a sonic boom, even in daytime. So anyone keen to wish on a shooting star can, in principle, look or listen for one during the day as well."
+   "Fireballs can occasionally make sounds as they pass through the air. If an exceptionally bright one explodes in the stratosphere, people on the ground may hear a sonic boom, even in daytime."
   ],
   "explore": [
    "Cloud cameras like the one that caught this fireball keep watch over the sky at observatory sites. NOIRLab has collected other fireballs captured around its Program sites."
   ],
   "understand": {
-   "summary": "This picture comes from a Gemini North cloud camera, a camera that watches the sky above the telescope in visible light; its settings are not published.",
-   "eye": "A bright fireball is visible to the eye, but only for a moment; the camera records its full path as a single streak."
+   "summary": "This picture comes from a Gemini North cloud camera, a camera that watches the sky above the telescope in visible light. Its settings are not published.",
+   "eye": "A bright fireball is visible to the eye, but only for a moment. The camera records its full path as a single streak."
   },
   "scaleExtra": null,
   "alt": "A bright meteor streaks across a pale orange sky above Gemini North.",
@@ -1330,13 +1330,13 @@
   "story": [
    "Countless hot, blue, massive stars and several well-known nebulae stand out in this colour image of NGC 6822, a nearby irregular galaxy. Found in the constellation Sagittarius, approximately 1.6 million light-years from Earth, it is a member of the Local Group, the family of galaxies that includes the Milky Way.",
    "E. E. Barnard discovered NGC 6822 in the early 1880s. Edwin P. Hubble made the first detailed study of it in 1925, with the then-new 100-inch telescope on Mount Wilson. In 1966 Susan E. Kayser, then a graduate student, analysed those photographic plates, and her work remained the most complete study of the galaxy until these new observations.",
-   "An irregular galaxy has no clear spiral or elliptical form. The many blue massive stars here are young, since such stars burn out quickly, which tells astronomers that NGC 6822 has formed stars recently."
+   "An irregular galaxy has no clear spiral or elliptical form. The many blue massive stars in NGC 6822 are young, since such stars burn out quickly, which tells astronomers that NGC 6822 has formed stars recently."
   ],
   "explore": [
    "The images were taken in eight filters with the Blanco 4-meter telescope at Cerro Tololo, near La Serena, Chile, by CTIO staff Knut Olsen and Chris Smith, part of the Local Group Galaxies Survey Team led by Phil Massey of Lowell Observatory. The survey was one of 13 active survey projects supported by the National Optical Astronomy Observatory."
   ],
   "understand": {
-   "summary": "The Blanco 4-meter telescope's Mosaic II camera observed NGC 6822 in eight filters; Travis Rector combined seven of them, with U shown as violet, B as blue, V as green, R as orange, I as red, hydrogen-alpha as red and oxygen (O III) as blue.",
+   "summary": "The Blanco 4-meter telescope's Mosaic II camera observed NGC 6822 in eight filters. Travis Rector combined seven of them, with U shown as violet, B as blue, V as green, R as orange, I as red, hydrogen-alpha as red and oxygen (O III) as blue.",
    "eye": "The U filter records near-ultraviolet light the eye barely sees, and narrow hydrogen and oxygen filters pick out glowing nebulae far too faint to see directly."
   },
   "scaleExtra": "NGC 6822 lies approximately 1.6 million light-years from Earth, according to NOIRLab.",
@@ -1349,14 +1349,14 @@
   "captureDate": null,
   "story": [
    "This infrared image shows Omega Centauri, the largest globular cluster in the Milky Way, packed with approximately 10 million stars. Seen toward the constellation Centaurus, it is about 17,000 light-years from Earth.",
-   "The picture was taken while NEWFIRM, an infrared camera on Cerro Tololo Inter-American Observatory's Víctor M. Blanco 4-meter Telescope in Chile, was being commissioned and put through capability tests. Its size and richness make Omega Centauri a popular target for such observations.",
-   "A globular cluster is a dense, roughly spherical swarm of old stars bound together by gravity. Observing in infrared light has particular advantages for a cluster like this: infrared passes through dust more easily than visible light, and many of the cool, old stars that fill globular clusters shine strongly at these longer wavelengths. Testing a new camera on such a crowded field also shows how well it can separate stars packed close together."
+   "NEWFIRM, an infrared camera on Cerro Tololo Inter-American Observatory's Víctor M. Blanco 4-meter Telescope in Chile, recorded the cluster while it was being commissioned and put through capability tests. Its size and richness make Omega Centauri a popular target for such observations.",
+   "A globular cluster is a dense, roughly spherical swarm of old stars bound together by gravity. Observing in infrared light has particular advantages for a cluster like this. Infrared passes through dust more easily than visible light, and many of the cool, old stars that fill globular clusters shine strongly at these longer wavelengths. Testing a new camera on such a crowded field also shows how well it can separate stars packed close together."
   ],
   "explore": [
    "Commissioning is the period when a new instrument is installed and tested on a telescope before it begins regular science observations."
   ],
   "understand": {
-   "summary": "NEWFIRM on the Blanco 4-meter Telescope observed Omega Centauri in near-infrared light through J, H and Ks filters; the colours assigned to each filter are not published.",
+   "summary": "NEWFIRM on the Blanco 4-meter Telescope observed Omega Centauri in near-infrared light through J, H and Ks filters. The colours assigned to each filter are not published.",
    "eye": "Near-infrared light is invisible to the human eye, so the colours here are a translation of wavelengths we cannot see."
   },
   "scaleExtra": "Omega Centauri is about 17,000 light-years from Earth, according to NOIRLab.",
@@ -1372,14 +1372,14 @@
   "story": [
    "An extra-bright meteor, known as a fireball, flashes across the sky in this frame from a live webcam on Maunakea, Hawaiʻi, close to the Gemini North telescope. Gemini North makes up half of the International Gemini Observatory, which NSF NOIRLab operates with partial funding from the US National Science Foundation.",
    "Live webcams at observing sites are usually there to keep an eye on the weather. Because they are always watching, though, they can also catch brief events in the sky, like this one.",
-   "Fireballs are meteors that are brighter than average, so bright that they can even be seen during the day. The American Meteor Society has recorded a steadily rising number of them each year. In fact, several thousand fireballs happen every day, but most go unnoticed: the majority occur over the ocean, and half take place in daylight."
+   "Fireballs are meteors that are brighter than average, so bright that they can even be seen during the day. The American Meteor Society has recorded a steadily rising number of them each year. Several thousand fireballs happen every day, but most go unnoticed, because the majority occur over the ocean and half take place in daylight."
   ],
   "explore": [
    "The same webcam also recorded this fireball as part of a time-lapse image of the night sky over Maunakea, which NOIRLab has published alongside this frame."
   ],
   "understand": {
-   "summary": "This picture comes from the Maunakea live webcam near Gemini North, which records the sky in visible light; its settings are not published.",
-   "eye": "A fireball is bright enough to see with the eye, but it lasts only moments; the webcam preserves it as a single image."
+   "summary": "This picture comes from the Maunakea live webcam near Gemini North, which records the sky in visible light. Its settings are not published.",
+   "eye": "A fireball is bright enough to see with the eye, but it lasts only moments. The webcam preserves it as a single image."
   },
   "scaleExtra": null,
   "alt": "A bright meteor streaks across the night sky near the Gemini North telescope.",
@@ -1391,14 +1391,14 @@
   "captureDate": "2014",
   "story": [
    "Pink star-forming regions and blue clusters of young stars are sprinkled along the spiral structure of NGC 5474, a lopsided galaxy in Ursa Major. Its slightly grainy look comes from the camera partly resolving some of the brighter individual stars in the disc.",
-   "NGC 5474 is being strongly disturbed by its much larger neighbour, M101, which lies several fields of view beyond this image toward the upper left. At first glance it looks as if M101 is dragging the galaxy's nucleus right out of it. Computer models tell a slightly different story. Using tens or even hundreds of thousands of point masses to stand in for stars, astronomers found that the lopsidedness is probably fairly brief; we just happen to catch the galaxy in a sloshed, agitated state.",
+   "NGC 5474 is being strongly disturbed by its much larger neighbour, M101, which lies several fields of view beyond this image toward the upper left. At first glance it looks as if M101 is dragging the galaxy's nucleus right out of it. Computer models tell a slightly different story. Using tens or even hundreds of thousands of point masses to stand in for stars, astronomers found that the lopsidedness is probably fairly brief. We just happen to catch the galaxy in a sloshed, agitated state.",
    "How long it lasts depends on how NGC 5474 orbits M101 compared with how its disc spins. When the two run in opposite directions, as here, the lopsided shape can persist for many rotations after a strong initial tidal disturbance."
   ],
   "explore": [
    "This image was taken by Adam Block in 2014 as part of the Advanced Observing Program at the Kitt Peak Visitor Center, using a CCD camera at the Visitor Center's roll-off roof observatory."
   ],
   "understand": {
-   "summary": "A CCD camera at the Kitt Peak Visitor Center's roll-off roof observatory recorded NGC 5474 in visible light through B, G, R and broadband filters; the colours assigned to each filter are not published.",
+   "summary": "A CCD camera at the Kitt Peak Visitor Center's roll-off roof observatory recorded NGC 5474 in visible light through B, G, R and broadband filters. The colours assigned to each filter are not published.",
    "eye": "The camera's exposures reveal pink and blue star-forming regions and individual bright stars that would be invisible to the eye at the telescope."
   },
   "scaleExtra": null,
@@ -1410,15 +1410,15 @@
   "caption": "The starburst galaxy M82, imaged by the WIYN 3.5-meter telescope and the Hubble Space Telescope",
   "captureDate": null,
   "story": [
-   "This colour-coded picture shows M82, the archetypal starburst galaxy. Its stellar disc runs horizontally across the image and is where its intense star formation takes place. Rising perpendicular to the disc is a galactic superwind of ionised gas, driven by the energy released by the burst of star birth.",
-   "A starburst galaxy forms stars much faster than usual. So many massive young stars live and die so quickly that their combined winds and explosions blast gas out of the galaxy, producing the outflow seen here. Dust lanes are visible in the central part of the superwind on both sides of the disc, shown at varying angular resolution.",
+   "This colour-coded picture shows M82, the archetypal starburst galaxy. Its stellar disc runs horizontally and is where its intense star formation takes place. Rising perpendicular to the disc is a galactic superwind of ionised gas, driven by the energy released by the burst of star birth.",
+   "A starburst galaxy forms stars much faster than usual. So many massive young stars live and die so quickly that their combined winds and explosions blast gas out of the galaxy, producing the outflow. Dust lanes are visible in the central part of the superwind on both sides of the disc, shown at varying angular resolution.",
    "That mix of resolutions comes from the data sources. The image merges observations made by Kitt Peak's WIYN 3.5-meter telescope with data from Hubble's WFPC2 camera. The data are being used to study how structures within M82 connect to its superwind."
   ],
   "explore": [
-   "The image was first shown at the Essential Science in Hubble's Final Years symposium, held at the Space Telescope Science Institute in May 2004. Kitt Peak's WIYN 3.5-meter and 0.9-meter telescopes are run by a consortium: the University of Wisconsin, Indiana University and Yale University, together with the National Optical Astronomy Observatory."
+   "The image was first shown at the Essential Science in Hubble's Final Years symposium, held at the Space Telescope Science Institute in May 2004. Kitt Peak's WIYN 3.5-meter and 0.9-meter telescopes are run by a consortium made up of the University of Wisconsin, Indiana University and Yale University, together with the National Optical Astronomy Observatory."
   ],
   "understand": {
-   "summary": "The image combines WIYN 3.5-meter and Hubble WFPC2 data in visible light. In the WIYN data, purple shows glowing hydrogen (hydrogen-alpha) together with ionised nitrogen, and green shows ionised sulphur; in the Hubble data these colours show hydrogen-alpha and nitrogen separately.",
+   "summary": "The image combines WIYN 3.5-meter and Hubble WFPC2 data in visible light. In the WIYN data, purple shows glowing hydrogen (hydrogen-alpha) together with ionised nitrogen, and green shows ionised sulphur. In the Hubble data these colours show hydrogen-alpha and nitrogen separately.",
    "eye": "The colours are coded to particular glowing gases rather than showing natural colour, so the superwind stands out in a way the eye would never see."
   },
   "scaleExtra": null,
@@ -1450,15 +1450,15 @@
   "caption": "The Sculptor Galaxy, NGC 253, imaged by the Blanco 4-meter Telescope",
   "captureDate": null,
   "story": [
-   "This image shows the spiral galaxy NGC 253, also called the Sculptor Galaxy, one of the brightest galaxies that lies beyond our Local Group. Among the Sculptor group of galaxies it is the brightest member; the group clusters around the south galactic pole and is therefore sometimes called the South Polar Group.",
+   "This image shows the spiral galaxy NGC 253, also called the Sculptor Galaxy, one of the brightest galaxies that lies beyond our Local Group. Within the Sculptor group of galaxies, NGC 253 is the brightest member. The group clusters around the south galactic pole and is therefore sometimes called the South Polar Group.",
    "Beyond our own Local Group, the Sculptor group may be the next nearest galaxy group, at about 8 million light-years from Earth. NGC 253 is considered a starburst galaxy, meaning that stars are born, and blow up, within it at an unusually high rate.",
-   "The galaxy also has an interesting place in history. It was one of the major discoveries of Caroline Herschel, sister of the astronomer William Herschel, who found it on 23 September 1783."
+   "Caroline Herschel, sister of the astronomer William Herschel, found NGC 253 on 23 September 1783, and the galaxy ranks among her major discoveries."
   ],
   "explore": [
    "The image was taken with the National Science Foundation's Blanco 4-meter telescope, at Chile's Cerro Tololo Inter-American Observatory, using the Mosaic II camera."
   ],
   "understand": {
-   "summary": "The Mosaic II camera on the Blanco 4-meter telescope observed NGC 253 through B, V and I filters plus a hydrogen-alpha filter, covering visible light to the edge of near-infrared; the colours assigned to each filter are not published.",
+   "summary": "The Mosaic II camera on the Blanco 4-meter telescope observed NGC 253 through B, V and I filters plus a hydrogen-alpha filter, covering visible light to the edge of near-infrared. The colours assigned to each filter are not published.",
    "eye": "The camera's exposures gather far more light than the eye, and the I filter reaches toward near-infrared light."
   },
   "scaleExtra": "The Sculptor group is about 8 million light-years from Earth, according to NOIRLab.",
@@ -1500,7 +1500,7 @@
    "The public first saw the mosaic in January 2006, when it was unveiled in Washington, DC, at the American Astronomical Society's annual meeting. It is credited to C. Smith, S. Points and the MCELS team."
   ],
   "understand": {
-   "summary": "A camera on the SMARTS 0.9-meter telescope observed the Large Magellanic Cloud through hydrogen-alpha, sulphur (S II) and G filters in visible light; the colours assigned to each filter are not published.",
+   "summary": "A camera on the SMARTS 0.9-meter telescope observed the Large Magellanic Cloud through hydrogen-alpha, sulphur (S II) and G filters in visible light. The colours assigned to each filter are not published.",
    "eye": "The narrow filters isolate the light of glowing gas, making it stand out far more than it would to the eye."
   },
   "scaleExtra": null,
@@ -1514,7 +1514,7 @@
   "caption": "The spiral galaxies NGC 3166 and NGC 3169, imaged by the Mayall 4-meter telescope at Kitt Peak",
   "captureDate": null,
   "story": [
-   "Two spiral galaxies are caught in a slow, fatal embrace in this image: NGC 3166 at the lower right and NGC 3169 at the upper left. As the pair begins to merge, the galaxies are starting to pull each other apart.",
+   "Two spiral galaxies are caught in a slow, fatal embrace in this image, with NGC 3166 at the lower right and NGC 3169 at the upper left. As the pair begins to merge, the galaxies are starting to pull each other apart.",
    "The faint wisps around NGC 3169 are its outer spiral arms being torn away by the gravity of its neighbour. In time, the pair will combine into one galaxy. A third, smaller galaxy, NGC 3165, sits just below NGC 3166 and belongs to the same group.",
    "Mergers like this are thought to be one of the main ways galaxies grow. Over very long spans of time, gravity strips away stars and gas, reshapes the discs, and eventually blends two separate galaxies into one larger system. Catching a pair partway through the process shows the stages that are too slow for us to watch unfold. The galaxies lie in the constellation Sextans."
   ],
@@ -1523,7 +1523,7 @@
   ],
   "understand": {
    "summary": "The Mosaic camera on the Mayall 4-meter telescope observed the galaxies through B, V, I and hydrogen-alpha filters, shown as blue, green, orange and red respectively.",
-   "eye": "The faint wisps of torn-off spiral arms are far too dim for the eye; long exposures on a large telescope bring them out."
+   "eye": "The faint wisps of torn-off spiral arms are far too dim for the eye. Long exposures on a large telescope bring them out."
   },
   "scaleExtra": null,
   "alt": "Two spiral galaxies, one at lower right and one at upper left surrounded by faint wisps, with a small galaxy below the lower one.",
@@ -1537,7 +1537,7 @@
   "captureDate": null,
   "story": [
    "NGC 4656 is a spiral galaxy seen edge-on, but its disc is bent out of shape, giving it the look that earned it the informal nickname of the hockey stick galaxy. A faint object sits in the upper-left corner of the image.",
-   "The galaxy's unusual shape comes from a recent gravitational encounter with another galaxy, NGC 4631. The two may have begun to merge, though that is not yet certain. The faint object at the upper left may not belong to NGC 4656 at all; instead it may be a dwarf galaxy that is itself in the process of merging with it.",
+   "The galaxy's unusual shape comes from a recent gravitational encounter with another galaxy, NGC 4631. The two may have begun to merge, though that is not yet certain. The faint object at the upper left may not belong to NGC 4656 at all. Instead it may be a dwarf galaxy that is itself in the process of merging with it.",
    "When galaxies pass close to each other, their gravity pulls on stars and gas, stretching and warping their discs. Seen edge-on, like this one, such distortions are especially easy to spot, because a normal disc would appear as a straight, thin line. NGC 4656 lies in the constellation Canes Venatici."
   ],
   "explore": [
@@ -1558,7 +1558,7 @@
   "caption": "The galaxies M81 and M82, imaged by the KPNO 0.9-meter telescope",
   "captureDate": null,
   "story": [
-   "Two galaxies share this wide view: the spiral galaxy M81 on the left and M82 on the right. Filaments of red hydrogen gas stand out in M82, and just above M81, barely visible, is the very faint irregular dwarf galaxy Holmberg IX.",
+   "Two galaxies share this wide view, the spiral galaxy M81 on the left and M82 on the right. Filaments of red hydrogen gas stand out in M82, and just above M81, barely visible, is the very faint irregular dwarf galaxy Holmberg IX.",
    "M81 and M82 are relatively nearby galaxies that are interacting through gravity. That interaction is making M82 form new stars at a massive rate, and the red hydrogen filaments are the evidence of it.",
    "When galaxies pull on each other, clouds of gas get compressed and stirred, and dense gas is where stars are born. The glowing red hydrogen is gas lit up by the energy of hot young stars and the activity surrounding them. A dwarf irregular galaxy like Holmberg IX is a small system without a clear spiral or elliptical shape, and its faintness shows how much deeper the camera sees than the eye. The galaxies lie in the constellation Ursa Major."
   ],
@@ -1582,7 +1582,7 @@
   "story": [
    "Many red clouds of hydrogen gas glow in NGC 4214, a dwarf galaxy much smaller than our own Milky Way. In the upper-right corner of the picture, its companion, the very small galaxy UGCA 276, is faintly visible.",
    "Despite its small size, NGC 4214 is forming stars vigorously, and those red clouds are the sign of it.",
-   "The red glow comes from hydrogen gas energised by hot young stars forming inside the clouds, so each red patch marks a nursery of new stars. Dwarf galaxies are small, faint systems that often keep company with larger galaxies or, like NGC 4214, have even smaller companions of their own. Because they contain fewer stars and simpler structures than big spirals, they are useful for studying how star formation works in different conditions. Seeing a small galaxy so active shows that size alone does not decide how busy a galaxy can be. NGC 4214 lies in the constellation Canes Venatici."
+   "The red glow comes from hydrogen gas energised by hot young stars forming inside the clouds, so each red patch marks a nursery of new stars. Dwarf galaxies are small, faint systems that often keep company with larger galaxies or, like NGC 4214, have even smaller companions of their own. Because they contain fewer stars and simpler structures than big spirals, they are useful for studying how star formation works in different conditions. NGC 4214 lies in the constellation Canes Venatici."
   ],
   "explore": [
    "The image was obtained with the wide-field Mosaic camera of Kitt Peak National Observatory's Mayall 4-meter telescope. It is rotated 55 degrees counterclockwise from the usual orientation with north up and east to the left."
@@ -1603,8 +1603,8 @@
   "captureDate": null,
   "story": [
    "This image shows M15, also catalogued as NGC 7078, a globular cluster in the constellation Pegasus that is estimated to hold more than 100,000 stars. Faint stars are recorded without the bright centre burning out to white.",
-   "That balance was a showcase for the new Mosaic 1.1 detectors, which could pick up faint stars without overexposing, or saturating, the bright heart of the cluster.",
-   "Hidden in the cluster is a planetary nebula called Pease 1. It appears blue and just slightly larger than a star, a small challenge for anyone scanning the image. A planetary nebula is a shell of gas thrown off by a Sun-like star near the end of its life, glowing because the hot core left behind lights it up. Finding one inside a globular cluster, a dense ball of old stars, is a reminder that its stars are still evolving."
+   "That balance shows what the new Mosaic 1.1 detectors could do. They could pick up faint stars without overexposing, or saturating, the bright heart of the cluster.",
+   "Hidden in the cluster is a planetary nebula called Pease 1. It appears blue and just slightly larger than a star, a small challenge for anyone scanning the image. A planetary nebula is a shell of gas thrown off by a Sun-like star near the end of its life, glowing because the hot core left behind lights it up. Finding one inside a globular cluster, a dense ball of old stars, shows that its stars are still evolving."
   ],
   "explore": [
    "The image was obtained with the wide-field Mosaic camera of Kitt Peak National Observatory's Mayall 4-meter telescope. It is oriented with north to the left and east at the bottom."
@@ -1669,15 +1669,15 @@
   "captureDate": "2014",
   "story": [
    "The bright bluish star in this image is Gamma Cassiopeiae. It is evaporating two nearby clouds of gas, IC 59 and IC 63, whose leading edges glow strongly as they are bathed in the star's intense radiation.",
-   "Behind those glowing front lines, hints of bluish light show where some of the star's light is being scattered by the clouds. In astronomical terms, the clouds do not have long left: before long they will be scattered into the interstellar medium, the thin gas between the stars.",
+   "Behind those glowing front lines, hints of bluish light show where some of the star's light is being scattered by the clouds. In astronomical terms, the clouds do not have long left, and they will soon be scattered into the interstellar medium, the thin gas between the stars.",
    "Hot, luminous stars pour out energetic light that can heat and strip nearby gas. The glowing edges are where that radiation strikes the clouds most directly, while the bluish haze behind them is starlight bouncing off dust, much as sunlight scatters in our own sky. Scenes like this show a star reshaping its surroundings."
   ],
   "explore": [
    "The image was taken in 2014 as part of the Advanced Observing Program at the Kitt Peak Visitor Center, using a 16-inch RCOS telescope with a CCD camera. It is credited to Tom Bash, John Fox and Adam Block."
   ],
   "understand": {
-   "summary": "A CCD camera on a 16-inch RCOS telescope at the Kitt Peak Visitor Center recorded the scene in visible light through B, G, R and broadband filters; the colours assigned to each filter are not published.",
-   "eye": "The glowing and scattered light of these clouds is far too faint for the eye; long exposures reveal it."
+   "summary": "A CCD camera on a 16-inch RCOS telescope at the Kitt Peak Visitor Center recorded the scene in visible light through B, G, R and broadband filters. The colours assigned to each filter are not published.",
+   "eye": "The glowing and scattered light of these clouds is far too faint for the eye. Long exposures reveal it."
   },
   "scaleExtra": null,
   "alt": "A bright bluish star beside two clouds of gas with glowing edges facing the star.",
@@ -1698,7 +1698,7 @@
    "The image is credited to the International Gemini Observatory, Robert Blum of the National Optical Astronomy Observatory, and T.A. Rector of the University of Alaska Anchorage."
   ],
   "understand": {
-   "summary": "Gemini South with the GeMS adaptive optics system observed RMC 136 in near-infrared light through J, H and Ks filters; the colours assigned to each filter are not published.",
+   "summary": "Gemini South with the GeMS adaptive optics system observed RMC 136 in near-infrared light through J, H and Ks filters. The colours assigned to each filter are not published.",
    "eye": "Near-infrared light is invisible to the eye, and adaptive optics sharpens the view well beyond what atmospheric blurring would normally allow."
   },
   "scaleExtra": null,
@@ -1714,13 +1714,13 @@
   "story": [
    "Red patches of nebulosity mark regions of active star formation in NGC 55, a nearby galaxy in this image from a 0.9-meter National Science Foundation telescope at Chile's Cerro Tololo Inter-American Observatory.",
    "NGC 55 lies about five million light-years away and belongs to the Sculptor Group, a small gathering of galaxies.",
-   "The red glow in regions like these comes from hydrogen gas energised by hot, young stars that have recently formed inside the clouds, so each red patch is a sign of stellar birth. A galaxy group such as the Sculptor Group is a small collection of galaxies bound loosely together by gravity; our own Milky Way belongs to a similar gathering, the Local Group. Relatively nearby galaxies like NGC 55 are close enough that astronomers can study their star-forming regions in some detail, comparing them with those in our own Galaxy. It lies in the constellation Sculptor."
+   "The red glow in regions like these comes from hydrogen gas energised by hot, young stars that have recently formed inside the clouds, so each red patch is a sign of stellar birth. A galaxy group such as the Sculptor Group is a small collection of galaxies bound loosely together by gravity. Our own Milky Way belongs to a similar gathering, the Local Group. Relatively nearby galaxies like NGC 55 are close enough that astronomers can study their star-forming regions in some detail, comparing them with those in our own Galaxy. NGC 55 lies in the constellation Sculptor."
   ],
   "explore": [
    "The image was taken with the SMARTS 0.9-meter telescope at Cerro Tololo, using B, V and R filters together with a hydrogen-alpha filter, and was processed by T.A. Rector."
   ],
   "understand": {
-   "summary": "The 0.9-meter telescope at Cerro Tololo observed NGC 55 in visible light through B, V, R and hydrogen-alpha filters; the colours assigned to each filter are not published.",
+   "summary": "The 0.9-meter telescope at Cerro Tololo observed NGC 55 in visible light through B, V, R and hydrogen-alpha filters. The colours assigned to each filter are not published.",
    "eye": "The hydrogen-alpha filter isolates the glow of hydrogen gas, making star-forming regions much more prominent than they would be to the eye."
   },
   "scaleExtra": "NGC 55 is about five million light-years away, according to NOIRLab.",
@@ -1742,7 +1742,7 @@
    "The picture was made using the T2KA CCD camera on the 0.9-meter telescope at Kitt Peak National Observatory in March 1995."
   ],
   "understand": {
-   "summary": "The T2KA CCD camera on the Kitt Peak 0.9-meter telescope recorded M4 in visible light; the filters and colour mapping are not published.",
+   "summary": "The T2KA CCD camera on the Kitt Peak 0.9-meter telescope recorded M4 in visible light. The filters and colour mapping are not published.",
    "eye": "The camera's exposures gather far more light than the eye and resolve many of the cluster's individual stars."
   },
   "scaleExtra": "M4 is about 7000 light-years away, according to NOIRLab.",
@@ -1757,14 +1757,14 @@
   "captureDate": "July 1997 and May 1998",
   "story": [
    "This composite shows M53, also catalogued as NGC 5024, a globular cluster in the constellation Coma Berenices. The field is 14.7 arcminutes across.",
-   "M53 is an outlying globular cluster: it lies about 60000 light-years from us, and roughly the same distance from the centre of our Galaxy.",
+   "M53 is an outlying globular cluster, lying about 60000 light-years from us and roughly the same distance from the centre of our Galaxy.",
    "A globular cluster is a dense, roughly spherical swarm of old stars held together by gravity. Our Galaxy is surrounded by many of them, some close to its centre and others, like M53, far out in its outskirts. Because their stars formed together long ago, globular clusters act as fossils of the Milky Way's early history, and those at great distances help astronomers map the extended halo of stars that surrounds our Galaxy. The stars crowd most tightly toward the centre of the cluster, while fainter members thin out toward the edges. Comparing stars within one cluster shows how stars of different masses age."
   ],
   "explore": [
    "The composite was made from images taken in July 1997 with the 0.9-meter telescope at Kitt Peak National Observatory, during the Research Experiences for Undergraduates program which the National Science Foundation supports, with more images added in May 1998."
   ],
   "understand": {
-   "summary": "The 0.9-meter telescope at Kitt Peak recorded M53 in visible light, and the images were combined into a composite; the filters and colour mapping are not published.",
+   "summary": "The 0.9-meter telescope at Kitt Peak recorded M53 in visible light, and the images were combined into a composite. The filters and colour mapping are not published.",
    "eye": "The camera's exposures gather far more light than the eye, resolving many of the cluster's stars."
   },
   "scaleExtra": "M53 is about 60000 light-years away, according to NOIRLab.",
@@ -1780,13 +1780,13 @@
   "story": [
    "The band of the Milky Way stretches across the sky above the Avenue of Baobabs in Morondava, Madagascar, in this photograph taken in 2017. The baobab trees stand in silhouette in the foreground.",
    "Baobabs are unusual trees, with thick, barrel-like trunks, and they are known for living a very long time. Seen against the night sky, their distinctive shapes frame the view.",
-   "The Milky Way is our own galaxy. Because we live inside its flat disc, we see it from within as a soft band of light running across the sky, made of the combined glow of countless distant stars too faint to pick out one by one. Dark lanes often seen along the band are clouds of dust that block light from the stars behind them. The band shows up most clearly where the sky is truly dark, away from city lights."
+   "The Milky Way is our own galaxy. Because we live inside its flat disc, we see it from within as a soft band of light running across the sky, made of the combined glow of countless distant stars too faint to pick out one by one. Dark lanes often seen along the band are clouds of dust that block light from the stars behind them. The band shows up most clearly where the sky is dark, away from city lights."
   ],
   "explore": [
    "The photograph was taken by Amirreza Kamkar and is shared through the IAU Office of Astronomy for Education and NOIRLab. It is also available on Zenodo."
   ],
   "understand": {
-   "summary": "This is a landscape photograph taken with a camera in visible light; the camera settings and processing are not published.",
+   "summary": "This is a landscape photograph taken with a camera in visible light. The camera settings and processing are not published.",
    "eye": "A long camera exposure gathers much more light than the eye, so the Milky Way looks brighter and more detailed than it would to someone standing among the trees."
   },
   "scaleExtra": null,
@@ -1802,11 +1802,11 @@
   "story": [
    "The many colours of the stars in NGC 4755 are on display in this picture from the 0.9-meter telescope at Cerro Tololo Inter-American Observatory. NGC 4755 is an open star cluster in the constellation Crux.",
    "It is popularly known as the Jewel Box, a name that goes back to an early catalogue describing it as a superb piece of jewellery.",
-   "An open cluster is a loose group of stars that formed together from the same cloud of gas and dust. The differing colours of the stars are a clue to their nature: a star's colour reflects the temperature of its surface, with hotter stars appearing bluer and cooler stars redder. Because the members of a cluster share an age and a birthplace, differences between them mostly come down to mass, which controls how hot a star burns and how quickly it moves through its life. Heavier stars change fastest, so a cluster with stars of contrasting colours shows several stages of stellar life side by side."
+   "An open cluster is a loose group of stars that formed together from the same cloud of gas and dust. The differing colours of the stars are a clue to their nature. A star's colour reflects the temperature of its surface, with hotter stars appearing bluer and cooler stars redder. Because the members of a cluster share an age and a birthplace, differences between them mostly come down to mass, which controls how hot a star burns and how quickly it moves through its life. Heavier stars change fastest, so a cluster with stars of contrasting colours shows several stages of stellar life side by side."
   ],
   "explore": [],
   "understand": {
-   "summary": "The 0.9-meter telescope at Cerro Tololo recorded the Jewel Box in visible light; the filters and colour mapping are not published.",
+   "summary": "The 0.9-meter telescope at Cerro Tololo recorded the Jewel Box in visible light. The filters and colour mapping are not published.",
    "eye": "Star colours are hard to see by eye in dim light, but the camera records them, bringing out the contrasting hues of the cluster's stars."
   },
   "scaleExtra": null,

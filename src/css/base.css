@@ -3,7 +3,7 @@
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
-body{margin:0;min-height:100vh;background:var(--paper);color:var(--ink);font:300 1.0625rem/1.6 var(--serif);-webkit-font-smoothing:antialiased;font-kerning:normal;font-variant-numeric:oldstyle-nums}
+body{margin:0;min-height:100vh;background:var(--paper);color:var(--ink);font:400 1.0625rem/1.6 var(--serif);-webkit-font-smoothing:antialiased;font-kerning:normal;font-variant-numeric:oldstyle-nums}
 a{color:inherit;text-decoration:underline;text-decoration-color:var(--red);text-decoration-thickness:1px;text-underline-offset:.2em}
 a:hover{color:var(--red)}
 strong{font-weight:500}

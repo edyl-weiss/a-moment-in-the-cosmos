@@ -1,21 +1,21 @@
 /* Story column with margin notes, scale line, understand panel, fold-out panels. */
-.story-grid{display:grid;grid-template-columns:minmax(0,var(--measure)) minmax(0,1fr);gap:24px clamp(32px,6vw,96px);margin-top:40px;align-items:start}
+.story-grid{display:grid;grid-template-columns:minmax(0,var(--measure)) minmax(0,18rem);gap:28px clamp(40px,8vw,120px);margin-top:36px;align-items:start}
 @media (max-width:860px){.story-grid{grid-template-columns:minmax(0,1fr)}}
-.story p{margin:0 0 1.1em;font-size:1.14rem;line-height:1.62;hyphens:auto}
+.story p{margin:0 0 1.1em;font-size:1.16rem;line-height:1.68;hyphens:manual}
 .story p:first-child{font-size:1.3rem;line-height:1.5}
 .story p + p{text-indent:1.5em;margin-top:-1.1em}     /* book paragraphs: indent, no gap */
 .scale{margin:1.6em 0 0;font-style:italic;color:var(--ink-2)}
 .scale .label{font-style:normal;font-size:.76rem;color:var(--red);margin-right:.4em}
 
 .notes dl{margin:0;display:grid;gap:0}
-.notes dt{font-size:.74rem;color:var(--ink-3);margin-top:22px}
+.notes dt{font-size:.76rem;color:var(--ink-3);margin-top:22px}
 .notes dt:first-child{margin-top:4px}
-.notes dd{margin:4px 0 0;font-size:.98rem;line-height:1.5;color:var(--ink-2)}
+.notes dd{margin:4px 0 0;font-size:1rem;line-height:1.5;color:var(--ink-2)}
 .notes .src{color:var(--ink-3)}
 .notes ul{margin:0;padding:0;list-style:none}
 .notes li{margin:2px 0}
 
-#understandPanel{margin:36px 0 0;max-width:46rem}
+#understandPanel{margin:28px 0 0;max-width:46rem}
 #understandPanel h3{margin:0 0 8px;font:italic 400 1.35rem/1.2 var(--serif)}
 #understandPanel p{margin:0 0 .8em;color:var(--ink)}
 table.filters{border-collapse:collapse;width:100%;margin:14px 0 18px;font:400 .8rem/1.45 var(--mono)}

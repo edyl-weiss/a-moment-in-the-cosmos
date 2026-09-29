@@ -22,14 +22,16 @@ figure.feature{margin:0 calc(50% - 50vw)}          /* bleed to the viewport edge
 .lbl i{width:10px;height:10px;border-radius:50%;border:1.5px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.6);flex:none}
 .lbl b{font:400 .75rem/1.3 var(--mono);color:#fff;text-shadow:0 0 3px #000,0 0 6px #000}
 .lbl.flip{flex-direction:row-reverse;transform:translate(calc(-100% + 5px),-5px)}
-figcaption.credit{max-width:var(--wide);margin:8px auto 0;padding:0 var(--gutter);font-size:.74rem;line-height:1.5;color:var(--ink-3)}
+figcaption.credit{max-width:var(--wide);margin:10px auto 0;padding:0 var(--gutter);font-size:.78rem;line-height:1.55;color:var(--ink-2)}
 figcaption.credit strong{font-weight:400;color:var(--ink-2)}
 figcaption.credit a{color:var(--ink-2)}
 
-.titlebar{display:grid;grid-template-columns:minmax(0,1fr);gap:10px;margin:36px 0 0}
-.titlebar h2{font:300 clamp(2rem,4.6vw,3.6rem)/1.05 var(--serif);letter-spacing:-.015em;margin:0;max-width:22ch}
-.titlebar .cap{margin:10px 0 0;font-style:italic;color:var(--ink-2);font-size:1.1rem;max-width:62ch}
-.titlebar .cap .date{font-style:normal;color:var(--ink)}
-.actions{display:flex;flex-wrap:wrap;gap:0 26px;margin-top:6px}
-@media (min-width:980px){.titlebar{grid-template-columns:minmax(0,1fr) 18rem;align-items:end}.actions{flex-direction:column;align-items:flex-start;gap:0}}
+.titlebar{margin:52px 0 0}
+.titlebar h2{font:300 clamp(2.1rem,4.8vw,3.8rem)/1.05 var(--serif);letter-spacing:-.015em;margin:0;max-width:24ch}
+.titlebar .cap{margin:12px 0 0;font-style:italic;color:var(--ink-2);font-size:1.12rem;line-height:1.5;max-width:60ch}
+.titlebar .cap .date{font-style:normal}
+
+/* Options sit directly under the photograph, one line on wide screens. */
+.actions{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 28px;margin:14px 0 0}
+@media (max-width:600px){.actions{gap:0 20px}}
 @media (max-width:600px){.dateline .rollover{margin-left:0;flex-basis:100%}}
