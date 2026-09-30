@@ -1,0 +1,599 @@
+[
+ {
+  "date": "09-01",
+  "year": 1804,
+  "text": "Karl Ludwig Harding discovered Juno, the third asteroid ever found.",
+  "source": {
+   "title": "Wikipedia: 3 Juno",
+   "url": "https://en.wikipedia.org/wiki/3_Juno"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-01",
+  "year": 1859,
+  "text": "English astronomers Richard Carrington and Richard Hodgson independently recorded the earliest observations of a solar flare, a bright patch that moved across the Sun for about five minutes.",
+  "source": {
+   "title": "Wikipedia: Carrington Event",
+   "url": "https://en.wikipedia.org/wiki/Carrington_Event"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-01",
+  "year": 1979,
+  "text": "Pioneer 11 made its closest approach to Saturn, becoming the first probe to encounter the planet.",
+  "source": {
+   "title": "Wikipedia: Pioneer 11",
+   "url": "https://en.wikipedia.org/wiki/Pioneer_11"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-02",
+  "year": 1826,
+  "text": "Scottish astronomer James Dunlop discovered the barred spiral galaxy NGC 1365 in the southern constellation Fornax.",
+  "source": {
+   "title": "Wikipedia: NGC 1365",
+   "url": "https://en.wikipedia.org/wiki/NGC_1365"
+  },
+  "photos": [
+   {
+    "id": "e-eso1038a",
+    "relation": "object"
+   },
+   {
+    "id": "n-iotw2127a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "09-02",
+  "year": 1826,
+  "text": "James Dunlop discovered the lenticular galaxy NGC 1316, which is also the radio source Fornax A.",
+  "source": {
+   "title": "Wikipedia: Fornax A",
+   "url": "https://en.wikipedia.org/wiki/Fornax_A"
+  },
+  "photos": [
+   {
+    "id": "e-eso1411a",
+    "relation": "object"
+   },
+   {
+    "id": "h-opo0511a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "09-03",
+  "year": 2000,
+  "text": "YEPUN, the fourth Unit Telescope of ESO's Very Large Telescope at Paranal, saw first light. Its first image showed a dense Milky Way field containing the planetary nebula Hen 2-428.",
+  "source": {
+   "title": "ESO: Fourth Light at Paranal! VLT YEPUN Joins ANTU, KUEYEN and MELIPAL",
+   "url": "https://www.eso.org/public/news/eso0028/"
+  },
+  "photos": [
+   {
+    "id": "e-eso1625a",
+    "relation": "telescope"
+   },
+   {
+    "id": "e-eso1038a",
+    "relation": "telescope"
+   },
+   {
+    "id": "e-potw1525a",
+    "relation": "site"
+   }
+  ]
+ },
+ {
+  "date": "09-05",
+  "year": 1784,
+  "text": "William Herschel discovered the Veil Nebula, the remains of a supernova in the constellation Cygnus.",
+  "source": {
+   "title": "Wikipedia: Veil Nebula",
+   "url": "https://en.wikipedia.org/wiki/Veil_Nebula"
+  },
+  "photos": [
+   {
+    "id": "h-heic1520a",
+    "relation": "object"
+   },
+   {
+    "id": "h-opo9301a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "09-05",
+  "year": 1977,
+  "text": "NASA launched Voyager 1, which went on to fly past Jupiter and Saturn and later sent back the images behind the Pale Blue Dot.",
+  "source": {
+   "title": "NASA: Voyager 1",
+   "url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-06",
+  "year": 1997,
+  "text": "Brett Gladman, Philip Nicholson, Joseph Burns and John Kavelaars discovered Caliban and Sycorax, two irregular moons of Uranus, with the 200-inch Hale Telescope.",
+  "source": {
+   "title": "Wikipedia: Caliban (moon)",
+   "url": "https://en.wikipedia.org/wiki/Caliban_(moon)"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-07",
+  "year": 1774,
+  "text": "Charles Messier catalogued the open cluster M52 while following the comet of that year, which passed close to it.",
+  "source": {
+   "title": "SEDS: Messier Object 52",
+   "url": "https://messier.seds.org/m/m052.html"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-07",
+  "year": 1782,
+  "text": "William Herschel discovered the planetary nebula NGC 7009, later called the Saturn Nebula, with a telescope of his own design in his garden at Datchet, England.",
+  "source": {
+   "title": "Wikipedia: Saturn Nebula",
+   "url": "https://en.wikipedia.org/wiki/Saturn_Nebula"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-08",
+  "year": 2016,
+  "text": "NASA launched OSIRIS-REx, a mission to collect a sample from a near-Earth asteroid and bring it back to Earth.",
+  "source": {
+   "title": "Wikipedia: OSIRIS-REx",
+   "url": "https://en.wikipedia.org/wiki/OSIRIS-REx"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-09",
+  "year": 1798,
+  "text": "William Herschel discovered the spiral galaxy NGC 6946, now known as the Fireworks Galaxy.",
+  "source": {
+   "title": "Wikipedia: Fireworks Galaxy",
+   "url": "https://en.wikipedia.org/wiki/Fireworks_Galaxy"
+  },
+  "photos": [
+   {
+    "id": "n-gemini0501a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-ngc6946kpno",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "09-09",
+  "year": 1892,
+  "text": "Edward Emerson Barnard discovered Amalthea, a small inner moon of Jupiter, with the 36-inch refractor at Lick Observatory.",
+  "source": {
+   "title": "Wikipedia: Amalthea (moon)",
+   "url": "https://en.wikipedia.org/wiki/Amalthea_(moon)"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-10",
+  "year": 1857,
+  "text": "James Edward Keeler was born. His spectra of Saturn's rings showed that different parts orbit at different speeds, and his work with the Crossley reflector at Lick Observatory advanced the study of nebulae.",
+  "source": {
+   "title": "Wikipedia: James Edward Keeler",
+   "url": "https://en.wikipedia.org/wiki/James_Edward_Keeler"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-11",
+  "year": 1746,
+  "text": "Jean-Dominique Maraldi discovered the globular cluster M2. Charles Messier found it again on the same date in 1760 and described it as a nebula without stars.",
+  "source": {
+   "title": "SEDS: Messier Object 2",
+   "url": "https://messier.seds.org/m/m002.html"
+  },
+  "photos": [
+   {
+    "id": "h-potw1913a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "09-12",
+  "year": 1758,
+  "text": "Charles Messier catalogued the Crab Nebula as the first entry in his list. He had come across it in August while searching for the predicted return of Halley's Comet.",
+  "source": {
+   "title": "SEDS: Messier Object 1",
+   "url": "https://messier.seds.org/m/m001.html"
+  },
+  "photos": [
+   {
+    "id": "heic0515a",
+    "relation": "object"
+   },
+   {
+    "id": "w-weic2417a",
+    "relation": "object"
+   },
+   {
+    "id": "e-potw1523a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "09-12",
+  "year": 2012,
+  "text": "The 570-megapixel Dark Energy Camera took its first pictures of the southern sky from the Victor M. Blanco telescope at Cerro Tololo Inter-American Observatory in Chile.",
+  "source": {
+   "title": "Fermilab: World's most powerful digital camera opens eye, records first images in hunt for dark energy",
+   "url": "https://news.fnal.gov/2012/09/worlds-powerful-digital-camera-opens-eye-records-first-images-hunt-dark-energy/"
+  },
+  "photos": [
+   {
+    "id": "n-noirlab2107a",
+    "relation": "telescope"
+   },
+   {
+    "id": "n-noirlab2030a",
+    "relation": "telescope"
+   },
+   {
+    "id": "n-iotw2127a",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "09-13",
+  "year": 1959,
+  "text": "The Soviet probe Luna 2 struck the Moon, the first spacecraft to touch the surface of the Moon and the first human-made object to reach another celestial body.",
+  "source": {
+   "title": "Wikipedia: Luna 2",
+   "url": "https://en.wikipedia.org/wiki/Luna_2"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-14",
+  "year": 1712,
+  "text": "Giovanni Domenico Cassini died in Paris. He discovered four moons of Saturn, Iapetus, Rhea, Tethys and Dione, and the gap in Saturn's rings now called the Cassini Division.",
+  "source": {
+   "title": "Wikipedia: Giovanni Domenico Cassini",
+   "url": "https://en.wikipedia.org/wiki/Giovanni_Domenico_Cassini"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-14",
+  "year": 2015,
+  "text": "The two LIGO detectors in Hanford, Washington, and Livingston, Louisiana, recorded GW150914, the first direct observation of gravitational waves. The signal came from the merger of two black holes of about 35 and 30 solar masses.",
+  "source": {
+   "title": "Wikipedia: First observation of gravitational waves",
+   "url": "https://en.wikipedia.org/wiki/First_observation_of_gravitational_waves"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-15",
+  "year": 2017,
+  "text": "NASA's Cassini spacecraft ended its mission by entering Saturn's upper atmosphere, where it burned up after nearly 20 years in space.",
+  "source": {
+   "title": "Wikipedia: Cassini–Huygens",
+   "url": "https://en.wikipedia.org/wiki/Cassini%E2%80%93Huygens"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-16",
+  "year": 1925,
+  "text": "Russian mathematician Alexander Friedmann died. In 1922 he introduced the idea of an expanding universe filled with moving matter.",
+  "source": {
+   "title": "Wikipedia: Alexander Friedmann",
+   "url": "https://en.wikipedia.org/wiki/Alexander_Friedmann"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-17",
+  "year": 1789,
+  "text": "William Herschel discovered Mimas, a moon of Saturn, with his 40-foot reflecting telescope.",
+  "source": {
+   "title": "Wikipedia: Mimas (moon)",
+   "url": "https://en.wikipedia.org/wiki/Mimas_(moon)"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-18",
+  "year": 1830,
+  "text": "British astronomer John Herschel discovered the galaxy NGC 7714.",
+  "source": {
+   "title": "Wikipedia: NGC 7714",
+   "url": "https://en.wikipedia.org/wiki/NGC_7714"
+  },
+  "photos": [
+   {
+    "id": "h-heic1503a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "09-18",
+  "year": 1965,
+  "text": "Japanese amateur astronomers Kaoru Ikeya and Tsutomu Seki independently discovered the sungrazing comet Ikeya-Seki within about 15 minutes of each other.",
+  "source": {
+   "title": "Wikipedia: Comet Ikeya–Seki",
+   "url": "https://en.wikipedia.org/wiki/Comet_Ikeya%E2%80%93Seki"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-19",
+  "year": 1749,
+  "text": "French astronomer Jean-Baptiste Delambre was born in Amiens. He compiled tables of the motions of Jupiter's satellites and led the northern expedition that measured the meridian from Dunkirk to Rodez.",
+  "source": {
+   "title": "Wikipedia: Jean Baptiste Joseph Delambre",
+   "url": "https://en.wikipedia.org/wiki/Jean_Baptiste_Joseph_Delambre"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-20",
+  "year": 1804,
+  "text": "French astronomer Pierre Méchain died in Castellón de la Plana, Spain. He discovered about 25 deep-sky objects and eight comets and worked closely with Charles Messier.",
+  "source": {
+   "title": "Wikipedia: Pierre Méchain",
+   "url": "https://en.wikipedia.org/wiki/Pierre_M%C3%A9chain"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-21",
+  "year": 2003,
+  "text": "The Galileo spacecraft was deliberately sent into Jupiter's atmosphere and destroyed, so that it could not contaminate any of Jupiter's moons.",
+  "source": {
+   "title": "Wikipedia: Galileo (spacecraft)",
+   "url": "https://en.wikipedia.org/wiki/Galileo_(spacecraft)"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-21",
+  "year": 2012,
+  "text": "Vitaly Nevsky and Artyom Novichonok discovered Comet ISON with a 0.4-metre reflector of the International Scientific Optical Network. The comet broke apart near the Sun in late 2013.",
+  "source": {
+   "title": "Wikipedia: C/2012 S1 (ISON)",
+   "url": "https://en.wikipedia.org/wiki/C/2012_S1_(ISON)"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-22",
+  "year": 1959,
+  "text": "Saul Perlmutter was born. He shared the 2011 Nobel Prize in Physics for evidence that the expansion of the universe is accelerating.",
+  "source": {
+   "title": "Wikipedia: Saul Perlmutter",
+   "url": "https://en.wikipedia.org/wiki/Saul_Perlmutter"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-23",
+  "year": 1783,
+  "text": "Caroline Herschel discovered the Sculptor Galaxy, NGC 253, with a small Newtonian telescope she used to sweep the sky for comets.",
+  "source": {
+   "title": "SEDS: NGC 253",
+   "url": "https://messier.seds.org/xtra/ngc/n0253.html"
+  },
+  "photos": [
+   {
+    "id": "e-eso1152a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-ngc253",
+    "relation": "object"
+   },
+   {
+    "id": "e-eso0902c",
+    "relation": "object"
+   },
+   {
+    "id": "e-eso9903a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "09-23",
+  "year": 1846,
+  "text": "Johann Gottfried Galle observed Neptune through a telescope at the Berlin Observatory, close to the position Urbain Le Verrier had predicted from its pull on Uranus.",
+  "source": {
+   "title": "Wikipedia: Neptune",
+   "url": "https://en.wikipedia.org/wiki/Neptune"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-24",
+  "year": 1785,
+  "text": "William Herschel discovered the globular cluster NGC 6934.",
+  "source": {
+   "title": "Wikipedia: NGC 6934",
+   "url": "https://en.wikipedia.org/wiki/NGC_6934"
+  },
+  "photos": [
+   {
+    "id": "h-potw1023a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "09-24",
+  "year": 2023,
+  "text": "The OSIRIS-REx sample capsule landed back on Earth carrying material collected from the asteroid Bennu.",
+  "source": {
+   "title": "Wikipedia: OSIRIS-REx",
+   "url": "https://en.wikipedia.org/wiki/OSIRIS-REx"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-25",
+  "year": 2012,
+  "text": "Astronomers released the Hubble eXtreme Deep Field, built from about 23 days of Hubble exposures collected over 10 years. The image contains about 5,500 galaxies.",
+  "source": {
+   "title": "Wikipedia: Hubble eXtreme Deep Field",
+   "url": "https://en.wikipedia.org/wiki/Hubble_eXtreme_Deep_Field"
+  },
+  "photos": [
+   {
+    "id": "h-heic0406a",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "09-26",
+  "year": 2022,
+  "text": "NASA's DART spacecraft struck the small asteroid moonlet Dimorphos on purpose. The collision shortened its orbit around Didymos by 32 minutes.",
+  "source": {
+   "title": "Wikipedia: Double Asteroid Redirection Test",
+   "url": "https://en.wikipedia.org/wiki/Double_Asteroid_Redirection_Test"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-27",
+  "year": 1826,
+  "text": "Scottish astronomer James Dunlop discovered the irregular galaxy NGC 1313, sometimes called the Topsy Turvy Galaxy.",
+  "source": {
+   "title": "Wikipedia: NGC 1313",
+   "url": "https://en.wikipedia.org/wiki/NGC_1313"
+  },
+  "photos": [
+   {
+    "id": "e-eso0643a",
+    "relation": "object"
+   },
+   {
+    "id": "n-gemini1007a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "09-27",
+  "year": 2007,
+  "text": "NASA launched the Dawn spacecraft to the asteroid belt. It later orbited Vesta and Ceres, the first spacecraft to orbit two separate bodies beyond Earth.",
+  "source": {
+   "title": "Wikipedia: Dawn (spacecraft)",
+   "url": "https://en.wikipedia.org/wiki/Dawn_(spacecraft)"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-28",
+  "year": 1826,
+  "text": "James Dunlop discovered the barred spiral galaxy NGC 1433.",
+  "source": {
+   "title": "Wikipedia: NGC 1433",
+   "url": "https://en.wikipedia.org/wiki/NGC_1433"
+  },
+  "photos": [
+   {
+    "id": "w-weic2306a",
+    "relation": "object"
+   },
+   {
+    "id": "h-potw1427a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "09-28",
+  "year": 1953,
+  "text": "Edwin Hubble died in San Marino, California. He showed that many nebulae are galaxies beyond the Milky Way and found that more distant galaxies recede faster, evidence that the universe is expanding.",
+  "source": {
+   "title": "Wikipedia: Edwin Hubble",
+   "url": "https://en.wikipedia.org/wiki/Edwin_Hubble"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-28",
+  "year": 2015,
+  "text": "India launched AstroSat, its first dedicated space observatory for observing the sky across several wavelengths.",
+  "source": {
+   "title": "Wikipedia: AstroSat",
+   "url": "https://en.wikipedia.org/wiki/AstroSat"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-29",
+  "year": 2024,
+  "text": "The small near-Earth asteroid 2024 PT5 became temporarily captured by Earth's gravity, a state that lasted until 25 November. The ATLAS survey station at Sutherland, South Africa, had discovered it in August.",
+  "source": {
+   "title": "Wikipedia: 2024 PT5",
+   "url": "https://en.wikipedia.org/wiki/2024_PT5"
+  },
+  "photos": []
+ },
+ {
+  "date": "09-30",
+  "year": 1880,
+  "text": "Henry Draper took the first photograph of the Orion Nebula, a 50-minute exposure with his 11-inch Clark refractor.",
+  "source": {
+   "title": "Wikipedia: Henry Draper",
+   "url": "https://en.wikipedia.org/wiki/Henry_Draper"
+  },
+  "photos": [
+   {
+    "id": "h-heic0601a",
+    "relation": "object"
+   },
+   {
+    "id": "e-eso1723a",
+    "relation": "object"
+   },
+   {
+    "id": "e-eso1625a",
+    "relation": "object"
+   },
+   {
+    "id": "e-eso0421a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "09-30",
+  "year": 2016,
+  "text": "ESA's Rosetta spacecraft ended its mission by landing hard on comet 67P/Churyumov-Gerasimenko in the comet's Ma'at region.",
+  "source": {
+   "title": "Wikipedia: Rosetta (spacecraft)",
+   "url": "https://en.wikipedia.org/wiki/Rosetta_(spacecraft)"
+  },
+  "photos": []
+ }
+]

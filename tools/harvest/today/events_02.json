@@ -1,0 +1,485 @@
+[
+ {
+  "date": "02-01",
+  "year": 1785,
+  "text": "William Herschel discovered the planetary nebula NGC 1535 in the constellation Eridanus.",
+  "source": {
+   "title": "Wikipedia: NGC 1535",
+   "url": "https://en.wikipedia.org/wiki/NGC_1535"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-02",
+  "year": 2022,
+  "text": "The James Webb Space Telescope's NIRCam captured light from the star HD 84406 in Ursa Major through all 18 primary mirror segments, the telescope's first view of a star. NASA released the mosaic on 11 February.",
+  "source": {
+   "title": "NASA Webb blog: Photons Received: Webb Sees Its First Star, 18 Times",
+   "url": "https://science.nasa.gov/blogs/webb/2022/02/11/photons-received-webb-sees-its-first-star-18-times/"
+  },
+  "photos": [
+   {
+    "id": "weic2205a",
+    "relation": "telescope"
+   },
+   {
+    "id": "weic2216b",
+    "relation": "telescope"
+   },
+   {
+    "id": "weic2208a",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "02-03",
+  "year": 1775,
+  "text": "Johann Elert Bode discovered the globular cluster M53 early in the morning and described it as a rather conspicuous nebula.",
+  "source": {
+   "title": "Messier Objects: Messier 53",
+   "url": "https://www.messier-objects.com/messier-53/"
+  },
+  "photos": [
+   {
+    "id": "n-noao-m53",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "02-03",
+  "year": 1919,
+  "text": "Edward Charles Pickering died in Cambridge, Massachusetts. He directed the Harvard College Observatory and established the Harvard Photometry, the first great photometric star catalogue.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Edward Charles Pickering",
+   "url": "https://www.britannica.com/biography/Edward-Charles-Pickering"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-04",
+  "year": 1906,
+  "text": "Clyde Tombaugh, who later discovered Pluto, was born in Streator, Illinois.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Clyde Tombaugh",
+   "url": "https://www.britannica.com/biography/Clyde-Tombaugh"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-05",
+  "year": 1963,
+  "text": "Maarten Schmidt worked out that the spectrum of the radio source 3C 273 showed hydrogen lines with a large redshift, leading to the identification of the first known quasar.",
+  "source": {
+   "title": "Caltech: Fifty Years of Quasars",
+   "url": "https://www.caltech.edu/about/news/fifty-years-quasars-38937"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-06",
+  "year": 2018,
+  "text": "Donald Lynden-Bell died at his home in Cambridge, England. In 1969 he proposed that quasars are powered by supermassive black holes, and he shared the first Kavli Prize in Astrophysics with Maarten Schmidt.",
+  "source": {
+   "title": "Wikipedia: Donald Lynden-Bell",
+   "url": "https://en.wikipedia.org/wiki/Donald_Lynden-Bell"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-07",
+  "year": 1785,
+  "text": "William Herschel discovered the planetary nebula NGC 3242, later nicknamed the Ghost of Jupiter, and catalogued it as H IV.27.",
+  "source": {
+   "title": "Wikipedia: NGC 3242",
+   "url": "https://en.wikipedia.org/wiki/NGC_3242"
+  },
+  "photos": [
+   {
+    "id": "n-noao-ngc3242",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "02-07",
+  "year": 1999,
+  "text": "NASA launched Stardust to fly past Comet Wild 2 and collect dust from it. Its capsule returned more than 10,000 comet particles to Utah in 2006.",
+  "source": {
+   "title": "NASA: Stardust",
+   "url": "https://science.nasa.gov/mission/stardust/"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-08",
+  "year": 1974,
+  "text": "Fritz Zwicky, the astronomer who found evidence for dark matter and studied supernovae with Walter Baade, died in Pasadena, California.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Fritz Zwicky",
+   "url": "https://www.britannica.com/biography/Fritz-Zwicky"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-09",
+  "year": 1986,
+  "text": "Halley's Comet reached perihelion, passing about 87.8 million kilometres from the Sun.",
+  "source": {
+   "title": "NASA: Comet 1P/Halley",
+   "url": "https://science.nasa.gov/solar-system/comets/1p-halley/"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-10",
+  "year": 2020,
+  "text": "The ESA and NASA Solar Orbiter spacecraft launched on an Atlas V rocket from Cape Canaveral, Florida.",
+  "source": {
+   "title": "Wikipedia: Solar Orbiter",
+   "url": "https://en.wikipedia.org/wiki/Solar_Orbiter"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-11",
+  "year": 1997,
+  "text": "Space Shuttle Discovery launched on Hubble's second servicing mission. Astronauts installed the STIS spectrograph and the NICMOS near-infrared camera.",
+  "source": {
+   "title": "NASA: Hubble Servicing Mission 2",
+   "url": "https://science.nasa.gov/mission/hubble/observatory/missions-to-hubble/servicing-mission-2/"
+  },
+  "photos": [
+   {
+    "id": "h-heic1501a",
+    "relation": "telescope"
+   },
+   {
+    "id": "heic0506a",
+    "relation": "telescope"
+   },
+   {
+    "id": "h-heic0601a",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "02-11",
+  "year": 2016,
+  "text": "The LIGO team announced the first direct detection of gravitational waves, produced by the merger of two black holes and recorded on 14 September 2015.",
+  "source": {
+   "title": "LIGO Caltech: Gravitational waves detected 100 years after Einstein's prediction",
+   "url": "https://www.ligo.caltech.edu/news/ligo20160211"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-12",
+  "year": 2001,
+  "text": "NASA's NEAR Shoemaker spacecraft touched down on the asteroid Eros at about 6.4 kilometres per hour, just south of a feature named Himeros.",
+  "source": {
+   "title": "NASA: NEAR Shoemaker",
+   "url": "https://science.nasa.gov/mission/near-shoemaker/"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-13",
+  "year": 1633,
+  "text": "Galileo Galilei arrived in Rome to face charges of heresy before the Inquisition for advocating the Copernican theory that the Earth moves around the Sun.",
+  "source": {
+   "title": "History.com: Galileo arrives in Rome to face charges of heresy",
+   "url": "https://www.history.com/this-day-in-history/february-13/galileo-in-rome-for-inquisition"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-13",
+  "year": 1852,
+  "text": "John Louis Emil Dreyer was born in Copenhagen. He compiled the New General Catalogue of nebulae and star clusters, whose NGC numbers are still used to name galaxies and nebulae.",
+  "source": {
+   "title": "Wikipedia: John Louis Emil Dreyer",
+   "url": "https://en.wikipedia.org/wiki/John_Louis_Emil_Dreyer"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-14",
+  "year": 1898,
+  "text": "Fritz Zwicky was born in Varna, Bulgaria. He went on to find evidence for dark matter in 1933 and, with Walter Baade, proposed supernovae as a distinct class of stellar explosion.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Fritz Zwicky",
+   "url": "https://www.britannica.com/biography/Fritz-Zwicky"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-14",
+  "year": 1990,
+  "text": "Voyager 1 took the Pale Blue Dot image of Earth from about 6 billion kilometres from the Sun.",
+  "source": {
+   "title": "NASA: Voyager 1's Pale Blue Dot",
+   "url": "https://science.nasa.gov/mission/voyager/voyager-1s-pale-blue-dot/"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-15",
+  "year": 1564,
+  "text": "Galileo Galilei was born in Pisa, Italy.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Galileo",
+   "url": "https://www.britannica.com/biography/Galileo-Galilei"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-15",
+  "year": 1786,
+  "text": "William Herschel discovered the Cat's Eye Nebula, a planetary nebula in the constellation Draco.",
+  "source": {
+   "title": "Wikipedia: Cat's Eye Nebula",
+   "url": "https://en.wikipedia.org/wiki/Cat%27s_Eye_Nebula"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-16",
+  "year": 1781,
+  "text": "Pierre Méchain discovered the Owl Nebula. Charles Messier added it to his catalogue a few weeks later.",
+  "source": {
+   "title": "Wikipedia: Owl Nebula",
+   "url": "https://en.wikipedia.org/wiki/Owl_Nebula"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-16",
+  "year": 1948,
+  "text": "Gerard Kuiper discovered Miranda, a moon of Uranus, using the 82-inch Otto Struve Telescope at McDonald Observatory.",
+  "source": {
+   "title": "Wikipedia: Miranda (moon)",
+   "url": "https://en.wikipedia.org/wiki/Miranda_(moon)"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-17",
+  "year": 1752,
+  "text": "Nicolas-Louis de Lacaille discovered the spiral galaxy M83 while observing from the Cape of Good Hope.",
+  "source": {
+   "title": "Wikipedia: Messier 83",
+   "url": "https://en.wikipedia.org/wiki/Messier_83"
+  },
+  "photos": [
+   {
+    "id": "h-heic1403a",
+    "relation": "object"
+   },
+   {
+    "id": "e-eso0825a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noirlab2107a",
+    "relation": "object"
+   },
+   {
+    "id": "w-potm2310a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "02-18",
+  "year": 1930,
+  "text": "Clyde Tombaugh pinpointed Pluto. Lowell Observatory announced the discovery on 13 March.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Clyde Tombaugh",
+   "url": "https://www.britannica.com/biography/Clyde-Tombaugh"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-19",
+  "year": 1473,
+  "text": "Nicolaus Copernicus was born in Toruń, in Royal Prussia.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Nicolaus Copernicus",
+   "url": "https://www.britannica.com/biography/Nicolaus-Copernicus"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-19",
+  "year": 1771,
+  "text": "Charles Messier discovered the open star cluster M47. A sign error in his recorded position was traced in 1959 by T.F. Morris, who showed the cluster is NGC 2422.",
+  "source": {
+   "title": "Messier Objects: Messier 47",
+   "url": "https://www.messier-objects.com/messier-47/"
+  },
+  "photos": [
+   {
+    "id": "e-eso1441a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "02-20",
+  "year": 1945,
+  "text": "George Smoot was born in Yukon, Florida. He later shared the 2006 Nobel Prize in Physics for measurements of the microwave background radiation made with NASA's COBE satellite.",
+  "source": {
+   "title": "Encyclopaedia Britannica: George Smoot",
+   "url": "https://www.britannica.com/biography/George-Smoot"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-21",
+  "year": 1938,
+  "text": "George Ellery Hale died in Pasadena, California. He built four major telescopes and is honoured by the 200-inch Hale Telescope at Palomar Observatory.",
+  "source": {
+   "title": "Encyclopaedia Britannica: George Ellery Hale",
+   "url": "https://www.britannica.com/biography/George-Ellery-Hale"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-22",
+  "year": 1784,
+  "text": "William Herschel discovered the spiral galaxy NGC 3521 in the constellation Leo.",
+  "source": {
+   "title": "Wikipedia: NGC 3521",
+   "url": "https://en.wikipedia.org/wiki/NGC_3521"
+  },
+  "photos": [
+   {
+    "id": "e-eso1129a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "02-22",
+  "year": 1824,
+  "text": "Pierre Janssen was born in Paris. In 1868 he found a new yellow line in the solar spectrum that was later traced to helium.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Pierre Janssen",
+   "url": "https://www.britannica.com/biography/Pierre-Janssen"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-22",
+  "year": 2017,
+  "text": "NASA announced that its Spitzer Space Telescope, with help from ground-based telescopes, had found seven Earth-size planets around the star TRAPPIST-1, about 40 light-years away in Aquarius.",
+  "source": {
+   "title": "NASA JPL: NASA Telescope Reveals Largest Batch of Earth-Size, Habitable-Zone Planets Around Single Star",
+   "url": "https://www.jpl.nasa.gov/news/nasa-telescope-reveals-largest-batch-of-earth-size-habitable-zone-planets-around-single-star/"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-23",
+  "year": 1987,
+  "text": "The Kamiokande II, IMB and Baksan detectors recorded a burst of neutrinos from Supernova 1987A, a few hours before its visible light reached Earth.",
+  "source": {
+   "title": "Wikipedia: SN 1987A",
+   "url": "https://en.wikipedia.org/wiki/SN_1987A"
+  },
+  "photos": [
+   {
+    "id": "h-heic1704a",
+    "relation": "object"
+   },
+   {
+    "id": "h-opo9103a",
+    "relation": "object"
+   },
+   {
+    "id": "e-potw1709a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "02-24",
+  "year": 1968,
+  "text": "Antony Hewish, Jocelyn Bell Burnell and colleagues published the discovery of the first radio pulsar, PSR B1919+21, in the journal Nature.",
+  "source": {
+   "title": "Wikipedia: PSR B1919+21",
+   "url": "https://en.wikipedia.org/wiki/PSR_B1919%2B21"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-24",
+  "year": 1987,
+  "text": "Ian Shelton and Oscar Duhalde discovered Supernova 1987A in the Large Magellanic Cloud from Las Campanas Observatory in Chile. Albert Jones spotted it independently in New Zealand within the same day.",
+  "source": {
+   "title": "Wikipedia: SN 1987A",
+   "url": "https://en.wikipedia.org/wiki/SN_1987A"
+  },
+  "photos": [
+   {
+    "id": "h-heic1704a",
+    "relation": "object"
+   },
+   {
+    "id": "h-opo9103a",
+    "relation": "object"
+   },
+   {
+    "id": "e-potw1709a",
+    "relation": "object"
+   },
+   {
+    "id": "e-eso0650a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "02-25",
+  "year": 1670,
+  "text": "Maria Margaretha Kirch was born in Panitzsch, Saxony. In 1702 she became the first person to identify the Comet of 1702 as a comet.",
+  "source": {
+   "title": "Wikipedia: Maria Margaretha Kirch",
+   "url": "https://en.wikipedia.org/wiki/Maria_Margaretha_Kirch"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-26",
+  "year": 1979,
+  "text": "A total solar eclipse crossed Washington, Oregon, Idaho, Montana and North Dakota. It was the last total eclipse seen from the contiguous United States until 21 August 2017.",
+  "source": {
+   "title": "Wikipedia: Solar eclipse of February 26, 1979",
+   "url": "https://en.wikipedia.org/wiki/Solar_eclipse_of_February_26,_1979"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-27",
+  "year": 1947,
+  "text": "Alan Guth, the physicist who proposed that the early universe went through a phase of exponential expansion known as inflation, was born in New Brunswick, New Jersey.",
+  "source": {
+   "title": "Wikipedia: Alan Guth",
+   "url": "https://en.wikipedia.org/wiki/Alan_Guth"
+  },
+  "photos": []
+ },
+ {
+  "date": "02-28",
+  "year": 2007,
+  "text": "NASA's New Horizons spacecraft made its closest approach to Jupiter, using the planet's gravity to speed its journey toward Pluto.",
+  "source": {
+   "title": "NASA: New Horizons",
+   "url": "https://science.nasa.gov/mission/new-horizons/"
+  },
+  "photos": []
+ }
+]

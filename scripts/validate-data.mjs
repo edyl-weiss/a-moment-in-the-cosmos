@@ -5,6 +5,8 @@ import { SCHEDULE } from '../src/data/schedule.js';
 import { TOURS } from '../src/data/tours.js';
 import { COMPARISONS } from '../src/data/comparisons.js';
 import { readFileSync, existsSync } from 'node:fs';
+// same rule as src/js/util.js meetsMinimum (the browser re-checks every image it loads)
+const meetsMinimum = (w, h) => { const l = Math.max(w, h), s = Math.min(w, h); return l / s <= 1.02 ? s >= 1440 : l >= 1920 && s >= 1080; };
 
 const REQUIRED = ['id', 'cat', 'org', 'title', 'caption', 'releaseDate', 'celestial', 'credit', 'source', 'story', 'understand', 'behind', 'sources'];
 const CATS = new Set(['galaxy', 'nebula', 'star', 'night']);
@@ -36,6 +38,7 @@ export function validate() {
       for (const k of REQUIRED) if (!c[k]) problems.push(`${at}: missing "${k}"`);
       if (!/^https:\/\//.test(c.source || '')) problems.push(`${at}: source must be an https link`);
       if (!(c.img?.pub && c.img?.pubW && c.img?.pubH)) problems.push(`${at}: image fields missing`);
+      else if (!meetsMinimum(c.img.pubW, c.img.pubH)) problems.push(`${at}: ${c.img.pubW} × ${c.img.pubH} is below the display minimum`);
       const words = (c.story || []).join(' ').split(/\s+/).filter(Boolean).length;
       if (words < 110 || words > 190) problems.push(`${at}: story is ${words} words`);
       ids.add(e.id); collection++;
@@ -59,6 +62,18 @@ export function validate() {
     for (const side of ['left', 'right']) {
       const s = c[side];
       if (!(s?.label && s.img && s.credit)) problems.push(`comparisons ${id}.${side}: needs label, img and credit`);
+    }
+  }
+  // On this day: every key is a real calendar date, every photo exists, every event cites a source.
+  const OTD = JSON.parse(readFileSync(new URL('../src/data/onthisday.json', import.meta.url), 'utf8'));
+  const LEN = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+  for (const [k, d] of Object.entries(OTD)) {
+    const [m, day] = k.split('-').map(Number);
+    if (!(m >= 1 && m <= 12 && day >= 1 && day <= LEN[m - 1])) problems.push(`onthisday: bad date key "${k}"`);
+    for (const [, id] of d.published) if (!ids.has(id)) problems.push(`onthisday ${k}: unknown photo "${id}"`);
+    for (const e of d.events) {
+      if (!Number.isInteger(e.year) || !e.text || !/^https:\/\//.test(e.source?.[1] || '')) problems.push(`onthisday ${k}: event needs year, text and https source`);
+      for (const [id, rel] of e.photos) if (!ids.has(id) || !['object', 'telescope', 'site'].includes(rel)) problems.push(`onthisday ${k}: bad event photo "${id}" (${rel})`);
     }
   }
   if (problems.length) throw new Error('Data problems:\n  - ' + problems.join('\n  - '));

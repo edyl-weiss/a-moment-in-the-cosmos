@@ -1,0 +1,631 @@
+[
+ {
+  "date": "01-01",
+  "year": 1801,
+  "text": "Giuseppe Piazzi discovered Ceres, the first object found in the asteroid belt and now classed as a dwarf planet, from the Palermo Astronomical Observatory in Sicily.",
+  "source": {
+   "title": "Wikipedia: Ceres (dwarf planet)",
+   "url": "https://en.wikipedia.org/wiki/Ceres_(dwarf_planet)"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-02",
+  "year": 2004,
+  "text": "NASA's Stardust spacecraft flew past Comet Wild 2 and collected dust from its coma for return to Earth.",
+  "source": {
+   "title": "Wikipedia: Stardust (spacecraft)",
+   "url": "https://en.wikipedia.org/wiki/Stardust_(spacecraft)"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-02",
+  "year": 2011,
+  "text": "Kathryn Aurora Gray, aged 10, discovered the supernova SN 2010lt in the galaxy UGC 3378 with Paul Gray and David J. Lane. She became the youngest person known to have found a supernova at the time.",
+  "source": {
+   "title": "Wikipedia: SN 2010lt",
+   "url": "https://en.wikipedia.org/wiki/SN_2010lt"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-03",
+  "year": 1986,
+  "text": "Stephen P. Synnott discovered Portia, one of the inner moons of Uranus, in images taken by Voyager 2.",
+  "source": {
+   "title": "Wikipedia: Portia (moon)",
+   "url": "https://en.wikipedia.org/wiki/Portia_(moon)"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-03",
+  "year": 2019,
+  "text": "China's Chang'e 4 lander touched down in Von Kármán crater, becoming the first spacecraft to land on the far side of the Moon.",
+  "source": {
+   "title": "Wikipedia: Chang'e 4",
+   "url": "https://en.wikipedia.org/wiki/Chang%27e_4"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-04",
+  "year": 2004,
+  "text": "NASA's Spirit rover landed inside Gusev crater on Mars.",
+  "source": {
+   "title": "Wikipedia: Spirit (rover)",
+   "url": "https://en.wikipedia.org/wiki/Spirit_(rover)"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-04",
+  "year": 2010,
+  "text": "The Kepler space telescope team announced its first main results. The initial planet discoveries were all short-period planets.",
+  "source": {
+   "title": "Wikipedia: Kepler space telescope",
+   "url": "https://en.wikipedia.org/wiki/Kepler_space_telescope"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-05",
+  "year": 2005,
+  "text": "Mike Brown, Chad Trujillo and David Rabinowitz discovered the dwarf planet Eris in images taken in 2003 with the Samuel Oschin Schmidt telescope at Palomar Observatory.",
+  "source": {
+   "title": "Wikipedia: Eris (dwarf planet)",
+   "url": "https://en.wikipedia.org/wiki/Eris_(dwarf_planet)"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-05",
+  "year": 2015,
+  "text": "NASA released a new Hubble image of the Pillars of Creation in the Eagle Nebula, along with a panoramic view of the Andromeda Galaxy showing more than 100 million stars.",
+  "source": {
+   "title": "NASA: Hubble Science Timeline",
+   "url": "https://science.nasa.gov/mission/hubble/overview/hubble-timeline/hubble-science-timeline-full-text/"
+  },
+  "photos": [
+   {
+    "id": "h-heic1501a",
+    "relation": "object"
+   },
+   {
+    "id": "h-heic1502a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "01-06",
+  "year": 1785,
+  "text": "William Herschel discovered NGC 2023, a reflection nebula in Orion near the Horsehead Nebula.",
+  "source": {
+   "title": "Wikipedia: NGC 2023",
+   "url": "https://en.wikipedia.org/wiki/NGC_2023"
+  },
+  "photos": [
+   {
+    "id": "h-potw1130a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "01-06",
+  "year": 1999,
+  "text": "Hubble released a sharp image of the Ring Nebula, a cylinder of gas from a dying star seen almost end-on.",
+  "source": {
+   "title": "NASA: Hubble Science Timeline",
+   "url": "https://science.nasa.gov/mission/hubble/overview/hubble-timeline/hubble-science-timeline-full-text/"
+  },
+  "photos": [
+   {
+    "id": "h-heic1310a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "01-06",
+  "year": 2015,
+  "text": "NASA announced the 1,000th confirmed exoplanet discovered by the Kepler space telescope.",
+  "source": {
+   "title": "Wikipedia: Kepler space telescope",
+   "url": "https://en.wikipedia.org/wiki/Kepler_space_telescope"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-07",
+  "year": 1610,
+  "text": "Galileo Galilei wrote a letter containing the first mention of the moons of Jupiter, which he had seen through his telescope.",
+  "source": {
+   "title": "Wikipedia: Galilean moons",
+   "url": "https://en.wikipedia.org/wiki/Galilean_moons"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-07",
+  "year": 2014,
+  "text": "The first Hubble Frontier Fields image showed the galaxy cluster Abell 2744 and some of the faintest and youngest galaxies detected up to that time.",
+  "source": {
+   "title": "NASA: Hubble Science Timeline",
+   "url": "https://science.nasa.gov/mission/hubble/overview/hubble-timeline/hubble-science-timeline-full-text/"
+  },
+  "photos": [
+   {
+    "id": "h-heic1401a",
+    "relation": "object"
+   },
+   {
+    "id": "w-weic2305a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "01-07",
+  "year": 2020,
+  "text": "The ALeRCE automated classification system discovered SN 2020oi, a Type Ic supernova in the spiral galaxy Messier 100.",
+  "source": {
+   "title": "Wikipedia: Messier 100",
+   "url": "https://en.wikipedia.org/wiki/Messier_100"
+  },
+  "photos": [
+   {
+    "id": "h-potw1850a",
+    "relation": "object"
+   },
+   {
+    "id": "e-eso0608a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-m100",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "01-08",
+  "year": 1642,
+  "text": "Galileo Galilei died at his villa in Arcetri near Florence, where he had lived under house arrest since 1634.",
+  "source": {
+   "title": "Wikipedia: Galileo Galilei",
+   "url": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-08",
+  "year": 2014,
+  "text": "ESA's Gaia spacecraft reached its planned orbit around the Sun-Earth L2 Lagrange point, about three weeks after launch.",
+  "source": {
+   "title": "Wikipedia: Gaia (spacecraft)",
+   "url": "https://en.wikipedia.org/wiki/Gaia_(spacecraft)"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-08",
+  "year": 2022,
+  "text": "NASA deployed and locked the second side wing of the James Webb Space Telescope's primary mirror, completing the observatory's structural deployment in space.",
+  "source": {
+   "title": "Wikipedia: James Webb Space Telescope",
+   "url": "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope"
+  },
+  "photos": [
+   {
+    "id": "weic2205a",
+    "relation": "telescope"
+   },
+   {
+    "id": "weic2216b",
+    "relation": "telescope"
+   },
+   {
+    "id": "weic2208a",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "01-09",
+  "year": 1848,
+  "text": "Caroline Herschel died in Hanover at age 97. Working with her brother William, she discovered comets and nebulae, including a companion galaxy of Andromeda now called Messier 110.",
+  "source": {
+   "title": "Wikipedia: Caroline Herschel",
+   "url": "https://en.wikipedia.org/wiki/Caroline_Herschel"
+  },
+  "photos": [
+   {
+    "id": "n-noao0001a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "01-09",
+  "year": 2008,
+  "text": "Alicia Soderberg and Edo Berger, and independently Albert Kong and Tom Maccarone, used the Swift satellite to detect the explosion that became supernova SN 2008D in the spiral galaxy NGC 2770.",
+  "source": {
+   "title": "Wikipedia: SN 2008D",
+   "url": "https://en.wikipedia.org/wiki/SN_2008D"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-10",
+  "year": 1946,
+  "text": "Harold Webb and Herbert Kauffman of Project Diana detected the first radar echo bounced off the Moon.",
+  "source": {
+   "title": "Wikipedia: Project Diana",
+   "url": "https://en.wikipedia.org/wiki/Project_Diana"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-10",
+  "year": 1996,
+  "text": "Astronomers released a Hubble image of Betelgeuse, the first direct image of the surface of a star other than the Sun. It showed a hot spot on the star.",
+  "source": {
+   "title": "NASA: Hubble Science Timeline",
+   "url": "https://science.nasa.gov/mission/hubble/overview/hubble-timeline/hubble-science-timeline-full-text/"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-11",
+  "year": 1787,
+  "text": "William Herschel discovered Titania and Oberon, the two largest moons of Uranus, on the same night.",
+  "source": {
+   "title": "Wikipedia: Titania (moon)",
+   "url": "https://en.wikipedia.org/wiki/Titania_(moon)"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-12",
+  "year": 1910,
+  "text": "Diamond miners in the Transvaal are thought to have been the first to see the Great January Comet of 1910, already bright enough to see with the naked eye before dawn.",
+  "source": {
+   "title": "Wikipedia: Great January Comet of 1910",
+   "url": "https://en.wikipedia.org/wiki/Great_January_Comet_of_1910"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-12",
+  "year": 2007,
+  "text": "Comet McNaught passed perihelion, its closest point to the Sun. It reached an estimated magnitude of minus 5.5 over the next two days.",
+  "source": {
+   "title": "Wikipedia: Comet McNaught",
+   "url": "https://en.wikipedia.org/wiki/Comet_McNaught"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-13",
+  "year": 1610,
+  "text": "Galileo Galilei saw all four of Jupiter's large moons at once for the first time.",
+  "source": {
+   "title": "Wikipedia: Galilean moons",
+   "url": "https://en.wikipedia.org/wiki/Galilean_moons"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-13",
+  "year": 1986,
+  "text": "Stephen P. Synnott discovered Desdemona, a small inner moon of Uranus, in images taken by Voyager 2.",
+  "source": {
+   "title": "Wikipedia: Desdemona (moon)",
+   "url": "https://en.wikipedia.org/wiki/Desdemona_(moon)"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-14",
+  "year": 1994,
+  "text": "Hubble observed Eta Carinae, an unstable star about 4 million times brighter and 150 times more massive than the Sun.",
+  "source": {
+   "title": "NASA: Hubble Science Timeline",
+   "url": "https://science.nasa.gov/mission/hubble/overview/hubble-timeline/hubble-science-timeline-full-text/"
+  },
+  "photos": [
+   {
+    "id": "h-heic1912a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "01-14",
+  "year": 2005,
+  "text": "ESA's Huygens probe landed on Titan, Saturn's largest moon, after descending through its thick atmosphere.",
+  "source": {
+   "title": "Wikipedia: Huygens (spacecraft)",
+   "url": "https://en.wikipedia.org/wiki/Huygens_(spacecraft)"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-15",
+  "year": 1996,
+  "text": "The Hubble Deep Field image was released. It contained at least 1,500 galaxies at various stages of development.",
+  "source": {
+   "title": "NASA: Hubble Science Timeline",
+   "url": "https://science.nasa.gov/mission/hubble/overview/hubble-timeline/hubble-science-timeline-full-text/"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-15",
+  "year": 2018,
+  "text": "Kōichi Itagaki discovered SN 2018gv, a Type Ia supernova in the spiral galaxy NGC 2525.",
+  "source": {
+   "title": "Wikipedia: NGC 2525",
+   "url": "https://en.wikipedia.org/wiki/NGC_2525"
+  },
+  "photos": [
+   {
+    "id": "h-heic2018b",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "01-16",
+  "year": 1765,
+  "text": "Charles Messier added the star cluster M41 to his catalogue, describing it as a cluster of stars below Sirius.",
+  "source": {
+   "title": "Messier Objects: Messier 41",
+   "url": "https://www.messier-objects.com/messier-41/"
+  },
+  "photos": [
+   {
+    "id": "n-noao-m41",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "01-17",
+  "year": 1787,
+  "text": "William Herschel discovered the planetary nebula NGC 2392, now known as the Eskimo Nebula, while observing from Slough in England.",
+  "source": {
+   "title": "Wikipedia: Eskimo Nebula",
+   "url": "https://en.wikipedia.org/wiki/Eskimo_Nebula"
+  },
+  "photos": [
+   {
+    "id": "h-heic9910a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "01-17",
+  "year": 1997,
+  "text": "Clyde Tombaugh, the astronomer who discovered Pluto, died in Las Cruces, New Mexico, at age 90.",
+  "source": {
+   "title": "Wikipedia: Clyde Tombaugh",
+   "url": "https://en.wikipedia.org/wiki/Clyde_Tombaugh"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-19",
+  "year": 2006,
+  "text": "NASA launched the New Horizons spacecraft, which flew past Pluto in July 2015.",
+  "source": {
+   "title": "Wikipedia: New Horizons",
+   "url": "https://en.wikipedia.org/wiki/New_Horizons"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-20",
+  "year": 1986,
+  "text": "Richard J. Terrile discovered Cordelia, a small inner moon of Uranus, in images taken by Voyager 2.",
+  "source": {
+   "title": "Wikipedia: Cordelia (moon)",
+   "url": "https://en.wikipedia.org/wiki/Cordelia_(moon)"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-21",
+  "year": 2014,
+  "text": "Steve Fossey and four undergraduate students at the University of London Observatory spotted a bright new star in the galaxy Messier 82. It was the supernova SN 2014J.",
+  "source": {
+   "title": "Wikipedia: SN 2014J",
+   "url": "https://en.wikipedia.org/wiki/SN_2014J"
+  },
+  "photos": [
+   {
+    "id": "h-heic0604a",
+    "relation": "object"
+   },
+   {
+    "id": "w-weic2612a",
+    "relation": "object"
+   },
+   {
+    "id": "h-potw1201a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao0404a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "01-22",
+  "year": 1592,
+  "text": "Pierre Gassendi was born in Champtercier, Provence. In 1631 he became the first person to observe a planet crossing the Sun, watching the transit of Mercury that Kepler had predicted.",
+  "source": {
+   "title": "Wikipedia: Pierre Gassendi",
+   "url": "https://en.wikipedia.org/wiki/Pierre_Gassendi"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-23",
+  "year": 2003,
+  "text": "Earth received the final signal from Pioneer 10, then about 80 astronomical units away.",
+  "source": {
+   "title": "Wikipedia: Pioneer 10",
+   "url": "https://en.wikipedia.org/wiki/Pioneer_10"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-23",
+  "year": 2004,
+  "text": "Amateur astronomer Jay McNeil of Paducah, Kentucky, discovered a new nebula near M78 with a 3-inch telescope. It is now known as McNeil's Nebula.",
+  "source": {
+   "title": "Wikipedia: McNeil's Nebula",
+   "url": "https://en.wikipedia.org/wiki/McNeil%27s_Nebula"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-24",
+  "year": 1986,
+  "text": "Voyager 2 made its closest approach to Uranus, passing about 81,500 kilometres above the cloud tops. The flyby revealed 11 previously unknown moons and two more rings.",
+  "source": {
+   "title": "Wikipedia: Voyager 2",
+   "url": "https://en.wikipedia.org/wiki/Voyager_2"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-24",
+  "year": 2022,
+  "text": "The James Webb Space Telescope fired its thrusters for a final course correction that placed it into its planned orbit around the Sun-Earth L2 point, about 1.5 million kilometres from Earth.",
+  "source": {
+   "title": "Wikipedia: James Webb Space Telescope",
+   "url": "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope"
+  },
+  "photos": [
+   {
+    "id": "w-weic2207b",
+    "relation": "telescope"
+   },
+   {
+    "id": "w-weic2211a",
+    "relation": "telescope"
+   },
+   {
+    "id": "w-potm2208a",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "01-25",
+  "year": 1983,
+  "text": "The Infrared Astronomical Satellite, IRAS, was launched. It became the first space telescope to survey the entire night sky at infrared wavelengths.",
+  "source": {
+   "title": "Wikipedia: IRAS",
+   "url": "https://en.wikipedia.org/wiki/IRAS"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-26",
+  "year": 1949,
+  "text": "The 200-inch Hale Telescope at Palomar Observatory saw first light under the direction of Edwin Hubble. Its first image showed NGC 2261, known as Hubble's Variable Nebula.",
+  "source": {
+   "title": "Wikipedia: Hale Telescope",
+   "url": "https://en.wikipedia.org/wiki/Hale_Telescope"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-27",
+  "year": 1613,
+  "text": "Galileo Galilei plotted a point in his drawings that matches the position of Neptune on that night. He had recorded a similar point on 28 December 1612.",
+  "source": {
+   "title": "Wikipedia: Neptune",
+   "url": "https://en.wikipedia.org/wiki/Neptune"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-28",
+  "year": 1611,
+  "text": "Johannes Hevelius was born. He spent four years charting the Moon and published Selenographia, which earned him the title of founder of lunar topography.",
+  "source": {
+   "title": "Wikipedia: Johannes Hevelius",
+   "url": "https://en.wikipedia.org/wiki/Johannes_Hevelius"
+  },
+  "photos": []
+ },
+ {
+  "date": "01-29",
+  "year": 2002,
+  "text": "Yoji Hirose discovered SN 2002ap, a Type Ic supernova in the spiral galaxy Messier 74.",
+  "source": {
+   "title": "Wikipedia: Messier 74",
+   "url": "https://en.wikipedia.org/wiki/Messier_74"
+  },
+  "photos": [
+   {
+    "id": "n-gemini0607a",
+    "relation": "object"
+   },
+   {
+    "id": "h-heic0719a",
+    "relation": "object"
+   },
+   {
+    "id": "w-potm2208a",
+    "relation": "object"
+   },
+   {
+    "id": "w-potm2410a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "01-30",
+  "year": 2020,
+  "text": "NASA ended the Spitzer Space Telescope mission after more than 16 years of infrared observations, far beyond its planned two and a half years.",
+  "source": {
+   "title": "NASA Science: Spitzer",
+   "url": "https://science.nasa.gov/mission/spitzer/"
+  },
+  "photos": [
+   {
+    "id": "h-ngc602",
+    "relation": "telescope"
+   },
+   {
+    "id": "e-eso0834a",
+    "relation": "telescope"
+   },
+   {
+    "id": "h-opo1008a",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "01-31",
+  "year": 1862,
+  "text": "Alvan Graham Clark first observed Sirius B, the faint companion of Sirius, while testing an 18.5-inch refractor built for Dearborn Observatory.",
+  "source": {
+   "title": "Wikipedia: Sirius",
+   "url": "https://en.wikipedia.org/wiki/Sirius"
+  },
+  "photos": []
+ }
+]

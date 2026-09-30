@@ -1,0 +1,469 @@
+[
+ {
+  "date": "06-01",
+  "year": 1764,
+  "text": "Charles Messier added the Hercules globular cluster M13 to his catalogue. Edmond Halley had discovered the cluster in 1714.",
+  "source": {
+   "title": "SEDS: Messier Object 13",
+   "url": "https://messier.seds.org/m/m013.html"
+  },
+  "photos": [
+   {
+    "id": "n-noao-m13kpno4m",
+    "relation": "object"
+   },
+   {
+    "id": "h-potw1011a",
+    "relation": "object"
+   },
+   {
+    "id": "h-opo0840d",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "06-01",
+  "year": 1990,
+  "text": "The X-ray satellite ROSAT launched on a Delta II rocket from Cape Canaveral. Its six-month all-sky survey catalogued more than 150,000 X-ray objects.",
+  "source": {
+   "title": "Wikipedia: ROSAT",
+   "url": "https://en.wikipedia.org/wiki/ROSAT"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-02",
+  "year": 2003,
+  "text": "ESA launched Mars Express, the first planetary mission the agency attempted.",
+  "source": {
+   "title": "Wikipedia: Mars Express",
+   "url": "https://en.wikipedia.org/wiki/Mars_Express"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-03",
+  "year": 1948,
+  "text": "The 200-inch Hale Telescope was dedicated at Palomar Observatory in California and named after George Ellery Hale, whose widow attended the ceremony.",
+  "source": {
+   "title": "Astronomy: June 3, 1948, Hale Telescope dedicated",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/june-3-hale-telescope-dedicated/"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-04",
+  "year": 2002,
+  "text": "Chad Trujillo and Michael Brown discovered the Kuiper belt object Quaoar, now classed as a ringed dwarf planet, with the 1.22-metre Samuel Oschin telescope at Palomar Observatory.",
+  "source": {
+   "title": "Wikipedia: 50000 Quaoar",
+   "url": "https://en.wikipedia.org/wiki/50000_Quaoar"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-05",
+  "year": 1764,
+  "text": "Charles Messier discovered and catalogued the open star cluster M21 in Sagittarius.",
+  "source": {
+   "title": "Wikipedia: Messier 21",
+   "url": "https://en.wikipedia.org/wiki/Messier_21"
+  },
+  "photos": [
+   {
+    "id": "n-noao-m21",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "06-05",
+  "year": 1764,
+  "text": "Charles Messier discovered the Trifid Nebula, which became number 20 in his catalogue.",
+  "source": {
+   "title": "Wikipedia: Trifid Nebula",
+   "url": "https://en.wikipedia.org/wiki/Trifid_Nebula"
+  },
+  "photos": [
+   {
+    "id": "h-opo0417b",
+    "relation": "object"
+   },
+   {
+    "id": "e-eso0930a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noaoann02008a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "06-05",
+  "year": 1819,
+  "text": "John Couch Adams was born in Laneast, Cornwall. He is known for his part in the discovery of Neptune.",
+  "source": {
+   "title": "Wikipedia: John Couch Adams",
+   "url": "https://en.wikipedia.org/wiki/John_Couch_Adams"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-06",
+  "year": 1761,
+  "text": "Venus crossed the face of the Sun. Expeditions from Britain, Austria and France travelled as far as Siberia, Newfoundland and Madagascar to time the transit and measure the solar parallax.",
+  "source": {
+   "title": "Wikipedia: 1761 transit of Venus",
+   "url": "https://en.wikipedia.org/wiki/1761_transit_of_Venus"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-07",
+  "year": 1771,
+  "text": "Charles Messier discovered the globular cluster M62, which he listed as the 62nd entry in his catalogue.",
+  "source": {
+   "title": "Wikipedia: Messier 62",
+   "url": "https://en.wikipedia.org/wiki/Messier_62"
+  },
+  "photos": [
+   {
+    "id": "h-potw1915a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "06-08",
+  "year": 1625,
+  "text": "Giovanni Domenico Cassini was born in Perinaldo. He discovered four moons of Saturn and the gap in Saturn's rings now called the Cassini Division.",
+  "source": {
+   "title": "Wikipedia: Giovanni Domenico Cassini",
+   "url": "https://en.wikipedia.org/wiki/Giovanni_Domenico_Cassini"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-08",
+  "year": 2011,
+  "text": "ESO released the first images from the VLT Survey Telescope at Paranal Observatory, showing the star-forming region Messier 17 and the globular cluster Omega Centauri.",
+  "source": {
+   "title": "ESO: First images from the VLT Survey Telescope (eso1119)",
+   "url": "https://www.eso.org/public/news/eso1119/"
+  },
+  "photos": [
+   {
+    "id": "e-eso1119a",
+    "relation": "telescope"
+   },
+   {
+    "id": "e-eso1403a",
+    "relation": "telescope"
+   },
+   {
+    "id": "e-eso1719a",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "06-09",
+  "year": 1812,
+  "text": "Johann Gottfried Galle was born in Radis, Prussia. In 1846 he became the first person to view and identify the planet Neptune.",
+  "source": {
+   "title": "Wikipedia: Johann Gottfried Galle",
+   "url": "https://en.wikipedia.org/wiki/Johann_Gottfried_Galle"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-10",
+  "year": 1927,
+  "text": "Eugene Parker was born in Houghton, Michigan. In 1958 he proposed the existence of the solar wind, a stream of charged particles flowing from the Sun.",
+  "source": {
+   "title": "Astronomy: June 10, 1927, The birth of Eugene Parker",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/june-10-1927-the-birth-of-eugene-parker/"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-11",
+  "year": 2008,
+  "text": "NASA launched the Gamma-ray Large Area Space Telescope, later renamed the Fermi Gamma-ray Space Telescope, to study pulsars, gamma-ray bursts and supermassive black holes.",
+  "source": {
+   "title": "NASA: Fermi Gamma-ray Space Telescope",
+   "url": "https://science.nasa.gov/mission/fermi/"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-12",
+  "year": 2021,
+  "text": "Japanese amateur astronomer Seiji Ueda discovered Nova Herculis 2021, also known as V1674 Herculis. It faded from peak brightness in just over a day, making it the fastest nova ever recorded.",
+  "source": {
+   "title": "Astronomy: June 12, 2021, Seiji Ueda discovers Nova Herculis 2021",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/june-12-2021-seiji-ueda-discovers-nova-herculis-2021/"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-13",
+  "year": 2012,
+  "text": "NASA launched NuSTAR, the first satellite to focus high-energy X-rays.",
+  "source": {
+   "title": "Caltech: About NuSTAR",
+   "url": "https://www.nustar.caltech.edu/page/about"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-14",
+  "year": 1779,
+  "text": "Charles Messier verified the Sunflower Galaxy, M63, which his colleague Pierre Méchain had found first.",
+  "source": {
+   "title": "Wikipedia: Sunflower Galaxy",
+   "url": "https://en.wikipedia.org/wiki/Sunflower_Galaxy"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-15",
+  "year": -763,
+  "text": "A solar eclipse recorded by Assyrian scribes took place. Dated to 15 June 763 BC in the proleptic Julian calendar, it anchors the absolute chronology of the ancient Near East for the Assyrian period.",
+  "source": {
+   "title": "Wikipedia: Assyrian eclipse",
+   "url": "https://en.wikipedia.org/wiki/Assyrian_eclipse"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-15",
+  "year": 2016,
+  "text": "LIGO announced its second detection of gravitational waves, from two black holes of about 14 and 8 solar masses that merged some 1.4 billion light-years away.",
+  "source": {
+   "title": "LIGO Caltech: second gravitational-wave detection announced (news release, 15 June 2016)",
+   "url": "https://www.ligo.caltech.edu/news/ligo20160615"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-16",
+  "year": 1989,
+  "text": "Stephen Synnott discovered Neptune's moon Proteus in images taken by Voyager 2 as it approached Neptune.",
+  "source": {
+   "title": "Wikipedia: Proteus (moon)",
+   "url": "https://en.wikipedia.org/wiki/Proteus_(moon)"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-17",
+  "year": 2013,
+  "text": "ESA sent the last command to the Herschel Space Observatory from its control centre in Darmstadt, ending the mission's operations.",
+  "source": {
+   "title": "ESA: Herschel last command",
+   "url": "https://www.esa.int/ESA_Multimedia/Images/2013/06/Herschel_last_command"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-18",
+  "year": 1799,
+  "text": "William Lassell was born in Bolton, England. With telescopes he built himself, he discovered Neptune's moon Triton and the Uranian moons Ariel and Umbriel.",
+  "source": {
+   "title": "Wikipedia: William Lassell",
+   "url": "https://en.wikipedia.org/wiki/William_Lassell"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-18",
+  "year": 1972,
+  "text": "Milton Humason died. Working with Edwin Hubble, he measured the redshifts of galaxies that gave evidence for the expansion of the universe.",
+  "source": {
+   "title": "Wikipedia: Milton L. Humason",
+   "url": "https://en.wikipedia.org/wiki/Milton_L._Humason"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-19",
+  "year": 2004,
+  "text": "Roy Tucker, David Tholen and Fabrizio Bernardi discovered the near-Earth asteroid Apophis at Kitt Peak National Observatory in Arizona.",
+  "source": {
+   "title": "NASA: Apophis",
+   "url": "https://science.nasa.gov/solar-system/asteroids/apophis/"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-20",
+  "year": 1966,
+  "text": "Georges Lemaître died in Leuven, Belgium. He formulated the first version of the Big Bang theory, describing the universe as expanding from a primeval atom.",
+  "source": {
+   "title": "Wikipedia: Georges Lemaître",
+   "url": "https://en.wikipedia.org/wiki/Georges_Lema%C3%AEtre"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-21",
+  "year": 1863,
+  "text": "Max Wolf was born in Heidelberg. A pioneer of astrophotography, he discovered 248 asteroids, including the first Trojan asteroid, 588 Achilles.",
+  "source": {
+   "title": "Wikipedia: Max Wolf",
+   "url": "https://en.wikipedia.org/wiki/Max_Wolf"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-21",
+  "year": 1994,
+  "text": "William Wilson Morgan died. He used distances to O and B type stars to show that the Milky Way has spiral arms, and with Philip Keenan developed the MK system of stellar classification.",
+  "source": {
+   "title": "Wikipedia: William Wilson Morgan",
+   "url": "https://en.wikipedia.org/wiki/William_Wilson_Morgan"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-22",
+  "year": 1675,
+  "text": "King Charles II founded the Royal Observatory at Greenwich to solve the problem of finding longitude at sea.",
+  "source": {
+   "title": "Astronomy: June 22, 1675, The Royal Observatory Greenwich is founded",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/june-22-1675-the-royal-observatory-greenwich-is-founded/"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-22",
+  "year": 1978,
+  "text": "James Christy of the United States Naval Observatory discovered Charon, the largest moon of Pluto, after noticing a periodic bulge on photographic plates of Pluto.",
+  "source": {
+   "title": "Wikipedia: Charon (moon)",
+   "url": "https://en.wikipedia.org/wiki/Charon_(moon)"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-23",
+  "year": 2025,
+  "text": "The Vera C. Rubin Observatory released its first images, including views of the Trifid and Lagoon nebulae and the Virgo Cluster, made in just over 10 hours of test observations.",
+  "source": {
+   "title": "NOIRLab: First Imagery From NSF–DOE Vera C. Rubin Observatory (noirlab2521)",
+   "url": "https://noirlab.edu/public/news/noirlab2521/"
+  },
+  "photos": [
+   {
+    "id": "n-noirlab2521a",
+    "relation": "telescope"
+   },
+   {
+    "id": "n-noirlab2521ak",
+    "relation": "telescope"
+   },
+   {
+    "id": "n-noirlab2521bq",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "06-24",
+  "year": 1881,
+  "text": "William Huggins captured the first photographic spectrum of a comet. Later analysis of the plate showed emission from cyanogen.",
+  "source": {
+   "title": "Astronomy: June 24, 1881, First photographic spectrum of a comet",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/june-24-1881-first-photographic-spectrum-of-a-comet/"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-25",
+  "year": 1960,
+  "text": "Walter Baade died in Göttingen. He divided stars into Population I and Population II after resolving stars in the centre of the Andromeda Galaxy, and with Fritz Zwicky identified supernovae as a class of objects.",
+  "source": {
+   "title": "Wikipedia: Walter Baade",
+   "url": "https://en.wikipedia.org/wiki/Walter_Baade"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-26",
+  "year": 1730,
+  "text": "Charles Messier was born in Badonviller, France. He published a catalogue of 110 nebulae and star clusters, now known as the Messier objects.",
+  "source": {
+   "title": "Wikipedia: Charles Messier",
+   "url": "https://en.wikipedia.org/wiki/Charles_Messier"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-26",
+  "year": 1914,
+  "text": "Lyman Spitzer was born in Toledo, Ohio. In 1946 he proposed placing telescopes in space, and NASA's Spitzer Space Telescope is named after him.",
+  "source": {
+   "title": "Wikipedia: Lyman Spitzer",
+   "url": "https://en.wikipedia.org/wiki/Lyman_Spitzer"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-27",
+  "year": 1872,
+  "text": "Heber Curtis was born in Muskegon, Michigan. He argued that galaxies exist beyond the Milky Way in the 1920 Shapley and Curtis debate.",
+  "source": {
+   "title": "Wikipedia: Heber Doust Curtis",
+   "url": "https://en.wikipedia.org/wiki/Heber_Doust_Curtis"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-28",
+  "year": 2013,
+  "text": "NASA decommissioned the Galaxy Evolution Explorer, GALEX, an ultraviolet space telescope launched in 2003.",
+  "source": {
+   "title": "Wikipedia: GALEX",
+   "url": "https://en.wikipedia.org/wiki/GALEX"
+  },
+  "photos": [
+   {
+    "id": "h-opo1008a",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "06-29",
+  "year": 1868,
+  "text": "George Ellery Hale was born in Chicago. He led the planning and construction of the Yerkes 40-inch refractor, the 60-inch and 100-inch telescopes at Mount Wilson and the 200-inch Hale Telescope at Palomar.",
+  "source": {
+   "title": "Wikipedia: George Ellery Hale",
+   "url": "https://en.wikipedia.org/wiki/George_Ellery_Hale"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-30",
+  "year": 1908,
+  "text": "A stony asteroid about 50 to 60 metres wide exploded in the air over the East Siberian taiga, felling trees across an area of about 2,150 square kilometres. It became known as the Tunguska event.",
+  "source": {
+   "title": "Wikipedia: Tunguska event",
+   "url": "https://en.wikipedia.org/wiki/Tunguska_event"
+  },
+  "photos": []
+ },
+ {
+  "date": "06-30",
+  "year": 2001,
+  "text": "NASA launched the Wilkinson Microwave Anisotropy Probe, WMAP, which measured tiny temperature variations in the microwave background radiation to map conditions in the early universe.",
+  "source": {
+   "title": "NASA: WMAP overview",
+   "url": "https://science.nasa.gov/mission/wmap/wmap-overview/"
+  },
+  "photos": []
+ }
+]

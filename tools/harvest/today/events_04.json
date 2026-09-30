@@ -1,0 +1,573 @@
+[
+ {
+  "date": "04-01",
+  "year": 1997,
+  "text": "Comet Hale-Bopp passed perihelion, its closest point to the Sun, about two years after Alan Hale and Thomas Bopp discovered it.",
+  "source": {
+   "title": "Wikipedia: Comet Hale-Bopp",
+   "url": "https://en.wikipedia.org/wiki/Comet_Hale%E2%80%93Bopp"
+  },
+  "photos": []
+ },
+ {
+  "date": "04-02",
+  "year": 1845,
+  "text": "French physicists Hippolyte Fizeau and Leon Foucault took the first photograph of the Sun, a daguerreotype that showed sunspots.",
+  "source": {
+   "title": "Astronomy: April 2, 1845, the first photo of the Sun",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/april-2-1845-the-first-photo-of-the-sun/"
+  },
+  "photos": []
+ },
+ {
+  "date": "04-04",
+  "year": 1688,
+  "text": "Joseph-Nicolas Delisle was born in Paris. The French astronomer organized a worldwide study of the 1761 transit of Venus to measure the distance to the Sun.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Joseph-Nicolas Delisle",
+   "url": "https://www.britannica.com/biography/Joseph-Nicolas-Delisle"
+  },
+  "photos": []
+ },
+ {
+  "date": "04-05",
+  "year": 1991,
+  "text": "NASA launched the Compton Gamma Ray Observatory aboard the Space Shuttle Atlantis on mission STS-37.",
+  "source": {
+   "title": "Wikipedia: Compton Gamma Ray Observatory",
+   "url": "https://en.wikipedia.org/wiki/Compton_Gamma_Ray_Observatory"
+  },
+  "photos": []
+ },
+ {
+  "date": "04-06",
+  "year": 1785,
+  "text": "William Herschel discovered the spiral galaxy NGC 4565.",
+  "source": {
+   "title": "Wikipedia: NGC 4565",
+   "url": "https://en.wikipedia.org/wiki/NGC_4565"
+  },
+  "photos": [
+   {
+    "id": "e-eso0525a",
+    "relation": "object"
+   },
+   {
+    "id": "h-potw1228a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "04-06",
+  "year": 1973,
+  "text": "NASA launched Pioneer 11 from Cape Canaveral. The probe later became the first spacecraft to encounter Saturn, flying past the planet in 1979.",
+  "source": {
+   "title": "Wikipedia: Pioneer 11",
+   "url": "https://en.wikipedia.org/wiki/Pioneer_11"
+  },
+  "photos": []
+ },
+ {
+  "date": "04-07",
+  "year": 2001,
+  "text": "NASA launched the 2001 Mars Odyssey orbiter on a Delta II rocket from Cape Canaveral.",
+  "source": {
+   "title": "Wikipedia: 2001 Mars Odyssey",
+   "url": "https://en.wikipedia.org/wiki/2001_Mars_Odyssey"
+  },
+  "photos": []
+ },
+ {
+  "date": "04-08",
+  "year": 2024,
+  "text": "A total solar eclipse crossed North America, with totality visible from 6 Mexican states, 15 U.S. states and 6 Canadian provinces.",
+  "source": {
+   "title": "Wikipedia: Solar eclipse of April 8, 2024",
+   "url": "https://en.wikipedia.org/wiki/Solar_eclipse_of_April_8,_2024"
+  },
+  "photos": []
+ },
+ {
+  "date": "04-09",
+  "year": 1780,
+  "text": "Charles Messier found the globular cluster M68 and added it to his catalogue.",
+  "source": {
+   "title": "Messier Objects: Messier 68",
+   "url": "https://www.messier-objects.com/messier-68/"
+  },
+  "photos": [
+   {
+    "id": "h-potw1231a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "04-10",
+  "year": 2019,
+  "text": "The Event Horizon Telescope collaboration published the first image of a black hole, the one at the center of the galaxy Messier 87.",
+  "source": {
+   "title": "Wikipedia: Event Horizon Telescope",
+   "url": "https://en.wikipedia.org/wiki/Event_Horizon_Telescope"
+  },
+  "photos": [
+   {
+    "id": "h-heic0815f",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "04-11",
+  "year": 1875,
+  "text": "Samuel Heinrich Schwabe died in Dessau. The German amateur astronomer found after 17 years of almost daily observations that sunspots rise and fall in number over a cycle of about 10 years.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Samuel Heinrich Schwabe",
+   "url": "https://www.britannica.com/biography/Samuel-Heinrich-Schwabe"
+  },
+  "photos": []
+ },
+ {
+  "date": "04-12",
+  "year": 1817,
+  "text": "Charles Messier, the French astronomer known for his catalogue of nebulae and star clusters, died in Paris at age 86.",
+  "source": {
+   "title": "Wikipedia: Charles Messier",
+   "url": "https://en.wikipedia.org/wiki/Charles_Messier"
+  },
+  "photos": []
+ },
+ {
+  "date": "04-13",
+  "year": 1941,
+  "text": "Annie Jump Cannon died. Her work classifying stars by color, which relates to temperature, produced the OBAFGKM scheme adopted by the International Astronomical Union in 1922.",
+  "source": {
+   "title": "Astronomy: April 13, 1941, the death of Annie Jump Cannon",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/april-13-1941-the-death-of-annie-jump-cannon/"
+  },
+  "photos": []
+ },
+ {
+  "date": "04-14",
+  "year": 1629,
+  "text": "Christiaan Huygens, the Dutch scientist who worked out the true shape of the rings of Saturn, was born in The Hague.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Christiaan Huygens",
+   "url": "https://www.britannica.com/biography/Christiaan-Huygens"
+  },
+  "photos": []
+ },
+ {
+  "date": "04-15",
+  "year": 1779,
+  "text": "Charles Messier catalogued the galaxy M58 while following the comet of 1779.",
+  "source": {
+   "title": "SEDS Messier Database: Messier 58",
+   "url": "https://messier.seds.org/m/m058.html"
+  },
+  "photos": [
+   {
+    "id": "n-noao-m58",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "04-15",
+  "year": 2025,
+  "text": "The complete camera of the Vera C. Rubin Observatory detected its first photons, which appeared as rings until the instrument was adjusted to focus them.",
+  "source": {
+   "title": "Wikipedia: Vera C. Rubin Observatory",
+   "url": "https://en.wikipedia.org/wiki/Vera_C._Rubin_Observatory"
+  },
+  "photos": [
+   {
+    "id": "n-noirlab2521a",
+    "relation": "telescope"
+   },
+   {
+    "id": "n-noirlab2521ak",
+    "relation": "telescope"
+   },
+   {
+    "id": "n-noirlab2521ae",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "04-16",
+  "year": 1682,
+  "text": "John Hadley was born in Hertfordshire, England. He improved the reflecting telescope and built the first one accurate and powerful enough to be useful in astronomy.",
+  "source": {
+   "title": "Encyclopaedia Britannica: John Hadley",
+   "url": "https://www.britannica.com/biography/John-Hadley"
+  },
+  "photos": []
+ },
+ {
+  "date": "04-17",
+  "year": 2012,
+  "text": "ESA and NASA released a Hubble image of 30 Doradus, a star-forming region in the heart of the Tarantula Nebula that holds several million stars.",
+  "source": {
+   "title": "ESA/Hubble: heic1206",
+   "url": "https://esahubble.org/news/heic1206/"
+  },
+  "photos": [
+   {
+    "id": "h-heic1206a",
+    "relation": "object"
+   },
+   {
+    "id": "h-potw1232a",
+    "relation": "object"
+   },
+   {
+    "id": "h-heic1402a",
+    "relation": "object"
+   },
+   {
+    "id": "e-eso1816d",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "04-17",
+  "year": 2014,
+  "text": "Astronomers announced Kepler-186f, an Earth-sized planet orbiting in the habitable zone of a red dwarf star.",
+  "source": {
+   "title": "Wikipedia: Kepler-186f",
+   "url": "https://en.wikipedia.org/wiki/Kepler-186f"
+  },
+  "photos": []
+ },
+ {
+  "date": "04-18",
+  "year": 2018,
+  "text": "NASA launched the Transiting Exoplanet Survey Satellite (TESS) on a SpaceX Falcon 9 rocket from Cape Canaveral.",
+  "source": {
+   "title": "Wikipedia: Transiting Exoplanet Survey Satellite",
+   "url": "https://en.wikipedia.org/wiki/Transiting_Exoplanet_Survey_Satellite"
+  },
+  "photos": []
+ },
+ {
+  "date": "04-19",
+  "year": 2013,
+  "text": "The Hubble Space Telescope marked its 23rd year in orbit with a new infrared image of the Horsehead Nebula.",
+  "source": {
+   "title": "ESA/Hubble: heic1307",
+   "url": "https://esahubble.org/news/heic1307/"
+  },
+  "photos": [
+   {
+    "id": "heic1307a",
+    "relation": "object"
+   },
+   {
+    "id": "h-heic0105a",
+    "relation": "object"
+   },
+   {
+    "id": "w-weic2411a",
+    "relation": "object"
+   },
+   {
+    "id": "e-eso0202a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "04-19",
+  "year": 2018,
+  "text": "The Hubble Space Telescope marked its 28th anniversary with an image of part of the Lagoon Nebula, a large stellar nursery.",
+  "source": {
+   "title": "ESA/Hubble: heic1808",
+   "url": "https://esahubble.org/news/heic1808/"
+  },
+  "photos": [
+   {
+    "id": "h-heic1808a",
+    "relation": "object"
+   },
+   {
+    "id": "h-heic1015a",
+    "relation": "object"
+   },
+   {
+    "id": "e-eso1403a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-m8wideblock",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "04-20",
+  "year": 1910,
+  "text": "Halley's Comet reached perihelion during the 1910 apparition, a month before Earth passed through its tail.",
+  "source": {
+   "title": "Wikipedia: Halley's Comet",
+   "url": "https://en.wikipedia.org/wiki/Halley%27s_Comet"
+  },
+  "photos": []
+ },
+ {
+  "date": "04-20",
+  "year": 2011,
+  "text": "Astronomers celebrated the 21st anniversary of the Hubble Space Telescope with an image of Arp 273, a group of interacting galaxies.",
+  "source": {
+   "title": "ESA/Hubble: heic1107",
+   "url": "https://esahubble.org/news/heic1107/"
+  },
+  "photos": [
+   {
+    "id": "h-heic1107a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "04-21",
+  "year": 1994,
+  "text": "Aleksander Wolszczan and Dale Frail announced proof of planets orbiting the pulsar PSR B1257+12, confirming research first published in 1992.",
+  "source": {
+   "title": "Astronomy: April 21, 1994, the discovery of exoplanets",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/april-21-1994-the-discovery-of-exoplanets/"
+  },
+  "photos": []
+ },
+ {
+  "date": "04-22",
+  "year": 1724,
+  "text": "Immanuel Kant was born. The philosopher argued that our galaxy is a wide rotating disk and was the first to suggest that some nebulae seen from Earth are other galaxies.",
+  "source": {
+   "title": "Astronomy: April 22, 1724, the birth of Immanuel Kant",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/april-22-1724-the-birth-of-immanuel-kant/"
+  },
+  "photos": []
+ },
+ {
+  "date": "04-23",
+  "year": 2015,
+  "text": "ESA and NASA marked the 25th anniversary of the Hubble Space Telescope with an infrared image of Westerlund 2, a young cluster of about 3,000 stars in Carina.",
+  "source": {
+   "title": "ESA/Hubble: heic1509",
+   "url": "https://esahubble.org/news/heic1509/"
+  },
+  "photos": [
+   {
+    "id": "heic1509a",
+    "relation": "object"
+   },
+   {
+    "id": "h-heic1509c",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "04-23",
+  "year": 2021,
+  "text": "The Hubble Space Telescope celebrated the 31st anniversary of its launch with an image of AG Carinae, one of the brightest stars in our galaxy.",
+  "source": {
+   "title": "ESA/Hubble: heic2105",
+   "url": "https://esahubble.org/news/heic2105/"
+  },
+  "photos": [
+   {
+    "id": "h-heic2105a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "04-24",
+  "year": 1990,
+  "text": "The Space Shuttle Discovery launched the Hubble Space Telescope on mission STS-31.",
+  "source": {
+   "title": "Wikipedia: Hubble Space Telescope",
+   "url": "https://en.wikipedia.org/wiki/Hubble_Space_Telescope"
+  },
+  "photos": [
+   {
+    "id": "h-heic1501a",
+    "relation": "telescope"
+   },
+   {
+    "id": "heic0506a",
+    "relation": "telescope"
+   },
+   {
+    "id": "heic0515a",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "04-25",
+  "year": 1990,
+  "text": "The Hubble Space Telescope was deployed into orbit from the Space Shuttle Discovery, one day after its launch.",
+  "source": {
+   "title": "Wikipedia: Hubble Space Telescope",
+   "url": "https://en.wikipedia.org/wiki/Hubble_Space_Telescope"
+  },
+  "photos": []
+ },
+ {
+  "date": "04-25",
+  "year": 2005,
+  "text": "NASA and ESA marked the 15th anniversary of the Hubble Space Telescope with new views of the Eagle Nebula and the Whirlpool Galaxy, M51.",
+  "source": {
+   "title": "ESA/Hubble: heic0506",
+   "url": "https://esahubble.org/news/heic0506/"
+  },
+  "photos": [
+   {
+    "id": "heic0506a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-noao-m51-kpno-09m-2",
+    "relation": "object"
+   },
+   {
+    "id": "h-heic1501a",
+    "relation": "object"
+   },
+   {
+    "id": "weic2216b",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "04-26",
+  "year": 1920,
+  "text": "Harlow Shapley and Heber Curtis held the Great Debate at the U.S. National Museum in Washington, D.C.",
+  "source": {
+   "title": "Wikipedia: Great Debate (astronomy)",
+   "url": "https://en.wikipedia.org/wiki/Great_Debate_(astronomy)"
+  },
+  "photos": []
+ },
+ {
+  "date": "04-27",
+  "year": 1788,
+  "text": "William Herschel discovered the galaxy NGC 4449.",
+  "source": {
+   "title": "Wikipedia: NGC 4449",
+   "url": "https://en.wikipedia.org/wiki/NGC_4449"
+  },
+  "photos": [
+   {
+    "id": "h-heic0711a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noirlab2416a",
+    "relation": "object"
+   },
+   {
+    "id": "w-potm2405a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "04-27",
+  "year": 2001,
+  "text": "The European Space Agency announced that the SOHO spacecraft could observe the far side of the Sun, the first observatory able to do so.",
+  "source": {
+   "title": "Astronomy: April 27, 2001, SOHO sees the farside of the Sun",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/april-27-2001-soho-sees-the-farside-of-the-sun/"
+  },
+  "photos": []
+ },
+ {
+  "date": "04-28",
+  "year": 1785,
+  "text": "William Herschel discovered the galaxy NGC 4214.",
+  "source": {
+   "title": "Wikipedia: NGC 4214",
+   "url": "https://en.wikipedia.org/wiki/NGC_4214"
+  },
+  "photos": [
+   {
+    "id": "h-heic1109a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-ngc4214",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "04-28",
+  "year": 1900,
+  "text": "Jan Oort, the Dutch astronomer who confirmed the rotation of the Milky Way and proposed a distant cloud of comets around the Sun, was born in Franeker.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Jan Hendrik Oort",
+   "url": "https://www.britannica.com/biography/Jan-Hendrik-Oort"
+  },
+  "photos": []
+ },
+ {
+  "date": "04-28",
+  "year": 2003,
+  "text": "The Galaxy Evolution Explorer (GALEX), an ultraviolet space telescope, was launched on a Pegasus XL rocket.",
+  "source": {
+   "title": "Wikipedia: GALEX",
+   "url": "https://en.wikipedia.org/wiki/GALEX"
+  },
+  "photos": [
+   {
+    "id": "h-opo1008a",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "04-29",
+  "year": 1826,
+  "text": "James Dunlop discovered the galaxy NGC 5128, now known as Centaurus A, during a survey at the Parramatta Observatory.",
+  "source": {
+   "title": "Wikipedia: Centaurus A",
+   "url": "https://en.wikipedia.org/wiki/Centaurus_A"
+  },
+  "photos": [
+   {
+    "id": "h-heic1110a",
+    "relation": "object"
+   },
+   {
+    "id": "e-eso1221a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noirlab2125a",
+    "relation": "object"
+   },
+   {
+    "id": "w-weic2615a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "04-30",
+  "year": 1777,
+  "text": "Carl Friedrich Gauss, the German mathematician whose work extended to planetary astronomy, was born in Brunswick.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Carl Friedrich Gauss",
+   "url": "https://www.britannica.com/biography/Carl-Friedrich-Gauss"
+  },
+  "photos": []
+ }
+]

@@ -79,6 +79,7 @@ function contextLine(item, ctx) {
   if (ctx.mode === 'daily') return 'Today’s photograph';
   if (ctx.mode === 'archive') return `From the archive, ${fmtDate(dateOf(ctx.day))}`;
   if (ctx.mode === 'favorite') return 'From your favorites';
+  if (ctx.mode === 'onthisday') return `On this day, ${ctx.label}`;
   return 'Chosen at random';
 }
 

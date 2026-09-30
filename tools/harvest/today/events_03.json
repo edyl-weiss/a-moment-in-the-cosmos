@@ -1,0 +1,604 @@
+[
+ {
+  "date": "03-01",
+  "year": 1780,
+  "text": "Charles Messier discovered the spiral galaxy M66, describing it as very long and very faint.",
+  "source": {
+   "title": "Wikipedia: Messier 66",
+   "url": "https://en.wikipedia.org/wiki/Messier_66"
+  },
+  "photos": [
+   {
+    "id": "h-heic1006a",
+    "relation": "object"
+   },
+   {
+    "id": "e-eso0338c",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-m66hapeman",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "03-01",
+  "year": 1999,
+  "text": "The second 8.2-metre unit telescope of ESO's Very Large Telescope, UT2, later named Kueyen, achieved technical first light at Paranal.",
+  "source": {
+   "title": "ESO: VLT Unit Telescopes Named at Paranal Inauguration (eso9921)",
+   "url": "https://www.eso.org/public/news/eso9921/"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-02",
+  "year": 1972,
+  "text": "Pioneer 10 was launched. It became the first spacecraft to fly through the main asteroid belt and the first to fly past Jupiter.",
+  "source": {
+   "title": "NASA: Pioneer 10",
+   "url": "https://science.nasa.gov/mission/pioneer-10/"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-03",
+  "year": 1959,
+  "text": "Pioneer 4 was launched, becoming the first American spacecraft to leave Earth's gravity. Sent to fly near the Moon, it returned data for 82 hours and became the first American craft in orbit around the Sun.",
+  "source": {
+   "title": "Astronomy: March 3, 1959: Pioneer 4 launches",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/march-3-1959-pioneer-4-launches/"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-04",
+  "year": 1769,
+  "text": "Charles Messier added the Orion Nebula to his catalogue as M42, measuring its position on the same night as several other well-known objects.",
+  "source": {
+   "title": "SEDS Messier Database: Messier 42",
+   "url": "https://messier.seds.org/m/m042.html"
+  },
+  "photos": [
+   {
+    "id": "e-eso0421a",
+    "relation": "object"
+   },
+   {
+    "id": "h-heic0601a",
+    "relation": "object"
+   },
+   {
+    "id": "e-eso1006a",
+    "relation": "object"
+   },
+   {
+    "id": "e-eso1625a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "03-05",
+  "year": 1979,
+  "text": "Voyager 1 made its closest approach to Jupiter, passing about 280,000 kilometres from the planet.",
+  "source": {
+   "title": "NASA: Voyager 1",
+   "url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-05",
+  "year": 1999,
+  "text": "ESO's Paranal Observatory in Chile, home of the Very Large Telescope, was officially inaugurated.",
+  "source": {
+   "title": "ESO: VLT Unit Telescopes Named at Paranal Inauguration (eso9921)",
+   "url": "https://www.eso.org/public/news/eso9921/"
+  },
+  "photos": [
+   {
+    "id": "e-paranal-7704",
+    "relation": "site"
+   },
+   {
+    "id": "e-dsc4081-cc",
+    "relation": "site"
+   },
+   {
+    "id": "e-trailsouth-cc",
+    "relation": "site"
+   }
+  ]
+ },
+ {
+  "date": "03-06",
+  "year": 2009,
+  "text": "NASA launched the Kepler space telescope, built to search for Earth-sized planets orbiting other stars.",
+  "source": {
+   "title": "NASA: Kepler / K2",
+   "url": "https://science.nasa.gov/mission/kepler/"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-07",
+  "year": 1792,
+  "text": "John Herschel was born in Slough, England. He continued his father's survey of stars and nebulae, studied double stars, and later observed the southern sky.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Sir John Herschel",
+   "url": "https://www.britannica.com/biography/John-Herschel"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-08",
+  "year": 1986,
+  "text": "Japan's Suisei probe made its closest approach to Halley's Comet, the second of five spacecraft to fly past the comet that month.",
+  "source": {
+   "title": "Astronomy: March 8, 1986: The second of five probes flies by Halley's Comet",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/march-8-1986-the-second-of-five-probes-flies-by-halleys-comet/"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-09",
+  "year": 1788,
+  "text": "William Herschel discovered the spiral galaxy NGC 2841.",
+  "source": {
+   "title": "Wikipedia: NGC 2841",
+   "url": "https://en.wikipedia.org/wiki/NGC_2841"
+  },
+  "photos": [
+   {
+    "id": "h-heic1104a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "03-09",
+  "year": 2004,
+  "text": "Astronomers at the Space Telescope Science Institute released the Hubble Ultra Deep Field, the deepest visible-light image of the universe made up to that time, showing about 10,000 galaxies.",
+  "source": {
+   "title": "NASA: Hubble's Deepest View Ever of the Universe Unveils Earliest Galaxies",
+   "url": "https://science.nasa.gov/missions/hubble/hubbles-deepest-view-ever-of-the-universe-unveils-earliest-galaxies/"
+  },
+  "photos": [
+   {
+    "id": "h-heic0406a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "03-10",
+  "year": 1977,
+  "text": "James Elliot, Edward Dunham and Jessica Mink discovered the rings of Uranus from the Kuiper Airborne Observatory, when a star they were watching blinked out several times before and after passing behind the planet.",
+  "source": {
+   "title": "Wikipedia: Rings of Uranus",
+   "url": "https://en.wikipedia.org/wiki/Rings_of_Uranus"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-11",
+  "year": 1811,
+  "text": "Urbain Le Verrier was born in Saint-Lô, France. His calculations from irregularities in the orbit of Uranus led Johann Galle to find Neptune in 1846.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Urbain-Jean-Joseph Le Verrier",
+   "url": "https://www.britannica.com/biography/Urbain-Jean-Joseph-Le-Verrier"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-12",
+  "year": 1784,
+  "text": "William Herschel discovered the spiral galaxy now known as NGC 3190, although he did not recognise its spiral structure.",
+  "source": {
+   "title": "MacTutor: William Herschel's astronomical discoveries",
+   "url": "https://mathshistory.st-andrews.ac.uk/Extras/Herschel_William_discoveries/"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-12",
+  "year": 2008,
+  "text": "The Cassini spacecraft flew past Saturn's moon Enceladus, passing directly through one of its plumes and sampling the ejected material.",
+  "source": {
+   "title": "Astronomy: March 12, 2008: Cassini at Enceladus",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/march-12-2008-cassini-at-enceladus/"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-13",
+  "year": 1781,
+  "text": "William Herschel first observed Uranus, an observation that led to its discovery as a planet.",
+  "source": {
+   "title": "Wikipedia: Uranus",
+   "url": "https://en.wikipedia.org/wiki/Uranus"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-13",
+  "year": 1855,
+  "text": "Percival Lowell was born in Boston. He founded a private observatory in Flagstaff, Arizona, and started the search for a planet beyond Neptune that led to the discovery of Pluto in 1930.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Percival Lowell",
+   "url": "https://www.britannica.com/biography/Percival-Lowell"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-13",
+  "year": 2013,
+  "text": "The Atacama Large Millimeter/submillimeter Array (ALMA) was inaugurated at an official ceremony in the Chilean Andes, marking its move from construction to a fully operational observatory.",
+  "source": {
+   "title": "ESO: ALMA Inauguration Heralds New Era of Discovery (eso1312)",
+   "url": "https://www.eso.org/public/news/eso1312/"
+  },
+  "photos": [
+   {
+    "id": "e-eso1436a",
+    "relation": "telescope"
+   },
+   {
+    "id": "e-eso1137a",
+    "relation": "telescope"
+   },
+   {
+    "id": "e-potw1108a",
+    "relation": "site"
+   },
+   {
+    "id": "e-potw1238a",
+    "relation": "site"
+   }
+  ]
+ },
+ {
+  "date": "03-14",
+  "year": 1986,
+  "text": "The European probe Giotto flew past Halley's Comet at a distance of 596 kilometres and survived despite being hit by small particles.",
+  "source": {
+   "title": "Wikipedia: Giotto (spacecraft)",
+   "url": "https://en.wikipedia.org/wiki/Giotto_(spacecraft)"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-15",
+  "year": 1781,
+  "text": "Pierre Méchain discovered the galaxy M100, together with its neighbours M98 and M99.",
+  "source": {
+   "title": "SEDS Messier Database: Messier 100",
+   "url": "https://messier.seds.org/m/m100.html"
+  },
+  "photos": [
+   {
+    "id": "e-eso0608a",
+    "relation": "object"
+   },
+   {
+    "id": "h-potw1850a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-m100",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-m99",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "03-16",
+  "year": 1750,
+  "text": "Caroline Herschel was born in Hanover. She went on to find three nebulae in 1783 and became the first woman to discover a comet, eventually finding eight.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Caroline Herschel",
+   "url": "https://www.britannica.com/biography/Caroline-Lucretia-Herschel"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-17",
+  "year": 1785,
+  "text": "William Herschel introduced the term planetary nebula in a letter to Jérôme Lalande, describing a half dozen such objects whose nature was still unclear.",
+  "source": {
+   "title": "MacTutor: William Herschel's astronomical discoveries",
+   "url": "https://mathshistory.st-andrews.ac.uk/Extras/Herschel_William_discoveries/"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-17",
+  "year": 1846,
+  "text": "Friedrich Wilhelm Bessel died in Königsberg. He was the first to measure the parallax, and so the distance, of a star other than the Sun.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Friedrich Wilhelm Bessel",
+   "url": "https://www.britannica.com/biography/Friedrich-Wilhelm-Bessel"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-18",
+  "year": 1781,
+  "text": "Charles Messier discovered and catalogued the galaxy M86, along with seven more galaxies of the Virgo Cluster and the globular cluster M92 on the same night.",
+  "source": {
+   "title": "SEDS Messier Database: Messier 86",
+   "url": "https://messier.seds.org/m/m086.html"
+  },
+  "photos": [
+   {
+    "id": "h-potw1449a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-m92",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "03-19",
+  "year": 2008,
+  "text": "The Swift satellite detected the gamma-ray burst GRB 080319B. Its afterglow reached magnitude 5.8, bright enough to be seen with the naked eye for about 30 seconds, although the explosion happened about 7.5 billion years ago.",
+  "source": {
+   "title": "Wikipedia: GRB 080319B",
+   "url": "https://en.wikipedia.org/wiki/GRB_080319B"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-20",
+  "year": 1781,
+  "text": "Pierre Méchain discovered the spiral galaxies M95 and M96.",
+  "source": {
+   "title": "SEDS Messier Database: Messier 96",
+   "url": "https://messier.seds.org/m/m096.html"
+  },
+  "photos": [
+   {
+    "id": "h-potw1535a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noirlab2620a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "03-20",
+  "year": 1781,
+  "text": "Pierre Méchain discovered NGC 5195, the dwarf galaxy interacting with the Whirlpool Galaxy.",
+  "source": {
+   "title": "Wikipedia: NGC 5195",
+   "url": "https://en.wikipedia.org/wiki/NGC_5195"
+  },
+  "photos": [
+   {
+    "id": "heic0506a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-noao-m51-kpno-09m-2",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "03-21",
+  "year": 1784,
+  "text": "William Herschel discovered the dwarf elliptical galaxy NGC 4489 in Coma Berenices.",
+  "source": {
+   "title": "MacTutor: William Herschel's astronomical discoveries",
+   "url": "https://mathshistory.st-andrews.ac.uk/Extras/Herschel_William_discoveries/"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-21",
+  "year": 2013,
+  "text": "The European team behind the Planck space observatory released the mission's all-sky map of the microwave background radiation.",
+  "source": {
+   "title": "Wikipedia: Planck (spacecraft)",
+   "url": "https://en.wikipedia.org/wiki/Planck_(spacecraft)"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-22",
+  "year": 1997,
+  "text": "Comet Hale-Bopp made its closest approach to Earth, passing at a distance of 1.315 astronomical units.",
+  "source": {
+   "title": "Wikipedia: Comet Hale-Bopp",
+   "url": "https://en.wikipedia.org/wiki/Comet_Hale%E2%80%93Bopp"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-23",
+  "year": 1749,
+  "text": "Pierre-Simon Laplace was born in Normandy, France. He later studied the stability of the solar system, accounting for the observed departures of the planets from their predicted orbits.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Pierre-Simon, marquis de Laplace",
+   "url": "https://www.britannica.com/biography/Pierre-Simon-marquis-de-Laplace"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-23",
+  "year": 1840,
+  "text": "John William Draper announced at the New York Lyceum of Natural History that he had made a successful daguerreotype of the Moon from his rooftop observatory.",
+  "source": {
+   "title": "Astronomy: March 23, 1840: The first photo of the Moon",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/march-23-1840-the-first-photo-of-the-moon/"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-24",
+  "year": 1893,
+  "text": "Walter Baade was born in Germany. His discovery of two types of Cepheid variable stars led to a revision of distances in the universe that doubled its known size.",
+  "source": {
+   "title": "Wikipedia: Walter Baade",
+   "url": "https://en.wikipedia.org/wiki/Walter_Baade"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-24",
+  "year": 1993,
+  "text": "Carolyn and Eugene Shoemaker and David Levy found Comet Shoemaker-Levy 9 on two photographs taken with the 46-centimetre Schmidt telescope at Palomar Observatory.",
+  "source": {
+   "title": "Wikipedia: Comet Shoemaker-Levy 9",
+   "url": "https://en.wikipedia.org/wiki/Comet_Shoemaker%E2%80%93Levy_9"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-25",
+  "year": 1655,
+  "text": "Dutch astronomer Christiaan Huygens discovered Titan, the largest moon of Saturn.",
+  "source": {
+   "title": "Wikipedia: Titan (moon)",
+   "url": "https://en.wikipedia.org/wiki/Titan_(moon)"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-25",
+  "year": 1969,
+  "text": "ESO's La Silla Observatory in Chile was inaugurated, with the President of Chile, Eduardo Frei Montalva, among those attending.",
+  "source": {
+   "title": "ESO: La Silla Observatory inauguration",
+   "url": "https://www.eso.org/public/images/lso_inauguration_03-69_2/"
+  },
+  "photos": [
+   {
+    "id": "e-potw1628a",
+    "relation": "site"
+   },
+   {
+    "id": "e-juncher-telescope1",
+    "relation": "site"
+   },
+   {
+    "id": "e-potw1043a",
+    "relation": "site"
+   }
+  ]
+ },
+ {
+  "date": "03-26",
+  "year": 2014,
+  "text": "Astronomers announced that the centaur Chariklo has two rings, the first rings found around an asteroid. Seven telescopes in South America had seen a star's light dip briefly before and after Chariklo passed in front of it.",
+  "source": {
+   "title": "Astronomy: March 26, 2014: A ringed centaur",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/march-26-2014-a-ringed-centaur/"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-27",
+  "year": 1781,
+  "text": "Pierre Méchain discovered the spiral galaxy M101, the Pinwheel Galaxy, which became one of the last entries in Charles Messier's catalogue.",
+  "source": {
+   "title": "SEDS Messier Database: Messier 101",
+   "url": "https://messier.seds.org/m/m101.html"
+  },
+  "photos": [
+   {
+    "id": "heic0602a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noirlab2315a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "03-28",
+  "year": 1802,
+  "text": "German astronomer Heinrich Olbers discovered Pallas, which was considered a planet at the time.",
+  "source": {
+   "title": "Wikipedia: 2 Pallas",
+   "url": "https://en.wikipedia.org/wiki/2_Pallas"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-28",
+  "year": 1993,
+  "text": "Amateur astronomer Francisco Garcia Diaz of Lugo, Spain, discovered supernova SN 1993J in Bode's Galaxy, M81.",
+  "source": {
+   "title": "Wikipedia: SN 1993J",
+   "url": "https://en.wikipedia.org/wiki/SN_1993J"
+  },
+  "photos": [
+   {
+    "id": "h-heic0710a",
+    "relation": "object"
+   },
+   {
+    "id": "h-opo1438b",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-m81m82",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "03-29",
+  "year": 1807,
+  "text": "Heinrich Olbers discovered the asteroid Vesta in the constellation Virgo.",
+  "source": {
+   "title": "Wikipedia: 4 Vesta",
+   "url": "https://en.wikipedia.org/wiki/4_Vesta"
+  },
+  "photos": []
+ },
+ {
+  "date": "03-30",
+  "year": 2022,
+  "text": "NASA announced that the Hubble Space Telescope had detected Earendel, the most distant single star seen so far, whose light took 12.9 billion years to reach Earth. A galaxy cluster in the foreground magnified its brightness a thousandfold or more.",
+  "source": {
+   "title": "NASA: Record Broken: Hubble Spots Farthest Star Ever Seen",
+   "url": "https://science.nasa.gov/missions/hubble/record-broken-hubble-spots-farthest-star-ever-seen/"
+  },
+  "photos": [
+   {
+    "id": "h-heic0601a",
+    "relation": "telescope"
+   },
+   {
+    "id": "heic0506a",
+    "relation": "telescope"
+   },
+   {
+    "id": "heic0515a",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "03-31",
+  "year": 2005,
+  "text": "Michael Brown, Chad Trujillo and David Rabinowitz discovered the dwarf planet Makemake at Palomar Observatory.",
+  "source": {
+   "title": "Wikipedia: Makemake",
+   "url": "https://en.wikipedia.org/wiki/Makemake"
+  },
+  "photos": []
+ }
+]

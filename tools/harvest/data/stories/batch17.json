@@ -1,0 +1,316 @@
+[
+ {
+  "id": "e-potw1147a",
+  "caption": "A double green flash at sunset, Cerro Paranal",
+  "captureDate": "28 March 2011",
+  "story": [
+   "Two bands of green light sit above the edge of the Sun as it sets over a sea of clouds below Cerro Paranal. This is a double green flash, photographed on 28 March 2011 by ESO Photo Ambassador Gianluca Lombardi from the 2600-metre mountain in Chile's Atacama Desert that hosts ESO's Very Large Telescope.",
+   "A green flash usually lasts only a second or so, and catching one needs a clear view of the Sun at the horizon and very steady air. Conditions at Paranal make single flashes a fairly common sight there, but ESO calls a double flash like this one noteworthy even for that site.",
+   "The effect comes from the atmosphere acting like a huge prism. Near the horizon, sunlight crosses a long path through dense lower air, and blue and green light is bent more than red and orange, so it appears slightly higher in the sky. A mirage linked to temperature changes in the air can magnify that separation. In this case, two alternating layers of cold and warm air split the flash into two bands."
+  ],
+  "explore": [
+   "A blue flash is almost never seen, because molecules and particles in the thick air near the horizon scatter blue light away. The same mirage that strengthens the green flash can also distort the outline of the Sun and of the flash itself."
+  ],
+  "understand": {
+   "summary": "A photograph of the setting Sun taken from Cerro Paranal by Gianluca Lombardi. No camera details or colour mapping are published.",
+   "eye": "A green flash can be seen by eye, but it lasts only a second or so, and a camera holds on to a moment that is easy to miss."
+  },
+  "scaleExtra": null,
+  "alt": "The setting Sun above a sea of clouds, with two bands of green light just above its edge.",
+  "flags": []
+ },
+ {
+  "id": "h-potw1719a",
+  "caption": "The interacting galaxies IRAS 06076-2139, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "This Hubble image shows IRAS 06076-2139, an unusual object in the constellation Lepus (The Hare), 500 million light-years away. What might pass for a single galaxy is in fact two separate galaxies racing past each other.",
+   "The pair are moving at about 2 million kilometres per hour. That speed is most likely too high for them to settle into one merged galaxy, so the encounter will probably end with the two going their own ways rather than combining.",
+   "The meeting will still leave its mark. The galaxies are only about 20 000 light-years apart, close enough that each will pull on the other through gravity as they pass. That tug is expected to reshape their structures on a grand scale. Hubble's Wide Field Camera 3 and its Advanced Camera for Surveys both contributed observations of the pair, which ESA/Hubble describes as rushing past each other."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys and Wide Field Camera 3 observed through visible-light filters at 435 nm and 814 nm and a near-infrared filter at 1.545 μm. The colour mapping isn't published.",
+   "eye": "One of the filters records near-infrared light, which is invisible to the eye."
+  },
+  "scaleExtra": null,
+  "alt": "The interacting galaxy pair IRAS 06076-2139 as seen by Hubble.",
+  "flags": []
+ },
+ {
+  "id": "h-potw1519a",
+  "caption": "The shell galaxy NGC 3923, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "The glowing object in this Hubble image is an elliptical galaxy. It is NGC 3923, which lies in the constellation of Hydra, more than 90 million light-years away. Only a few of its outer shells, faint layers of stars in the galaxy's halo, show up in the picture.",
+   "NGC 3923 is a shell galaxy, meaning the stars in its halo are arranged in concentric layers. It has more than twenty of these shells, and they are more subtle than those of other shell galaxies. They are also unusually symmetrical, whereas the shells around other such galaxies tend to be more lopsided.",
+   "Shells like these are common around elliptical galaxies, turning up in about one in ten of them, but they have never been seen around a spiral. They are thought to form when a larger galaxy swallows a smaller companion. As the two cores draw together they swing back and forth around a shared centre, and that motion ripples outwards into shells of stars, much as ripples spread across a disturbed pond."
+  ],
+  "explore": [
+   "Astronomers call this swallowing of one galaxy by another galactic cannibalism, and the shell pattern gives such galaxies an onion-like structure. A version of the image was entered by Judy Schmidt into Hubble's Hidden Treasures image processing competition."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys observed through two filters, at 606 nm in visible light and 814 nm in the near-infrared. The colour mapping isn't published.",
+   "eye": "One filter records near-infrared light, just beyond the range of human vision."
+  },
+  "scaleExtra": null,
+  "alt": "A glowing elliptical galaxy, NGC 3923, with a few faint outer shells of stars.",
+  "flags": []
+ },
+ {
+  "id": "h-potw1006a",
+  "caption": "The spiral galaxy NGC 3810, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "A bright core outshines the rest of this galaxy by some margin, and rich dust clouds line its spiral arms. Clusters of hot, young blue stars sit far from the centre, while bright red giant stars are scattered along the arms. This is NGC 3810, a classic spiral about 50 million light-years away in the constellation of Leo (the lion).",
+   "Astronomers think the central region is busy forming many new stars. Hubble's sharp vision also resolves many individual stars, among them the blue stars in the outer clusters and the red giants along the arms.",
+   "The original observations came from astronomers studying a supernova discovered in the galaxy late in 2000. It followed another supernova found there in 1997, making it the second in quick succession. William Herschel discovered NGC 3810 in 1784, and it appears as a faint smudge in small telescopes."
+  ],
+  "explore": [
+   "Hubble's Advanced Camera for Surveys took the image through three filters (F435W, F555W and F814W), which let through blue, green and near-infrared light. Each filter was exposed for about seven minutes."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys observed through blue, green and near-infrared filters, for about seven minutes each. The exact colour mapping isn't published.",
+   "eye": "Exposures of several minutes gather far more light than the eye, which sees this galaxy only as a faint smudge through a small telescope."
+  },
+  "scaleExtra": null,
+  "alt": "A spiral galaxy with a bright core and dusty arms dotted with blue star clusters and red stars.",
+  "flags": []
+ },
+ {
+  "id": "h-potw1752b",
+  "caption": "The galaxy cluster RCS2 J2327, imaged by the Hubble Space Telescope and ESO's Very Large Telescope",
+  "captureDate": null,
+  "story": [
+   "This composite shows the galaxy cluster RCS2 J2327, built from observations by two very different telescopes. Near-infrared data came from the HAWK-I instrument on ESO's Very Large Telescope on the ground, and visible-light data from the Advanced Camera for Surveys on the NASA/ESA Hubble Space Telescope in orbit.",
+   "A galaxy cluster is a large gathering of galaxies held together by gravity. Its enormous mass bends the light of more distant galaxies lying behind it, an effect called gravitational lensing. RCS2 J2327 produces both kinds. Strong lensing can stretch background galaxies into obvious arcs, while weak lensing distorts their shapes only slightly.",
+   "By measuring how the light from the background is bent, astronomers can work out the mass of the cluster. Weak lensing is subtle, so the measurement depends on detailed data. ESO and ESA/Hubble present the image as an example of a detailed joint effort between a ground-based and a space telescope to study weak lensing."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "A composite of Hubble Advanced Camera for Surveys data at 435 nm and 814 nm and VLT HAWK-I data in the near-infrared Ks band at 2.146 μm. The colour mapping isn't published.",
+   "eye": "The Ks-band data record infrared light, which is invisible to the eye."
+  },
+  "scaleExtra": null,
+  "alt": "Composite image of the galaxy cluster RCS2 J2327.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "e-ann15034d",
+  "caption": "First light of a laser guide star unit, Very Large Telescope, Paranal",
+  "captureDate": "29 April 2015",
+  "story": [
+   "A laser beam is launched into the night sky from Unit Telescope 4 of ESO's Very Large Telescope at Paranal. The photograph records first light for the first of four laser guide star units planned for that telescope, on the night of Wednesday 29 April 2015.",
+   "The work was carried out by the team behind the 4 Laser Guide Star Facility, known as 4LGSF. ESO describes this first light as a key step on the way to the full Adaptive Optics Facility.",
+   "Adaptive optics is a technique for undoing the blurring that turbulence in Earth's atmosphere causes in telescope images. A flexible mirror changes shape rapidly to cancel out the distortion, but the system needs a point of light to measure the turbulence against. A laser guide star supplies one. The beam makes a small patch of the upper atmosphere glow, creating an artificial star wherever astronomers need it."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "A photograph of the laser in use at Paranal, credited to ESO and J. Girard. No camera or exposure details are published.",
+   "eye": "No exposure details are published, so it is unclear how bright the beam would look to someone standing on the site."
+  },
+  "scaleExtra": null,
+  "alt": "A laser beam shining up into the night sky from a telescope at Paranal.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-iotw2117a",
+  "caption": "Sunlight over the Mayall Telescope, Kitt Peak National Observatory",
+  "captureDate": null,
+  "story": [
+   "Light from the Sun breaks over a craggy ridge, leaving the upper parts of several telescope domes and the 4-meter Nicholas U. Mayall Telescope in silhouette. The ridge is part of Kitt Peak National Observatory, run as a Program of NSF NOIRLab, which sits in southern Arizona at an altitude of 2096 metres (6877 feet).",
+   "Kitt Peak hosts more than 20 telescopes, used both for astronomy at night and for studying the Sun by day. According to NOIRLab, that makes it one of the biggest gatherings of astronomical instruments north of the equator.",
+   "The Mayall Telescope, eighteen stories tall, rises above the ridge and stands out on the Kitt Peak skyline. It is the biggest telescope on Kitt Peak, and the tower and dome can be spotted from more than 80 kilometres (50 miles) away."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "A landscape photograph credited to Kitt Peak National Observatory, NOIRLab and B. Tafreshi. No camera or exposure details are published.",
+   "eye": "No exposure details are published, so it is unclear how closely the photograph matches what an eye would see looking towards the Sun from the ridge."
+  },
+  "scaleExtra": null,
+  "alt": "Sunlight breaking over a craggy ridge, with the Mayall Telescope and the tops of other domes in silhouette.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2339a",
+  "caption": "The shadow of Maunakea at sunrise, Hawai‘i",
+  "captureDate": null,
+  "story": [
+   "At sunrise, the blue shadow of Maunakea in Hawai‘i stretches away from the mountain and narrows into an oddly neat triangle. Maunakea is home to the Gemini North telescope, part of the International Gemini Observatory, which NSF NOIRLab operates.",
+   "The mountain itself is only roughly triangular and far from a perfect pyramid, so the tidy shape of its shadow needs explaining. The same triangular shadow can be seen from the summits of many mountains and volcanoes at sunrise or sunset.",
+   "The explanation is perspective. An observer on the summit is looking down a long corridor of shadow that reaches all the way to the horizon. Its far end is so distant that it seems to taper to a point, whatever the shape of the peak casting it, and a cube or a column would give the same result. Parallel railway lines and long hallways appear to narrow in the distance for the same reason."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "A photograph taken at sunrise on Maunakea, credited to the International Gemini Observatory and J. Chu. No camera details or colour mapping are published.",
+   "eye": "The triangle is an effect of perspective, so an observer on the summit would see the same tapering shape."
+  },
+  "scaleExtra": null,
+  "alt": "The blue, triangular shadow of Maunakea stretching into the distance at sunrise.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2446a",
+  "caption": "The Milky Way over Gemini South, Cerro Pachón",
+  "captureDate": null,
+  "story": [
+   "The Gemini South telescope sits high on Cerro Pachón in Chile, with the centre of the Milky Way in the middle of the frame. Below the densest part of the Milky Way lies the constellation Scorpius, and to its right is Sh2-27, a large, deep red emission nebula surrounding the star Zeta Ophiuchi.",
+   "The heart of our galaxy is packed with stars and holds a supermassive black hole called Sagittarius A*. Around it stretch the huge dark dust clouds of the Great Rift. They contain many deep-sky objects, including Ptolemy's Cluster (Messier 7) and the Cat's Paw Nebula (NGC 6334), though these are hard to make out in the photograph.",
+   "Scorpius is best seen from southern latitudes. Its three-pronged head and its claws reach out from Antares, a bright red supergiant star known as the heart of the scorpion."
+  ],
+  "explore": [
+   "Petr Horálek, a NOIRLab Audiovisual Ambassador, took the photo during the NOIRLab 2022 Photo Expedition to all of NOIRLab's sites. Fulldome and 360 panorama versions also exist. Gemini South is one half of the International Gemini Observatory, which NSF NOIRLab operates with support in part from the U.S. National Science Foundation."
+  ],
+  "understand": {
+   "summary": "A night-sky photograph by Petr Horálek. No camera or exposure details or colour mapping are published.",
+   "eye": "No exposure details are published, so it is unclear how closely the colours and brightness match what an eye would see from Cerro Pachón."
+  },
+  "scaleExtra": null,
+  "alt": "The Gemini South telescope under the Milky Way, with the galaxy's centre in the middle of the frame, Scorpius below it and a large red nebula to the right.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2151a",
+  "caption": "Comet Leonard, a red sprite, Venus and Saturn over Maunakea",
+  "captureDate": "20 December 2021",
+  "story": [
+   "Soon after sunset on 20 December 2021, a Cloudcam at Gemini North on Maunakea, Hawai‘i, caught several sky phenomena in a single frame. Left of centre is Comet Leonard, which was visible to the naked eye, and right of centre is a red sprite. Faint red airglow tints the left side, Venus is the brightest feature and Saturn appears at the top.",
+   "Red sprites are among the rarest phenomena in the shot. They flash downward from heights of between 50 and 90 kilometres (30–55 miles) towards the tops of the clouds above a thunderstorm, and they are seldom caught on camera. The clear sky and unusual vantage point on Maunakea improve the odds, and another sprite was recorded from the same spot in 2017.",
+   "The Gemini North telescope, one of the two halves of the Gemini Observatory run by NSF NOIRLab, sits at around 4200 metres (13,800 feet). That height helps with astronomical observing and also makes the site a fine lookout for light phenomena in the night sky."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "A frame from one of the Cloudcams at Gemini North. No exposure details or colour mapping are published.",
+   "eye": "Comet Leonard could be seen with the naked eye, while red sprites are rarely captured even on camera."
+  },
+  "scaleExtra": null,
+  "alt": "The sky above Maunakea soon after sunset, with a comet left of centre, a red sprite right of centre, faint red airglow at left, bright Venus, and Saturn at the top.",
+  "flags": []
+ },
+ {
+  "id": "n-iotw2452a",
+  "caption": "The Milky Way over the Blanco and SMARTS–GSU telescopes, Cerro Tololo",
+  "captureDate": null,
+  "story": [
+   "The Milky Way stretches like a river of stars and dust between two telescopes at Cerro Tololo Inter-American Observatory, an observatory of the U.S. National Science Foundation and a Program of NSF NOIRLab. On the left stands the Víctor M. Blanco 4-meter Telescope, and on the right the SMARTS–GSU 1.5-meter Telescope.",
+   "Like a real river, the Milky Way is easier to navigate with landmarks, and constellations fill that role. Left of centre is Sagittarius, which contains a pattern of stars known as the Teapot. The Teapot points towards the centre of our galaxy, home to the supermassive black hole Sagittarius A*.",
+   "Right of centre is Scorpius, a standout in the sky thanks to the bright red supergiant star Antares. Often called the heart of the scorpion, Antares can also be used to find the way to the Galactic core."
+  ],
+  "explore": [
+   "Petr Horálek, a NOIRLab Audiovisual Ambassador, took the photo during the NOIRLab 2022 Photo Expedition to all of NOIRLab's sites. It is part of a fulldome photo and can also be viewed as a panorama."
+  ],
+  "understand": {
+   "summary": "A night-sky photograph by Petr Horálek, part of a fulldome image. No camera or exposure details or colour mapping are published.",
+   "eye": "No exposure details are published, so it is unclear how closely the photograph matches what an eye would see from Cerro Tololo."
+  },
+  "scaleExtra": null,
+  "alt": "The Milky Way stretching between the Blanco Telescope on the left and the SMARTS–GSU 1.5-meter Telescope on the right.",
+  "flags": []
+ },
+ {
+  "id": "n-noirlab2622a",
+  "caption": "The proto-supercluster COSMOS-z3.1-A, imaged by the Dark Energy Camera on the NSF Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "Somewhere in this crowded field lies a newly discovered proto-supercluster of galaxies called COSMOS-z3.1-A. Its members are hard to pick out because they are spread widely across the frame against a busy background.",
+   "A proto-supercluster is a loose collection of galaxies expected, eventually, to pull together into a stable cluster of clusters. COSMOS-z3.1-A is seen as it was when the Universe was just 2.1 billion years old. According to NOIRLab, that makes it the earliest and most distant proto-supercluster yet found, and its mass is 5000 times that of the Milky Way.",
+   "The structure turned up in data from the One-hundred-deg2 DECam Imaging in Narrowbands survey, known as ODIN. The survey uses the Dark Energy Camera (DECam), which the US Department of Energy built. The camera works on NSF's Víctor M. Blanco 4-meter Telescope, located at Cerro Tololo Inter-American Observatory in Chile, a program of NSF NOIRLab."
+  ],
+  "explore": [
+   "NOIRLab has also released an annotated version of the image that marks the members of COSMOS-z3.1-A, along with an animated 3D model of the structure. The survey behind the discovery, ODIN, uses narrowband filters on the camera."
+  ],
+  "understand": {
+   "summary": "The Dark Energy Camera on the Blanco 4-meter Telescope observed through broadband g, r and i filters and narrowband N419, N501 and N673 filters, all optical. The colour mapping isn't published.",
+   "eye": "Galaxies this distant are far too faint to see by eye, and even in this image the members of the proto-supercluster are hard to pick out."
+  },
+  "scaleExtra": null,
+  "alt": "A crowded deep-sky field containing the scattered, hard-to-see member galaxies of the proto-supercluster COSMOS-z3.1-A.",
+  "flags": []
+ },
+ {
+  "id": "n-noirlab2327c",
+  "caption": "Vera C. Rubin Observatory at late twilight",
+  "captureDate": null,
+  "story": [
+   "Vera C. Rubin Observatory, run as a Program of NSF NOIRLab, stands beneath a late-twilight sky. When NOIRLab released this photograph in 2023, the observatory was still under construction, being built for a project called the Legacy Survey of Space and Time, or LSST.",
+   "The plan was for the survey to cover the whole of the southern sky visible from the site every few nights for a decade. It was to capture about 1000 images each night, building up a new picture of how the Universe changes over time. The LSST was set to tackle four areas of science, one of them mapping the Milky Way to learn how our galaxy is structured and how it formed.",
+   "At the time, Rubin was expected to come online in 2025, with scientists able to reach the data from every night of operation. Rubin is a joint initiative of two US agencies, the Department of Energy (DOE) and the National Science Foundation. Once finished, it was due to be run jointly by NSF NOIRLab and the DOE's SLAC National Accelerator Laboratory."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "A photograph of the observatory under a late-twilight sky. No camera or exposure details or colour mapping are published.",
+   "eye": "No exposure details are published, so it is unclear how closely the photograph matches what an eye would see at that hour."
+  },
+  "scaleExtra": null,
+  "alt": "Vera C. Rubin Observatory beneath a late-twilight sky.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-noirlab2122a",
+  "caption": "The McMath-Pierce Solar Telescope under the Milky Way, Kitt Peak National Observatory",
+  "captureDate": "2018",
+  "story": [
+   "A meteor, or shooting star, streaks across the sky above the McMath-Pierce Solar Telescope building, with the Milky Way as the backdrop. The photograph was taken in 2018 and is credited to D. Salman and Kitt Peak National Observatory, part of NSF NOIRLab.",
+   "A meteor is the brief streak of light made when a small piece of space debris burns up as it plunges into Earth's atmosphere. The Milky Way is our own galaxy, and the pale band it forms across a dark sky is the combined glow of countless distant stars, seen from inside the galaxy's disc.",
+   "The McMath-Pierce facility was built as a solar telescope, but by the time this photograph was released in 2021 it was taking on a new job. The plan was for it to house NOIRLab's outreach centre, the Windows on the Universe Center for Astronomy Outreach, which was expected to open in early 2025."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "A night-sky photograph credited to Kitt Peak National Observatory, NOIRLab and D. Salman. No camera or exposure details or colour mapping are published.",
+   "eye": "No exposure details are published, so it is unclear how closely the photograph matches what an eye would see from the site."
+  },
+  "scaleExtra": null,
+  "alt": "The McMath-Pierce Solar Telescope building under the Milky Way, with a meteor streaking across the sky.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "n-gemini1611a",
+  "caption": "The stellar nursery GGD 27, imaged by the Gemini South telescope",
+  "captureDate": null,
+  "story": [
+   "A massive developing star dominates the centre of GGD 27, a reflection nebula and busy stellar nursery in the direction of the constellation Sagittarius. This near-infrared image was taken with FLAMINGOS-2, an infrared imager and spectrograph on Chile's Gemini South telescope. It looks through obscuring gas and dust into the region where stars are forming.",
+   "At first glance the cloud looks chaotic, but it holds several newborn stars that interact in complex and predictable ways. The central protostar, known as GGD 27-ILL, already shines several thousand times brighter than the Sun. It drives a bipolar outflow, in which gas streams away at supersonic speeds, pushed by intense magnetic fields.",
+   "Stellar nurseries like this are common across the Milky Way, but GGD 27 gives an especially compelling snapshot of star birth. Millions of years from now the cloud will disperse, leaving a newly formed cluster of stars behind. Until then it will change slowly, giving astronomers time to study how stars form."
+  ],
+  "explore": [
+   "Other young stars forming in the area add to the complexity of the scene. The image covers 4.6 by 3.5 arcminutes of sky and is rotated 35 degrees clockwise from the usual orientation with north up."
+  ],
+  "understand": {
+   "summary": "A colour composite from the FLAMINGOS-2 instrument on Gemini South, made with four near-infrared filters. Y is shown as blue, J as cyan, H as green and Ks as red, and the total exposure across all filters is just over one hour.",
+   "eye": "Near-infrared light is invisible to the eye, and it passes through dust that hides the inside of the nursery at visible wavelengths."
+  },
+  "scaleExtra": "GGD 27 lies some 5,500 light-years away in the southern Milky Way, according to Gemini Observatory.",
+  "alt": "A near-infrared view of the star-forming nebula GGD 27, with a massive young star at its centre.",
+  "flags": [
+   "below the site minimum resolution"
+  ]
+ },
+ {
+  "id": "n-iotw1952a",
+  "caption": "The Milky Way over Gemini South, Cerro Pachón",
+  "captureDate": null,
+  "story": [
+   "The colourful band of the Milky Way stretches above the 8.1-meter Gemini South telescope, its bright star fields crossed by winding dust lanes. The Galactic Center sits directly above the telescope, and the Large and Small Magellanic Clouds appear on the left side of the picture.",
+   "The Magellanic Clouds are dwarf irregular galaxies that orbit the Milky Way as satellites. They lack the obvious spiral arms of larger neighbours such as the Andromeda Galaxy and are only a fraction of the Milky Way's size, but they still contain billions of stars. Together they are a prominent sight in southern night skies.",
+   "Gemini South stands on Cerro Pachón in the Chilean Andes. It is one of the two telescopes of the Gemini Observatory, and its twin, Gemini North, works from Maunakea in Hawai‘i. Observing conditions at both sites are superb, and between them the two telescopes can cover the entire night sky."
+  ],
+  "explore": [
+   "When this photograph was released in 2019, the 8.4-meter Large Synoptic Survey Telescope (LSST) was soon due to arrive on Cerro Pachón beside Gemini South. It was designed to survey the whole visible sky every few nights. Astrophotographer Kwon o chul made the image for a planetarium time-lapse series, stitching together 10 frames of 15 seconds each into a panorama."
+  ],
+  "understand": {
+   "summary": "A panorama stitched from 10 images by astrophotographer Kwon o chul, each a 15-second exposure. The colour mapping isn't published.",
+   "eye": "The long exposures gather more light than the eye can at a glance, so the colours and dust lanes probably stand out more than they would to someone on the mountain."
+  },
+  "scaleExtra": null,
+  "alt": "The colourful band of the Milky Way above the Gemini South telescope, with the Magellanic Clouds on the left.",
+  "flags": []
+ }
+]

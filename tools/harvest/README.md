@@ -41,3 +41,22 @@ filters the crawl, every candidate was checked by eye on contact sheets, `finali
 per object with category caps, and `build_records_noirlab.py` writes `data/records_noirlab.json`.
 Stories are `data/stories/batch10–12.json`, written and independently fact-checked like the rest.
 Exporter ids are prefixed by source: `h-`, `w-`, `e-`, `n-`.
+
+## "On this day" (researched events + gap-fill photographs)
+
+`today/`: `events_01…12.json` hold 493 astronomy events for 357 calendar days, each checked against a
+fetched source page (brief: `EVENTS_BRIEF.md`). The exporter merges them with every photograph's
+release date into `src/data/onthisday.json`.
+
+To give each calendar day at least three photographs, the full ESA/Hubble and ESA/Webb archives, the
+ESO archive (13,292 image pages), ESO Pictures of the Week, NOIRLab Images of the Week, and NOIRLab
+press releases and announcements were searched for images released on under-served dates. Candidates
+were reviewed by eye on contact sheets (same rules as above: night photos must show a night or twilight
+sky; no daytime scenes, interiors, people, fisheye or 360° frames, annotated or side-by-side images).
+The picks are `chosen.json`, `chosen4.json` and `chosen5.json`; raw fields are in `data/final3–5.json`,
+records in `data/records_extra*.json` / `data/records_noirlab2–3.json`, and stories in
+`data/stories/batch13–17.json` (each batch written, then independently fact-checked).
+
+Twelve dates still have fewer than three photographs published on them, because none of the four sources
+released a usable photograph on those dates in any year (26 December has none at all). On those dates the
+page adds the nearest days' photographs, each labelled with its real publication date.

@@ -1,0 +1,523 @@
+[
+ {
+  "date": "10-01",
+  "year": 1847,
+  "text": "Maria Mitchell slipped out of a party, went up to her roof to observe, and discovered a new comet.",
+  "source": {
+   "title": "APS News: October 1847, Maria Mitchell Discovers a Comet",
+   "url": "https://www.aps.org/apsnews/2006/10/maria-mitchell-discovers-comet"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-02",
+  "year": 1608,
+  "text": "Hans Lipperhey filed for a 30-year patent from the States General of the Netherlands for an instrument for seeing things far away as if they were near, the first written record of a telescope.",
+  "source": {
+   "title": "AAS: This Month in Astronomical History, The Invention of the Telescope",
+   "url": "https://aas.org/posts/story/2017/10/month-astronomical-history-invention-telescope"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-03",
+  "year": 1932,
+  "text": "Max Wolf died. The German astronomer founded and directed the Königstuhl Observatory and used photography to discover asteroids.",
+  "source": {
+   "title": "ESA: 3 October",
+   "url": "https://www.esa.int/Science_Exploration/Space_Science/3_October"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-04",
+  "year": 1834,
+  "text": "John Herschel first observed NGC 7090, a spiral galaxy in the southern constellation Indus that is seen edge-on from Earth.",
+  "source": {
+   "title": "Wikipedia: NGC 7090",
+   "url": "https://en.wikipedia.org/wiki/NGC_7090"
+  },
+  "photos": [
+   {
+    "id": "h-potw1237a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "10-04",
+  "year": 2011,
+  "text": "Saul Perlmutter, Brian Schmidt and Adam Riess were awarded the Nobel Prize in Physics for discovering, through observations of distant supernovae, that the expansion of the universe is accelerating.",
+  "source": {
+   "title": "Nobel Prize: The Nobel Prize in Physics 2011, press release",
+   "url": "https://www.nobelprize.org/prizes/physics/2011/press-release/"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-05",
+  "year": 1962,
+  "text": "Belgium, Germany, France, the Netherlands and Sweden signed the convention that established the European Southern Observatory.",
+  "source": {
+   "title": "Wikipedia: European Southern Observatory",
+   "url": "https://en.wikipedia.org/wiki/European_Southern_Observatory"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-06",
+  "year": 1784,
+  "text": "William Herschel discovered NGC 891, a spiral galaxy in Andromeda seen almost exactly edge-on.",
+  "source": {
+   "title": "Wikipedia: NGC 891",
+   "url": "https://en.wikipedia.org/wiki/NGC_891"
+  },
+  "photos": [
+   {
+    "id": "n-iotw2023a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "10-06",
+  "year": 1995,
+  "text": "Michel Mayor and Didier Queloz of the University of Geneva announced the discovery of 51 Pegasi b, a planet orbiting a Sun-like star.",
+  "source": {
+   "title": "Wikipedia: 51 Pegasi b",
+   "url": "https://en.wikipedia.org/wiki/51_Pegasi_b"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-07",
+  "year": 1959,
+  "text": "The Soviet probe Luna 3 photographed the far side of the Moon.",
+  "source": {
+   "title": "Wikipedia: Luna 3",
+   "url": "https://en.wikipedia.org/wiki/Luna_3"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-08",
+  "year": 1873,
+  "text": "Ejnar Hertzsprung was born in Copenhagen. He is best remembered for his role in developing the Hertzsprung-Russell diagram of stars.",
+  "source": {
+   "title": "Wikipedia: Ejnar Hertzsprung",
+   "url": "https://en.wikipedia.org/wiki/Ejnar_Hertzsprung"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-09",
+  "year": 1604,
+  "text": "Lodovico delle Colombe made the first recorded European observation of the supernova now known as Kepler's Supernova, SN 1604.",
+  "source": {
+   "title": "Wikipedia: Kepler's Supernova",
+   "url": "https://en.wikipedia.org/wiki/Kepler%27s_Supernova"
+  },
+  "photos": [
+   {
+    "id": "h-opo0429h",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "10-09",
+  "year": 1785,
+  "text": "William Herschel discovered the barred spiral galaxy NGC 1073.",
+  "source": {
+   "title": "Wikipedia: NGC 1073",
+   "url": "https://en.wikipedia.org/wiki/NGC_1073"
+  },
+  "photos": [
+   {
+    "id": "h-heic1202a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "10-09",
+  "year": 1790,
+  "text": "William Herschel discovered NGC 1097, a barred spiral galaxy in the southern constellation Fornax.",
+  "source": {
+   "title": "Wikipedia: NGC 1097",
+   "url": "https://en.wikipedia.org/wiki/NGC_1097"
+  },
+  "photos": [
+   {
+    "id": "e-eso0438d",
+    "relation": "object"
+   },
+   {
+    "id": "h-potw1252a",
+    "relation": "object"
+   },
+   {
+    "id": "e-potw1128a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "10-10",
+  "year": 1846,
+  "text": "William Lassell discovered Triton, the largest moon of Neptune, just 17 days after Neptune itself was found.",
+  "source": {
+   "title": "Wikipedia: Triton (moon)",
+   "url": "https://en.wikipedia.org/wiki/Triton_(moon)"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-11",
+  "year": 1758,
+  "text": "Heinrich Wilhelm Olbers was born in Arbergen. He later discovered the asteroids Pallas and Vesta.",
+  "source": {
+   "title": "Wikipedia: Heinrich Wilhelm Matthias Olbers",
+   "url": "https://en.wikipedia.org/wiki/Heinrich_Wilhelm_Matthias_Olbers"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-12",
+  "year": 2005,
+  "text": "The Large Binocular Telescope saw first light with a single primary mirror, observing the edge-on galaxy NGC 891.",
+  "source": {
+   "title": "Wikipedia: Large Binocular Telescope",
+   "url": "https://en.wikipedia.org/wiki/Large_Binocular_Telescope"
+  },
+  "photos": [
+   {
+    "id": "n-iotw2023a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "10-13",
+  "year": 1773,
+  "text": "Charles Messier discovered the Whirlpool Galaxy, M51, while observing a comet, and described it as a very faint nebula without stars.",
+  "source": {
+   "title": "SEDS Messier Database: Messier 51",
+   "url": "https://messier.seds.org/m/m051.html"
+  },
+  "photos": [
+   {
+    "id": "heic0506a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-noao-m51-kpno-09m-2",
+    "relation": "object"
+   },
+   {
+    "id": "w-weic2608a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "10-14",
+  "year": 1984,
+  "text": "Martin Ryle died. The English radio astronomer pioneered aperture synthesis and received the 1974 Nobel Prize in Physics.",
+  "source": {
+   "title": "Nobel Prize: Martin Ryle, Biographical",
+   "url": "https://www.nobelprize.org/prizes/physics/1974/ryle/biographical/"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-15",
+  "year": 1997,
+  "text": "The Cassini spacecraft launched on its mission to Saturn.",
+  "source": {
+   "title": "NASA Science: Cassini",
+   "url": "https://science.nasa.gov/mission/cassini/"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-16",
+  "year": 2017,
+  "text": "NASA announced that its missions had detected light from a gravitational-wave event, the merger of two neutron stars in the galaxy NGC 4993 about 130 million light-years away.",
+  "source": {
+   "title": "NASA: NASA Missions Catch First Light from a Gravitational-Wave Event",
+   "url": "https://www.nasa.gov/news-release/nasa-missions-catch-first-light-from-a-gravitational-wave-event/"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-17",
+  "year": 1786,
+  "text": "William Herschel discovered NGC 1275, a galaxy in the constellation Perseus.",
+  "source": {
+   "title": "Wikipedia: NGC 1275",
+   "url": "https://en.wikipedia.org/wiki/NGC_1275"
+  },
+  "photos": [
+   {
+    "id": "h-heic0817a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "10-17",
+  "year": 2002,
+  "text": "ESA's INTEGRAL gamma-ray observatory was launched.",
+  "source": {
+   "title": "ESA: Integral",
+   "url": "https://www.esa.int/Science_Exploration/Space_Science/Integral"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-18",
+  "year": 1989,
+  "text": "Space shuttle Atlantis carried the Galileo spacecraft into Earth orbit at the start of its journey to Jupiter.",
+  "source": {
+   "title": "NASA Science: Galileo",
+   "url": "https://science.nasa.gov/mission/galileo/"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-19",
+  "year": 1910,
+  "text": "Subrahmanyan Chandrasekhar was born in Lahore. He is known for the Chandrasekhar limit, the maximum mass of a white dwarf star.",
+  "source": {
+   "title": "Wikipedia: Subrahmanyan Chandrasekhar",
+   "url": "https://en.wikipedia.org/wiki/Subrahmanyan_Chandrasekhar"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-19",
+  "year": 2017,
+  "text": "Robert Weryk discovered ʻOumuamua, the first known interstellar object, using the Pan-STARRS telescope at Haleakalā Observatory in Hawaii.",
+  "source": {
+   "title": "Wikipedia: ʻOumuamua",
+   "url": "https://en.wikipedia.org/wiki/%CA%BBOumuamua"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-19",
+  "year": 2022,
+  "text": "The James Webb Space Telescope's view of the Pillars of Creation in the Eagle Nebula was released, showing dense clouds of gas and dust where new stars are forming.",
+  "source": {
+   "title": "ESA/Webb: NASA's Webb Takes Star-Filled Portrait of Pillars of Creation (weic2216)",
+   "url": "https://esawebb.org/news/weic2216/"
+  },
+  "photos": [
+   {
+    "id": "weic2216b",
+    "relation": "object"
+   },
+   {
+    "id": "h-heic1501a",
+    "relation": "object"
+   },
+   {
+    "id": "h-potw1033a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "10-20",
+  "year": 1784,
+  "text": "William Herschel discovered the spiral galaxy NGC 1232 in the constellation Eridanus.",
+  "source": {
+   "title": "Wikipedia: NGC 1232",
+   "url": "https://en.wikipedia.org/wiki/NGC_1232"
+  },
+  "photos": [
+   {
+    "id": "e-eso9845d",
+    "relation": "object"
+   },
+   {
+    "id": "e-eso1042g",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "10-21",
+  "year": 1897,
+  "text": "Yerkes Observatory was dedicated. It housed a 40-inch refracting telescope.",
+  "source": {
+   "title": "Wikipedia: Yerkes Observatory",
+   "url": "https://en.wikipedia.org/wiki/Yerkes_Observatory"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-22",
+  "year": 1975,
+  "text": "The Soviet lander Venera 9 touched down on Venus and sent back the first television pictures from the surface of another planet.",
+  "source": {
+   "title": "Wikipedia: Venera 9",
+   "url": "https://en.wikipedia.org/wiki/Venera_9"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-23",
+  "year": 1893,
+  "text": "Ernst Öpik was born. The Estonian astronomer studied meteors and made the first prediction of a cloud of cometary bodies around the Solar System, later known as the Oort Cloud.",
+  "source": {
+   "title": "ESA: 23 October",
+   "url": "https://www.esa.int/Science_Exploration/Space_Science/23_October"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-24",
+  "year": 1851,
+  "text": "William Lassell discovered Ariel and Umbriel, two moons of Uranus.",
+  "source": {
+   "title": "Wikipedia: Ariel (moon)",
+   "url": "https://en.wikipedia.org/wiki/Ariel_(moon)"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-25",
+  "year": 1671,
+  "text": "Giovanni Cassini discovered Iapetus, a moon of Saturn.",
+  "source": {
+   "title": "NASA Science: Iapetus",
+   "url": "https://science.nasa.gov/saturn/moons/iapetus/"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-25",
+  "year": 1877,
+  "text": "Henry Norris Russell was born in Oyster Bay, New York. He developed the Hertzsprung-Russell diagram alongside Ejnar Hertzsprung.",
+  "source": {
+   "title": "Wikipedia: Henry Norris Russell",
+   "url": "https://en.wikipedia.org/wiki/Henry_Norris_Russell"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-26",
+  "year": 1780,
+  "text": "Pierre Méchain found the globular cluster M79 and reported the discovery to his colleague Charles Messier.",
+  "source": {
+   "title": "SEDS Messier Database: Messier 79",
+   "url": "https://messier.seds.org/m/m079.html"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-27",
+  "year": 1449,
+  "text": "Ulugh Beg died in Samarkand. He built the Ulugh Beg Observatory and compiled a catalogue of 994 stars.",
+  "source": {
+   "title": "Wikipedia: Ulugh Beg",
+   "url": "https://en.wikipedia.org/wiki/Ulugh_Beg"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-27",
+  "year": 1780,
+  "text": "Harvard professor Samuel Williams led an expedition behind British lines to observe a solar eclipse from Long Island in present-day Maine. His description is likely the first recorded observation of Baily's Beads.",
+  "source": {
+   "title": "American Academy of Arts and Sciences: Expedition Behind Enemy Lines",
+   "url": "https://www.amacad.org/news/expedition-behind-enemy-lines"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-28",
+  "year": 1937,
+  "text": "Karl Reinmuth discovered the asteroid Hermes in images taken at Heidelberg Observatory.",
+  "source": {
+   "title": "Wikipedia: 69230 Hermes",
+   "url": "https://en.wikipedia.org/wiki/69230_Hermes"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-29",
+  "year": 1749,
+  "text": "Guillaume Le Gentil discovered M32, a small companion of the Andromeda Galaxy, while observing Andromeda with an 18-foot telescope.",
+  "source": {
+   "title": "Messier Objects: Messier 32, Le Gentil",
+   "url": "https://www.messier-objects.com/messier-32-le-gentil/"
+  },
+  "photos": [
+   {
+    "id": "n-noao0001a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "10-29",
+  "year": 1780,
+  "text": "Pierre Méchain discovered M77, a galaxy in Cetus that he described as a cluster of small stars containing some nebulosity.",
+  "source": {
+   "title": "Universe Today: Messier 77, the Cetus A Barred Spiral Galaxy",
+   "url": "https://www.universetoday.com/articles/messier-77-cetus-a"
+  },
+  "photos": [
+   {
+    "id": "h-heic1305a",
+    "relation": "object"
+   },
+   {
+    "id": "w-potm2604b",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "10-29",
+  "year": 1826,
+  "text": "James Dunlop discovered NGC 1532, an edge-on barred spiral galaxy in the constellation Eridanus.",
+  "source": {
+   "title": "Wikipedia: NGC 1532",
+   "url": "https://en.wikipedia.org/wiki/NGC_1532"
+  },
+  "photos": [
+   {
+    "id": "n-gemini0502b",
+    "relation": "object"
+   },
+   {
+    "id": "n-noirlab2321d",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "10-30",
+  "year": 2018,
+  "text": "NASA retired the Kepler space telescope after it ran out of fuel. Kepler left a legacy of more than 2,600 planet discoveries outside our solar system.",
+  "source": {
+   "title": "NASA: NASA Retires Kepler Space Telescope, Passes Planet-Hunting Torch",
+   "url": "https://www.nasa.gov/news-release/nasa-retires-kepler-space-telescope-passes-planet-hunting-torch/"
+  },
+  "photos": []
+ },
+ {
+  "date": "10-31",
+  "year": 2005,
+  "text": "Astronomers using the Hubble Space Telescope reported evidence of two possible new moons around Pluto, provisionally named S/2005 P1 and S/2005 P2.",
+  "source": {
+   "title": "NASA Science: NASA's Hubble Reveals Possible New Moons Around Pluto",
+   "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-reveals-possible-new-moons-around-pluto/"
+  },
+  "photos": []
+ }
+]

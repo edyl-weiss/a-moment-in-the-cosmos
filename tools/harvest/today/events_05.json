@@ -1,0 +1,563 @@
+[
+ {
+  "date": "05-01",
+  "year": 1949,
+  "text": "Gerard Kuiper discovered Nereid, a moon of Neptune, on photographic plates taken with the 82-inch telescope at McDonald Observatory.",
+  "source": {
+   "title": "Wikipedia: Nereid (moon)",
+   "url": "https://en.wikipedia.org/wiki/Nereid_(moon)"
+  },
+  "photos": []
+ },
+ {
+  "date": "05-02",
+  "year": 2016,
+  "text": "Astronomers using the TRAPPIST telescope at ESO's La Silla Observatory announced three planets orbiting the ultracool dwarf star TRAPPIST-1, about 40 light-years away.",
+  "source": {
+   "title": "ESO: Three Potentially Habitable Worlds Found Around Nearby Ultracool Dwarf Star (eso1615)",
+   "url": "https://www.eso.org/public/news/eso1615/"
+  },
+  "photos": []
+ },
+ {
+  "date": "05-03",
+  "year": 1764,
+  "text": "Charles Messier logged the globular cluster M3 in Canes Venatici, his first original discovery for his catalogue.",
+  "source": {
+   "title": "SEDS Messier Database: Messier 3",
+   "url": "https://messier.seds.org/m/m003.html"
+  },
+  "photos": [
+   {
+    "id": "h-potw1914a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-m3-kpno-mayall-4-m",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "05-04",
+  "year": 1989,
+  "text": "NASA's Magellan probe was launched from Space Shuttle Atlantis, the first deep space probe launched by a shuttle. It went on to map about 98 percent of the surface of Venus.",
+  "source": {
+   "title": "NASA Science: Magellan",
+   "url": "https://science.nasa.gov/mission/magellan/"
+  },
+  "photos": []
+ },
+ {
+  "date": "05-05",
+  "year": 1702,
+  "text": "Gottfried Kirch and Maria Margarethe Kirch first saw the globular cluster now known as M5 while they were observing a comet.",
+  "source": {
+   "title": "SEDS Messier Database: Messier 5",
+   "url": "https://messier.seds.org/m/m005.html"
+  },
+  "photos": [
+   {
+    "id": "h-potw1416a",
+    "relation": "object"
+   },
+   {
+    "id": "h-potw1118a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-m5",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "05-05",
+  "year": 1779,
+  "text": "Barnaba Oriani discovered the spiral galaxy M61 in Virgo. Charles Messier saw it the same night but mistook it for a comet.",
+  "source": {
+   "title": "Wikipedia: Messier 61",
+   "url": "https://en.wikipedia.org/wiki/Messier_61"
+  },
+  "photos": []
+ },
+ {
+  "date": "05-06",
+  "year": 1872,
+  "text": "Willem de Sitter was born in Sneek, the Netherlands. He built models of the universe from general relativity and proposed that it expands.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Willem de Sitter",
+   "url": "https://www.britannica.com/biography/Willem-de-Sitter"
+  },
+  "photos": []
+ },
+ {
+  "date": "05-07",
+  "year": 2003,
+  "text": "Mercury passed across the face of the Sun. Transits in May are rarer than those in November because they happen about a month after Mercury's aphelion.",
+  "source": {
+   "title": "NASA Eclipse Web Site: Catalog of Transits of Mercury",
+   "url": "https://eclipse.gsfc.nasa.gov/transit/catalog/MercuryCatalog.html"
+  },
+  "photos": []
+ },
+ {
+  "date": "05-08",
+  "year": 1764,
+  "text": "Charles Messier cataloged the globular cluster M4 in Scorpius and was the first to resolve it into a cluster of faint stars.",
+  "source": {
+   "title": "SEDS Messier Database: Messier 4",
+   "url": "https://messier.seds.org/m/m004.html"
+  },
+  "photos": [
+   {
+    "id": "h-potw1236a",
+    "relation": "object"
+   },
+   {
+    "id": "h-opo0210c",
+    "relation": "object"
+   },
+   {
+    "id": "e-eso1235d",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-m4",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "05-09",
+  "year": 2016,
+  "text": "Mercury crossed the face of the Sun in a transit lasting more than seven hours, and NASA's Solar Dynamics Observatory recorded it in near real time.",
+  "source": {
+   "title": "NASA Scientific Visualization Studio: Mercury Transit Live Shots May 9, 2016",
+   "url": "https://svs.gsfc.nasa.gov/12232/"
+  },
+  "photos": []
+ },
+ {
+  "date": "05-10",
+  "year": 1826,
+  "text": "James Dunlop discovered the galaxy NGC 1808 and described it as a faint nebula.",
+  "source": {
+   "title": "Wikipedia: NGC 1808",
+   "url": "https://en.wikipedia.org/wiki/NGC_1808"
+  },
+  "photos": [
+   {
+    "id": "n-iotw2320a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "05-10",
+  "year": 1900,
+  "text": "Cecilia Payne-Gaposchkin was born in Wendover, England. She went on to show that stars are made mostly of hydrogen and helium.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Cecilia Payne-Gaposchkin",
+   "url": "https://www.britannica.com/biography/Cecilia-Payne-Gaposchkin"
+  },
+  "photos": []
+ },
+ {
+  "date": "05-11",
+  "year": 1781,
+  "text": "Pierre Méchain discovered the Sombrero Galaxy, now known as M104, in Virgo.",
+  "source": {
+   "title": "Wikipedia: Sombrero Galaxy",
+   "url": "https://en.wikipedia.org/wiki/Sombrero_Galaxy"
+  },
+  "photos": [
+   {
+    "id": "h-opo0328a",
+    "relation": "object"
+   },
+   {
+    "id": "e-eso0007a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noirlab2612a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "05-11",
+  "year": 2009,
+  "text": "Space Shuttle Atlantis launched on the fifth and final servicing mission to the Hubble Space Telescope, which installed Wide Field Camera 3 and a new ultraviolet spectrograph and repaired two instruments.",
+  "source": {
+   "title": "Wikipedia: STS-125",
+   "url": "https://en.wikipedia.org/wiki/STS-125"
+  },
+  "photos": [
+   {
+    "id": "h-heic1310a",
+    "relation": "telescope"
+   },
+   {
+    "id": "h-heic1608a",
+    "relation": "telescope"
+   },
+   {
+    "id": "h-heic1520a",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "05-12",
+  "year": 2022,
+  "text": "Astronomers of the Event Horizon Telescope collaboration unveiled the first image of Sagittarius A*, the supermassive black hole at the centre of the Milky Way.",
+  "source": {
+   "title": "ESO: Astronomers reveal first image of the black hole at the heart of our galaxy",
+   "url": "https://www.eso.org/public/news/eso2208-eht-mw/"
+  },
+  "photos": [
+   {
+    "id": "h-heic1606a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "05-13",
+  "year": 1826,
+  "text": "James Dunlop discovered the globular cluster NGC 6388 using a 20 cm reflector.",
+  "source": {
+   "title": "Wikipedia: NGC 6388",
+   "url": "https://en.wikipedia.org/wiki/NGC_6388"
+  },
+  "photos": [
+   {
+    "id": "h-heic1221a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "05-13",
+  "year": 1861,
+  "text": "John Tebbutt of Windsor, New South Wales, discovered the Great Comet of 1861 about a month before it reached perihelion.",
+  "source": {
+   "title": "Wikipedia: C/1861 J1 (Great Comet of 1861)",
+   "url": "https://en.wikipedia.org/wiki/C/1861_J1"
+  },
+  "photos": []
+ },
+ {
+  "date": "05-14",
+  "year": 2009,
+  "text": "ESA's Herschel Space Observatory and the Planck spacecraft lifted off together on an Ariane 5 rocket from the Guiana Space Centre in French Guiana.",
+  "source": {
+   "title": "Wikipedia: Herschel Space Observatory",
+   "url": "https://en.wikipedia.org/wiki/Herschel_Space_Observatory"
+  },
+  "photos": []
+ },
+ {
+  "date": "05-14",
+  "year": 2021,
+  "text": "The Dark Energy Spectroscopic Instrument began its five-year main survey on the Nicholas U. Mayall Telescope at Kitt Peak.",
+  "source": {
+   "title": "Wikipedia: Nicholas U. Mayall Telescope",
+   "url": "https://en.wikipedia.org/wiki/Nicholas_U._Mayall_Telescope"
+  },
+  "photos": [
+   {
+    "id": "n-noirlab2112a",
+    "relation": "telescope"
+   },
+   {
+    "id": "n-noao-m13kpno4m",
+    "relation": "telescope"
+   },
+   {
+    "id": "n-iotw2023a",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "05-15",
+  "year": 1857,
+  "text": "Williamina Fleming was born in Dundee, Scotland. At Harvard she classified stellar spectra and found 10 novae, 52 nebulae and hundreds of variable stars.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Williamina Paton Stevens Fleming",
+   "url": "https://www.britannica.com/biography/Williamina-Paton-Stevens-Fleming"
+  },
+  "photos": []
+ },
+ {
+  "date": "05-16",
+  "year": 1925,
+  "text": "Nancy Grace Roman was born in Nashville, Tennessee. Known as the Mother of Hubble, she spent years championing the space telescope and winning its funding.",
+  "source": {
+   "title": "Astronomy: May 16, 1925, The birth of Nancy Grace Roman",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/may-16-1925-the-birth-of-nancy-grace-roman/"
+  },
+  "photos": []
+ },
+ {
+  "date": "05-17",
+  "year": 1836,
+  "text": "Norman Lockyer was born in Rugby, England. With Pierre Janssen he is credited with discovering the gas helium.",
+  "source": {
+   "title": "Wikipedia: Norman Lockyer",
+   "url": "https://en.wikipedia.org/wiki/Norman_Lockyer"
+  },
+  "photos": []
+ },
+ {
+  "date": "05-17",
+  "year": 1882,
+  "text": "Arthur Schuster photographed the sungrazing Comet Tewfik during a total solar eclipse, the first photograph of a comet taken during an eclipse.",
+  "source": {
+   "title": "Astronomy: May 17, 1882, Comet Tewfik is spotted during an eclipse",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/may-17-1882-comet-tewfik-is-spotted-during-an-eclipse/"
+  },
+  "photos": []
+ },
+ {
+  "date": "05-18",
+  "year": 2005,
+  "text": "The Hubble Space Telescope took the second of the discovery images of Nix, a small moon of Pluto found by Max Mutchler and Andrew Steffl of the Pluto Companion Search Team.",
+  "source": {
+   "title": "Wikipedia: Nix (moon)",
+   "url": "https://en.wikipedia.org/wiki/Nix_(moon)"
+  },
+  "photos": []
+ },
+ {
+  "date": "05-19",
+  "year": 2023,
+  "text": "Koichi Itagaki first observed the supernova SN 2023ixf in the Pinwheel Galaxy, M101.",
+  "source": {
+   "title": "Wikipedia: SN 2023ixf",
+   "url": "https://en.wikipedia.org/wiki/SN_2023ixf"
+  },
+  "photos": [
+   {
+    "id": "n-noirlab2315a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "05-20",
+  "year": 1990,
+  "text": "The Hubble Space Telescope took its first image with the Wide Field/Planetary Camera, a view of stars around HD96755 in the open cluster NGC 3532 in Carina.",
+  "source": {
+   "title": "Space.com: Hubble Telescope Opened Its Eyes 25 Years Ago Today",
+   "url": "https://www.space.com/29447-hubble-telescope-first-image-anniversary.html"
+  },
+  "photos": [
+   {
+    "id": "e-eso1439a",
+    "relation": "object"
+   },
+   {
+    "id": "h-heic0305a",
+    "relation": "telescope"
+   },
+   {
+    "id": "h-heic9910a",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "05-21",
+  "year": 1911,
+  "text": "Williamina Fleming died. At Harvard she discovered 10 novae, more than 50 nebulae including the Horsehead Nebula, and the first known white dwarf.",
+  "source": {
+   "title": "Astronomy: May 21, 1911, The death of Williamina Fleming",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/may-21-1911-the-death-of-williamina-fleming/"
+  },
+  "photos": []
+ },
+ {
+  "date": "05-22",
+  "year": 1920,
+  "text": "Thomas Gold was born in Vienna. He helped develop the steady-state theory of the universe.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Thomas Gold",
+   "url": "https://www.britannica.com/biography/Thomas-Gold"
+  },
+  "photos": []
+ },
+ {
+  "date": "05-23",
+  "year": 1764,
+  "text": "Charles Messier independently found the globular cluster M5 in Serpens and described it as a round nebula without stars.",
+  "source": {
+   "title": "SEDS Messier Database: Messier 5",
+   "url": "https://messier.seds.org/m/m005.html"
+  },
+  "photos": [
+   {
+    "id": "h-potw1416a",
+    "relation": "object"
+   },
+   {
+    "id": "h-potw1118a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-m5",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "05-24",
+  "year": 1543,
+  "text": "Nicolaus Copernicus died in Frauenburg, East Prussia, in the year his book proposing that the planets circle the Sun was published.",
+  "source": {
+   "title": "Encyclopaedia Britannica: Nicolaus Copernicus",
+   "url": "https://www.britannica.com/biography/Nicolaus-Copernicus"
+  },
+  "photos": []
+ },
+ {
+  "date": "05-25",
+  "year": 1788,
+  "text": "William Herschel discovered the elliptical galaxy NGC 5982 in Draco.",
+  "source": {
+   "title": "Wikipedia: NGC 5982",
+   "url": "https://en.wikipedia.org/wiki/NGC_5982"
+  },
+  "photos": [
+   {
+    "id": "n-noao-ngc5982",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "05-25",
+  "year": 1998,
+  "text": "The first unit telescope of ESO's Very Large Telescope at Paranal saw first light and returned scientifically useful images on the night of 25 to 26 May.",
+  "source": {
+   "title": "ESO: First light for the VLT (eso9820)",
+   "url": "https://www.eso.org/public/news/eso9820/"
+  },
+  "photos": [
+   {
+    "id": "e-eso0142a",
+    "relation": "telescope"
+   },
+   {
+    "id": "e-potw1044a",
+    "relation": "telescope"
+   },
+   {
+    "id": "e-eso9946a",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "05-26",
+  "year": 2010,
+  "text": "The SOFIA airborne observatory saw first light and returned images of the core of the galaxy M82 and of heat escaping from Jupiter.",
+  "source": {
+   "title": "Wikipedia: Stratospheric Observatory for Infrared Astronomy",
+   "url": "https://en.wikipedia.org/wiki/Stratospheric_Observatory_for_Infrared_Astronomy"
+  },
+  "photos": []
+ },
+ {
+  "date": "05-27",
+  "year": 1933,
+  "text": "Astronomers at Yerkes, Harvard, Allegheny and Urbana observatories used photoelectric cells to turn light from the star Arcturus into current that lit the central building of the Chicago World's Fair.",
+  "source": {
+   "title": "University of Chicago Library: Yerkes Observatory at the Century of Progress 1933 World's Fair",
+   "url": "https://www.lib.uchicago.edu/collex/collections/yerkes-plates/women-at-yerkes/capturing-the-stars-digital-cases/yerkes-observatory-at-the-century-of-progress-1933-worlds-fair/"
+  },
+  "photos": []
+ },
+ {
+  "date": "05-28",
+  "year": 1826,
+  "text": "James Dunlop discovered the spiral galaxy NGC 1566, later known as the Spanish Dancer.",
+  "source": {
+   "title": "Wikipedia: NGC 1566",
+   "url": "https://en.wikipedia.org/wiki/NGC_1566"
+  },
+  "photos": [
+   {
+    "id": "h-potw1422a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noirlab2208a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "05-28",
+  "year": 1930,
+  "text": "Frank Drake was born in Chicago. He devised the Drake equation and led Project Ozma, the first systematic search for radio signals from other civilizations.",
+  "source": {
+   "title": "Wikipedia: Frank Drake",
+   "url": "https://en.wikipedia.org/wiki/Frank_Drake"
+  },
+  "photos": []
+ },
+ {
+  "date": "05-29",
+  "year": 1764,
+  "text": "Charles Messier discovered the globular cluster M10 in Ophiuchus and entered it as number 10 in his list.",
+  "source": {
+   "title": "SEDS Messier Database: Messier 10",
+   "url": "https://messier.seds.org/m/m010.html"
+  },
+  "photos": [
+   {
+    "id": "n-noao-m10",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "05-29",
+  "year": 1919,
+  "text": "Expeditions to Principe and Sobral in Brazil observed a total solar eclipse to test Einstein's prediction that the Sun's gravity bends starlight.",
+  "source": {
+   "title": "Wikipedia: Eddington experiment",
+   "url": "https://en.wikipedia.org/wiki/Eddington_experiment"
+  },
+  "photos": []
+ },
+ {
+  "date": "05-30",
+  "year": 1764,
+  "text": "Charles Messier discovered the globular cluster M12 in Ophiuchus and described it as a nebula without stars.",
+  "source": {
+   "title": "Wikipedia: Messier 12",
+   "url": "https://en.wikipedia.org/wiki/Messier_12"
+  },
+  "photos": [
+   {
+    "id": "h-potw1113a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "05-31",
+  "year": 1912,
+  "text": "Martin Schwarzschild was born in Potsdam. He studied stellar structure and red giants and led the Stratoscope balloon telescope projects.",
+  "source": {
+   "title": "Wikipedia: Martin Schwarzschild",
+   "url": "https://en.wikipedia.org/wiki/Martin_Schwarzschild"
+  },
+  "photos": []
+ }
+]

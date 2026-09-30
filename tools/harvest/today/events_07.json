@@ -1,0 +1,485 @@
+[
+ {
+  "date": "07-01",
+  "year": 2023,
+  "text": "ESA's Euclid space telescope launched on a SpaceX Falcon 9 rocket from Cape Canaveral, Florida.",
+  "source": {
+   "title": "ESA: Euclid",
+   "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-02",
+  "year": 1985,
+  "text": "ESA launched the Giotto probe on an Ariane 1 rocket from Kourou, French Guiana. It flew past Halley's Comet the following March at a distance of 596 km.",
+  "source": {
+   "title": "Wikipedia: Giotto (spacecraft)",
+   "url": "https://en.wikipedia.org/wiki/Giotto_(spacecraft)"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-03",
+  "year": 2002,
+  "text": "NASA launched the CONTOUR probe to visit comets Encke and Schwassmann-Wachmann 3. The spacecraft was lost during an engine burn the following month.",
+  "source": {
+   "title": "Wikipedia: CONTOUR",
+   "url": "https://en.wikipedia.org/wiki/CONTOUR"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-04",
+  "year": 1868,
+  "text": "Henrietta Swan Leavitt was born. She discovered the relation between the luminosity and the period of Cepheid variable stars, which gave astronomers a way to measure distances to faraway galaxies.",
+  "source": {
+   "title": "Wikipedia: Henrietta Swan Leavitt",
+   "url": "https://en.wikipedia.org/wiki/Henrietta_Swan_Leavitt"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-04",
+  "year": 2005,
+  "text": "The impactor released by NASA's Deep Impact spacecraft struck Comet Tempel 1.",
+  "source": {
+   "title": "Wikipedia: Deep Impact (spacecraft)",
+   "url": "https://en.wikipedia.org/wiki/Deep_Impact_(spacecraft)"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-05",
+  "year": 1687,
+  "text": "Isaac Newton's Philosophiae Naturalis Principia Mathematica was published. The Latin work, financed by Edmond Halley, set out laws of motion that explained both earthly and celestial physics.",
+  "source": {
+   "title": "Astronomy: July 5, 1687, Newton's Principia is published",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/july-5-1687-newtons-principia-is-published/"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-06",
+  "year": 1982,
+  "text": "The longest total lunar eclipse of the 20th century took place, with totality lasting 1 hour 45 minutes. It was visible from Australia, the Pacific, the Americas and western Africa.",
+  "source": {
+   "title": "Astronomy: July 6, 1982, The longest total lunar eclipse of the century",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/july-6-1982-the-longest-lunar-eclipse-of-the-century/"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-07",
+  "year": 2003,
+  "text": "NASA launched the Opportunity rover to Mars. It found geological and mineral evidence that Mars once had water and kept working until 2018.",
+  "source": {
+   "title": "Astronomy: July 7, 2003, Opportunity launches",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/july-7-2003-opportunity-launches/"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-08",
+  "year": 1695,
+  "text": "Christiaan Huygens died in The Hague. He identified Saturn's moon Titan and explained the planet's odd appearance as a thin, flat ring.",
+  "source": {
+   "title": "Wikipedia: Christiaan Huygens",
+   "url": "https://en.wikipedia.org/wiki/Christiaan_Huygens"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-09",
+  "year": 1979,
+  "text": "Voyager 2 made its closest approach to Jupiter.",
+  "source": {
+   "title": "Wikipedia: Voyager 2",
+   "url": "https://en.wikipedia.org/wiki/Voyager_2"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-10",
+  "year": 1910,
+  "text": "Johann Gottfried Galle died in Potsdam at 98. In 1846 he was the first person to see and identify the planet Neptune.",
+  "source": {
+   "title": "Wikipedia: Johann Gottfried Galle",
+   "url": "https://en.wikipedia.org/wiki/Johann_Gottfried_Galle"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-10",
+  "year": 2005,
+  "text": "Japan launched the X-ray astronomy satellite Suzaku on an M-V rocket from the Uchinoura Space Center.",
+  "source": {
+   "title": "Wikipedia: Suzaku (satellite)",
+   "url": "https://en.wikipedia.org/wiki/Suzaku_(satellite)"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-11",
+  "year": 1991,
+  "text": "A total solar eclipse crossed Mexico with totality lasting up to 6 minutes and 53 seconds. No longer total eclipse will occur until 2132.",
+  "source": {
+   "title": "Wikipedia: Solar eclipse of July 11, 1991",
+   "url": "https://en.wikipedia.org/wiki/Solar_eclipse_of_July_11,_1991"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-11",
+  "year": 2022,
+  "text": "U.S. President Joe Biden unveiled Webb's First Deep Field, the first full false-colour image from the James Webb Space Telescope.",
+  "source": {
+   "title": "Wikipedia: Webb's First Deep Field",
+   "url": "https://en.wikipedia.org/wiki/Webb%27s_First_Deep_Field"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-12",
+  "year": 1764,
+  "text": "Charles Messier discovered the Dumbbell Nebula in Vulpecula, the first planetary nebula ever found. It became number 27 in his catalogue.",
+  "source": {
+   "title": "Messier-objects.com: Messier 27, Dumbbell Nebula",
+   "url": "https://www.messier-objects.com/messier-27-dumbbell-nebula/"
+  },
+  "photos": [
+   {
+    "id": "n-noao-m27metcalf",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-02184",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "07-12",
+  "year": 2022,
+  "text": "The first full-colour images from the James Webb Space Telescope were released, including the Carina Nebula, Stephan's Quintet, the Southern Ring Nebula and the galaxy cluster SMACS 0723.",
+  "source": {
+   "title": "ESA/Webb: Webb's First Images",
+   "url": "https://esawebb.org/initiatives/webbs-first-images/"
+  },
+  "photos": [
+   {
+    "id": "weic2205a",
+    "relation": "object"
+   },
+   {
+    "id": "weic2208a",
+    "relation": "object"
+   },
+   {
+    "id": "w-weic2207b",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "07-13",
+  "year": 2007,
+  "text": "The Gran Telescopio Canarias began its first observations at Roque de los Muchachos Observatory on La Palma, using 12 segments of its 10.4-metre primary mirror.",
+  "source": {
+   "title": "Wikipedia: Gran Telescopio Canarias",
+   "url": "https://en.wikipedia.org/wiki/Gran_Telescopio_Canarias"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-13",
+  "year": 2019,
+  "text": "The Spektr-RG X-ray observatory launched on a Proton-M rocket from Baikonur, carrying the German eROSITA telescope and the Russian ART-XC telescope.",
+  "source": {
+   "title": "Wikipedia: Spektr-RG",
+   "url": "https://en.wikipedia.org/wiki/Spektr-RG"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-14",
+  "year": 2015,
+  "text": "NASA's New Horizons spacecraft made its closest approach to Pluto, passing 12,472 km from the surface.",
+  "source": {
+   "title": "Wikipedia: New Horizons",
+   "url": "https://en.wikipedia.org/wiki/New_Horizons"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-15",
+  "year": 1943,
+  "text": "Jocelyn Bell Burnell was born. As a doctoral student at Cambridge in 1967 she discovered the first pulsars.",
+  "source": {
+   "title": "Wikipedia: Jocelyn Bell Burnell",
+   "url": "https://en.wikipedia.org/wiki/Jocelyn_Bell_Burnell"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-16",
+  "year": 1862,
+  "text": "Lewis Swift discovered the comet later named Swift-Tuttle, the parent body of the Perseid meteor shower. Horace Tuttle found it independently three days later.",
+  "source": {
+   "title": "Wikipedia: Comet Swift-Tuttle",
+   "url": "https://en.wikipedia.org/wiki/Comet_Swift%E2%80%93Tuttle"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-16",
+  "year": 1994,
+  "text": "Fragment A of Comet Shoemaker-Levy 9 struck Jupiter's southern hemisphere, the first of a series of impacts that continued until July 22.",
+  "source": {
+   "title": "Wikipedia: Comet Shoemaker-Levy 9",
+   "url": "https://en.wikipedia.org/wiki/Comet_Shoemaker%E2%80%93Levy_9"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-17",
+  "year": 1850,
+  "text": "William Bond and John Adams Whipple photographed Vega at Harvard College Observatory with a daguerreotype, making it the first star other than the Sun to be photographed.",
+  "source": {
+   "title": "Wikipedia: Vega",
+   "url": "https://en.wikipedia.org/wiki/Vega"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-18",
+  "year": 1997,
+  "text": "Eugene Shoemaker, co-discoverer of Comet Shoemaker-Levy 9, died in a car crash in central Australia while searching for impact craters.",
+  "source": {
+   "title": "Wikipedia: Eugene Merle Shoemaker",
+   "url": "https://en.wikipedia.org/wiki/Eugene_Merle_Shoemaker"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-19",
+  "year": 1846,
+  "text": "Edward Charles Pickering was born. He directed Harvard College Observatory from 1877 until his death in 1919.",
+  "source": {
+   "title": "Wikipedia: Edward Charles Pickering",
+   "url": "https://en.wikipedia.org/wiki/Edward_Charles_Pickering"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-19",
+  "year": 2013,
+  "text": "NASA's Cassini spacecraft imaged Saturn and most of its rings, with Earth and the Moon showing as distant pale dots. The picture became known as The Day the Earth Smiled.",
+  "source": {
+   "title": "Wikipedia: The Day the Earth Smiled",
+   "url": "https://en.wikipedia.org/wiki/The_Day_the_Earth_Smiled"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-20",
+  "year": 1976,
+  "text": "The Viking 1 lander touched down in Chryse Planitia, the first successful landing on Mars.",
+  "source": {
+   "title": "Wikipedia: Viking 1",
+   "url": "https://en.wikipedia.org/wiki/Viking_1"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-21",
+  "year": 1620,
+  "text": "Jean Picard was born in La Flèche, France. He is best known for measuring the size of the Earth by surveying one degree of latitude along the Paris Meridian.",
+  "source": {
+   "title": "Wikipedia: Jean Picard",
+   "url": "https://en.wikipedia.org/wiki/Jean_Picard"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-22",
+  "year": 1784,
+  "text": "Friedrich Wilhelm Bessel was born. In 1838 he published a parallax for the star 61 Cygni, making him the first astronomer to determine a reliable distance to a star.",
+  "source": {
+   "title": "Wikipedia: Friedrich Bessel",
+   "url": "https://en.wikipedia.org/wiki/Friedrich_Bessel"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-22",
+  "year": 2009,
+  "text": "The longest total solar eclipse of the 21st century crossed India, China and the Pacific, with totality lasting up to 6 minutes and 38 seconds.",
+  "source": {
+   "title": "Wikipedia: Solar eclipse of July 22, 2009",
+   "url": "https://en.wikipedia.org/wiki/Solar_eclipse_of_July_22,_2009"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-23",
+  "year": 1928,
+  "text": "Vera Rubin was born in Philadelphia. Her measurements of how fast galaxies rotate provided evidence for dark matter.",
+  "source": {
+   "title": "Wikipedia: Vera Rubin",
+   "url": "https://en.wikipedia.org/wiki/Vera_Rubin"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-23",
+  "year": 1995,
+  "text": "Alan Hale and Thomas Bopp independently discovered Comet Hale-Bopp, Hale from his driveway in New Mexico and Bopp near Phoenix, Arizona.",
+  "source": {
+   "title": "Wikipedia: Comet Hale-Bopp",
+   "url": "https://en.wikipedia.org/wiki/Comet_Hale%E2%80%93Bopp"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-23",
+  "year": 1999,
+  "text": "NASA launched the Chandra X-ray Observatory, which became the agency's flagship mission for X-ray astronomy.",
+  "source": {
+   "title": "Chandra X-ray Observatory: About Chandra",
+   "url": "https://chandra.harvard.edu/about/"
+  },
+  "photos": [
+   {
+    "id": "e-eso0903a",
+    "relation": "telescope"
+   },
+   {
+    "id": "e-potw1709a",
+    "relation": "telescope"
+   },
+   {
+    "id": "h-ngc602",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "07-24",
+  "year": 1778,
+  "text": "Charles Messier discovered the globular cluster Messier 54 in Sagittarius.",
+  "source": {
+   "title": "Messier-objects.com: Messier 54",
+   "url": "https://www.messier-objects.com/messier-54/"
+  },
+  "photos": [
+   {
+    "id": "h-potw1145a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-m54",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "07-25",
+  "year": 1920,
+  "text": "Chushiro Hayashi was born. His models of how stars form identified the Hayashi phase, a stage when a newborn star is extremely bright and active.",
+  "source": {
+   "title": "Astronomy: July 25, 1920, The birth of Chushiro Hayashi",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/july-25-1920-the-birth-of-chushiro-hayashi/"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-26",
+  "year": 2000,
+  "text": "Comet LINEAR, C/1999 S4, began to break apart. The fragmentation continued through mid-August until nothing of the comet remained visible.",
+  "source": {
+   "title": "Astronomy: July 26, 2000, Comet LINEAR disintegrates",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/july-26-2000-comet-linear-disintegrates/"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-27",
+  "year": 1764,
+  "text": "Charles Messier discovered the globular cluster Messier 28 in the upper part of the bow of Sagittarius.",
+  "source": {
+   "title": "Messier-objects.com: Messier 28",
+   "url": "https://www.messier-objects.com/messier-28/"
+  },
+  "photos": [
+   {
+    "id": "h-potw1910a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-m28",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "07-27",
+  "year": 1801,
+  "text": "George Biddell Airy was born. He served as Astronomer Royal from 1835 to 1881.",
+  "source": {
+   "title": "Wikipedia: George Biddell Airy",
+   "url": "https://en.wikipedia.org/wiki/George_Biddell_Airy"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-28",
+  "year": 1851,
+  "text": "Julius Berkowski photographed a total solar eclipse from the Royal Observatory in Königsberg, Prussia. His 84-second daguerreotype was the earliest scientifically useful photograph of a total eclipse.",
+  "source": {
+   "title": "Wikipedia: Solar eclipse of July 28, 1851",
+   "url": "https://en.wikipedia.org/wiki/Solar_eclipse_of_July_28,_1851"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-29",
+  "year": 1878,
+  "text": "A total solar eclipse crossed the western United States. Many leading astronomers observed it from high in the Rocky Mountains, including Pikes Peak in Colorado.",
+  "source": {
+   "title": "Wikipedia: Solar eclipse of July 29, 1878",
+   "url": "https://en.wikipedia.org/wiki/Solar_eclipse_of_July_29,_1878"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-29",
+  "year": 2005,
+  "text": "Mike Brown, Chad Trujillo and David Rabinowitz announced the discovery of the dwarf planet now named Eris, found in images taken with the Samuel Oschin telescope at Palomar Observatory.",
+  "source": {
+   "title": "Wikipedia: Eris (dwarf planet)",
+   "url": "https://en.wikipedia.org/wiki/Eris_(dwarf_planet)"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-30",
+  "year": 1610,
+  "text": "Galileo Galilei observed Saturn with a telescope and thought the planet had two moons, one on either side. He was actually seeing its rings.",
+  "source": {
+   "title": "Astronomy: July 30, 1610, Galileo sees Saturn's rings",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/july-30-1610-galileo-sees-saturns-rings/"
+  },
+  "photos": []
+ },
+ {
+  "date": "07-31",
+  "year": 1964,
+  "text": "Ranger 7 crashed into the Moon as planned after sending back more than 4,300 photographs in the last 17 minutes of its flight. The final frames showed features about half a metre across.",
+  "source": {
+   "title": "Wikipedia: Ranger 7",
+   "url": "https://en.wikipedia.org/wiki/Ranger_7"
+  },
+  "photos": []
+ }
+]

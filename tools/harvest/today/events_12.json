@@ -1,0 +1,462 @@
+[
+ {
+  "date": "12-01",
+  "year": 2020,
+  "text": "The receiver platform of the Arecibo Telescope in Puerto Rico collapsed into the dish after a second main cable from one of its towers failed.",
+  "source": {
+   "title": "Wikipedia: Arecibo Telescope",
+   "url": "https://en.wikipedia.org/wiki/Arecibo_Telescope"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-02",
+  "year": 1993,
+  "text": "Space Shuttle Endeavour launched from Kennedy Space Center on STS-61, the first servicing mission to the Hubble Space Telescope.",
+  "source": {
+   "title": "Wikipedia: STS-61",
+   "url": "https://en.wikipedia.org/wiki/STS-61"
+  },
+  "photos": [
+   {
+    "id": "h-heic1501a",
+    "relation": "telescope"
+   },
+   {
+    "id": "h-heic0601a",
+    "relation": "telescope"
+   },
+   {
+    "id": "h-heic1502a",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "12-03",
+  "year": 1973,
+  "text": "NASA's Pioneer 10 made its closest approach to Jupiter, completing the first mission to the planet.",
+  "source": {
+   "title": "Wikipedia: Pioneer 10",
+   "url": "https://en.wikipedia.org/wiki/Pioneer_10"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-04",
+  "year": 1639,
+  "text": "Jeremiah Horrocks observed Venus crossing the face of the Sun from Much Hoole in England. The source gives the date as 24 November in the Julian calendar and 4 December in the Gregorian calendar.",
+  "source": {
+   "title": "Wikipedia: Jeremiah Horrocks",
+   "url": "https://en.wikipedia.org/wiki/Jeremiah_Horrocks"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-05",
+  "year": 2011,
+  "text": "Astronomers announced Kepler-22b, the first known transiting planet found orbiting in the habitable zone of a Sun-like star.",
+  "source": {
+   "title": "Wikipedia: Kepler-22b",
+   "url": "https://en.wikipedia.org/wiki/Kepler-22b"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-06",
+  "year": 1882,
+  "text": "Venus crossed the face of the Sun in the second and last transit of the 19th century, observed by expeditions sent out by several nations.",
+  "source": {
+   "title": "Wikipedia: Transit of Venus, 1882",
+   "url": "https://en.wikipedia.org/wiki/Transit_of_Venus,_1882"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-07",
+  "year": 1905,
+  "text": "Gerard Kuiper was born in Tuitjenhorn in the Netherlands. He discovered Miranda, a moon of Uranus, and Nereid, a moon of Neptune.",
+  "source": {
+   "title": "Wikipedia: Gerard Kuiper",
+   "url": "https://en.wikipedia.org/wiki/Gerard_Kuiper"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-07",
+  "year": 1995,
+  "text": "NASA's Galileo spacecraft arrived at Jupiter after gravity assist flybys of Venus and Earth.",
+  "source": {
+   "title": "Wikipedia: Galileo project",
+   "url": "https://en.wikipedia.org/wiki/Galileo_Probe"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-08",
+  "year": 1990,
+  "text": "NASA's Galileo spacecraft made its first flyby of Earth on its way to Jupiter, passing 960 kilometres above the surface.",
+  "source": {
+   "title": "Astronomy: Dec. 8, 1990 & 1992, Galileo flies by Earth (twice)",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/dec-8-1990-1992-galileo-flies-by-earth-twice/"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-09",
+  "year": 1874,
+  "text": "Venus passed across the Sun in the first of the two transits of the 19th century. Nations sent expeditions around the world to time it and measure the astronomical unit.",
+  "source": {
+   "title": "Wikipedia: Transit of Venus, 1874",
+   "url": "https://en.wikipedia.org/wiki/Transit_of_Venus,_1874"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-10",
+  "year": 1999,
+  "text": "The European Space Agency launched the X-ray observatory XMM-Newton on an Ariane 5 rocket from the Guiana Space Centre.",
+  "source": {
+   "title": "Wikipedia: XMM-Newton",
+   "url": "https://en.wikipedia.org/wiki/XMM-Newton"
+  },
+  "photos": [
+   {
+    "id": "e-eso0834a",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "12-11",
+  "year": 1863,
+  "text": "Annie Jump Cannon was born in Dover, Delaware. She developed the Harvard scheme for classifying stars by their spectra and classified about 350,000 stars herself.",
+  "source": {
+   "title": "Wikipedia: Annie Jump Cannon",
+   "url": "https://en.wikipedia.org/wiki/Annie_Jump_Cannon"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-11",
+  "year": 2009,
+  "text": "ESO released the first pictures from VISTA, its new infrared survey telescope at Paranal Observatory, after formally accepting the telescope the day before.",
+  "source": {
+   "title": "ESO: VISTA, pioneering new survey telescope starts work (eso0949)",
+   "url": "https://www.eso.org/public/news/eso0949/"
+  },
+  "photos": [
+   {
+    "id": "e-eso1006a",
+    "relation": "telescope"
+   },
+   {
+    "id": "e-eso1039a",
+    "relation": "telescope"
+   },
+   {
+    "id": "e-eso2503a",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "12-12",
+  "year": 1921,
+  "text": "Henrietta Swan Leavitt died in Cambridge, Massachusetts. Her period-luminosity relation for Cepheid variable stars gave astronomers a way to measure distances far beyond the reach of parallax.",
+  "source": {
+   "title": "Wikipedia: Henrietta Swan Leavitt",
+   "url": "https://en.wikipedia.org/wiki/Henrietta_Swan_Leavitt"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-12",
+  "year": 1970,
+  "text": "Uhuru, the first satellite launched specifically for X-ray astronomy, lifted off from the San Marco platform off the coast of Kenya.",
+  "source": {
+   "title": "Wikipedia: Uhuru (satellite)",
+   "url": "https://en.wikipedia.org/wiki/Uhuru_(satellite)"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-13",
+  "year": 1920,
+  "text": "Albert Michelson and Francis Pease measured the angular diameter of Betelgeuse with an interferometer on the 2.5-metre telescope at Mount Wilson, the first such measurement for a star outside the Solar System.",
+  "source": {
+   "title": "Wikipedia: Betelgeuse",
+   "url": "https://en.wikipedia.org/wiki/Betelgeuse"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-13",
+  "year": 1934,
+  "text": "J. P. M. Prentice discovered Nova Herculis 1934, now known as DQ Herculis, from Stowmarket in Suffolk.",
+  "source": {
+   "title": "Wikipedia: Nova Herculis 1934",
+   "url": "https://en.wikipedia.org/wiki/Nova_Herculis_1934"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-14",
+  "year": 1546,
+  "text": "Tycho Brahe, the Danish astronomer, was born.",
+  "source": {
+   "title": "Wikipedia: Tycho Brahe",
+   "url": "https://en.wikipedia.org/wiki/Tycho_Brahe"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-14",
+  "year": 2009,
+  "text": "NASA's Wide-field Infrared Survey Explorer (WISE) launched on a Delta II rocket.",
+  "source": {
+   "title": "Wikipedia: Wide-field Infrared Survey Explorer",
+   "url": "https://en.wikipedia.org/wiki/Wide-field_Infrared_Survey_Explorer"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-15",
+  "year": 1966,
+  "text": "Audouin Dollfus identified Janus, a small inner moon of Saturn, which received the temporary designation S/1966 S 2.",
+  "source": {
+   "title": "Wikipedia: Janus (moon)",
+   "url": "https://en.wikipedia.org/wiki/Janus_(moon)"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-16",
+  "year": 1857,
+  "text": "Edward Emerson Barnard was born in Nashville, Tennessee. He discovered Jupiter's moon Amalthea and photographed and catalogued the dark nebulae of the Milky Way.",
+  "source": {
+   "title": "Wikipedia: Edward Emerson Barnard",
+   "url": "https://en.wikipedia.org/wiki/Edward_Emerson_Barnard"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-17",
+  "year": 2017,
+  "text": "The Arecibo Observatory captured radar images of the asteroid 3200 Phaethon during its flyby. The images showed a spheroidal shape and a depression near its equator.",
+  "source": {
+   "title": "Astronomy: Dec. 17, 2017, Arecibo images a near-Earth asteroid",
+   "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/dec-17-2017-arecibo-images-a-near-earth-asteroid/"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-18",
+  "year": 1995,
+  "text": "The Hubble Space Telescope began ten days of observations of a small patch of sky, taking 342 images that became the Hubble Deep Field.",
+  "source": {
+   "title": "Wikipedia: Hubble Deep Field",
+   "url": "https://en.wikipedia.org/wiki/Hubble_Deep_Field"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-19",
+  "year": 2013,
+  "text": "ESA's Gaia spacecraft launched on a Soyuz rocket from Kourou in French Guiana.",
+  "source": {
+   "title": "Wikipedia: Gaia (spacecraft)",
+   "url": "https://en.wikipedia.org/wiki/Gaia_(spacecraft)"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-20",
+  "year": 1996,
+  "text": "Carl Sagan died in Seattle at the age of 62.",
+  "source": {
+   "title": "Wikipedia: Carl Sagan",
+   "url": "https://en.wikipedia.org/wiki/Carl_Sagan"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-21",
+  "year": 2020,
+  "text": "Jupiter and Saturn passed within 6 arcminutes of each other in a great conjunction, the closest pairing of the two planets since 1623.",
+  "source": {
+   "title": "Wikipedia: Great conjunction",
+   "url": "https://en.wikipedia.org/wiki/Great_conjunction"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-22",
+  "year": 1891,
+  "text": "Max Wolf discovered the asteroid 323 Brucia, the first asteroid found by photography.",
+  "source": {
+   "title": "Wikipedia: 323 Brucia",
+   "url": "https://en.wikipedia.org/wiki/323_Brucia"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-23",
+  "year": 1672,
+  "text": "Giovanni Domenico Cassini discovered Rhea, a moon of Saturn, using a 10.4-metre telescope made by Giuseppe Campani.",
+  "source": {
+   "title": "Wikipedia: Rhea (moon)",
+   "url": "https://en.wikipedia.org/wiki/Rhea_(moon)"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-24",
+  "year": 1968,
+  "text": "Astronaut William Anders photographed the Earth rising over the Moon from lunar orbit during Apollo 8. The picture became known as Earthrise.",
+  "source": {
+   "title": "Wikipedia: Earthrise",
+   "url": "https://en.wikipedia.org/wiki/Earthrise"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-25",
+  "year": 1758,
+  "text": "Johann Georg Palitzsch, a German farmer and amateur astronomer, sighted the returning Halley's Comet, confirming Edmond Halley's prediction.",
+  "source": {
+   "title": "Wikipedia: Halley's Comet",
+   "url": "https://en.wikipedia.org/wiki/Halley%27s_Comet"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-25",
+  "year": 2016,
+  "text": "Vera Rubin died in Princeton, New Jersey. Her measurements of how fast galaxies rotate gave strong evidence for dark matter.",
+  "source": {
+   "title": "Wikipedia: Vera Rubin",
+   "url": "https://en.wikipedia.org/wiki/Vera_Rubin"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-25",
+  "year": 2021,
+  "text": "The James Webb Space Telescope launched on an Ariane 5 rocket from the Guiana Space Centre in French Guiana.",
+  "source": {
+   "title": "Wikipedia: James Webb Space Telescope",
+   "url": "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope"
+  },
+  "photos": [
+   {
+    "id": "w-weic2207b",
+    "relation": "telescope"
+   },
+   {
+    "id": "w-weic2211a",
+    "relation": "telescope"
+   },
+   {
+    "id": "w-weic2417a",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "12-26",
+  "year": 1783,
+  "text": "William Herschel made the first recorded observation of NGC 2261, the nebula later known as Hubble's Variable Nebula.",
+  "source": {
+   "title": "Wikipedia: NGC 2261",
+   "url": "https://en.wikipedia.org/wiki/NGC_2261"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-27",
+  "year": 1571,
+  "text": "Johannes Kepler was born in Weil der Stadt, Württemberg, in Germany.",
+  "source": {
+   "title": "Britannica: Johannes Kepler",
+   "url": "https://www.britannica.com/biography/Johannes-Kepler"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-28",
+  "year": 1612,
+  "text": "Galileo observed and drew Neptune while watching Jupiter, but he took it for a fixed star.",
+  "source": {
+   "title": "Wikipedia: Discovery of Neptune",
+   "url": "https://en.wikipedia.org/wiki/Discovery_of_Neptune"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-28",
+  "year": 1882,
+  "text": "Arthur Eddington was born in Kendal, England. He led the 1919 eclipse expedition to Príncipe that tested Einstein's theory of general relativity.",
+  "source": {
+   "title": "Wikipedia: Arthur Eddington",
+   "url": "https://en.wikipedia.org/wiki/Arthur_Eddington"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-29",
+  "year": 1888,
+  "text": "Isaac Roberts photographed the Andromeda nebula with his 20-inch reflecting telescope, and the plate showed its spiral structure.",
+  "source": {
+   "title": "Wikipedia: Isaac Roberts",
+   "url": "https://en.wikipedia.org/wiki/Isaac_Roberts"
+  },
+  "photos": [
+   {
+    "id": "h-heic1502a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao0001a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-m31fsqblock",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-ngc206",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "12-30",
+  "year": 1934,
+  "text": "John N. Bahcall was born in Shreveport, Louisiana. He worked for decades on the solar neutrino problem and helped develop the Hubble Space Telescope with Lyman Spitzer Jr.",
+  "source": {
+   "title": "Wikipedia: John N. Bahcall",
+   "url": "https://en.wikipedia.org/wiki/John_N._Bahcall"
+  },
+  "photos": []
+ },
+ {
+  "date": "12-31",
+  "year": 1774,
+  "text": "Johann Elert Bode discovered the spiral galaxy M81.",
+  "source": {
+   "title": "Wikipedia: Messier 81",
+   "url": "https://en.wikipedia.org/wiki/Messier_81"
+  },
+  "photos": [
+   {
+    "id": "h-opo1438b",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-m81m82",
+    "relation": "object"
+   }
+  ]
+ }
+]

@@ -9,9 +9,9 @@ import json, re, glob, sys, collections, os
 SITE = sys.argv[1] if len(sys.argv) > 1 else '/home/claude/cosmos-v2'
 OUT = os.path.join(SITE, 'src/data/collection')
 PFX = {'hubble': 'h-', 'webb': 'w-', 'eso': 'e-', 'noirlab': 'n-'}
-EXTRA = [f for f in ['noirlab_final.json'] if os.path.exists(f)]   # later harvests, same raw shape
+EXTRA = [f for f in ['noirlab_final.json', 'final3.json', 'final4.json', 'final5.json'] if os.path.exists(f)]   # later harvests, same raw shape
 RAW = json.load(open('final2.json')) + [o for f in EXTRA for o in json.load(open(f))]
-recs = {r['id']: r for f in ['records.json', 'records_noirlab.json'] if os.path.exists(f) for r in json.load(open(f))}
+recs = {r['id']: r for f in ['records.json', 'records_noirlab.json', 'records_extra.json', 'records_extra2.json', 'records_noirlab2.json', 'records_extra3.json', 'records_noirlab3.json'] if os.path.exists(f) for r in json.load(open(f))}
 raw = {PFX[o['org']] + o['id']: o for o in RAW}
 stories = {}
 for f in sorted(glob.glob('stories/batch*.json')):
@@ -144,3 +144,33 @@ js = ('/* Daily schedule: category rotation + per-category order.\n'
       'export const SCHEDULE = ' + json.dumps({'launch': '2026-09-29', 'categoryOrder': ['nebula', 'galaxy', 'night', 'star'], 'order': order}, indent=2) + ';\n')
 open(os.path.join(SITE, 'src/data/schedule.js'), 'w').write(js)
 print('exported', len(exported), collections.Counter(p['cat'] for p in exported), 'skipped', dict(skipped))
+
+# "On this day": photographs grouped by the calendar day the source published them, plus researched
+# events (today/events_MM.json, each verified against a fetched source page) keyed the same way.
+MONTHS = 'January February March April May June July August September October November December'.split()
+
+
+def month_day(date):
+    m = re.match(r'(\d{1,2}) (\w+) (\d{4})', date or '')
+    return (f'{MONTHS.index(m.group(2)) + 1:02d}-{int(m.group(1)):02d}', int(m.group(3))) if m and m.group(2) in MONTHS else (None, None)
+
+
+import subprocess
+curated = json.loads(subprocess.run(['node', '-e', "import('" + os.path.join(SITE, 'src/data/catalog.js') +
+                                     "').then(m=>console.log(JSON.stringify(m.CATALOG.map(c=>[c.id,c.releaseDate]))))"],
+                                    capture_output=True, text=True, check=True).stdout)
+days = collections.defaultdict(lambda: {'published': [], 'events': []})
+for pid, rel in curated + [[p['id'], p['releaseDate']] for p in exported]:
+    k, y = month_day(rel)
+    if k: days[k]['published'].append([y, pid])
+known = {c[0] for c in curated} | {p['id'] for p in exported}
+for f in sorted(glob.glob(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'today', 'events_*.json'))):
+    for e in json.load(open(f)):
+        photos = [[p['id'], p['relation']] for p in e.get('photos', []) if p['id'] in known]
+        days[e['date']]['events'].append({'year': e['year'], 'text': e['text'], 'source': [e['source']['title'], e['source']['url']], 'photos': photos})
+for d in days.values():
+    d['published'].sort(reverse=True)
+    d['events'].sort(key=lambda e: e['year'])
+json.dump(dict(sorted(days.items())), open(os.path.join(SITE, 'src/data/onthisday.json'), 'w'), ensure_ascii=False, separators=(',', ':'))
+short = [k for k, d in days.items() if len(d['published']) < 3]
+print('on this day:', len(days), 'days,', sum(len(d['events']) for d in days.values()), 'events; days under 3 photos:', len(short))

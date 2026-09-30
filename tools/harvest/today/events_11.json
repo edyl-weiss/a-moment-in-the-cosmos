@@ -1,0 +1,531 @@
+[
+ {
+  "date": "11-01",
+  "year": 1963,
+  "text": "The Arecibo radio telescope in Puerto Rico held its official opening as the Arecibo Ionospheric Observatory.",
+  "source": {
+   "title": "Wikipedia: Arecibo Telescope",
+   "url": "https://en.wikipedia.org/wiki/Arecibo_Telescope"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-02",
+  "year": 1885,
+  "text": "Harlow Shapley was born in Nashville, Missouri. He used Cepheid variables in globular clusters to show that the Milky Way was far larger than thought and that the Sun sits far from its center.",
+  "source": {
+   "title": "Wikipedia: Harlow Shapley",
+   "url": "https://en.wikipedia.org/wiki/Harlow_Shapley"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-03",
+  "year": 1787,
+  "text": "William Herschel discovered NGC 7635, the Bubble Nebula in Cassiopeia.",
+  "source": {
+   "title": "Courtney Seligman: NGC 7600 - 7649",
+   "url": "https://cseligman.com/text/atlas/ngc76.htm"
+  },
+  "photos": [
+   {
+    "id": "h-heic1608a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "11-04",
+  "year": 2010,
+  "text": "NASA's EPOXI mission flew past comet Hartley 2, coming within about 694 kilometres of it.",
+  "source": {
+   "title": "Wikipedia: EPOXI",
+   "url": "https://en.wikipedia.org/wiki/EPOXI"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-05",
+  "year": 1826,
+  "text": "James Dunlop discovered the galaxy NGC 1672.",
+  "source": {
+   "title": "Courtney Seligman: NGC 1650 - 1699",
+   "url": "https://cseligman.com/text/atlas/ngc16a.htm"
+  },
+  "photos": [
+   {
+    "id": "h-heic0706a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "11-05",
+  "year": 1906,
+  "text": "Fred Whipple was born in Red Oak, Iowa. His 1950 icy conglomerate model, known as the dirty snowball, changed how astronomers understood comets.",
+  "source": {
+   "title": "Wikipedia: Fred Lawrence Whipple",
+   "url": "https://en.wikipedia.org/wiki/Fred_Lawrence_Whipple"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-06",
+  "year": 1826,
+  "text": "James Dunlop discovered the galaxy NGC 1559.",
+  "source": {
+   "title": "Courtney Seligman: NGC 1550 - 1599",
+   "url": "https://cseligman.com/text/atlas/ngc15a.htm"
+  },
+  "photos": [
+   {
+    "id": "h-potw1806a",
+    "relation": "object"
+   },
+   {
+    "id": "w-potm2402a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "11-06",
+  "year": 1919,
+  "text": "Results from the May 1919 solar eclipse expeditions were announced at a joint meeting of the Royal Society and the Royal Astronomical Society. The measured bending of starlight supported Einstein's general relativity.",
+  "source": {
+   "title": "Wikipedia: Eddington experiment",
+   "url": "https://en.wikipedia.org/wiki/Eddington_experiment"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-06",
+  "year": 1963,
+  "text": "Chile was chosen as the site for the ESO observatory, and the agreement between Chile and ESO was signed.",
+  "source": {
+   "title": "ESO: Timeline",
+   "url": "https://www.hq.eso.org/public/about-eso/timeline/"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-07",
+  "year": 1631,
+  "text": "Pierre Gassendi made the first recorded observation of a transit of Mercury. He was surprised at how small the planet looked against the Sun.",
+  "source": {
+   "title": "Wikipedia: Transit of Mercury",
+   "url": "https://en.wikipedia.org/wiki/Transit_of_Mercury"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-07",
+  "year": 1976,
+  "text": "The ESO 3.6-metre telescope at La Silla saw first light.",
+  "source": {
+   "title": "ESO: Timeline",
+   "url": "https://www.hq.eso.org/public/about-eso/timeline/"
+  },
+  "photos": [
+   {
+    "id": "e-ngc6188-3-6-m",
+    "relation": "telescope"
+   },
+   {
+    "id": "e-ngc6781-potw",
+    "relation": "telescope"
+   },
+   {
+    "id": "e-eso0030a",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "11-08",
+  "year": 1656,
+  "text": "Edmond Halley was born in Haggerston, England. He predicted that the comet seen in 1682 would return in 1758, and it now bears his name.",
+  "source": {
+   "title": "Wikipedia: Edmond Halley",
+   "url": "https://en.wikipedia.org/wiki/Edmond_Halley"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-09",
+  "year": 1934,
+  "text": "Carl Sagan was born in Brooklyn, New York. He worked on the Pioneer and Voyager missions and co-wrote and narrated the television series Cosmos.",
+  "source": {
+   "title": "Wikipedia: Carl Sagan",
+   "url": "https://en.wikipedia.org/wiki/Carl_Sagan"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-11",
+  "year": 1572,
+  "text": "Tycho Brahe saw a bright new star in Cassiopeia from Herrevad Abbey. The object is now known as the supernova SN 1572.",
+  "source": {
+   "title": "Wikipedia: Tycho Brahe",
+   "url": "https://en.wikipedia.org/wiki/Tycho_Brahe"
+  },
+  "photos": [
+   {
+    "id": "h-heic0415c",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "11-11",
+  "year": 1875,
+  "text": "Vesto Slipher was born in Mulberry, Indiana. At Lowell Observatory he was the first to observe the redshifts of galaxies, and his early targets included the Andromeda Nebula.",
+  "source": {
+   "title": "Wikipedia: Vesto Slipher",
+   "url": "https://en.wikipedia.org/wiki/Vesto_Slipher"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-12",
+  "year": 1980,
+  "text": "Voyager 1 made its closest approach to Saturn, passing its largest moon Titan on the same day.",
+  "source": {
+   "title": "Wikipedia: Voyager 1",
+   "url": "https://en.wikipedia.org/wiki/Voyager_1"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-12",
+  "year": 2014,
+  "text": "ESA's Philae lander touched down on comet 67P/Churyumov-Gerasimenko. After bouncing twice it made the first soft landing on a comet nucleus.",
+  "source": {
+   "title": "Wikipedia: Philae (spacecraft)",
+   "url": "https://en.wikipedia.org/wiki/Philae_(spacecraft)"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-13",
+  "year": 1790,
+  "text": "William Herschel discovered the planetary nebula NGC 1514 in Taurus. The single star wrapped in glowing haze convinced him that some nebulosity was not made of stars.",
+  "source": {
+   "title": "Wikipedia: NGC 1514",
+   "url": "https://en.wikipedia.org/wiki/NGC_1514"
+  },
+  "photos": [
+   {
+    "id": "w-weic2508a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "11-13",
+  "year": 1978,
+  "text": "The Einstein Observatory launched from Cape Canaveral on an Atlas-Centaur rocket. It was the first fully imaging X-ray telescope put into space.",
+  "source": {
+   "title": "Wikipedia: Einstein Observatory",
+   "url": "https://en.wikipedia.org/wiki/Einstein_Observatory"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-14",
+  "year": 1680,
+  "text": "Gottfried Kirch discovered the Great Comet of 1680 from Coburg. It was the first comet discovered with a telescope.",
+  "source": {
+   "title": "Wikipedia: Great Comet of 1680",
+   "url": "https://en.wikipedia.org/wiki/Great_Comet_of_1680"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-14",
+  "year": 1971,
+  "text": "NASA's Mariner 9 entered orbit around Mars and became the first spacecraft to orbit another planet.",
+  "source": {
+   "title": "Wikipedia: Mariner 9",
+   "url": "https://en.wikipedia.org/wiki/Mariner_9"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-15",
+  "year": 1630,
+  "text": "Johannes Kepler died in Regensburg, where he had travelled to collect money owed to him by the Imperial treasury.",
+  "source": {
+   "title": "Wikipedia: Johannes Kepler",
+   "url": "https://en.wikipedia.org/wiki/Johannes_Kepler"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-15",
+  "year": 1738,
+  "text": "William Herschel was born in Hanover. He later discovered Uranus and catalogued thousands of nebulae and star clusters.",
+  "source": {
+   "title": "Wikipedia: William Herschel",
+   "url": "https://en.wikipedia.org/wiki/William_Herschel"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-16",
+  "year": 1974,
+  "text": "The Arecibo Telescope broadcast the Arecibo message toward the globular cluster M13 at a ceremony marking the telescope's remodeling.",
+  "source": {
+   "title": "Wikipedia: Arecibo message",
+   "url": "https://en.wikipedia.org/wiki/Arecibo_message"
+  },
+  "photos": [
+   {
+    "id": "n-noao-m13kpno4m",
+    "relation": "object"
+   },
+   {
+    "id": "h-potw1011a",
+    "relation": "object"
+   },
+   {
+    "id": "h-opo0840d",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "11-17",
+  "year": 1970,
+  "text": "The Soviet Lunokhod 1 landed in Mare Imbrium and became the first robotic rover on the Moon.",
+  "source": {
+   "title": "Wikipedia: Lunokhod 1",
+   "url": "https://en.wikipedia.org/wiki/Lunokhod_1"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-18",
+  "year": 1989,
+  "text": "NASA launched the COBE satellite from Vandenberg Air Force Base. It found that the microwave background radiation has a near-perfect black-body spectrum and detected faint variations in it, results that supported the Big Bang theory.",
+  "source": {
+   "title": "Wikipedia: Cosmic Background Explorer",
+   "url": "https://en.wikipedia.org/wiki/Cosmic_Background_Explorer"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-20",
+  "year": 1889,
+  "text": "Edwin Hubble was born in Marshfield, Missouri. He showed that many nebulae are galaxies beyond the Milky Way and found evidence that the universe is expanding.",
+  "source": {
+   "title": "Wikipedia: Edwin Hubble",
+   "url": "https://en.wikipedia.org/wiki/Edwin_Hubble"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-20",
+  "year": 1978,
+  "text": "The Danish 1.5-metre telescope at ESO's La Silla Observatory saw first light.",
+  "source": {
+   "title": "ESO: Timeline",
+   "url": "https://www.hq.eso.org/public/about-eso/timeline/"
+  },
+  "photos": [
+   {
+    "id": "e-eso-flame",
+    "relation": "telescope"
+   },
+   {
+    "id": "e-potw1015a",
+    "relation": "telescope"
+   },
+   {
+    "id": "e-eso1320a",
+    "relation": "telescope"
+   }
+  ]
+ },
+ {
+  "date": "11-20",
+  "year": 2004,
+  "text": "NASA's Swift observatory launched on a Delta II rocket from Cape Canaveral to study gamma-ray bursts and their afterglows.",
+  "source": {
+   "title": "Wikipedia: Neil Gehrels Swift Observatory",
+   "url": "https://en.wikipedia.org/wiki/Neil_Gehrels_Swift_Observatory"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-22",
+  "year": 1944,
+  "text": "Arthur Eddington died in Cambridge. He modelled the interiors of stars and led the 1919 eclipse expedition to Principe that tested general relativity.",
+  "source": {
+   "title": "Wikipedia: Arthur Eddington",
+   "url": "https://en.wikipedia.org/wiki/Arthur_Eddington"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-23",
+  "year": 1924,
+  "text": "The New York Times reported Edwin Hubble's finding that spiral nebulae such as Andromeda are stellar systems like our own. He had measured their distances using Cepheid variable stars.",
+  "source": {
+   "title": "Wikipedia: Edwin Hubble",
+   "url": "https://en.wikipedia.org/wiki/Edwin_Hubble"
+  },
+  "photos": [
+   {
+    "id": "h-heic1502a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao0001a",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-m31fsqblock",
+    "relation": "object"
+   },
+   {
+    "id": "n-noao-ngc206",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "11-24",
+  "year": 1826,
+  "text": "James Dunlop discovered the galaxy NGC 1317.",
+  "source": {
+   "title": "Courtney Seligman: NGC 1300 - 1349",
+   "url": "https://cseligman.com/text/atlas/ngc13.htm"
+  },
+  "photos": [
+   {
+    "id": "e-eso1411a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "11-24",
+  "year": 1990,
+  "text": "The Keck I telescope on Mauna Kea saw first light, with nine of its eventual 36 mirror segments in place.",
+  "source": {
+   "title": "Wikipedia: W. M. Keck Observatory",
+   "url": "https://en.wikipedia.org/wiki/W._M._Keck_Observatory"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-25",
+  "year": 1915,
+  "text": "Albert Einstein presented the field equations of general relativity to the Prussian Academy of Sciences in Berlin.",
+  "source": {
+   "title": "Wikipedia: Einstein field equations",
+   "url": "https://en.wikipedia.org/wiki/Einstein_field_equations"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-26",
+  "year": 1610,
+  "text": "Nicolas-Claude Fabri de Peiresc recorded the Orion Nebula through a refracting telescope. He is generally credited as the first to notice its diffuse, nebulous nature.",
+  "source": {
+   "title": "Wikipedia: Orion Nebula",
+   "url": "https://en.wikipedia.org/wiki/Orion_Nebula"
+  },
+  "photos": [
+   {
+    "id": "h-heic0601a",
+    "relation": "object"
+   },
+   {
+    "id": "e-eso1103a",
+    "relation": "object"
+   },
+   {
+    "id": "e-eso1625a",
+    "relation": "object"
+   },
+   {
+    "id": "e-eso1723a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "11-27",
+  "year": 1701,
+  "text": "Anders Celsius was born in Uppsala. As professor of astronomy there he founded the Uppsala Astronomical Observatory and linked the aurora to changes in Earth's magnetic field.",
+  "source": {
+   "title": "Wikipedia: Anders Celsius",
+   "url": "https://en.wikipedia.org/wiki/Anders_Celsius"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-27",
+  "year": 1785,
+  "text": "William Herschel discovered NGC 246, the planetary nebula in Cetus now known as the Skull Nebula.",
+  "source": {
+   "title": "Courtney Seligman: NGC 200 - 249",
+   "url": "https://cseligman.com/text/atlas/ngc2.htm"
+  },
+  "photos": [
+   {
+    "id": "e-eso2019a",
+    "relation": "object"
+   },
+   {
+    "id": "n-gemini0603a",
+    "relation": "object"
+   }
+  ]
+ },
+ {
+  "date": "11-28",
+  "year": 1967,
+  "text": "Jocelyn Bell Burnell discovered PSR B1919+21, the first radio pulsar ever found.",
+  "source": {
+   "title": "Wikipedia: PSR B1919+21",
+   "url": "https://en.wikipedia.org/wiki/PSR_B1919%2B21"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-29",
+  "year": 1803,
+  "text": "Christian Doppler was born in Salzburg. In 1842 he described how the observed frequency of a wave depends on the motion of source and observer, using the colours of double stars as his example.",
+  "source": {
+   "title": "Wikipedia: Christian Doppler",
+   "url": "https://en.wikipedia.org/wiki/Christian_Doppler"
+  },
+  "photos": []
+ },
+ {
+  "date": "11-30",
+  "year": 1966,
+  "text": "The ESO 1-metre telescope at La Silla saw first light. It was the first telescope ESO used in Chile.",
+  "source": {
+   "title": "ESO: Timeline",
+   "url": "https://www.hq.eso.org/public/about-eso/timeline/"
+  },
+  "photos": [
+   {
+    "id": "e-potw1628a",
+    "relation": "site"
+   },
+   {
+    "id": "e-potw1043a",
+    "relation": "site"
+   },
+   {
+    "id": "e-juncher-telescope1",
+    "relation": "site"
+   }
+  ]
+ }
+]

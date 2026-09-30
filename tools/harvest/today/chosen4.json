@@ -1,0 +1,589 @@
+[
+{
+"uid": "n-iotw2401a",
+"day": "01-03",
+"org": "noirlab",
+"id": "iotw2401a",
+"title": "A Sky Full of Dust Over CTIO",
+"cat": "night"
+},
+{
+"uid": "n-iotw2202a",
+"day": "01-12",
+"org": "noirlab",
+"id": "iotw2202a",
+"title": "Keeping It Cool",
+"cat": "night"
+},
+{
+"uid": "n-iotw2303a",
+"day": "01-18",
+"org": "noirlab",
+"id": "iotw2303a",
+"title": "A Breeze of Color",
+"cat": "night"
+},
+{
+"uid": "e-potw2103a",
+"day": "01-18",
+"org": "eso",
+"id": "potw2103a",
+"title": "A Telescopic Quartet",
+"cat": "night"
+},
+{
+"uid": "n-iotw2204a",
+"day": "01-26",
+"org": "noirlab",
+"id": "iotw2204a",
+"title": "Foreground, Background, Backdrop",
+"cat": "night"
+},
+{
+"uid": "e-potw2004a",
+"day": "01-27",
+"org": "eso",
+"id": "potw2004a",
+"title": "Tour the Skies",
+"cat": "night"
+},
+{
+"uid": "e-potw1505c",
+"day": "02-02",
+"org": "eso",
+"id": "potw1505c",
+"title": "Sprites at Paranal Observatory",
+"cat": "night"
+},
+{
+"uid": "e-potw1505b",
+"org": "eso",
+"id": "potw1505b",
+"title": "Red sprites at La Silla Observatory",
+"cat": "night",
+"day": "02-02"
+},
+{
+"uid": "e-potw1505d",
+"org": "eso",
+"id": "potw1505d",
+"title": "Sprites at La Silla Observatory",
+"cat": "night",
+"day": "02-02"
+},
+{
+"uid": "n-iotw2206a",
+"day": "02-09",
+"org": "noirlab",
+"id": "iotw2206a",
+"title": "A Spilling Galaxy",
+"cat": "night"
+},
+{
+"uid": "e-pao_3770-cc",
+"day": "02-09",
+"org": "eso",
+"id": "pao_3770-cc",
+"title": "Yepun on the VLT platform",
+"cat": "night"
+},
+{
+"uid": "e-pao_4456-pano-cc",
+"day": "02-09",
+"org": "eso",
+"id": "pao_4456-pano-cc",
+"title": "Beam me up, Yepun",
+"cat": "night"
+},
+{
+"uid": "e-2024_09_30_ELT_comet",
+"day": "02-13",
+"org": "eso",
+"id": "2024_09_30_ELT_comet",
+"title": "Desert helmet, space arrow",
+"cat": "night"
+},
+{
+"uid": "e-vlt_fl_s",
+"org": "eso",
+"id": "vlt_fl_s",
+"title": "Evening at the Paranal Observatory (13 April 1998)",
+"cat": "night",
+"day": "02-18"
+},
+{
+"uid": "e-6146642991-0f8ba67f3e-o-CC",
+"org": "eso",
+"id": "6146642991-0f8ba67f3e-o-CC",
+"title": "Pacman and the Moon",
+"cat": "night",
+"day": "03-08"
+},
+{
+"uid": "n-noao0608a",
+"org": "noirlab",
+"id": "noao0608a",
+"day": "03-08",
+"src": "D"
+},
+{
+"uid": "e-eso0209f",
+"day": "03-13",
+"org": "eso",
+"id": "eso0209f",
+"title": "The Crab Nebula",
+"cat": "nebula"
+},
+{
+"uid": "n-iotw2411a",
+"day": "03-13",
+"org": "noirlab",
+"id": "iotw2411a",
+"title": "Southern Celestial Wayfinder",
+"cat": "night"
+},
+{
+"uid": "n-iotw2311a",
+"org": "noirlab",
+"id": "iotw2311a",
+"day": "03-15",
+"src": "D"
+},
+{
+"uid": "e-_D5D0556-CC",
+"org": "eso",
+"id": "_D5D0556-CC",
+"title": "No place like home",
+"cat": "night",
+"day": "03-22"
+},
+{
+"uid": "e-DSC02728-CC",
+"org": "eso",
+"id": "DSC02728-CC",
+"title": "Big questions call for big telescopes",
+"cat": "night",
+"day": "03-22"
+},
+{
+"uid": "e-eso1013a",
+"day": "03-24",
+"org": "eso",
+"id": "eso1013a",
+"title": "The GOODS-South field",
+"cat": "galaxy"
+},
+{
+"uid": "h-potw1412a",
+"day": "03-24",
+"org": "hubble",
+"id": "potw1412a",
+"title": "Magnifying the distant Universe",
+"cat": "galaxy"
+},
+{
+"uid": "n-noirlab2308a",
+"org": "noirlab",
+"id": "noirlab2308a",
+"day": "03-29",
+"src": "D"
+},
+{
+"uid": "n-iotw2319a",
+"day": "05-10",
+"org": "noirlab",
+"id": "iotw2319a",
+"title": "Stellar Red Giant Above KPNO",
+"cat": "night"
+},
+{
+"uid": "n-iotw2619a",
+"day": "05-13",
+"org": "noirlab",
+"id": "iotw2619a",
+"title": "Following the Stars with Rubin",
+"cat": "night"
+},
+{
+"uid": "e-potw1319a",
+"day": "05-13",
+"org": "eso",
+"id": "potw1319a",
+"title": "Milky Way shines over snowy La Silla",
+"cat": "night"
+},
+{
+"uid": "n-iotw2420a",
+"day": "05-15",
+"org": "noirlab",
+"id": "iotw2420a",
+"title": "Kitt Peak and a Northern Asterism",
+"cat": "night"
+},
+{
+"uid": "n-iotw2421b",
+"org": "noirlab",
+"id": "iotw2421b",
+"day": "05-22",
+"src": "D"
+},
+{
+"uid": "n-iotw2321a",
+"day": "05-24",
+"org": "noirlab",
+"id": "iotw2321a",
+"title": "Across from Gemini North",
+"cat": "night"
+},
+{
+"uid": "e-potw2121a",
+"day": "05-24",
+"org": "eso",
+"id": "potw2121a",
+"title": "A sea of clouds",
+"cat": "night"
+},
+{
+"uid": "n-iotw2523a",
+"day": "06-04",
+"org": "noirlab",
+"id": "iotw2523a",
+"title": "A Cerulean Moonrise over CTIO",
+"cat": "night"
+},
+{
+"uid": "e-potw1823a",
+"day": "06-04",
+"org": "eso",
+"id": "potw1823a",
+"title": "Inspired by Interstellar",
+"cat": "night"
+},
+{
+"uid": "n-noao-m43lee",
+"org": "noirlab",
+"id": "noao-m43lee",
+"day": "06-09",
+"src": "D"
+},
+{
+"uid": "n-iotw2426a",
+"day": "06-26",
+"org": "noirlab",
+"id": "iotw2426a",
+"title": "Rubin and the Rift",
+"cat": "night"
+},
+{
+"uid": "e-ann22009e",
+"org": "eso",
+"id": "ann22009e",
+"title": "ESO's 3.6-metre telescope, home of planet hunters",
+"cat": "night",
+"day": "06-27"
+},
+{
+"uid": "n-iotw2627a",
+"day": "07-08",
+"org": "noirlab",
+"id": "iotw2627a",
+"title": "Sunset Before Rubin\u2019s First Look",
+"cat": "night"
+},
+{
+"uid": "e-potw2028b",
+"day": "07-13",
+"org": "eso",
+"id": "potw2028b",
+"title": "Comet NEOWISE Spotted above ESO Headquarters",
+"cat": "night"
+},
+{
+"uid": "e-048A0433-CC",
+"day": "07-13",
+"org": "eso",
+"id": "048A0433-CC",
+"title": "Comet NEOWISE and noctilucent clouds spotted above ESO Headquarters",
+"cat": "night"
+},
+{
+"uid": "e-vltsmallmagcloud-6036-final-cc",
+"day": "07-15",
+"org": "eso",
+"id": "vltsmallmagcloud-6036-final-cc",
+"title": "Domes wide open",
+"cat": "night"
+},
+{
+"uid": "n-iotw2429a",
+"day": "07-17",
+"org": "noirlab",
+"id": "iotw2429a",
+"title": "Southern Vortex above Blanco",
+"cat": "night"
+},
+{
+"uid": "e-vltsmallsmoon-6309-final-cc",
+"day": "07-18",
+"org": "eso",
+"id": "vltsmallsmoon-6309-final-cc",
+"title": "A twilit display",
+"cat": "night"
+},
+{
+"uid": "e-vltstartrail-6082-6097-final-cc",
+"day": "07-18",
+"org": "eso",
+"id": "vltstartrail-6082-6097-final-cc",
+"title": "Startrail sky over the VLT",
+"cat": "night"
+},
+{
+"uid": "e-potw1929a",
+"day": "07-22",
+"org": "eso",
+"id": "potw1929a",
+"title": "At home in the Milky Way",
+"cat": "night"
+},
+{
+"uid": "e-potw1329a",
+"day": "07-22",
+"org": "eso",
+"id": "potw1329a",
+"title": "The NTT spinning like a top",
+"cat": "night"
+},
+{
+"uid": "e-potw2031a",
+"day": "08-03",
+"org": "eso",
+"id": "potw2031a",
+"title": "Spheres on Spheres",
+"cat": "night"
+},
+{
+"uid": "n-iotw2231a",
+"day": "08-03",
+"org": "noirlab",
+"id": "iotw2231a",
+"title": "A Blanket of Light",
+"cat": "night"
+},
+{
+"uid": "e-potw1332a",
+"day": "08-12",
+"org": "eso",
+"id": "potw1332a",
+"title": "The calm before the storm",
+"cat": "galaxy"
+},
+{
+"uid": "n-iotw2033a",
+"day": "08-12",
+"org": "noirlab",
+"id": "iotw2033a",
+"title": "Trails Through the Night Sky",
+"cat": "night"
+},
+{
+"uid": "n-iotw2133a",
+"day": "08-18",
+"org": "noirlab",
+"id": "iotw2133a",
+"title": "Sunset and Shadow",
+"cat": "night"
+},
+{
+"uid": "e-uhd_beletsky_0906c-cc",
+"day": "08-21",
+"org": "eso",
+"id": "uhd_beletsky_0906c-cc",
+"title": "VLT control building",
+"cat": "night"
+},
+{
+"uid": "e-uhd_beletsky_0874-cc",
+"day": "08-21",
+"org": "eso",
+"id": "uhd_beletsky_0874-cc",
+"title": "Paranal Auxiliary Telescope",
+"cat": "night"
+},
+{
+"uid": "n-iotw2134a",
+"day": "08-25",
+"org": "noirlab",
+"id": "iotw2134a",
+"title": "Cloudy Sunset at CTIO",
+"cat": "night"
+},
+{
+"uid": "e-paranal_laser2-cc",
+"day": "08-28",
+"org": "eso",
+"id": "paranal_laser2-cc",
+"title": "Paranal laser",
+"cat": "night"
+},
+{
+"uid": "n-iotw2335a",
+"day": "08-30",
+"org": "noirlab",
+"id": "iotw2335a",
+"title": "A False Dawn at KPNO",
+"cat": "night"
+},
+{
+"uid": "n-iotw2038a",
+"day": "09-16",
+"org": "noirlab",
+"id": "iotw2038a",
+"title": "Sky Aglow at CTIO",
+"cat": "night"
+},
+{
+"uid": "n-iotw2541a",
+"day": "10-08",
+"org": "noirlab",
+"id": "iotw2541a",
+"title": "Stars and Satellites over Gemini North",
+"cat": "night"
+},
+{
+"uid": "e-potw1841a",
+"day": "10-08",
+"org": "eso",
+"id": "potw1841a",
+"title": "Through the Hourglass",
+"cat": "star"
+},
+{
+"uid": "n-iotw2441a",
+"day": "10-09",
+"org": "noirlab",
+"id": "iotw2441a",
+"title": "Gemini and Sights of the South",
+"cat": "night"
+},
+{
+"uid": "e-dsc-7069-cc",
+"day": "10-09",
+"org": "eso",
+"id": "dsc-7069-cc",
+"title": "ALMA and the soft-hued sky",
+"cat": "night"
+},
+{
+"uid": "n-iotw2142a",
+"day": "10-20",
+"org": "noirlab",
+"id": "iotw2142a",
+"title": "Telescope Silhouettes at Cerro Pach\u00f3n",
+"cat": "night"
+},
+{
+"uid": "e-uhd_beletsky_par_20",
+"day": "10-20",
+"org": "eso",
+"id": "uhd_beletsky_par_20",
+"title": "The VLT under the Milky Way in UHD",
+"cat": "night"
+},
+{
+"uid": "n-iotw2443a",
+"day": "10-23",
+"org": "noirlab",
+"id": "iotw2443a",
+"title": "Eclipse near Moonrise",
+"cat": "night"
+},
+{
+"uid": "n-iotw2243a",
+"day": "10-26",
+"org": "noirlab",
+"id": "iotw2243a",
+"title": "Star Trails over SOAR",
+"cat": "night"
+},
+{
+"uid": "e-img-8585-cc",
+"day": "10-26",
+"org": "eso",
+"id": "img-8585-cc",
+"title": "MPG/ESO 2.2-metre telescope",
+"cat": "night"
+},
+{
+"uid": "e-nik5597-cc",
+"day": "10-26",
+"org": "eso",
+"id": "nik5597-cc",
+"title": "Feeling green",
+"cat": "night"
+},
+{
+"uid": "n-iotw2545a",
+"day": "11-05",
+"org": "noirlab",
+"id": "iotw2545a",
+"title": "Star Trails over Rubin",
+"cat": "night"
+},
+{
+"uid": "h-potw1845a",
+"day": "11-05",
+"org": "hubble",
+"id": "potw1845a",
+"title": "Feeling blue",
+"cat": "galaxy"
+},
+{
+"uid": "n-iotw2346a",
+"day": "11-15",
+"org": "noirlab",
+"id": "iotw2346a",
+"title": "Hawaiian Snow",
+"cat": "night"
+},
+{
+"uid": "e-beletsky-paranal-17-cc",
+"day": "11-15",
+"org": "eso",
+"id": "beletsky-paranal-17-cc",
+"title": "The road to Paranal",
+"cat": "night"
+},
+{
+"uid": "n-iotw2552a",
+"day": "12-24",
+"org": "noirlab",
+"id": "iotw2552a",
+"title": "Moonset Above Rubin",
+"cat": "night"
+},
+{
+"uid": "n-iotw2252a",
+"day": "12-28",
+"org": "noirlab",
+"id": "iotw2252a",
+"title": "Silent Night, Starry Night",
+"cat": "night"
+},
+{
+"uid": "e-potw1952a",
+"day": "12-30",
+"org": "eso",
+"id": "potw1952a",
+"title": "When Light Collides",
+"cat": "night"
+},
+{
+"uid": "n-iotw2053a",
+"day": "12-30",
+"org": "noirlab",
+"id": "iotw2053a",
+"title": "Sunset Skies at CTIO",
+"cat": "night"
+}
+]

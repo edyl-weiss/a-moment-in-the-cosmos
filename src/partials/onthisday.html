@@ -1,0 +1,30 @@
+<section id="onthisday" aria-labelledby="otdHead">
+  <div class="section-head">
+    <div>
+      <h2 id="otdHead">On this day</h2>
+      <p>What happened in astronomy on <span id="otdDateText">this date</span> in years past, and the photographs published on it.</p>
+    </div>
+    <div class="otd-nav" role="group" aria-label="Choose a date">
+      <button type="button" id="otdPrev" aria-label="Previous day">←</button>
+      <label class="otd-pick"><span class="sr-only">Month</span><select id="otdMonth"></select></label>
+      <label class="otd-pick"><span class="sr-only">Day</span><select id="otdDay"></select></label>
+      <button type="button" id="otdNext" aria-label="Next day">→</button>
+      <button type="button" id="otdToday">Today</button>
+    </div>
+  </div>
+  <div class="otd-grid">
+    <div class="otd-events">
+      <h3>Events</h3>
+      <ol id="otdEvents" class="events"></ol>
+    </div>
+    <div class="otd-published">
+      <h3 id="otdPubHead">Published on this day</h3>
+      <div class="grid small" id="otdPublished"></div>
+      <div id="otdNearBlock" hidden>
+        <h3 id="otdNearHead" class="otd-near-head">Published close to this date</h3>
+        <p class="otd-note" id="otdNearNote"></p>
+        <div class="grid small" id="otdNear"></div>
+      </div>
+    </div>
+  </div>
+</section>
