@@ -1,4 +1,5 @@
 // Entry point. Importing a module wires up its own listeners; boot order is below.
+import { inject } from '@vercel/analytics';
 import { $, todayIndex, dailyId, dateOf } from './util.js';
 import { paintSky } from './sky.js';
 import { show, fitFrame } from './feature.js';
@@ -15,6 +16,7 @@ import './discover.js';
 import { scheduleRollover } from './rollover.js';
 import { SCHEDULE } from '../data/schedule.js';
 
+inject();
 paintSky();
 const issue = todayIndex();
 $('#issueNo').textContent = `No. ${(issue + 1).toLocaleString('en')}`;
