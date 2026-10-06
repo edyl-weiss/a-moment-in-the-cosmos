@@ -132,6 +132,19 @@ function step(delta) {
 
 const today = () => { const t = new Date(); return [t.getMonth(), t.getDate()]; };   // the visitor's own calendar date
 
+// A single line under today's photograph: one event from the visitor's own date, and a way in.
+function teaser() {
+  const [m, d] = today(), ev = DAYS[key(m, d)]?.events || [];
+  const box = $('#otdTeaser');
+  if (!ev.length) { box.hidden = true; return; }
+  const e = ev.find((x) => x.photos.some(([id]) => INDEX_BY_ID[id])) || ev[0];
+  let text = e.text;
+  if (text.length > 150) text = text.slice(0, text.lastIndexOf(' ', 147)) + '…';
+  box.innerHTML = `<span class="k">On this day in ${esc(year(e.year))}</span> ${esc(text)} ` +
+    `<a href="#on-${key(m, d)}">${ev.length > 1 ? `${ev.length} moments from ${esc(label(m, d))}` : `More from ${esc(label(m, d))}`} <span aria-hidden="true">→</span></a>`;
+  box.hidden = false;
+}
+
 export async function initOnThisDay() {
   $('#otdMonth').innerHTML = MONTHS.map((n, i) => `<option value="${i}">${n}</option>`).join('');
   try {
@@ -145,6 +158,7 @@ export async function initOnThisDay() {
   }
   [month, day] = today();
   render();
+  teaser();
   onDateLink((m, d) => go(m, d, { link: false }));
   $('#otdMonth').addEventListener('change', (e) => go(Number(e.target.value), Math.min(day, LENGTH[Number(e.target.value)])));
   $('#otdDay').addEventListener('change', (e) => go(month, Number(e.target.value)));

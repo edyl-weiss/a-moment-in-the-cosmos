@@ -12,6 +12,25 @@ function setSplit(v) {
   range.setAttribute('aria-valuetext', `${Math.round(v)}% ${current.left.label}, ${Math.round(100 - v)}% ${current.right.label}`);
 }
 
+// Once the pair is loaded, the divider glides across and back so the comparison explains itself.
+function sweep(mine) {
+  const keys = [[0, 50], [500, 78], [1150, 24], [1700, 50]];
+  let t0 = 0;
+  box.classList.add('sweeping');
+  const ease = (t) => (t < .5 ? 2 * t * t : 1 - (-2 * t + 2) ** 2 / 2);
+  const step = (now) => {
+    if (mine !== token || $('#cmpHint').classList.contains('gone')) return box.classList.remove('sweeping');
+    t0 ||= now;
+    const t = now - t0;
+    const i = keys.findIndex(([k]) => k > t);
+    if (i === -1) { range.value = 50; setSplit(50); return box.classList.remove('sweeping'); }
+    const [ta, va] = keys[i - 1], [tb, vb] = keys[i], v = va + (vb - va) * ease((t - ta) / (tb - ta));
+    range.value = v; setSplit(v);
+    requestAnimationFrame(step);
+  };
+  setTimeout(() => requestAnimationFrame(step), 450);
+}
+
 function fit() {
   const c = current;
   if (!c || panel.hidden) return;
@@ -44,6 +63,7 @@ async function open() {
     $('#cmpHint').classList.remove('gone');
     range.value = 50;
     setSplit(50);
+    if (!reducedMotion()) sweep(mine);
     say(`Comparison open: ${c.left.label} on the left, ${c.right.label} on the right. Use the slider to reveal each.`);
   } catch {
     if (mine !== token) return;

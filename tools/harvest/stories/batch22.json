@@ -1,0 +1,182 @@
+[
+ {
+  "id": "h-potw2510a",
+  "caption": "Spiral galaxy NGC 4900 and a foreground star, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "A face-on spiral fills the frame, its broken arms built from blue clumps of stars and fine threads of dark dust circling a stubby, pale yellow bar. A broad round disc and a faint halo surround it. On top of the galaxy sits a bright star with long, cross-shaped diffraction spikes.",
+   "The two only look close together. The star belongs to our own galaxy and lies just 7109 light-years from Earth, while the spiral, NGC 4900 in Virgo, is about 45 million light-years away.",
+   "Hubble built this picture from two of its cameras, the older Wide Field and Planetary Camera 2 and the Advanced Camera for Surveys, with observations made more than 20 years apart. Both programmes were about how massive stars die. One studied places where supernovae had already gone off, and NGC 4900 made the list because it hosted SN 1999br."
+  ],
+  "explore": [
+   "The second programme photographed more than 150 nearby galaxies ahead of time. When a supernova later appears in one of them, astronomers can look back at these images for the star that exploded, which helps explain how, when and why supernovae happen."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys and Wide Field and Planetary Camera 2 contributed images through visible-light B and V filters and a near-infrared I filter (814 nm). The packet does not publish how colours were assigned to the filters.",
+   "eye": "The 814 nm filter reaches just beyond red light the eye can detect, and a galaxy this far away is far too faint to show such detail to the unaided eye."
+  },
+  "alt": "A face-on spiral galaxy with blue, dust-streaked arms around a pale yellow bar, with a bright foreground star with cross-shaped spikes on top of it.",
+  "scaleExtra": null,
+  "flags": []
+ },
+ {
+  "id": "e-eso1113a",
+  "caption": "Star formation region NGC 3582, imaged by the MPG/ESO 2.2-metre telescope",
+  "captureDate": null,
+  "story": [
+   "This wide view, taken with ESO's Wide Field Imager at La Silla Observatory in Chile, centres on NGC 3582, a region where new stars are forming. It lies in the southern constellation Carina, about 10000 light-years away according to the image's catalogue details.",
+   "The feature ESO singles out is a set of giant loops of gas. They were thrown off by dying stars, and their arcing shapes closely resemble the prominences that rise from the surface of the Sun. In a solar prominence, glowing material follows curved paths above the Sun's edge, so the comparison is about shape rather than scale or cause.",
+   "In a star formation region, clouds of gas collapse to make new stars. The loops are a sign that stars nearing the end of their lives are also at work here, shedding gas back into their surroundings."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "The Wide Field Imager on the MPG/ESO 2.2-metre telescope supplied images through R and hydrogen-alpha filters, plus a combined I+R 'pseudogreen' channel, with infrared I data from the Digitized Sky Survey 2. The packet does not publish how colours were assigned to the filters.",
+   "eye": "Hydrogen-alpha filters isolate the red glow of hydrogen gas, and long camera exposures collect far more of this faint light than an eye at a telescope could."
+  },
+  "alt": "A wide field of glowing gas in a star-forming region, with large loops of gas.",
+  "scaleExtra": null,
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "h-heic1105a",
+  "caption": "Part of the Tarantula Nebula, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Hubble zooms in on one part of the Tarantula Nebula, also known as 30 Doradus. It is a cloud of ionised hydrogen where stars are being born, and it sits in the Large Magellanic Cloud, a small galaxy next door to the Milky Way, about 170000 light-years from us.",
+   "The Tarantula is a place of extremes. Supernova remnants, the expanding debris of exploded stars, lie inside it, and it contains the heaviest star yet found. Among nebulae of its kind in the local Universe, none shines brighter.",
+   "Ionised hydrogen glows because intense light from hot young stars strips electrons from the gas atoms. When the electrons recombine, the gas gives off light of its own. Hubble's close-up covers only part of the nebula, but it is enough to show the setting where these extreme objects live alongside newly forming stars."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys imaged the nebula through B (435 nm) and V (555 nm) visible-light filters and an I filter at 814 nm. The packet does not publish how colours were assigned to the filters.",
+   "eye": "The 814 nm filter sits just past the red light the eye can see, and the nebula is far too faint and distant for the eye to show this detail."
+  },
+  "alt": "A close-up of part of the Tarantula Nebula, a star-forming region of glowing gas.",
+  "scaleExtra": null,
+  "flags": []
+ },
+ {
+  "id": "h-potw2015a",
+  "caption": "Spiral galaxy NGC 2906, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Blue specks are scattered across the swirling spiral galaxy NGC 2906, set against broad swathes of orange. The two colours trace two different kinds of star.",
+   "The blue points are massive young stars. They burn through their fuel at a furious pace and give off hot, blue-tinged light. The orange is a mix of two groups. Some are older stars that have swollen and cooled, and others are low-mass stars that were never especially hot. Because they are cooler, their light is redder.",
+   "Hubble was not looking at NGC 2906 for its colours. The telescope observed it while searching for the fading light of supernovae, the explosions of stars, that had gone off recently in nearby galaxies. The galaxy lies in the constellation Leo. The caption credits the image to Wide Field Camera 3, an instrument added to Hubble in 2009 on the telescope's fourth servicing mission."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "The packet's filter list shows Hubble's Advanced Camera for Surveys with V (606 nm) and I (814 nm) filters, although the caption names Wide Field Camera 3. The packet does not publish how colours were assigned to the filters.",
+   "eye": "The 814 nm filter records light just beyond the red end of human vision, and the galaxy is far too faint for the eye to show its colours like this."
+  },
+  "alt": "A spiral galaxy with blue specks of young stars scattered across swathes of orange light.",
+  "scaleExtra": null,
+  "flags": [
+   "instrument mismatch: caption says Wide Field Camera 3, filters list ACS"
+  ]
+ },
+ {
+  "id": "h-potw2517a",
+  "caption": "Peculiar spiral galaxy NGC 1961 (Arp 184), imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Seen at a skewed angle, a spiral galaxy glows from a bright central spot. Around it lies a thick, turbulent disc threaded with dark dust and dotted with bright patches of star formation, and one large arm sweeps out toward the viewer. This is NGC 1961, also called Arp 184, about 190 million light-years away in Camelopardalis, the Giraffe.",
+   "Its second name comes from Halton Arp's Atlas of Peculiar Galaxies, compiled in 1966. The galaxy earned its entry through that single broad, star-speckled arm. The far side has only a few wisps of gas and stars and no matching arm.",
+   "Hubble assembled the image from three Snapshot programmes, short observations slotted into gaps in the telescope's schedule. One surveyed peculiar galaxies. The other two follow up brief events such as supernovae. With four known supernovae in the past three decades, Arp 184 is a good place to look."
+  ],
+  "explore": [
+   "The Atlas of Peculiar Galaxies holds 338 oddly shaped galaxies that are neither fully elliptical nor fully spiral. Many are interacting with other galaxies, and others are dwarf galaxies without clear structure. The supernova programmes also watch for tidal disruption events, when a star strays too close to a supermassive black hole and is ripped apart."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys and Wide Field Camera 3 contributed visible-light V-band images (555 and 606 nm) and an I-band image at 814 nm. The packet does not publish how colours were assigned to the filters.",
+   "eye": "The 814 nm filter captures light just beyond what the eye can see, and a galaxy this distant would show none of this structure to the unaided eye."
+  },
+  "alt": "A tilted spiral galaxy with a bright centre, a dusty disc and one large spiral arm, with a few foreground stars on top.",
+  "scaleExtra": null,
+  "flags": []
+ },
+ {
+  "id": "h-potw2226a",
+  "caption": "Globular cluster NGC 6569, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "A dense crowd of stars packs the centre of this Hubble view of NGC 6569, a globular cluster in the constellation Sagittarius. Hubble studied the cluster's core with two instruments, Wide Field Camera 3 and the Advanced Camera for Surveys.",
+   "Globular clusters are tightly bound and stable, holding anywhere from tens of thousands to millions of stars, and they turn up around every type of galaxy. Their stars pull on one another so strongly that the clusters settle into round shapes with crowded centres.",
+   "NGC 6569 sits close to the centre of the Milky Way, an area earlier surveys tended to skip. Dust there blocks the clusters' light and changes the apparent colours of their stars. That matters because a star's colour helps astronomers work out its age, composition and temperature. The team behind these observations combined Hubble data with archival data to measure the ages of clusters including NGC 6569."
+  ],
+  "explore": [
+   "The same research also shed light on how globular clusters near the Milky Way's centre are structured and how densely packed they are."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took a visible-light image at 606 nm, and Wide Field Camera 3 added infrared images at 1.1 and 1.6 μm. The packet does not publish how colours were assigned to the filters.",
+   "eye": "Two of the three filters record infrared light, which the eye cannot see and which passes through dust more easily than visible light."
+  },
+  "alt": "A dense, round cluster of many stars, crowded most thickly at the centre.",
+  "scaleExtra": null,
+  "flags": []
+ },
+ {
+  "id": "h-potw2252a",
+  "caption": "Peculiar spiral galaxy ESO 415-19, imaged by the Hubble Space Telescope and the Víctor M. Blanco 4-meter Telescope",
+  "captureDate": null,
+  "story": [
+   "A spiral galaxy with a bright, dust-flecked core sits in the middle of the frame, its dimmer arms dotted with bright blue. From the arms, long faint streams of stars reach away, one to the top of the image and one curving to the lower left. A small orange elliptical galaxy sits at top right.",
+   "This is ESO 415-19, about 450 million light-years away. Its centre looks like an ordinary spiral, but the streams give it away. They are tidal streams, drawn out by some chance encounter in the galaxy's past.",
+   "That oddness is why Hubble looked. The observation belongs to a continuing campaign through the Arp Atlas of Peculiar Galaxies, whose members range from lone misfits to interacting pairs, triplets and quintets. Because such galaxies are spread across the sky, Hubble can fit them in while moving between other targets. ESO 415-19 lies in Fornax."
+  ],
+  "explore": [
+   "Fornax is also where Hubble made the Ultra Deep Field, which took almost a million seconds of observing time and captured nearly 10,000 galaxies. Deep fields let astronomers sample the Universe's history back to when it was only 800 million years old."
+  ],
+  "understand": {
+   "summary": "The image combines a Hubble Advanced Camera for Surveys exposure at 606 nm with g, r and z images from DECam on the Víctor M. Blanco 4-meter Telescope, part of the Dark Energy Survey. The packet does not publish how colours were assigned to the filters.",
+   "eye": "The faint tidal streams are far too dim for the eye, and long camera exposures gather much more light than an eye could."
+  },
+  "alt": "A spiral galaxy with a bright dusty core and long, faint streams of stars stretching to the top and lower left, with a small orange elliptical galaxy at top right.",
+  "scaleExtra": null,
+  "flags": [
+   "multi-telescope composite (Hubble + DECam)"
+  ]
+ },
+ {
+  "id": "h-potw2552a",
+  "caption": "Part of the N159 star-forming complex, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "A thick column of black dust runs through the centre, blocking stars that light it from behind. Paler clouds glow beyond, layered red filaments spread to either side, and blue, white and gold stars shine through it all. This is part of N159, a star-forming complex in the Large Magellanic Cloud, about 160000 light-years away.",
+   "Hubble captured this field in parallel with a recently released image, so it shows a neighbouring patch of the same complex. Cold hydrogen gas forms ridges, cavities and glowing filaments. Inside the dense clouds, young stars switch on, and their radiation makes the hydrogen around them glow deep red.",
+   "The brightest areas mark hot, massive young stars. Their winds and light hollow out bubbles in the gas, a process astronomers call stellar feedback, as new stars reshape the cloud they formed from."
+  ],
+  "explore": [
+   "Among the star-forming clouds of the Large Magellanic Cloud, N159 is one of the most massive. The LMC is a dwarf galaxy and the largest of the small galaxies orbiting the Milky Way. The whole complex stretches over 150 light-years, and this image covers only a portion."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took V (555 nm) and I (814 nm) images, and Wide Field Camera 3 added a hydrogen-alpha image at 656 nm. The packet does not publish how colours were assigned to the filters.",
+   "eye": "The hydrogen-alpha filter isolates the red glow of hydrogen gas, and long exposures collect far more of this faint light than the eye could."
+  },
+  "alt": "A dark column of dust against glowing clouds, with red filaments on both sides and blue, white and gold stars throughout.",
+  "scaleExtra": null,
+  "flags": []
+ },
+ {
+  "id": "h-potw2528a",
+  "caption": "Globular cluster NGC 1786, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Pale, bluish-white stars crowd together at the bright centre and thin out toward the dark edges, with a few orange stars scattered among them. Three bright stars with cross-shaped spikes sit in front. This is NGC 1786, a globular cluster in the Large Magellanic Cloud, a small satellite galaxy of the Milky Way about 160000 light-years away. John Herschel discovered it in 1835.",
+   "Globular clusters are stable and long-lived, so they preserve stars from a galaxy's earliest days. Astronomers once thought each cluster's stars formed at about the same time, but old clusters in our galaxy turned out to hold several populations of different ages.",
+   "The programme behind this image compared old globular clusters in nearby dwarf galaxies with those of the Milky Way, checking whether clusters like NGC 1786 also contain multiple populations. The answer could reveal how the LMC formed, and our own galaxy too."
+  ],
+  "explore": [
+   "Besides the LMC, the comparison took in the Fornax dwarf spheroidal galaxy and the Small Magellanic Cloud. The Milky Way has over 150 globular clusters, studied closely with Hubble images like this one."
+  ],
+  "understand": {
+   "summary": "Hubble's Wide Field Camera 3 imaged the cluster through U (336 nm), B (438 nm) and I (814 nm) filters. The packet does not publish how colours were assigned to the filters.",
+   "eye": "The 336 nm filter records ultraviolet light and the 814 nm filter light just past red, both beyond what the eye can see."
+  },
+  "alt": "A dense cluster of mostly bluish-white stars, brightest at the centre, with a few orange stars and three bright foreground stars with cross-shaped spikes.",
+  "scaleExtra": null,
+  "flags": []
+ }
+]

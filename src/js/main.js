@@ -13,6 +13,7 @@ import { openFromHash } from './links.js';
 import './download.js';
 import { initOnThisDay } from './onthisday.js';
 import './discover.js';
+import './motion.js';
 import { scheduleRollover } from './rollover.js';
 import { SCHEDULE } from '../data/schedule.js';
 

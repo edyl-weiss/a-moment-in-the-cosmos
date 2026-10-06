@@ -9,9 +9,9 @@ import json, re, glob, sys, collections, os
 SITE = sys.argv[1] if len(sys.argv) > 1 else '/home/claude/cosmos-v2'
 OUT = os.path.join(SITE, 'src/data/collection')
 PFX = {'hubble': 'h-', 'webb': 'w-', 'eso': 'e-', 'noirlab': 'n-'}
-EXTRA = [f for f in ['noirlab_final.json', 'final3.json', 'final4.json', 'final5.json', 'raw_nasa.json'] if os.path.exists(f)]   # later harvests, same raw shape
+EXTRA = [f for f in ['noirlab_final.json', 'final3.json', 'final4.json', 'final5.json', 'final6.json', 'raw_nasa.json'] if os.path.exists(f)]   # later harvests, same raw shape
 RAW = json.load(open('final2.json')) + [o for f in EXTRA for o in json.load(open(f))]
-recs = {r['id']: r for f in ['records.json', 'records_noirlab.json', 'records_extra.json', 'records_extra2.json', 'records_noirlab2.json', 'records_extra3.json', 'records_noirlab3.json', 'records_nasa.json'] if os.path.exists(f) for r in json.load(open(f))}
+recs = {r['id']: r for f in ['records.json', 'records_noirlab.json', 'records_extra.json', 'records_extra2.json', 'records_noirlab2.json', 'records_extra3.json', 'records_extra4.json', 'records_noirlab3.json', 'records_nasa.json'] if os.path.exists(f) for r in json.load(open(f))}
 uid = lambda o: o['id'] if o['org'] == 'nasa' else PFX[o['org']] + o['id']   # NASA ids are stored whole
 raw = {uid(o): o for o in RAW}
 stories = {}

@@ -368,7 +368,10 @@ export const SCHEDULE = {
       "nasa-nearby-dust-clouds-in-the-milky-way",
       "nasa-jet-in-carina",
       "nasa-supernova-remnant-lmc-n132d",
-      "nasa-nasas-hubble-views-a-cosmic-skyrocket"
+      "nasa-nasas-hubble-views-a-cosmic-skyrocket",
+      "e-eso1113a",
+      "h-heic1105a",
+      "h-potw2552a"
     ],
     "galaxy": [
       "weic2208a",
@@ -954,7 +957,10 @@ export const SCHEDULE = {
       "nasa-hubble-interacting-galaxy-iras-20351",
       "nasa-hubble-interacting-galaxy-vv-283",
       "nasa-hubble-interacting-galaxy-mcg11-002",
-      "nasa-bullet-cluster-nircam-image"
+      "nasa-bullet-cluster-nircam-image",
+      "h-potw2510a",
+      "h-potw2517a",
+      "h-potw2252a"
     ],
     "night": [
       "potw1222a",
@@ -1593,7 +1599,9 @@ export const SCHEDULE = {
       "nasa-cw-leonis",
       "nasa-ngc-6791-full-hubble-acs-field",
       "nasa-terzan-12",
-      "nasa-globular-cluster-messier-4-m4"
+      "nasa-globular-cluster-messier-4-m4",
+      "h-potw2226a",
+      "h-potw2528a"
     ]
   }
 };

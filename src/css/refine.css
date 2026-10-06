@@ -166,3 +166,57 @@ select { min-height: 40px; }
   .tour-card { left: 0 !important; width: 100vw !important; border-left: 0; border-top: 2px solid var(--red); }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }
+
+/* Another photograph: a clear invitation at the top of the page */
+.discover { margin: clamp(1rem, 2.5vw, 1.8rem) 0 0; padding: .9rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); align-items: center; gap: .4rem 2rem; }
+.discover .row.pick { gap: .2rem 1.4rem; align-items: center; }
+.discover #discoverHead { font: 500 .72rem/1 'IBM Plex Mono', monospace; font-style: normal; letter-spacing: .14em; text-transform: uppercase; color: var(--red); margin-right: .4rem; }
+.discover .pick button { font-size: 1.2rem; font-style: italic; text-decoration-color: var(--ink-3); }
+.discover .pick button:hover { text-decoration-color: var(--red); }
+.discover .pick button[data-random="surprise"] { font-style: normal; color: var(--ink); }
+.discover .or { font-size: 1.05rem; }
+.discover .back button { font-size: .95rem; color: var(--ink-2); }
+.discover .back:has(button:not([hidden]):not([disabled])) { display: flex; }
+@media (max-width: 640px) {
+  .discover { padding: .7rem 0; }
+  .discover .row.pick { gap: 0 1rem; }
+  .discover #discoverHead { flex-basis: 100%; margin: 0 0 .1rem; }
+  .discover .pick button { font-size: 1.08rem; }
+}
+
+/* Developing photograph: blurred thumbnail first, the real file fades in over it */
+.frame .blur { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; filter: blur(18px) saturate(1.15); transform: scale(1.03); opacity: 0; transition: opacity .5s ease; }
+.frame.has-blur .blur { opacity: 1; }
+.frame #photo { position: relative; transition: opacity .9s ease; }
+.frame.developing #photo { opacity: 0; }
+.stage.loading .frame { opacity: 1 !important; }
+.stage.loading img { opacity: unset; }
+.stage.loading .frame.has-blur ~ .spinner { display: none !important; }
+.stage.sharpening .frame #photo { filter: none; }
+
+/* Edge to edge on wide screens (the stage takes the photograph's own height) */
+.stage.bleed { transition: height .5s ease; }
+
+/* Immersive view: paging and a quiet page-turn */
+.vpage { display: flex; gap: 1.4rem; }
+.vpage button[disabled] { opacity: .35; }
+.vsurface img { transition: opacity .35s ease; }
+.vsurface.turning img { opacity: .25; }
+@media (max-width: 640px) { .vpage { order: -1; width: 100%; justify-content: space-between; } }
+
+/* Tour marker: a thin ring around the feature being described */
+.tour-mark { position: absolute; left: 0; top: 0; width: 64px; height: 64px; margin: -32px 0 0 -32px; border: 1px solid rgba(233,228,216,.9); border-radius: 50%; box-shadow: 0 0 0 1px rgba(0,0,0,.45), inset 0 0 0 1px rgba(0,0,0,.35); pointer-events: none; animation: ring 1.6s ease-out .9s both; }
+.tour-mark.moving { transition: transform .9s cubic-bezier(.3,.1,.2,1); }
+@keyframes ring { from { opacity: 0; scale: 1.5; } to { opacity: 1; scale: 1; } }
+
+/* On this day, under today's photograph */
+.otd-teaser { max-width: 40rem; margin: 1.8rem auto 0; padding: 0 var(--gutter); text-align: center; color: var(--ink-2); font-size: 1rem; line-height: 1.6; }
+.otd-teaser .k { display: block; font: 500 .68rem/1.4 'IBM Plex Mono', monospace; letter-spacing: .14em; text-transform: uppercase; color: var(--red); margin-bottom: .35rem; }
+.otd-teaser a { color: var(--ink); white-space: nowrap; text-decoration-color: var(--rule); }
+.otd-teaser a:hover { text-decoration-color: var(--red); }
+@media (max-width: 640px) { .otd-teaser { text-align: left; } }
+#feature { padding-top: clamp(.5rem, 2vw, 1.5rem); }
+.discover .any { display: inline-flex; align-items: center; gap: .8rem; white-space: nowrap; }
+.labels .tc { position: absolute; width: 40px; height: 40px; margin: -20px 0 0 -20px; border: 2px solid #ffd84a; border-radius: 50%; box-shadow: 0 0 0 1px #000; }
+.labels .tc b, .labels .tc { font: 500 .7rem/1 'IBM Plex Mono', monospace; color: #ffd84a; text-shadow: 0 0 3px #000; white-space: nowrap; }
+.labels .tc { text-indent: 46px; line-height: 36px; }

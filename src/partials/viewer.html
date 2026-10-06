@@ -1,6 +1,7 @@
 <dialog id="viewer" aria-label="Immersive view">
   <div class="vsurface" id="vsurface">
     <img id="vimg" alt="">
+    <span class="tour-mark" id="tourMark" aria-hidden="true" hidden></span>
   </div>
   <div class="vbar top">
     <div class="vgroup">
@@ -23,6 +24,10 @@
   </section>
   <div class="vbar bottom">
     <span class="vcredit" id="vCredit"></span>
+    <span class="vpage" role="group" aria-label="Move between days">
+      <button type="button" id="vPrevDay">← Day before</button>
+      <button type="button" id="vNextDay">Day after →</button>
+    </span>
     <span class="vstatus" id="vStatus" aria-live="polite"></span>
   </div>
 </dialog>

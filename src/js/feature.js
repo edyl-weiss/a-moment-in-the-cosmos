@@ -73,7 +73,13 @@ export async function show(id, ctx, { push = true, notice = '' } = {}) {
 function preview(item) {
   const src = item.img.screen;
   if (!src || !item.img.pubW) return;
-  const img = $('#photo');
+  const img = $('#photo'), blur = $('#photoBlur'), frame = $('#frame');
+  // Develop in place: the tiny thumbnail (a few KB, often cached from the archive) shows first,
+  // blurred, and the real photograph fades in over it as soon as it decodes.
+  const thumb = item.img.thumb || INDEX.find((e) => e.id === item.id)?.thumb;
+  if (thumb) { blur.src = thumb; frame.classList.add('has-blur'); } else frame.classList.remove('has-blur');
+  frame.classList.add('developing');
+  img.onload = () => frame.classList.remove('developing');
   img.src = src;
   img.alt = altText(item);
   $('#photoTitle').textContent = item.title;
@@ -146,6 +152,13 @@ export function fitFrame() {
   const dims = pending || state.dims;
   if (!dims) return;
   const stage = $('#stage'), frame = $('#frame'), { w, h } = dims;
+  // On wide screens, size the stage to the photograph so a landscape image runs edge to edge
+  // instead of sitting between black bars. Portraits and very tall crops keep the normal stage.
+  const vw = document.documentElement.clientWidth, fullH = vw * h / w;
+  const bleed = vw >= 1000 && fullH <= innerHeight * 0.92 && fullH >= innerHeight * 0.45;
+  const want = bleed ? Math.round(fullH) + 'px' : '';
+  if (stage.style.height !== want) stage.style.height = want;
+  stage.classList.toggle('bleed', bleed);
   const s = Math.min(stage.clientWidth / w, stage.clientHeight / h);
   frame.style.width = Math.floor(w * s) + 'px';
   frame.style.height = Math.floor(h * s) + 'px';

@@ -1,0 +1,57 @@
+/* Interaction motion (js/motion.js). Quiet, quick, and gone under prefers-reduced-motion. */
+
+/* Iris reveal of a newly chosen photograph */
+.stage.iris .frame { animation: iris 1.1s cubic-bezier(.22,.7,.2,1) both; }
+@keyframes iris {
+  from { clip-path: circle(0 at var(--ix) var(--iy)); filter: brightness(1.6); }
+  60% { filter: brightness(1.08); }
+  to { clip-path: circle(150% at var(--ix) var(--iy)); filter: none; }
+}
+
+/* Title and caption rise in after the photograph */
+.rise-in { animation: riseIn .8s cubic-bezier(.2,.7,.2,1) .25s both; }
+.rise-in-late { animation: riseIn .8s cubic-bezier(.2,.7,.2,1) .4s both; }
+@keyframes riseIn { from { opacity: 0; transform: translateY(14px); letter-spacing: .01em; } }
+
+/* Favourite burst */
+#favBtn { position: relative; }
+.burst { position: absolute; left: 50%; top: 50%; width: 0; height: 0; pointer-events: none; }
+.burst i { position: absolute; width: 4px; height: 4px; margin: -2px; border-radius: 50%; background: var(--red);
+  transform: rotate(var(--a)) translateY(0); animation: burst .8s cubic-bezier(.2,.7,.3,1) forwards; }
+.burst i:nth-child(even) { background: var(--ink); width: 3px; height: 3px; }
+@keyframes burst { 70% { opacity: 1; } to { transform: rotate(var(--a)) translateY(-34px); opacity: 0; } }
+
+/* Copy link confirmation */
+.pop { display: inline-block; animation: pop .45s cubic-bezier(.3,1.6,.5,1); }
+@keyframes pop { from { transform: scale(.85); opacity: .4; } }
+
+/* Gliding nav dot (replaces the per-link dot) */
+.site-nav ul { position: relative; }
+.site-nav a::after { display: none !important; }
+.nav-dot { position: absolute; left: 0; bottom: -.15rem; width: 4px; height: 4px; border-radius: 50%; background: var(--red); opacity: 0;
+  transition: transform .55s cubic-bezier(.3,1.3,.5,1), opacity .3s; pointer-events: none; }
+
+/* Sections lift into place on first view */
+.lift { opacity: 0; transform: translateY(18px); transition: opacity .9s ease, transform .9s cubic-bezier(.2,.7,.2,1); }
+.lift.in { opacity: 1; transform: none; }
+.story-main > .lift:nth-child(2) { transition-delay: .08s; }
+.story-main > .lift:nth-child(3) { transition-delay: .16s; }
+
+/* On this day: the date turns like a page */
+.turn-page { animation: turnPage .55s cubic-bezier(.2,.7,.2,1); transform-origin: 0 100%; }
+@keyframes turnPage { from { opacity: 0; transform: perspective(600px) rotateX(-55deg) translateY(10px); } }
+
+/* Archive and favourites: tiles arrive in a short ripple */
+.grid > * { animation: riseIn .5s cubic-bezier(.2,.7,.2,1) both; }
+.grid > *:nth-child(2) { animation-delay: .03s } .grid > *:nth-child(3) { animation-delay: .06s }
+.grid > *:nth-child(4) { animation-delay: .09s } .grid > *:nth-child(5) { animation-delay: .12s }
+.grid > *:nth-child(6) { animation-delay: .15s } .grid > *:nth-child(7) { animation-delay: .18s }
+.grid > *:nth-child(8) { animation-delay: .21s } .grid > *:nth-child(n+9) { animation-delay: .24s }
+
+/* Comparison: the divider sweeps once to show what it does */
+.cmp-box.sweeping .cmp-handle, .cmp-box.sweeping img.top { transition: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .lift { opacity: 1; transform: none; }
+  .nav-dot { transition: none; }
+}

@@ -130,11 +130,11 @@ export const TOURS = {
     {"x": 42, "y": 45, "zoom": 2, "title": "The largest galaxy", "text": "The largest of the three galaxies sits in the middle."},
     {"x": 73, "y": 61, "zoom": 2.2, "title": "Knots of new stars", "text": "Bright blue knots of star formation are strung along the arms of the galaxy on the right."},
     {"x": 11, "y": 68, "zoom": 3, "title": "The compact one", "text": "The third galaxy, at far left, is more compact but also shows signs of star formation."},
-    {"x": 76, "y": 38, "zoom": 3, "title": "Foreground stars", "text": "The two bright points at upper right are stars inside our own Milky Way, far in front of the galaxies."}
+    {"x": 77, "y": 36, "zoom": 3, "title": "Foreground stars", "text": "The two bright points at upper right are stars inside our own Milky Way, far in front of the galaxies."}
   ],
   "nasa-arp-143": [
     {"x": 31, "y": 46, "zoom": 2.2, "title": "NGC 2444", "text": "On the left is NGC 2444, the less showy partner, which still holds its companion in its gravitational grip."},
-    {"x": 60, "y": 40, "zoom": 2.2, "title": "NGC 2445", "text": "On the right, the distorted spiral NGC 2445 is ablaze with star formation. Astronomers suggest the two galaxies passed through each other, setting off this triangular burst of new stars."}
+    {"x": 64, "y": 45, "zoom": 2.2, "title": "NGC 2445", "text": "On the right, the distorted spiral NGC 2445 is ablaze with star formation. Astronomers suggest the two galaxies passed through each other, setting off this triangular burst of new stars."}
   ],
   "nasa-pillars-of-creation-miri-image": [
     {"x": 45, "y": 8, "zoom": 2.2, "title": "A V of cooler dust", "text": "The red, V-shaped region toward the top is where dust is both diffuse and cooler."},
@@ -144,7 +144,7 @@ export const TOURS = {
   ],
   "nasa-the-omega-nebula-hotbed-of-star-formation": [
     {"x": 89, "y": 37, "zoom": 3, "title": "A rose of gas", "text": "The rose-like feature glows in the red light given off by hydrogen and sulfur."},
-    {"x": 5, "y": 45, "zoom": 3, "title": "A horsehead look-alike", "text": "Dense pockets of gas form this feature jutting in from the left edge, which resembles the Horsehead Nebula in Orion. Pockets like this may contain developing stars."}
+    {"x": 3, "y": 44, "zoom": 3, "title": "A horsehead look-alike", "text": "Dense pockets of gas form this feature jutting in from the left edge, which resembles the Horsehead Nebula in Orion. Pockets like this may contain developing stars."}
   ],
   "w-weic2415a": [
     {"x": 18, "y": 20, "zoom": 2.6, "title": "Aligned outflows", "text": "In the top left corner, astronomers found a group of protostellar outflows all pointing the same way."},
