@@ -57,6 +57,25 @@ The picks are `chosen.json`, `chosen4.json` and `chosen5.json`; raw fields are i
 records in `data/records_extra*.json` / `data/records_noirlab2–3.json`, and stories in
 `data/stories/batch13–17.json` (each batch written, then independently fact-checked).
 
-Twelve dates still have fewer than three photographs published on them, because none of the four sources
+Eleven dates still have fewer than three photographs published on them, because none of the four sources
 released a usable photograph on those dates in any year (26 December has none at all). On those dates the
 page adds the nearest days' photographs, each labelled with its real publication date.
+
+## NASA (fifth source: Hubble and Webb releases on science.nasa.gov)
+
+hubblesite.org and webbtelescope.org now redirect to science.nasa.gov. `nasa/` holds that harvest: the
+Hubble and Webb image galleries were listed through the site's own content-list endpoint (5,351 entries),
+filtered (no illustrations, diagrams, solar-system or annotated images; at least 1,920 × 1,080), checked
+against the collection so joint NASA/ESA releases aren't duplicated, then reviewed by eye on contact sheets
+(`rank.py`, `picks.json`). Each asset page and its release article were read for the caption, object metadata,
+colour assignments and credit (`fields.json`, `parsed.json`), and `build_records_nasa.py` writes
+`data/records_nasa.json`. Images are served by NASA's image service at sizes no larger than the original.
+Stories are `data/stories/batch18–21.json`, written and independently fact-checked. NASA media are not under
+US copyright; NASA asks to be credited as the source.
+
+## Comparisons and tours
+
+`compare/`: the 38 ESA/Webb "Slider Tool" pages were read for their two aligned images, sizes and credits;
+26 photographs in the collection now open one (`new_comparisons.json`, merged into `src/data/comparisons.js`).
+Tours for 11 more photographs were added by hand to `src/data/tours.js`: each stop is a position the photo's
+own caption states, read off the published image on a 10% grid.

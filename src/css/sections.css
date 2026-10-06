@@ -51,3 +51,13 @@ ol.events .rel{font-size:.85rem;color:var(--ink-3);font-style:italic}
 .grid.small{grid-template-columns:repeat(auto-fill,minmax(min(140px,40vw),1fr));gap:22px 14px}
 .otd-grid h3.otd-near-head{margin-top:28px}
 .otd-note{font:400 .95rem/1.5 var(--serif);color:var(--ink-2);margin:0 0 12px;max-width:52ch}
+
+/* Collection search: one line of type, no boxes, the same underline as the date pickers. */
+.search{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 18px;margin:-6px 0 26px}
+.search-q{flex:1 1 18rem}
+.search input{width:100%;font:400 1.05rem var(--serif);color:var(--ink);background:none;border:0;border-bottom:1px solid var(--rule);padding:6px 2px;border-radius:0}
+.search input::placeholder{color:var(--ink-3);font-style:italic}
+.search input:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.more-row{margin:22px 0 0}
+ol.events .ev-find{margin-top:4px;font-size:.95rem}
+ol.events .ev-find button{min-height:0;padding:2px 0}

@@ -1,0 +1,168 @@
+/* Editorial refinement layer: hierarchy, rhythm and quiet chrome. Loaded last. */
+
+/* 1 · The photograph first */
+.stage { height: clamp(360px, 84vh, 1100px); background: var(--plate); }
+.stage img { transition: opacity .9s ease, filter 1.2s ease; }
+.stage.loading img { opacity: 0; }
+.stage .sharpening, .stage img.sharpening { filter: blur(6px); }
+.spinner { font: 400 .72rem/1 'IBM Plex Mono', monospace; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); animation: breathe 2.4s ease-in-out infinite; }
+@keyframes breathe { 50% { opacity: .35; } }
+.dims { opacity: 0; transition: opacity .3s; }
+.stage:hover .dims { opacity: .8; }
+.credit { font: 400 .7rem/1.5 'IBM Plex Mono', monospace; color: var(--ink-3); letter-spacing: .02em; text-align: right; margin-top: .6rem; padding-inline: var(--gutter); }
+.dateline { font: 400 .72rem/1 'IBM Plex Mono', monospace; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 1rem; }
+
+.titlebar { max-width: 46rem; margin: clamp(2rem, 5vw, 3.5rem) auto 0; text-align: center; padding-inline: var(--gutter); }
+.titlebar h2 { font-weight: 300; letter-spacing: -.01em; line-height: 1.05; text-wrap: balance; margin: 0; }
+.titlebar .cap { font-style: italic; font-size: 1.15rem; line-height: 1.55; color: var(--ink-2); max-width: var(--measure); margin: 1rem auto 0; text-wrap: pretty; }
+
+.actions { display: flex; flex-direction: column; align-items: center; gap: .9rem; margin: 2rem auto 0; padding-inline: var(--gutter); border: 0; }
+.act-primary, .act-secondary { display: flex; flex-wrap: wrap; justify-content: center; gap: .4rem 1.6rem; }
+.act-primary button { font-size: 1.05rem; }
+.act-secondary { gap: .3rem 1.3rem; }
+.act-secondary button, .act-secondary .btn { font: 400 .74rem/1.6 'IBM Plex Mono', monospace; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); text-decoration-color: transparent; }
+.act-secondary button:hover, .act-secondary .btn:hover { color: var(--ink); text-decoration-color: currentColor; }
+.dl-note { text-align: center; }
+
+/* 2 · Story versus reference */
+.story-grid { row-gap: 3rem; }
+.story-main p { font-size: 1.12rem; line-height: 1.72; max-width: var(--measure); hanging-punctuation: first; }
+.notes { font-size: .9rem; line-height: 1.6; color: var(--ink-2); border-left: 1px solid var(--rule); padding-left: 1.5rem; }
+.notes h3, .notes h4, .notes summary { font: 500 .68rem/1.4 'IBM Plex Mono', monospace; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); margin: 2rem 0 .5rem; }
+.notes > :first-child, .notes > :first-child h3 { margin-top: 0; }
+@media (max-width: 860px) { .notes { border-left: 0; border-top: 1px solid var(--rule); padding: 2rem 0 0; } }
+
+/* 3–4 · Type and rhythm */
+body { text-rendering: optimizeLegibility; font-kerning: normal; }
+section { padding-block: clamp(4rem, 9vw, 8rem); }
+.section-head { margin-bottom: clamp(1.5rem, 3vw, 2.5rem); align-items: end; }
+.section-head h2 { font-weight: 300; letter-spacing: -.005em; }
+.section-head p { color: var(--ink-2); max-width: var(--measure); }
+p { text-wrap: pretty; }
+
+/* 5 · Navigation */
+.site-nav a { position: relative; color: var(--ink-2); text-decoration: none; transition: color .25s; }
+.site-nav a:hover, .site-nav a[aria-current="true"] { color: var(--ink); }
+.site-nav a::after { content: ''; position: absolute; left: 50%; bottom: -.55rem; width: 4px; height: 4px; border-radius: 50%; background: var(--red); transform: translateX(-50%) scale(0); transition: transform .3s ease; }
+.site-nav a[aria-current="true"]::after { transform: translateX(-50%) scale(1); }
+@media (max-width: 640px) {
+  .site-nav { width: 100%; overflow-x: auto; scrollbar-width: none; -webkit-mask: linear-gradient(90deg, #000 85%, transparent); }
+  .site-nav::-webkit-scrollbar { display: none; }
+  .site-nav ul { flex-wrap: nowrap; gap: 1.2rem; padding-bottom: .7rem; white-space: nowrap; font-size: .92rem; }
+}
+
+/* 6 · On this day as a history-book page */
+.otd-date { font-weight: 300; font-size: clamp(2.6rem, 7vw, 5rem); line-height: 1; margin: .2rem 0 0; letter-spacing: -.02em; }
+.otd-nav { gap: .2rem .9rem; font-size: .9rem; }
+.otd-nav button { color: var(--ink-2); }
+.events { list-style: none; padding: 0; margin: 0; }
+.events li { display: grid; grid-template-columns: 5.5rem 1fr; gap: 1.2rem; padding: 1.2rem 0; border-top: 1px solid var(--rule); }
+.events li:first-child { border-top: 0; padding-top: 0; }
+.events .yr { font: 400 1.5rem/1.2 Spectral, serif; color: var(--red); font-variant-numeric: oldstyle-nums; text-align: right; }
+.events li p { margin: 0 0 .4rem; max-width: var(--measure); }
+.events .ev-src, .events .rel { font: .7rem/1.5 'IBM Plex Mono', monospace; color: var(--ink-3); }
+.events .none { display: block; }
+@media (max-width: 560px) { .events li { grid-template-columns: 1fr; gap: .2rem; } .events .yr { text-align: left; } }
+
+/* 7 · Archive as contact sheet */
+.search { gap: .6rem 1.2rem; padding-bottom: 1.2rem; border-bottom: 1px solid var(--rule); margin-bottom: 1.8rem; }
+.search input, .search select { background: transparent; border: 0; border-bottom: 1px solid var(--rule); color: var(--ink); font: inherit; padding: .35rem 0; border-radius: 0; }
+.search input:focus, .search select:focus { border-color: var(--ink-2); outline: none; }
+.grid { gap: clamp(6px, 1vw, 12px) !important; }
+.grid .tile, .grid > a, .grid > button { background: var(--plate); }
+.grid img { transition: opacity .6s ease, transform .9s cubic-bezier(.2,.7,.2,1), filter .6s; filter: saturate(.92) brightness(.92); }
+.grid img:not([src]), .grid img[data-loading] { opacity: 0; }
+.grid > *:hover img { transform: scale(1.025); filter: none; }
+.grid .sub, .grid figcaption, .grid .t { font-size: .78rem; color: var(--ink-3); }
+
+/* 8 · Favorites empty state */
+.empty-state { text-align: center; padding: clamp(2.5rem, 7vw, 5rem) var(--gutter); grid-column: 1 / -1; }
+.empty-state .mark { font-size: 1.8rem; color: var(--ink-3); display: block; margin-bottom: .6rem; }
+.empty-state h3 { font-weight: 300; font-size: 1.5rem; margin: 0 0 .5rem; }
+.empty-state p { color: var(--ink-2); max-width: 28rem; margin: 0 auto; font-style: italic; }
+
+/* 9 · Immersive view: chrome recedes */
+.vbar { transition: opacity .7s ease, transform .7s ease; }
+#viewer.idle .vbar { opacity: 0; pointer-events: none; }
+#viewer.idle .vbar.top { transform: translateY(-6px); }
+#viewer.idle .vbar.bottom { transform: translateY(6px); }
+#viewer.idle { cursor: none; }
+
+/* 10 · Hubble vs Webb, the signature comparison */
+.cmp-handle { width: 1px !important; background: rgba(233,228,216,.85) !important; box-shadow: 0 0 12px rgba(0,0,0,.6); }
+.cmp-handle::after { content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 10px; height: 52px; background: var(--ink); box-shadow: 0 0 0 1px rgba(0,0,0,.55); transition: height .25s ease; }
+.cmp-box:hover .cmp-handle::after, .cmp-box:active .cmp-handle::after { height: 72px; }
+.cmp-tag { top: 14px; bottom: auto !important; font: 500 .68rem/1 'IBM Plex Mono', monospace !important; letter-spacing: .16em; text-transform: uppercase; background: rgba(13,12,11,.78); padding: .45rem .65rem !important; color: var(--ink) !important; text-shadow: none !important; }
+.cmp-tag.left { left: 14px !important; } .cmp-tag.right { right: 14px !important; }
+.cmp-hint { position: absolute; left: var(--split); bottom: 18px; transform: translateX(-50%); font: 400 .7rem/1 'IBM Plex Mono', monospace; letter-spacing: .12em; text-transform: uppercase; color: var(--ink); background: rgba(13,12,11,.78); padding: .45rem .7rem; pointer-events: none; white-space: nowrap; transition: opacity .6s ease .2s; }
+.cmp-hint.gone { opacity: 0; }
+.cmp-note details, #understandBody details { border-top: 1px solid var(--rule); }
+.cmp-note summary, #understandBody summary { cursor: pointer; padding: .7rem 0; font: 400 .74rem/1.4 'IBM Plex Mono', monospace; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-2); list-style: none; }
+.cmp-note summary::before, #understandBody summary::before { content: '+'; display: inline-block; width: 1.2em; color: var(--red); transition: transform .3s; }
+details[open] > summary::before { transform: rotate(45deg); }
+.cmp-note summary:hover, #understandBody summary:hover { color: var(--ink); }
+.cmp-note details { text-align: left; padding-bottom: .6rem; }
+.cmp-note { max-width: var(--measure); margin: 1rem auto 0; text-align: center; font-style: italic; color: var(--ink-2); }
+
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }
+#otdEvents li { display: grid; grid-template-columns: 5.5rem 1fr; gap: 1.2rem; }
+#otdEvents .yr { font: 400 1.6rem/1.15 Spectral, serif; color: var(--red); font-variant-numeric: oldstyle-nums; text-align: right; letter-spacing: 0; }
+@media (max-width: 560px) { #otdEvents li { grid-template-columns: 1fr; gap: .25rem; } #otdEvents .yr { text-align: left; font-size: 1.3rem; } }
+#otdEvents .none { display: block; }
+@media (max-width: 640px) { .stage { height: clamp(260px, 58vh, 620px); } #feature { padding-top: 1.5rem; } }
+
+/* 12 · Understand the image: an inset in the story, not a help panel */
+#understandPanel { max-width: 40rem; margin: 2.2rem auto 0; padding: 0 var(--gutter); animation: rise .5s ease both; }
+#understandPanel h3 { font: 500 .7rem/1.4 'IBM Plex Mono', monospace; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); margin-bottom: .8rem; }
+#understandBody .lede { font-size: 1.15rem; line-height: 1.65; margin-bottom: 1.2rem; }
+#understandBody details > :not(summary) { margin: 0 0 1rem 1.2em; color: var(--ink-2); }
+#understandBody details[open] > :not(summary) { animation: rise .35s ease both; }
+@keyframes rise { from { opacity: 0; transform: translateY(4px); } }
+
+/* 11 · Guided tour: a caption the astronomer leaves beside the feature */
+.tour-card { background: rgba(10,9,8,.86) !important; border-left: 2px solid var(--red); padding: 16px 20px 10px !important; }
+.tour-card.turn > * { animation: rise .45s ease both; }
+.tour-card h3 { font-weight: 300 !important; }
+.tour-card p { line-height: 1.55; }
+.tour-card .row button { font-size: .95rem; }
+
+/* 13–14 · Evidence as museum placard */
+.notes dt, .notes .label { font: 500 .66rem/1.4 'IBM Plex Mono', monospace; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); margin-top: 1.4rem; }
+.notes dt:first-child { margin-top: 0; }
+.notes dd { margin: .3rem 0 0; color: var(--ink-2); }
+.notes a { color: var(--ink-2); text-decoration-color: var(--rule); }
+.notes a:hover { color: var(--ink); text-decoration-color: var(--red); }
+.credit a { color: var(--ink-2); text-decoration-color: var(--rule); }
+
+/* 15 · Darkness with tonal separation: warm near-black, slightly lifted bands for reference sections */
+:root { --paper: #0f0e0c; --band: #151412; }
+body { background: var(--paper); }
+#onthisday, #about { background: var(--band); }
+#favorites { background: var(--paper); }
+.stage { background: #050505; }
+
+/* 18 · Components: one control height, one hover, one focus */
+button, .btn { min-height: 44px; transition: color .2s ease, text-decoration-color .2s ease; }
+button:hover, .btn:hover { text-decoration-color: var(--ink-2); }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }
+select { min-height: 40px; }
+
+/* 19 · Small, useful motion */
+#favBtn[aria-pressed="true"] #favText { color: var(--red); }
+#favBtn[aria-pressed="true"] { animation: settle .35s ease; }
+@keyframes settle { 40% { transform: scale(1.04); } }
+.grid > * { animation: rise .4s ease both; }
+#viewer[open] { animation: fadein .35s ease; }
+@keyframes fadein { from { opacity: 0; } }
+
+/* 20 · Phones */
+@media (max-width: 640px) {
+  .titlebar { text-align: left; margin-top: 1.6rem; }
+  .titlebar .cap { margin-left: 0; font-size: 1.05rem; }
+  .actions { align-items: flex-start; }
+  .act-primary, .act-secondary { justify-content: flex-start; gap: 0 1.2rem; }
+  .credit { text-align: left; }
+  .cmp-tag { top: 8px; font-size: .6rem !important; }
+  .tour-card { left: 0 !important; width: 100vw !important; border-left: 0; border-top: 2px solid var(--red); }
+}
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }

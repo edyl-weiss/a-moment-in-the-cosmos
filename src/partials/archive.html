@@ -2,15 +2,18 @@
   <div class="section-head">
     <div>
       <h2 id="archiveHead">Daily archive</h2>
-      <p id="archiveNote"></p>
-    </div>
-    <div class="filters-row" role="group" aria-label="Filter archive by category">
-      <button type="button" data-afilter="all" aria-pressed="true">All</button>
-      <button type="button" data-afilter="galaxy" aria-pressed="false">Galaxy</button>
-      <button type="button" data-afilter="nebula" aria-pressed="false">Nebula</button>
-      <button type="button" data-afilter="star" aria-pressed="false">Star</button>
-      <button type="button" data-afilter="night" aria-pressed="false">Night Sky</button>
+      <p id="archiveNote" aria-live="polite"></p>
     </div>
   </div>
+  <form class="search" id="archiveForm" role="search" aria-label="Search the collection">
+    <label class="search-q"><span class="sr-only">Search by name, object or constellation</span>
+      <input type="search" id="archiveQ" placeholder="Search: Orion, Andromeda, NGC 1300…" autocomplete="off" enterkeyhint="search">
+    </label>
+    <label class="otd-pick"><span class="sr-only">Category</span><select id="archiveCat"></select></label>
+    <label class="otd-pick"><span class="sr-only">Source</span><select id="archiveOrg"></select></label>
+    <label class="otd-pick"><span class="sr-only">Telescope</span><select id="archiveTel"></select></label>
+    <button type="button" id="archiveClear" hidden>Clear</button>
+  </form>
   <div class="grid" id="archiveGrid"></div>
+  <p class="more-row"><button type="button" id="archiveMore" hidden>Show more</button></p>
 </section>

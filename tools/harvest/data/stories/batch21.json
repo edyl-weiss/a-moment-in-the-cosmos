@@ -1,0 +1,604 @@
+[
+ {
+  "id": "nasa-nearby-dust-clouds-in-the-milky-way",
+  "caption": "Bok globules in the nebula NGC 281, imaged by the Hubble Space Telescope",
+  "captureDate": "October 31, 2005",
+  "story": [
+   "Dark, ragged knots of dust stand in silhouette against glowing pink hydrogen gas, with bright blue stars scattered nearby. These opaque clumps are Bok globules, dense pockets of gas and dust near the middle of NGC 281, an emission nebula and star-forming region in our own Milky Way nearly 9,500 light-years away toward Cassiopeia.",
+   "Bart Bok, the astronomer they are named after, first proposed them in the 1940s. He suggested that giant molecular clouds, hundreds of light-years across, can be disturbed and break into small, concentrated pockets. Bound by their own gravity, such pockets keep pulling in material. With enough mass they can form stars in their cores. Some never get that far and disperse first.",
+   "That may be the fate of these globules. They sit very close to the centre of the young open cluster IC 1590, whose hot, massive stars give off ultraviolet light and a powerful stellar wind. The radiation ionizes nearby hydrogen and makes it glow pink. Hubble's sharp view shows the globules' jagged edges, as if they are being torn apart from outside."
+  ],
+  "explore": [
+   "IC 1590 holds a few hundred stars. Its core, a tight group of extremely hot, massive stars, lies just beyond the top edge of the frame. The dust knots block visible light, but the thinner gas around them is transparent, so background stars and even distant background galaxies show through it."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys combined several filters for this picture. NASA assigns blue to F435W (B), green to F555W (V), red-orange to F658N (hydrogen-alpha) and red to F814W (I).",
+   "eye": "The exposures total 2.1 hours, collecting far more light than the eye can, and the hydrogen-alpha filter isolates the gas's own glow so the dark outlines of the globules stand out sharply."
+  },
+  "alt": "Dark, jagged clumps of dust silhouetted against pink glowing hydrogen gas, with bright blue stars nearby.",
+  "scaleExtra": null,
+  "flags": []
+ },
+ {
+  "id": "nasa-hubble-interacting-galaxy-ngc-7469",
+  "caption": "Interacting galaxies NGC 7469 and IC 5283, imaged by the Hubble Space Telescope",
+  "captureDate": "June 11, 2002",
+  "story": [
+   "Hubble's Advanced Camera for Surveys catches the barred spiral NGC 7469 in a close encounter with its smaller companion, IC 5283. The pair lies about 200 million light-years from Earth in Pegasus, the Winged Horse.",
+   "NGC 7469 is a Seyfert galaxy, one of a class with unusually bright, active centres, and it is classed as a Seyfert 1. It is also a luminous source of infrared light, and a powerful burst of star formation lies buried deep in the zone around its nucleus.",
+   "The picture is one of 59 views of colliding and merging galaxies that NASA released on 24 April 2008 to mark the 18th anniversary of Hubble's launch. According to NASA, just one nearby galaxy in a million is seen colliding today. Encounters like this were far more common long ago, when the universe was smaller and galaxies sat closer together."
+  ],
+  "explore": [
+   "NGC 7469 also appears in catalogues as Arp 298 and Markarian 1514. Most of the anniversary images came from GOALS, the Great Observatories All-sky LIRG Survey, a study of luminous and ultra-luminous infrared galaxies that combines Hubble data with observations from NASA's Spitzer Space Telescope, Chandra X-ray Observatory and Galaxy Evolution Explorer."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took this image. NASA has not published which filters were used or how colours were assigned.",
+   "eye": "The 33-minute exposure gathers far more light than an eye at a telescope could."
+  },
+  "alt": "A large barred spiral galaxy with a smaller companion galaxy nearby.",
+  "scaleExtra": null,
+  "flags": []
+ },
+ {
+  "id": "nasa-hubble-interacting-galaxy-ngc-7674",
+  "caption": "Galaxy NGC 7674 in the Hickson 96 group, imaged by the Hubble Space Telescope",
+  "captureDate": "June 10, 2006",
+  "story": [
+   "Just above the centre of the frame, a spiral galaxy faces us almost head-on, with a bar of stars across its middle and long, narrow streamers reaching out to the left and below. This is NGC 7674, also called Markarian 533, the largest and brightest of the four galaxies in a compact group known as Hickson 96.",
+   "The streamers are tidal features. Gravitational pulls from neighbouring galaxies in the group can explain the spiral's distorted shape, and the same encounters may be feeding its core. Its powerful active nucleus is of the kind called a type 2 Seyfert, and NASA suggests it is perhaps fuelled by gas drawn toward the centre as the companions tug on the galaxy.",
+   "NGC 7674 belongs to the family of luminous infrared galaxies, and it appears as number 182 in Arp's Atlas of Peculiar Galaxies. It lies in Pegasus, the Winged Horse, about 400 million light-years from Earth according to NASA."
+  ],
+  "explore": [
+   "The image is one of a set of 59 merging-galaxy pictures released on 24 April 2008, the telescope's 18th launch anniversary. The galaxy is also catalogued as VV 343a, and its group as HCG 96."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took this image. NASA has not published which filters were used or how colours were assigned.",
+   "eye": "The 33-minute exposure gathers far more light than the eye can, which helps bring out faint structure such as the streamers."
+  },
+  "alt": "A face-on barred spiral galaxy just above centre with long, narrow streamers extending to the left and below.",
+  "flags": [
+   "distance mismatch: caption says about 400 million light-years, metadata says 350 million"
+  ],
+  "scaleExtra": null
+ },
+ {
+  "id": "nasa-hubble-interacting-galaxy-ic-2545",
+  "caption": "Merging galaxy pair IC 2545, imaged by the Hubble Space Telescope",
+  "captureDate": "November 5, 2001",
+  "story": [
+   "At first glance IC 2545 looks like one S-shaped galaxy. It is really two galaxies in the middle of merging, and the two cores of the original galaxies still show in the central region. Two pronounced tidal arms of gas and stars sweep out from the middle, and the arm curving upward and clockwise is dotted with blue star clusters.",
+   "Tidal arms like these form when the gravity of a close partner drags material out of a galaxy's outer regions and flings it into long, curving streams. Blue clusters are generally made of young, hot stars, which shine brightly but do not last long by astronomical standards.",
+   "IC 2545 also glows strongly in infrared light, which NASA counts as another sign of a merging pair. The system lies some 450 million light-years away in Antlia, the Air Pump. The image is part of a 2008 collection of 59 colliding and merging galaxies, released for the telescope's 18th anniversary."
+  ],
+  "explore": [
+   "Mergers like this one were much more common in the early universe, when galaxies were packed closer together. Today, according to NASA, only about one nearby galaxy in a million is caught in the act of colliding."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took this image. NASA has not published which filters were used or how colours were assigned.",
+   "eye": "The 34-minute exposure gathers far more light than the eye can, and the infrared glow NASA mentions is invisible to human vision altogether."
+  },
+  "alt": "An S-shaped galaxy with two cores at its centre and two curving arms, one dotted with blue star clusters.",
+  "scaleExtra": null,
+  "flags": []
+ },
+ {
+  "id": "nasa-hubble-interacting-galaxy-ugc-8335",
+  "caption": "Interacting galaxy pair UGC 8335 (Arp 238), imaged by the Hubble Space Telescope",
+  "captureDate": "May 10, 2002",
+  "story": [
+   "The two spiral galaxies of UGC 8335 resemble a pair of ice skaters. A bridge of material links them, two strongly curved tails of gas and stars sweep out from their outer parts, and dark dust lanes cross the centres of both. The pair is the 238th entry in Arp's Atlas of Peculiar Galaxies.",
+   "The bridge and tails are tidal features. When two galaxies pass close, each pulls harder on the near side of its partner than on the far side, stretching stars and gas from the outer disc into long streams. NASA describes the pair as strongly interacting, and here the bridge physically unites the two galaxies.",
+   "About 400 million light-years from Earth, UGC 8335 lies in the constellation Ursa Major, the Great Bear. The image belongs to a collection of merging systems released in April 2008 on the telescope's 18th launch anniversary. NASA notes that collisions like this unfold over several hundred million years, far too slowly to see change over a human lifetime."
+  ],
+  "explore": [
+   "The galaxies are also catalogued as VV 250a and Arp 238. Most of the 2008 anniversary images were part of GOALS, a survey of luminous and ultra-luminous infrared galaxies that combines Hubble with other NASA observatories."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys used a blue filter, F435W (B), and a near-infrared filter, F814W (I). NASA shows F435W in blue, F814W in red, and a blend of the two in green.",
+   "eye": "Near-infrared light is invisible to the eye, and the 36-minute exposure gathers far more light than the eye can."
+  },
+  "alt": "Two spiral galaxies joined by a bridge of material, each with a strongly curved tail and dark dust lanes across its centre.",
+  "scaleExtra": null,
+  "flags": []
+ },
+ {
+  "id": "nasa-hubble-interacting-galaxy-ngc-5754",
+  "caption": "Interacting galaxies NGC 5754 and NGC 5752 (Arp 297), imaged by the Hubble Space Telescope",
+  "captureDate": "March 14, 1999",
+  "story": [
+   "A large spiral, NGC 5754, fills the right side of the frame, while its smaller companion, NGC 5752, sits in the bottom left corner. Together they make up the interacting pair Arp 297, some 200 million light-years away in Boötes, the Herdsman.",
+   "The two have responded to their encounter in very different ways. The big spiral's internal structure is barely disturbed. Signs of the interaction show up instead in tidal features around its outskirts, in the symmetry of its inner spiral pattern and in arms that kink just beyond an inner ring.",
+   "NGC 5752 has been changed far more. It has gone through a starburst, an intense episode of star formation, and a rich crowd of massive, luminous star clusters now gathers around its core, threaded with intricate lanes of dust. NASA attributes the contrast between the two galaxies to their different masses and sizes, so the same encounter has left one nearly intact and transformed the other."
+  ],
+  "explore": [
+   "Hubble's Wide Field and Planetary Camera 2 took this picture in 1999, years before NASA's 2008 anniversary release included it among 59 images of interacting and merging galaxies at many different stages of collision."
+  ],
+  "understand": {
+   "summary": "Hubble's Wide Field and Planetary Camera 2 took this image. NASA has not published which filters were used or how colours were assigned.",
+   "eye": "The total exposure of 1.4 hours gathers far more light than the eye can collect in a single glance."
+  },
+  "alt": "A large spiral galaxy on the right and a smaller, clumpy companion galaxy with dust lanes in the bottom left corner.",
+  "scaleExtra": null,
+  "flags": []
+ },
+ {
+  "id": "nasa-hubble-interacting-galaxy-ngc-6090",
+  "caption": "Merging galaxy pair NGC 6090, imaged by the Hubble Space Telescope",
+  "captureDate": "September 18, 2005 and November 12, 2005",
+  "story": [
+   "Two spiral galaxies overlap at the middle of NGC 6090, and two long tidal tails reach out from the pair. Bright knots of newborn stars crowd the zone where the galaxies cross. The right-hand galaxy faces us, showing clear spiral structure, while its partner is seen edge-on, so no arms are visible.",
+   "The tails formed from material torn out of both galaxies by their mutual gravity. The two cores are approximately 10,000 light-years apart, which suggests the merger is at an intermediate stage. Those knots of newborn stars sit in the very region where the two discs overlap.",
+   "NGC 6090 lies about 400 million light-years away in Draco, the Dragon. NASA compares it with the well-known Antennae galaxies, both in how far the merger has progressed and in the angle from which we see it. A number of fainter, more distant background galaxies are scattered across the frame."
+  ],
+  "explore": [
+   "Hubble recorded the system on two dates in 2005, and it was later included in the April 2008 release of 59 merging-galaxy images for the telescope's 18th anniversary. NGC 6090 is also catalogued as VV 626 and I Zw 135."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took this image. NASA has not published which filters were used or how colours were assigned.",
+   "eye": "An hour of exposure time gathers far more light than the eye can, enough to pick up the fainter background galaxies."
+  },
+  "alt": "Two overlapping spiral galaxies, one face-on and one edge-on, with bright star knots where they meet and two long tails.",
+  "scaleExtra": null,
+  "flags": []
+ },
+ {
+  "id": "nasa-hubble-interacting-galaxy-ngc-6240",
+  "caption": "Merging galaxy NGC 6240, imaged by the Hubble Space Telescope",
+  "captureDate": "February 11, 2006",
+  "story": [
+   "NGC 6240 has a peculiar shape that NASA likens to a butterfly or a lobster. It is the product of two smaller galaxies merging into one, and it lies some 400 million light-years away in Ophiuchus, the Serpent Holder.",
+   "The collision began about 30 million years ago. It set off a wave of star formation and touched off numerous supernova explosions. NASA expects the merger to finish within tens to hundreds of millions of years.",
+   "The galaxy also holds two giant black holes. NASA's Chandra X-ray Observatory found them in observations that put them about 3,000 light-years apart. Over time the pair is expected to drift toward each other and eventually combine into a single, larger black hole. Chandra detected them in X-rays, a kind of light Hubble's camera does not record."
+  ],
+  "explore": [
+   "Hubble's picture is part of a 2008 set of 59 merging-galaxy images released for the telescope's 18th launch anniversary. The galaxy is also listed as VV 617. Most of that anniversary set came from GOALS, a survey of luminous and ultra-luminous infrared galaxies."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys used a blue filter, F435W (B), and a near-infrared filter, F814W (I). NASA shows F435W in blue, F814W in red, and a combination of the two in green.",
+   "eye": "The near-infrared filter records light the eye cannot see, and the black holes themselves were detected in X-rays, not in this image."
+  },
+  "alt": "An irregular galaxy with a lobed, butterfly-like shape formed by two merging galaxies.",
+  "flags": [
+   "distance mismatch: caption says some 400 million light-years, metadata says 350 million"
+  ],
+  "scaleExtra": null
+ },
+ {
+  "id": "nasa-hubble-interacting-galaxy-ngc-3256",
+  "caption": "Peculiar galaxy NGC 3256, imaged by the Hubble Space Telescope",
+  "captureDate": "November 5, 2001",
+  "story": [
+   "Two long, luminous tails swirl out from the body of NGC 3256, and its central region is tangled with dark lanes of dust. The galaxy looks like a single, oddly shaped object, but it is the leftover of a collision between two separate galaxies that happened long ago.",
+   "The tails are the clearest clue to that past. Gravity pulled them out of the original galaxies during the encounter, and they are now studded with an unusually dense population of star clusters. Hidden in the dusty middle is a double nucleus.",
+   "NGC 3256 lies about 100 million light-years away in Vela, and NASA calls it a nearby template for studying the young star clusters that form in tidal tails. The galaxy belongs to the Hydra-Centaurus supercluster complex, an enormous grouping of galaxies. NASA notes that encounters of this kind play out over several hundred million years."
+  ],
+  "explore": [
+   "The image is one of 59 colliding-galaxy pictures released in April 2008 on its 18th launch anniversary. According to NASA, only about one nearby galaxy in a million is caught colliding today."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took this image. NASA has not published which filters were used or how colours were assigned.",
+   "eye": "The 35-minute exposure gathers far more light than the eye can."
+  },
+  "alt": "A distorted galaxy with a dusty centre and two long, bright tails curving outward.",
+  "scaleExtra": null,
+  "flags": []
+ },
+ {
+  "id": "nasa-hubble-interacting-galaxy-ugc-9618",
+  "caption": "Interacting galaxy pair UGC 9618 (Arp 302), imaged by the Hubble Space Telescope",
+  "captureDate": "January 7, 2006",
+  "story": [
+   "Two spiral galaxies sit side by side at very different angles. On the left, VV 340A is seen edge-on, while VV 340B on the right is seen face-on. The pair is catalogued as UGC 9618, VV 340 and Arp 302, the last being the 302nd entry in Arp's Atlas of Peculiar Galaxies.",
+   "Both galaxies are very rich in gas, and their interaction is still at an early stage. Even so, massive stars are already being born as quickly as in the busiest giant star-forming regions of our own Milky Way. The gas around those young stars radiates an enormous amount of infrared light.",
+   "The pair lies 450 million light-years from Earth in the constellation Boötes. The image is part of NASA's April 2008 collection of 59 interacting and merging galaxies. NASA notes that galaxy collisions like this unfold over several hundred million years."
+  ],
+  "explore": [
+   "Most of the anniversary images, according to NASA, came from GOALS, the Great Observatories All-sky LIRG Survey. It brings together Hubble pictures with data from NASA's Spitzer Space Telescope, Chandra X-ray Observatory and Galaxy Evolution Explorer to study galaxies that shine brightly in infrared light."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys used a blue filter, F435W (B), and a near-infrared filter, F814W (I). NASA shows F435W in blue, F814W in red, and a blend of both in green.",
+   "eye": "The strong infrared glow from the pair's star-forming gas is invisible to the eye, and even the near-infrared filter used here records light beyond human vision."
+  },
+  "alt": "Two spiral galaxies side by side, one edge-on at left and one face-on at right.",
+  "scaleExtra": null,
+  "flags": []
+ },
+ {
+  "id": "nasa-hubble-interacting-galaxy-ngc-454",
+  "caption": "Interacting galaxy pair NGC 454, imaged by the Hubble Space Telescope",
+  "captureDate": "March 6, 1997",
+  "story": [
+   "A large red elliptical galaxy and a gas-rich, irregular blue galaxy are locked in an early encounter that has badly distorted both. To the right of the two main bodies glow three bright blue knots of very young stars, which probably belong to the irregular galaxy.",
+   "The two galaxies are very different kinds. Elliptical galaxies are usually smooth and contain mostly older stars, while irregular galaxies tend to be gas-rich and full of young ones. In NGC 454, dust lanes reach all the way to the centre of the elliptical, which suggests gas has penetrated that far. Hubble finds no sign of new star formation or nuclear activity there, however.",
+   "The pair is approximately 164 million light-years away, according to NASA, in the constellation Phoenix. Hubble's Wide Field and Planetary Camera 2 took the picture in 1997, and it was later included in a 2008 release of 59 interacting-galaxy images for the telescope's 18th anniversary."
+  ],
+  "explore": [
+   "According to NASA, mergers happened far more often in the distant past, because the young universe was smaller and its galaxies sat closer together. In the nearby universe today, astronomers see only about one galaxy in a million in the act of colliding."
+  ],
+  "understand": {
+   "summary": "Hubble's Wide Field and Planetary Camera 2 recorded the pair through three filters. NASA shows F450W (B) in blue, F555W (V) in green and F814W (I) in red.",
+   "eye": "The F814W filter reaches into near-infrared light beyond human vision, and the 31-minute exposure gathers far more light than the eye can."
+  },
+  "alt": "A large reddish elliptical galaxy beside a distorted blue irregular galaxy, with three bright blue knots to the right.",
+  "flags": [
+   "distance mismatch: caption says approximately 164 million light-years, metadata says 150 million"
+  ],
+  "scaleExtra": null
+ },
+ {
+  "id": "nasa-hubble-interacting-galaxy-ngc-3690",
+  "caption": "Interacting galaxies NGC 3690 (Arp 299), imaged by the Hubble Space Telescope",
+  "captureDate": "March 18, 2002",
+  "story": [
+   "Hubble shows NGC 3690, also known as Arp 299, a pair of galaxies that swung close to each other some 700 million years ago. The encounter set off a fierce burst of star formation. It lies approximately 150 million light-years away in Ursa Major, the Great Bear.",
+   "Arp 299 has earned a reputation as a supernova factory. According to NASA's 2008 description, six supernovae had gone off in its outer reaches in the previous fifteen years or so. Massive stars live short lives, so a galaxy forming many of them can be expected to produce exploding stars at a high rate.",
+   "The system is counted among the ultra-luminous infrared galaxies and is thick with light-absorbing dust. Even so, enough violet and near-ultraviolet light escapes for it to appear as number 171 in B. E. Markarian's catalogue of galaxies with excess ultraviolet emission. It is also the 299th object in Arp's Atlas of Peculiar Galaxies."
+  ],
+  "explore": [
+   "The image is one of 59 colliding-galaxy pictures released on 24 April 2008, the telescope's 18th anniversary. NASA notes that the majority of those observations were led by Aaron S. Evans of Caltech."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took this image. NASA has not published which filters were used or how colours were assigned.",
+   "eye": "As an ultra-luminous infrared galaxy, Arp 299 shines strongly in infrared light, which the eye cannot see."
+  },
+  "alt": "A pair of interacting galaxies, Arp 299, in Ursa Major.",
+  "scaleExtra": null,
+  "flags": []
+ },
+ {
+  "id": "nasa-hubble-interacting-galaxy-arp-256",
+  "caption": "Merging galaxy pair Arp 256, imaged by the Hubble Space Telescope",
+  "captureDate": "May 23, 2006",
+  "story": [
+   "Two spiral galaxies with badly disrupted shapes are scattered with blue knots of star formation, so many that NASA compares them to exploding fireworks. The galaxy on the left trails two long, ribbon-like tails of gas, dust and stars. This is Arp 256, a pair in the early stages of merging.",
+   "NASA calls the blue knots sites of star formation, and young, hot stars give off blue light. Ribbon-like tails such as those on the left are typically tidal features, drawn out of a galaxy's outer regions by a partner's gravity.",
+   "Arp 256 is a luminous infrared system, pouring out over a hundred billion times as much energy as our Sun. It lies about 350 million light-years away in Cetus, the Whale, and Arp's Atlas of Peculiar Galaxies lists it as entry 256."
+  ],
+  "explore": [
+   "The image is part of a set of 59 merging-galaxy pictures released for its 18th anniversary in April 2008. The system is also catalogued as VV 352. NASA describes such collisions as playing out over several hundred million years."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys used a blue filter, F435W (B), and a near-infrared filter, F814W (I). NASA shows F435W in blue, F814W in red, and a blend of the two in green.",
+   "eye": "The near-infrared filter captures light outside human vision, and the system's strong infrared glow is invisible to the eye."
+  },
+  "alt": "Two distorted spiral galaxies dotted with many blue knots, the left one trailing two long ribbon-like tails.",
+  "scaleExtra": null,
+  "flags": []
+ },
+ {
+  "id": "nasa-hubble-interacting-galaxy-ngc-520",
+  "caption": "Merging galaxies NGC 520 (Arp 157), imaged by the Hubble Space Telescope",
+  "captureDate": "October 22, 2004",
+  "story": [
+   "A prominent lane of dust runs diagonally across the middle of NGC 520, hiding much of the galaxy behind it, and an odd-looking tail of stars extends from the system. NGC 520 is the result of two disc galaxies colliding, in an encounter that began 300 million years ago.",
+   "The galaxy is a good example of the middle stage of a merger. The discs of the two parent galaxies have already blended together, but their nuclei have not yet combined into one.",
+   "NGC 520 lies about 100 million light-years away in Pisces, the Fish, and measures about 100,000 light-years across. It is one of the brightest galaxy pairs in the sky. Through a small telescope it looks like a comet, a fuzzy patch very different from the detail Hubble reveals. Arp listed it as number 157 in his catalogue of peculiar galaxies. Hubble's Advanced Camera for Surveys collected 77 minutes of exposure for this picture in October 2004."
+  ],
+  "explore": [
+   "Hubble's image of NGC 520 was among 59 views of interacting and merging galaxies that NASA released in April 2008 to celebrate the telescope's 18th year in orbit. At the time NASA called the set the biggest batch of Hubble images it had ever made public."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took this image. NASA has not published which filters were used or how colours were assigned.",
+   "eye": "Through a small telescope the eye sees only a comet-like smudge, while Hubble's 77-minute exposure separates the dust lane and tail in detail."
+  },
+  "alt": "A galaxy crossed diagonally by a thick dark dust lane, with a faint tail of stars extending from it.",
+  "scaleExtra": null,
+  "flags": []
+ },
+ {
+  "id": "nasa-jet-in-carina",
+  "caption": "A stellar jet in the Carina Nebula, imaged by the Hubble Space Telescope",
+  "captureDate": "July 24-30, 2009",
+  "story": [
+   "Hubble's Wide Field Camera 3 captured a jet of gas streaming from a young star inside the Carina Nebula, about 7,500 light-years away in the constellation Carina. Jets like this are narrow beams of material launched from newly forming stars as they gather mass.",
+   "The picture combines five filters, each tuned to light from a particular element. Two record infrared light from iron, one picks up oxygen, one isolates hydrogen and one traces sulfur. Together they map the gas in the jet and the surrounding nebula by its chemistry rather than just its brightness.",
+   "The observations were among the first made with Wide Field Camera 3, which astronauts installed during the STS-125 servicing mission in May 2009. NASA released them in September that year as evidence that the 19-year-old telescope had been fully restored. With the new instruments, Hubble could study the sky from ultraviolet through near-infrared light and complete observations in a fraction of the time older instruments needed."
+  ],
+  "explore": [
+   "After three months of testing and calibration, NASA said Hubble had gone from three working instrument channels to thirteen. At the time, planned work for the upgraded telescope ranged from Kuiper Belt objects at the edge of the solar system to the atmospheres of planets around other stars."
+  ],
+  "understand": {
+   "summary": "Hubble's Wide Field Camera 3 combined five narrow filters. NASA shows F126N (iron) in cyan, F164N (iron) in orange, F502N (oxygen) in blue, F656N (hydrogen-alpha) in green and F673N (sulfur) in red.",
+   "eye": "Two of the filters record infrared light the eye cannot see, and the exposures total 11.4 hours, far beyond what the eye could gather."
+  },
+  "alt": "A narrow jet of gas from a young star in the Carina Nebula.",
+  "flags": [
+   "caption too thin"
+  ],
+  "scaleExtra": null
+ },
+ {
+  "id": "nasa-supernova-remnant-lmc-n132d",
+  "caption": "Supernova remnant N132D in the Large Magellanic Cloud, imaged by the Hubble Space Telescope",
+  "captureDate": "January 21-22, 2004 (ACS) and August 2, 2009 (WFC3)",
+  "story": [
+   "Hubble shows N132D, the remains of a star that exploded as a supernova in the Large Magellanic Cloud, a small companion galaxy of the Milky Way. The remnant lies about 170,000 light-years away in the direction of the constellation Dorado. A supernova remnant is the expanding cloud of debris left behind by the blast, along with the surrounding gas that it sweeps up and heats.",
+   "The image combines exposures from two Hubble cameras taken years apart. The Advanced Camera for Surveys observed in January 2004, and the newly installed Wide Field Camera 3 added data in August 2009. Some filters capture broad bands of starlight, while narrow ones isolate the glow of hydrogen, nitrogen and sulfur in the remnant's gas.",
+   "NASA released the picture in September 2009 among the first views from Hubble after the STS-125 servicing mission in May. That mission installed Wide Field Camera 3 and repaired the Advanced Camera for Surveys, and NASA described the telescope as more powerful than it had ever been."
+  ],
+  "explore": [
+   "Astronauts also installed the Cosmic Origins Spectrograph and repaired the Space Telescope Imaging Spectrograph on the same mission. According to NASA, the new instruments were more sensitive to light, letting Hubble finish observations in a fraction of the time older instruments needed."
+  ],
+  "understand": {
+   "summary": "Hubble's Wide Field Camera 3 and Advanced Camera for Surveys combined five filters. NASA shows F475W (g) in blue, F550M (y) in green, F658N (hydrogen-alpha plus nitrogen) in orange, F673N (sulfur) in white and F850LP (z) in pink.",
+   "eye": "The narrow filters pick out the glow of particular elements one at a time, and the F850LP filter reaches into near-infrared light the eye cannot see."
+  },
+  "alt": "The supernova remnant N132D in the Large Magellanic Cloud.",
+  "flags": [
+   "caption too thin"
+  ],
+  "scaleExtra": null
+ },
+ {
+  "id": "nasa-markarian-817",
+  "caption": "Active galaxy Markarian 817, imaged by the Hubble Space Telescope",
+  "captureDate": "August 2, 2009",
+  "story": [
+   "Hubble's Wide Field Camera 3 pictured Markarian 817, an active galaxy about 430 million light-years away in the constellation Draco. An active galaxy is one whose central region gives off far more energy than its stars alone can explain, and astronomers think that power comes from material falling toward a supermassive black hole.",
+   "Wide Field Camera 3 took the picture in August 2009, a few months after astronauts installed it, along with a new spectrograph, during the STS-125 servicing mission in May and repaired two older instruments. NASA released this and other early views that September, declaring the telescope fully rejuvenated. A NASA science chief called it a new beginning for Hubble.",
+   "The newly upgraded telescope was expected to stay productive into the following decade. Planned projects at the time included the deepest near-infrared portrait of the universe yet attempted, aimed at infant galaxies that existed before the universe reached an age of 500 million years, and studies of dark energy, the mysterious force speeding up cosmic expansion."
+  ],
+  "explore": [
+   "Keith Noll led the Space Telescope Science Institute team in Baltimore that planned these early release observations. Before the mission, according to NASA, Hubble had only three distinct instrument channels still working, and the upgrade brought that number to thirteen."
+  ],
+  "understand": {
+   "summary": "Hubble's Wide Field Camera 3 combined four filters. NASA shows F438W (B) in blue, F555W (V) in green, and F680N (hydrogen-alpha plus nitrogen) together with F814W (I) in red.",
+   "eye": "The total exposure of 1.8 hours gathers far more light than the eye can, and the F814W filter reaches into near-infrared light beyond human vision."
+  },
+  "alt": "The active galaxy Markarian 817.",
+  "flags": [
+   "caption too thin"
+  ],
+  "scaleExtra": null
+ },
+ {
+  "id": "nasa-galaxy-cluster-rxj153293021",
+  "caption": "Galaxy cluster RXJ1532.9+3021, imaged by the Hubble Space Telescope",
+  "captureDate": "February - April, 2012",
+  "story": [
+   "Hubble shows the galaxy cluster RXJ1532.9+3021, imaged with both its Advanced Camera for Surveys and Wide Field Camera 3 between February and April 2012. A cluster like this holds so much mass, most of it invisible dark matter, that its gravity bends and magnifies the light of galaxies far behind it, an effect called gravitational lensing.",
+   "NASA published the image in 2014 alongside research into exploding stars seen through such natural lenses. Two independent teams, from the Supernova Cosmology Project and from the CLASH survey (Cluster Lensing And Supernova survey with Hubble), found three distant supernovae magnified by massive clusters. At least two of them appear to be Type Ia, a kind valued because its peak brightness is consistent enough to work as a yardstick.",
+   "Knowing how bright a Type Ia supernova really is lets astronomers measure how much a cluster has magnified it. That checks the maps, or lens prescriptions, that estimate where a cluster's dark matter lies and how strongly it boosts more remote objects."
+  ],
+  "explore": [
+   "The CLASH survey used Hubble to study how dark matter is spread through 25 galaxy clusters. The researchers estimated that about 20 supernovae spread out behind one cluster would be needed to map its whole field and confirm its lens model."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys and Wide Field Camera 3 together used twelve filters in visible and infrared light. NASA shows F435W, F475W, F606W and F625W in blue, F775W, F814W and F850W in green, and F105W, F110W, F125W, F140W and F160W in red.",
+   "eye": "The red channel is built entirely from infrared filters, so much of the light in this picture is invisible to the eye."
+  },
+  "alt": "A massive cluster of galaxies, RXJ1532.9+3021.",
+  "flags": [
+   "caption too thin: no image caption, only the release text, which does not say how this cluster figures in the supernova study"
+  ],
+  "scaleExtra": null
+ },
+ {
+  "id": "nasa-nasas-hubble-views-a-cosmic-skyrocket",
+  "caption": "Herbig-Haro 110 jet, imaged by the Hubble Space Telescope",
+  "captureDate": "January 21, 2004 and April 25, 2011",
+  "story": [
+   "A wispy, semi-transparent blue jet of gas stretches from the lower right to the upper left. This is Herbig-Haro 110, a fountain of hot gas, launched by a newborn star, that strikes the dense heart of a molecular hydrogen cloud and bounces off. Its plumes are light-years across, and it lies about 1,300 light-years away in Orion.",
+   "Herbig-Haro objects vary in shape, but most share a basic plan. A forming star, surrounded by a disc of dust and gas, fires twin jets of heated gas in opposite directions. Where a jet rams into colder gas, material piles up, heats sharply and glows in a curved front called a bow shock.",
+   "HH 110 bends that pattern. Astronomers have repeatedly searched for the star that drives it and found nothing. They now think a neighbouring jet, HH 270, grazes a much denser, colder cloud core and is deflected at about a 60-degree angle. It fades from view and then reappears as HH 110."
+  ],
+  "explore": [
+   "Inside the jet, fast blobs of gas catch up with slower ones and collide, creating hot blue ridges where new shocks form. By measuring the positions and speeds of these blobs, astronomers can trace them back to when they were launched, which can give insight into how the source star has gathered mass over time."
+  ],
+  "understand": {
+   "summary": "The image combines data from Hubble's Advanced Camera for Surveys and Wide Field Camera 3. NASA shows F814W (I) in blue, F658N (hydrogen-alpha) in cyan, F110W (J) in green and F160W (H) in red.",
+   "eye": "Two of the four filters record infrared light the eye cannot see, and the combined exposures total 2.6 hours."
+  },
+  "alt": "A wispy, semi-transparent deep blue jet of gas running from bottom right to top left.",
+  "flags": [],
+  "scaleExtra": null
+ },
+ {
+  "id": "nasa-galaxy-cluster-plck-g1657-nircam-image",
+  "caption": "Galaxy cluster PLCK G165.7+67.0 and supernova H0pe, imaged by the James Webb Space Telescope",
+  "captureDate": "30 March 2023, 22 April 2023, 09 May 2023",
+  "story": [
+   "Hundreds of small galaxies, white, yellow, orange and red, fill a black background, and some of them look stretched out or mirrored. A long red arc stands out near the middle. This Webb picture shows the galaxy cluster PLCK G165.7+67.0, or G165, whose gravity bends and magnifies the light of the more distant universe behind it.",
+   "Within the red arc, astronomers found the light of an exploding star, a Type Ia supernova now known as SN H0pe, appearing three times as separate points. Its light reached Webb along three paths of different lengths, so each image shows the explosion at a different moment.",
+   "That time delay gives astronomers an unusual way to work out a new value for the Hubble constant, the figure that describes how fast the universe is expanding. G165's field is known for forming stars at more than 300 solar masses per year, a trait that goes along with higher rates of supernovae."
+  ],
+  "explore": [
+   "Webb's Near-Infrared Camera observed G165 on three dates in spring 2023. The distortions seen in some of the background galaxies are another product of the cluster's gravity acting as a lens on light from far behind it."
+  ],
+  "understand": {
+   "summary": "Webb's Near-Infrared Camera (NIRCam) used eight infrared filters. NASA shows F090W, F115W and F150W in blue, F200W and F277W in green, and F356W, F410M and F444W in red.",
+   "eye": "All of these wavelengths, from 0.9 to 4.44 microns, are infrared light that the human eye cannot see, so the colours are assigned to make the differences visible."
+  },
+  "scaleExtra": "The foreground cluster lies about 3.6 billion light-years from Earth, according to NASA.",
+  "alt": "Hundreds of small white, yellow, orange and red galaxies on a black background, some stretched or mirrored, with a long red arc near the centre.",
+  "flags": []
+ },
+ {
+  "id": "nasa-molten-ring-galaxy",
+  "caption": "The \"Molten Ring\" lensed galaxy GAL-CLUS-022058s, imaged by the Hubble Space Telescope",
+  "captureDate": "15 May 2015",
+  "story": [
+   "A galaxy's light curves around a spherical companion, forming a partial ring. This is GAL-CLUS-022058s in Fornax, nicknamed the \"Molten Ring\" by astronomer Saurabh Jha, whose team first observed it with Hubble. When NASA released the picture in December 2020, it described it as one of the largest Einstein rings ever seen, and nearly complete.",
+   "The ring is produced by gravitational lensing. Gravity from a massive object between us and the far galaxy bends that galaxy's light, smearing and magnifying it. In this case the light is boosted by a factor of twenty, which effectively turned Hubble into the equivalent of a 48-meter telescope.",
+   "After the release, a team led by Anastasio Díaz-Sánchez, of Spain's Universidad Politécnica de Cartagena, used the image to measure the galaxy's distance. It sits at the peak era of star formation in the universe's history, when the brightest dusty galaxies formed stars a thousand times faster than our own. That may help explain how today's giant elliptical galaxies built up so quickly."
+  ],
+  "explore": [
+   "Modelling the lens was essential to recovering the galaxy's true properties, and Hubble's sharp view let the team pick out four duplicated images of the galaxy and its clumps of stars. Albert Einstein first considered this kind of lensing in 1912, before building it into his general theory of relativity."
+  ],
+  "understand": {
+   "summary": "Hubble's Wide Field Camera 3 took the image. NASA shows F555W in blue, F555W combined with F755W in green, and F775W combined with the infrared F160W in red.",
+   "eye": "The F160W filter records infrared light beyond human vision, and foreground gravity magnifies the galaxy's light by a factor of 20, making it far brighter than it would otherwise appear."
+  },
+  "scaleExtra": "The lensed galaxy is about 9.4 billion light-years away, according to NASA.",
+  "alt": "The curved arc of a distant galaxy wrapping around a spherical companion galaxy.",
+  "flags": []
+ },
+ {
+  "id": "nasa-hubble-interacting-galaxy-ii-zw-96",
+  "caption": "Merging galaxy system II Zw 96, imaged by the Hubble Space Telescope",
+  "captureDate": "April 14, 2002",
+  "story": [
+   "II Zw 96 is a bizarrely shaped system of merging galaxies. Between the main galaxy cores hang long, thread-like strings of powerful young starbursts, regions where stars are forming at a furious pace. The system lies in Delphinus, the Dolphin, about 500 million light-years from Earth according to NASA.",
+   "The galaxy is close to qualifying as ultra-luminous, a class of galaxies that pour out enormous amounts of infrared light. Most systems in that class have reached a late stage of coalescence, with their parent galaxies almost fully combined. II Zw 96 has not yet reached that point, so it captures a merger before the final stage.",
+   "The image is part of a 2008 collection of 59 interacting and merging galaxies that marked the telescope's 18th launch anniversary. NASA explained that such collisions unfold over several hundred million years, so astronomers piece together their story from many systems caught at different stages."
+  ],
+  "explore": [
+   "Most of the anniversary images belonged to GOALS, a survey of luminous and ultra-luminous infrared galaxies. It combined Hubble's sharp optical views with data from NASA's Spitzer Space Telescope, Chandra X-ray Observatory and Galaxy Evolution Explorer."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took this image. NASA has not published which filters were used or how colours were assigned.",
+   "eye": "The 33-minute exposure gathers far more light than the eye can, and the infrared glow that nearly makes the system ultra-luminous is invisible to human vision."
+  },
+  "alt": "An irregular group of merging galaxies with thread-like strands of star-forming regions between their cores.",
+  "flags": [
+   "distance mismatch: caption says about 500 million light-years, metadata says 450 million"
+  ],
+  "scaleExtra": null
+ },
+ {
+  "id": "nasa-hubble-interacting-galaxy-iras-f10565",
+  "caption": "Colliding galaxies IRAS F10565+2448, imaged by the Hubble Space Telescope",
+  "captureDate": "November 14, 2001",
+  "story": [
+   "IRAS F10565+2448 appears to be two galaxies in collision. The larger one is crossed by dust lanes, while its smaller partner sports a strongly curved tail, drawn out from its centre, that hangs downward in the frame.",
+   "A tail like that is a tidal feature, made when gravity from a close partner stretches stars and gas out of a galaxy's outer regions. The larger galaxy's dust lanes are dark because dust absorbs the light of the stars behind it.",
+   "Some scientists regard it as a candidate for a three-galaxy system, though the nature of the possible third object is unknown. IRAS F10565+2448 lies in Leo, the Lion, about 600 million light-years away according to NASA. Hubble's Advanced Camera for Surveys collected 33 minutes of exposure for this picture in November 2001."
+  ],
+  "explore": [
+   "The image is part of a collection of 59 merging-galaxy images released in April 2008 on its 18th anniversary. NASA noted at the time that only about one in a million galaxies in the nearby universe is caught colliding, while such mergers were far more common in the early universe."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took this image. NASA has not published which filters were used or how colours were assigned.",
+   "eye": "The 33-minute exposure gathers far more light than the eye can, helping to show the curved tail."
+  },
+  "alt": "Two colliding galaxies, the larger with dust lanes and the smaller with a curved tail hanging downward.",
+  "flags": [
+   "distance mismatch: caption says about 600 million light-years, metadata says 400 million"
+  ],
+  "scaleExtra": null
+ },
+ {
+  "id": "nasa-hubble-interacting-galaxy-vv-705",
+  "caption": "Merging galaxies VV 705 (Markarian 848), imaged by the Hubble Space Telescope",
+  "captureDate": "November 13, 2001",
+  "story": [
+   "Two long, tightly curved arms of gas and stars wrap around a central region with two cores, so the galaxies of VV 705, also called Markarian 848, seem to be embracing. One arm curls clockwise up to the top of the frame, makes a U-turn and locks with the second arm, which curves counter-clockwise up from below.",
+   "Some 16,000 light-years separate the two cores, and NASA describes the pair as thought to be roughly halfway through merging. The interlocking arms are tidal features, pulled out of the two galaxies by their mutual gravity.",
+   "VV 705 lies about 550 million light-years from Earth in the constellation Boötes. The image is part of a set of 59 views of colliding galaxies that NASA released for the telescope's 18th launch anniversary in April 2008, chosen to show galaxies at many stages of collision."
+  ],
+  "explore": [
+   "Most of the images in that anniversary set came from GOALS, the Great Observatories All-sky LIRG Survey, a study of galaxies that shine brightly in infrared light. According to NASA, the majority of the Hubble observations were led by Aaron S. Evans of Caltech."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took this image. NASA has not published which filters were used or how colours were assigned.",
+   "eye": "The 35-minute exposure gathers far more light than the eye can, helping to show the long looping arms."
+  },
+  "alt": "Two galaxy cores at the centre with two long curved arms, one looping up and over to interlock with the other rising from below.",
+  "scaleExtra": null,
+  "flags": []
+ },
+ {
+  "id": "nasa-hubble-interacting-galaxy-mrk-273",
+  "caption": "Merging galaxy Markarian 273, imaged by the Hubble Space Telescope",
+  "captureDate": "November 16, 2001",
+  "story": [
+   "Markarian 273 has a bizarre shape that NASA likens to a toothbrush. Hubble shows an intricate central region and a long tail running diagonally toward the lower right of the frame. That tail stretches about 130 thousand light-years and is strong evidence that two galaxies have merged here.",
+   "The galaxy has an intense starburst region, where new stars amounting to 60 times the mass of our Sun are born each year. Observations in near-infrared light, which passes more easily through dust, show that the nucleus has two separate components.",
+   "Seen in infrared light, Markarian 273 ranks among the most luminous galaxies known. It lies 500 million light-years from Earth in Ursa Major. The image is part of a collection of 59 merging and interacting galaxies released in April 2008 to mark the telescope's 18th launch anniversary."
+  ],
+  "explore": [
+   "The galaxy is also catalogued as UGC 8696 and I Zw 071. According to NASA, astronomers study systems like this to learn how gravity steers colliding galaxies, and the 2008 set was meant to show collisions at many different stages."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took this image. NASA has not published which filters were used or how colours were assigned.",
+   "eye": "Markarian 273 is especially luminous in infrared light, which the eye cannot see, and the 37-minute exposure gathers far more light than the eye can."
+  },
+  "alt": "A galaxy with an intricate centre and a long tail running diagonally toward the bottom right, resembling a toothbrush.",
+  "scaleExtra": null,
+  "flags": []
+ },
+ {
+  "id": "nasa-hubble-interacting-galaxy-iras-20351",
+  "caption": "Galaxy IRAS 20351+2521, imaged by the Hubble Space Telescope",
+  "captureDate": "April 14, 2002",
+  "story": [
+   "IRAS 20351+2521 has a sprawling structure of gas and dust, scattered with many blue knots of stars. It lies 450 million light-years from Earth in Vulpecula, the Fox, and its image is part of a 2008 collection of interacting and merging galaxies.",
+   "Blue knots like these are generally clusters of young, hot stars. NASA classes IRAS 20351+2521 as an interacting galaxy but does not say what it is interacting with.",
+   "The wider collection it belongs to was meant to show collisions at many different stages. According to NASA, galaxy mergers were far more frequent long ago, when the universe was smaller and galaxies were crowded closer together. Even violent smash-ups proceed at a glacial pace by human standards, on timescales of several hundred million years, so each Hubble snapshot catches just one moment of a long process."
+  ],
+  "explore": [
+   "The set of 59 images was released on 24 April 2008 for Hubble's 18th launch anniversary. Most of them were part of GOALS, the Great Observatories All-sky LIRG Survey, which studies luminous and ultra-luminous infrared galaxies with Hubble together with NASA's Spitzer, Chandra and Galaxy Evolution Explorer observatories."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took this image. NASA has not published which filters were used or how colours were assigned.",
+   "eye": "The 33-minute exposure gathers far more light than the eye can."
+  },
+  "alt": "A sprawling, irregular galaxy of gas and dust dotted with many blue knots of stars.",
+  "flags": [
+   "caption too thin"
+  ],
+  "scaleExtra": null
+ },
+ {
+  "id": "nasa-hubble-interacting-galaxy-vv-283",
+  "caption": "Merging galaxy pair VV 283, imaged by the Hubble Space Telescope",
+  "captureDate": "December 22, 2001",
+  "story": [
+   "A messy central region throws off a single tidal tail that swirls outward and then forks into two branches. The branch twisting upward is lit by luminous blue knots of stars. At first sight VV 283 looks like one peculiar galaxy, but it is really two galaxies merging.",
+   "The forked tail is the main clue. Tails form when the gravity of two galaxies pulls stars and gas out of their outer regions during a close encounter, and the blue knots along it are bright clumps of stars. The tangled middle is where the two original galaxies are combining.",
+   "Like many merging systems, VV 283 shines intensely in infrared light, giving off nearly a thousand billion times as much energy as our Sun. It lies some 500 million light-years away in Virgo, the Maiden. The image is part of a collection of 59 merging-galaxy portraits released in April 2008 to celebrate the telescope's 18th year in space."
+  ],
+  "explore": [
+   "VV 283 is also catalogued as CGCG 043-099. NASA notes that in the nearby universe only about one galaxy in a million is seen colliding, which makes systems like this rare chances to watch the process at work."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took this image. NASA has not published which filters were used or how colours were assigned.",
+   "eye": "VV 283's huge infrared output is invisible to the eye, and the 33-minute exposure gathers far more light than the eye can."
+  },
+  "alt": "A galaxy with a messy centre and a tail that splits into two branches, the upper one dotted with blue star knots.",
+  "scaleExtra": null,
+  "flags": []
+ },
+ {
+  "id": "nasa-hubble-interacting-galaxy-mcg11-002",
+  "caption": "Galaxy MCG+08-11-002, imaged by the Hubble Space Telescope",
+  "captureDate": "September 4, 2001",
+  "story": [
+   "A dark band of dust lies across the centre of MCG+08-11-002, giving this odd-looking galaxy the appearance of a black eye. Around it, the frame is crowded with foreground stars, because the galaxy lies near the Milky Way's plane on the sky, so we look at it through our own galaxy's crowded disc.",
+   "Scientists believe the galaxy is what remains of an earlier collision between two separate galaxies. The dust band sits in front of the galaxy's centre and absorbs its light, which is what gives the galaxy its black-eye look.",
+   "MCG+08-11-002 lies about 250 million light-years away in Auriga, the Charioteer. The image is part of a set of 59 colliding and merging galaxies that NASA released in April 2008 for the telescope's 18th anniversary, a collection meant to show mergers at many stages."
+  ],
+  "explore": [
+   "According to NASA, galaxy collisions unfold over several hundred million years, far too slowly to see change in a human lifetime. Most of the 2008 anniversary images came from GOALS, the Great Observatories All-sky LIRG Survey, which studies luminous and ultra-luminous infrared galaxies."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took this image. NASA has not published which filters were used or how colours were assigned.",
+   "eye": "The 36-minute exposure gathers far more light than the eye can."
+  },
+  "alt": "A galaxy with a dark band of dust across its centre, surrounded by many foreground stars.",
+  "scaleExtra": null,
+  "flags": []
+ },
+ {
+  "id": "nasa-bullet-cluster-nircam-image",
+  "caption": "The Bullet Cluster, imaged by the James Webb Space Telescope",
+  "captureDate": "20 January 2025",
+  "story": [
+   "Foreground stars, cluster galaxies and distorted background galaxies overlap against black space in Webb's view of the central Bullet Cluster. A large, light blue spiral galaxy sits at the middle, with a massive galaxy cluster on either side of it.",
+   "The Bullet Cluster is two galaxy clusters that have collided. Each cluster's gravity acts as a lens, magnifying and bending light from galaxies behind it. Webb's sharp images revealed many more faint, distant galaxies than earlier observations, and a team measured thousands of them to weigh both the visible and the invisible mass. They also mapped intracluster stars, which no longer belong to individual galaxies.",
+   "The results show dark matter still lined up with the galaxies after the collision, while the clusters' gas was dragged out and left behind. That places stronger limits on whether dark matter particles interact with each other. An elongated region of mass in the left-hand cluster hints that it may have been through more than one collision."
+  ],
+  "explore": [
+   "Lead author Sangjun Cha of Yonsei University said the intracluster light can reliably trace dark matter even in such a turbulent setting. Webb covered only part of the system, and at the time of the 2025 release the researchers expected wider near-infrared images from NASA's Nancy Grace Roman Space Telescope, then set to launch by May 2027."
+  ],
+  "understand": {
+   "summary": "Webb's Near-Infrared Camera (NIRCam) used eight infrared filters. NASA shows F090W in blue, F115W in cyan, F150W in green, F200W and F277W in yellow, F356W in orange, and F410M and F444W in red.",
+   "eye": "Every filter here records infrared light, which the human eye cannot see, and dark matter itself gives off no light at all, so its presence is inferred from how it bends light from background galaxies."
+  },
+  "alt": "Many overlapping foreground stars, cluster galaxies and distorted background galaxies on a black background, with a large light blue spiral galaxy at the centre.",
+  "flags": [
+   "distance mismatch: metadata says 3.7 billion light-years, release text says 3.8 billion"
+  ],
+  "scaleExtra": null
+ }
+]

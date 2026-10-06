@@ -5,7 +5,18 @@ import { CATALOG } from '../data/catalog.js';
 
 const CURATED = Object.fromEntries(CATALOG.map((c) => [c.id, c]));
 const cache = new Map();
-const entry = (c) => ({ id: c.id, cat: c.cat, org: c.org, title: c.title, thumb: c.img.thumb });
+// Telescope families for the archive filter. The exporter applies the same rules to the
+// collection (tools/harvest/export_collection.py, TEL); these cover the curated photographs.
+const TEL = [['webb', /webb|jwst|nircam|miri/i], ['hubble', /hubble|wfc3|acs\b|wfpc/i], ['vista', /vista/i],
+  ['vst', /\bvst\b|survey telescope|omegacam/i], ['vlt', /very large telescope|\bvlt\b|fors|muse|hawk-i|sphere|naco|isaac|kmos|vimos|uves/i],
+  ['alma', /alma/i], ['apex', /apex/i], ['wfi', /2\.2-metre|wide field imager|\bwfi\b/i], ['camera', /^camera/i]];
+export const telescopes = (text) => { const t = TEL.filter(([, re]) => re.test(text)).map(([k]) => k); return t.length ? t : ['other']; };
+const entry = (c) => ({
+  id: c.id, cat: c.cat, org: c.org, title: c.title, thumb: c.img.thumb,
+  y: (c.releaseDate.match(/\d{4}/) || [])[0],
+  q: `${c.celestial} ${c.caption}`,
+  tel: c.cat === 'night' ? ['camera'] : telescopes(`${c.behind.observatory} ${c.behind.instrument}`)
+});
 
 export let INDEX = CATALOG.map(entry);
 export let INDEX_BY_ID = Object.fromEntries(INDEX.map((e) => [e.id, e]));

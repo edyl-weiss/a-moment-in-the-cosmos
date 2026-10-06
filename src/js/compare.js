@@ -5,7 +5,7 @@ import { $, esc, say, loadImage, reducedMotion } from './util.js';
 import { state } from './feature.js';
 
 const btn = $('#compareBtn'), panel = $('#compare'), box = $('#cmpBox'), range = $('#cmpRange');
-let token = 0, current = null;
+let token = 0, current = null, label = 'Hubble vs Webb';
 
 function setSplit(v) {
   box.style.setProperty('--split', v + '%');   // .cmp-box declares --split itself, so set it there
@@ -30,7 +30,7 @@ async function open() {
   panel.hidden = false;
   $('#cmpLeftLabel').textContent = c.left.label;
   $('#cmpRightLabel').textContent = c.right.label;
-  $('#cmpNote').innerHTML = `${esc(c.note)} <span class="src">Aligned pair from <a href="${esc(c.source)}" target="_blank" rel="noopener">ESA/Webb’s comparison page</a>.</span>`;
+  $('#cmpNote').innerHTML = `<details><summary>What changes between the two</summary>${esc(c.note)} <span class="src">Aligned pair from <a href="${esc(c.source)}" target="_blank" rel="noopener">ESA/Webb’s comparison page</a>.</span></details>`;
   $('#cmpCredit').innerHTML = `<strong>Left:</strong> ${esc(c.left.credit)} · <strong>Right:</strong> ${esc(c.right.credit)} · CC BY 4.0`;
   $('#cmpNote').hidden = $('#cmpCredit').hidden = false;
   $('#creditLine').hidden = true;
@@ -41,6 +41,7 @@ async function open() {
     if (mine !== token) return;
     Object.assign($('#cmpLeft'), { src: c.left.img, alt: `${c.left.title}, ${c.left.label}` });
     Object.assign($('#cmpRight'), { src: c.right.img, alt: `${c.right.title}, ${c.right.label}` });
+    $('#cmpHint').classList.remove('gone');
     range.value = 50;
     setSplit(50);
     say(`Comparison open: ${c.left.label} on the left, ${c.right.label} on the right. Use the slider to reveal each.`);
@@ -56,7 +57,7 @@ function close() {
   token++;
   current = null;
   btn.setAttribute('aria-pressed', 'false');
-  btn.querySelector('span').textContent = 'Hubble vs Webb';
+  btn.querySelector('span').textContent = label;
   $('#stage').classList.remove('comparing', 'loading');
   panel.hidden = true;
   $('#cmpNote').hidden = $('#cmpCredit').hidden = true;
@@ -65,9 +66,10 @@ function close() {
   $('#cmpRight').removeAttribute('src');
 }
 
-range.addEventListener('input', () => setSplit(Number(range.value)));
+range.addEventListener('input', () => { setSplit(Number(range.value)); $('#cmpHint').classList.add('gone'); });
 btn.addEventListener('click', () => (btn.getAttribute('aria-pressed') === 'true' ? close() : open()));
 document.addEventListener('photo:change', ({ detail: { item } }) => {
+  label = COMPARISONS[item.id]?.button || 'Hubble vs Webb';
   close();
   btn.hidden = !COMPARISONS[item.id];
 });

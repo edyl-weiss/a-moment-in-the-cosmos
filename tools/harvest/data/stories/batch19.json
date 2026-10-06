@@ -1,0 +1,650 @@
+[
+ {
+  "id": "nasa-hubble-image-of-ngc-3324",
+  "caption": "The edge of the NGC 3324 cavity in the Carina Nebula, imaged by the Hubble Space Telescope",
+  "captureDate": "March 2006 and July 2008",
+  "story": [
+   "Dark towers of cool gas and dust climb above a glowing wall of gas, set against a soft blue background and trailed by wispy tendrils. This is the rim of a giant cavity inside NGC 3324, a star-forming region at the northwest corner of the Carina Nebula, roughly 7,200 light-years away in the constellation Carina.",
+   "Intense ultraviolet light and stellar winds from several hot, young stars hollowed out the cavity. A cluster of extremely massive stars at the centre of the nebula, well outside this frame, ionizes the gas and keep digging the cavity deeper. Where the gas is densest, at the tops of the towers, it holds out against the radiation, so each tower points along the direction in which the energy flows. Elsewhere the wall is slowly being worn away.",
+   "NASA released the picture to mark ten years of the Hubble Heritage Project, launched in October 1998 to share some of the telescope's most attractive pictures with the public."
+  ],
+  "explore": [
+   "The Carina Nebula complex, also catalogued as NGC 3372, also holds the Keyhole Nebula and Eta Carinae, an active star prone to outbursts. Over the years the Heritage team has worked with several of Hubble's optical cameras, including WFPC2, which replaced the original Wide Field Planetary Camera in 1993, and the newer Advanced Camera for Surveys, which was also used here."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys recorded light from hydrogen in 2006, and Wide Field Planetary Camera 2 added light from sulfur and oxygen in 2008. Sulfur is shown in red, hydrogen in green and oxygen in blue.",
+   "eye": "Each filter isolates the glow of a single gas and the colours are assigned to tell them apart, while about 2 hours of exposure gather far more light than an eye could."
+  },
+  "scaleExtra": null,
+  "alt": "Dark towers of gas and dust rise above a glowing wall of gas against a soft blue background.",
+  "flags": []
+ },
+ {
+  "id": "nasa-sn-1006-supernova-remnant-hubble",
+  "caption": "A filament of the SN 1006 supernova remnant, imaged by the Hubble Space Telescope",
+  "captureDate": "February 2006 and April 2008",
+  "story": [
+   "A thin, twisting ribbon of red light drifts across a field of white stars and small orange smudges. It is a tiny piece of the remnant of SN 1006, a supernova whose light reached Earth on or around May 1, 1006 A.D., when a white dwarf nearly 7,000 light-years from us blew itself apart.",
+   "People from Africa to Europe to the Far East recorded it. Probably the brightest star humans have ever seen, it outshone Venus, showed in daylight for weeks and stayed visible without a telescope for at least two and a half years. Radio astronomers found a nearly circular ring there in the mid-1960s, and in 1976 faint visible light was reported from one filament on its northwest edge, a small part of which Hubble now shows.",
+   "The ribbon marks where the blast wave now meets very thin gas, heating hydrogen until it glows. Its brightest edges mark spots where we see the shock exactly edge-on. The explosion site lies far beyond the lower right corner, and the shock moves toward the upper left."
+  ],
+  "explore": [
+   "Today the remnant is nearly 60 light-years across and its shock still races outward at roughly 6 million miles per hour, yet years usually pass between observations before its outward motion against the background stars becomes obvious. Because SN 1006 lies more than 14 degrees from the plane of the Milky Way, few other objects get in the way. The orange smudges are distant background galaxies, and most of the white dots are stars in our own galaxy."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys imaged hydrogen light, shown in red, and Wide Field Planetary Camera 2 added blue, yellow-green and red/near-infrared exposures, shown in blue-violet, green and red-orange. The remnant itself appears only in the hydrogen filter.",
+   "eye": "Visible light from the filament is exceedingly faint, and its first optical detection was reported only in 1976. Part of the colour also comes from near-infrared light the eye cannot see."
+  },
+  "scaleExtra": null,
+  "alt": "A thin, twisting red ribbon of gas crosses a field dotted with white stars and small orange galaxies.",
+  "flags": []
+ },
+ {
+  "id": "nasa-interacting-galaxy-pair-arp-87",
+  "caption": "The interacting galaxy pair Arp 87, imaged by the Hubble Space Telescope",
+  "captureDate": "February 2007",
+  "story": [
+   "Two galaxies hang side by side, joined by a twisting bridge of material. On the right is NGC 3808, the larger of the pair, a spiral seen almost face-on with a bright star-forming ring and several prominent dusty arms. On the left is its companion, NGC 3808A, a spiral seen edge-on. Together they make up Arp 87, about 300 million light-years away in the constellation Leo.",
+   "Stars, gas and dust streaming out of NGC 3808 wrap around its neighbour like an extra arm. The corkscrew shape of this shared bridge suggests that the smaller galaxy's gravity has captured some stars and gas pulled from the bigger one, and both have been bent out of shape by their mutual pull. NGC 3808A is also circled by a rotating ring of stars and gas clouds set at right angles to its disc, a feature called a polar ring.",
+   "Halton Arp catalogued the pair in the mid-1960s, from photographs that could not show the fine structure Hubble now resolves."
+  ],
+  "explore": [
+   "Interacting galaxies often form stars at high rates, a conclusion backed by the colours of their starlight, by emission from interstellar gas and by far-infrared glow from warmed dust. One of Hubble's early findings was that such galaxies hold many super star clusters, which are more compact and richer in young stars than clusters near the Milky Way."
+  ],
+  "understand": {
+   "summary": "Hubble's Wide Field Planetary Camera 2 combined blue, green, red and infrared filters, with F450W shown in blue, F555W in green, and hydrogen-alpha (F656N) plus near-infrared (F814W) in red.",
+   "eye": "Part of the red channel is near-infrared light the eye cannot see, and 6.3 hours of exposure gather far more light than an eye ever could."
+  },
+  "scaleExtra": null,
+  "alt": "Two galaxies side by side, a larger spiral with a bright ring on the right and an edge-on galaxy on the left, linked by a curving arm of material.",
+  "flags": []
+ },
+ {
+  "id": "nasa-star-cluster-bursts-into-life-in-new-hubble-image",
+  "caption": "The young star cluster in the nebula NGC 3603, imaged by the Hubble Space Telescope",
+  "captureDate": "December 29, 2005",
+  "story": [
+   "Thousands of young stars crowd the middle of a giant nebula, surrounded by a broad region of gas and dust. The nebula is NGC 3603, a prominent stellar nursery about 20,000 light-years away in our galaxy's Carina spiral arm, and its central cluster ranks among the most massive young clusters in the Milky Way.",
+   "The bluest and hottest stars have blown a large bubble around the cluster with their ultraviolet radiation and fast winds. Pushing outward, that flood of energy carved tall, dark stalks of dense gas into the nebula's walls. These columns stand a few light-years high, point back toward the cluster, and may be places where new stars are forming.",
+   "Near the top right corner sits a group of small dark clouds called Bok globules. Each is made of dense dust and gas holding about 10 to 50 times the mass of the Sun, and each may be collapsing under its own gravity on the way to forming stars. The scene spans roughly 17 light-years."
+  ],
+  "explore": [
+   "Sir John Herschel was the first to discover the nebula. The cluster, the stalks and the globules show several stages in the life of stars, from dark clouds that may still be collapsing to hot, massive stars that have already cleared space around themselves."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took the image through three broad filters, with F435W shown in blue, F550M in green and the near-infrared F850LP in red.",
+   "eye": "The red channel records near-infrared light that the eye cannot see, so the colours are a translation rather than a direct view."
+  },
+  "scaleExtra": null,
+  "alt": "A dense cluster of young stars inside a large bubble in a nebula, with tall dark stalks of gas and a group of small dark clouds near the top right.",
+  "flags": []
+ },
+ {
+  "id": "nasa-barred-spiral-galaxy-ngc-1313-hst",
+  "caption": "The central region of the barred spiral galaxy NGC 1313, imaged by the Hubble Space Telescope",
+  "captureDate": "November 22, 2003 and February 22, 2004",
+  "story": [
+   "This Hubble portrait shows the central region of NGC 1313, a barred spiral galaxy 50,000 light-years across some 14 million light-years from Earth in the southern constellation Reticulum. At that distance only Hubble had the resolution to pick out individual stars, and astronomers used it to take a census of the different classes of stars across the galaxy.",
+   "The census showed that hot, massive blue stars of class B were scattered widely through the galaxy instead of sitting in the compact open clusters where stars are born. B stars live only a few tens of millions of years, so their wide spread suggests that open clusters may come apart very quickly, within 25 million years.",
+   "The even more massive O stars stay closer to home because they explode as supernovae, after a few million years or less, before they can drift away. Researchers say those blasts could be what breaks a cluster up, clearing out leftover gas and dust until it lacks the mass to hold together."
+  ],
+  "explore": [
+   "Open clusters lack the gravity of the much more massive globular clusters, so astronomers have long expected them to dissolve, but the process is hard to watch because their stars get lost against the crowded background of the host galaxy. NGC 1313 is the first normal spiral galaxy where this rapid break-up has been seen, and Anne Pellerin's team at the Space Telescope Science Institute says it can help explain how the Sun formed."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took the image, with F435W shown in blue, F555W in green and the near-infrared F814W in red.",
+   "eye": "The red channel is near-infrared light, invisible to the eye, and 2.8 hours of exposure gather far more light than the eye can."
+  },
+  "scaleExtra": null,
+  "alt": "The crowded central region of a barred spiral galaxy, with many individual stars scattered across it.",
+  "flags": []
+ },
+ {
+  "id": "nasa-star-forming-region-lh-95-in-the-large-magellanic-cloud",
+  "caption": "The star-forming region LH 95 in the Large Magellanic Cloud, imaged by the Hubble Space Telescope",
+  "captureDate": "March 2006",
+  "story": [
+   "Swirls of gas and dust drift through a field of stars wrapped in a blue haze. This is LH 95, a star-forming association in the Large Magellanic Cloud, some 160,000 light-years away, where newborn low-mass stars live alongside far more massive neighbours.",
+   "The biggest stars in LH 95, with at least three times the Sun's mass, drive strong winds and pour out ultraviolet radiation that heats the gas around them. The result is the bluish nebula of glowing hydrogen, still spreading into the molecular cloud whose collapse formed those massive stars. Some dense parts of the cloud have survived the winds and show up as dark, dusty filaments that soak up blue light from stars behind them, making those stars look redder. Other parts have already contracted into glowing groups of infant stars, and the fainter ones tend to cluster.",
+   "Earlier ground-based telescopes could study only the bright blue giants in regions like this. Hubble resolves the low-mass stars too, allowing more accurate estimates of their ages and masses."
+  ],
+  "explore": [
+   "The Large Magellanic Cloud holds relatively small amounts of elements heavier than hydrogen, so its star formation shows how stars arise in conditions unlike those in the Milky Way. LH 95 is one of hundreds of such associations in that galaxy, and several large spiral galaxies appear far behind it in the background."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys combined two filters, with visible light (F555W) in blue, near-infrared light (F814W) in red, and the two together in green. With these choices glowing hydrogen looks bluish, and hot blue stars stand apart from cooler red ones.",
+   "eye": "The red channel is near-infrared light the eye cannot see, and the colours were chosen to separate hot and cool stars rather than to match natural colour."
+  },
+  "scaleExtra": null,
+  "alt": "Swirls of gas and dark dusty filaments among many stars under a blue haze, with spiral galaxies in the background.",
+  "flags": []
+ },
+ {
+  "id": "nasa-a-zoo-of-galaxies",
+  "caption": "A field of galaxies in Fornax, imaged by the Hubble Space Telescope",
+  "captureDate": "September 2003",
+  "story": [
+   "Galaxies of many sizes and shapes fill this small patch of sky in the constellation Fornax, along with a scattering of foreground stars marked by cross-shaped spikes. The brightest of those stars is the red object at the centre. The field is smaller on the sky than the full moon, yet it holds thousands of galaxies, and hundreds of them had never been seen before Hubble caught their light.",
+   "The few large, well-formed galaxies look big because they are relatively close. They include spirals seen edge-on, face-on and at angles in between, along with ellipticals and more unusual galaxies with bars or tidal tails. Many of the small ones are simply farther away. Their light has travelled for billions of years, so they appear as they were when much younger.",
+   "Just to the lower left of the central star, a red galaxy acts as a lens. Its gravity bends light from a large galaxy directly behind it into a distorted arc."
+  ],
+  "explore": [
+   "The spikes on the stars are an artifact produced as starlight passes through the telescope's optics, and they make it easy to tell stars from galaxies. The picture was a bonus, collected with the Advanced Camera for Surveys while another Hubble camera was busy with a science program, and it took nearly 40 hours of exposure, one of Hubble's longest."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took the image, with F435W shown in blue, F606W in green, and the F775W and near-infrared F850LP filters together in red.",
+   "eye": "Nearly 40 hours of exposure on one small field collected light from galaxies far too faint for any eye to detect."
+  },
+  "scaleExtra": "Hubble is looking down a corridor of galaxies stretching billions of light-years into space, according to NASA.",
+  "alt": "Many galaxies of different sizes and shapes, with a few spiked foreground stars and a bright red star at the centre.",
+  "flags": []
+ },
+ {
+  "id": "nasa-the-eagle-has-risen-stellar-spire-in-the-eagle-nebula",
+  "caption": "A spire of gas and dust in the Eagle Nebula, imaged by the Hubble Space Telescope",
+  "captureDate": "November 4 - 7, 2004",
+  "story": [
+   "A rough tower of cold gas and dust, shaped a little like a winged creature on a pedestal, stands against the glow of more distant gas, tinted blue near the top and red lower down. The spire rises from the Eagle Nebula, a stellar nursery about 6,500 light-years away in the constellation Serpens, and it is 9.5 light-years tall.",
+   "Ultraviolet light from massive, hot young stars beyond the top of the frame is eroding the pillar and lighting its surface, as streamers of gas boil off into a haze. The dense cloud at the tip holds out longest, much as thick brush slows a grass fire.",
+   "Stars may be forming inside. Some may have begun when dense pockets collapsed under their own weight, and the bumps and fingers in the middle, each roughly the size of our solar system, are examples. At the top, the cluster's light may be heating gas and driving a shock front, seen as a bright rim at upper left, that squeezes the cold gas and could set off more star birth."
+  ],
+  "explore": [
+   "The young stars in those central fingers stopped growing when the cluster's light uncovered them and cut them off from their gas supply. NASA released the image to celebrate Hubble's 15th anniversary in 2005, alongside a new view of the Whirlpool Galaxy, M51."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys combined broad and narrow filters. Blue comes from F435W and oxygen (F502N), green from F555W with hydrogen-alpha and oxygen, and red from hydrogen-alpha (F658N) with the near-infrared F814W, so glowing oxygen shows blue at the top and glowing hydrogen red below.",
+   "eye": "The colours trace light from particular gases energized by ultraviolet starlight, and 3.4 hours of exposure reveal far fainter detail than an eye could."
+  },
+  "scaleExtra": null,
+  "alt": "A tall, rough tower of gas and dust wrapped in haze, blue near the top and red lower down.",
+  "flags": []
+ },
+ {
+  "id": "nasa-galaxy-ngc-1427a-plunges-toward-the-fornax-galaxy-cluster",
+  "caption": "The irregular galaxy NGC 1427A, imaged by the Hubble Space Telescope",
+  "captureDate": "January 9, 2003",
+  "story": [
+   "A small, bluish galaxy shaped roughly like an arrowhead is sprinkled with hot blue stars, while a yellower spiral sits to its upper left. The bluish one is NGC 1427A, an irregular galaxy about 62 million light-years away toward the constellation Fornax, and it is falling headlong into the Fornax galaxy cluster at 600 kilometres per second, nearly 400 miles per second.",
+   "Gas fills the space between the cluster's galaxies. As NGC 1427A ploughs through it, the galaxy's own gas is squeezed until it starts collapsing under its own gravity, setting off the widespread star birth that gives the galaxy its arrowhead outline. That shape seems to point along its direction of travel. Tidal pull from nearby cluster galaxies may also help trigger star formation on this scale.",
+   "The galaxy will not last. Within the next billion years it is expected to be torn apart, scattering its stars and leftover gas into the space between the cluster's members. Such disruptions are thought to have been very common early in the universe's history."
+  ],
+  "explore": [
+   "The spiral to the upper left only happens to lie near the same line of sight. It is some 25 times farther away and resembles our Milky Way, with stars forming in its symmetrical arms, but it has fewer very young stars and so looks yellower. More distant galaxies of many shapes and colours are scattered across the rest of the frame."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took the image, with F475W shown in blue, F625W and F775W in green, and F660N plus the near-infrared F850LP in red.",
+   "eye": "Part of the red channel is near-infrared light the eye cannot see, and 2.4 hours of exposure reveal galaxies far fainter than an eye could detect."
+  },
+  "scaleExtra": null,
+  "alt": "A small bluish irregular galaxy dotted with blue stars, with a yellowish spiral galaxy to its upper left and more distant galaxies behind.",
+  "flags": []
+ },
+ {
+  "id": "nasa-barred-spiral-galaxy-ngc-1300",
+  "caption": "The barred spiral galaxy NGC 1300, imaged by the Hubble Space Telescope",
+  "captureDate": "September 2004",
+  "story": [
+   "A straight bar of stars runs through the middle of NGC 1300, with spiral arms sweeping out from each end, crossed by dark dust lanes and studded with resolved supergiants, clusters and star-forming regions. This barred spiral, roughly 69 million light-years away toward the constellation Eridanus, is considered a prototype of its class.",
+   "In a barred spiral the arms do not wind all the way into the middle. They attach instead to the two ends of a bar that holds the nucleus at its centre. At the heart of NGC 1300 the nucleus has its own grand-design spiral, about 3,300 light-years long, a spiral within a spiral. Only galaxies with large-scale bars seem to have one.",
+   "Models suggest that a bar can funnel gas inward, where it may spiral down through the inner disc and feed a central black hole. The galaxy is not known to have an active nucleus, though, so either it has no black hole or its black hole is not taking in matter."
+  ],
+  "explore": [
+   "Many more distant galaxies show in the background, even through the densest parts of NGC 1300. The galaxy is so large that Hubble had to point at two neighbouring patches of sky to cover its spiral arms. The full image was printed at 4 feet by 8 feet for its unveiling at an American Astronomical Society meeting in San Diego."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys used four filters, with F435W shown in blue, F555W in green, and near-infrared F814W plus hydrogen-alpha (F658N) in red, so star clusters glowing with hydrogen stand out in red.",
+   "eye": "Part of the red channel is near-infrared light the eye cannot see, and the red highlights single out the glow of hydrogen gas around bright clusters."
+  },
+  "scaleExtra": null,
+  "alt": "A barred spiral galaxy with a straight central bar, curving arms laced with dark dust lanes, and red-highlighted star clusters.",
+  "flags": []
+ },
+ {
+  "id": "nasa-interacting-spiral-galaxies-ngc-2207-and-ic-2163",
+  "caption": "The interacting spiral galaxies NGC 2207 and IC 2163, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Two spiral galaxies sit side by side in the direction of the constellation Canis Major, caught as they swing close past each other. The larger and more massive of the pair, on the left, is NGC 2207. IC 2163, the smaller galaxy, sits to its right.",
+   "The encounter has not been gentle on the smaller galaxy. Powerful tidal forces from NGC 2207 have pulled IC 2163 out of shape, throwing stars and gas into long streamers that run toward the right-hand edge of the frame and stretch a hundred thousand light-years. A tidal force arises because gravity pulls harder on the near side of a galaxy than on the far side, so the galaxy is stretched along the line between the two.",
+   "Hubble recorded the near-collision with its Wide Field Planetary Camera 2, and the Hubble Heritage Team assembled the picture. A spiral galaxy is a flat disc of stars and gas with arms winding out from its centre."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "Hubble's Wide Field Planetary Camera 2 recorded the pair. The colour mapping is not published.",
+   "eye": "A long camera exposure gathers far more light than the eye can collect."
+  },
+  "scaleExtra": "The streamers pulled out of IC 2163 stretch about a hundred thousand light-years, according to NASA.",
+  "alt": "Two spiral galaxies side by side, the smaller one on the right drawn out into long streamers toward the right edge.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "nasa-too-close-for-comfort",
+  "caption": "The core of the globular cluster NGC 6397, imaged by the Hubble Space Telescope",
+  "captureDate": "March 6 - 7, 1996, April 3 - 4 1999, and November 4, 2001",
+  "story": [
+   "Stars crowd the core of NGC 6397, one of the nearest globular star clusters, 8,200 light-years away in the constellation Ara. A globular cluster is a dense ball of old stars, and here they are packed about a million times more tightly than in the Sun's neighbourhood, only a few light-weeks apart.",
+   "In such a crush, collisions happen, though only every few million years or so, and near misses are more common. Two stars that merge can form a blue straggler, a hot, bright star, and several stand out near the centre. Close passes can also pair a normal star with a white dwarf, which pulls gas off its partner. These cataclysmic variables change in brightness and shine strongly in ultraviolet and blue light, and a few show as faint blue or violet stars.",
+   "An unexpected result was three faint blue stars near the centre, coloured turquoise, that do not vary at all. They may be very-low-mass white dwarfs, left behind when giant stars lost their outer layers early, perhaps through a collision or a binary companion."
+  ],
+  "explore": [
+   "To find the variables, astronomers took 55 images over about 20 hours, mostly through ultraviolet and blue filters, and compared every star's brightness across them. They also identified nearly 100 ordinary white dwarfs spread throughout the cluster, the brightest of which appear as faint blue stars. The mosaic combines archival data from 1997 and 1999 with Hubble Heritage observations from 2001."
+  ],
+  "understand": {
+   "summary": "Hubble's Wide Field Planetary Camera 2 took the data, mostly through ultraviolet and blue filters with a few green and infrared images. The exact colour mapping is not published.",
+   "eye": "The cataclysmic variables stand out in ultraviolet light that the eye cannot see, and 7 hours of exposure gather far more light than an eye can."
+  },
+  "scaleExtra": null,
+  "alt": "A dense crowd of stars at the core of a globular cluster, with a few bright blue stars near the centre.",
+  "flags": []
+ },
+ {
+  "id": "nasa-the-pencil-nebula-remnants-of-an-exploded-star-ngc-2736",
+  "caption": "Part of the Pencil Nebula (NGC 2736), imaged by the Hubble Space Telescope",
+  "captureDate": "October 21, 2002",
+  "story": [
+   "Wispy filaments, small bright knots and patches of diffuse gas cross this view of the Pencil Nebula from upper left to lower right in shades of orange and green. Catalogued as NGC 2736, the nebula is a small part of the huge Vela supernova remnant, about 815 light-years away in the southern constellation Vela. Hubble is looking along the edge of a rippled sheet of gas, and the patch shown spans about three fourths of a light-year.",
+   "The sheet appears to be part of the supernova's shock wave, which recently ran into a pocket of dense gas. As the shock moves through space, from right to left in the picture, it heats the gas it hits to millions of degrees. The gas then cools and gives off visible light. Its colour tracks temperature. NASA describes the hottest regions as dominated by ionized oxygen, shown in blue, and cooler regions as glowing red with hydrogen.",
+   "Sir John Herschel discovered the nebula in the 1840s, and its long, straight look earned it its popular name."
+  ],
+  "explore": [
+   "A spinning pulsar remains at the heart of the Vela region. From how fast it is slowing, astronomers estimate the explosion may have happened about 11,000 years ago. No historical record of it survives, but it would have outshone Venus 250 times over and been visible to southern observers in daylight. If that age is right, the blast flung material out at nearly 22 million miles per hour, and the Pencil Nebula now moves at roughly 400,000 miles per hour."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took the image. NASA's release says ionized oxygen appears blue and hydrogen red, but the full filter-to-colour mapping is not published.",
+   "eye": "The colours sort the gas by temperature, and a 3-hour exposure gathers much more light than the eye can."
+  },
+  "scaleExtra": null,
+  "alt": "Wispy filaments of gas in shades of orange and green crossing the frame from upper left to lower right.",
+  "flags": []
+ },
+ {
+  "id": "nasa-galaxy-abell-1689s-gravitational-lens-magnifies-light-of-distant-galaxies",
+  "caption": "The galaxy cluster Abell 1689 and its gravitational lens, imaged by the Hubble Space Telescope",
+  "captureDate": "June 2002",
+  "story": [
+   "A crowd of yellowish galaxies sits caught in a web of thin red and blue arcs. The yellow galaxies belong to Abell 1689, one of the most massive galaxy clusters known, about 2.2 billion light-years away in the constellation Virgo. The arcs are much more distant galaxies whose light has been bent and stretched on its way to us.",
+   "The cluster's trillion stars, together with dark matter, act as a lens 2 million light-years wide. Their gravity bends and magnifies light from galaxies far behind, which bears out Albert Einstein's prediction that gravity curves space and so bends light. Some of the faintest objects here are probably more than 13 billion light-years away.",
+   "Lensing had been studied before, but never in this detail. The Advanced Camera for Surveys, then new on Hubble, was 5 times more sensitive than the earlier workhorse cameras and twice as sharp, and it shows 10 times more arcs than a ground-based telescope would. Thousands of lensed background galaxies are mixed among the cluster members."
+  ],
+  "explore": [
+   "Hubble stared at the cluster for more than 13 hours to collect the picture. Because dark matter supplies most of the gravity in the universe, the lensing lets astronomers map where it lies within galaxy clusters, and studying the magnified galaxies was expected to help trace the history of star formation."
+  ],
+  "understand": {
+   "summary": "A composite of visible-light and near-infrared exposures from Hubble's Advanced Camera for Surveys. The exact filter-to-colour mapping is not published.",
+   "eye": "Part of the light is near-infrared, which the eye cannot see, and 13.2 hours of exposure gather light from galaxies far too faint for any eye."
+  },
+  "scaleExtra": null,
+  "alt": "A cluster of yellowish galaxies surrounded by many thin, curved red and blue arcs.",
+  "flags": []
+ },
+ {
+  "id": "nasa-cone-nebula-ngc-2264-star-forming-pillar-of-gas-and-dust",
+  "caption": "The Cone Nebula (NGC 2264), imaged by the Hubble Space Telescope",
+  "captureDate": "April 2, 2002",
+  "story": [
+   "A dark pillar of gas and dust rears up from a red sea of glowing gas, ringed by a red halo, with background stars peeking through its wispy edges. This is the Cone Nebula (NGC 2264), a giant pillar in a turbulent star-forming region about 2,500 light-years away in the constellation Monoceros. Its name comes from its conical shape in ground-based images. Hubble's frame covers only the top 2.5 light-years of a nebula 7 light-years long.",
+   "Radiation from hot, young stars beyond the top of the frame has worn the pillar down over millions of years. Ultraviolet light heats its edges and frees gas, which then glows red as more ultraviolet light excites its hydrogen. A smaller version of the same process around a single star makes the bow-shaped arc near the Cone's upper left, an arc 65 times wider than our solar system. Dust reflects blue-white starlight, and stars at the base look reddened.",
+   "Eventually only the densest parts of the Cone will remain, and stars and planets may form inside them."
+  ],
+  "explore": [
+   "The Cone is a cousin of the pillars in M16, the Eagle Nebula, which Hubble had photographed several years earlier. Pillars of cold gas like these are common in large star-forming regions, and astronomers believe they incubate young stars. This was one of the first pictures from the Advanced Camera for Surveys, which astronauts had installed on Hubble during a servicing mission shortly before."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took the image through blue, near-infrared and hydrogen-alpha filters. The filter-to-colour mapping is not published, though the red halo comes from glowing hydrogen.",
+   "eye": "One of the filters records near-infrared light the eye cannot see, and 3.4 hours of exposure collect far more light than an eye can."
+  },
+  "scaleExtra": null,
+  "alt": "A wide, dark, cone-shaped pillar stretching from lower left to upper right, surrounded by wispy red tendrils and narrowing to a rounded top.",
+  "flags": []
+ },
+ {
+  "id": "nasa-the-omega-nebula-hotbed-of-star-formation",
+  "caption": "The centre of the Omega Nebula (M17), imaged by the Hubble Space Telescope",
+  "captureDate": "April 1 - 2, 2002",
+  "story": [
+   "Glowing gas in many colours fills the centre of the Omega Nebula, a hotbed of newborn stars cradled in a huge, cold, dark cloud of hydrogen. Also known as M17 and the Swan Nebula, it lies about 5,500 light-years away in the constellation Sagittarius. The area in the frame spans about 3,500 times the width of our solar system.",
+   "Ultraviolet radiation from young, massive stars just beyond the upper right corner, each about six times the Sun's temperature and 30 times its mass, is evaporating the dense, cold cloud in which they formed. The blistered walls shine with light from excited hydrogen, nitrogen, oxygen and sulfur atoms. A rose-like feature to the right of centre glows red from hydrogen and sulfur.",
+   "Pockets of dense gas resist the radiation longer than their surroundings, leaving sculpted shapes and isolated islands that may hold developing stars. One island at the centre of the brightest region measures about 10 times the size of our solar system, and a dense feature jutting in from the left edge resembles Orion's Horsehead Nebula."
+  ],
+  "explore": [
+   "The frame covers about 60 percent of the full field the Advanced Camera for Surveys captured. It was among the first pictures from that camera, released shortly after astronauts installed it on Hubble during a servicing mission."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys combined blue, near-infrared, hydrogen-alpha and doubly ionized oxygen filters. NASA does not publish which colour each filter is assigned.",
+   "eye": "Some of the light is near-infrared, invisible to the eye, and 2.6 hours of exposure gather far more light than an eye can."
+  },
+  "scaleExtra": null,
+  "alt": "Glowing clouds of gas in many colours, with a rose-like feature right of centre and a feature jutting in from the left edge.",
+  "flags": []
+ },
+ {
+  "id": "nasa-the-mice-ngc-4676-colliding-galaxies-with-tails-of-stars-and-gas",
+  "caption": "The colliding galaxies NGC 4676, the Mice, imaged by the Hubble Space Telescope",
+  "captureDate": "April 7, 2002",
+  "story": [
+   "Two galaxies trail long tails of stars and gas, one of them a straight streamer reaching toward the upper right. The pair is NGC 4676, nicknamed the Mice for those tails, about 300 million light-years from us, in Coma Berenices. They are colliding and will eventually merge into a single giant galaxy.",
+   "In the left-hand galaxy a bright blue patch breaks up into a cascade of clusters and groups of young, hot blue stars, their formation triggered by tidal forces from the encounter. Streams of material also flow between the two. Along the straight tail, clumps of young stars alternate with fainter stretches, a sign that the clumps formed as gas and dust there collapsed under gravity. Some clumps have luminous masses comparable to those of the dwarf galaxies orbiting in the Milky Way's halo.",
+   "Computer simulations by Josh Barnes and John Hibbard indicate that we see two nearly identical spirals about 160 million years after their closest approach. The straight tail is really curved but seen edge-on."
+  ],
+  "explore": [
+   "The simulations also show the pair eventually becoming a large, nearly round elliptical galaxy, with the material in the tails either falling back in or orbiting in its halo. Our own galaxy may meet the same fate when it collides with the Andromeda Galaxy several billion years from now. The picture was among the first released from Hubble's then-new Advanced Camera for Surveys."
+  ],
+  "understand": {
+   "summary": "Hubble's Advanced Camera for Surveys took the image through blue, orange and near-infrared filters. The filter-to-colour mapping is not published.",
+   "eye": "One filter records near-infrared light the eye cannot see, and 4.3 hours of exposure gather far more light than an eye can."
+  },
+  "scaleExtra": null,
+  "alt": "Two colliding galaxies with long tails of stars, one tail stretching straight toward the upper right, and a bright blue patch in the left galaxy.",
+  "flags": []
+ },
+ {
+  "id": "nasa-galaxy-cluster-abell-2218s-gravitational-lens",
+  "caption": "The galaxy cluster Abell 2218, imaged by the Hubble Space Telescope",
+  "captureDate": "January 11 - 13, 2000",
+  "story": [
+   "This Hubble view looks into Abell 2218, a rich cluster of thousands of galaxies about 2 billion light-years away in the constellation Draco. Its total mass is equivalent to ten thousand galaxies, and that huge concentration of matter bends and magnifies light from galaxies far behind it, as Einstein's general theory of relativity predicts. Lenses like this act as natural magnifying glasses, letting astronomers study galaxies too faint to detect otherwise.",
+   "A team led by Richard Ellis of Caltech used Abell 2218 in exactly that way, working with Hubble and the Keck Telescopes in Hawaii. They found a very small, faint galaxy about 13.4 billion light-years away, magnified more than 30 times by the cluster and split into two images by the uneven spread of matter within it. It is only around 500 light-years across and holds just a few million times the Sun's mass.",
+   "The team thinks it is possibly one of the building blocks that later join to make larger galaxies, and that it may show the conditions in which the first generation of stars formed."
+  ],
+  "explore": [
+   "Without the lens, Ellis said, the galaxy would not have shown up even in the Hubble Deep Fields. At the time, NASA expected its planned Next Generation Space Telescope to use lenses like this one to look back toward the very first objects in the universe."
+  ],
+  "understand": {
+   "summary": "Hubble's Wide Field Planetary Camera 2 took the image. The colour mapping is not published.",
+   "eye": "Some 9.4 hours of exposure gather light from galaxies far too faint for the eye, and the cluster's lensing brightens some of them further."
+  },
+  "scaleExtra": null,
+  "alt": "A crowded field of galaxies belonging to a rich galaxy cluster.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "nasa-galaxy-ngc-3079",
+  "caption": "A bubble of hot gas in the galaxy NGC 3079, imaged by the Hubble Space Telescope",
+  "captureDate": "November 26, 1998",
+  "story": [
+   "A lumpy bubble of hot gas rises from the core of NGC 3079, a spiral galaxy about 50 million light-years away in the constellation Ursa Major. The larger picture at left shows the bubble at the centre of the galaxy's disc, and a smaller close-up at right zooms in on it. The structure measures more than 3,000 light-years across and reaches 3,500 light-years above the disc.",
+   "Astronomers suspect that winds, fast streams of particles thrown out during a burst of star formation, are inflating the bubble. A starburst like this is a short period in which a galaxy forms stars much faster than usual. At the top of the bubble, filaments of gas whirl around in a vortex and are being flung out into space.",
+   "Eventually that gas is expected to rain back onto the disc, where it may run into gas clouds, compress them and start a new generation of stars. Just above the bubble, a pair of white dots are probably stars belonging to the galaxy."
+  ],
+  "explore": [],
+  "understand": {
+   "summary": "Hubble's Wide Field Planetary Camera 2 took the image. The colour mapping is not published.",
+   "eye": "A 2.7-hour exposure gathers far more light than the eye, and Hubble's sharpness picks out filaments in a galaxy about 50 million light-years away."
+  },
+  "scaleExtra": null,
+  "alt": "Two panels, a wider view at left of a lumpy bubble of gas rising from the centre of a spiral galaxy's disc and a smaller close-up of the bubble at right.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "nasa-vast-star-forming-region-30-doradus",
+  "caption": "The 30 Doradus Nebula and star cluster R136, imaged by the Hubble Space Telescope",
+  "captureDate": "January 1994 - September 2000",
+  "story": [
+   "A vast, sculpted landscape of gas and dust surrounds a large blue blob just left of centre, the star cluster R136. Around it lies the 30 Doradus Nebula, a star-forming region 170,000 light-years away in the Large Magellanic Cloud, a small companion of the Milky Way. The mosaic covers the whole inner nebula, 200 by 150 light-years.",
+   "R136 holds several dozen of the heaviest stars known, each roughly 100 solar masses and some 10 times hotter than the Sun, all born together about 2 million years ago. Their ultraviolet light makes the gas glow, and their winds push it away and compress the inner faces of nearby clouds. That pressure is triggering a new generation of stars about 30 to 50 light-years from the cluster, most still hidden in dusty cocoons.",
+   "Several finger-like pillars, each several light-years long, point toward R136. Dense clumps shield the material behind them, and stars grow inside. In one spot a trio of stars only a few hundred thousand years old has just broken out of its pillar."
+  ],
+  "explore": [
+   "Hubble's infrared camera, NICMOS, has already found newborn stars inside most of these pillars by seeing through the dust. The pillars match those of the Eagle Nebula in size and would be invisible without Hubble's resolution. In another 2 million years the new stars will be in full bloom, while R136's massive stars will have burned out, leaving a giant empty shell at the centre."
+  ],
+  "understand": {
+   "summary": "A mosaic of five overlapping pictures from Hubble's Wide Field Planetary Camera 2. NASA describes the colours by feature, with blue for hot stars, green for gas energized by the cluster, pink for cloud edges facing the cluster and reddish-brown for cooler cloud surfaces.",
+   "eye": "The colours were chosen to bring out features in the stars and nebula, and the mosaic stitches together observations spread over several years."
+  },
+  "scaleExtra": null,
+  "alt": "A large blue star cluster left of centre, surrounded by greenish and pink glowing gas and reddish-brown clouds with small finger-like pillars.",
+  "flags": []
+ },
+ {
+  "id": "nasa-supernova-1994d-in-galaxy-ngc-4526",
+  "caption": "Supernova 1994D in the galaxy NGC 4526, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "This Hubble picture shows the galaxy NGC 4526 in the constellation Virgo together with Supernova 1994D, an exploding star within it. NASA classifies NGC 4526 as a lenticular galaxy, a disc-shaped galaxy with a central bulge but no prominent spiral arms, and the supernova as Type Ia.",
+   "A Type Ia supernova is generally understood to be the explosion of a white dwarf star, and such blasts reach a similar peak brightness. That makes them useful as standard candles. Comparing how bright one appears with how bright it really is gives its distance, and so the distance to its galaxy.",
+   "The image accompanied NASA's 1999 announcement that the Hubble Key Project team had finished measuring precise distances to galaxies, a key step toward pinning down the expansion rate of the universe, known as the Hubble constant. The team observed 18 galaxies out to 65 million light-years and found almost 800 Cepheid variable stars, which they used to calibrate other ways of measuring distance. The High-Z Supernova Search Team shares credit for the image."
+  ],
+  "explore": [
+   "The team measured the Hubble constant at 70 kilometres per second per megaparsec, with an uncertainty of 10 percent. Combined with estimates of the universe's density, that pointed to an age of about 12 billion years, provided the density is below a critical value. If some force is pushing galaxies apart, the measurements point to an even older universe."
+  ],
+  "understand": {
+   "summary": "Hubble's Wide Field Planetary Camera 2 took the image. The colour mapping is not published.",
+   "eye": "A telescope exposure gathers much more light than the eye can collect."
+  },
+  "scaleExtra": null,
+  "alt": "The galaxy NGC 4526 with the light of Supernova 1994D.",
+  "flags": [
+   "caption too thin"
+  ]
+ },
+ {
+  "id": "nasa-nearby-galaxy-centaurus-a",
+  "caption": "The galaxy Centaurus A (NGC 5128), imaged by the Hubble Space Telescope",
+  "captureDate": "August 1, 1997 and January 10, 1998",
+  "story": [
+   "A dark lane of dust girdles the galaxy Centaurus A, also called NGC 5128, with blue clusters of newborn stars and dark dust filaments set among glowing orange gas. About 10 million light-years away in the constellation Centaurus, it hosts the active galactic nucleus nearest to Earth, and it has long been seen as an elliptical galaxy thrown into disarray by a recent collision with a smaller spiral.",
+   "It is the closest known case of one galaxy devouring another. A massive black hole, suspected to lie hidden at the centre, is feeding on the smaller galaxy and may contain the mass of perhaps a billion stars packed into a region not much larger than our solar system. Infrared observations with another Hubble instrument looked through the dust to a twisted disc of hot gas around it, tilted differently from the black hole's axis.",
+   "Collisions like this were common in the early universe but are rare today, so having one this close gives astronomers a valuable laboratory for studying how galaxy mergers feed giant black holes."
+  ],
+  "explore": [
+   "Sir John Herschel was the first to report the object, in 1847, describing two halves of a nebula split by a broad dark band. In 1949 astronomers using a radio antenna in Australia identified Centaurus A as a powerful radio galaxy, and in 1954 Walter Baade and Rudolph Minkowski showed it to be a galaxy."
+  ],
+  "understand": {
+   "summary": "Hubble's Wide Field Planetary Camera 2 took this visible-light image. The colour mapping is not published.",
+   "eye": "This is a visible-light view, and the dust lane hides the core, which astronomers needed Hubble's infrared camera to see through."
+  },
+  "scaleExtra": null,
+  "alt": "A galaxy crossed by a dark dust lane, with blue star clusters and orange glowing gas.",
+  "flags": []
+ },
+ {
+  "id": "nasa-ngc-7252-spiral-disk-and-globular-star-clusters-at-the-core-of-a-colliding-galaxy",
+  "caption": "The core of the colliding galaxy NGC 7252, imaged by the Hubble Space Telescope",
+  "captureDate": "October 10, 1992",
+  "story": [
+   "A small pinwheel of gas and stars glows at the core of the peculiar galaxy NGC 7252, surrounded by about 40 very bright, young globular star clusters. The spiral looks uncannily like a whole galaxy seen face-on, yet it is only 10,000 light-years across, roughly a twentieth of the galaxy's full width. NGC 7252 lies some 300 million light-years away in the constellation Aquarius.",
+   "The clusters gather near the core. They are about 60 light-years across, the same size as the globular clusters orbiting the Milky Way, but most are estimated to be only 50 to 500 million years old. They appear to have formed after two disc-shaped galaxies collided about a billion years ago, and the collision probably fed the central disc as well.",
+   "That makes NGC 7252 strong evidence for a long-debated idea, that giant elliptical galaxies form when disc galaxies merge. Its young clusters are considered forerunners of the Milky Way's ancient ones."
+  ],
+  "explore": [
+   "Hubble's sharpness let astronomers measure the clusters' sizes even at this distance. Each spans about 0.04 arc seconds, roughly how big a dime looks from 60 miles away. Some outshine the Milky Way's globulars by up to a few hundred times, thanks to many hot, short-lived blue stars. The galaxy's long tails are clear signs of a merger."
+  ],
+  "understand": {
+   "summary": "A visible-light image from Hubble's original Wide Field and Planetary Camera in its PC mode, sharpened by computer image reconstruction. It is shown in false colour, and the colour mapping is not published.",
+   "eye": "The colours are false and the picture was computer-processed, so it does not show what an eye would see."
+  },
+  "scaleExtra": "The whole picture spans 46,000 light-years, according to NASA.",
+  "alt": "A small spiral-shaped disc at the bright core of a galaxy, surrounded by bright star clusters.",
+  "flags": []
+ },
+ {
+  "id": "nasa-orion-nebula",
+  "caption": "The Orion Nebula, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "Clouds of orange, purple, pink, grey-green and yellow spread across a black, star-speckled background, in a smaller crescent at upper left joined to a larger fan that sweeps toward the lower right. This is the Orion Nebula, a star-forming region, and more than 3,000 stars of many sizes appear among its plateaus, peaks, valleys and pillars of cloudy material.",
+   "The bright heart of the scene is the Trapezium, a group of four brilliant, massive stars arranged in a trapezoid. Their ultraviolet light is hollowing out a large cavity in the nebula and shaping the growth of hundreds of smaller stars. Several dozen other large, bright young stars are scattered through the field. Most look white, though one low in the lower right quarter is pale blue.",
+   "Near the bottom edge are many tiny, faint red points. These are brown dwarfs, objects sometimes called failed stars because they never grew massive enough to shine as true stars."
+  ],
+  "explore": [
+   "Many of the youngest and hottest stars in the Milky Way are found in the Orion Nebula, which lies at the near side of a giant molecular cloud just behind the stars of Orion's sword. In 1992 NASA announced that Hubble had found discs of dust around 15 newly formed stars there, discs that are a prerequisite for forming planetary systems."
+  ],
+  "understand": {
+   "summary": "The Hubble Space Telescope took this image. The instrument and colour mapping are not published.",
+   "eye": "A camera exposure gathers far more light than the eye can, bringing out faint objects such as the brown dwarfs near the bottom."
+  },
+  "scaleExtra": "The Orion Nebula is about 1,500 light-years away, according to NASA.",
+  "alt": "Colourful clouds of orange, purple, pink and yellow across a star-speckled black background, with a bright group of stars at the centre.",
+  "flags": [
+   "caption mismatch: caption describes a different, wider mosaic"
+  ]
+ },
+ {
+  "id": "nasa-sunrise-arc-nircam-image",
+  "caption": "The galaxy cluster WHL0137-08 and the Sunrise Arc, imaged by the James Webb Space Telescope",
+  "captureDate": "30 July 2022, 01 Jan 2023",
+  "story": [
+   "Fuzzy white galaxies gather at the centre of this Webb view, surrounded by redder, curved galaxies much farther away. The white ones belong to the massive galaxy cluster WHL0137-08. Just below the diffraction spike at the 5 o'clock position lies a red smear, the Sunrise Arc, the most strongly magnified galaxy known from the universe's first billion years.",
+   "Inside the arc sits Earendel, about 12.9 billion light-years away and the most distant star ever detected, seen as it was about 1 billion years after the big bang. The cluster's mass warps space into a natural magnifying glass, and Earendel lies along a wrinkle of maximum magnification that boosts it by a factor of at least 4,000. Hubble discovered the star, and Webb's Near-Infrared Camera then revealed a massive B-type star with over twice the Sun's temperature and about a million times more luminous.",
+   "Astronomers think its colours hint at a cooler, redder companion. As the universe expanded, that light was stretched past the wavelengths Hubble can detect, so only Webb could pick it up."
+  ],
+  "explore": [
+   "The arc also contains young star-forming regions and older star clusters as small as 10 light-years across, mirrored on either side of the line of greatest magnification. Two small dots beside Earendel are images of a single cluster, thought to be no younger than 10 million years and probably bound tightly enough to survive to the present day, a hint of how the Milky Way's globular clusters might have looked when they formed."
+  ],
+  "understand": {
+   "summary": "Webb's Near-Infrared Camera (NIRCam) took the image, with F090W, F115W and F150W shown in blue, F200W in cyan, F277W in green, F356W in yellow, F410M in orange and F444W in red.",
+   "eye": "All of these filters record infrared light that the eye cannot see, and the colours translate those wavelengths into visible hues."
+  },
+  "scaleExtra": null,
+  "alt": "Fuzzy white galaxies at the centre of a cluster, surrounded by red curved galaxies, with a red arc just below a star's diffraction spike at lower right.",
+  "flags": []
+ },
+ {
+  "id": "nasa-pillars-of-creation-miri-image",
+  "caption": "The Pillars of Creation in mid-infrared light, imaged by the James Webb Space Telescope",
+  "captureDate": "14 Aug 2022",
+  "story": [
+   "Grey and blue layers of gas and dust rise from lower left to upper right in three pillars against a deep red background, with a V shape near the top. These are the Pillars of Creation in the Eagle Nebula, 6,500 light-years away, seen by the Mid-Infrared Instrument on NASA's James Webb Space Telescope.",
+   "Most of the thousands of stars in this region vanish at these wavelengths, because stars give off little mid-infrared light. Dust, a key ingredient in star formation, takes over instead. Stars are actively forming inside the dense pillars, where knots of gas and dust collapse under their own gravity and slowly heat up. Red stars near the pillar tips are young ones still wrapped in dust, while the blue stars dotting the scene are older and have shed most of theirs.",
+   "The darkest grey areas mark the densest, coolest dust, and the red V near the top is where dust is more diffuse and cooler. No background galaxies show through, because gas and dust in the dense disc of the Milky Way block their light."
+  ],
+  "explore": [
+   "One bright red star jutting from the lower edge of the topmost pillar, together with its dusty shroud, is larger than our entire solar system. Hubble first captured this scene in 1995 and returned in 2014. Webb's measurements should help researchers work out how much dust the region holds and what it is made of, making models of the pillars far more precise."
+  ],
+  "understand": {
+   "summary": "Webb's Mid-Infrared Instrument (MIRI) took the image, with F770W shown in blue, F1130W in green and F1500W in red.",
+   "eye": "Mid-infrared light is invisible to the eye, and at these wavelengths most of the stars that a visible-light view would show give way to glowing dust."
+  },
+  "scaleExtra": null,
+  "alt": "Three grey-blue pillars of gas and dust rising diagonally against a red background, with a red V shape near the top and a few red and blue stars.",
+  "flags": []
+ },
+ {
+  "id": "nasa-trifid-nebula-wide-field-camera-3-image",
+  "caption": "A close-up of the Trifid Nebula (M20), imaged by the Hubble Space Telescope",
+  "captureDate": "February 20-22, 2026",
+  "story": [
+   "Rust-coloured clouds of gas and dust, dark brown in places like mud, fill this Hubble view of the Trifid Nebula, a stellar nursery some 5,000 light-years away. The top left glows bright blue where the least dust remains, and the far-right corner is nearly pitch black where dust is densest. Bright orange stars are scattered across the scene.",
+   "Massive stars outside the frame have shaped the region for at least 300,000 years. Their ultraviolet light makes nearby gas glow, and their winds blow a huge bubble that clears and compresses the dust. Near the top of a head-shaped cloud with two horns, yellow gas flows upward as the cloud is torn apart. The left horn belongs to Herbig-Haro 399, a jet of plasma that a young protostar buried in the head has fired out periodically over centuries.",
+   "Hubble first observed this scene in 1997. Comparing the two views lets researchers measure how fast the outflows move and how much energy the protostar injects. Over millions of years the gas and dust will disappear, leaving only stars."
+  ],
+  "explore": [
+   "The darker, more triangular horn on the right hosts another young star at its tip, marked by a faint red dot with a tiny jet. A green arc above it may be a disc around the star being eroded by ultraviolet light. Near the centre, a rippling line running from orange to red appears to move between the two epochs and may be a jet from another star buried in dust. The image marked Hubble's 36th launch anniversary."
+  ],
+  "understand": {
+   "summary": "Hubble's Wide Field Camera 3 in visible light, with the narrow-band filters F502N shown in blue, F656N in green and F673N in red.",
+   "eye": "This is visible light, but each filter isolates a narrow band, and the densest dust still hides the protostars forming inside it."
+  },
+  "scaleExtra": null,
+  "alt": "Rust-coloured clouds of gas and dark brown dust shaped like a head with two horns, with a blue glow at top left, yellow gas streaming upward and scattered orange stars.",
+  "flags": []
+ },
+ {
+  "id": "nasa-omega-centauri-2",
+  "caption": "The globular star cluster Omega Centauri, imaged by the Hubble Space Telescope",
+  "captureDate": "27 June 2002- 23 Feb 2024",
+  "story": [
+   "This Hubble portrait shows Omega Centauri, the largest and brightest globular star cluster in the sky. About 17,700 light-years away, just above the plane of the Milky Way in the constellation Centaurus, it holds roughly 10 million stars bound together by gravity and outweighs other big globular clusters roughly tenfold, coming close to the mass of a small galaxy.",
+   "An international team used more than 500 Hubble images spanning two decades to follow stars in the cluster's innermost region. They found seven moving so fast that they should escape and never return. The likeliest explanation is a very massive object holding them near the centre, a black hole of at least 8,200 solar masses.",
+   "That would make it an intermediate-mass black hole, a rare class between the light black holes left by single stars and the supermassive ones in galaxy cores. Only a few other candidates are known, and if confirmed this one would be closer to Earth than the black hole at the Milky Way's centre."
+  ],
+  "explore": [
+   "Omega Centauri is visible to the naked eye, and from a dark rural site it looks almost as big as the full Moon. Ptolemy listed it as a single star nearly 2,000 years ago, Edmond Halley later reported it as a nebula, and John Herschel first recognised it as a globular cluster in the 1830s."
+  ],
+  "understand": {
+   "summary": "Hubble's Wide Field Camera 3 took the image, with F275W, F336W and F438W shown in blue, F606W and F625W in green, and F658N and F814W in red.",
+   "eye": "The blue channel includes ultraviolet light and the red channel near-infrared light, both invisible to the eye."
+  },
+  "scaleExtra": null,
+  "alt": "A dense globular cluster of countless red, white and blue stars on a black background.",
+  "flags": []
+ },
+ {
+  "id": "nasa-ngc-1333",
+  "caption": "The star-forming region NGC 1333, imaged by the Hubble Space Telescope",
+  "captureDate": "December 2022 to March 2023",
+  "story": [
+   "Glowing gas and pitch-black dust swirl through NGC 1333, a star-forming region in the Perseus molecular cloud about 960 light-years away. Several hundred newly forming stars embedded in the dark cloud stir up and blow around this material, but most of the activity is hidden behind fine, soot-like dust that grows thicker toward the bottom. The black patches are not empty space but dust.",
+   "At the top, winds probably from a bright blue star blow through a curtain of dust, and the fine dust scatters blue starlight. Lower in the frame, another very hot star shines through filaments of dust, and a diagonal string of fainter stars looks reddish because the dust lets more red light through.",
+   "At the bottom, Hubble catches the reddish glow of ionized hydrogen, shaped into overlapping patterns by pencil-thin jets from newly forming stars outside the frame. Those stars are surrounded by discs that may one day form planets. Our Sun and planets formed in a dusty cloud like this, 4.6 billion years ago."
+  ],
+  "explore": [
+   "Hubble looked through a veil of dust at the rim of a vast, cold cloud of molecular hydrogen, the raw material for new stars and planets. The Sun probably did not form alone but in a crowded nursery, perhaps more energetic and massive than NGC 1333. NASA released the image to mark Hubble's 33rd launch anniversary."
+  ],
+  "understand": {
+   "summary": "Hubble's Wide Field Camera 3 took the image, with F475W shown in blue, F606W in green, and F657N and F814W together in red.",
+   "eye": "The red channel includes near-infrared light the eye cannot see, and the narrow F657N filter singles out the glow of hydrogen."
+  },
+  "scaleExtra": null,
+  "alt": "Glowing gas and black dust with a bright blue star at the top, a reddish string of stars and red glowing hydrogen at the bottom.",
+  "flags": []
+ },
+ {
+  "id": "nasa-cw-leonis",
+  "caption": "The carbon star CW Leonis, imaged by the Hubble Space Telescope",
+  "captureDate": "04 June 2011, 17 May 2016",
+  "story": [
+   "Orange-red cobwebs of dust wrap around a central star, crossed by bright beams of light radiating outward. The star is CW Leonis, a red giant 400 light-years from Earth and the closest carbon star. The cobwebs are clouds of sooty carbon, made from outer layers the dying star has thrown off into space.",
+   "Carbon forged by fusion inside CW Leonis gives it a carbon-rich atmosphere, and blowing that carbon back out supplies raw material for future stars and planets. Every known form of life on Earth is built around carbon. The star's shells and arcs may be shaped by its magnetic field, and Hubble observations over two decades show threads of ejected material expanding.",
+   "The beams are among the star's most puzzling features. Their brightness has changed within 15 years, a very short time by astronomical standards. Astronomers speculate that gaps in the surrounding dust may let starlight pierce through and light up dust, like searchlights in a cloudy sky, but the cause of the changes is still unexplained."
+  ],
+  "explore": [
+   "A star becomes a red giant after it runs out of hydrogen fuel at its core. The core shrinks, a surrounding shell starts fusing hydrogen, helium fusion ignites in the core, and the extra heat swells the outer layers. CW Leonis looks orange-red because its surface is relatively cool, about 2,300 degrees Fahrenheit."
+  ],
+  "understand": {
+   "summary": "Hubble's Wide Field Camera 3 took the image, with F606W shown in cyan, F814W in orange and F098M in green.",
+   "eye": "The green-tinted beams come from infrared light invisible to the eye, coloured green to improve contrast."
+  },
+  "scaleExtra": null,
+  "alt": "A bright central star wrapped in orange-red webs of dust, with beams of light radiating outward.",
+  "flags": []
+ },
+ {
+  "id": "nasa-ngc-2292-and-ngc-2293",
+  "caption": "The colliding galaxies NGC 2292 and NGC 2293, imaged by the Hubble Space Telescope",
+  "captureDate": "23 Jan 2020",
+  "story": [
+   "Two glowing cores sit side by side above a bluish, curving arm, giving this pair of galaxies the look of a carved Halloween pumpkin with eyes and a crooked smile. The galaxies, NGC 2292 and NGC 2293, lie about 120 million light-years from us, toward Canis Major, and are in the early stages of a collision. The whole view is nearly 109,000 light-years across, roughly the diameter of the Milky Way.",
+   "The overall orange colour comes from aging red stars, and the galaxies show only a hint of spiral structure. The eyes are dense gatherings of stars around two supermassive black holes. The smile is bluish because newborn star clusters line a new dusty arm that wraps around both galaxies. It most likely formed when gas was compressed as the galaxies began to merge.",
+   "Colliding galaxies usually lose their flat discs and become elliptical galaxies. This pair may be a rare exception, and astronomers suggest the arm may be the start of a giant new spiral."
+  ],
+  "explore": [
+   "The galaxies sit far behind the crowded foreground of the Milky Way, so the field is scattered with blue foreground stars. William Keel of the University of Alabama observed the pair through the Gems of the Galaxy Zoos program, which fits short Hubble observations into gaps in the schedule, and he speculates the pair could end up like Rubin's Galaxy, UGC 2885."
+  ],
+  "understand": {
+   "summary": "Brightness detail comes from Hubble's Advanced Camera for Surveys through the F606W filter, while colour comes from ground-based Pan-STARRS images, with the g band in blue and the z band in red.",
+   "eye": "Hubble supplies the fine detail in black and white, and the colour is borrowed from lower-resolution ground-based images, so the picture is a blend of two sources."
+  },
+  "scaleExtra": null,
+  "alt": "Two glowing galaxy cores side by side above a curved bluish arm, resembling a pumpkin face, among scattered stars.",
+  "flags": []
+ },
+ {
+  "id": "nasa-optical-view-of-crab-nebula",
+  "caption": "The Crab Nebula in visible light, imaged by the Hubble Space Telescope",
+  "captureDate": null,
+  "story": [
+   "This is a visible-light view of the Crab Nebula from the Hubble Space Telescope. The nebula is the tattered remains of an exploded star in the constellation Taurus, left by a supernova that Chinese astronomers saw in 1054.",
+   "In visible light, the Crab's outer shell is a cage of glowing gas made of tentacle-like filaments of ionized oxygen, meaning oxygen atoms missing one or more electrons. At its heart spins a pulsar, a neutron star formed from the crushed core of the star that exploded. It sends out pulses of radiation 30 times a second with clockwork precision.",
+   "A flood of particles from the pulsar pushes on the expanding debris like an animal rattling its cage. Its nested structure shows, NASA says, that the Crab is better classified as a pulsar wind nebula than as a classic supernova remnant. In a pulsar wind nebula the inner gas is heated to thousands of degrees by radiation, while a traditional remnant consists of a blast wave and debris heated to millions of degrees."
+  ],
+  "explore": [
+   "NASA's Universe of Learning program combined visible-light images from Hubble with infrared data from Spitzer and X-rays from Chandra to build a three-dimensional visualization of the nebula. Each wavelength highlights a different nested layer, from a ringed disc and jets near the pulsar, to a cloud of synchrotron radiation, to the visible-light cage around them all."
+  ],
+  "understand": {
+   "summary": "A visible-light image from the Hubble Space Telescope. The instrument and colour mapping are not published.",
+   "eye": "This is visible light, the kind the eye responds to, but a telescope exposure gathers far more of it than an eye can."
+  },
+  "scaleExtra": null,
+  "alt": "The Crab Nebula, a cloud of glowing filaments of gas.",
+  "flags": [
+   "caption too thin"
+  ]
+ }
+]

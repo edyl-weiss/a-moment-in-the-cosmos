@@ -15,7 +15,12 @@ document.addEventListener('photo:change', ({ detail: { item } }) => {
   const marked = item.labels.length
     ? `<p><strong>Marked on the photograph:</strong> ${item.labels.map((l) => esc(l.text)).join('; ')}. Positions come from the source’s own description.</p>`
     : '<p class="missing">No verified positional data is available for an overlay on this photograph, so the explanation is given in text only.</p>';
-  $('#understandBody').innerHTML = `<p>${esc(u.summary)}</p>${table(u.filters)}<p>${esc(u.eye)}</p>${marked}`;
+  const more = [
+    u.filters.length && `<details><summary>How the colours were made</summary>${table(u.filters)}</details>`,
+    u.eye && `<details><summary>What your eye would see</summary><p>${esc(u.eye)}</p></details>`,
+    `<details><summary>What is marked on the photograph</summary>${marked}</details>`,
+  ].filter(Boolean).join('');
+  $('#understandBody').innerHTML = `<p class="lede">${esc(u.summary)}</p>${more}`;
   $('#labels').innerHTML = item.labels.map((l) =>
     `<span class="lbl${l.x > 62 ? ' flip' : ''}" style="left:${l.x}%;top:${l.y}%"><i></i><b>${esc(l.text)}</b></span>`).join('');
 });

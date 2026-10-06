@@ -2,6 +2,8 @@
 import { RIGHTS } from '../data/catalog.js';
 import { $, esc } from './util.js';
 
+const MIN_EXPLORE_WORDS = 20;   // under ~two sentences
+const words = (paras) => paras.join(' ').split(/\s+/).filter(Boolean).length;
 const list = (sources) => sources.map(([t, u]) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}</a></li>`).join('');
 const missing = (t) => `<span class="missing">${esc(t)}</span>`;
 const orMissing = (t) => (/not published/i.test(t) ? missing(t) : esc(t));
@@ -39,6 +41,8 @@ document.addEventListener('photo:change', ({ detail: { item, dims } }) => {
   $('#sourcesList').innerHTML = list(item.sources);
   $('#exploreBody').innerHTML = item.explore.map((p) => `<p>${esc(p)}</p>`).join('') +
     `<p><strong>Further reading</strong></p><ul>${list(item.sources)}</ul>`;
+  // A sentence or two isn't worth a panel; the sources are already listed beside the story.
+  $('#exploreDetails').hidden = words(item.explore) < MIN_EXPLORE_WORDS;
   $('#behindList').innerHTML = behind(item, dims);
   $('#exploreDetails').open = false;
   $('#behindDetails').open = false;

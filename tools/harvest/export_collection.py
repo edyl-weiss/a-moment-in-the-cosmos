@@ -9,16 +9,17 @@ import json, re, glob, sys, collections, os
 SITE = sys.argv[1] if len(sys.argv) > 1 else '/home/claude/cosmos-v2'
 OUT = os.path.join(SITE, 'src/data/collection')
 PFX = {'hubble': 'h-', 'webb': 'w-', 'eso': 'e-', 'noirlab': 'n-'}
-EXTRA = [f for f in ['noirlab_final.json', 'final3.json', 'final4.json', 'final5.json'] if os.path.exists(f)]   # later harvests, same raw shape
+EXTRA = [f for f in ['noirlab_final.json', 'final3.json', 'final4.json', 'final5.json', 'raw_nasa.json'] if os.path.exists(f)]   # later harvests, same raw shape
 RAW = json.load(open('final2.json')) + [o for f in EXTRA for o in json.load(open(f))]
-recs = {r['id']: r for f in ['records.json', 'records_noirlab.json', 'records_extra.json', 'records_extra2.json', 'records_noirlab2.json', 'records_extra3.json', 'records_noirlab3.json'] if os.path.exists(f) for r in json.load(open(f))}
-raw = {PFX[o['org']] + o['id']: o for o in RAW}
+recs = {r['id']: r for f in ['records.json', 'records_noirlab.json', 'records_extra.json', 'records_extra2.json', 'records_noirlab2.json', 'records_extra3.json', 'records_noirlab3.json', 'records_nasa.json'] if os.path.exists(f) for r in json.load(open(f))}
+uid = lambda o: o['id'] if o['org'] == 'nasa' else PFX[o['org']] + o['id']   # NASA ids are stored whole
+raw = {uid(o): o for o in RAW}
 stories = {}
 for f in sorted(glob.glob('stories/batch*.json')):
     for s in json.load(open(f)):
         stories[s['id']] = s
 
-ORGN = {'hubble': 'ESA/Hubble', 'webb': 'ESA/Webb', 'eso': 'ESO', 'noirlab': 'NSF NOIRLab'}
+ORGN = {'hubble': 'ESA/Hubble', 'webb': 'ESA/Webb', 'eso': 'ESO', 'noirlab': 'NSF NOIRLab', 'nasa': 'NASA'}
 NEWS = {'hubble': 'https://esahubble.org/news/{}/', 'webb': 'https://esawebb.org/news/{}/', 'eso': 'https://www.eso.org/public/news/{}/',
         'noirlab': 'https://noirlab.edu/public/news/{}/'}
 PREFIX = re.compile(r'^(Optical|Infrared|Ultraviolet|Radio|X-ray|Millimeter|Submillimeter|Gamma-ray)(.*)$', re.I)
@@ -65,6 +66,8 @@ def celestial(r):
 
 def sources(r):
     out = [[f"{ORGN[r['org']]} image page ({r['srcId']})", r['source']]]
+    if r['org'] == 'nasa':
+        return out + ([[f"NASA release: {r['releaseTitle']}", r['release']]] if r.get('release') else [])
     rel = (raw[r['id']]['info'].get('Related releases') or '').split(',')[0].strip()
     if re.match(r'^(heic|weic|eso|noirlab)\d{4}', rel):
         out.append([f"{ORGN[r['org']]} release {rel}", NEWS[r['org']].format(rel)])
@@ -111,7 +114,7 @@ for rid, r in recs.items():
         'behind': {
             'observatory': tels if r['cat'] != 'night' else (r['site'] or 'Not named by the source'),
             'instrument': tels, 'people': f"See full credit: {r['credit']}",
-            'exposure': 'Not published on the source page.',
+            'exposure': f"Observation dates per NASA: {r['exposureDates']}." if r.get('exposureDates') else 'Not published on the source page.',
             'technique': 'Not stated by the source (single frame, stack, mosaic or panorama unknown).',
             'processing': 'Colours assigned by filter, as listed.' if any(f['colour'] for f in fs) else 'Not published.',
         },
@@ -120,13 +123,27 @@ for rid, r in recs.items():
     json.dump(photo, open(os.path.join(OUT, 'photos', rid + '.json'), 'w'), ensure_ascii=False)
     exported.append(photo)
 
-index = [{'id': p['id'], 'cat': p['cat'], 'org': p['org'], 'title': p['title'], 'thumb': p['img']['thumb']} for p in exported]
+# Telescope families for the archive's filter (same rules as TEL in src/js/collection.js, plus ground-based sites).
+TEL = [('webb', r'webb|jwst|nircam|miri'), ('hubble', r'hubble|wfc3|\bacs\b|wfpc|nicmos'), ('vista', r'vista'),
+       ('vst', r'\bvst\b|survey telescope|omegacam'), ('vlt', r'very large telescope|\bvlt\b|fors|muse|hawk-i|sphere|naco|isaac|kmos|vimos|uves'),
+       ('alma', r'\balma\b'), ('apex', r'\bapex\b'), ('wfi', r'2\.2-metre|wide field imager|\bwfi\b|mpg/eso'),
+       ('lasilla', r'new technology telescope|\bntt\b|3\.6-metre|efosc|sofi'), ('gemini', r'gemini|gmos'), ('blanco', r'blanco|decam'),
+       ('kittpeak', r'mayall|kitt peak|wiyn|mosaic'), ('soar', r'\bsoar\b'), ('rubin', r'rubin|lsst')]
+def tel_families(p):
+    if p['cat'] == 'night': return ['camera']
+    t = (p['behind']['instrument'] + ' ' + p['credit']).lower()
+    fam = [k for k, rx in TEL if re.search(rx, t)]
+    return fam or ['other']
+def search_text(p):
+    return ' '.join(x for x in [p['celestial'], p['caption']] if x)
+index = [{'id': p['id'], 'cat': p['cat'], 'org': p['org'], 'title': p['title'], 'thumb': p['img']['thumb'],
+          'y': (re.search(r'\d{4}', p['releaseDate']) or [None])[0], 'q': search_text(p), 'tel': tel_families(p)} for p in exported]
 json.dump(index, open(os.path.join(OUT, 'index.json'), 'w'), ensure_ascii=False)
 
 # Schedule: curated order first (keeps the archive's recorded days fixed), then new photos by rank.
 curated = {'nebula': ['weic2216b', 'heic0515a', 'weic2205a', 'heic1307a'], 'galaxy': ['weic2208a', 'heic0506a', 'weic2426a', 'heic0602a'],
            'night': ['potw1222a', 'uhd_img4255pc_bt_cc', 'potw1217a', 'ann13016a'], 'star': ['heic1509a', 'weic2316a', 'heic0715a', 'weic2301a']}
-rank = {PFX[o['org']] + o['id']: o.get('score', 0) for o in RAW}
+rank = {uid(o): o.get('score', 0) for o in RAW}
 prev = {}
 sched_path = os.path.join(SITE, 'src/data/schedule.js')
 if os.path.exists(sched_path):

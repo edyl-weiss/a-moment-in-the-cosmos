@@ -13,10 +13,12 @@ export const WEBB = 'https://cdn.esawebb.org/archives/images/';
 export const ESO = 'https://cdn.eso.org/images/';
 
 export const RIGHTS = {
-  hubble: { label: 'CC BY 4.0, ESA/Hubble usage terms', url: 'https://esahubble.org/copyright/' },
-  webb:   { label: 'CC BY 4.0, ESA/Webb usage terms',   url: 'https://esawebb.org/copyright/' },
-  eso:    { label: 'CC BY 4.0, ESO usage terms',        url: 'https://www.eso.org/public/outreach/copyright/' },
-  noirlab: { label: 'CC BY 4.0, NOIRLab usage terms',   url: 'https://noirlab.edu/public/copyright/' }
+  hubble: { short: 'CC BY 4.0', label: 'CC BY 4.0, ESA/Hubble usage terms', url: 'https://esahubble.org/copyright/' },
+  webb:   { short: 'CC BY 4.0', label: 'CC BY 4.0, ESA/Webb usage terms',   url: 'https://esawebb.org/copyright/' },
+  eso:    { short: 'CC BY 4.0', label: 'CC BY 4.0, ESO usage terms',        url: 'https://www.eso.org/public/outreach/copyright/' },
+  noirlab: { short: 'CC BY 4.0', label: 'CC BY 4.0, NOIRLab usage terms',   url: 'https://noirlab.edu/public/copyright/' },
+  // NASA media are generally not under US copyright; NASA asks to be credited as the source.
+  nasa:   { short: 'Public domain (NASA)', label: 'Not copyrighted in the US; credit NASA as the source (NASA media guidelines)', url: 'https://www.nasa.gov/nasa-brand-center/images-and-media/' }
 };
 
 function assets(base, id, opts = {}) {

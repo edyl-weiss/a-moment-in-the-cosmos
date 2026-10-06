@@ -3,10 +3,10 @@
 // Other modules react to the 'photo:change' event instead of being called from here.
 import { RIGHTS } from '../data/catalog.js';
 import { INDEX, getPhoto } from './collection.js';
-import { $, esc, CAT, fmtDate, dateOf, meetsMinimum, say, loadImage } from './util.js';
+import { $, esc, CAT, fmtDate, dateOf, meetsMinimum, say, loadImage, todayIndex, dailyId } from './util.js';
 
 export const state = { item: null, ctx: null, dims: null, history: [], recent: [], failed: new Set() };
-const SOURCE = { hubble: 'ESA/Hubble', webb: 'ESA/Webb', eso: 'ESO', noirlab: 'NSF NOIRLab' };
+export const SOURCE = { hubble: 'ESA/Hubble', webb: 'ESA/Webb', eso: 'ESO', noirlab: 'NSF NOIRLab', nasa: 'NASA' };
 let token = 0;
 
 const emit = (name, detail) => document.dispatchEvent(new CustomEvent(name, { detail }));
@@ -31,17 +31,23 @@ export async function show(id, ctx, { push = true, notice = '' } = {}) {
   emit('photo:busy', true);
   try {
     item = await getPhoto(id);
+    if (mine !== token) return;
+    preview(item);
     const dims = await verified(item);
     if (mine !== token) return;
     if (push && state.item) state.history.push({ id: state.item.id, ctx: state.ctx });
     Object.assign(state, { item, ctx, dims });
     state.recent = [id, ...state.recent.filter((x) => x !== id)].slice(0, 8);
+    pending = null;
     render(item, ctx, dims);
     setNotice(notice);
+    if (ctx.mode === 'daily') prefetchTomorrow();
     emit('photo:change', { item, ctx, dims });
     say(`Now showing: ${item.title}`);
   } catch (err) {
     if (mine !== token) return;
+    pending = null;
+    $('#stage').classList.remove('sharpening');
     state.failed.add(id);
     console.warn('[cosmos]', id, err.message);
     const title = item?.title || known?.title || 'This photograph';
@@ -55,10 +61,37 @@ export async function show(id, ctx, { push = true, notice = '' } = {}) {
     }
     $('#stage').classList.remove('loading');
     $('#photoTitle').textContent = 'Photographs are unavailable right now';
-    setNotice('Photographs can’t be loaded from ESA/Hubble, ESA/Webb, ESO or NOIRLab right now. Check your connection and try again. No substitute images are shown.');
+    setNotice('Photographs can’t be loaded from ESA/Hubble, ESA/Webb, ESO, NOIRLab or NASA right now. Check your connection and try again. No substitute images are shown.');
   } finally {
     if (mine === token) emit('photo:busy', false);
   }
+}
+
+// Show the small "screen" rendition straight away (it is a fraction of the size), with the
+// photograph's real proportions, while the full display file downloads and is size-checked.
+// render() then swaps in the full file, which is already in the cache by then.
+function preview(item) {
+  const src = item.img.screen;
+  if (!src || !item.img.pubW) return;
+  const img = $('#photo');
+  img.src = src;
+  img.alt = altText(item);
+  $('#photoTitle').textContent = item.title;
+  pending = { w: item.img.pubW, h: item.img.pubH };
+  fitFrame();
+  $('#stage').classList.add('sharpening');
+  img.decode?.().then(() => $('#stage').classList.remove('loading')).catch(() => {});
+}
+let pending = null;
+
+// After today's photograph is up, quietly fetch tomorrow's record and small image so the
+// midnight change (or a visit tomorrow) starts instantly. Nothing large is downloaded.
+let prefetched = false;
+function prefetchTomorrow() {
+  if (prefetched) return;
+  prefetched = true;
+  const go = () => getPhoto(dailyId(todayIndex() + 1)).then((it) => { if (it.img.screen) new Image().src = it.img.screen; }).catch(() => {});
+  ('requestIdleCallback' in window ? requestIdleCallback : (f) => setTimeout(f, 3000))(go);
 }
 
 export function back() {
@@ -80,6 +113,8 @@ function contextLine(item, ctx) {
   if (ctx.mode === 'archive') return `From the archive, ${fmtDate(dateOf(ctx.day))}`;
   if (ctx.mode === 'favorite') return 'From your favorites';
   if (ctx.mode === 'onthisday') return `On this day, ${ctx.label}`;
+  if (ctx.mode === 'link') return 'Shared photograph';
+  if (ctx.mode === 'search') return 'From the collection';
   return 'Chosen at random';
 }
 
@@ -100,16 +135,17 @@ function render(item, ctx, dims) {
   $('#caption').innerHTML = item.captureShort
     ? `${esc(item.caption)}, <span class="date">${esc(item.captureShort)}</span>. Released ${esc(item.releaseDate)}.`
     : `${esc(item.caption)}. <span class="date">Capture date unavailable</span> · Released ${esc(item.releaseDate)}.`;
-  $('#creditLine').innerHTML = `<strong>Credit:</strong> ${esc(item.credit)} · <a href="${esc(item.source)}" target="_blank" rel="noopener">Source</a> · CC BY 4.0`;
+  $('#creditLine').innerHTML = `<strong>Credit:</strong> ${esc(item.credit)} · <a href="${esc(item.source)}" target="_blank" rel="noopener">Source</a> · ${esc(RIGHTS[item.org].short)}`;
   $('#sourceLink').href = item.source;
   $('#rights').innerHTML = `<a href="${esc(RIGHTS[item.org].url)}" target="_blank" rel="noopener">${esc(RIGHTS[item.org].label)}</a>. The full credit line must stay visible with the image.`;
-  requestAnimationFrame(() => $('#stage').classList.remove('loading'));
+  requestAnimationFrame(() => $('#stage').classList.remove('loading', 'sharpening'));
 }
 
 // Keep the frame exactly the size of the displayed image so overlay labels stay aligned.
 export function fitFrame() {
-  if (!state.dims) return;
-  const stage = $('#stage'), frame = $('#frame'), { w, h } = state.dims;
+  const dims = pending || state.dims;
+  if (!dims) return;
+  const stage = $('#stage'), frame = $('#frame'), { w, h } = dims;
   const s = Math.min(stage.clientWidth / w, stage.clientHeight / h);
   frame.style.width = Math.floor(w * s) + 'px';
   frame.style.height = Math.floor(h * s) + 'px';

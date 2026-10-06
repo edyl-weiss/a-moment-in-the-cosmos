@@ -29,7 +29,7 @@ export function renderGrid() {
   }
   const list = all();
   if (!list.length) {
-    grid.innerHTML = '<p class="empty">No favorites yet. Use “Save to favorites” on any photograph to keep it here.</p>';
+    grid.innerHTML = '<div class="empty-state"><span class="mark" aria-hidden="true">✦</span><h3>Your shelf of the sky is empty</h3><p>When a photograph stays with you, choose “Save to favorites” beneath it. It will wait here, on this device, for whenever you want to look again.</p></div>';
     return;
   }
   for (const f of list) {

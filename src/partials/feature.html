@@ -18,6 +18,7 @@
           <img id="cmpLeft" alt="" decoding="async">
           <img id="cmpRight" class="top" alt="" decoding="async">
           <span class="cmp-handle" aria-hidden="true"></span>
+          <span class="cmp-hint" id="cmpHint" aria-hidden="true">Drag to compare</span>
           <span class="cmp-tag left" id="cmpLeftLabel" aria-hidden="true"></span>
           <span class="cmp-tag right" id="cmpRightLabel" aria-hidden="true"></span>
           <input type="range" id="cmpRange" min="0" max="100" step="1" value="50" aria-label="Comparison divider: drag or use arrow keys to reveal each telescope’s view">
@@ -29,21 +30,32 @@
     <p class="cmp-note" id="cmpNote" hidden></p>
   </figure>
 
-  <div class="actions" role="group" aria-label="Photograph options">
-    <a class="btn" id="sourceLink" href="#" target="_blank" rel="noopener">Original source <span aria-hidden="true">↗</span></a>
-    <button id="immersiveBtn" type="button">Immersive view</button>
-    <button id="compareBtn" type="button" aria-pressed="false" aria-controls="compare" hidden><span>Hubble vs Webb</span></button>
-    <button id="tourBtn" type="button" hidden>Guided tour <span class="count" id="tourCount"></span></button>
-    <button id="understandBtn" type="button" aria-pressed="false" aria-controls="understandPanel">Understand the image</button>
-    <button id="favBtn" type="button" aria-pressed="false"><span id="favText">Save to favorites</span></button>
+  <div class="titlebar">
+    <h2 id="photoTitle">Loading…</h2>
+    <p class="cap" id="caption"></p>
   </div>
+
+  <div class="actions" role="group" aria-label="Photograph options">
+    <div class="act-primary">
+      <button id="immersiveBtn" type="button">Immersive view</button>
+      <button id="compareBtn" type="button" aria-pressed="false" aria-controls="compare" hidden><span>Hubble vs Webb</span></button>
+      <button id="tourBtn" type="button" hidden>Guided tour <span class="count" id="tourCount"></span></button>
+      <button id="understandBtn" type="button" aria-pressed="false" aria-controls="understandPanel">Understand the image</button>
+    </div>
+    <div class="act-secondary">
+      <button id="favBtn" type="button" aria-pressed="false"><span id="favText">Save to favorites</span></button>
+      <button id="shareBtn" type="button"><span id="shareText">Copy link</span></button>
+      <span class="dl-wrap">
+        <button id="downloadBtn" type="button" aria-expanded="false" aria-controls="downloadMenu">Download</button>
+        <span class="dl-menu" id="downloadMenu" role="group" aria-label="Download options" hidden></span>
+      </span>
+      <a class="btn" id="sourceLink" href="#" target="_blank" rel="noopener">Original source <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+  <p class="dl-note" id="downloadNote" role="status" hidden></p>
 
   <div id="understandPanel" hidden tabindex="-1">
     <h3>Understanding this image</h3>
     <div id="understandBody"></div>
   </div>
 
-  <div class="titlebar">
-    <h2 id="photoTitle">Loading…</h2>
-    <p class="cap" id="caption"></p>
-  </div>

@@ -1,0 +1,1151 @@
+[
+ {
+  "s": "potm2608",
+  "t": "Inside and out of Arp 263",
+  "text": "The latest ESA/Webb Picture of the Month is a new, infrared look into the strange final phase of a galactic merger. Arp 263, an irregular galaxy, lies in the constellation Leo at a relatively nearby distance of around 25 million light-years. With this slider tool, compare the infrared and visible-light views of the galaxy. On the right is Webb’s new image of Arp 263. The thick gas that is so pervasive in the galaxy in Hubble’s image disappears in this one, leaving just a faint glow on the denser right side of the galaxy. Webb’s NIRCam reveals the multitude of pointlike stars in the galaxy’s disrupted disc, as well as the star clusters that have formed in its glowing nebulas. Distant galaxies spring into view as they do in many Webb images, appearing across the background as small orange dots of various shapes. On the left is Hubble’s visible-light view over Arp 263. Here the star-forming gas is more prominent, both where it lies relatively undisturbed in the galaxy’s core, and where it is actively collapsing to form new stars in the glowing red bubbles. Hubble’s fine resolution shows us some of the exposed star clusters that we can also see in Webb’s image. (The black region visible in the corners appears because this image was cropped and rotated to align with Webb’s image.) Credit: ESA/Webb, NASA & CSA, A. Leroy, ESA/Hubble, J. Dalcanton, A. Filippenko Usage of ESA/Hubble/Web",
+  "img": [
+   {
+    "id": "potm2608b",
+    "t": "Starstruck image of Arp 263",
+    "cr": "ESA/Hubble & NASA, J. Dalcanton, A. Filippenko",
+    "fil": "BandWavelengthTelescope Optical (Blue)V606 nmHubble Space TelescopeWFC3 Optical (Blue)V606 nmHubble Space TelescopeACS Optical (Green)I814 nmHubble Space TelescopeWFC3 Optical (Green)V606 nmHubble Space TelescopeWFC3 Optical (Red)V606 nmHubble Space TelescopeACS Optical (Red)I814 nmHubble Space TelescopeWFC3",
+    "url": "https://cdn.esawebb.org/archives/images/large/potm2608b.jpg",
+    "dims": [
+     3836,
+     3940
+    ]
+   },
+   {
+    "id": "potm2608c",
+    "t": "Arp 263 (crop)",
+    "cr": "ESA/Webb, NASA & CSA, A. Leroy",
+    "fil": "BandWavelengthTelescope Infrared (Blue)1.5 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)P-alpha1.87 μmJames Webb Space TelescopeNIRCam Infrared (Green)water ice3.0 μmJames Webb Space TelescopeNIRCam Infrared (Red)PAH3.35 μmJames Webb Space TelescopeNIRCam",
+    "url": "https://cdn.esawebb.org/archives/images/large/potm2608c.jpg",
+    "dims": [
+     3836,
+     3940
+    ]
+   }
+  ]
+ },
+ {
+  "s": "weic2612a",
+  "t": "Slider Tool: Hubble and Webb's views of M82",
+  "text": "Use this slider tool to highlight the features of the edge-on starburst galaxy Messier 82 (M82), nicknamed the Cigar Galaxy. On the left is the view of M82 as seen by the NASA/ESA Hubble Space Telescope. This image was released in April 2006 for the telescope's 16th anniversary. It showcases the galaxy's webs of shredded clouds and flame-like plumes of glowing hydrogen blasting out from its central regions. You can learn more about this image here. On the right is Webb's new view of M82 as seen by the Near-InfraRed Camera instrument. Webb’s near-infrared-light view is a snapshot in time, revealing a scene that has been evolving over a couple hundred million years. In near-infrared light, astronomers can see the galaxy’s distended disc structure and millions of individual stars (approximately 16.5 million) for the first time. You can learn more about this new image here. Credit: Hubble image: NASA, ESA and the Hubble Heritage Team (STScI/AURA). Acknowledgment: J. Gallagher (University of Wisconsin), M. Mountain (STScI) and P. Puxley (NSF). Webb image: NASA, ESA, CSA, A. Smercina (STScI), T. Williams (University of Manchester). Image processing: A. Pagan (STScI). Usage of ESA/Hubble/Webb Images and Videos Are you a journalist? Subscribe to the ESA/Hubble/Webb Media Newsletter.",
+  "img": [
+   {
+    "id": "heic0604a",
+    "t": "Messier 82 (Hubble 2006 image)",
+    "cr": "NASA, ESA and the Hubble Heritage Team (STScI/AURA). Acknowledgment: J. Gallagher (University of Wisconsin), M. Mountain (STScI) and P. Puxley (NSF).",
+    "name": "M82",
+    "fil": "BandWavelengthTelescope Optical (Blue)B435 nmHubble Space TelescopeACS Optical (Green)V555 nmHubble Space TelescopeACS Optical (Red)H-alpha658 nmHubble Space TelescopeACS Optical (Red)I814 nmHubble Space TelescopeACS",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/heic0604a.jpg",
+    "dims": [
+     4000,
+     3116
+    ]
+   },
+   {
+    "id": "weic2612e",
+    "t": "M82 (Webb NIRCam image)",
+    "cr": "NASA, ESA, CSA, A. Smercina (STScI), T. Williams (University of Manchester). Image processing: A. Pagan (STScI).",
+    "name": "M82",
+    "fil": "BandWavelengthTelescope Infrared (Blue)1.15 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)2.0 μmJames Webb Space TelescopeNIRCam Infrared (Orange)PAH3.35 μmJames Webb Space TelescopeNIRCam Infrared (Red)4.44 μmJames Webb Space TelescopeNIRCam",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2612e.jpg",
+    "dims": [
+     4000,
+     3116
+    ]
+   }
+  ]
+ },
+ {
+  "s": "weic2605a",
+  "t": "Webb Examines Cranium Nebula",
+  "text": "Nebula PMR 1 is a cloud of gas and dust that bears an uncanny resemblance to a brain in a transparent skull, inspiring its nickname, the “Exposed Cranium” nebula. Webb captured its unusual features in both near- (left) and mid-infrared (right) light using two instruments that reveal enhancing details of the nebula’s brain-like appearance. More stars and background galaxies shine through Webb’s NIRCam (Near-Infrared Camera), while cosmic dust glows more prominently in the light captured by MIRI (Mid-Infrared Instrument). The dark centre lane that contributes to this nebula’s distinctive brain-like appearance is more noticeable in NIRCam, but its apparent role in the ejection of material at the top and bottom of the nebula is seen more clearly in MIRI’s view. Observing the cosmos in various wavelengths of light provides a more complete picture of how the universe works. Credit: NASA, ESA, CSA, STScI, Image Processing: Joseph DePasquale (STScI) Usage of ESA/Hubble/Webb Images and Videos Are you a journalist? Subscribe to the ESA/Hubble/Webb Media Newsletter.",
+  "img": [
+   {
+    "id": "weic2605c",
+    "t": "Exposed Cranium Nebula (NIRCam image)",
+    "cr": "NASA, ESA, CSA, STScI, Image Processing: Joseph DePasquale (STScI)",
+    "fil": "BandWavelengthTelescope Infrared (Blue)1.5 μmJames Webb Space TelescopeNIRCam Infrared (Green)P-alpha1.87 μmJames Webb Space TelescopeNIRCam Infrared (Orange)4.44 μmJames Webb Space TelescopeNIRCam Infrared (Red)molecular hydrogen4.7 μmJames Webb Space TelescopeNIRCam",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2605c.jpg",
+    "dims": [
+     3818,
+     4000
+    ]
+   },
+   {
+    "id": "weic2605e",
+    "t": "Exposed Cranium Nebula (MIRI image)",
+    "cr": "NASA, ESA, CSA, STScI, Image Processing: Joseph DePasquale (STScI)",
+    "fil": "BandWavelengthTelescope Infrared (Blue)Silicate10 μmJames Webb Space TelescopeMIRI Infrared (Green)PAH11 μmJames Webb Space TelescopeMIRI Infrared (Orange)12 μmJames Webb Space TelescopeMIRI Infrared (Red)Silicate18 μmJames Webb Space TelescopeMIRI",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2605e.jpg",
+    "dims": [
+     3818,
+     4000
+    ]
+   }
+  ]
+ },
+ {
+  "s": "potm2512",
+  "t": "Webb and Hubble’s views of Westerlund 2",
+  "text": "These images showcase the star cluster known as Westerlund 2, which resides in a stellar breeding ground known as Gum 29, located 20,000 light-years away from Earth in the constellation Carina. The cluster measures between 6 light-years and 13 light-years across, and is host to some of our Milky Way galaxy's hottest, brightest, and most massive stars. This image on the left uses data from Webb’s Near-InfraRed Camera (NIRCam) and Mid-InfraRed Instrument (MIRI). The image on the right showcases a portion of the Hubble image of this same region, which was featured as Hubble’s 25th anniversary image in 2015. Links Pan video: Westerlund 2 (NIRCam and MIRI image) Transition video: Webb and Hubble’s views of Westerlund 2 Webb image of Westerlund 2 Credit: NASA, ESA, the Hubble Heritage Team (STScI/AURA), A. Nota (ESA/STScI), and the Westerlund 2 Science Team, ESA/Webb, NASA & CSA, V. Almendros-Abad, M. Guarcello, K. Monsch, and the EWOCS team. Usage of ESA/Hubble/Webb Images and Videos Are you a journalist? Subscribe to the ESA/Hubble/Webb Media Newsletter.",
+  "img": [
+   {
+    "id": "potm2512a",
+    "t": "Dwarf stars in a glittering sky",
+    "cr": "ESA/Webb, NASA & CSA, V. Almendros-Abad, M. Guarcello, K. Monsch, and the EWOCS team.",
+    "name": "Westerlund 2",
+    "fil": "BandWavelengthTelescope Infrared (Blue)1.15 μmJames Webb Space TelescopeNIRCam Infrared (Blue)1.5 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)1.62 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)1.82 μmJames Webb Space TelescopeNIRCam Infrared (Green)2.0 μmJames Webb Space TelescopeNIRCam Infrared (Green)methane2.5 μmJames Webb Space TelescopeNIRCam Infrared (Green)2.77 μmJames Webb Space ",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/potm2512a.jpg",
+    "dims": [
+     3952,
+     4000
+    ]
+   },
+   {
+    "id": "potm2512b",
+    "t": "Westerlund 2 (HST image)",
+    "cr": "NASA, ESA, the Hubble Heritage Team (STScI/AURA), A. Nota (ESA/STScI), and the Westerlund 2 Science Team",
+    "name": "Westerlund 2",
+    "fil": "BandWavelengthTelescope Optical (Blue)V555 nmHubble Space TelescopeACS Optical (Green)I814 nmHubble Space TelescopeACS Infrared (Red)J1.25 μmHubble Space TelescopeWFC3",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/potm2512b.jpg",
+    "dims": [
+     3952,
+     4000
+    ]
+   }
+  ]
+ },
+ {
+  "s": "potm2504",
+  "t": "Infrared, optical, and X-ray views of a galaxy group",
+  "text": "This new Picture of the Month from the NASA/ESA/CSA James Webb Space Telescope features an astounding number of galaxies. The objects in this frame span an incredible range of distances, from stars within our own Milky Way, marked by diffraction spikes, to galaxies billions of light-years away. The star of this field is a group of galaxies, the largest concentration of which can be found just below the centre of this image. These galaxies glow with white-gold light. We see this galaxy group as it appeared when the Universe was 6.5 billion years old, a little less than half the Universe’s current age. The image on the left combines infrared data from both Webb and the NASA/ESA Hubble Space Telescope, showcasing the galaxy cluster against a backdrop of thousands of other galaxies. The image on the right adds X-ray data from ESA’s XMM-Newton space observatory and NASA’s Chandra X-ray Observatory to the infrared data from Webb and Hubble. The X-ray data, shown in purple, highlights the location of hot gas within the galaxy group. [Image Description: Two images of the same area in deep space, containing thousands of galaxies. The image on the right side additionally has large areas covered by a diffuse purple overlay, indicating X-ray emission from hot gas in the galaxy group.] Links Webb (NIRCam) and Hubble image Image including X-ray data Image on ESA website Pan video: infrared a",
+  "img": [
+   {
+    "id": "potm2504a",
+    "t": "A visual feast of galaxies",
+    "cr": "ESA/Webb, NASA & CSA, G. Gozaliasl, A. Koekemoer, M. Franco, and the COSMOS-Web team",
+    "fil": "BandWavelengthTelescope Optical (Purple)I814 nmHubble Space TelescopeWFC3 Infrared (Blue)1.15 μmJames Webb Space TelescopeNIRCam Infrared (Green)1.5 μmJames Webb Space TelescopeNIRCam Infrared (Yellow)2.77 μmJames Webb Space TelescopeNIRCam Infrared (Red)4.44 μmJames Webb Space TelescopeNIRCam",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/potm2504a.jpg",
+    "dims": [
+     4000,
+     4000
+    ]
+   },
+   {
+    "id": "potm2504b",
+    "t": "A visual feast of galaxies, from infrared to X-ray",
+    "cr": "ESA/Webb, NASA & CSA, G. Gozaliasl, A. Koekemoer, M. Franco, and the COSMOS-Web team",
+    "fil": "BandWavelengthTelescope X-ray (Purple)0.5–2 keV1.549 μmXMM-Newton X-ray (Purple)0.5–2 keV1.549 μmChandra X-ray Observatory Optical (Blue)I814 nmHubble Space TelescopeWFC3 Infrared (Blue)1.15 μmJames Webb Space TelescopeNIRCam Infrared (Green)1.5 μmJames Webb Space TelescopeNIRCam Infrared (Yellow)2.77 μmJames Webb Space TelescopeNIRCam Infrared (Red)4.44 μmJames Webb Space TelescopeNIRCam",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/potm2504b.jpg",
+    "dims": [
+     4000,
+     4000
+    ]
+   }
+  ]
+ },
+ {
+  "s": "weic2427",
+  "t": "Sombrero Galaxy dazzles in new Webb image",
+  "text": "This slider tool features two views of the Sombrero Galaxy, also known as Messier 104 (M104). The Sombrero galaxy is around 30 million light-years from Earth in the constellation Virgo. This image on the left shows the view of the famous Sombrero Galaxy in mid-infrared light The James Webb Space Telescope’s MIRI (Mid-Infrared Instrument) reveals the smooth inner disk of the galaxy. The image on the right shows the image as seen by the NASA/ESA Hubble Space Telescope in visible light from 2010, which shows the large and extended glow of the central bulge of stars. Both the Webb and Hubble images resolve the clumpy nature of the dust that makes up the Sombrero galaxy’s outer ring. Credit: NASA & ESA Usage of ESA/Hubble/Webb Images and Videos Are you a journalist? Subscribe to the ESA/Hubble/Webb Media Newsletter.",
+  "img": [
+   {
+    "id": "weic2427a",
+    "t": "Sombrero galaxy (MIRI)",
+    "cr": "NASA, ESA, CSA, STScI",
+    "fil": "BandWavelengthTelescope Infrared (Blue)PAH7.7 μmJames Webb Space TelescopeMIRI Infrared (Green)PAH11 μmJames Webb Space TelescopeMIRI Infrared (Red)12 μmJames Webb Space TelescopeMIRI",
+    "url": "https://cdn.esawebb.org/archives/images/large/weic2427a.jpg",
+    "dims": [
+     3898,
+     1303
+    ]
+   },
+   {
+    "id": "weic2427d",
+    "t": "Sombrero galaxy (HST)",
+    "cr": "NASA, ESA, CSA, and STScI",
+    "fil": "",
+    "url": "https://cdn.esawebb.org/archives/images/large/weic2427d.jpg",
+    "dims": [
+     3898,
+     1303
+    ]
+   }
+  ]
+ },
+ {
+  "s": "potm2405a",
+  "t": "Webb’s views of NGC 4449",
+  "text": "This slider tool highlights Webb’s two new views of the dwarf galaxy NGC 4449. This galaxy, also known as Caldwell 21, resides roughly 12.5 million light-years away in the constellation Canes Venatici. It is part of the M94 galaxy group, which lies close to the Local Group that hosts our Milky Way. The image on the left was captured by Webb’s NIRCam, or Near-InfraRed Camera. In this image, the bright red spots correspond to regions rich in hydrogen that have been ionised by the radiation from the newly formed stars. The diffuse gradient of blue light around the central region shows the distribution of older stars. The compact light-blue regions within the red ionised gas, mostly concentrated in the galaxy’s outer region, show the distribution of young star clusters. The image on the right was captured by Webb’s MIRI, or the Mid-InfraRed Instrument. This image reveals the galaxy’s creeping tendrils of gas, dust and stars. The bright blue spots reveal countless individual stars, while the bright yellow regions that weave throughout the galaxy indicate concentrations of active stellar nurseries, where new stars are forming. The orange-red areas indicate the distribution of a type of carbon-based compounds known as polycyclic aromatic hydrocarbons (or PAHs) — the F770W filter is particularly suited to imaging these important molecules. Credit: ESA/Webb, NASA & CSA, A. Adamo (Stockh",
+  "img": [
+   {
+    "id": "potm2405d",
+    "t": "NGC 4449 (NIRCam image - cropped)",
+    "cr": "ESA/Webb, NASA & CSA, A. Adamo (Stockholm University) and the FEAST JWST team",
+    "fil": "BandWavelengthTelescope Infrared (Blue)1.5 μmJames Webb Space TelescopeNIRCam Infrared (Blue)1.15 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)P-alpha1.87 μmJames Webb Space TelescopeNIRCam Infrared (Green)3.0 μmJames Webb Space TelescopeNIRCam Infrared (Green)2.0 μmJames Webb Space TelescopeNIRCam Infrared (Orange)Br-alpha4.05 μmJames Webb Space TelescopeNIRCam Infrared (Red)4.44 μmJames Web",
+    "url": "https://cdn.esawebb.org/archives/images/large/potm2405d.jpg",
+    "dims": [
+     2681,
+     1552
+    ]
+   },
+   {
+    "id": "potm2405c",
+    "t": "NGC 4449 (MIRI)",
+    "cr": "ESA/Webb, NASA & CSA, A. Adamo (Stockholm University) and the FEAST JWST team",
+    "name": "NGC 4449",
+    "fil": "BandWavelengthTelescope Infrared (Blue)5.6 μmJames Webb Space TelescopeMIRI Infrared (Green)5.6 μmJames Webb Space TelescopeMIRI Infrared (Green)PAH7.7 μmJames Webb Space TelescopeMIRI Infrared (Red)PAH7.7 μmJames Webb Space TelescopeMIRI",
+    "url": "https://cdn.esawebb.org/archives/images/large/potm2405c.jpg",
+    "dims": [
+     2681,
+     1552
+    ]
+   }
+  ]
+ },
+ {
+  "s": "potm2404a",
+  "t": "Hubble’s and Webb’s views of NGC 6440",
+  "text": "These images showcase the views from Hubble (left) and Webb (right) of the globular cluster NGC 6440. This object resides roughly 28 000 light-years from Earth in the constellation Sagittarius. NGC 6440 was first discovered by William Herschel in May of 1786. Globular clusters like NGC 6440 are roughly spherical, tightly packed, collections of old stars bound together by gravity. They can be found throughout galaxies, but often live on the outskirts. They hold hundreds of thousands to millions of stars that are on average about one light-year apart, but they can be as close together as the size of our Solar System. Links Star studded cluster (Webb NIRCam image) Pan video: NGC 6440 Transition video: Hubble and Webb’s views of NGC 6440 Science paper Credit: ESA/Webb, NASA & CSA, P. Freire Usage of ESA/Hubble/Webb Images and Videos Are you a journalist? Subscribe to the ESA/Hubble/Webb Media Newsletter.",
+  "img": [
+   {
+    "id": "potm2404c",
+    "t": "Hubble’s view of NGC 6440",
+    "cr": "NASA, ESA, C. Pallanca and F. Ferraro (Universita Di Bologna), and M. van Kerkwijk (University of Toronto); Processing: G. Kober (NASA/Catholic University of America)",
+    "name": "NGC 6440",
+    "fil": "BandWavelengthTelescope Optical (Blue)V606 nmHubble Space TelescopeWFC3 Optical (Green)I814 nmHubble Space TelescopeWFC3 Infrared (Red)H1.6 μmHubble Space TelescopeWFC3",
+    "url": "https://cdn.esawebb.org/archives/images/large/potm2404c.jpg",
+    "dims": [
+     1881,
+     1752
+    ]
+   },
+   {
+    "id": "potm2404d",
+    "t": "Webb’s view of NGC 6440 (cropped)",
+    "cr": "ESA/Webb, NASA & CSA, P. FreireAcknowledgement: M. Cadelano and C. Pallanca",
+    "name": "NGC 6440",
+    "fil": "BandWavelengthTelescope Infrared (Blue)1.15 μmJames Webb Space TelescopeNIRCam Infrared (Green)2.0 μmJames Webb Space TelescopeNIRCam Infrared (Green)2.77 μmJames Webb Space TelescopeNIRCam Infrared (Red)4.44 μmJames Webb Space TelescopeNIRCam",
+    "url": "https://cdn.esawebb.org/archives/images/large/potm2404d.jpg",
+    "dims": [
+     1881,
+     1752
+    ]
+   }
+  ]
+ },
+ {
+  "s": "weic2410a",
+  "t": "Slider Tool (Webb NIRCam images)",
+  "text": "The NASA/ESA/CSA James Webb Space Telescope has set its sights on the starburst galaxy Messier 82 (M82), a small but mighty environment that features rapid star formation. By looking closer with Webb’s sensitive infrared capabilities, a team of scientists is getting to the very core of the galaxy, gaining a better understanding of how it is forming stars and how this extreme activity is affecting the galaxy as a whole. Located 12 million light-years away in the constellation Ursa Major, this galaxy is relatively compact in size but hosts a frenzy of star formation activity. For comparison, M82 is sprouting new stars 10 times faster than the Milky Way galaxy. These images were taken from Webb’s NIRCam (Near-Infrared Camera) instrument. The image on the left features longer wavelengths, and the image on the right features shorter wavelengths. The first image reveals that red filaments trace the shape of the cool component of the galactic wind via polycyclic aromatic hydrocarbons (PAHs). PAHs are very small dust grains that survive in cooler temperatures but are destroyed in hot conditions. The structure of the emission is similar to that of the ionised gas, suggesting PAHs may be replenished from cooler molecular material as it is ionised. This second image shows M82’s galactic wind via emission from sooty chemical molecules known as polycyclic aromatic hydrocarbons (PAHs). PAHs ",
+  "img": [
+   {
+    "id": "weic2410b",
+    "t": "M82 (NIRCam image - longer wavelengths)",
+    "cr": "NASA, ESA, CSA, STScI, A. Bolatto (UMD)",
+    "name": "M82",
+    "fil": "BandWavelengthTelescope Infrared (Blue)Fe II1.64 μmJames Webb Space TelescopeNIRCam Infrared (Green)methane2.5 μmJames Webb Space TelescopeNIRCam Infrared (Red)PAH3.35 μmJames Webb Space TelescopeNIRCam",
+    "url": "https://cdn.esawebb.org/archives/images/large/weic2410b.jpg",
+    "dims": [
+     2160,
+     2146
+    ]
+   },
+   {
+    "id": "weic2410c",
+    "t": "M82 (NIRCam image - shorter wavelengths)",
+    "cr": "NASA, ESA, CSA, STScI, A. Bolatto (UMD)",
+    "name": "M82",
+    "fil": "BandWavelengthTelescope Infrared (Blue)1.4 μmJames Webb Space TelescopeNIRCam Infrared (Green)Fe II1.64 μmJames Webb Space TelescopeNIRCam Infrared (Red)molecular hydrogen2.12 μmJames Webb Space TelescopeNIRCam",
+    "url": "https://cdn.esawebb.org/archives/images/large/weic2410c.jpg",
+    "dims": [
+     2160,
+     2146
+    ]
+   }
+  ]
+ },
+ {
+  "s": "potm2310a",
+  "t": "No tricks, just treats",
+  "text": "This month, Webb presents not one, but two spectacular treats… for the eyes. Two different detailed views of the barred spiral galaxy M83 are revealed in these new images, both taken using the NASA/ESA/CSA James Webb Space Telescope. M83, which is also known as NGC 5236, was observed by Webb as part of a series of observations collectively titled Feedback in Emerging extrAgalactic Star clusTers, or FEAST. Another target of the FEAST observations, M51, was the subject of a previous Webb Picture of the Month. As with all six galaxies that comprise the FEAST sample, M83 and M51 were observed with both NIRCam and MIRI, two of the four instruments that are mounted on Webb. The slider tool above contrasts Webb’s two views of M83 as observed with the MIRI instrument (left) and the NIRCam instrument (right). You can find the individual images in the sidebar. Links M83 (MIRI image) M83 (NIRCam image) Slider tool (MIRI and NIRCam images) Video: Pan of M83 (MIRI image) Video: Pan of M83 (NIRCam image) Video: M83 (MIRI and NIRCam images) Credit: ESA/Webb, NASA & CSA, A. Adamo (Stockholm University) and the FEAST JWST team Usage of ESA/Hubble/Webb Images and Videos Are you a journalist? Subscribe to the ESA/Hubble/Webb Media Newsletter.",
+  "img": [
+   {
+    "id": "potm2310c",
+    "t": "M83 (MIRI image, scaled)",
+    "cr": "ESA/Webb, NASA & CSA, A. Adamo (Stockholm University) and the FEAST JWST team",
+    "name": "M83",
+    "fil": "BandWavelengthTelescope Infrared (Blue)5.6 μmJames Webb Space TelescopeMIRI Infrared (Green)5.6 μmJames Webb Space TelescopeMIRI Infrared (Green)PAH7.7 μmJames Webb Space TelescopeMIRI Infrared (Red)PAH7.7 μmJames Webb Space TelescopeMIRI",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/potm2310c.jpg",
+    "dims": [
+     4000,
+     1291
+    ]
+   },
+   {
+    "id": "potm2310d",
+    "t": "M83 (NIRCam image, scaled)",
+    "cr": "ESA/Webb, NASA & CSA, A. Adamo (Stockholm University) and the FEAST JWST team",
+    "name": "M83",
+    "fil": "BandWavelengthTelescope Infrared (Blue)1.15 μmJames Webb Space TelescopeNIRCam Infrared (Blue)1.5 μmJames Webb Space TelescopeNIRCam Infrared (Blue)P-alpha1.87 μmJames Webb Space TelescopeNIRCam Infrared (Green)2.0 μmJames Webb Space TelescopeNIRCam Infrared (Green)3.0 μmJames Webb Space TelescopeNIRCam Infrared (Red)PAH3.35 μmJames Webb Space TelescopeNIRCam Infrared (Red)Br-alpha4.05 μmJames Web",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/potm2310d.jpg",
+    "dims": [
+     4000,
+     1291
+    ]
+   }
+  ]
+ },
+ {
+  "s": "weic2326a",
+  "t": "Hubble and Webb’s views of the Crab Nebula.",
+  "text": "Use this tool to contrast Hubble and Webb’s views of the Crab Nebula. The image on the left is the 2005 Hubble optical wavelength image of the Crab Nebula. On the right is the new image of the object from the James Webb Space Telescope’s NIRCam (Near-Infrared Camera) and MIRI (Mid-Infrared Instrument) instruments that has revealed new details in infrared light. In Webb’s infrared observation, a crisp, cage-like structure of fluffy red-orange filaments and knots of dust surround the object’s central area. However, some aspects of the inner workings of the Crab Nebula become more prominent and increase in detail in infrared light. In particular, Webb highlights what is known as synchrotron emission, seen here with a milky smoke-like appearance throughout the majority of the Crab Nebula’s interior. Learn more about Webb’s new image here. Credit: NASA & ESA Usage of ESA/Hubble/Webb Images and Videos Are you a journalist? Subscribe to the ESA/Hubble/Webb Media Newsletter.",
+  "img": [
+   {
+    "id": "weic2326d",
+    "t": "Hubble’s view of the Crab Nebula (2005 image)",
+    "cr": "NASA, ESA, A. Loll/J. Hester (Arizona State University)",
+    "name": "Crab Nebula, M1",
+    "fil": "BandWavelengthTelescope Optical (Blue)OI631 nmHubble Space TelescopeWFPC2 Optical (Green)SII673 nmHubble Space TelescopeWFPC2 Optical (Red)OIII502 nmHubble Space TelescopeWFPC2",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2326d.jpg",
+    "dims": [
+     4000,
+     3483
+    ]
+   },
+   {
+    "id": "weic2326e",
+    "t": "Webb’s new view of the Crab Nebula",
+    "cr": "NASA, ESA, CSA, STScI, T. Temim (Princeton University)",
+    "name": "Crab Nebula, M1",
+    "fil": "BandWavelengthTelescope Infrared (Blue)1.62 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)4.8 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)5.6 μmJames Webb Space TelescopeMIRI Infrared (Green)PAH11 μmJames Webb Space TelescopeMIRI Infrared (Orange)Silicate18 μmJames Webb Space TelescopeMIRI Infrared (Red)21 μmJames Webb Space TelescopeMIRI",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2326e.jpg",
+    "dims": [
+     4000,
+     3483
+    ]
+   }
+  ]
+ },
+ {
+  "s": "potm2308",
+  "t": "Webb’s infrared views of M51",
+  "text": "The graceful winding arms of the grand-design spiral galaxy M51 stretch across these images from the NASA/ESA/CSA James Webb Space Telescope. Unlike the menagerie of weird and wonderful spiral galaxies with ragged or disrupted spiral arms, grand-design spiral galaxies boast prominent, well-developed spiral arms like the ones showcased in this image. The image on the left was captured by Webb’s Near-InfraRed Camera (NIRCam), while the image on the right was taken by the Mid-InfraRed Instrument (MIRI). By viewing these images side-by-side, the dramatic change in the appearance of the galaxy medium is apparent. While light from newly formed stars is responsible for most of the ionised gas emission surrounding stellar cradles (this is visible as red emission in the NIRCam image on the left), the light reprocessed by dust grains and molecules illuminate the cold gas of the galaxy showing a dramatic filamentary structure in the MIRI image to the right. M51 — also known as NGC 5194 — lies about 27 million light-years away from Earth in the constellation Canes Venatici, and is trapped in a tumultuous relationship with its near neighbour, the dwarf galaxy NGC 5195. The interaction between these two galaxies has made these galactic neighbours one of the better-studied galaxy pairs in the night sky. The gravitational influence of M51’s smaller companion is thought to be partially responsi",
+  "img": [
+   {
+    "id": "potm2308b",
+    "t": "M51 (NIRCam image)",
+    "cr": "ESA/Webb, NASA & CSA, A. Adamo (Stockholm University) and the FEAST JWST team",
+    "fil": "BandWavelengthTelescope Infrared (Purple)1.15 μmJames Webb Space TelescopeNIRCam Infrared (Blue)1.5 μmJames Webb Space TelescopeNIRCam Infrared (Blue)P-alpha1.87 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)2.0 μmJames Webb Space TelescopeNIRCam Infrared (Green)3.0 μmJames Webb Space TelescopeNIRCam Infrared (Orange)PAH3.35 μmJames Webb Space TelescopeNIRCam Infrared (Red)Br-alpha4.05 μmJames",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/potm2308b.jpg",
+    "dims": [
+     4000,
+     1503
+    ]
+   },
+   {
+    "id": "potm2308d",
+    "t": "M51 (MIRI image - cropped)",
+    "cr": "ESA/Webb, NASA & CSA, A. Adamo (Stockholm University) and the FEAST JWST team",
+    "fil": "BandWavelengthTelescope Infrared (Cyan)5.6 μmJames Webb Space TelescopeMIRI Infrared (Orange)PAH7.7 μmJames Webb Space TelescopeMIRI",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/potm2308d.jpg",
+    "dims": [
+     4000,
+     1503
+    ]
+   }
+  ]
+ },
+ {
+  "s": "weic2320a",
+  "t": "Webb’s two infrared views of the Ring Nebula",
+  "text": "The NASA/ESA/CSA James Webb Space Telescope has observed the well-known Ring Nebula with unprecedented detail. Formed by a star throwing off its outer layers as it runs out of fuel, the Ring Nebula is an archetypal planetary nebula. Also known as M57 and NGC 6720, it is both relatively close to Earth at roughly 2,500 light-years away. The new images provide unprecedented spatial resolution and spectral sensitivity, which also reveal unique details across both infrared observations. For example, the new image from Webb’s NIRCam (Near-InfraRed Camera) shows the intricate details of the filament structure of the inner ring (left), while the new image from Webb’s MIRI (Mid-InfraRed Instrument) reveals particular details in the concentric features in the outer regions of the nebulae’s ring (right). Credit: ESA/Webb, NASA, CSA, M. Barlow, N. Cox, R. Wesson Usage of ESA/Hubble/Webb Images and Videos Are you a journalist? Subscribe to the ESA/Hubble/Webb Media Newsletter.",
+  "img": [
+   {
+    "id": "weic2320d",
+    "t": "Webb captures detailed beauty of Ring Nebula (NIRCam image - cropped)",
+    "cr": "ESA/Webb, NASA, CSA, M. Barlow, N. Cox, R. Wesson",
+    "fil": "BandWavelengthTelescope Infrared (Blue)1.62 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)2.12 μmJames Webb Space TelescopeNIRCam Infrared (Green)3.0 μmJames Webb Space TelescopeNIRCam Infrared (Red)PAH3.35 μmJames Webb Space TelescopeNIRCam",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2320d.jpg",
+    "dims": [
+     4000,
+     3099
+    ]
+   },
+   {
+    "id": "weic2320e",
+    "t": "Webb captures detailed beauty of Ring Nebula (MIRI image - cropped)",
+    "cr": "ESA/Webb, NASA, CSA, M. Barlow, N. Cox, R. Wesson",
+    "fil": "BandWavelengthTelescope Infrared (Purple)5.6 μmJames Webb Space TelescopeMIRI Infrared (Blue)PAH7.7 μmJames Webb Space TelescopeMIRI Infrared (Cyan)Silicate10 μmJames Webb Space TelescopeMIRI Infrared (Cyan)PAH11 μmJames Webb Space TelescopeMIRI Infrared (Green)12 μmJames Webb Space TelescopeMIRI Infrared (Green)15 μmJames Webb Space TelescopeMIRI Infrared (Yellow)Silicate18 μmJames Webb Space Tel",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2320e.jpg",
+    "dims": [
+     4000,
+     3099
+    ]
+   }
+  ]
+ },
+ {
+  "s": "potm2307",
+  "t": "The life and times of dust (Slider tool)",
+  "text": "This image shows the irregular galaxy NGC 6822, which was observed by the Near-InfraRed Camera (NIRCam) and Mid-InfraRed Instrument (MIRI) mounted on the NASA/ESA/CSA James Webb Space Telescope. As their names suggest, NIRCam and MIRI probe different parts of the electromagnetic spectrum. This allows the instruments to observe different components of the same galaxy, with MIRI especially sensitive to its gas-rich regions and NIRCam suitable for observing its densely packed field of stars. On the left, Webb’s near-infrared NIRCam image shows the galaxy’s countless stars in incredible detail. Here, the dust and gas that pervade the galaxy are reduced to translucent red wisps, laying the stars bare for astronomical study. The power of Webb’s ice-cold infrared instruments and the incredible resolution of its primary mirror is necessary to examine stars hidden in dusty environments, and the results as shown here are spectacular. The brightest stars appear in pale blue and cyan colours in this image, colours which are assigned to the shortest wavelengths of light that NIRCam can detect: red and near infrared. The amount of light emitted by any star decreases at longer and longer wavelengths, towards the mid-infrared, so the stars that are more faint to NIRCam also appear more warmly coloured here. A bright blue orb to the lower left of the gas is particularly prominent: this is a glo",
+  "img": [
+   {
+    "id": "potm2307c",
+    "t": "NGC 6822 (NIRCam image)",
+    "cr": "ESA/Webb, NASA & CSA, M. Meixner",
+    "fil": "BandWavelengthTelescope Infrared (Blue)1.15 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)2.0 μmJames Webb Space TelescopeNIRCam Infrared (Yellow)3.56 μmJames Webb Space TelescopeNIRCam Infrared (Red)4.44 μmJames Webb Space TelescopeNIRCam",
+    "url": "https://cdn.esawebb.org/archives/images/large/potm2307c.jpg",
+    "dims": [
+     3154,
+     1000
+    ]
+   },
+   {
+    "id": "potm2307d",
+    "t": "NGC 6822 (MIRI image)",
+    "cr": "ESA/Webb, NASA & CSA, M. Meixner",
+    "fil": "BandWavelengthTelescope Infrared (Blue)PAH7.7 μmJames Webb Space TelescopeMIRI Infrared (Green)Silicate10 μmJames Webb Space TelescopeMIRI Infrared (Yellow)15 μmJames Webb Space TelescopeMIRI Infrared (Red)21 μmJames Webb Space TelescopeMIRI",
+    "url": "https://cdn.esawebb.org/archives/images/large/potm2307d.jpg",
+    "dims": [
+     3154,
+     1000
+    ]
+   }
+  ]
+ },
+ {
+  "s": "potm2306",
+  "t": "Hubble and Webb’s views of a titanic clash",
+  "text": "The peculiar galaxy NGC 3256 takes centre stage in these two images. This distorted galaxy is the wreckage of a head-on collision between two spiral galaxies which likely occurred 500 million years ago, and it is studded with clumps of young stars which were formed as gas and dust from the two galaxies collided. The left image contains data from the NASA/ESA/CSA James Webb Space Telescope, using both the Near-InfraRed Camera and the Mid-InfraRed Instrument. The collision that produced NGC 3256 spurred an enormous burst of star formation, and these new stars radiate enormously brightly in infrared wavelengths as seen here. The right image contains data from the NASA/ESA Hubble Space Telescope’s Advanced Camera for Surveys and Wide Field Camera 3. Here the visible light lays out in detail the dark threads of dust and molecular gas that spin around the centres of the two merged galaxies. Many of the young, infrared-emitting stars produced by the collision are obscured in visible wavelengths by this dark dust. Credit: ESA/Webb, NASA & CSA, L. Armus, A. Evans, ESA/Hubble Usage of ESA/Hubble/Webb Images and Videos Are you a journalist? Subscribe to the ESA/Hubble/Webb Media Newsletter.",
+  "img": [
+   {
+    "id": "potm2306a",
+    "t": "Clash of the Titans",
+    "cr": "ESA/Webb, NASA & CSA, L. Armus, A. Evans",
+    "name": "NGC 3256",
+    "fil": "BandWavelengthTelescope Infrared (Blue)1.5 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)2.0 μmJames Webb Space TelescopeNIRCam Infrared (Yellow)PAH3.35 μmJames Webb Space TelescopeNIRCam Infrared (Orange)5.6 μmJames Webb Space TelescopeMIRI Infrared (Orange)4.44 μmJames Webb Space TelescopeNIRCam Infrared (Red)PAH7.7 μmJames Webb Space TelescopeMIRI Infrared (Red)15 μmJames Webb Space Telesco",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/potm2306a.jpg",
+    "dims": [
+     4000,
+     3355
+    ]
+   },
+   {
+    "id": "potm2306b",
+    "t": "NGC 3256 (HST)",
+    "cr": "ESA/Hubble, NASA",
+    "fil": "BandWavelengthTelescope Optical (Blue)V555 nmHubble Space TelescopeACS Optical (Green)V555 nmHubble Space TelescopeACS Optical (Green)H-alpha + NII665 nmHubble Space TelescopeWFC3 Optical (Orange)H-alpha + NII665 nmHubble Space TelescopeWFC3 Optical (Red)S II673 nmHubble Space TelescopeWFC3 Optical (Red)I814 nmHubble Space TelescopeWFC3",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/potm2306b.jpg",
+    "dims": [
+     4000,
+     3355
+    ]
+   }
+  ]
+ },
+ {
+  "s": "weic2315",
+  "t": "Hubble and Webb showcase part of the Orion Nebula",
+  "text": "An international team of scientists have used data collected by the NASA/ESA/CSA James Webb Space Telescope to detect a molecule known as the methyl cation (CH3+) for the first time, located in the protoplanetary disc surrounding a young star. They accomplished this feat with a cross-disciplinary expert analysis, including key input from laboratory spectroscopists. The vital role of CH3+ in interstellar carbon chemistry has been predicted since the 1970s, but Webb’s unique capabilities have finally made observing it possible — in a region of space where planets capable of accommodating life could eventually form. The Orion Nebula has been studied by astronomers for hundreds of years, and it has been a frequent target of the Hubble Space Telescope since its launch. This comparison shows the striking difference in views afforded by a visible-light telescope, such as Hubble, and an infrared telescope like Webb. In Webb’s image on the left, near-infrared light is able to penetrate the dust, but the heated gas also emits its own infrared light, making for a colourful scene with filaments and cavities. On the right in the Hubble image, which was taken during 2004 and 2005, bubbles of gas appear to float in front of the thick, smoky clouds of the nebula. Numerous new stars, some with protoplanetary discs, are visible across both images. Credit: NASA & ESA Usage of ESA/Hubble/Webb Imag",
+  "img": [
+   {
+    "id": "weic2315b",
+    "t": "The Orion Bar region (NIRCam image)",
+    "cr": "ESA/Webb, NASA, CSA, M. Zamani (ESA/Webb), the PDRs4All ERS Team",
+    "name": "[BOM2000] d203-506, HH 520, Messier 42, Orion Bar, Orion Nebula",
+    "fil": "BandWavelengthTelescope Infrared (Purple)1.4 μmJames Webb Space TelescopeNIRCam Infrared (Purple)1.62 μmJames Webb Space TelescopeNIRCam Infrared (Blue)1.64 μmJames Webb Space TelescopeNIRCam Infrared (Blue)1.82 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)methane2.1 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)P-alpha1.87 μmJames Webb Space TelescopeNIRCam Infrared (Green)2.77 μmJames W",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2315b.jpg",
+    "dims": [
+     3599,
+     4000
+    ]
+   },
+   {
+    "id": "weic2315d",
+    "t": "The Orion Bar region (Hubble image)",
+    "cr": "ESA/Hubble & NASA, M. Robberto (Space Telescope Science Institute/ESA) and the Hubble Space Telescope Orion Treasury Project Team",
+    "name": "[BOM2000] d203-506, HH 520, Messier 42, Orion Bar, Orion Nebula",
+    "fil": "BandWavelengthTelescope Optical (Blue)B435 nmHubble Space TelescopeACS Optical (Green)V555 nmHubble Space TelescopeACS Optical (Orange)H-alpha + NII658 nmHubble Space TelescopeACS Optical (Red)i775 nmHubble Space TelescopeACS Optical (Red)Z850 nmHubble Space TelescopeACS",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2315d.jpg",
+    "dims": [
+     3599,
+     4000
+    ]
+   }
+  ]
+ },
+ {
+  "s": "potm2305",
+  "t": "Slider tool (NIRCam and MIRI images)",
+  "text": "The bright tendrils of gas and stars of the barred spiral galaxy NGC 5068 are compared across infrared wavelengths, in these images from the NASA/ESA/CSA James Webb Space Telescope. NGC 5068 lies around 20 million light-years from Earth in the constellation Virgo. The left image was taken by Webb’s NIRCam instrument, a view that is studded by the galaxy’s massive population of stars. The right image is from the MIRI instrument, and the dusty structure of the spiral galaxy and glowing bubbles of gas containing newly-formed star clusters are particularly prominent. With its ability to peer through the gas and dust enshrouding newborn stars, Webb is the perfect telescope to explore the processes governing star formation. Stars and planetary systems are born amongst swirling clouds of gas and dust that are opaque to observations in visible light, like many from Hubble or the VLT. The keen vision at infrared wavelengths of two of Webb’s instruments — MIRI and NIRCam — allowed astronomers to see right through the gargantuan clouds of dust in NGC 5068 and capture the processes of star formation as they happened. MIRI was contributed by ESA and NASA, with the instrument designed and built by a consortium of nationally funded European Institutes (The MIRI European Consortium) in partnership with JPL and the University of Arizona. Credit: ESA/Webb, NASA & CSA, J. Lee and the PHANGS-JWST ",
+  "img": [
+   {
+    "id": "potm2305d",
+    "t": "NGC 5068 (NIRCam image)",
+    "cr": "ESA/Webb, NASA & CSA, J. Lee and the PHANGS-JWST Team",
+    "name": "NGC 5068",
+    "fil": "BandWavelengthTelescope Infrared (Blue)2.0 μmJames Webb Space TelescopeNIRCam Infrared (Green)3.0 μmJames Webb Space TelescopeNIRCam Infrared (Orange)PAH3.35 μmJames Webb Space TelescopeNIRCam Infrared (Red)3.6 μmJames Webb Space TelescopeNIRCam",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/potm2305d.jpg",
+    "dims": [
+     4000,
+     2351
+    ]
+   },
+   {
+    "id": "potm2305e",
+    "t": "NGC 5068 (MIRI image)",
+    "cr": "ESA/Webb, NASA & CSA, J. Lee and the PHANGS-JWST Team",
+    "name": "NGC 5068",
+    "fil": "BandWavelengthTelescope Infrared (Purple)PAH7.7 μmJames Webb Space TelescopeMIRI Infrared (Cyan)Silicate10 μmJames Webb Space TelescopeMIRI Infrared (Yellow)PAH11 μmJames Webb Space TelescopeMIRI Infrared (Red)21 μmJames Webb Space TelescopeMIRI",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/potm2305e.jpg",
+    "dims": [
+     4000,
+     2351
+    ]
+   }
+  ]
+ },
+ {
+  "s": "weic2311a",
+  "t": "Hubble and Webb’s views of Cassiopeia A",
+  "text": "Cassiopeia A (Cas A) is a supernova remnant located about 11 000 light-years from Earth in the constellation Cassiopeia. It spans approximately 10 light-years. On the left is the object as seen by the NASA/ESA/CSA James Webb Space Telescope. On the right is the object as seen by the NASA/ESA Hubble Space Telescope in 2004. The nearly two decades of elapsed time between the two images has made the expansion of the nebula discernible between the visible (Hubble) and infrared (Webb) images. Credit: NASA, ESA, CSA, D. Milisavljevic (Purdue University), T. Temim (Princeton University), I. De Looze (UGent), J. DePasquale (STScI), the Hubble Heritage (STScI/AURA)-ESA/Hubble Collaboration. Acknowledgement: R. A. Fesen (Dartmouth College, USA) and J. Long (ESA/Hubble) Usage of ESA/Hubble/Webb Images and Videos Are you a journalist? Subscribe to the ESA/Hubble/Webb Media Newsletter.",
+  "img": [
+   {
+    "id": "weic2311a",
+    "t": "Cassiopeia A (MIRI Image)",
+    "cr": "NASA, ESA, CSA, D. Milisavljevic (Purdue University), T. Temim (Princeton University), I. De Looze (UGent), J. DePasquale (STScI)",
+    "name": "Cas A",
+    "fil": "BandWavelengthTelescope Infrared (Blue)5.6 μmJames Webb Space TelescopeMIRI Infrared (Blue)PAH7.7 μmJames Webb Space TelescopeMIRI Infrared (Cyan)Silicate10 μmJames Webb Space TelescopeMIRI Infrared (Green)PAH11 μmJames Webb Space TelescopeMIRI Infrared (Yellow)12 μmJames Webb Space TelescopeMIRI Infrared (Orange)Silicate18 μmJames Webb Space TelescopeMIRI Infrared (Orange)21 μmJames Webb Space Te",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2311a.jpg",
+    "dims": [
+     3999,
+     4000
+    ]
+   },
+   {
+    "id": "weic2311c",
+    "t": "Hubble’s view of Cassiopeia A",
+    "cr": "NASA, ESA, and the Hubble Heritage (STScI/AURA)-ESA/Hubble Collaboration. Acknowledgement: R. A. Fesen (Dartmouth College, USA) and J. Long (ESA/Hubble",
+    "fil": "BandWavelengthTelescope Optical (Blue)R625 nmHubble Space TelescopeACS Optical (Green)I775 nmHubble Space TelescopeACS Optical (Red)Z850 nmHubble Space TelescopeACS",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2311c.jpg",
+    "dims": [
+     3999,
+     4000
+    ]
+   }
+  ]
+ },
+ {
+  "s": "potm2210a",
+  "t": "Webb Explores a Pair of Merging Galaxies",
+  "text": "Here, the Webb Picture of the Month of merging galaxies IC 1623 A and B is juxtaposed with a new image from the NASA/ESA Hubble Space Telescope. This image on the left, combining data from Hubble’s ACS and WFC3 instruments, gives a familiar visible-light view of these colliding galaxies, where the centres of the individual galaxies are much more obscured by dark dust. Meanwhile, in Webb’s combined MIRI and NIRCam view of the galaxies on the right, the gas being used as fuel by the stellar nurseries is especially apparent. Webb’s ability to pierce the gaseous veil obscuring the bright galactic cores also causes prominent diffraction spikes to appear. [Image description (left): The two galaxies are close in the centre, the core of one above and slightly to the left of the other. Their cores are pale blue and their spiral arms, which merge together between and around the cores, are nebulous. On top of the centre of the merger, there are many small star-forming regions that glow pink, and dust that is very dark. The background is black with many faint galaxies.] [Image description (right): The two galaxies swirl into a single chaotic object in the centre. Long, blue spiral arms stretch vertically, faint at the edges. Hot gas spreads horizontally over that, mainly bright red with many small gold spots of star formation. The core of the merging galaxies is very bright and radiates ei",
+  "img": [
+   {
+    "id": "potm2210c",
+    "t": "Exploring a Pair of Merging Galaxies (Hubble Image)",
+    "cr": "ESA/Hubble & NASA, R. Chandar",
+    "name": "IC 1623",
+    "fil": "BandWavelengthTelescope Optical (Purple)U336 nmHubble Space TelescopeWFC3 Ultraviolet (Purple)UV275 nmHubble Space TelescopeWFC3 Optical (Blue)B435 nmHubble Space TelescopeACS Optical (Green)V555 nmHubble Space TelescopeWFC3 Optical (Orange)I814 nmHubble Space TelescopeACS Optical (Red)H-alpha656 nmHubble Space TelescopeWFC3 Infrared (Red)H1.6 μmHubble Space TelescopeWFC3 Infrared (Red)Paschen Bet",
+    "url": "https://cdn.esawebb.org/archives/images/large/potm2210c.jpg",
+    "dims": [
+     1716,
+     1500
+    ]
+   },
+   {
+    "id": "potm2210d",
+    "t": "Webb Explores a Pair of Merging Galaxies (scaled)",
+    "cr": "ESA/Webb, NASA & CSA, L. Armus & A. Evans Acknowledgement: R. Colombari",
+    "name": "IC 1623",
+    "fil": "BandWavelengthTelescope Infrared (Blue)1.5 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)2.0 μmJames Webb Space TelescopeNIRCam Infrared (Green)3.56 μmJames Webb Space TelescopeNIRCam Infrared (Yellow)5.6 μmJames Webb Space TelescopeMIRI Infrared (Orange)15 μmJames Webb Space TelescopeMIRI Infrared (Red)4.44 μmJames Webb Space TelescopeNIRCam Infrared (Red)7.7 μmJames Webb Space TelescopeMIRI",
+    "url": "https://cdn.esawebb.org/archives/images/large/potm2210d.jpg",
+    "dims": [
+     1716,
+     1500
+    ]
+   }
+  ]
+ },
+ {
+  "s": "weic2216",
+  "t": "Hubble and Webb Showcase the Pillars of Creation (Slider Tool)",
+  "text": "The NASA/ESA Hubble Space Telescope made the Pillars of Creation famous with its first image in 1995, but revisited the scene in 2014 to reveal a sharper, wider view in visible light, shown above at left. A new, near-infrared-light view from the NASA/ESA/CSA James Webb Space Telescope, at right, helps us peer through more of the dust in this star-forming region. The thick, dusty brown pillars are no longer as opaque and many more red stars that are still forming come into view. While the pillars of gas and dust seem darker and less penetrable in Hubble’s view, they appear more diaphanous in Webb’s. The background of this Hubble image is like a sunrise, beginning in yellows at the bottom, before transitioning to light green and deeper blues at the top. These colours highlight the thickness of the dust all around the pillars, which obscures many more stars in the overall region. In contrast, the background light in Webb’s image appears in blue hues, which highlights the hydrogen atoms, and reveals an abundance of stars spread across the scene. By penetrating the dusty pillars, Webb also allows us to identify stars that have recently – or are about to – burst free. Near-infrared light can penetrate thick dust clouds, allowing us to learn so much more about this incredible scene. Both views show us what is happening locally. Although Hubble highlights many more thick layers of dust",
+  "img": [
+   {
+    "id": "weic2216f",
+    "t": "Hubble's View of the Pillars of Creation (2011)",
+    "cr": "NASA, ESA/Hubble and the Hubble Heritage Team",
+    "fil": "",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2216f.jpg",
+    "dims": [
+     3835,
+     4000
+    ]
+   },
+   {
+    "id": "weic2216e",
+    "t": "Webb's New View of the Pillars of Creation (2022)",
+    "cr": "NASA, ESA, CSA, STScI; J. DePasquale, A. Koekemoer, A. Pagan (STScI).",
+    "fil": "",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2216e.jpg",
+    "dims": [
+     3835,
+     4000
+    ]
+   }
+  ]
+ },
+ {
+  "s": "potm2209a",
+  "t": "Webb’s Icy Instrument Reveals Complex Structures",
+  "text": "This spectacular image features the spiral galaxy IC 5332, shown here in unprecedented detail thanks to observations from the Mid-InfraRed Instrument (MIRI), which is mounted on the NASA/ESA/CSA James Webb Space Telescope. IC 5332 lies over 29 million light-years from Earth, and has a diameter of roughly 66 000 light-years, making it about a third smaller than the Milky Way. It is notable for being almost perfectly face-on with respect to Earth, allowing us to admire the symmetrical sweep of its spiral arms. MIRI is the only Webb instrument that is sensitive to the mid-infrared region of the electromagnetic spectrum (specifically in the 5 µm – 28 µm wavelength range); Webb’s other instruments all operate in the near-infrared. One of MIRI’s most remarkable features is that it operates 33 °C below the rest of the observatory at the frosty temperature of –266 °C. That means that MIRI operates in an environment only 7 °C warmer than absolute zero, which is the lowest possible temperature according to the laws of thermodynamics. MIRI requires this frigid environment in order for its highly specialised detectors to function correctly, and it has a dedicated active cooling system to ensure that its detectors are kept at the correct temperature. It is worth noting just how challenging it is to obtain observations in the mid-infrared region of the electromagnetic spectrum. The mid-infra",
+  "img": [
+   {
+    "id": "potm2209b",
+    "t": "Hubble Sees the Big Picture of a Complex Galaxy",
+    "cr": "ESA/Webb, NASA & CSA, J. Lee and the PHANGS-JWST and PHANGS-HST Teams",
+    "fil": "BandWavelengthTelescope Ultraviolet (Purple)UV275 nmHubble Space TelescopeWFC3 Optical (Blue)U336 nmHubble Space TelescopeWFC3 Optical (Cyan)B438 nmHubble Space TelescopeWFC3 Optical (Yellow)V555 nmHubble Space TelescopeWFC3 Optical (Red)I814 nmHubble Space TelescopeWFC3",
+    "url": "https://cdn.esawebb.org/archives/images/large/potm2209b.jpg",
+    "dims": [
+     3038,
+     2995
+    ]
+   },
+   {
+    "id": "potm2209c",
+    "t": "Webb Reveals IC 5332 (scaled)",
+    "cr": "ESA/Webb, NASA & CSA, J. Lee and the PHANGS-JWST and PHANGS-HST Teams",
+    "fil": "BandWavelengthTelescope Infrared (Cyan)7.7 μmJames Webb Space TelescopeMIRI Infrared (Green)10 μmJames Webb Space TelescopeMIRI Infrared (Orange)11 μmJames Webb Space TelescopeMIRI Infrared (Red)21 μmJames Webb Space TelescopeMIRI",
+    "url": "https://cdn.esawebb.org/archives/images/large/potm2209c.jpg",
+    "dims": [
+     3038,
+     2995
+    ]
+   }
+  ]
+ },
+ {
+  "s": "potm2412",
+  "t": "Eye to eye with a local galaxy",
+  "text": "The galaxy filling the frame on both sides of this slider tool is NGC 2566, a spiral galaxy located in the constellation Puppis. On the left, a new image that is a combination of data from Webb’s MIRI and NIRCam instruments shows off NGC 2566’s well-defined spiral arms, long central bar and delicate tracery of gas, dust and stars. The image on the right is an also-new image from the NASA/ESA Hubble Space Telescope, featured this week as part of the ESA/Hubble Picture of the Week series, and shows the galaxy’s star clusters and star-forming regions, bright in visible and ultraviolet light. Credit: ESA/Webb, NASA & CSA, A. Leroy, ESA/Hubble, D. Thilker Usage of ESA/Hubble/Webb Images and Videos Are you a journalist? Subscribe to the ESA/Hubble/Webb Media Newsletter.",
+  "img": [
+   {
+    "id": "potm2412a",
+    "t": "Close look at a local galaxy",
+    "cr": "ESA/Webb, NASA & CSA, A. Leroy",
+    "name": "NGC 2566",
+    "fil": "BandWavelengthTelescope Infrared (Blue)1.5 μmJames Webb Space TelescopeNIRCam Infrared (Blue)2.0 μmJames Webb Space TelescopeNIRCam Infrared (Green)PAH3.35 μmJames Webb Space TelescopeNIRCam Infrared (Yellow)3.0 μmJames Webb Space TelescopeNIRCam Infrared (Red)PAH7.7 μmJames Webb Space TelescopeMIRI Infrared (Red)21 μmJames Webb Space TelescopeMIRI",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/potm2412a.jpg",
+    "dims": [
+     3643,
+     4000
+    ]
+   },
+   {
+    "id": "potm2412c",
+    "t": "NGC 2566 (HST image)",
+    "cr": "ESA/Hubble & NASA, D. Thilker",
+    "name": "NGC 2566",
+    "fil": "BandWavelengthTelescope Ultraviolet (Purple)UV275 nmHubble Space TelescopeWFC3 Optical (Purple)U336 nmHubble Space TelescopeWFC3 Optical (Blue)B438 nmHubble Space TelescopeWFC3 Optical (Green)V555 nmHubble Space TelescopeWFC3 Optical (Red)I814 nmHubble Space TelescopeWFC3 Optical (Red)H-alpha + NII657 nmHubble Space TelescopeWFC3",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/potm2412c.jpg",
+    "dims": [
+     3643,
+     4000
+    ]
+   }
+  ]
+ },
+ {
+  "s": "weic2407a",
+  "t": "Webb’s views of NGC 604",
+  "text": "Two new images from the NASA/ESA/CSA James Webb Space Telescope showcase the star-forming region NGC 604, located in the Triangulum Galaxy (M33), 2.73 million light-years away from Earth. In these images, cavernous bubbles and stretched-out filaments of gas etch a more detailed and complete tapestry of star birth than seen in the past. Sheltered among NGC 604’s dusty envelopes of gas are more than 200 of the hottest, most massive kinds of stars, all in the early stages of their lives. These types of stars are known as B-types and O-types, the latter of which can be more than 100 times the mass of our own Sun. It’s quite rare to find this concentration of them in the nearby Universe. In fact, there’s no similar region within our own Milky Way galaxy. This concentration of massive stars, combined with its relatively close distance, means NGC 604 gives astronomers an opportunity to study these objects at a fascinating time early in their life. On the left, Webb’s NIRCam (Near-Infrared Camera) shows how stellar winds from bright, hot young stars carve out cavities in surrounding gas and dust. On the right, Webb’s MIRI (Mid-Infrared Instrument) shows how large clouds of cooler gas and dust glow at mid-infrared wavelengths. In the MIRI view of NGC 604, there are noticeably fewer stars than Webb’s NIRCam image. This is because hot stars emit much less light at these wavelengths. Some ",
+  "img": [
+   {
+    "id": "weic2407d",
+    "t": "NGC 604 (NIRCam image)",
+    "cr": "NASA, ESA, CSA, STScI",
+    "name": "NGC 604",
+    "fil": "BandWavelengthTelescope Optical (Blue)900 nmJames Webb Space TelescopeNIRCam Infrared (Cyan)P-alpha1.87 μmJames Webb Space TelescopeNIRCam Infrared (Green)2.0 μmJames Webb Space TelescopeNIRCam Infrared (Yellow)PAH3.35 μmJames Webb Space TelescopeNIRCam Infrared (Red)4.44 μmJames Webb Space TelescopeNIRCam Infrared (Red)molecular hydrogen4.7 μmJames Webb Space TelescopeNIRCam",
+    "url": "https://cdn.esawebb.org/archives/images/large/weic2407d.jpg",
+    "dims": [
+     3514,
+     2900
+    ]
+   },
+   {
+    "id": "weic2407e",
+    "t": "NGC 604 (MIRI image)",
+    "cr": "NASA, ESA, CSA, STScI",
+    "name": "NGC 604",
+    "fil": "BandWavelengthTelescope Infrared (Blue)PAH7.0 μmJames Webb Space TelescopeMIRI Infrared (Green)PAH11 μmJames Webb Space TelescopeMIRI Infrared (Red)15 μmJames Webb Space TelescopeMIRI Infrared (Luminosity)PAH3.35 μmJames Webb Space TelescopeNIRCam",
+    "url": "https://cdn.esawebb.org/archives/images/large/weic2407e.jpg",
+    "dims": [
+     3514,
+     2900
+    ]
+   }
+  ]
+ },
+ {
+  "s": "weic2425",
+  "t": "Hubble and Webb's views of NGC 602",
+  "text": "This slider tool features two views of the young star cluster NGC 602, which resides near the outskirts of the Small Magellanic Cloud, a satellite galaxy roughly 200 000 light-years from Earth. The image on the left shows the cluster as seen by the NASA/ESA Hubble Space Telescope that was published in 2007. The image on the right shows a new image of NGC 602 as seen by the NASA/ESA/CSA James Webb Space Telescope. Credit: NASA, ESA and the Hubble Heritage Team (STScI/AURA)-ESA/Hubble Collaboration Usage of ESA/Hubble/Webb Images and Videos Are you a journalist? Subscribe to the ESA/Hubble/Webb Media Newsletter.",
+  "img": [
+   {
+    "id": "weic2425b",
+    "t": "NGC 602 (Hubble image)",
+    "cr": "NASA, ESA and the Hubble Heritage Team (STScI/AURA)-ESA/Hubble Collaboration",
+    "name": "NGC 602",
+    "fil": "BandWavelengthTelescope Optical (Blue)V555 nmHubble Space TelescopeACS Optical (Green)V555 nmHubble Space TelescopeACS Optical (Green)I814 nmHubble Space TelescopeACS Optical (Red)H-alpha + NII658 nmHubble Space TelescopeACS Optical (Red)I814 nmHubble Space TelescopeACS",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2425b.jpg",
+    "dims": [
+     4000,
+     3230
+    ]
+   },
+   {
+    "id": "weic2425c",
+    "t": "NGC 602 (Webb image)",
+    "cr": "ESA/Webb, NASA & CSA, P. Zeidler, E. Sabbi, A. Nota, M. Zamani (ESA/Webb)",
+    "name": "NGC 602",
+    "fil": "BandWavelengthTelescope Infrared (Blue)1.15 μmJames Webb Space TelescopeNIRCam Infrared (Blue)1.4 μmJames Webb Space TelescopeNIRCam Infrared (Blue)1.5 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)methane2.1 μmJames Webb Space TelescopeNIRCam Infrared (Green)2.77 μmJames Webb Space TelescopeNIRCam Infrared (Yellow)PAH3.35 μmJames Webb Space TelescopeNIRCam Infrared (Orange)3.56 μmJames Webb S",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2425c.jpg",
+    "dims": [
+     4000,
+     3230
+    ]
+   }
+  ]
+ },
+ {
+  "s": "potm2510",
+  "t": "Red Spider Nebula NGC 6537 (Hubble and Webb views)",
+  "text": "This new NASA/ESA/CSA James Webb Space Telescope Picture of the Month features a cosmic creepy-crawly called NGC 6537 or the Red Spider Nebula. The image on the left shows the Hubble Space Telescope’s view of the nebula. This image, initially released in 2001, shows how the nebula got its nickname. With a narrow waist, four outstretched ‘legs’, and a reddish glow, it certainly resembles a red spider crawling across the sky. The image on the right shows the new view from Webb, which reveals for the first time the full extent of the nebula’s molecular hydrogen lobes, as well as new evidence for outflowing material from the centre of the nebula. With more than two decades having passed between Hubble’s observation of the nebula and Webb’s new view, it’s actually possible to see that the nebula has expanded between the two sets of observations! [Image Description: Two views of a planetary nebula are placed side-by-side. On the left, Hubble’s image shows thick orange clouds of dust forming a cross shape around the star in the centre. On the right, Webb’s image reveals many stars hidden behind the dust clouds, which appear as translucent blue loops that meet at the centre.] Credit: ESA/Webb, NASA & CSA, G. Mellema (Leiden University, the Netherlands), J. H. Kastner (Rochester Institute of Technology) Usage of ESA/Hubble/Webb Images and Videos Are you a journalist? Subscribe to the ES",
+  "img": [
+   {
+    "id": "potm2510c",
+    "t": "Red Spider Nebula NGC 6537 (Hubble’s view)",
+    "cr": "ESA/Hubble & NASA, G. Mellema (Leiden University, the Netherlands)",
+    "name": "NGC 6537",
+    "fil": "BandWavelengthTelescope Optical (Blue)O III502 nmHubble Space TelescopeWFPC2 Optical (Cyan)O II373 nmHubble Space TelescopeWFPC2 Optical (Green)H-alpha656 nmHubble Space TelescopeWFPC2 Optical (Orange)N II575 nmHubble Space TelescopeWFPC2 Optical (Red)S II672 nmHubble Space TelescopeWFPC2",
+    "url": "https://cdn.esawebb.org/archives/images/large/potm2510c.jpg",
+    "dims": [
+     3168,
+     1785
+    ]
+   },
+   {
+    "id": "potm2510d",
+    "t": "Webb zooms in on the Red Spider Nebula, NGC 6537",
+    "cr": "ESA/Webb, NASA & CSA, J. H. Kastner (Rochester Institute of Technology)",
+    "name": "NGC 6537",
+    "fil": "BandWavelengthTelescope Infrared (Blue)Fe II1.64 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)molecular hydrogen2.12 μmJames Webb Space TelescopeNIRCam Infrared (Orange)3.56 μmJames Webb Space TelescopeNIRCam Infrared (Red)Br-alpha4.05 μmJames Webb Space TelescopeNIRCam",
+    "url": "https://cdn.esawebb.org/archives/images/large/potm2510d.jpg",
+    "dims": [
+     3168,
+     1785
+    ]
+   }
+  ]
+ },
+ {
+  "s": "potm2507a",
+  "t": "A fresh look at a classic deep field",
+  "text": "This slider tool provides a unique comparison to highlight the visible and infrared observations of one of the most iconic regions of the sky, the Hubble Ultra Deep Field. When the original Hubble Ultra Deep Field was released by the NASA/ESA Hubble Space Telescope in 2004, it was the deepest image of the Universe ever taken. In 2025, Webb’s new view of this field is now one of the deepest views ever obtained of the Universe to date. By returning to this legacy field first made famous by Hubble, Webb is continuing and expanding the deep field tradition — revealing new details, uncovering previously hidden galaxies, and offering fresh insights into the formation of the first cosmic structures. Left: This image shows a portion of the Hubble eXtreme Deep Field, or XDF, as seen by the NASA/ESA Hubble Space Telescope. This image, originally released in 2012, was taken of a patch of sky within the original Hubble Ultra Deep Field, released in 2004. Right: This image shows a new infrared view of this field through the eyes of two of Webb’s instruments. The result is a detailed view that reveals thousands of distant galaxies, some dating back to the earliest periods of cosmic history. The field, known as the MIRI Deep Imaging Survey (MIDIS) region, was observed with the shortest-wavelength filter of Webb’s Mid-Infrared Instrument (MIRI) for nearly 41 hours. Combined with data from Webb",
+  "img": [
+   {
+    "id": "potm2507b",
+    "t": "Portion of the Hubble eXtreme Deep Field",
+    "cr": "NASA, ESA, G. Illingworth, D. Magee, and P. Oesch (University of California, Santa Cruz), R. Bouwens (Leiden University), and the HUDF09 Team",
+    "fil": "BandWavelengthTelescope Optical (Blue)V606 nmHubble Space TelescopeACS Optical (Blue)B435 nmHubble Space TelescopeACS Optical (Green)775 nmHubble Space TelescopeACS Optical (Green)I814 nmHubble Space TelescopeACS Optical (Green)I850 nmHubble Space TelescopeACS Infrared (Red)Z1.05 μmHubble Space TelescopeWFC3 Infrared (Red)H1.6 μmHubble Space TelescopeWFC3 Infrared (Red)J1.25 μmHubble Space Telesco",
+    "url": "https://cdn.esawebb.org/archives/images/large/potm2507b.jpg",
+    "dims": [
+     2104,
+     1781
+    ]
+   },
+   {
+    "id": "potm2507a",
+    "t": "A fresh look at a classic deep field",
+    "cr": "ESA/Webb, NASA & CSA, G. Östlin, P. G. Perez-Gonzalez, J. Melinder, the JADES Collaboration, the MIDIS collaboration, M. Zamani (ESA/Webb)",
+    "fil": "BandWavelengthTelescope Infrared (Blue)3.56 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)4.44 μmJames Webb Space TelescopeNIRCam Infrared (Green)5.6 μmJames Webb Space TelescopeMIRI Infrared (Orange)7.7 μmJames Webb Space TelescopeMIRI Infrared (Red)10 μmJames Webb Space TelescopeMIRI",
+    "url": "https://cdn.esawebb.org/archives/images/large/potm2507a.jpg",
+    "dims": [
+     2104,
+     1781
+    ]
+   }
+  ]
+ },
+ {
+  "s": "potm2411",
+  "t": "Spiral arms in a flaky disc",
+  "text": "This slider tool features the spiral galaxy NGC 2090, located in the constellation Columba. The image on the left, a combination of data from Webb’s MIRI and NIRCam instruments, shows the galaxy’s two winding spiral arms and the swirling gas and dust of its disc in magnificent and unique detail. The image on the right is a new image from the NASA/ESA Hubble Space Telescope, featured this week as part of the ESA/Hubble Picture of the Week series, and shows the bright light from the galaxy's stars among the plentiful dust in its disc. Credit: ESA/Webb, ESA/Hubble, NASA & CSA, A. Leroy, D. Thilker Usage of ESA/Hubble/Webb Images and Videos Are you a journalist? Subscribe to the ESA/Hubble/Webb Media Newsletter.",
+  "img": [
+   {
+    "id": "potm2411a",
+    "t": "Tracing spiral arms in infrared",
+    "cr": "ESA/Webb, NASA & CSA, A. Leroy",
+    "name": "NGC 2090",
+    "fil": "BandWavelengthTelescope Infrared (Blue)1.5 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)P-alpha1.87 μmJames Webb Space TelescopeNIRCam Infrared (Green)3.0 μmJames Webb Space TelescopeNIRCam Infrared (Red)PAH3.35 μmJames Webb Space TelescopeNIRCam Infrared (Red)PAH7.7 μmJames Webb Space TelescopeMIRI Infrared (Red)21 μmJames Webb Space TelescopeMIRI",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/potm2411a.jpg",
+    "dims": [
+     4000,
+     3806
+    ]
+   },
+   {
+    "id": "potm2411b",
+    "t": "Viewing a flaky disc",
+    "cr": "ESA/Hubble & NASA, D. Thilker",
+    "name": "NGC 2090",
+    "fil": "BandWavelengthTelescope Ultraviolet (Purple)UV275 nmHubble Space TelescopeWFC3 Optical (Purple)U336 nmHubble Space TelescopeWFC3 Optical (Blue)B438 nmHubble Space TelescopeWFC3 Optical (Green)V555 nmHubble Space TelescopeWFC3 Optical (Red)I814 nmHubble Space TelescopeWFC3 Optical (Red)H-alpha + NII657 nmHubble Space TelescopeWFC3",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/potm2411b.jpg",
+    "dims": [
+     4000,
+     3806
+    ]
+   }
+  ]
+ },
+ {
+  "s": "weic2330",
+  "t": "Cas A (NIRCam and MIRI comparison)",
+  "text": "Cassiopeia A (Cas A) is a supernova remnant located about 11 000 light-years from Earth in the constellation Cassiopeia. It spans approximately 10 light-years. On the left is the object as seen by Webb's NIRCam instrument (released in December 2023). On the right is the object as seen by Webb's MIRI instrument (released in April 2023). Thanks to the details revealed by Webb, astronomers have now entered a new era in the study of Cas A. Webb’s MIRI image started this story, revealing new and unexpected features within the inner shell of the supernova remnant. Many of those features are invisible in the new NIRCam image, and astronomers are investigating why. Infrared light is invisible to our eyes, so image processors and scientists translate these wavelengths of light to visible colours. In this newest image of Cas A, colours were assigned to different filters from NIRCam, and each of those colours hints at different activity occurring within the object. At first glance, the NIRCam image may appear less colourful than the MIRI image. However, this does not mean there is a lack of information: it simply comes down to the wavelengths in which the material from the object is emitting its light. The most noticeable colours in Webb’s newest image are clumps of bright orange and light pink that make up the inner shell of the supernova remnant. Webb’s razor-sharp view can detect the t",
+  "img": [
+   {
+    "id": "weic2330e",
+    "t": "Cas A (NIRCam image)",
+    "cr": "NASA, ESA, CSA, STScI, D. Milisavljevic (Purdue University), T. Temim (Princeton University), I. De Looze (University of Gent)",
+    "name": "Cas A",
+    "fil": "BandWavelengthTelescope Infrared (Blue)1.62 μmJames Webb Space TelescopeNIRCam Infrared (Green)3.56 μmJames Webb Space TelescopeNIRCam Infrared (Red)4.44 μmJames Webb Space TelescopeNIRCam",
+    "url": "https://cdn.esawebb.org/archives/images/large/weic2330e.jpg",
+    "dims": [
+     2704,
+     2701
+    ]
+   },
+   {
+    "id": "weic2330f",
+    "t": "Cas A (MIRI image)",
+    "cr": "NASA, ESA, CSA, D. Milisavljevic (Purdue University), T. Temim (Princeton University), I. De Looze (UGent), J. DePasquale (STScI)",
+    "name": "Cas A",
+    "fil": "BandWavelengthTelescope Infrared (Blue)5.6 μmJames Webb Space TelescopeMIRI Infrared (Blue)PAH7.7 μmJames Webb Space TelescopeMIRI Infrared (Cyan)Silicate10 μmJames Webb Space TelescopeMIRI Infrared (Green)PAH11 μmJames Webb Space TelescopeMIRI Infrared (Yellow)12 μmJames Webb Space TelescopeMIRI Infrared (Orange)Silicate18 μmJames Webb Space TelescopeMIRI Infrared (Orange)21 μmJames Webb Space Te",
+    "url": "https://cdn.esawebb.org/archives/images/large/weic2330f.jpg",
+    "dims": [
+     2704,
+     2701
+    ]
+   }
+  ]
+ },
+ {
+  "s": "weic2617a",
+  "t": "Slider tool: Evolution of the dynamic galactic centre of the Milky Way",
+  "text": "Left: The centre of the Milky Way as seen by ESO's ground-based VLT using adaptive optics in 2004. Right: The centre of the Milky Way as seen by Webb's NIRCam instrument in 2023. Taken 19 years apart, these images illustrate noticable movement of the field's objects surrounding the supermassive black hole Sagittarius A*, which lies at the very centre of both images. Credit: ESA/Webb, NASA & CSA, F. Peißker, J. Lu, ESO/S. Gillessen et al. Usage of ESA/Hubble/Webb Images and Videos Are you a journalist? Subscribe to the ESA/Hubble/Webb Media Newsletter.",
+  "img": [
+   {
+    "id": "weic2617g",
+    "t": "",
+    "cr": "",
+    "fil": "",
+    "url": "https://cdn.esawebb.org/archives/images/large/weic2617g.jpg",
+    "dims": [
+     1727,
+     1727
+    ]
+   },
+   {
+    "id": "weic2617f",
+    "t": "Star IRS 3 (close-up NIRCam image)",
+    "cr": "ESA/Webb, NASA & CSA, F. Peißker, J. Lu, F. Yusef-Zadeh, N. B. Sabha, C. Chan",
+    "fil": "",
+    "url": "https://cdn.esawebb.org/archives/images/large/weic2617f.jpg",
+    "dims": [
+     1727,
+     1727
+    ]
+   }
+  ]
+ },
+ {
+  "s": "potm2405b",
+  "t": "Hubble and Webb’s views of NGC 4449",
+  "text": "This slider tool highlights Webb’s two views of the dwarf galaxy NGC 4449. This galaxy, also known as Caldwell 21, resides roughly 12.5 million light-years away in the constellation Canes Venatici. It is part of the M94 galaxy group, which lies close to the Local Group that hosts our Milky Way. The image on the left was captured by two instruments on the NASA/ESA/CSA James Webb Space Telescope: MIRI (Mid-InfraRed Instrument) and NIRCam (Near-InfraRed Camera). Observations in the infrared reveal the galaxy’s creeping tendrils of gas, dust and stars. The bright blue spots reveal countless individual stars, while the bright yellow regions that weave throughout the galaxy indicate concentrations of active stellar nurseries, where new stars are forming. The orange-red areas indicate the distribution of a type of carbon-based compounds known as polycyclic aromatic hydrocarbons (or PAHs) — the MIRI F770W filter is particularly suited to imaging these important molecules. The bright red spots correspond to regions rich in hydrogen that have been ionised by the radiation from the newly formed stars. The diffuse gradient of blue light around the central region shows the distribution of older stars. The compact light-blue regions within the red ionised gas, mostly concentrated in the galaxy’s outer region, show the distribution of young star clusters. The image on the right is a 2005 imag",
+  "img": [
+   {
+    "id": "potm2405a",
+    "t": "Fireworks of stellar starbursts",
+    "cr": "ESA/Webb, NASA & CSA, A. Adamo (Stockholm University) and the FEAST JWST team",
+    "name": "NGC 4449",
+    "fil": "BandWavelengthTelescope Infrared (Blue)1.15 μmJames Webb Space TelescopeNIRCam Infrared (Blue)1.5 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)P-alpha1.87 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)2.0 μmJames Webb Space TelescopeNIRCam Infrared (Green)3.0 μmJames Webb Space TelescopeNIRCam Infrared (Green)PAH3.35 μmJames Webb Space TelescopeNIRCam Infrared (Yellow)Br-alpha4.05 μmJames",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/potm2405a.jpg",
+    "dims": [
+     4000,
+     2357
+    ]
+   },
+   {
+    "id": "potm2405e",
+    "t": "NGC 4449 (Hubble image)",
+    "cr": "NASA, ESA, A. Aloisi (ESA/STScI) and The Hubble Heritage (STScI/AURA)-ESA/Hubble Collaboration",
+    "name": "NGC 4449",
+    "fil": "BandWavelengthTelescope Optical (Blue)B435 nmHubble Space TelescopeACS Optical (Green)V555 nmHubble Space TelescopeACS Optical (Red)H-alpha + NII658 nmHubble Space TelescopeACS Optical (Red)I814 nmHubble Space TelescopeACS",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/potm2405e.jpg",
+    "dims": [
+     4000,
+     2357
+    ]
+   }
+  ]
+ },
+ {
+  "s": "weic2410b",
+  "t": "Slider Tool (Webb and Hubble images)",
+  "text": "This slider tool features two views of the starburst galaxy Messier 82 (M82), a small but mighty environment that features rapid star formation. Located 12 million light-years away in the constellation Ursa Major, this galaxy is relatively compact in size but hosts a frenzy of star formation activity. For comparison, M82 is sprouting new stars 10 times faster than the Milky Way galaxy. The image on the left is from the NASA/ESA Hubble Space Telescope, which was released in 2006 to celebrate the observatory’s 16 years of success. You can learn more about this image here. The image on the right is a new image from the NASA/ESA/CSA James Webb Space Telescope. By looking closer with Webb’s sensitive infrared capabilities, a team of scientists is getting to the very core of the galaxy, gaining a better understanding of how it is forming stars and how this extreme activity is affecting the galaxy as a whole. You can learn more about this image here. Credit: Hubble image: NASA, ESA and the Hubble Heritage Team (STScI/AURA). Acknowledgment: J. Gallagher (University of Wisconsin), M. Mountain (STScI) and P. Puxley (NSF)Webb image: NASA, ESA, CSA, STScI, A. Bolatto (UMD) Usage of ESA/Hubble/Webb Images and Videos Are you a journalist? Subscribe to the ESA/Hubble/Webb Media Newsletter.",
+  "img": [
+   {
+    "id": "weic2410e",
+    "t": "M82 (Hubble image)",
+    "cr": "NASA, ESA and the Hubble Heritage Team (STScI/AURA). Acknowledgment: J. Gallagher (University of Wisconsin), M. Mountain (STScI) and P. Puxley (NSF)",
+    "name": "M82",
+    "fil": "BandWavelengthTelescope Optical (Blue)B435 nmHubble Space TelescopeACS Optical (Green)V555 nmHubble Space TelescopeACS Optical (Red)H-alpha658 nmHubble Space TelescopeACS Optical (Red)I814 nmHubble Space TelescopeACS",
+    "url": "https://cdn.esawebb.org/archives/images/large/weic2410e.jpg",
+    "dims": [
+     2160,
+     2146
+    ]
+   },
+   {
+    "id": "weic2410b",
+    "t": "M82 (NIRCam image - longer wavelengths)",
+    "cr": "NASA, ESA, CSA, STScI, A. Bolatto (UMD)",
+    "name": "M82",
+    "fil": "BandWavelengthTelescope Infrared (Blue)Fe II1.64 μmJames Webb Space TelescopeNIRCam Infrared (Green)methane2.5 μmJames Webb Space TelescopeNIRCam Infrared (Red)PAH3.35 μmJames Webb Space TelescopeNIRCam",
+    "url": "https://cdn.esawebb.org/archives/images/large/weic2410b.jpg",
+    "dims": [
+     2160,
+     2146
+    ]
+   }
+  ]
+ },
+ {
+  "s": "weic2411a",
+  "t": "Slider Tool (Webb NIRCam and MIRI images)",
+  "text": "The NASA/ESA/CSA James Webb Space Telescope has captured the sharpest infrared images to date of one of the most distinctive objects in our skies, the Horsehead Nebula. These observations show a part of the iconic nebula in a whole new light, capturing its complexity with unprecedented spatial resolution.The image on the left showcases a new view from Webb’s NIRCam (Near-InfraRed Camera) instrument, while the image on the right features a new view from MIRI (Mid-InfraRed Instrument). Webb’s new images show part of the sky in the constellation Orion (The Hunter), in the western side of the Orion B molecular cloud. Rising from turbulent waves of dust and gas is the Horsehead Nebula, otherwise known as Barnard 33, which resides roughly 1300 light-years away. The nebula formed from a collapsing interstellar cloud of material, and glows because it is illuminated by a nearby hot star. The gas clouds surrounding the Horsehead have already dissipated, but the jutting pillar is made of thick clumps of material that is harder to erode. Astronomers estimate that the Horsehead has about five million years left before it too disintegrates. Webb’s new view focuses on the illuminated edge of the top of the nebula’s distinctive dust and gas structure. The Horsehead Nebula is a well-known photon-dominated region, or PDR. In such a region ultraviolet light from young, massive stars creates a mos",
+  "img": [
+   {
+    "id": "weic2411d",
+    "t": "Horsehead Nebula (NIRCam image)",
+    "cr": "ESA/Webb, NASA, CSA, K. Misselt (University of Arizona) and A. Abergel (IAS/University Paris-Saclay, CNRS)",
+    "name": "Horsehead Nebula",
+    "fil": "BandWavelengthTelescope Infrared (Blue)methane2.5 μmJames Webb Space TelescopeNIRCam Infrared (Blue)1.4 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)water ice3.0 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)molecular hydrogen3.23 μmJames Webb Space TelescopeNIRCam Infrared (Green)PAH3.35 μmJames Webb Space TelescopeNIRCam Infrared (Orange)carbon dioxide4.3 μmJames Webb Space TelescopeNIR",
+    "url": "https://cdn.esawebb.org/archives/images/large/weic2411d.jpg",
+    "dims": [
+     2161,
+     2920
+    ]
+   },
+   {
+    "id": "weic2411e",
+    "t": "Horsehead Nebula (MIRI image)",
+    "cr": "ESA/Webb, NASA, CSA, K. Misselt (University of Arizona) and A. Abergel (IAS/University Paris-Saclay, CNRS)",
+    "name": "Horsehead Nebula",
+    "fil": "BandWavelengthTelescope Infrared (Blue)5.6 μmJames Webb Space TelescopeMIRI Infrared (Blue)PAH7.7 μmJames Webb Space TelescopeMIRI Infrared (Blue)Silicate10 μmJames Webb Space TelescopeMIRI Infrared (Green)PAH11 μmJames Webb Space TelescopeMIRI Infrared (Green)12 μmJames Webb Space TelescopeMIRI Infrared (Green)15 μmJames Webb Space TelescopeMIRI Infrared (Red)Silicate18 μmJames Webb Space Telesco",
+    "url": "https://cdn.esawebb.org/archives/images/large/weic2411e.jpg",
+    "dims": [
+     2161,
+     2920
+    ]
+   }
+  ]
+ },
+ {
+  "s": "weic2320b",
+  "t": "Webb and Hubble’s views of the Ring Nebula",
+  "text": "[Right] The NASA/ESA/CSA James Webb Space Telescope has observed the well-known Ring Nebula with unprecedented detail. Formed by a star throwing off its outer layers as it runs out of fuel, the Ring Nebula is an archetypal planetary nebula. Also known as M57 and NGC 6720, it is both relatively close to Earth at roughly 2,500 light-years away. The new images, taken by Webb’s NIRCam (Near-InfraRed Camera), provides unprecedented spatial resolution and spectral sensitivity. Credit: ESA/Webb, NASA, CSA, M. Barlow, N. Cox, R. Wesson [Left] This image from the NASA/ESA Hubble Space Telescope of the Ring Nebula was released in 2013 and has since become one of the observatory’s most well-known images. From Earth’s perspective, the nebula looks roughly elliptical. However, astronomers combined ground-based data with observations by Hubble to explore the object’s structure, evolution, physical conditions and motion. This research revealed that the nebula is shaped like a distorted doughnut. Credit: NASA, ESA, and C. Robert O’Dell (Vanderbilt University) Credit: NASA, ESA, and C. Robert O’Dell (Vanderbilt University) Usage of ESA/Hubble/Webb Images and Videos Are you a journalist? Subscribe to the ESA/Hubble/Webb Media Newsletter.",
+  "img": [
+   {
+    "id": "weic2320f",
+    "t": "Hubble’s view of the Ring Nebula (2013 image - cropped)",
+    "cr": "NASA, ESA, and C. Robert O’Dell (Vanderbilt University)",
+    "fil": "BandWavelengthTelescope Optical (Blue)Hß487 nmHubble Space TelescopeWFC3 Optical (Blue)He II469 nmHubble Space TelescopeWFC3 Optical (Green)OIII502 nmHubble Space TelescopeWFC3 Optical (Green)Continuum645 nmHubble Space TelescopeWFC3 Optical (Green)H-alpha656 nmHubble Space TelescopeWFC3 Optical (Orange)S II673 nmHubble Space TelescopeWFC3 Optical (Red)NII658 nmHubble Space TelescopeWFC3",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2320f.jpg",
+    "dims": [
+     4000,
+     3099
+    ]
+   },
+   {
+    "id": "weic2320d",
+    "t": "Webb captures detailed beauty of Ring Nebula (NIRCam image - cropped)",
+    "cr": "ESA/Webb, NASA, CSA, M. Barlow, N. Cox, R. Wesson",
+    "fil": "BandWavelengthTelescope Infrared (Blue)1.62 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)2.12 μmJames Webb Space TelescopeNIRCam Infrared (Green)3.0 μmJames Webb Space TelescopeNIRCam Infrared (Red)PAH3.35 μmJames Webb Space TelescopeNIRCam",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2320d.jpg",
+    "dims": [
+     4000,
+     3099
+    ]
+   }
+  ]
+ },
+ {
+  "s": "weic2307a",
+  "t": "Webb’s instruments feature Wolf-Rayet 124 (Slider Tool)",
+  "text": "A Wolf-Rayet star is a rare prelude to the famous final act of a massive star: the supernova. As one of its first observations in 2022, the NASA/ESA/CSA James Webb Space Telescope captured the Wolf-Rayet star WR 124 in unprecedented detail. A distinctive halo of gas and dust frames the star and glows in the infrared light detected by Webb, displaying knotty structure and a history of episodic ejections. Despite being the scene of an impending stellar ‘death’, astronomers also look to Wolf-Rayet stars for insights into new beginnings. Cosmic dust is forming in the turbulent nebulas surrounding these types of stars, dust that is composed of the heavy-element building blocks of the modern Universe, including life on Earth. The image on the left is a composite image combining near-infrared and mid-infrared wavelengths of light. The star displays the characteristic diffraction spikes of Webb’s Near-infrared Camera (NIRCam), caused by the physical structure of the telescope itself. NIRCam effectively balances the brightness of the star with the fainter gas and dust surrounding it, while Webb’s Mid-Infrared Instrument (MIRI) reveals the nebula’s structure. The image on the right showcases the object as seen by Webb’s Mid-Infrared Instrument (MIRI). Cooler cosmic dust glows at the longer mid-infrared wavelengths, displaying the structure of WR 124’s nebula. The 10 light-years-wide nebu",
+  "img": [
+   {
+    "id": "weic2307d",
+    "t": "Wolf-Rayet 124 (NIRCam and MIRI composite image)",
+    "cr": "NASA, ESA, CSA, STScI, Webb ERO Production Team",
+    "name": "WR 124",
+    "fil": "BandWavelengthTelescope Infrared (Blue)PAH7.7 μmJames Webb Space TelescopeMIRI Optical (Blue)900 nmJames Webb Space TelescopeNIRCam Infrared (Blue)1.5 μmJames Webb Space TelescopeNIRCam Infrared (Green)PAH11 μmJames Webb Space TelescopeMIRI Infrared (Green)PAH3.35 μmJames Webb Space TelescopeNIRCam Infrared (Green)methane2.1 μmJames Webb Space TelescopeNIRCam Infrared (Red)Silicate18 μmJames Webb ",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2307d.jpg",
+    "dims": [
+     4000,
+     3355
+    ]
+   },
+   {
+    "id": "weic2307e",
+    "t": "Wolf-Rayet 124 (MIRI image)",
+    "cr": "NASA, ESA, CSA, STScI, Webb ERO Production Team",
+    "name": "WR 124",
+    "fil": "BandWavelengthTelescope Infrared (Blue)PAH7.7 μmJames Webb Space TelescopeMIRI Infrared (Green)PAH11 μmJames Webb Space TelescopeMIRI Infrared (Red)12 μmJames Webb Space TelescopeMIRI Infrared (Red)Silicate18 μmJames Webb Space TelescopeMIRI",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2307e.jpg",
+    "dims": [
+     4000,
+     3355
+    ]
+   }
+  ]
+ },
+ {
+  "s": "weic2301",
+  "t": "Two views of NGC 346",
+  "text": "This slider tool showcases two views of NGC 346, one of the most dynamic star-forming regions in nearby galaxies. On the left is the region as seen by the NASA/ESA Hubble Space Telescope. On the right is the region as seen by the NASA/ESA/CSA James Webb Space Telescope Credit: NASA, ESA, CSA, STScI, A. Pagan (STScI), A. James (STScI) Usage of ESA/Hubble/Webb Images and Videos Are you a journalist? Subscribe to the ESA/Hubble/Webb Media Newsletter.",
+  "img": [
+   {
+    "id": "weic2301c",
+    "t": "NGC 346 (Hubble)",
+    "cr": "NASA, ESA, A. James (STScI)",
+    "name": "NGC 346",
+    "fil": "BandWavelengthTelescope Optical (Blue)V555 nmHubble Space TelescopeACS Optical (Red)I814 nmHubble Space TelescopeACS",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2301c.jpg",
+    "dims": [
+     3367,
+     4000
+    ]
+   },
+   {
+    "id": "weic2301d",
+    "t": "NGC 346 (Webb)",
+    "cr": "NASA, ESA, CSA, STScI, A. Pagan (STScI)",
+    "name": "NGC 346",
+    "fil": "BandWavelengthTelescope Infrared (Blue)2.0 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)2.77 μmJames Webb Space TelescopeNIRCam Infrared (Orange)PAH3.35 μmJames Webb Space TelescopeNIRCam Infrared (Red)4.44 μmJames Webb Space TelescopeNIRCam",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2301d.jpg",
+    "dims": [
+     3367,
+     4000
+    ]
+   }
+  ]
+ },
+ {
+  "s": "potm2211",
+  "t": "Galactic Get-Together",
+  "text": "The chaotic merging galaxies II ZW 96 have been examined in two distinct wavelengths in these images from the NASA/ESA Hubble Space Telescope and the NASA/ESA/CSA James Webb Space Telescope. The image on the left was taken by Hubble’s Advanced Camera for Surveys and gives a view over the visible-light spectrum of this merger, clearly showing the starburst systems that have formed between the two galactic cores with their older stars. Learn more about this image here. On the right, Webb’s image from the Near-InfraRed Camera shines particularly brightly in infrared light. The star-forming regions which have been activated by the galactic tumult are particularly luminous in the infrared, which placed ZW II 96 as one of Webb’s first targets. Learn more about this image here. Credit: ESA/Webb, NASA & CSA, L. Armus, A. Evans; the Hubble Heritage Team (STScI/AURA)-ESA/Hubble Collaboration Usage of ESA/Hubble/Webb Images and Videos Are you a journalist? Subscribe to the ESA/Hubble/Webb Media Newsletter.",
+  "img": [
+   {
+    "id": "potm2211c",
+    "t": "Galactic Get-Together",
+    "cr": "NASA, ESA, the Hubble Heritage Team (STScI/AURA)-ESA/Hubble Collaboration and A. Evans (University of Virginia, Charlottesville/NRAO/Stony Brook University)",
+    "name": "II ZW 96",
+    "fil": "BandWavelengthTelescope Optical (Blue)B435 nmHubble Space TelescopeACS Optical (Green)B435 nmHubble Space TelescopeACS Optical (Green)I814 nmHubble Space TelescopeACS Optical (Red)I814 nmHubble Space TelescopeACS",
+    "url": "https://cdn.esawebb.org/archives/images/large/potm2211c.jpg",
+    "dims": [
+     3571,
+     3271
+    ]
+   },
+   {
+    "id": "potm2211b",
+    "t": "Galactic Get-Together",
+    "cr": "ESA/Webb, NASA & CSA, L. Armus, A. Evans; the Hubble Heritage Team (STScI/AURA)-ESA/Hubble Collaboration",
+    "name": "II ZW 96",
+    "fil": "BandWavelengthTelescope Infrared (Blue)1.5 μmJames Webb Space TelescopeNIRCam Infrared (Cyan)2.0 μmJames Webb Space TelescopeNIRCam Infrared (Green)5.6 μmJames Webb Space TelescopeMIRI Infrared (Green)3.56 μmJames Webb Space TelescopeNIRCam Infrared (Red)4.4 μmJames Webb Space TelescopeNIRCam Infrared (Red)7.7 μmJames Webb Space TelescopeMIRI Infrared (Red)15 μmJames Webb Space TelescopeMIRI",
+    "url": "https://cdn.esawebb.org/archives/images/large/potm2211b.jpg",
+    "dims": [
+     3571,
+     3271
+    ]
+   }
+  ]
+ },
+ {
+  "s": "weic2307b",
+  "t": "Webb and Hubble showcase Wolf-Rayet 124 (Slider Tool)",
+  "text": "A Wolf-Rayet star is a rare prelude to the famous final act of a massive star: the supernova. A distinctive halo of gas and dust frames the star, displaying knotty structure and a history of episodic ejections. Despite being the scene of an impending stellar ‘death’, astronomers also look to Wolf-Rayet stars for insights into new beginnings. Cosmic dust is forming in the turbulent nebulas surrounding these types of stars, which is composed of the heavy-element building blocks of the modern Universe, including life on Earth. The image on the left is a composite image from the NASA/ESA/CSA James Webb Space Telescope combining near-infrared and mid-infrared wavelengths of light. The star displays the characteristic diffraction spikes of Webb’s Near-infrared Camera (NIRCam), caused by the physical structure of the telescope itself. NIRCam effectively balances the brightness of the star with the fainter gas and dust surrounding it, while Webb’s Mid-Infrared Instrument (MIRI) reveals the nebula’s structure. The image on the right is an optical image from the NASA/ESA Hubble Space Telescope. The image was taken by Hubble’s Wide Field Planetary Camera 2 and was released by ESA/Hubble in 2015. The star shines brightly at the very centre of this explosive image and around the hot clumps of gas are ejected into space at over 150 000 kilometres per hour. Credit: NASA, ESA, CSA, STScI, ESA/",
+  "img": [
+   {
+    "id": "weic2307d",
+    "t": "Wolf-Rayet 124 (NIRCam and MIRI composite image)",
+    "cr": "NASA, ESA, CSA, STScI, Webb ERO Production Team",
+    "name": "WR 124",
+    "fil": "BandWavelengthTelescope Infrared (Blue)PAH7.7 μmJames Webb Space TelescopeMIRI Optical (Blue)900 nmJames Webb Space TelescopeNIRCam Infrared (Blue)1.5 μmJames Webb Space TelescopeNIRCam Infrared (Green)PAH11 μmJames Webb Space TelescopeMIRI Infrared (Green)PAH3.35 μmJames Webb Space TelescopeNIRCam Infrared (Green)methane2.1 μmJames Webb Space TelescopeNIRCam Infrared (Red)Silicate18 μmJames Webb ",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2307d.jpg",
+    "dims": [
+     4000,
+     3355
+    ]
+   },
+   {
+    "id": "weic2307f",
+    "t": "Hubble’s view of Wolf-Rayet 124",
+    "cr": "ESA/Hubble and NASA",
+    "name": "WR 124",
+    "fil": "BandWavelengthTelescope Optical (Blue)V555 nmHubble Space TelescopeWFPC2 Optical (Green)V555 nmHubble Space TelescopeWFPC2 Optical (Green)S II675 nmHubble Space TelescopeWFPC2 Optical (Orange)S II675 nmJames Webb Space TelescopeWFPC2 Optical (Red)H-alpha656 nmHubble Space TelescopeWFPC2",
+    "url": "https://cdn.esawebb.org/archives/images/publicationjpg/weic2307f.jpg",
+    "dims": [
+     4000,
+     3355
+    ]
+   }
+  ]
+ },
+ {
+  "s": "weic2218a",
+  "t": "Webb’s Instruments Showcase the Pillars of Creation (Slider Tool)",
+  "text": "The NASA/ESA/CSA James Webb Space Telescope has revealed two new views of the Pillars of Creation, which was made famous by the NASA/ESA Hubble Space Telescope in 1995, and again in 2014. On the left is Webb’s Mid-Infrared Instrument (MIRI) image. Interstellar dust cloaks the scene. And while mid-infrared light specialises in detailing where dust is, the stars aren’t bright enough at these wavelengths to appear. Instead, these looming, leaden-hued pillars of gas and dust gleam at their edges, hinting at the activity within. Learn more about this image here. On the right is Webb’s Near-Infrared Camera (NIRCam) image, where newly formed protostars are the scene-stealers. These are the bright red orbs that typically have diffraction spikes and lie outside one of the dusty pillars. Learn more about this image here. Credit: NASA, ESA, CSA, STScI; J. DePasquale (STScI), A. Pagan (STScI), A. Koekemoer (STScI) Usage of ESA/Hubble/Webb Images and Videos Are you a journalist? Subscribe to the ESA/Hubble/Webb Media Newsletter.",
+  "img": [
+   {
+    "id": "weic2218c",
+    "t": "Webb’s Instruments Showcase the Pillars of Creation (MIRI)",
+    "cr": "NASA, ESA, CSA, STScI, J. DePasquale (STScI), A. Pagan (STScI)",
+    "fil": "",
+    "url": "https://cdn.esawebb.org/archives/images/large/weic2218c.jpg",
+    "dims": [
+     1931,
+     1817
+    ]
+   },
+   {
+    "id": "weic2218d",
+    "t": "Webb’s Instruments Showcase the Pillars of Creation (NIRCam)",
+    "cr": "NASA, ESA, CSA, STScI; J. DePasquale, A. Koekemoer, A. Pagan (STScI).",
+    "fil": "",
+    "url": "https://cdn.esawebb.org/archives/images/large/weic2218d.jpg",
+    "dims": [
+     1931,
+     1817
+    ]
+   }
+  ]
+ }
+]

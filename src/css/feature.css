@@ -35,3 +35,11 @@ figcaption.credit a{color:var(--ink-2)}
 .actions{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 28px;margin:14px 0 0}
 @media (max-width:600px){.actions{gap:0 20px}}
 @media (max-width:600px){.dateline .rollover{margin-left:0;flex-basis:100%}}
+.stage.sharpening::after{content:"Loading the full-size image…";position:absolute;left:12px;bottom:8px;font:400 .72rem var(--mono);color:rgba(233,228,216,.6)}
+.dl-wrap{position:relative;display:inline-block}
+.dl-menu{position:absolute;z-index:5;left:0;top:100%;min-width:18rem;display:flex;flex-direction:column;align-items:flex-start;padding:10px 16px 12px;background:var(--paper);box-shadow:0 10px 30px rgba(0,0,0,.6)}
+.dl-menu[hidden]{display:none}
+.dl-menu button{min-height:32px;padding:3px 0}
+.dl-terms{margin:8px 0 0;font-size:.8rem;color:var(--ink-3);max-width:24rem}
+.dl-note{margin:8px 0 0;font-size:.9rem;font-style:italic;color:var(--ink-2);max-width:70ch}
+@media (max-width:600px){.dl-menu{position:fixed;left:16px;right:16px;top:auto;bottom:16px;min-width:0}}

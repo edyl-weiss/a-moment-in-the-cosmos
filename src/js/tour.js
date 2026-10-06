@@ -11,6 +11,7 @@ let stops = null, i = 0;
 function go(n) {
   i = n;
   const s = stops[i];
+  card.classList.remove('turn'); void card.offsetWidth; card.classList.add('turn');
   $('#tourStep').textContent = `Stop ${i + 1} of ${stops.length}`;
   $('#tourTitle').textContent = s.title;
   $('#tourText').textContent = s.text;
@@ -38,6 +39,11 @@ export function startTour(opener) {
 $('#tourPrev').addEventListener('click', () => go(Math.max(0, i - 1)));
 $('#tourNext').addEventListener('click', () => (i < stops.length - 1 ? go(i + 1) : end()));
 $('#tourEnd').addEventListener('click', end);
+window.addEventListener('keydown', (e) => {
+  if (!stops || e.target.closest('input,select,textarea')) return;
+  if (e.key === 'ArrowRight' && i < stops.length - 1) { e.preventDefault(); e.stopImmediatePropagation(); go(i + 1); }
+  if (e.key === 'ArrowLeft' && i > 0) { e.preventDefault(); e.stopImmediatePropagation(); go(i - 1); }
+}, true);
 $('#tourBtn').addEventListener('click', (e) => startTour(e.currentTarget));
 document.addEventListener('viewer:close', () => { stops = null; card.hidden = true; });
 document.addEventListener('photo:change', ({ detail: { item } }) => {
