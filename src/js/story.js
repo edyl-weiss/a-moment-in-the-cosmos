@@ -5,39 +5,52 @@ import { $, esc } from './util.js';
 const MIN_EXPLORE_WORDS = 20;   // under ~two sentences
 const words = (paras) => paras.join(' ').split(/\s+/).filter(Boolean).length;
 const list = (sources) => sources.map(([t, u]) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}</a></li>`).join('');
-const missing = (t) => `<span class="missing">${esc(t)}</span>`;
-const orMissing = (t) => (/not published/i.test(t) ? missing(t) : esc(t));
+
+// The scale lines were generated from catalogue fields; say the result, not the working.
+function plainScale(t) {
+  return t
+    .replace(/^Using the source's listed field of view \([^)]*\) and distance \([^)]*\), the frame spans roughly ([^.]+)\./, 'The frame is roughly $1 across.')
+    .replace(/Its light set out about (.+?) years before reaching the telescope\./, 'Its light set out about $1 years ago.')
+    .replace(/^The source lists a distance of [^,]+, so the light in this picture set out/, 'The light in this picture set out')
+    .replace(/, according to the caption\./, '.');
+}
 
 function behind(item, dims) {
   const b = item.behind;
   const filters = item.understand.filters.length
     ? item.understand.filters.map((f) => esc(f[0])).join('; ')
-    : missing('Not applicable / not published (camera photograph).');
+    : '';
+  const known = (v) => v && !/not published|unavailable|not applicable/i.test(v);
   const rows = [
     ['Photographer / team', esc(b.people)],
     ['Observatory or site', esc(b.observatory)],
     ['Instrument', esc(b.instrument)],
-    ['Capture date', item.captureDate ? esc(item.captureDate) : missing('Capture date unavailable')],
+    ['Taken', item.captureDate ? esc(item.captureDate) : ''],
     ['Release date', esc(item.releaseDate)],
-    ['Exposure', orMissing(b.exposure)],
+    ['Exposure', known(b.exposure) ? esc(b.exposure) : ''],
     ['Filters / wavelengths', filters],
     ['Image type', esc(b.technique)],
-    ['Processing', orMissing(b.processing)],
-    ['Original dimensions', `${item.img.origW.toLocaleString('en')} × ${item.img.origH.toLocaleString('en')} px (per source)`],
-    ['Shown on this page', `${dims.w} × ${dims.h} px (measured in your browser)`],
+    ['Processing', known(b.processing) ? esc(b.processing) : ''],
+    ['Original dimensions', `${item.img.origW.toLocaleString('en')} × ${item.img.origH.toLocaleString('en')} px`],
     ['Full credit', esc(item.credit)],
     ['Usage rights', `<a href="${esc(RIGHTS[item.org].url)}" target="_blank" rel="noopener">${esc(RIGHTS[item.org].label)}</a>`],
     ['Source page', `<a href="${esc(item.source)}" target="_blank" rel="noopener">${esc(item.source.replace(/^https:\/\//, ''))}</a>`]
   ];
-  return rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('');
+  return rows.filter(([, v]) => v).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('');
 }
 
 document.addEventListener('photo:change', ({ detail: { item, dims } }) => {
   $('#story').innerHTML = item.story.map((p) => `<p>${esc(p)}</p>`).join('');
   $('#scaleBox').hidden = !item.scale;
-  $('#scaleText').textContent = item.scale || '';
-  $('#celestial').textContent = item.celestial;
-  $('#recognition').innerHTML = esc(item.recognition.text);
+  $('#scaleText').textContent = plainScale(item.scale || '');
+  const where = item.celestial.replace(/ \(source figure\)/g, '');
+  const unknownWhere = /not published|does not name/i.test(where);
+  $('#celestial').textContent = unknownWhere ? '' : where;
+  $('#celestial').hidden = $('#celestial').previousElementSibling.hidden = unknownWhere;
+  // Keep the observatory's own honour; drop the boilerplate disclaimers after it.
+  const rec = item.recognition.text.replace(/\s*\((?:an )?editorial selection[^)]*\)/gi, '').replace(/\s*No published (?:audience )?rating\.?/gi, '').trim();
+  $('#recognition').textContent = rec;
+  $('#recognition').hidden = $('#recognition').previousElementSibling.hidden = !rec;
   $('#sourcesList').innerHTML = list(item.sources);
   $('#exploreBody').innerHTML = item.explore.map((p) => `<p>${esc(p)}</p>`).join('') +
     `<p><strong>Further reading</strong></p><ul>${list(item.sources)}</ul>`;

@@ -16,7 +16,7 @@ export function tile({ id, title, cat, thumb, sub, onOpen, onRemove }) {
     (onRemove ? `<button class="remove" type="button" aria-label="Remove ${esc(title)} from favorites">Remove</button>` : '');
 
   const img = el.querySelector('img');
-  img.addEventListener('error', () => img.replaceWith(Object.assign(document.createElement('span'), { className: 'missing', textContent: 'Preview unavailable' })));
+  img.addEventListener('error', () => img.replaceWith(Object.assign(document.createElement('span'), { className: 'missing', textContent: 'No preview' })));
   if (available) el.querySelector('.open').addEventListener('click', onOpen);
   if (onRemove) el.querySelector('.remove').addEventListener('click', onRemove);
   return el;

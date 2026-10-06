@@ -67,7 +67,7 @@ async function open() {
     say(`Comparison open: ${c.left.label} on the left, ${c.right.label} on the right. Use the slider to reveal each.`);
   } catch {
     if (mine !== token) return;
-    $('#cmpNote').textContent = 'The comparison images could not be loaded from ESA/Webb right now.';
+    $('#cmpNote').textContent = 'The comparison images wouldn’t load from ESA/Webb. Try again in a moment.';
   } finally {
     if (mine === token) $('#stage').classList.remove('loading');
   }

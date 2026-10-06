@@ -220,3 +220,90 @@ select { min-height: 40px; }
 .labels .tc { position: absolute; width: 40px; height: 40px; margin: -20px 0 0 -20px; border: 2px solid #ffd84a; border-radius: 50%; box-shadow: 0 0 0 1px #000; }
 .labels .tc b, .labels .tc { font: 500 .7rem/1 'IBM Plex Mono', monospace; color: #ffd84a; text-shadow: 0 0 3px #000; white-space: nowrap; }
 .labels .tc { text-indent: 46px; line-height: 36px; }
+
+/* ── On this day / About: tidy bands ───────────────────────────── */
+/* The tinted band reaches the screen edges while the content keeps the page's gutter. */
+#onthisday, #about { box-shadow: 0 0 0 100vmax var(--band); clip-path: inset(0 -100vmax); }
+section { padding-block: clamp(3rem, 6vw, 5.5rem); }
+section > .section-head { margin-top: 0; }
+#onthisday .section-head, #about .section-head { border-top: 0; padding-top: 0; }
+
+/* Header: small kicker, big date, one line of context, then the controls */
+#onthisday .section-head { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 1rem 2rem; margin-bottom: clamp(1.8rem, 3.5vw, 2.8rem); }
+#otdHead { font: 500 .72rem/1 'IBM Plex Mono', monospace; letter-spacing: .16em; text-transform: uppercase; color: var(--red); }
+#onthisday .otd-date { margin: .5rem 0 .4rem; font-style: italic; color: var(--ink); }
+#onthisday .section-head p:not(.otd-date) { margin: 0; font-size: .98rem; }
+#onthisday .otd-nav { align-items: center; justify-content: flex-end; gap: .2rem 1rem; }
+#onthisday .otd-nav button { min-height: 40px; }
+@media (max-width: 760px) {
+  #onthisday .section-head { grid-template-columns: minmax(0, 1fr); }
+  #onthisday .otd-nav { justify-content: flex-start; }
+}
+
+/* Two columns that never spill: events on the left, photographs on the right */
+.otd-grid { gap: 2.4rem clamp(2rem, 5vw, 4.5rem); }
+.otd-grid > * { min-width: 0; }
+.otd-grid h3 { font: 500 .7rem/1.4 'IBM Plex Mono', monospace !important; font-style: normal !important; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 1rem !important; padding-bottom: .6rem; border-bottom: 1px solid var(--rule); }
+#otdEvents li { grid-template-columns: 4.2rem minmax(0, 1fr); gap: 0 1.1rem; padding: 0 0 1.4rem; margin: 0 0 1.4rem; border-bottom: 1px solid var(--rule); border-top: 0; }
+#otdEvents li:last-child { border-bottom: 0; margin-bottom: 0; }
+#otdEvents .yr { font-size: 1.35rem; text-align: left; }
+#otdEvents li > div { min-width: 0; overflow-wrap: anywhere; }
+#otdEvents li p { margin: 0 0 .45rem; }
+#otdEvents .ev-photos, #otdEvents .ev-find { font-size: .95rem; line-height: 1.5; }
+#otdEvents .ev-photos button, #otdEvents .ev-find button { display: inline; min-height: 0; padding: 0; text-align: left; }
+#otdEvents .ev-photos { line-height: 1.9; }
+#otdEvents .ev-photos .rel { font: .66rem/1.4 'IBM Plex Mono', monospace; font-style: normal; margin-left: .4rem; white-space: nowrap; }
+#otdEvents .ev-photos::before { content: 'Related photographs'; display: block; font: 500 .64rem/1.4 'IBM Plex Mono', monospace; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); margin-top: .6rem; }
+#otdEvents .ev-find .rel { display: block; font-style: normal; font: .68rem/1.5 'IBM Plex Mono', monospace; }
+#otdEvents .ev-src a { overflow-wrap: anywhere; }
+@media (max-width: 560px) { #otdEvents li { grid-template-columns: minmax(0, 1fr); } #otdEvents .yr { margin-bottom: .15rem; } }
+
+#onthisday .grid.small { grid-template-columns: repeat(auto-fill, minmax(min(150px, 100%), 1fr)); }
+@media (max-width: 560px) { #onthisday .grid.small { grid-template-columns: repeat(3, minmax(0, 1fr)); } #onthisday .grid .sub { font-size: .62rem; } #onthisday .grid .t, #onthisday .grid h3, #onthisday .grid figcaption { font-size: .85rem; } }
+#onthisday .otd-nav { padding-right: 2px; }
+#onthisday .grid .sub { overflow-wrap: anywhere; }
+.otd-near-head { margin-top: 2rem !important; }
+
+/* On this day: a few constellations drawn faintly behind the heading, like an old star atlas */
+#onthisday { position: relative; isolation: isolate; }
+.otd-sky { position: absolute; inset: 0 calc(-1 * var(--gutter)) auto; height: min(640px, 100%); z-index: -1; pointer-events: none; overflow: hidden;
+  -webkit-mask: linear-gradient(#000 55%, transparent); mask: linear-gradient(#000 55%, transparent); }
+.otd-sky svg { width: 100%; height: 100%; display: block; }
+.otd-sky .cl line { stroke: var(--ink-3); stroke-width: 1; opacity: .45; stroke-dasharray: 400; stroke-dashoffset: 0; }
+.otd-sky .cs circle { fill: var(--ink-2); opacity: .7; }
+.otd-sky .cst-orion .cs circle:first-child, .otd-sky .cst-orion .cs circle:nth-child(7) { fill: var(--red); opacity: .8; }   /* Betelgeuse warm, Rigel bright */
+.otd-sky .cst-orion .cs circle:nth-child(7) { fill: var(--ink); }
+/* Drawn in once, line by line, the first time the section comes into view */
+.otd-sky.draw .cl line { stroke-dashoffset: 400; animation: draw 2.4s cubic-bezier(.4,.1,.2,1) forwards; }
+.otd-sky.draw .cs circle { opacity: 0; animation: starIn .8s ease forwards; }
+.otd-sky.draw .cst-dipper line, .otd-sky.draw .cst-dipper circle { animation-delay: .5s; }
+.otd-sky.draw .cst-cass line, .otd-sky.draw .cst-cass circle { animation-delay: 1s; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+@keyframes starIn { to { opacity: .7; } }
+@media (max-width: 760px) { .otd-sky { inset: 0 calc(-1 * var(--gutter)) auto; opacity: .8; } .otd-sky svg { width: 360%; margin-left: -262%; } .otd-sky .cst-dipper, .otd-sky .cst-cass { display: none; } }
+html, body { overflow-x: clip; }
+@media (prefers-reduced-motion: reduce) { .otd-sky.draw .cl line { stroke-dashoffset: 0; } .otd-sky.draw .cs circle { opacity: .7; } }
+
+/* ── Less template, more book ────────────────────────────────────
+   Small labels were tracked-out monospace capitals everywhere, which reads as a UI kit.
+   They now use the text face in small capitals, like running heads in a printed almanac.
+   Monospace stays only where it means something: credits, dimensions and catalogue data. */
+.dateline, #otdHead, .otd-grid h3, .notes dt, .notes h3, .notes h4, #understandPanel h3,
+.discover #discoverHead, .otd-teaser .k, .act-secondary button, .act-secondary .btn,
+#otdEvents .ev-photos::before, .cmp-note summary, #understandBody summary, .scale .label {
+  font-family: Spectral, Georgia, serif !important; font-variant: all-small-caps; text-transform: none !important;
+  letter-spacing: .05em !important; font-size: 1rem !important; font-weight: 400 !important; line-height: 1.4 !important;
+}
+.dateline { font-size: .95rem !important; }
+.dateline .when { font-style: italic; font-variant: normal; letter-spacing: 0; }
+#otdHead, .discover #discoverHead, .otd-teaser .k { color: var(--red); font-size: 1.05rem !important; }
+.act-secondary button, .act-secondary .btn { color: var(--ink-2); font-size: 1.02rem !important; }
+.otd-grid h3 { color: var(--ink-2); }
+.notes dt { color: var(--ink-3); font-size: .98rem !important; }
+#otdEvents .ev-photos::before { content: 'Photographs'; color: var(--ink-3); }
+#otdEvents .rel, #otdEvents .ev-find .rel { font: italic .9rem/1.4 Spectral, serif !important; color: var(--ink-3); }
+.cmp-hint, .cmp-tag { font-family: Spectral, serif !important; text-transform: none !important; letter-spacing: .02em !important; font-size: .9rem !important; font-style: italic; }
+.count { font: italic .9rem Spectral, serif; color: var(--ink-3); }
+.empty-state { padding: 2rem 0; text-align: left; font-style: italic; color: var(--ink-2); max-width: 34rem; }
+#understandBody summary::before, .cmp-note summary::before { content: '›'; transform: none; }
+#understandBody details[open] > summary::before, .cmp-note details[open] > summary::before { transform: rotate(90deg); }

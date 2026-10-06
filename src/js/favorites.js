@@ -24,12 +24,12 @@ export function renderGrid() {
   const grid = $('#favGrid');
   grid.innerHTML = '';
   if (!store.ok) {
-    grid.innerHTML = '<p class="empty">Local storage is unavailable in this browser (for example in some private modes), so favorites can’t be saved.</p>';
+    grid.innerHTML = '<p class="empty">This browser isn’t letting the site store anything (private mode can do this), so favorites won’t stick.</p>';
     return;
   }
   const list = all();
   if (!list.length) {
-    grid.innerHTML = '<div class="empty-state"><span class="mark" aria-hidden="true">✦</span><h3>Your shelf of the sky is empty</h3><p>When a photograph stays with you, choose “Save to favorites” beneath it. It will wait here, on this device, for whenever you want to look again.</p></div>';
+    grid.innerHTML = '<p class="empty-state">Nothing saved yet. Hit “Save to favorites” under any photograph and it’ll turn up here.</p>';
     return;
   }
   for (const f of list) {

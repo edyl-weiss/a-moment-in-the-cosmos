@@ -39,9 +39,8 @@ export const countFor = (q) => {
 
 function renderDaily(grid) {
   const today = todayIndex();
-  $('#archiveNote').textContent = `Every daily feature since this page launched on ${fmtDate(dateOf(0))}. ` +
-    (today === 0 ? 'Today is the first day, so the archive will grow from here.' : `${today + 1} days recorded.`) +
-    ' Search above to look through the whole collection.';
+  $('#archiveNote').textContent = `Every day’s photograph since the site launched on ${fmtDate(dateOf(0))}. ` +
+    'Search to browse the whole collection.';
   for (let i = today; i >= 0; i--) {
     const it = INDEX_BY_ID[dailyId(i)];
     if (!it) continue;
@@ -58,7 +57,7 @@ function renderResults(grid) {
   $('#archiveHead').textContent = 'Search the collection';
   $('#archiveNote').textContent = hits.length
     ? `${hits.length.toLocaleString('en')} photograph${hits.length === 1 ? '' : 's'} match.`
-    : 'Nothing in the collection matches. Try fewer words, or clear a filter.';
+    : 'No matches. Try fewer words, or clear a filter.';
   for (const it of hits.slice(0, F.shown)) {
     grid.appendChild(tile({
       id: it.id, title: it.title, cat: it.cat, thumb: it.thumb,

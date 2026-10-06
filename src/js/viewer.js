@@ -128,7 +128,7 @@ function loadFull() {
   im.onerror = () => {
     btn.disabled = false;
     btn.textContent = 'Retry full resolution';
-    $('#vStatus').textContent = 'The full-resolution file could not be loaded; the smaller version is still shown.';
+    $('#vStatus').textContent = 'The full-resolution file wouldn’t load, so you’re still seeing the smaller one.';
   };
   im.src = it.img.large;
 }

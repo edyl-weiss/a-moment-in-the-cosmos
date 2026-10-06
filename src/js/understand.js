@@ -10,17 +10,21 @@ function table(filters) {
   return `<table class="filters"><thead><tr><th scope="col">Wavelength / filter</th><th scope="col">Shown as</th></tr></thead><tbody>${rows}</tbody></table>`;
 }
 
+// Sentences that only say a detail wasn't published add nothing for a reader; leave them out.
+const NOT_SAID = /isn['’]t published|is not published|are not published|does not name|doesn['’]t (?:list|name|say)|not specified/i;
+const plain = (t) => (t || '').split(/(?<=\.)\s+/).filter((s) => !NOT_SAID.test(s)).join(' ');
+
 document.addEventListener('photo:change', ({ detail: { item } }) => {
-  const u = item.understand;
+  const u = { ...item.understand, summary: plain(item.understand.summary), eye: plain(item.understand.eye) };
   const marked = item.labels.length
-    ? `<p><strong>Marked on the photograph:</strong> ${item.labels.map((l) => esc(l.text)).join('; ')}. Positions come from the source’s own description.</p>`
-    : '<p class="missing">No verified positional data is available for an overlay on this photograph, so the explanation is given in text only.</p>';
+    ? `<p>${item.labels.map((l) => esc(l.text)).join('; ')}.</p>`
+    : '';
   const more = [
     u.filters.length && `<details><summary>How the colours were made</summary>${table(u.filters)}</details>`,
     u.eye && `<details><summary>What your eye would see</summary><p>${esc(u.eye)}</p></details>`,
-    `<details><summary>What is marked on the photograph</summary>${marked}</details>`,
+    marked && `<details><summary>What’s marked on the photograph</summary>${marked}</details>`,
   ].filter(Boolean).join('');
-  $('#understandBody').innerHTML = `<p class="lede">${esc(u.summary)}</p>${more}`;
+  $('#understandBody').innerHTML = (u.summary ? `<p class="lede">${esc(u.summary)}</p>` : '') + more;
   $('#labels').innerHTML = item.labels.map((l) =>
     `<span class="lbl${l.x > 62 ? ' flip' : ''}" style="left:${l.x}%;top:${l.y}%"><i></i><b>${esc(l.text)}</b></span>`).join('');
 });

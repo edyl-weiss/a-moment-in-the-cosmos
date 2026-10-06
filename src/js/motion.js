@@ -79,3 +79,19 @@ function restart(el, cls) {
   el.classList.add(cls);
   el.addEventListener('animationend', () => el.classList.remove(cls), { once: true });
 }
+
+// 7 · On this day: its constellations draw themselves in the first time the section is seen.
+{
+  const sky = $('.otd-sky');
+  if (sky && 'IntersectionObserver' in window && !calm()) {
+    sky.classList.add('draw');
+    sky.style.animationPlayState = 'paused';
+    sky.querySelectorAll('line, circle').forEach((el) => { el.style.animationPlayState = 'paused'; });
+    const io = new IntersectionObserver(([e]) => {
+      if (!e.isIntersecting) return;
+      sky.querySelectorAll('line, circle').forEach((el) => { el.style.animationPlayState = 'running'; });
+      io.disconnect();
+    }, { threshold: .2 });
+    io.observe(sky.parentElement);
+  }
+}

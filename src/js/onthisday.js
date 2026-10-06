@@ -9,7 +9,7 @@ import { onDateLink, setDateHash } from './links.js';
 
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const LENGTH = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];            // 29 February is a real day here
-const RELATION = { object: 'shows this object', telescope: 'taken with this telescope', site: 'taken at this site' };
+const RELATION = { object: '', telescope: 'same telescope', site: 'same observatory' };
 
 let DAYS = null, month = 0, day = 1;
 const key = (m, d) => `${String(m + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
@@ -37,10 +37,10 @@ function eventHtml(e, i) {
   const photos = e.photos.filter(([id]) => INDEX_BY_ID[id]);
   const links = photos.length
     ? `<p class="ev-photos">${photos.map(([id, rel], j) =>
-        `<button type="button" data-ev="${i}" data-photo="${j}">${esc(INDEX_BY_ID[id].title)}</button> <span class="rel">(${RELATION[rel]})</span>`).join('<br>')}</p>`
+        `<button type="button" data-ev="${i}" data-photo="${j}">${esc(INDEX_BY_ID[id].title)}</button> ${RELATION[rel] ? `<span class="rel">${RELATION[rel]}</span>` : ''}`).join('<br>')}</p>`
     : '';
   const obj = objectOf(e.text);
-  const find = obj ? `<p class="ev-find"><button type="button" data-find="${esc(obj[0])}">All photographs of ${esc(obj[0])}</button> <span class="rel">(${obj[1]} in the collection, any date)</span></p>` : '';
+  const find = obj ? `<p class="ev-find"><button type="button" data-find="${esc(obj[0])}">All photographs of ${esc(obj[0])}</button> <span class="rel">${obj[1]} photographs</span></p>` : '';
   return `<li><span class="yr">${year(e.year)}</span><div><p>${esc(e.text)}</p>` +
     `<p class="ev-src"><a href="${esc(e.source[1])}" target="_blank" rel="noopener">${esc(e.source[0])}</a></p>${links}${find}</div></li>`;
 }
@@ -56,7 +56,7 @@ function render() {
   const events = $('#otdEvents');
   events.innerHTML = entry.events.length
     ? entry.events.map(eventHtml).join('')
-    : `<li class="none"><p class="empty">No event for ${esc(label(month, day))} could be confirmed against a source, so none is shown.</p></li>`;
+    : `<li class="none"><p class="empty">Nothing on record for ${esc(label(month, day))} yet.</p></li>`;
   events.querySelectorAll('button[data-ev]').forEach((b) => b.addEventListener('click', () => {
     const [id] = entry.events[b.dataset.ev].photos.filter(([x]) => INDEX_BY_ID[x])[b.dataset.photo];
     open(id, month, day);
@@ -93,9 +93,7 @@ function renderNear(have) {
       for (const [y, id] of (DAYS[key(m, d)]?.published || [])) if (INDEX_BY_ID[id]) picks.push([m, d, y, id]);
     }
   }
-  $('#otdNearNote').textContent = have
-    ? `Only ${have === 1 ? 'one photograph in the collection was' : `${have} photographs in the collection were`} published on ${label(month, day)}, so photographs from the nearest dates follow.`
-    : `No photograph in the collection was published on ${label(month, day)}, so these come from the nearest dates.`;
+  $('#otdNearNote').textContent = `Not much was released on ${label(month, day)}, so here are a few from the days either side.`;
   for (const [m, d, y, id] of picks) {
     const it = INDEX_BY_ID[id];
     grid.appendChild(tile({ id, title: it.title, cat: it.cat, thumb: it.thumb, sub: `${label(m, d)} ${y} · ${ORG[it.org]}`, onOpen: () => open(id, m, d) }));

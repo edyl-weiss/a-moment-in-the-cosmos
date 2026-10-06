@@ -56,12 +56,12 @@ export async function show(id, ctx, { push = true, notice = '' } = {}) {
     if (alt) {
       return show(alt, { ...ctx, standIn: title }, {
         push,
-        notice: `“${title}” could not be shown: ${err.message}${org ? ` (${SOURCE[org]})` : ''}. Showing a previously verified photograph from the collection instead.`
+        notice: `“${title}” wouldn’t load${org ? ` from ${SOURCE[org]}` : ''}, so here’s another photograph instead.`
       });
     }
     $('#stage').classList.remove('loading');
-    $('#photoTitle').textContent = 'Photographs are unavailable right now';
-    setNotice('Photographs can’t be loaded from ESA/Hubble, ESA/Webb, ESO, NOIRLab or NASA right now. Check your connection and try again. No substitute images are shown.');
+    $('#photoTitle').textContent = 'The photographs aren’t loading';
+    setNotice('None of the observatories’ image servers are answering right now. Check your connection and try again in a bit.');
   } finally {
     if (mine === token) emit('photo:busy', false);
   }
@@ -114,14 +114,14 @@ function setNotice(text) {
 }
 
 function contextLine(item, ctx) {
-  if (ctx.standIn) return `Standing in for “${ctx.standIn}”`;
+  if (ctx.standIn) return `In place of “${ctx.standIn}”`;
   if (ctx.mode === 'daily') return 'Today’s photograph';
   if (ctx.mode === 'archive') return `From the archive, ${fmtDate(dateOf(ctx.day))}`;
   if (ctx.mode === 'favorite') return 'From your favorites';
   if (ctx.mode === 'onthisday') return `On this day, ${ctx.label}`;
   if (ctx.mode === 'link') return 'Shared photograph';
   if (ctx.mode === 'search') return 'From the collection';
-  return 'Chosen at random';
+  return 'A random pick';
 }
 
 function render(item, ctx, dims) {
@@ -140,10 +140,10 @@ function render(item, ctx, dims) {
   $('#photoTitle').textContent = item.title;
   $('#caption').innerHTML = item.captureShort
     ? `${esc(item.caption)}, <span class="date">${esc(item.captureShort)}</span>. Released ${esc(item.releaseDate)}.`
-    : `${esc(item.caption)}. <span class="date">Capture date unavailable</span> · Released ${esc(item.releaseDate)}.`;
+    : `${esc(item.caption)}. Released ${esc(item.releaseDate)}.`;
   $('#creditLine').innerHTML = `<strong>Credit:</strong> ${esc(item.credit)} · <a href="${esc(item.source)}" target="_blank" rel="noopener">Source</a> · ${esc(RIGHTS[item.org].short)}`;
   $('#sourceLink').href = item.source;
-  $('#rights').innerHTML = `<a href="${esc(RIGHTS[item.org].url)}" target="_blank" rel="noopener">${esc(RIGHTS[item.org].label)}</a>. The full credit line must stay visible with the image.`;
+  $('#rights').innerHTML = `<a href="${esc(RIGHTS[item.org].url)}" target="_blank" rel="noopener">${esc(RIGHTS[item.org].label)}</a>. If you use it, keep the credit with it.`;
   requestAnimationFrame(() => $('#stage').classList.remove('loading', 'sharpening'));
 }
 
