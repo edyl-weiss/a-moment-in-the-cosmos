@@ -7,7 +7,7 @@ const calm = reducedMotion;
 // 1 · Iris: a new photograph opens like an aperture, from wherever the visitor clicked.
 let origin = null, first = true;
 document.addEventListener('pointerdown', (e) => {
-  if (e.target.closest('[data-random], #prevBtn, #backToday, .tile, .grid button, .grid a, .events button, #vPrevDay, #vNextDay')) {
+  if (e.target.closest('[data-random], #prevBtn, #nextBtn, #backToday, .tile, .grid button, .grid a, .events button, #vPrevDay, #vNextDay')) {
     origin = [e.clientX, e.clientY];
   }
 }, true);

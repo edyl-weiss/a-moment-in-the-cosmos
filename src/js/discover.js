@@ -1,4 +1,4 @@
-// Random discovery by category, Surprise Me, Back to today and Previous image.
+// Random discovery by category, Surprise Me, Back to Today and Previous image.
 import { $, $$, CAT, todayIndex, dailyId } from './util.js';
 import { state, show, back } from './feature.js';
 import { INDEX } from './collection.js';
@@ -42,7 +42,20 @@ $('#prevBtn').addEventListener('click', () => {
   }
   scrollToFeature();
 });
-const syncPrev = (busy = false) => { $('#prevBtn').disabled = busy || (prevDay() === null && (onDay() || !state.history.length)); };
+// Next: one day forward through the daily archive, up to today's photograph.
+function nextDay() {
+  if (!onDay()) return null;
+  const d = state.ctx.day + 1;
+  return d <= todayIndex() ? d : null;
+}
+$('#nextBtn').addEventListener('click', () => {
+  const d = nextDay();
+  if (d === null) return;
+  show(dailyId(d), d === todayIndex() ? { mode: 'daily', day: d } : { mode: 'archive', day: d });
+  scrollToFeature();
+});
+const syncPrev = (busy = false) => {
+  $('#nextBtn').hidden = onDay() && state.ctx.day === todayIndex(); $('#nextBtn').disabled = busy || nextDay() === null; $('#prevBtn').disabled = busy || (prevDay() === null && (onDay() || !state.history.length)); };
 document.addEventListener('photo:change', () => syncPrev());
 
 document.addEventListener('photo:busy', ({ detail: busy }) => {
