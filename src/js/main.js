@@ -1,5 +1,6 @@
 // Entry point. Importing a module wires up its own listeners; boot order is below.
 import './router.js';
+import { inject } from './vendor/vercel-analytics.js';
 import { $, todayIndex, dailyId, dateOf } from './util.js';
 import { show, fitFrame } from './feature.js';
 import { loadIndex, INDEX } from './collection.js';
@@ -33,3 +34,6 @@ await initOnThisDay();
 // A shared link (#photo-id or #on-MM-DD) opens that view; otherwise today's photograph.
 const linkedPhoto = location.hash && openFromHash({ scroll: true });
 if (!linkedPhoto || /^#on-/.test(location.hash)) show(dailyId(issue), { mode: 'daily', day: issue }, { push: false });
+
+// Vercel Web Analytics: page views, counted only on the live site (the script is served by Vercel).
+if (!/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) inject();

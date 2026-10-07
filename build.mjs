@@ -35,5 +35,7 @@ write('css/site.css', css.replace(/^\/\* Import list[^\n]*\n/, ''));
 
 cpSync(join(SRC, 'js'), join(OUT, 'js'), { recursive: true });
 cpSync(join(SRC, 'data'), join(OUT, 'data'), { recursive: true });
+// Vercel Web Analytics (npm i @vercel/analytics): its browser build is self-contained, so it's copied as is.
+cpSync('node_modules/@vercel/analytics/dist/index.mjs', join(OUT, 'js/vendor/vercel-analytics.js'));
 
 console.log(`built ${OUT}/ — ${counts.photos} photographs, ${counts.tours} tours, ${counts.comparisons} comparisons`);
