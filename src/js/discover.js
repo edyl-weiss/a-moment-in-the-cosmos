@@ -55,7 +55,7 @@ $('#nextBtn').addEventListener('click', () => {
   scrollToFeature();
 });
 const syncPrev = (busy = false) => {
-  $('#nextBtn').hidden = onDay() && state.ctx.day === todayIndex(); $('#nextBtn').disabled = busy || nextDay() === null; $('#prevBtn').disabled = busy || (prevDay() === null && (onDay() || !state.history.length)); };
+  $('#nextBtn').hidden = onDay() && state.ctx.day >= todayIndex() - 1; $('#nextBtn').disabled = busy || nextDay() === null; $('#prevBtn').disabled = busy || (prevDay() === null && (onDay() || !state.history.length)); };
 document.addEventListener('photo:change', () => syncPrev());
 
 document.addEventListener('photo:busy', ({ detail: busy }) => {
