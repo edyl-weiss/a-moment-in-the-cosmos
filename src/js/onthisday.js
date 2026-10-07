@@ -21,7 +21,7 @@ function open(id, m, d) {
   scrollToFeature();
 }
 
-// The object an event is about, if the collection holds photographs of it: a catalogue
+// The object an event is about, if the collection holds photographs of it: a catalog
 // designation first (M 31, NGC 7331…), then a well-known name.
 const DESIG = /\b(?:Messier|M|NGC|IC|Arp|Abell|Sh2|RCW|UGC|HH)[\s-]?\d+[A-Za-z]?\b/g;
 const NAMED = /\b(?:Andromeda Galaxy|Orion Nebula|Crab Nebula|Eagle Nebula|Helix Nebula|Ring Nebula|Horsehead Nebula|Carina Nebula|Lagoon Nebula|Trifid Nebula|Tarantula Nebula|Whirlpool Galaxy|Sombrero Galaxy|Pinwheel Galaxy|Triangulum Galaxy|Large Magellanic Cloud|Small Magellanic Cloud|Omega Centauri|Pleiades|Centaurus A|Cat.s Eye Nebula|Butterfly Nebula|Rosette Nebula|Pillars of Creation|Stephan.s Quintet|Cartwheel Galaxy|Veil Nebula|Dumbbell Nebula|Eta Carinae|Supernova 1987A|SN 1987A|Cassiopeia A|Orion|Andromeda)\b/gi;
@@ -76,7 +76,7 @@ function render() {
 }
 
 // Few photographs were ever published on some dates (26 December, for one). Rather than leave the
-// panel thin, show the nearest days' photographs, each labelled with its real publication date.
+// panel thin, show the nearest days' photographs, each labeled with its real publication date.
 const MIN_SHOWN = 3;
 const ALL_DAYS = MONTHS.flatMap((_, m) => Array.from({ length: LENGTH[m] }, (_, d) => [m, d + 1]));
 

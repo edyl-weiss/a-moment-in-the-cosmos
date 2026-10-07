@@ -287,7 +287,7 @@ html, body { overflow-x: clip; }
 /* ── Less template, more book ────────────────────────────────────
    Small labels were tracked-out monospace capitals everywhere, which reads as a UI kit.
    They now use the text face in small capitals, like running heads in a printed almanac.
-   Monospace stays only where it means something: credits, dimensions and catalogue data. */
+   Monospace stays only where it means something: credits, dimensions and catalog data. */
 .dateline, #otdHead, .otd-grid h3, .notes dt, .notes h3, .notes h4, #understandPanel h3,
 .discover #discoverHead, .otd-teaser .k, .act-secondary button, .act-secondary .btn,
 #otdEvents .ev-photos::before, .cmp-note summary, #understandBody summary, .scale .label {

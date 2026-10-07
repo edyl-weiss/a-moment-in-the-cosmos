@@ -23,9 +23,9 @@ export const TOURS = {
   ],
   heic0515a: [
     { x: 22, y: 60, zoom: 3, title: 'The tattered filaments',
-      text: 'These orange and red strands are the shredded outer layers of the star that exploded, made mostly of hydrogen. Their colours trace different elements, per the ESA/Hubble release.' },
-    { x: 50, y: 50, zoom: 2.6, title: 'The engine at the centre',
-      text: 'Embedded near the centre, barely visible at this resolution, is a neutron star spinning about 30 times a second. It powers the nebula’s eerie inner glow.' }
+      text: 'These orange and red strands are the shredded outer layers of the star that exploded, made mostly of hydrogen. Their colors trace different elements, per the ESA/Hubble release.' },
+    { x: 50, y: 50, zoom: 2.6, title: 'The engine at the center',
+      text: 'Embedded near the center, barely visible at this resolution, is a neutron star spinning about 30 times a second. It powers the nebula’s eerie inner glow.' }
   ],
   heic1307a: [
     { x: 42, y: 22, zoom: 2.6, title: 'The crest of the head',
@@ -38,7 +38,7 @@ export const TOURS = {
       text: 'The leftmost galaxy is a foreground galaxy, about 40 million light-years away. It only lines up with the others by chance.' },
     { x: 63, y: 43, zoom: 3, title: 'A galaxy smashing through',
       text: 'The red and gold glow around the central pair marks huge shock waves, captured by Webb’s MIRI instrument, as NGC 7318B smashes through the group.' },
-    { x: 55, y: 30, zoom: 2.4, title: 'Four true neighbours',
+    { x: 55, y: 30, zoom: 2.4, title: 'Four true neighbors',
       text: 'The other four galaxies lie about 290 million light-years away and are caught in a gravitational dance, pulling tails of gas, dust and stars from one another.' }
   ],
   heic0506a: [
@@ -75,7 +75,7 @@ export const TOURS = {
     { x: 30, y: 18, zoom: 2.6, title: 'Jets across the top',
       text: 'Huge red bipolar jets of molecular hydrogen run across the upper third. They appear when a young star first bursts through its dusty envelope.' },
     { x: 54, y: 17, zoom: 3.2, title: 'A shadow of a disc',
-      text: 'At the top centre, a star shows a pinched dark shadow — the telltale sign of a circumstellar disc, a possible planetary system in the making.' },
+      text: 'At the top center, a star shows a pinched dark shadow — the telltale sign of a circumstellar disc, a possible planetary system in the making.' },
     { x: 84, y: 70, zoom: 2.6, title: 'Jets down the right side',
       text: 'More jets run vertically down the right-hand side, where they strike the surrounding interstellar gas.' },
     { x: 52, y: 62, zoom: 2.6, title: 'S1 and its glowing cave',
@@ -91,22 +91,22 @@ export const TOURS = {
     { x: 27, y: 12, zoom: 3, title: 'Suhail, in Vela',
       text: 'ESO’s caption identifies the bright orange star at upper left as Suhail, in the constellation Vela (the Sails).' },
     { x: 52, y: 52, zoom: 3, title: 'The Carina Nebula',
-      text: 'Almost exactly in the centre glows the pink Carina Nebula, about 7,500 light-years away.' },
+      text: 'Almost exactly in the center glows the pink Carina Nebula, about 7,500 light-years away.' },
     { x: 50, y: 72, zoom: 1.8, title: 'The nearest antennas',
       text: 'The two antennas closest to the camera carry the markings DA-43 and DA-41 — European antennas that ESO provided for ALMA.' }
   ],
   potw1217a: [
     { x: 48, y: 54, zoom: 3, title: 'The Moon',
-      text: 'When the panorama was taken, the Moon lay close to the centre of the Milky Way in the sky, lighting the antennas below.' },
+      text: 'When the panorama was taken, the Moon lay close to the center of the Milky Way in the sky, lighting the antennas below.' },
     { x: 78, y: 86, zoom: 3, title: 'Smaller antennas',
-      text: 'On the right stand some of ALMA’s smaller 7-metre antennas, part of the Atacama Compact Array.' },
+      text: 'On the right stand some of ALMA’s smaller 7-meter antennas, part of the Atacama Compact Array.' },
     { x: 94, y: 86, zoom: 3.4, title: 'Cerro Chajnantor',
       text: 'Behind the Array Operations Site Technical Building rises the dark peak of Cerro Chajnantor.' }
   ],
   uhd_img4255pc_bt_cc: [
     { x: 25, y: 45, zoom: 2.4, title: 'Dark lanes of dust',
       text: 'The dark streaks across the Milky Way are clouds of interstellar dust blocking the starlight behind them.' },
-    { x: 74, y: 80, zoom: 3, title: 'The ESO 3.6-metre telescope',
+    { x: 74, y: 80, zoom: 3, title: 'The ESO 3.6-meter telescope',
       text: 'Home to HARPS, the High Accuracy Radial velocity Planet Searcher, which ESO describes as the world’s foremost extrasolar-planet hunter.' }
   ],
 
@@ -148,10 +148,10 @@ export const TOURS = {
   ],
   "w-weic2415a": [
     {"x": 18, "y": 20, "zoom": 2.6, "title": "Aligned outflows", "text": "In the top left corner, astronomers found a group of protostellar outflows all pointing the same way."},
-    {"x": 59, "y": 55, "zoom": 2.6, "title": "The Bat Shadow", "text": "At the centre is the Bat Shadow, named after Hubble data from 2020 showed it flap, or shift."}
+    {"x": 59, "y": 55, "zoom": 2.6, "title": "The Bat Shadow", "text": "At the center is the Bat Shadow, named after Hubble data from 2020 showed it flap, or shift."}
   ],
   "w-weic2207b": [
-    {"x": 50, "y": 47, "zoom": 2.4, "title": "The bright central star", "text": "The bright star at the centre plays a supporting role. A second, fainter star nearby is the source of the nebula."},
+    {"x": 50, "y": 47, "zoom": 2.4, "title": "The bright central star", "text": "The bright star at the center plays a supporting role. A second, fainter star nearby is the source of the nebula."},
     {"x": 14, "y": 38, "zoom": 4, "title": "An edge-on galaxy", "text": "The bright angled line at upper left is a galaxy seen edge-on, far in the background."}
   ],
   "w-weic2219a": [
@@ -168,6 +168,6 @@ export const TOURS = {
   "nasa-the-eagle-has-risen-stellar-spire-in-the-eagle-nebula": [
     {"x": 25, "y": 12, "zoom": 3, "title": "A shock front", "text": "The bright rim at top left may be a shock front, where starlight from beyond the top of the image heats the gas."},
     {"x": 45, "y": 45, "zoom": 2.4, "title": "Stellar nurseries", "text": "The bumps and fingers in the middle of the tower are places where stars are being born."},
-    {"x": 55, "y": 90, "zoom": 2.4, "title": "Glowing hydrogen", "text": "The red colour in the lower part comes from glowing hydrogen, while the blue at the top is glowing oxygen."}
+    {"x": 55, "y": 90, "zoom": 2.4, "title": "Glowing hydrogen", "text": "The red color in the lower part comes from glowing hydrogen, while the blue at the top is glowing oxygen."}
   ]
 };

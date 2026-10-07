@@ -51,7 +51,7 @@ export const CATALOG = [
   ],
   scale: 'The whole frame spans roughly 8 × 14 light-years. That comes from ESA/Webb’s listed field of view (4.21 × 7.30 arcminutes) at a distance of 6,500 light-years, so it carries that distance estimate’s uncertainty.',
   understand: {
-    summary: 'Near-infrared light from Webb’s NIRCam, recorded through six filters and assigned visible colours, with shorter wavelengths bluer, longer wavelengths redder. None of these wavelengths is visible to the human eye.',
+    summary: 'Near-infrared light from Webb’s NIRCam, recorded through six filters and assigned visible colors, with shorter wavelengths bluer, longer wavelengths redder. None of these wavelengths is visible to the human eye.',
     filters: [['900 nm (z)', 'purple'], ['1.87 µm (Paschen-alpha)', 'blue'], ['2.0 µm', 'cyan'], ['3.35 µm (PAH)', 'yellow'], ['4.44 µm', 'orange'], ['4.7 µm (molecular hydrogen)', 'red']],
     eye: 'Infrared passes through more of the dust than visible light, so many more stars appear. Even so, the translucent gas acts like a drawn curtain, and no distant background galaxies are visible.'
   },
@@ -62,7 +62,7 @@ export const CATALOG = [
     people: 'Image processing credited to J. DePasquale, A. Koekemoer and A. Pagan (STScI)',
     exposure: 'Not published on the source page.',
     technique: 'Multi-filter composite of six NIRCam filters. This is the full-view version. ESA/Webb also released a tighter crop (weic2216a) and an annotated version (weic2216c).',
-    processing: 'Colours assigned by filter, as listed above.'
+    processing: 'Colors assigned by filter, as listed above.'
   },
   explore: [
     'Although near-infrared light seems to “pierce” the region, the interstellar medium still blocks the deeper universe. Dust lit by the crowd of young stars glows like a lit room’s reflection on a window, hiding what lies beyond.',
@@ -88,14 +88,14 @@ export const CATALOG = [
   recognition: { kind: 'editorial', text: 'Ranked #17 on ESA/Hubble’s published “Top 100 Images” list (an institutional selection, not an audience score).' },
   story: [
     'A tangled cage of orange and red filaments surrounds a softer, bluish interior. This is the Crab Nebula, the expanding debris of a star whose explosion Chinese and Japanese astronomers recorded in 1054.',
-    'The filaments are the tattered remains of the star, made mostly of hydrogen. Near the centre, barely visible, spins a neutron star, the crushed, ultra-dense core of the original star. Like a lighthouse it sweeps twin beams of radiation past us, appearing to pulse 30 times a second, and it powers the nebula’s eerie inner glow, which is light from electrons whirling at nearly the speed of light around its magnetic field lines.',
+    'The filaments are the tattered remains of the star, made mostly of hydrogen. Near the center, barely visible, spins a neutron star, the crushed, ultra-dense core of the original star. Like a lighthouse it sweeps twin beams of radiation past us, appearing to pulse 30 times a second, and it powers the nebula’s eerie inner glow, which is light from electrons whirling at nearly the speed of light around its magnetic field lines.',
     'The name comes from a drawing made by Lord Rosse in 1844. This mosaic of 24 exposures was, at its release, the largest image ever taken with Hubble’s WFPC2 camera and the most detailed view of the entire nebula.'
   ],
   scale: 'The nebula is about six light-years wide. At roughly 6,500 light-years away, the explosion seen from Earth in 1054 had really happened thousands of years earlier, and its light was still in transit.',
   understand: {
     summary: 'A visible-light mosaic from Hubble’s WFPC2 camera, taken through narrow filters that isolate light from specific elements expelled in the explosion.',
-    filters: [['502 nm (doubly ionised oxygen, [O III])', 'red'], ['631 nm (neutral oxygen, [O I])', 'blue'], ['673 nm (singly ionised sulphur, [S II])', 'green']],
-    eye: 'In the colour mapping given in the ESA/Hubble release, blue is neutral oxygen, green is singly ionised sulphur and red is doubly ionised oxygen. These are chemical “tracers”, not the colours your eye would see through a telescope.'
+    filters: [['502 nm (doubly ionized oxygen, [O III])', 'red'], ['631 nm (neutral oxygen, [O I])', 'blue'], ['673 nm (singly ionized sulfur, [S II])', 'green']],
+    eye: 'In the color mapping given in the ESA/Hubble release, blue is neutral oxygen, green is singly ionized sulfur and red is doubly ionized oxygen. These are chemical “tracers”, not the colors your eye would see through a telescope.'
   },
   labels: [],
   behind: {
@@ -104,7 +104,7 @@ export const CATALOG = [
     people: 'Allison Loll and Jeff Hester (Arizona State University), with acknowledgement to Davide De Martin (ESA/Hubble)',
     exposure: 'Assembled from 24 individual exposures. Exposure lengths not published on the source page.',
     technique: 'Mosaic/composite. The Hubble data were superimposed onto images taken with ESO’s Very Large Telescope.',
-    processing: 'Narrow-band colour composite (see mapping).'
+    processing: 'Narrow-band color composite (see mapping).'
   },
   explore: [
     'The pulsar at the heart of the Crab is one of the most studied objects in astronomy. Its steady energy output keeps the surrounding cloud glowing long after the explosion.',
@@ -126,15 +126,15 @@ export const CATALOG = [
   img: { ...assets(WEBB, 'weic2205a'), pubW: 4000, pubH: 2317, origW: 14575, origH: 8441, largeMB: 17.0 },
   credit: 'NASA, ESA, CSA, and STScI',
   source: 'https://esawebb.org/images/weic2205a/',
-  recognition: { kind: 'editorial', text: 'One of Webb’s first full-colour images, released 12 July 2022. No published audience rating.' },
+  recognition: { kind: 'editorial', text: 'One of Webb’s first full-color images, released 12 July 2022. No published audience rating.' },
   story: [
     'A rugged, golden-brown ridge fills the lower part of the frame beneath a glowing expanse speckled with stars. It looks like a mountain range on a moonlit evening, but it is the edge of a gigantic, gas-filled cavity in NGC 3324, a young star-forming region in the Carina Nebula.',
-    'The sculptors, extremely massive, hot young stars at the centre of the bubble, lie beyond the top of the frame. Their ultraviolet radiation and stellar winds are slowly eroding the cavity’s wall.',
+    'The sculptors, extremely massive, hot young stars at the center of the bubble, lie beyond the top of the frame. Their ultraviolet radiation and stellar winds are slowly eroding the cavity’s wall.',
     'Webb’s Near-Infrared Camera unveiled hundreds of previously hidden stars in NGC 3324, and even numerous background galaxies. It also caught signs of very early star formation, a phase that, for an individual star, lasts only about 50,000 to 100,000 years, which makes it hard to catch in the act.'
   ],
   scale: 'The frame spans roughly 16 × 9 light-years, calculated from ESA/Webb’s listed field of view (7.29 × 4.22 arcminutes) at about 7,600 light-years.',
   understand: {
-    summary: 'Near-infrared light from NIRCam through six filters, assigned visible colours for display.',
+    summary: 'Near-infrared light from NIRCam through six filters, assigned visible colors for display.',
     filters: [['900 nm', 'blue'], ['1.87 µm (Paschen-alpha)', 'cyan'], ['2.0 µm', 'green'], ['3.35 µm (PAH)', 'orange'], ['4.44 µm', 'red'], ['4.7 µm (molecular hydrogen)', 'yellow']],
     eye: 'Your eyes cannot see any of these wavelengths. Infrared lets Webb see through dust that hides young stars in visible-light images.'
   },
@@ -145,10 +145,10 @@ export const CATALOG = [
     people: 'Credited to NASA, ESA, CSA and STScI',
     exposure: 'Not published on the source page.',
     technique: 'Multi-filter composite.',
-    processing: 'Colours assigned by filter, as listed.'
+    processing: 'Colors assigned by filter, as listed.'
   },
   explore: [
-    'NGC 3324 was first catalogued by James Dunlop in 1826. The wider Carina Nebula also hosts the Keyhole Nebula and the unstable supergiant star Eta Carinae.',
+    'NGC 3324 was first cataloged by James Dunlop in 1826. The wider Carina Nebula also hosts the Keyhole Nebula and the unstable supergiant star Eta Carinae.',
     'This image was part of the set that introduced Webb’s science capabilities to the public in July 2022.'
   ],
   sources: [
@@ -168,7 +168,7 @@ export const CATALOG = [
   source: 'https://esahubble.org/images/heic1307a/',
   recognition: { kind: 'editorial', text: 'Hubble 23rd-anniversary image; ranked #10 on ESA/Hubble’s published “Top 100 Images” list (an institutional selection, not an audience score).' },
   story: [
-    'A pale, translucent column rises like a seahorse from rolling waves of gas and dust. This is the Horsehead Nebula, also catalogued as Barnard 33, in Orion.',
+    'A pale, translucent column rises like a seahorse from rolling waves of gas and dust. This is the Horsehead Nebula, also cataloged as Barnard 33, in Orion.',
     'Most pictures show the Horsehead as a dark silhouette against glowing gas. This view uses infrared light, whose longer wavelengths pass through much of the obscuring dust and reveal the nebula’s delicate inner folds. It formed from a collapsing interstellar cloud and glows because a nearby hot star illuminates it.',
     'The clouds around it have already dissipated, but the pillar is made of thicker clumps that resist erosion. Astronomers estimate it has about five million years left before it, too, disintegrates. Hubble took it with Wide Field Camera 3, fitted in 2009, and released it to mark its 23rd year in orbit.'
   ],
@@ -176,7 +176,7 @@ export const CATALOG = [
   understand: {
     summary: 'Near-infrared light from Hubble’s Wide Field Camera 3 (installed in 2009), through two filters.',
     filters: [['1.1 µm (J band)', 'not specified by source'], ['1.6 µm (H band)', 'not specified by source']],
-    eye: 'ESA/Hubble does not publish which display colour each filter received, so no mapping is shown here. In visible light the Horsehead looks like a dark, opaque cloud, so this infrared view is very different from what your eye would see.'
+    eye: 'ESA/Hubble does not publish which display color each filter received, so no mapping is shown here. In visible light the Horsehead looks like a dark, opaque cloud, so this infrared view is very different from what your eye would see.'
   },
   labels: [],
   behind: {
@@ -185,7 +185,7 @@ export const CATALOG = [
     people: 'Hubble Heritage Team (AURA/STScI)',
     exposure: 'Not published on the source page.',
     technique: 'Two-filter infrared composite.',
-    processing: 'Filter-to-colour assignment not published.'
+    processing: 'Filter-to-color assignment not published.'
   },
   explore: [
     'Hubble also imaged the Horsehead for its 11th anniversary in 2001 (heic0105), in visible light, a useful comparison for seeing what infrared reveals.',
@@ -209,13 +209,13 @@ export const CATALOG = [
   img: { ...assets(WEBB, 'weic2208a'), pubW: 4000, pubH: 3835, origW: 12654, origH: 12132, largeMB: 23.0 },
   credit: 'NASA, ESA, CSA, and STScI',
   source: 'https://esawebb.org/images/weic2208a/',
-  recognition: { kind: 'editorial', text: 'One of Webb’s first full-colour images, released 12 July 2022. No published audience rating.' },
+  recognition: { kind: 'editorial', text: 'One of Webb’s first full-color images, released 12 July 2022. No published audience rating.' },
   story: [
     'Five galaxies crowd the frame, with sweeping tails of gas and stars, sparkling clusters of young stars, and a glowing band of red and gold near the central pair. This is Stephan’s Quintet, also known as Hickson Compact Group 92.',
-    'Only four of the five are actual neighbours. The leftmost galaxy, NGC 7320, sits well in the foreground, about 40 million light-years away, while NGC 7317, NGC 7318A, NGC 7318B and NGC 7319 lie roughly 290 million light-years away, caught up in each other’s gravity. Webb’s mid-infrared instrument captures huge shock waves as NGC 7318B smashes through the group.',
+    'Only four of the five are actual neighbors. The leftmost galaxy, NGC 7320, sits well in the foreground, about 40 million light-years away, while NGC 7317, NGC 7318A, NGC 7318B and NGC 7319 lie roughly 290 million light-years away, caught up in each other’s gravity. Webb’s mid-infrared instrument captures huge shock waves as NGC 7318B smashes through the group.',
     'At release this was Webb’s largest image, a mosaic of over 150 million pixels built from almost 1,000 image files, covering about one-fifth of the Moon’s diameter. Tight groups like this may have been more common in the early Universe, so a nearby example helps astronomers read distant ones.'
   ],
-  scale: 'Light from NGC 7320 has travelled about 40 million years to reach us. Light from its four apparent companions has travelled about 290 million years, roughly seven times longer, though they share the same patch of sky.',
+  scale: 'Light from NGC 7320 has traveled about 40 million years to reach us. Light from its four apparent companions has traveled about 290 million years, roughly seven times longer, though they share the same patch of sky.',
   understand: {
     summary: 'A composite of near-infrared (NIRCam) and mid-infrared (MIRI) light. MIRI data were given yellow and orange to highlight hot dust and shocked gas. Stars at NIRCam wavelengths appear blue and white.',
     filters: [['900 nm (NIRCam)', 'blue'], ['1.5 µm (NIRCam)', 'blue'], ['2.0 µm (NIRCam)', 'green'], ['2.77 µm (NIRCam)', 'yellow'], ['3.56 µm (NIRCam)', 'red'], ['4.44 µm (NIRCam)', 'red'], ['7.7 µm (MIRI)', 'yellow'], ['10 µm (MIRI)', 'orange']],
@@ -263,7 +263,7 @@ export const CATALOG = [
   understand: {
     summary: 'Visible and near-infrared light from Hubble’s Advanced Camera for Surveys, including a filter that isolates the red glow of hydrogen (with nitrogen).',
     filters: [['435 nm (B)', 'source lists band only'], ['555 nm (V)', 'source lists band only'], ['658 nm (H-alpha + [N II])', 'source lists band only'], ['814 nm (I, near-infrared)', 'source lists band only']],
-    eye: 'Broad filters approximate natural colour. The hydrogen-alpha filter emphasises the pink star-forming regions far more than the eye would see.'
+    eye: 'Broad filters approximate natural color. The hydrogen-alpha filter emphasizes the pink star-forming regions far more than the eye would see.'
   },
   labels: [
     { x: 37, y: 47, text: 'M51 (NGC 5194)' },
@@ -275,10 +275,10 @@ export const CATALOG = [
     people: 'S. Beckwith (STScI) and the Hubble Heritage Team (STScI/AURA)',
     exposure: 'Not published on the source page.',
     technique: 'Multi-filter composite.',
-    processing: 'Four-filter colour composite.'
+    processing: 'Four-filter color composite.'
   },
   explore: [
-    'Grand-design spirals have two prominent, well-defined arms, while many spirals have looser, patchier arms instead. The Whirlpool’s nearby, face-on view makes it a favourite for studying how spiral structure and star formation connect.',
+    'Grand-design spirals have two prominent, well-defined arms, while many spirals have looser, patchier arms instead. The Whirlpool’s nearby, face-on view makes it a favorite for studying how spiral structure and star formation connect.',
     'The largest stars eventually clear away their dusty cocoons with radiation, stellar winds and supernova shock waves, leaving bright blue clusters strung along the arms.'
   ],
   sources: [
@@ -299,11 +299,11 @@ export const CATALOG = [
   source: 'https://esawebb.org/images/weic2426a/',
   recognition: { kind: 'editorial', text: 'Official ESA/Webb release image (weic2426). No published audience rating.' },
   story: [
-    'Two spiral galaxies overlap, their arms glowing in deep reds and pinks with bright blue knots. The smaller, more compact spiral on the left is IC 2163, and the larger one on the right is NGC 2207. The pair grazed each other millions of years ago, with IC 2163 passing behind its neighbour.',
+    'Two spiral galaxies overlap, their arms glowing in deep reds and pinks with bright blue knots. The smaller, more compact spiral on the left is IC 2163, and the larger one on the right is NGC 2207. The pair grazed each other millions of years ago, with IC 2163 passing behind its neighbor.',
     'Brighter red lines, including the “eyelids” around IC 2163, may be shock fronts where material from the two galaxies slammed together. The encounter may also have pulled out tidal extensions, and tendrils seem to hang between the two cores.',
     'Together the two galaxies form the equivalent of about two dozen Sun-sized stars each year, and they have hosted seven known supernovae in recent decades. The bluest regions, seen by Hubble, and the pink and white areas mapped by Webb mark where new stars are forming.'
   ],
-  scale: 'Together these galaxies form the equivalent of about 24 Sun-sized stars a year, while our Milky Way manages roughly two or three. Their light has travelled about 120 million years to reach us.',
+  scale: 'Together these galaxies form the equivalent of about 24 Sun-sized stars a year, while our Milky Way manages roughly two or three. Their light has traveled about 120 million years to reach us.',
   understand: {
     summary: 'A combination of Webb mid-infrared light (MIRI) and Hubble visible light (WFPC2). The ESA/Webb release describes the Hubble contribution as visible and ultraviolet light.',
     filters: [['439 nm (Hubble, B)', 'blue'], ['555 nm (Hubble, V)', 'green'], ['814 nm (Hubble, I)', 'red'], ['7.7 µm (Webb MIRI, PAH)', 'red'], ['11 µm (Webb MIRI, PAH)', 'red'], ['15 µm (Webb MIRI)', 'red']],
@@ -319,7 +319,7 @@ export const CATALOG = [
     people: 'Credited to NASA, ESA, CSA and STScI',
     exposure: 'Not published on the source page.',
     technique: 'Multi-observatory composite (Webb + Hubble).',
-    processing: 'Colours assigned by filter, as listed.'
+    processing: 'Colors assigned by filter, as listed.'
   },
   explore: [
     'Supernovae may clear space in the galaxies’ arms, rearranging gas and dust that later cools and forms new stars. Larger bright areas are super star clusters, while other bright spots are mini-starbursts where many stars form in quick succession.'
@@ -338,28 +338,28 @@ export const CATALOG = [
   releaseDate: '28 February 2006',
   celestial: 'Messier 101, constellation Ursa Major · an estimated 23–25 million light-years away (ESA/Hubble figures)',
   img: { ...assets(HUB, 'heic0602a'), pubW: 4000, pubH: 3127, origW: 15852, origH: 12392, largeMB: 88.3 },
-  credit: 'Image: European Space Agency & NASA. Acknowledgements: Project Investigators for the original Hubble data: K.D. Kuntz (GSFC), F. Bresolin (University of Hawaii), J. Trauger (JPL), J. Mould (NOAO), and Y.-H. Chu (University of Illinois, Urbana). Image processing: Davide De Martin (ESA/Hubble). CFHT image: Canada-France-Hawaii Telescope/J.-C. Cuillandre/Coelum. NOAO image: George Jacoby, Bruce Bohannan, Mark Hanna/NOAO/AURA/NSF',
+  credit: 'Image: European Space Agency & NASA. Acknowledgements: Project Investigators for the original Hubble data: K.D. Kuntz (GSFC), F. Bresolin (University of Hawaii), J. Trauger (JPL), J. Mold (NOAO), and Y.-H. Chu (University of Illinois, Urbana). Image processing: Davide De Martin (ESA/Hubble). CFHT image: Canada-France-Hawaii Telescope/J.-C. Cuillandre/Coelum. NOAO image: George Jacoby, Bruce Bohannan, Mark Hanna/NOAO/AURA/NSF',
   source: 'https://esahubble.org/images/heic0602a/',
   recognition: { kind: 'editorial', text: 'Ranked #47 on ESA/Hubble’s published “Top 100 Images” list (an institutional selection, not an audience score).' },
   story: [
     'A vast, nearly face-on spiral fills the frame, its lopsided arms sprinkled with pink nebulae and bright blue clusters of newborn stars. This is the Pinwheel Galaxy, M101, one of the best-known “grand-design” spirals.',
     'When it was released in 2006, this was the largest and most detailed Hubble image of a spiral galaxy beyond the Milky Way ever made public, at about 16,000 × 12,000 pixels, assembled from 51 Hubble exposures plus ground-based photographs. Hubble’s resolution picks out millions of individual stars, and the disc is thin enough that more distant galaxies show through it.',
-    'A team led by K.D. Kuntz catalogued nearly 3,000 previously undetected star clusters in M101. The galaxy is estimated to hold at least a trillion stars.'
+    'A team led by K.D. Kuntz cataloged nearly 3,000 previously undetected star clusters in M101. The galaxy is estimated to hold at least a trillion stars.'
   ],
   scale: 'ESA/Hubble describes the disc as about 170,000 light-years across, nearly twice the diameter of our Milky Way. Both galaxies’ sizes are estimates, and published values vary.',
   understand: {
-    summary: 'Visible and near-infrared Hubble data superimposed on ground-based images. Per the release, exposures through a blue filter are shown blue, green filter green, and red filter red, so the colour is broadly natural.',
+    summary: 'Visible and near-infrared Hubble data superimposed on ground-based images. Per the release, exposures through a blue filter are shown blue, green filter green, and red filter red, so the color is broadly natural.',
     filters: [['435 nm (B)', 'blue'], ['555 nm (V)', 'green'], ['814 nm (I, near-infrared)', 'red']],
-    eye: 'The outer edges of the frame come from ground-based telescopes (CFHT and Kitt Peak’s 0.9-metre), where Hubble data did not reach.'
+    eye: 'The outer edges of the frame come from ground-based telescopes (CFHT and Kitt Peak’s 0.9-meter), where Hubble data did not reach.'
   },
   labels: [],
   behind: {
-    observatory: 'Hubble Space Telescope, Canada-France-Hawaii Telescope, and the 0.9-metre telescope at Kitt Peak National Observatory',
+    observatory: 'Hubble Space Telescope, Canada-France-Hawaii Telescope, and the 0.9-meter telescope at Kitt Peak National Observatory',
     instrument: 'Hubble ACS and WFPC2, plus ground-based cameras',
     people: 'Processing by Davide De Martin (ESA/Hubble). See full credit',
     exposure: '51 individual Hubble exposures. Exposure lengths not published on the source page.',
-    technique: 'Mosaic and composite of archival Hubble data from several research programmes, superimposed onto ground-based images.',
-    processing: 'Three-filter colour composite.'
+    technique: 'Mosaic and composite of archival Hubble data from several research programs, superimposed onto ground-based images.',
+    processing: 'Three-filter color composite.'
   },
   explore: [
     'The Hubble data came from projects measuring the Universe’s expansion rate, studying star clusters in giant star-birth regions, finding sources of intense X-rays and discovering blue supergiant stars.',
@@ -393,7 +393,7 @@ export const CATALOG = [
   understand: {
     summary: 'The central cluster blends visible light (ACS) with near-infrared light (WFC3). The surroundings use visible light only. Near-infrared let Hubble see through the dust around the cluster.',
     filters: [['555 nm (V, ACS)', 'source lists band only'], ['814 nm (I, ACS)', 'source lists band only'], ['1.25 µm (J, WFC3)', 'source lists band only']],
-    eye: 'The source does not publish the colour assigned to each filter. The near-infrared data reveals stars the eye could not see through the dust.'
+    eye: 'The source does not publish the color assigned to each filter. The near-infrared data reveals stars the eye could not see through the dust.'
   },
   labels: [],
   behind: {
@@ -402,7 +402,7 @@ export const CATALOG = [
     people: 'Westerlund 2 science team (led by Antonella Nota) and the Hubble Heritage Team (see source for full list)',
     exposure: 'Not published on the source page.',
     technique: 'Composite of visible and near-infrared observations.',
-    processing: 'Filter-to-colour assignment not published.'
+    processing: 'Filter-to-color assignment not published.'
   },
   explore: [
     'Westerlund 2 is named after Swedish astronomer Bengt Westerlund, who discovered the grouping in the 1960s.',
@@ -443,7 +443,7 @@ export const CATALOG = [
     people: 'K. Pontoppidan (STScI), A. Pagan (STScI)',
     exposure: 'Not published on the source page.',
     technique: 'Multi-filter composite.',
-    processing: 'Colours assigned by filter, as listed.'
+    processing: 'Colors assigned by filter, as listed.'
   },
   explore: [
     'Beyond pictures, Webb’s first year of science produced spectra that confirmed distances to very distant galaxies and revealed the chemistry of stellar nurseries and protoplanetary discs, including water and carbon-containing molecules.'
@@ -473,7 +473,7 @@ export const CATALOG = [
   understand: {
     summary: 'Visible and near-infrared light from Hubble’s Advanced Camera for Surveys through three broad filters.',
     filters: [['435 nm (B)', 'source lists band only'], ['550 nm (V)', 'source lists band only'], ['850 nm (I, near-infrared)', 'source lists band only']],
-    eye: 'Broad filters give a broadly natural-colour impression, though the source does not publish the exact colour assignments.'
+    eye: 'Broad filters give a broadly natural-color impression, though the source does not publish the exact color assignments.'
   },
   labels: [],
   behind: {
@@ -482,10 +482,10 @@ export const CATALOG = [
     people: 'Hubble Heritage (STScI/AURA)-ESA/Hubble Collaboration',
     exposure: 'Not published on the source page.',
     technique: 'Multi-filter composite.',
-    processing: 'Filter-to-colour assignment not published.'
+    processing: 'Filter-to-color assignment not published.'
   },
   explore: [
-    'NGC 3603 harbours a blue supergiant called Sher 25, above and to the left of the densest part of the cluster, thought to be nearing a supernova explosion.',
+    'NGC 3603 harbors a blue supergiant called Sher 25, above and to the left of the densest part of the cluster, thought to be nearing a supernova explosion.',
     'Separate measurements with ESO’s Very Large Telescope and Hubble found the largest individual stellar mass among the bright central systems to be roughly 115 solar masses.'
   ],
   sources: [
@@ -523,7 +523,7 @@ export const CATALOG = [
     people: 'A. Pagan (STScI)',
     exposure: 'Not published on the source page.',
     technique: 'Multi-filter composite.',
-    processing: 'Colours assigned by filter, as listed.'
+    processing: 'Colors assigned by filter, as listed.'
   },
   explore: [
     'A galaxy during cosmic noon would have had thousands of regions like NGC 346, according to principal investigator Margaret Meixner, which is why this single nearby example is so valuable.'
@@ -547,15 +547,15 @@ export const CATALOG = [
   source: 'https://www.eso.org/public/images/potw1222a/',
   recognition: { kind: 'editorial', text: 'Ranked #27 on ESO’s published “Top 100 Images” list; ESO Picture of the Week (a curated selection, not an audience score).' },
   story: [
-    'Huge dish antennas loom in the foreground, small green lights glowing on their bases, while the Milky Way pours across a sky crowded with stars. ESO Photo Ambassador Babak Tafreshi made this photograph of the Atacama Large Millimeter/submillimeter Array (ALMA) on the Chajnantor plateau, about 5,000 metres up in Chile’s Atacama region.',
-    'The sky shows the constellations Carina (the Keel) and Vela (the Sails). Dark, wispy dust clouds of the Milky Way run diagonally from the top left toward the bottom right. The bright orange star at upper left is Suhail, in Vela, and the similar orange star at upper middle is Avior, in Carina. Almost exactly in the centre, below them, glows the pink Carina Nebula.',
+    'Huge dish antennas loom in the foreground, small green lights glowing on their bases, while the Milky Way pours across a sky crowded with stars. ESO Photo Ambassador Babak Tafreshi made this photograph of the Atacama Large Millimeter/submillimeter Array (ALMA) on the Chajnantor plateau, about 5,000 meters up in Chile’s Atacama region.',
+    'The sky shows the constellations Carina (the Keel) and Vela (the Sails). Dark, wispy dust clouds of the Milky Way run diagonally from the top left toward the bottom right. The bright orange star at upper left is Suhail, in Vela, and the similar orange star at upper middle is Avior, in Carina. Almost exactly in the center, below them, glows the pink Carina Nebula.',
     'The two antennas closest to the camera carry the markings DA-43 and DA-41, two of the European antennas ESO provided for the array.'
   ],
-  scale: 'The antennas are a few metres from the camera, while the pink glow of the Carina Nebula at the centre is about 7,500 light-years away (ESA/Hubble’s distance figure).',
+  scale: 'The antennas are a few meters from the camera, while the pink glow of the Carina Nebula at the center is about 7,500 light-years away (ESA/Hubble’s distance figure).',
   understand: {
-    summary: 'A landscape photograph of the night sky, as recorded by a camera, not a telescope image with assigned colours.',
+    summary: 'A landscape photograph of the night sky, as recorded by a camera, not a telescope image with assigned colors.',
     filters: [],
-    eye: 'Cameras gather light over time, so faint colours like the nebula’s pink show more strongly than to the naked eye. Positions of the named stars and nebula follow ESO’s caption. Only the Carina Nebula, stated to be almost exactly central, is marked.'
+    eye: 'Cameras gather light over time, so faint colors like the nebula’s pink show more strongly than to the naked eye. Positions of the named stars and nebula follow ESO’s caption. Only the Carina Nebula, stated to be almost exactly central, is marked.'
   },
   labels: [
     { x: 50, y: 47, text: 'Carina Nebula (per ESO: almost exactly central)' }
@@ -569,7 +569,7 @@ export const CATALOG = [
     processing: 'Not published.'
   },
   explore: [
-    'ALMA is an international partnership of Europe, North America and East Asia in cooperation with the Republic of Chile. It studies the Universe in millimetre and submillimetre light, which requires the extremely high, dry conditions of Chajnantor.',
+    'ALMA is an international partnership of Europe, North America and East Asia in cooperation with the Republic of Chile. It studies the Universe in millimeter and submillimeter light, which requires the extremely high, dry conditions of Chajnantor.',
     'The World At Night, founded by Tafreshi, collects photographs of beautiful and historic sites set against the night sky.'
   ],
   sources: [
@@ -581,7 +581,7 @@ export const CATALOG = [
 {
   id: 'uhd_img4255pc_bt_cc', cat: 'night', org: 'eso',
   title: 'Radiance of the Milky Way over La Silla',
-  caption: 'The Milky Way over ESO’s 3.6-metre telescope, La Silla Observatory, Chile',
+  caption: 'The Milky Way over ESO’s 3.6-meter telescope, La Silla Observatory, Chile',
   captureDate: null,
   releaseDate: '24 August 2016',
   celestial: 'Sky: the Milky Way · Ground: La Silla Observatory, 2,400 m, on the outskirts of the Atacama Desert, Chile',
@@ -591,17 +591,17 @@ export const CATALOG = [
   recognition: { kind: 'editorial', text: 'Ranked #78 on ESO’s published “Top 100 Images” list (a curated selection, not an audience score).' },
   story: [
     'A river of stars and dark dust lanes sweeps diagonally across the sky, glowing in soft gold and rose above a dark ridge. At lower right, a pale observatory dome catches the starlight. This is our own galaxy, the Milky Way, over ESO’s La Silla Observatory in Chile, photographed by Babak Tafreshi.',
-    'The dome belongs to the ESO 3.6-metre telescope, now home to HARPS (the High Accuracy Radial velocity Planet Searcher), which ESO describes as the world’s foremost extrasolar-planet hunter. HARPS detects planets by measuring the tiny back-and-forth wobble they induce in their stars’ motion.',
-    'La Silla sits on the outskirts of the Atacama Desert, about 600 kilometres north of Santiago, at an altitude of 2,400 metres. It has been an ESO stronghold since the 1960s because of dark, dry skies like these.'
+    'The dome belongs to the ESO 3.6-meter telescope, now home to HARPS (the High Accuracy Radial velocity Planet Searcher), which ESO describes as the world’s foremost extrasolar-planet hunter. HARPS detects planets by measuring the tiny back-and-forth wobble they induce in their stars’ motion.',
+    'La Silla sits on the outskirts of the Atacama Desert, about 600 kilometers north of Santiago, at an altitude of 2,400 meters. It has been an ESO stronghold since the 1960s because of dark, dry skies like these.'
   ],
   scale: null,
   understand: {
     summary: 'A landscape photograph of the night sky, as recorded by a camera.',
     filters: [],
-    eye: 'The dark lanes are clouds of interstellar dust blocking starlight behind them. ESO’s caption does not identify individual stars or nebulae, so none are labelled here.'
+    eye: 'The dark lanes are clouds of interstellar dust blocking starlight behind them. ESO’s caption does not identify individual stars or nebulae, so none are labeled here.'
   },
   labels: [
-    { x: 74, y: 80, text: 'ESO 3.6-metre telescope' }
+    { x: 74, y: 80, text: 'ESO 3.6-meter telescope' }
   ],
   behind: {
     observatory: 'Photograph taken at La Silla Observatory, Chile',
@@ -632,15 +632,15 @@ export const CATALOG = [
   source: 'https://www.eso.org/public/images/potw1217a/',
   recognition: { kind: 'editorial', text: 'Ranked #39 on ESO’s published “Top 100 Images” list (a curated selection, not an audience score).' },
   story: [
-    'An arc of the Milky Way spans this wide panorama above a field of giant dish antennas washed in moonlight. ESO Photo Ambassador Stéphane Guisard captured it at ALMA, on the 5,000-metre-high, extremely dry Chajnantor plateau in the Chilean Andes.',
-    'When the panorama was taken, the Moon lay close to the centre of the Milky Way in the sky, and its light bathes the antennas in a soft glow. On the left, according to ESO, the Large and Small Magellanic Clouds, the biggest of the Milky Way’s dwarf satellite galaxies, appear as two luminous smudges, and a particularly bright meteor gleams near the Small Magellanic Cloud.',
-    'To the right stand some of ALMA’s smaller 7-metre antennas, then the lights of the Array Operations Site Technical Building, and behind it the dark peak of Cerro Chajnantor.'
+    'An arc of the Milky Way spans this wide panorama above a field of giant dish antennas washed in moonlight. ESO Photo Ambassador Stéphane Guisard captured it at ALMA, on the 5,000-meter-high, extremely dry Chajnantor plateau in the Chilean Andes.',
+    'When the panorama was taken, the Moon lay close to the center of the Milky Way in the sky, and its light bathes the antennas in a soft glow. On the left, according to ESO, the Large and Small Magellanic Clouds, the biggest of the Milky Way’s dwarf satellite galaxies, appear as two luminous smudges, and a particularly bright meteor gleams near the Small Magellanic Cloud.',
+    'To the right stand some of ALMA’s smaller 7-meter antennas, then the lights of the Array Operations Site Technical Building, and behind it the dark peak of Cerro Chajnantor.'
   ],
   scale: 'The Moon is about 384,400 km away, and its light takes about 1.3 seconds to reach us. The Small Magellanic Cloud, on the same frame, is roughly 210,000 light-years away.',
   understand: {
     summary: 'A wide panorama photograph covering about 210° × 65° of sky and landscape, per ESO.',
     filters: [],
-    eye: 'Panoramas stitch several frames into one, which curves straight features such as the horizon and the arc of the Milky Way. Only the Moon and Cerro Chajnantor are labelled. The Magellanic Clouds’ exact positions are not specified by ESO.'
+    eye: 'Panoramas stitch several frames into one, which curves straight features such as the horizon and the arc of the Milky Way. Only the Moon and Cerro Chajnantor are labeled. The Magellanic Clouds’ exact positions are not specified by ESO.'
   },
   labels: [
     { x: 48, y: 54, text: 'The Moon' },
@@ -655,7 +655,7 @@ export const CATALOG = [
     processing: 'Not published.'
   },
   explore: [
-    'ALMA’s main array uses 12-metre dishes, and the smaller 7-metre antennas form part of the Atacama Compact Array.'
+    'ALMA’s main array uses 12-meter dishes, and the smaller 7-meter antennas form part of the Atacama Compact Array.'
   ],
   sources: [
     ['ESO image page (potw1217a)', 'https://www.eso.org/public/images/potw1217a/'],
@@ -677,7 +677,7 @@ export const CATALOG = [
   recognition: { kind: 'editorial', text: 'Ranked #25 on ESO’s published “Top 100 Images” list (a curated selection, not an audience score).' },
   story: [
     'White antennas tilt toward a deep blue night sky filled with fine stars, standing on a pale concrete platform. High above them hang faint, cloud-like smudges. These are the Large and Small Magellanic Clouds, two companion galaxies of our Milky Way, seen from the Chajnantor plateau in the Chilean Andes.',
-    'The photograph, by Christoph Malin, shows antennas of the Atacama Large Millimeter/submillimeter Array (ALMA), which observes the Universe in millimetre and submillimetre light. The plateau’s great altitude and extreme dryness make it one of the best sites on Earth for this kind of astronomy.',
+    'The photograph, by Christoph Malin, shows antennas of the Atacama Large Millimeter/submillimeter Array (ALMA), which observes the Universe in millimeter and submillimeter light. The plateau’s great altitude and extreme dryness make it one of the best sites on Earth for this kind of astronomy.',
     'Although they look like wisps of cloud, each smudge is a galaxy of its own. The Small Magellanic Cloud hosts NGC 346, one of the star-forming regions in this collection, where Webb found surprisingly dusty discs around young stars.'
   ],
   scale: 'ESA/Hubble pages place the Large Magellanic Cloud about 150,000–170,000 light-years away. ESA/Webb gives about 210,000 light-years for NGC 346 in the Small Magellanic Cloud. Published distances vary.',

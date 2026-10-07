@@ -13,7 +13,7 @@
 .rise-in-late { animation: riseIn .8s cubic-bezier(.2,.7,.2,1) .4s both; }
 @keyframes riseIn { from { opacity: 0; transform: translateY(14px); letter-spacing: .01em; } }
 
-/* Favourite burst */
+/* Favorite burst */
 #favBtn { position: relative; }
 .burst { position: absolute; left: 50%; top: 50%; width: 0; height: 0; pointer-events: none; }
 .burst i { position: absolute; width: 4px; height: 4px; margin: -2px; border-radius: 50%; background: var(--red);
@@ -41,7 +41,7 @@
 .turn-page { animation: turnPage .55s cubic-bezier(.2,.7,.2,1); transform-origin: 0 100%; }
 @keyframes turnPage { from { opacity: 0; transform: perspective(600px) rotateX(-55deg) translateY(10px); } }
 
-/* Archive and favourites: tiles arrive in a short ripple */
+/* Archive and favorites: tiles arrive in a short ripple */
 .grid > * { animation: riseIn .5s cubic-bezier(.2,.7,.2,1) both; }
 .grid > *:nth-child(2) { animation-delay: .03s } .grid > *:nth-child(3) { animation-delay: .06s }
 .grid > *:nth-child(4) { animation-delay: .09s } .grid > *:nth-child(5) { animation-delay: .12s }

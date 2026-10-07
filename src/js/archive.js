@@ -9,7 +9,7 @@ import { tile, scrollToFeature } from './tiles.js';
 
 export const TELESCOPES = {
   hubble: 'Hubble', webb: 'Webb', vlt: 'Very Large Telescope', vista: 'VISTA', vst: 'VLT Survey Telescope',
-  alma: 'ALMA', apex: 'APEX', wfi: 'MPG/ESO 2.2-metre', lasilla: 'La Silla (NTT, 3.6-metre)', gemini: 'Gemini',
+  alma: 'ALMA', apex: 'APEX', wfi: 'MPG/ESO 2.2-meter', lasilla: 'La Silla (NTT, 3.6-meter)', gemini: 'Gemini',
   blanco: 'Blanco (DECam)', kittpeak: 'Kitt Peak', soar: 'SOAR', rubin: 'Rubin', camera: 'Camera (night sky)', other: 'Other'
 };
 const PAGE = 48;

@@ -6,7 +6,7 @@ const MIN_EXPLORE_WORDS = 20;   // under ~two sentences
 const words = (paras) => paras.join(' ').split(/\s+/).filter(Boolean).length;
 const list = (sources) => sources.map(([t, u]) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(t)}</a></li>`).join('');
 
-// The scale lines were generated from catalogue fields; say the result, not the working.
+// The scale lines were generated from catalog fields; say the result, not the working.
 function plainScale(t) {
   return t
     .replace(/^Using the source's listed field of view \([^)]*\) and distance \([^)]*\), the frame spans roughly ([^.]+)\./, 'The frame is roughly $1 across.')
@@ -47,7 +47,7 @@ document.addEventListener('photo:change', ({ detail: { item, dims } }) => {
   const unknownWhere = /not published|does not name/i.test(where);
   $('#celestial').textContent = unknownWhere ? '' : where;
   $('#celestial').hidden = $('#celestial').previousElementSibling.hidden = unknownWhere;
-  // Keep the observatory's own honour; drop the boilerplate disclaimers after it.
+  // Keep the observatory's own honor; drop the boilerplate disclaimers after it.
   const rec = item.recognition.text.replace(/\s*\((?:an )?editorial selection[^)]*\)/gi, '').replace(/\s*No published (?:audience )?rating\.?/gi, '').trim();
   $('#recognition').textContent = rec;
   $('#recognition').hidden = $('#recognition').previousElementSibling.hidden = !rec;

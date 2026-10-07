@@ -1,4 +1,4 @@
-// "Understand the image": filter/colour table, eye-vs-camera note, and verified overlay labels.
+// "Understand the image": filter/color table, eye-vs-camera note, and verified overlay labels.
 import { $, esc } from './util.js';
 
 const SWATCH = { purple: '#9b6bff', blue: '#4f7dff', cyan: '#39d0e0', green: '#4fd06a', yellow: '#ffd84a', orange: '#ff9a3c', red: '#ff4d4d' };
@@ -20,7 +20,7 @@ document.addEventListener('photo:change', ({ detail: { item } }) => {
     ? `<p>${item.labels.map((l) => esc(l.text)).join('; ')}.</p>`
     : '';
   const more = [
-    u.filters.length && `<details><summary>How the colours were made</summary>${table(u.filters)}</details>`,
+    u.filters.length && `<details><summary>How the colors were made</summary>${table(u.filters)}</details>`,
     u.eye && `<details><summary>What your eye would see</summary><p>${esc(u.eye)}</p></details>`,
     marked && `<details><summary>What’s marked on the photograph</summary>${marked}</details>`,
   ].filter(Boolean).join('');

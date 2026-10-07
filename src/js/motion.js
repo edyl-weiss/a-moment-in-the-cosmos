@@ -25,7 +25,7 @@ document.addEventListener('photo:change', () => {
   origin = null;
 });
 
-// 2 · Saving a favourite: a small burst of light around the button.
+// 2 · Saving a favorite: a small burst of light around the button.
 $('#favBtn')?.addEventListener('click', (e) => {
   if (calm() || e.currentTarget.getAttribute('aria-pressed') !== 'true') return;
   const b = e.currentTarget, burst = document.createElement('span');

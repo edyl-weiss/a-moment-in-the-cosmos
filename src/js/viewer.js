@@ -42,9 +42,9 @@ function zoomAt(px, py, s) {
   V.s = s;
   apply();
 }
-const zoomCentre = (factor) => { const [vw, vh] = size(); zoomAt(vw / 2, vh / 2, V.s * factor); };
+const zoomCenter = (factor) => { const [vw, vh] = size(); zoomAt(vw / 2, vh / 2, V.s * factor); };
 
-// Centre the point (xPct, yPct) of the image at the given zoom, animated unless reduced motion.
+// Center the point (xPct, yPct) of the image at the given zoom, animated unless reduced motion.
 // `bottomInset` keeps the point clear of anything covering the bottom of the viewer (the tour card).
 export function flyTo(xPct, yPct, zoom, bottomInset = 0) {
   const [vw, vh] = size();
@@ -180,14 +180,14 @@ surf.addEventListener('dblclick', (e) => {
   zoomAt(e.clientX - r.left, e.clientY - r.top, V.s > 1.5 ? 1 : 2.5);
 });
 
-$('#vZoomIn').addEventListener('click', () => zoomCentre(1.5));
-$('#vZoomOut').addEventListener('click', () => zoomCentre(1 / 1.5));
+$('#vZoomIn').addEventListener('click', () => zoomCenter(1.5));
+$('#vZoomOut').addEventListener('click', () => zoomCenter(1 / 1.5));
 $('#vReset').addEventListener('click', () => { V.s = 1; apply(); });
 $('#vFull').addEventListener('click', loadFull);
 $('#vClose').addEventListener('click', () => dlg.close());
 
 const KEYS = {
-  '+': () => zoomCentre(1.4), '=': () => zoomCentre(1.4), '-': () => zoomCentre(1 / 1.4), '_': () => zoomCentre(1 / 1.4),
+  '+': () => zoomCenter(1.4), '=': () => zoomCenter(1.4), '-': () => zoomCenter(1 / 1.4), '_': () => zoomCenter(1 / 1.4),
   '0': () => { V.s = 1; apply(); },
   ArrowLeft: () => (V.s > 1.01 ? (V.x += 60, apply()) : page(-1)), ArrowRight: () => (V.s > 1.01 ? (V.x -= 60, apply()) : page(1)),
   ArrowUp: () => { V.y += 60; apply(); }, ArrowDown: () => { V.y -= 60; apply(); }
