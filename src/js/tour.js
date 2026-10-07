@@ -1,6 +1,11 @@
 // Guided "look closer" tour: opens the immersive viewer and flies between the
 // stops in data/tours.js, with a caption card and Previous / Next controls.
-import { TOURS } from '../data/tours.js';
+import { TOURS as LIVE } from '../data/tours.js';
+import { DRAFT_TOURS } from '../data/tours-draft.js';
+
+// ?tourcheck also loads the unverified draft tours so their rings can be checked and corrected.
+const CHECK = new URLSearchParams(location.search).has('tourcheck');
+const TOURS = CHECK ? { ...DRAFT_TOURS, ...LIVE } : LIVE;
 import { $, say } from './util.js';
 import { state } from './feature.js';
 import { openViewer, flyTo, setMark, pageButtons } from './viewer.js';
@@ -58,7 +63,7 @@ document.addEventListener('photo:change', ({ detail: { item } }) => {
 
 // Checking aid: open the site with ?tourcheck and every tour stop is drawn on the photograph as a
 // numbered ring, so stop positions can be checked against the real image at a glance.
-if (new URLSearchParams(location.search).has('tourcheck')) {
+if (CHECK) {
   document.addEventListener('photo:change', ({ detail: { item } }) => {
     const s = TOURS[item.id] || [];
     $('#labels').insertAdjacentHTML('beforeend', s.map((p, n) =>
