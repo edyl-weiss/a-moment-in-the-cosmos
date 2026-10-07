@@ -307,3 +307,4 @@ html, body { overflow-x: clip; }
 .empty-state { padding: 2rem 0; text-align: left; font-style: italic; color: var(--ink-2); max-width: 34rem; }
 #understandBody summary::before, .cmp-note summary::before { content: '›'; transform: none; }
 #understandBody details[open] > summary::before, .cmp-note details[open] > summary::before { transform: rotate(90deg); }
+.discover .back button[disabled] { opacity: .35; cursor: default; text-decoration-color: transparent; }

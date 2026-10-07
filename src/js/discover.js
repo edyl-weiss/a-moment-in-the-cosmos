@@ -25,10 +25,26 @@ $$('[data-random]').forEach((b) => b.addEventListener('click', () => {
 }));
 // The bar sits below the story, so bring the new photograph into view.
 $('#backToday').addEventListener('click', () => { showToday(); scrollToFeature(); });
-$('#prevBtn').addEventListener('click', () => { back(); scrollToFeature(); });
+// Previous: step back through the photographs viewed this visit; with nothing to go back to,
+// fall back to the day before in the daily archive (never before launch).
+function prevDay() {
+  const d = Number.isInteger(state.ctx?.day) ? state.ctx.day : todayIndex();
+  return d > 0 ? d - 1 : null;
+}
+$('#prevBtn').addEventListener('click', () => {
+  if (state.history.length) back();
+  else {
+    const d = prevDay();
+    if (d === null) return;
+    show(dailyId(d), { mode: 'archive', day: d });
+  }
+  scrollToFeature();
+});
+const syncPrev = (busy = false) => { $('#prevBtn').disabled = busy || (!state.history.length && prevDay() === null); };
+document.addEventListener('photo:change', () => syncPrev());
 
 document.addEventListener('photo:busy', ({ detail: busy }) => {
   $$('[data-random], #backToday').forEach((x) => { x.disabled = busy; });
-  $('#prevBtn').disabled = busy || !state.history.length;
+  syncPrev(busy);
   $('#stage').setAttribute('aria-busy', String(busy));
 });

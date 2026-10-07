@@ -192,7 +192,11 @@ const KEYS = {
   ArrowLeft: () => (V.s > 1.01 ? (V.x += 60, apply()) : page(-1)), ArrowRight: () => (V.s > 1.01 ? (V.x -= 60, apply()) : page(1)),
   ArrowUp: () => { V.y += 60; apply(); }, ArrowDown: () => { V.y -= 60; apply(); }
 };
-dlg.addEventListener('keydown', (e) => {
+// Listen on the document, not the dialog: when a control that had focus becomes disabled
+// (for example "Day after" on today's photograph), focus drops to <body> and the dialog
+// would stop hearing the keyboard.
+document.addEventListener('keydown', (e) => {
+  if (!dlg.open || e.defaultPrevented) return;
   const act = KEYS[e.key];
   if (!act) return;
   e.preventDefault();
