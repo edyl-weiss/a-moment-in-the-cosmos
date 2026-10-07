@@ -25,14 +25,16 @@ $$('[data-random]').forEach((b) => b.addEventListener('click', () => {
 }));
 // The bar sits below the story, so bring the new photograph into view.
 $('#backToday').addEventListener('click', () => { showToday(); scrollToFeature(); });
-// Previous: step back through the photographs viewed this visit; with nothing to go back to,
-// fall back to the day before in the daily archive (never before launch).
+// Previous: on a daily photograph (today or an archive day) it steps one day back each time.
+// On anything else (a random pick, a search result, a shared link) it returns to the photograph
+// viewed before it, or to yesterday when there is none.
+const onDay = () => Number.isInteger(state.ctx?.day);
 function prevDay() {
-  const d = Number.isInteger(state.ctx?.day) ? state.ctx.day : todayIndex();
+  const d = onDay() ? state.ctx.day : todayIndex();
   return d > 0 ? d - 1 : null;
 }
 $('#prevBtn').addEventListener('click', () => {
-  if (state.history.length) back();
+  if (!onDay() && state.history.length) back();
   else {
     const d = prevDay();
     if (d === null) return;
@@ -40,7 +42,7 @@ $('#prevBtn').addEventListener('click', () => {
   }
   scrollToFeature();
 });
-const syncPrev = (busy = false) => { $('#prevBtn').disabled = busy || (!state.history.length && prevDay() === null); };
+const syncPrev = (busy = false) => { $('#prevBtn').disabled = busy || (prevDay() === null && (onDay() || !state.history.length)); };
 document.addEventListener('photo:change', () => syncPrev());
 
 document.addEventListener('photo:busy', ({ detail: busy }) => {
