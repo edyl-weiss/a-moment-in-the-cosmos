@@ -1,4 +1,5 @@
 // Entry point. Importing a module wires up its own listeners; boot order is below.
+import './router.js';
 import { $, todayIndex, dailyId, dateOf } from './util.js';
 import { show, fitFrame } from './feature.js';
 import { loadIndex, INDEX } from './collection.js';

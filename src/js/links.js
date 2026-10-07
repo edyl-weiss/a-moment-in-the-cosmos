@@ -8,6 +8,7 @@ import { state, show } from './feature.js';
 import { INDEX_BY_ID } from './collection.js';
 import { scrollToFeature } from './tiles.js';
 
+const PAGE = /^#(onthisday|archive|favorites|about|feature)$/;
 const DATE = /^on-(\d{2})-(\d{2})$/;
 let handlers = { date: null };
 
@@ -32,7 +33,6 @@ export function openFromHash({ scroll = true } = {}) {
   const d = h.match(DATE);
   if (d && handlers.date) {
     handlers.date(Number(d[1]) - 1, Number(d[2]));
-    if (scroll) $('#onthisday').scrollIntoView();
     return true;
   }
   if (!INDEX_BY_ID[h]) return false;
@@ -48,7 +48,7 @@ export function openFromHash({ scroll = true } = {}) {
 // address always means "today"; anything else gets its own link.
 document.addEventListener('photo:change', ({ detail: { item, ctx } }) => {
   const daily = ctx.mode === 'daily' && !ctx.standIn;
-  if (daily) { if (!DATE.test(location.hash.slice(1))) setHash('', false); }   // keep a date link in place
+  if (daily) { if (!DATE.test(location.hash.slice(1))) setHash('', PAGE.test(location.hash)); }   // leaving a page keeps it in history   // keep a date link in place
   else setHash(`#${encodeURIComponent(item.id)}`, ctx.mode !== 'link');
 });
 
@@ -84,15 +84,6 @@ export function flash(sel, text, ms = 2200) {
   el.textContent = text;
   clearTimeout(el._t);
   el._t = setTimeout(() => { el.textContent = was; }, ms);
-}
-
-// Navigation: mark the section currently in view with a small dot.
-{
-  const links = [...document.querySelectorAll('.site-nav a')];
-  const io = new IntersectionObserver((es) => {
-    for (const e of es) if (e.isIntersecting) links.forEach((a) => a.setAttribute('aria-current', String(a.hash === `#${e.target.id}`)));
-  }, { rootMargin: '-45% 0px -50% 0px' });
-  links.forEach((a) => { const s = document.querySelector(a.hash); if (s) io.observe(s); });
 }
 
 // Immersive view: controls fade after a quiet moment, return on any movement or key.

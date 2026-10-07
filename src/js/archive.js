@@ -84,7 +84,7 @@ export function searchFor(q) {
   Object.assign(F, { q, cat: 'all', org: 'all', tel: 'all', shown: PAGE });
   syncControls();
   renderArchive();
-  $('#archive').scrollIntoView();
+  location.hash = 'archive';   // opens the Archive page
 }
 
 function syncControls() {

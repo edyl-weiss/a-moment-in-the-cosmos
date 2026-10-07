@@ -1,6 +1,7 @@
 // Thumbnail tile shared by the archive and favorites grids.
 import { esc, CAT, reducedMotion } from './util.js';
 import { INDEX_BY_ID } from './collection.js';
+import { setView, currentView } from './router.js';
 
 export function tile({ id, title, cat, thumb, sub, onOpen, onRemove }) {
   const available = Boolean(INDEX_BY_ID[id]);
@@ -23,6 +24,9 @@ export function tile({ id, title, cat, thumb, sub, onOpen, onRemove }) {
 }
 
 export function scrollToFeature() {
+  if (currentView() !== 'home') {   // opened from another page: switch to the photograph, at the top
+    setView('home');
+  }
   document.getElementById('feature').scrollIntoView({ behavior: reducedMotion() ? 'auto' : 'smooth' });
   const title = document.getElementById('photoTitle');
   title.tabIndex = -1;
