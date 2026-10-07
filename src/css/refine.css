@@ -204,7 +204,7 @@ select { min-height: 40px; }
 .vsurface.turning img { opacity: .25; }
 @media (max-width: 640px) { .vpage { order: -1; width: 100%; justify-content: space-between; } }
 
-/* Tour marker: a thin ring around the feature being described */
+/* Tour marker: shown only with ?tourcheck, to check stop positions */
 .tour-mark { position: absolute; left: 0; top: 0; width: 64px; height: 64px; margin: -32px 0 0 -32px; border: 1px solid rgba(233,228,216,.9); border-radius: 50%; box-shadow: 0 0 0 1px rgba(0,0,0,.45), inset 0 0 0 1px rgba(0,0,0,.35); pointer-events: none; animation: ring 1.6s ease-out .9s both; }
 .tour-mark.moving { transition: transform .9s cubic-bezier(.3,.1,.2,1); }
 @keyframes ring { from { opacity: 0; scale: 1.5; } to { opacity: 1; scale: 1; } }

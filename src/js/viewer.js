@@ -28,7 +28,9 @@ function apply() {
 // Guided-tour marker: a thin ring drawn around the feature being described, kept in step with pan and zoom.
 const mark = $('#tourMark');
 let markAt = null;
-export function setMark(x, y) { markAt = x == null ? null : [x, y]; mark.hidden = !markAt; placeMark(); }
+// The ring is only drawn in ?tourcheck mode, for checking stop positions; visitors just see the zoom.
+const SHOW_MARK = new URLSearchParams(location.search).has('tourcheck');
+export function setMark(x, y) { markAt = x == null || !SHOW_MARK ? null : [x, y]; mark.hidden = !markAt; placeMark(); }
 function placeMark() {
   if (!markAt) return;
   mark.style.transform = `translate(${V.x + (markAt[0] / 100) * V.fitW * V.s}px, ${V.y + (markAt[1] / 100) * V.fitH * V.s}px)`;

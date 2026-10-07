@@ -23,11 +23,10 @@ export function tile({ id, title, cat, thumb, sub, onOpen, onRemove }) {
   return el;
 }
 
-export function scrollToFeature() {
-  if (currentView() !== 'home') {   // opened from another page: switch to the photograph, at the top
-    setView('home');
-  }
-  document.getElementById('feature').scrollIntoView({ behavior: reducedMotion() ? 'auto' : 'smooth' });
+export async function scrollToFeature() {
+  const away = currentView() !== 'home';
+  if (away) await setView('home');   // opened from another page: switch to the photograph first
+  document.getElementById('feature').scrollIntoView({ behavior: away || reducedMotion() ? 'auto' : 'smooth' });
   const title = document.getElementById('photoTitle');
   title.tabIndex = -1;
   title.focus({ preventScroll: true });

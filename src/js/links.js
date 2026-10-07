@@ -8,7 +8,7 @@ import { state, show } from './feature.js';
 import { INDEX_BY_ID } from './collection.js';
 import { scrollToFeature } from './tiles.js';
 
-const PAGE = /^#(onthisday|archive|favorites|about|feature)$/;
+const PAGE = /^#(archive|favorites|about)$/;
 const DATE = /^on-(\d{2})-(\d{2})$/;
 let handlers = { date: null };
 
