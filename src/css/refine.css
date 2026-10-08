@@ -664,3 +664,8 @@ main#main { view-transition-name: page; }
   nav.site-nav.less { -webkit-mask: linear-gradient(90deg, transparent, #000 15%); mask: linear-gradient(90deg, transparent, #000 15%); }
   nav.site-nav.less.more { -webkit-mask: linear-gradient(90deg, transparent, #000 15%, #000 85%, transparent); mask: linear-gradient(90deg, transparent, #000 15%, #000 85%, transparent); }
 }
+
+/* Archive and favorites tiles: captions centered, with room from the edges */
+#archiveGrid .tile .meta, #favGrid .tile .meta { text-align: center; align-items: center; padding: .8rem 1rem 1rem; gap: .35rem; }
+#archiveGrid .tile .meta strong, #favGrid .tile .meta strong { line-height: 1.35; }
+@media (max-width: 560px) { #archiveGrid .tile .meta, #favGrid .tile .meta { padding: .65rem .7rem .85rem; } }
