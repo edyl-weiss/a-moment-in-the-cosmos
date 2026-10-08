@@ -1,7 +1,7 @@
 // Pages. Today's photograph, On this day, Archive, Favorites and About each show on their own;
 // the address bar says which (#archive, #about…), so Back/Forward and shared links work.
-// Each section belongs to a page; Today and On this day share one, as do Archive and Favorites.
-const PAGE_OF = { feature: 'home', onthisday: 'home', archive: 'library', favorites: 'library', about: 'about' };
+// Each section belongs to a page; everything shares the home page except About.
+const PAGE_OF = { feature: 'home', onthisday: 'home', archive: 'home', favorites: 'home', about: 'about' };
 const VIEWS = Object.keys(PAGE_OF);
 const sectionEls = Object.fromEntries(VIEWS.map((v) => [v, document.getElementById(v)]));
 const links = [...document.querySelectorAll('.site-nav a')];
@@ -62,7 +62,7 @@ function mark() {
 // After a page change, land on the section the address names (top of the page otherwise).
 function land(smooth) {
   const id = location.hash.slice(1);
-  const el = VIEWS.includes(id) && PAGE_OF[id] === current && id !== 'feature' && id !== 'archive' ? sectionEls[id]
+  const el = VIEWS.includes(id) && PAGE_OF[id] === current && id !== 'feature' ? sectionEls[id]
     : /^on-\d{2}-\d{2}$/.test(id) ? sectionEls.onthisday : null;
   if (el) el.scrollIntoView({ behavior: smooth && !calm() ? 'smooth' : 'auto' });
   else window.scrollTo({ top: 0, behavior: smooth && !calm() ? 'smooth' : 'auto' });
