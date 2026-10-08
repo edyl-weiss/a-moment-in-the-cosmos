@@ -15,8 +15,8 @@ import { browseConstellation } from './archive.js';
 const SIZE = 1000, C = SIZE / 2, EDGE = 20;              // degrees beyond the equator (pole views)
 const rad = Math.PI / 180;
 const RMAX = 2 * Math.tan((90 + EDGE) / 2 * rad);
-const K = (C - 46) / RMAX;
-const KT = (C - 46) / 2;                                 // tonight view: horizon (altitude 0) at radius 2
+const K = (C - 34) / RMAX;
+const KT = (C - 34) / 2;                                 // tonight view: horizon (altitude 0) at radius 2
 const PLURAL = { galaxy: 'Galaxies', nebula: 'Nebulae', star: 'Stars' };
 // Map symbols, after the conventions of printed star atlases: an oval for a galaxy, a square for a
 // nebula, a broken circle for a star cluster. Thin outlines with a faint fill, drawn in a unit box and
@@ -94,7 +94,16 @@ async function draw({ keepView = false } = {}) {
   drawnFor = key;
   const rim = mode === 'T' ? 2 * KT : RMAX * K;
   let svg = `<defs>${SYMBOLS}<radialGradient id="nsSkyFill" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#11285a"/><stop offset=".6" stop-color="#0a1a3f"/><stop offset="1" stop-color="#050e26"/></radialGradient><clipPath id="nsClip"><circle cx="${C}" cy="${C}" r="${rim.toFixed(1)}"/></clipPath></defs>`;
+  if (mode === 'T') {
+    // Dusk along the horizon: a faint warm glow just outside the rim and a band of fading sunset light
+    // inside it, a little stronger toward the west, where the Sun went down.
+    svg += `<defs><radialGradient id="nsDusk" cx="50%" cy="50%" r="50%"><stop offset=".74" stop-color="#ff9a62" stop-opacity="0"/><stop offset=".9" stop-color="#f08a64" stop-opacity=".07"/><stop offset="1" stop-color="#ffb07a" stop-opacity=".26"/></radialGradient>` +
+      `<radialGradient id="nsWest" cx="100%" cy="50%" r="62%"><stop offset="0" stop-color="#ff9c66" stop-opacity=".2"/><stop offset=".55" stop-color="#d77a6a" stop-opacity=".05"/><stop offset="1" stop-color="#d77a6a" stop-opacity="0"/></radialGradient>` +
+      `<filter id="nsBlur" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="9"/></filter></defs>` +
+      `<circle class="ns-dusk-halo" cx="${C}" cy="${C}" r="${rim.toFixed(1)}" filter="url(#nsBlur)"/>`;
+  }
   svg += `<circle class="ns-disc" cx="${C}" cy="${C}" r="${rim.toFixed(1)}"/><g clip-path="url(#nsClip)">`;
+  if (mode === 'T') svg += `<circle cx="${C}" cy="${C}" r="${rim.toFixed(1)}" fill="url(#nsWest)" class="ns-dusk"/><circle cx="${C}" cy="${C}" r="${rim.toFixed(1)}" fill="url(#nsDusk)" class="ns-dusk"/>`;
   if (mode === 'T') {
     // altitude rings at 30° and 60°
     for (const a of [30, 60]) svg += `<circle class="ns-grid" cx="${C}" cy="${C}" r="${(2 * Math.tan((90 - a) / 2 * rad) * KT).toFixed(1)}"/>`;
@@ -132,20 +141,20 @@ async function draw({ keepView = false } = {}) {
   if (mode === 'T') {
     // compass around the horizon (east is on the left when you look up)
     for (const [t, ang] of [['N', 0], ['NE', 45], ['E', 90], ['SE', 135], ['S', 180], ['SW', 225], ['W', 270], ['NW', 315]]) {
-      const r = rim + 22, a = ang * rad;
+      const r = rim + 17, a = ang * rad;
       svg += `<text class="ns-hour${t.length === 1 ? ' ns-cardinal' : ''}" x="${(C - r * Math.sin(a)).toFixed(1)}" y="${(C - r * Math.cos(a) + 5).toFixed(1)}">${t}</text>`;
     }
     svg += `<text class="ns-pole" x="${C}" y="${C + 4}">overhead</text>`;
   } else {
     for (let h = 0; h < 24; h += 2) {
-      const r = RMAX * K + 22, a = h * 15 * rad;
+      const r = RMAX * K + 17, a = h * 15 * rad;
       const x = mode === 'N' ? C - r * Math.sin(a) : C + r * Math.sin(a), y = C - r * Math.cos(a);
       svg += `<text class="ns-hour" x="${x.toFixed(1)}" y="${(y + 5).toFixed(1)}">${h}h</text>`;
     }
     svg += `<text class="ns-pole" x="${C}" y="${C + 4}">${mode === 'N' ? 'north celestial pole' : 'south celestial pole'}</text>`;
   }
   const what = mode === 'T' ? 'the sky above you' : `the ${mode === 'N' ? 'northern' : 'southern'} sky`;
-  $('#nsChart').innerHTML = `<svg viewBox="0 0 ${SIZE} ${SIZE}" role="img" aria-label="Star chart of ${what} with ${list.length} photographs marked">${svg}</svg>`;
+  $('#nsChart').innerHTML = `<svg class="mode-${mode}" viewBox="0 0 ${SIZE} ${SIZE}" role="img" aria-label="Star chart of ${what} with ${list.length} photographs marked">${svg}</svg>`;
 
   const counts = {};
   for (const e of list) counts[e.cat] = (counts[e.cat] || 0) + 1;

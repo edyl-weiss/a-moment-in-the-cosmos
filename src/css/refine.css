@@ -605,3 +605,14 @@ main#main { view-transition-name: page; }
 .nsp-close:hover, .nsp-close:focus-visible { outline: none; background: radial-gradient(circle at 50% 45%, rgba(30,50,98,.95), rgba(8,20,50,.92));
   box-shadow: 0 0 0 1px rgba(169,198,240,.18), 0 0 16px 3px rgba(169,198,240,.42), inset 0 0 8px rgba(169,198,240,.2); }
 #nsPreview .nsp-close { width: 2.4rem !important; height: 2.4rem !important; min-width: 0; min-height: 0; flex: none; line-height: 0; box-sizing: border-box; }
+
+/* Tonight's sky: a bigger chart, sitting right under the controls */
+.ns-status { margin-bottom: .35rem; }
+.ns-wrap { max-width: min(100%, 1100px); }
+#sky.has-panel .ns-wrap { max-width: none; }
+#sky .ns-zoom { top: .4rem; right: .4rem; }
+
+/* Tonight's sky: sunset glow on the horizon */
+.ns-dusk { pointer-events: none; }
+.ns-dusk-halo { fill: none; stroke: rgba(255,168,118,.30); stroke-width: 12; pointer-events: none; }
+.ns-chart svg.mode-T .ns-disc { stroke: rgba(255,190,150,.35); }
