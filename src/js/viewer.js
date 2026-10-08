@@ -141,7 +141,12 @@ surf.addEventListener('wheel', (e) => {
   zoomAt(e.clientX - r.left, e.clientY - r.top, V.s * Math.exp(-e.deltaY * 0.0015));
 }, { passive: false });
 
+// Pan with a held left button (or a finger); other mouse buttons are left alone.
+img.draggable = false;
+surf.addEventListener('dragstart', (e) => e.preventDefault());   // no "drag the picture out" ghost image
 surf.addEventListener('pointerdown', (e) => {
+  if (e.pointerType === 'mouse' && e.button !== 0) return;
+  e.preventDefault();                                              // no text selection or native drag
   surf.setPointerCapture(e.pointerId);
   V.ptrs.set(e.pointerId, [e.clientX, e.clientY]);
   V.swipe = V.ptrs.size === 1 ? [e.clientX, e.clientY] : null;
