@@ -4,7 +4,7 @@
 //   POST /api/react  { id }      → { count, counted }
 // Visitors are recognised by a salted hash of their IP address per photograph; the IP itself is never stored.
 import { createHash } from 'node:crypto';
-import { configured, pipeline } from './_redis.js';
+import { configured, credentials, pipeline } from './_redis.js';
 
 const ID = /^[A-Za-z0-9._-]{1,100}$/;
 const WEEK_TTL = 60 * 60 * 24 * 21;
@@ -23,6 +23,15 @@ const pairs = (flat) => { const out = []; for (let i = 0; i < flat.length; i += 
 
 export default async function handler(req, res) {
   res.setHeader('Cache-Control', 'no-store');
+  // Setup check: /api/react?status — says which variable names were found (never their values)
+  // and whether the database answers.
+  if (req.method === 'GET' && 'status' in (req.query || {})) {
+    const c = credentials();
+    const envNames = Object.keys(process.env).filter((k) => /REDIS|KV_|UPSTASH/.test(k));
+    if (!c) return res.status(200).json({ ok: false, problem: 'No Upstash variables found in this deployment. Connect the database to this project, then redeploy.', seen: envNames });
+    try { const [pong] = await pipeline([['PING']]); return res.status(200).json({ ok: pong === 'PONG', using: c.from, seen: envNames }); }
+    catch (e) { return res.status(200).json({ ok: false, using: c.from, problem: String(e.message || e) }); }
+  }
   if (!configured()) return res.status(503).json({ error: 'reactions are not set up' });
   try {
     if (req.method === 'GET' && req.query.top === 'week') {
