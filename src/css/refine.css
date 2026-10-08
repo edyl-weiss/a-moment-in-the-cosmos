@@ -595,3 +595,13 @@ main#main { view-transition-name: page; }
 .nsp-close:hover { background: rgba(5,14,38,.95); }
 @media (prefers-reduced-motion: reduce) { .nsp[open] { animation: none; } .nsp-img img { transition: none; } }
 .nsp-card:focus { outline: none; }
+
+/* popup close: a round button with a soft glow instead of a hard outline */
+.nsp-close { width: 2.4rem; height: 2.4rem; aspect-ratio: 1; padding: 0; border: 0; border-radius: 50%;
+  background: radial-gradient(circle at 50% 45%, rgba(20,34,70,.92), rgba(5,14,38,.88));
+  box-shadow: 0 0 0 1px rgba(169,198,240,.10), 0 0 10px 1px rgba(169,198,240,.28), inset 0 0 6px rgba(169,198,240,.15);
+  transition: box-shadow .25s, background .25s; }
+.nsp-close svg { width: .8rem; height: .8rem; stroke: var(--ink); stroke-width: 1.6; stroke-linecap: round; fill: none; }
+.nsp-close:hover, .nsp-close:focus-visible { outline: none; background: radial-gradient(circle at 50% 45%, rgba(30,50,98,.95), rgba(8,20,50,.92));
+  box-shadow: 0 0 0 1px rgba(169,198,240,.18), 0 0 16px 3px rgba(169,198,240,.42), inset 0 0 8px rgba(169,198,240,.2); }
+#nsPreview .nsp-close { width: 2.4rem !important; height: 2.4rem !important; min-width: 0; min-height: 0; flex: none; line-height: 0; box-sizing: border-box; }
