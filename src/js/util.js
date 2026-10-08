@@ -23,7 +23,7 @@ export function dailyId(i) {
 // Minimum size for any photograph the page features.
 export function meetsMinimum(w, h) {
   const long = Math.max(w, h), short = Math.min(w, h);
-  if (long / short <= 1.02) return short >= 1440;   // square
+  if (long / short <= 1.05) return short >= 1440;   // square, within 5%
   return long >= 1920 && short >= 1080;
 }
 

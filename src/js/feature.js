@@ -121,6 +121,7 @@ function contextLine(item, ctx) {
   if (ctx.mode === 'onthisday') return `On this day, ${ctx.label}`;
   if (ctx.mode === 'link') return 'Shared photograph';
   if (ctx.mode === 'search') return 'From the collection';
+  if (ctx.mode === 'loved') return 'Most loved this week';
   return 'A random pick';
 }
 

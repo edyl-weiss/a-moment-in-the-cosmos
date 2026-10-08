@@ -332,3 +332,52 @@ main#main { view-transition-name: page; }
 #onthisday .grid.small .tile .meta { padding: .75rem .85rem .95rem; gap: .35rem; }
 #onthisday .grid.small .tile .meta strong { line-height: 1.35; }
 @media (max-width: 560px) { #onthisday .grid.small .tile .meta { padding: .6rem .65rem .8rem; } }
+
+/* Sky chart: where the object is, drawn for the visitor's hemisphere */
+.skymap { margin: 0 0 1.8rem; }
+.sky-head { font: 500 .66rem/1.4 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); margin-bottom: .6rem; }
+#skyCon { all: unset; cursor: pointer; color: var(--ink); border-bottom: 1px solid var(--red); letter-spacing: .14em; }
+#skyCon:hover { color: var(--red); }
+#skyCon:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.sky-chart { background: radial-gradient(120% 90% at 50% 40%, #11141d, #07080b 70%); border: 1px solid var(--rule); border-radius: 2px; overflow: hidden; }
+.sky-chart svg { display: block; width: 100%; height: auto; }
+.sk-nb { fill: none; stroke: rgba(160,170,200,.16); stroke-width: .7; }
+.sk-bound { fill: rgba(140,160,220,.04); stroke: rgba(160,175,220,.32); stroke-width: .7; stroke-dasharray: 2 3; }
+.sk-line { fill: none; stroke: rgba(205,215,240,.62); stroke-width: 1; stroke-linejoin: round; }
+.sk-star { fill: #eef0f6; }
+.sk-mark circle { fill: none; stroke: var(--red); stroke-width: 1.4; }
+.sk-mark .sk-dot { fill: var(--red); stroke: none; }
+.sk-mark .sk-pulse { animation: sk-pulse 2.4s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes sk-pulse { from { opacity: .9; transform: scale(1); } to { opacity: 0; transform: scale(2.6); } }
+.sk-compass text { font: 500 9px var(--mono); fill: rgba(200,205,220,.45); text-anchor: middle; }
+.sky-when { margin: .7rem 0 .3rem; font-size: .88rem; line-height: 1.55; color: var(--ink-2); }
+.sky-view { margin: 0; font: .7rem/1.5 var(--mono); color: var(--ink-3); }
+#skyFlip { all: unset; cursor: pointer; color: var(--ink-2); text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 3px; }
+#skyFlip:hover { color: var(--ink); }
+@media (prefers-reduced-motion: reduce) { .sk-mark .sk-pulse { animation: none; opacity: 0; } }
+
+/* Constellation chips above the archive grid */
+.con-chips { display: flex; flex-wrap: wrap; align-items: center; gap: .45rem .5rem; margin: 0 0 1.6rem; }
+.chips-label { font: 500 .66rem/1.4 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); margin-right: .4rem; }
+.con-chips button { text-decoration: none; font: .82rem/1 var(--serif); color: var(--ink-2); background: none; border: 1px solid var(--rule); border-radius: 999px; padding: .42rem .75rem; cursor: pointer; transition: border-color .2s, color .2s; }
+.con-chips button span { font: .68rem var(--mono); color: var(--ink-3); margin-left: .25rem; }
+.con-chips button:hover, .con-chips button[aria-pressed="true"] { color: var(--ink); border-color: var(--red); }
+
+/* Wow button */
+.wow { display: inline-flex; align-items: center; gap: .35rem; }
+.wow .wow-star { color: var(--ink-3); transition: color .2s, transform .3s; display: inline-block; }
+.wow[aria-pressed="true"] .wow-star { color: var(--focus); }
+.wow .wow-n { font: .72rem var(--mono); color: var(--ink-3); }
+.wow.pop .wow-star { animation: wow-pop .6s cubic-bezier(.2,1.6,.4,1); }
+@keyframes wow-pop { 0% { transform: scale(1) rotate(0); } 40% { transform: scale(1.9) rotate(72deg); } 100% { transform: scale(1) rotate(144deg); } }
+@media (prefers-reduced-motion: reduce) { .wow.pop .wow-star { animation: none; } }
+
+/* Most loved this week: same tiles as On this day */
+#loved .grid.small { grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); }
+#loved .grid.small .tile .meta { padding: .75rem .85rem .95rem; gap: .35rem; }
+@media (max-width: 560px) { #loved .grid.small { grid-template-columns: repeat(2, minmax(0, 1fr)); } #loved .grid.small .tile .meta { padding: .6rem .65rem .8rem; } }
+
+/* The four ways into a photograph read a step stronger than the utility row below them */
+.act-primary button { font-weight: 500; color: var(--ink); letter-spacing: .01em;
+  text-decoration: underline; text-decoration-color: rgba(143,179,230,.6); text-decoration-thickness: 1px; text-underline-offset: .35em; }
+.act-primary button:hover, .act-primary button[aria-pressed="true"] { text-decoration-color: #a9c6f0; }

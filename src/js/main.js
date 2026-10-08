@@ -17,6 +17,8 @@ import { initOnThisDay } from './onthisday.js';
 import './discover.js';
 import './motion.js';
 import { scheduleRollover } from './rollover.js';
+import './skymap.js';
+import { renderLoved } from './reactions.js';
 import { SCHEDULE } from '../data/schedule.js';
 
 const issue = todayIndex();
@@ -31,6 +33,7 @@ initArchiveSearch();
 renderArchive();
 renderGrid();
 await initOnThisDay();
+renderLoved();
 // A shared link (#photo-id or #on-MM-DD) opens that view; otherwise today's photograph.
 const linkedPhoto = location.hash && openFromHash({ scroll: true });
 if (!linkedPhoto || /^#on-/.test(location.hash)) show(dailyId(issue), { mode: 'daily', day: issue }, { push: false });

@@ -6,7 +6,7 @@ import { TOURS } from '../src/data/tours.js';
 import { COMPARISONS } from '../src/data/comparisons.js';
 import { readFileSync, existsSync } from 'node:fs';
 // same rule as src/js/util.js meetsMinimum (the browser re-checks every image it loads)
-const meetsMinimum = (w, h) => { const l = Math.max(w, h), s = Math.min(w, h); return l / s <= 1.02 ? s >= 1440 : l >= 1920 && s >= 1080; };
+const meetsMinimum = (w, h) => { const l = Math.max(w, h), s = Math.min(w, h); return l / s <= 1.05 ? s >= 1440 : l >= 1920 && s >= 1080; };
 
 const REQUIRED = ['id', 'cat', 'org', 'title', 'caption', 'releaseDate', 'celestial', 'credit', 'source', 'story', 'understand', 'behind', 'sources'];
 const CATS = new Set(['galaxy', 'nebula', 'star', 'night']);

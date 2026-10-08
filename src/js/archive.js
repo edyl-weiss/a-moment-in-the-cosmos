@@ -6,6 +6,7 @@ import { $, $$, esc, CAT, todayIndex, dateOf, fmtDate, dailyId } from './util.js
 import { show, SOURCE } from './feature.js';
 import { INDEX, INDEX_BY_ID } from './collection.js';
 import { tile, scrollToFeature } from './tiles.js';
+import { CON_NAMES, onConstellationClick } from './skymap.js';
 
 export const TELESCOPES = {
   hubble: 'Hubble', webb: 'Webb', vlt: 'Very Large Telescope', vista: 'VISTA', vst: 'VLT Survey Telescope',
@@ -13,19 +14,21 @@ export const TELESCOPES = {
   blanco: 'Blanco (DECam)', kittpeak: 'Kitt Peak', soar: 'SOAR', rubin: 'Rubin', camera: 'Camera (night sky)', other: 'Other'
 };
 const PAGE = 48;
-const F = { q: '', cat: 'all', org: 'all', tel: 'all', shown: PAGE };
+const BLANK = { q: '', cat: 'all', org: 'all', tel: 'all', con: 'all' };
+const F = { ...BLANK, shown: PAGE };
 
 const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[’']/g, '');
 // "M 31", "M31" and "Messier 31" all find Messier 31.
 const expand = (q) => norm(q).replace(/\bmessier\s*(\d+)/g, 'm$1').replace(/\bm\s+(\d+)\b/g, 'm$1').replace(/\b(ngc|ic)\s+(\d+)/g, '$1$2');
 const haystack = (e) => e._h || (e._h = expand(`${e.title} ${e.q || ''}`));
 
-const searching = () => F.q.trim() || F.cat !== 'all' || F.org !== 'all' || F.tel !== 'all';
+const searching = () => F.q.trim() || F.cat !== 'all' || F.org !== 'all' || F.tel !== 'all' || F.con !== 'all';
 
 export function matches(e, q = F.q) {
   if (F.cat !== 'all' && e.cat !== F.cat) return false;
   if (F.org !== 'all' && e.org !== F.org) return false;
   if (F.tel !== 'all' && !(e.tel || []).includes(F.tel)) return false;
+  if (F.con !== 'all' && e.con !== F.con) return false;
   const words = expand(q).split(/\s+/).filter(Boolean);
   const h = haystack(e);
   return words.every((w) => h.includes(w));
@@ -54,7 +57,8 @@ function renderDaily(grid) {
 
 function renderResults(grid) {
   const hits = INDEX.filter((e) => matches(e));
-  $('#archiveHead').textContent = 'Search the collection';
+  const only = F.con !== 'all' && !F.q.trim() && F.cat === 'all' && F.org === 'all' && F.tel === 'all';
+  $('#archiveHead').textContent = only ? `In ${CON_NAMES[F.con] || 'this constellation'}` : 'Search the collection';
   $('#archiveNote').textContent = hits.length
     ? `${hits.length.toLocaleString('en')} photograph${hits.length === 1 ? '' : 's'} match.`
     : 'No matches. Try fewer words, or clear a filter.';
@@ -81,10 +85,19 @@ export function renderArchive() {
 
 // Used by "On this day": fill the search box, run it and bring the results into view.
 export function searchFor(q) {
-  Object.assign(F, { q, cat: 'all', org: 'all', tel: 'all', shown: PAGE });
+  Object.assign(F, BLANK, { q, shown: PAGE });
   syncControls();
   renderArchive();
   location.hash = 'archive';   // opens the Archive page
+}
+
+// Constellation collections: everything the collection holds in one constellation.
+export function browseConstellation(con) {
+  Object.assign(F, BLANK, { con, shown: PAGE });
+  syncControls();
+  renderArchive();
+  if (location.hash === '#archive') document.getElementById('archive').scrollIntoView({ behavior: 'smooth' });
+  else location.hash = 'archive';
 }
 
 function syncControls() {
@@ -92,9 +105,13 @@ function syncControls() {
   $('#archiveCat').value = F.cat;
   $('#archiveOrg').value = F.org;
   $('#archiveTel').value = F.tel;
+  $('#archiveCon').value = F.con;
+  markChips();
 }
+const markChips = () => $$('#conChips button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.con === F.con)));
 
 export function initArchiveSearch() {
+  onConstellationClick(browseConstellation);
   const present = new Set(INDEX.flatMap((e) => e.tel || []));
   $('#archiveTel').innerHTML = '<option value="all">Any telescope</option>' +
     Object.entries(TELESCOPES).filter(([k]) => present.has(k)).map(([k, v]) => `<option value="${k}">${esc(v)}</option>`).join('');
@@ -104,16 +121,30 @@ export function initArchiveSearch() {
   $('#archiveCat').innerHTML = '<option value="all">Any category</option>' +
     Object.entries(CAT).map(([k, v]) => `<option value="${k}">${esc(v)}</option>`).join('');
 
+  // Constellations: a menu of all of them (with counts) and chips for the best-stocked ones.
+  const count = {};
+  for (const e of INDEX) if (e.con) count[e.con] = (count[e.con] || 0) + 1;
+  const byName = Object.keys(count).sort((a, b) => CON_NAMES[a].localeCompare(CON_NAMES[b]));
+  $('#archiveCon').innerHTML = '<option value="all">Any constellation</option>' +
+    byName.map((k) => `<option value="${k}">${esc(CON_NAMES[k])} (${count[k]})</option>`).join('');
+  const top = Object.keys(count).sort((a, b) => count[b] - count[a]).slice(0, 12);
+  $('#conChips').innerHTML = '<span class="chips-label">Browse by constellation</span>' +
+    top.map((k) => `<button type="button" data-con="${k}" aria-pressed="false">${esc(CON_NAMES[k])} <span>${count[k]}</span></button>`).join('');
+  $('#conChips').addEventListener('click', (e) => {
+    const b = e.target.closest('button[data-con]');
+    if (b) browseConstellation(F.con === b.dataset.con ? 'all' : b.dataset.con);
+  });
+
   let t;
   $('#archiveQ').addEventListener('input', (e) => {
     clearTimeout(t);
     t = setTimeout(() => { F.q = e.target.value; F.shown = PAGE; renderArchive(); }, 180);
   });
   $('#archiveForm').addEventListener('submit', (e) => { e.preventDefault(); F.q = $('#archiveQ').value; F.shown = PAGE; renderArchive(); });
-  for (const [sel, key] of [['#archiveCat', 'cat'], ['#archiveOrg', 'org'], ['#archiveTel', 'tel']]) {
-    $(sel).addEventListener('change', (e) => { F[key] = e.target.value; F.shown = PAGE; renderArchive(); });
+  for (const [sel, key] of [['#archiveCat', 'cat'], ['#archiveOrg', 'org'], ['#archiveTel', 'tel'], ['#archiveCon', 'con']]) {
+    $(sel).addEventListener('change', (e) => { F[key] = e.target.value; F.shown = PAGE; markChips(); renderArchive(); });
   }
   $('#archiveMore').addEventListener('click', () => { F.shown += PAGE; renderArchive(); });
-  $('#archiveClear').addEventListener('click', () => { Object.assign(F, { q: '', cat: 'all', org: 'all', tel: 'all', shown: PAGE }); syncControls(); renderArchive(); });
+  $('#archiveClear').addEventListener('click', () => { Object.assign(F, BLANK, { shown: PAGE }); syncControls(); renderArchive(); });
 }
 

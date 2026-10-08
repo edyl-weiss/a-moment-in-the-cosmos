@@ -371,7 +371,13 @@ export const SCHEDULE = {
       "nasa-nasas-hubble-views-a-cosmic-skyrocket",
       "e-eso1113a",
       "h-heic1105a",
-      "h-potw2552a"
+      "h-potw2552a",
+      "n-noao-ic1805",
+      "e-eso1340a",
+      "n-noao0310a",
+      "h-potm2602b",
+      "h-potw1020a",
+      "h-opo0219a"
     ],
     "galaxy": [
       "weic2208a",
@@ -960,7 +966,10 @@ export const SCHEDULE = {
       "nasa-bullet-cluster-nircam-image",
       "h-potw2510a",
       "h-potw2517a",
-      "h-potw2252a"
+      "h-potw2252a",
+      "h-opo0221a",
+      "w-webb-first-deep-field",
+      "w-elgordo1"
     ],
     "night": [
       "potw1222a",

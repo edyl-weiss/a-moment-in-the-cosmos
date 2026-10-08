@@ -1,6 +1,7 @@
 // The photo collection: the 16 hand-curated records in data/catalog.js plus the larger
 // collection in data/collection/ (a small index loaded at start, one JSON file per photo
 // fetched only when that photo is shown).
+import { CATALOG_SKY } from '../data/constellations.js';
 import { CATALOG } from '../data/catalog.js';
 
 const CURATED = Object.fromEntries(CATALOG.map((c) => [c.id, c]));
@@ -15,7 +16,8 @@ const entry = (c) => ({
   id: c.id, cat: c.cat, org: c.org, title: c.title, thumb: c.img.thumb,
   y: (c.releaseDate.match(/\d{4}/) || [])[0],
   q: `${c.celestial} ${c.caption}`,
-  tel: c.cat === 'night' ? ['camera'] : telescopes(`${c.behind.observatory} ${c.behind.instrument}`)
+  tel: c.cat === 'night' ? ['camera'] : telescopes(`${c.behind.observatory} ${c.behind.instrument}`),
+  con: CATALOG_SKY[c.id]?.con
 });
 
 export let INDEX = CATALOG.map(entry);
