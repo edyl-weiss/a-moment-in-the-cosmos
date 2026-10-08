@@ -669,3 +669,6 @@ main#main { view-transition-name: page; }
 #archiveGrid .tile .meta, #favGrid .tile .meta { text-align: center; align-items: center; padding: .8rem 1rem 1rem; gap: .35rem; }
 #archiveGrid .tile .meta strong, #favGrid .tile .meta strong { line-height: 1.35; }
 @media (max-width: 560px) { #archiveGrid .tile .meta, #favGrid .tile .meta { padding: .65rem .7rem .85rem; } }
+
+/* daytime "right now": the slider rests, faded, until someone picks a time tonight */
+.ns-timerow.daylight #nsTime { opacity: .4; }

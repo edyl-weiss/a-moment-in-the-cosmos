@@ -457,17 +457,22 @@ const quiet = () => $('#nsHint').classList.add('gone');
 $$('.ns-hemi button').forEach((b) => b.addEventListener('click', () => { mode = b.dataset.hemi; draw(); }));
 
 // Tonight's time: "now", or any time from 6 pm tonight to 6 am tomorrow with the slider.
+// "Tonight" runs from 6 pm to 6 am. In the daytime the slider looks ahead to the coming night
+// (opening on 9 pm) instead of pinning itself to one end; "Right now" still shows the daytime sky.
+const isNight = (d) => d.getHours() >= 18 || d.getHours() < 6;
 function eveningStart(now = new Date()) {
   const d = new Date(now); d.setHours(18, 0, 0, 0);
-  if (now.getHours() < 12) d.setDate(d.getDate() - 1);   // after midnight, "tonight" began yesterday evening
+  if (now.getHours() < 6) d.setDate(d.getDate() - 1);    // after midnight, tonight began yesterday evening
   return d;
 }
 function syncTime() {
-  const now = new Date(), t = when || now, start = eveningStart(now);
-  const mins = Math.round((t - start) / 6e4);
-  const slider = $('#nsTime');
-  slider.value = Math.min(720, Math.max(0, mins));
-  $('#nsTimeLabel').textContent = when ? timeLabel(when) : `Now, ${timeLabel(now)}`;
+  const now = new Date(), start = eveningStart(now), slider = $('#nsTime');
+  const night = isNight(now);
+  if (when) slider.value = Math.round((when - start) / 6e4);
+  else if (night) slider.value = Math.round((now - start) / 6e4);
+  $('#nsTimeRow').classList.toggle('daylight', !when && !night);
+  $('#nsTimeLabel').textContent = when ? `${timeLabel(when)} tonight` : night ? `Now, ${timeLabel(now)}` : `Now, ${timeLabel(now)} (daylight)`;
+  $('#nsNow').textContent = night ? 'Back to now' : 'Right now';
   $('#nsNow').hidden = !when;
 }
 let timeFrame = 0;
@@ -484,7 +489,11 @@ setInterval(() => { if (mode === 'T' && !when && location.hash === '#sky' && !do
 // Draw the first time the page is opened: tonight's sky above the visitor.
 async function maybeDraw() {
   if (location.hash !== '#sky') return;
-  if (!mode) mode = 'T';
+  if (!mode) {
+    mode = 'T';
+    const now = new Date();
+    if (!isNight(now)) when = new Date(eveningStart(now).getTime() + 180 * 6e4);   // daytime: open on 9 pm tonight
+  }
   syncTime();
   draw();
 }
