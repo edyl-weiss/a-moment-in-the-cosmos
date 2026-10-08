@@ -485,7 +485,7 @@ main#main { view-transition-name: page; }
 .ns-legend button, .ns-layers button, .ns-hemi button, .ns-zoom button { text-decoration: none !important; }
 .ns-legend button b { text-decoration: none; }
 
-/* ===== Night sky controls, v2: one labelled toolbar, map-style zoom on the chart ===== */
+/* ===== Night sky controls, v2: one labeled toolbar, map-style zoom on the chart ===== */
 .ns-controls { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 1.1rem 2.2rem; padding: 1rem 1.2rem 1.1rem; margin: 0 0 .7rem;
   background: rgba(169,198,240,.035); border: 1px solid var(--rule); border-radius: 8px; }
 .ns-group { display: flex; flex-direction: column; gap: .45rem; }
@@ -616,3 +616,51 @@ main#main { view-transition-name: page; }
 .ns-dusk { pointer-events: none; }
 .ns-dusk-halo { fill: none; stroke: rgba(255,168,118,.18); stroke-width: 12; pointer-events: none; }
 .ns-chart svg.mode-T .ns-disc { stroke: rgba(255,190,150,.21); }
+
+/* Section intros run the full width of the section instead of wrapping at a reading measure */
+.section-head > div { flex: 1 1 100%; min-width: 0; }
+.section-head p, #sky .section-head p { max-width: none; }
+
+/* ===== Touch screens: every control gets at least a 44 px target ===== */
+@media (pointer: coarse), (max-width: 700px) {
+  .site-nav a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 .15rem; }
+  .site-nav ul { row-gap: 0; }
+  [data-random] { min-width: 44px; justify-content: center; }
+  details.panel > summary, .notes summary, #understandBody summary, .cmp-note summary { min-height: 44px; display: flex; align-items: center; }
+  #skyCon, #skyFlip { display: inline-flex; align-items: center; min-height: 44px; padding: 0 .1rem; }
+  #otdPrev, #otdNext { min-width: 44px; justify-content: center; }
+  #otdToday { min-width: 44px; }
+  #archiveQ { min-height: 44px; }
+  .vbar button, #vZoomOut, #vZoomIn, #vReset, #vClose { min-width: 44px; justify-content: center; }
+  .ns-more summary { min-height: 44px; display: inline-flex; align-items: center; }
+  #sky .ns-layers button, #sky .ns-legend button, .ns-seg button, .ns-select { min-height: 44px; }
+  .con-chips button { min-height: 40px; padding: .55rem .85rem; }
+  #nsClear, #nsNow, .ns-p-actions button, #nsOpen { display: inline-flex; align-items: center; min-height: 44px; }
+  /* the time slider: a bigger thumb and track that are easy to grab */
+  #nsTime { height: 44px; -webkit-appearance: none; appearance: none; background: transparent; }
+  #nsTime::-webkit-slider-runnable-track { height: 6px; border-radius: 3px; background: rgba(169,198,240,.25); }
+  #nsTime::-moz-range-track { height: 6px; border-radius: 3px; background: rgba(169,198,240,.25); }
+  #nsTime::-webkit-slider-thumb { -webkit-appearance: none; width: 26px; height: 26px; margin-top: -10px; border-radius: 50%; background: #a9c6f0; border: 3px solid #0a1a3f; box-shadow: 0 0 0 1px rgba(169,198,240,.6); }
+  #nsTime::-moz-range-thumb { width: 22px; height: 22px; border-radius: 50%; background: #a9c6f0; border: 3px solid #0a1a3f; }
+  /* zoom buttons on the chart: a little larger for thumbs */
+  #sky .ns-zoom button { width: 2.9rem; height: 2.9rem; }
+  /* popup close sits clear of the edge */
+  #nsPreview .nsp-close { width: 2.75rem !important; height: 2.75rem !important; }
+}
+@media (pointer: coarse), (max-width: 700px) { #viewer #vZoomOut, #viewer #vZoomIn, #viewer #vReset { min-width: 44px !important; } }
+
+/* Phones: the menu is one swipeable row instead of two wrapped rows */
+@media (max-width: 700px) {
+  nav.site-nav { width: 100%; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  nav.site-nav.more { mask-image: linear-gradient(90deg, #000 85%, transparent); -webkit-mask-image: linear-gradient(90deg, #000 85%, transparent); }
+  nav.site-nav::-webkit-scrollbar { display: none; }
+  nav.site-nav ul { flex-wrap: nowrap; gap: 1.2rem; padding-right: .75rem; }
+  nav.site-nav li { flex: none; }
+  .site-nav a { white-space: nowrap; }
+  .site-nav a::after { bottom: .3rem; }
+}
+@media (max-width: 700px) { nav.site-nav:not(.more) { -webkit-mask: none; mask: none; } }
+@media (max-width: 700px) {
+  nav.site-nav.less { -webkit-mask: linear-gradient(90deg, transparent, #000 15%); mask: linear-gradient(90deg, transparent, #000 15%); }
+  nav.site-nav.less.more { -webkit-mask: linear-gradient(90deg, transparent, #000 15%, #000 85%, transparent); mask: linear-gradient(90deg, transparent, #000 15%, #000 85%, transparent); }
+}

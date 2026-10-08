@@ -80,7 +80,7 @@ async function draw(item) {
   };
 
   let svg = '';
-  for (const [k, c] of Object.entries(data.con)) {     // neighbours, faint
+  for (const [k, c] of Object.entries(data.con)) {     // neighbors, faint
     if (k === at.con) continue;
     const d = (c.l || []).map(path).join('');
     if (d) svg += `<path class="sk-nb" d="${d}"/>`;

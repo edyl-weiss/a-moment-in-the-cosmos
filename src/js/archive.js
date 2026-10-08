@@ -42,8 +42,7 @@ export const countFor = (q) => {
 
 function renderDaily(grid) {
   const today = todayIndex();
-  $('#archiveNote').textContent = `Every day’s photograph since the site launched on ${fmtDate(dateOf(0))}. ` +
-    'Search to browse the whole collection.';
+  $('#archiveNote').textContent = `Every daily photograph since ${fmtDate(dateOf(0))}. Search to see the whole collection`;
   for (let i = today; i >= 0; i--) {
     const it = INDEX_BY_ID[dailyId(i)];
     if (!it) continue;
@@ -60,8 +59,8 @@ function renderResults(grid) {
   const only = F.con !== 'all' && !F.q.trim() && F.cat === 'all' && F.org === 'all' && F.tel === 'all';
   $('#archiveHead').textContent = only ? `In ${CON_NAMES[F.con] || 'this constellation'}` : 'Search the collection';
   $('#archiveNote').textContent = hits.length
-    ? `${hits.length.toLocaleString('en')} photograph${hits.length === 1 ? '' : 's'} match.`
-    : 'No matches. Try fewer words, or clear a filter.';
+    ? `${hits.length.toLocaleString('en')} ${hits.length === 1 ? 'photograph matches' : 'photographs match'}`
+    : 'No matches. Try fewer words, or clear a filter';
   for (const it of hits.slice(0, F.shown)) {
     grid.appendChild(tile({
       id: it.id, title: it.title, cat: it.cat, thumb: it.thumb,

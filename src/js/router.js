@@ -57,6 +57,12 @@ function mark() {
   const exact = links.find((a) => a.hash === want);
   const on = exact || links.find((a) => viewFor(a.hash) === current);
   links.forEach((a) => a.setAttribute('aria-current', String(a === on)));
+  // On phones the menu scrolls sideways: keep the current item in view (without moving the page).
+  const nav = on?.closest('nav');
+  if (nav && nav.scrollWidth > nav.clientWidth) {
+    const l = on.offsetLeft, r = l + on.offsetWidth;
+    if (l < nav.scrollLeft || r > nav.scrollLeft + nav.clientWidth * 0.85) nav.scrollTo({ left: Math.max(0, l - (nav.clientWidth - on.offsetWidth) / 2), behavior: 'smooth' });
+  }
 }
 
 // After a page change, land on the section the address names (top of the page otherwise).
@@ -68,6 +74,15 @@ function land(smooth) {
   else window.scrollTo({ top: 0, behavior: smooth && !calm() ? 'smooth' : 'auto' });
 }
 export const currentView = () => current;
+
+// The fades at the menu's edges only show while there is more menu to swipe to on that side.
+{
+  const nav = document.querySelector('nav.site-nav');
+  const edge = () => { nav.classList.toggle('more', nav.scrollLeft + nav.clientWidth < nav.scrollWidth - 4); nav.classList.toggle('less', nav.scrollLeft > 4); };
+  nav?.addEventListener('scroll', edge, { passive: true });
+  addEventListener('resize', edge);
+  edge();
+}
 
 async function route() {
   const page = viewFor(location.hash), changed = page !== current;

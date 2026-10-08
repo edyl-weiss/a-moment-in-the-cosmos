@@ -41,10 +41,10 @@ btn.addEventListener('click', async () => {
   if (!id || mine().includes(id)) return;
   store.set(MINE, [...mine(), id].slice(-500));
   btn.classList.remove('pop'); void btn.offsetWidth; btn.classList.add('pop');
-  paint(id, (parseInt(num.textContent, 10) || 0) + 1);       // optimistic
+  paint(id, (parseInt(num.textContent, 10) || 0) + 1);       // optimiztic
   say('You said wow');
   try { const { count } = await api('/api/react', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ id }) }); paint(id, count); }
-  catch { /* keep the optimistic count; it will correct itself next visit */ }
+  catch { /* keep the optimiztic count; it will correct itself next visit */ }
 });
 
 // Most loved this week: shown once at least three photographs have reactions.
