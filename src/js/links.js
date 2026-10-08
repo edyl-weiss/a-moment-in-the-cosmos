@@ -47,6 +47,7 @@ export function openFromHash({ scroll = true } = {}) {
 // Keep the address bar in step with the photograph. Today's photograph gets no hash, so the bare
 // address always means "today"; anything else gets its own link.
 document.addEventListener('photo:change', ({ detail: { item, ctx } }) => {
+  if (ctx.initial) return;   // the page's first photograph: leave the address (e.g. #sky) as it is
   const daily = ctx.mode === 'daily' && !ctx.standIn;
   if (daily) { if (!DATE.test(location.hash.slice(1))) setHash('', PAGE.test(location.hash)); }   // leaving a page keeps it in history   // keep a date link in place
   else setHash(`#${encodeURIComponent(item.id)}`, ctx.mode !== 'link');

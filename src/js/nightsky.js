@@ -6,7 +6,7 @@
 // Every photograph with a published position is a dot where it sits among the constellations.
 import { $, $$, esc, CAT } from './util.js';
 import { show, SOURCE } from './feature.js';
-import { INDEX, INDEX_BY_ID } from './collection.js';
+import { INDEX, INDEX_BY_ID, getPhoto } from './collection.js';
 import { tile, scrollToFeature } from './tiles.js';
 import { CON_NAMES } from '../data/constellations.js';
 import { whereAmI } from './geo.js';
@@ -287,7 +287,7 @@ async function focusCon(k, fly = true) {
     <p class="ns-p-actions">${inside.length > 8 ? `<button type="button" id="nsAll">See all ${inside.length} in the archive →</button>` : ''}
     <button type="button" id="nsWhole">← Whole sky</button></p>`;
   const grid = $('#nsPGrid');
-  for (const e of inside.slice(0, 8)) grid.appendChild(tile({ id: e.id, title: e.title, cat: e.cat, thumb: e.thumb, sub: e.y, onOpen: () => open(e.id) }));
+  for (const e of inside.slice(0, 8)) grid.appendChild(tile({ id: e.id, title: e.title, cat: e.cat, thumb: e.thumb, sub: e.y, onOpen: () => preview(e.id) }));
   panel.hidden = false;
   $('#sky').classList.add('has-panel');
   if (fly) hideTip();
@@ -318,6 +318,40 @@ function animateTo(t) {
 }
 
 function open(id) { show(id, { mode: 'sky' }); scrollToFeature(); }
+
+// Quick look: a popup with the photograph and a few lines about it, without leaving the sky.
+// "See full details" goes on to the photograph's own page.
+const dlg = $('#nsPreview');
+let previewing = null;
+async function preview(id) {
+  const e = INDEX_BY_ID[id];
+  if (!e) return;
+  previewing = id;
+  hideTip();
+  const img = $('#nspImg');
+  img.classList.remove('loaded');
+  img.src = e.thumb; img.alt = '';
+  $('#nspKicker').textContent = [CAT[e.cat], e.con && CON_NAMES[e.con], e.y].filter(Boolean).join(' · ');
+  $('#nspTitle').textContent = e.title;
+  $('#nspText').textContent = ''; $('#nspCredit').textContent = '';
+  if (!dlg.open) dlg.showModal();
+  try {
+    const r = await getPhoto(id);
+    if (previewing !== id) return;
+    const big = new Image();
+    big.onload = () => { if (previewing === id) { img.src = big.src; img.classList.add('loaded'); } };
+    big.src = r.img.screen || r.img.large || r.img.pub;
+    img.alt = r.alt || e.title;
+    // first sentence (a full stop after a lowercase letter or digit, so "Nicholas U. Mayall" isn't cut short)
+    const first = (r.story?.[0] || '').match(/^.*?[a-z0-9)”'"][.!?](?=\s+[A-Z“"']|\s*$)/);
+    $('#nspText').textContent = first ? first[0].trim() : (r.caption || '');
+    $('#nspCredit').textContent = r.credit ? `Credit: ${r.credit}` : '';
+  } catch { /* the summary is optional; the popup still shows the title and thumbnail */ }
+}
+$('#nspFull').addEventListener('click', () => { const id = previewing; dlg.close(); if (id) open(id); });
+$('#nspClose').addEventListener('click', () => dlg.close());
+dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });   // click outside the card
+dlg.addEventListener('close', () => { previewing = null; });
 
 const chart = $('#nsChart');
 chart.addEventListener('wheel', (e) => { if (!$('#nsChart svg')) return; e.preventDefault(); const [x, y] = toChart(e); zoomAt(x, y, Math.exp(-e.deltaY * 0.0015)); }, { passive: false });
@@ -350,7 +384,7 @@ chart.addEventListener('click', (e) => {
   if (moved > 4) return;
   // Dots are small, so a tap within a finger's width of one counts as hitting it.
   const dot = e.target.closest('.ns-dot') || nearestDot(e.clientX, e.clientY, matchMedia('(pointer: coarse)').matches ? 22 : 9);
-  if (dot) { if (selected === dot.dataset.id && matchMedia('(pointer: fine)').matches) open(selected); else showTip(dot); return; }
+  if (dot) { if (selected === dot.dataset.id && matchMedia('(pointer: fine)').matches) preview(selected); else showTip(dot); return; }
   const area = e.target.closest('.ns-con, .ns-area, .ns-line');
   if (area) {
     // wait a beat so a double-click can zoom instead of flying to the constellation
@@ -365,10 +399,10 @@ chart.addEventListener('mouseover', (e) => { const dot = e.target.closest('.ns-d
 chart.addEventListener('keydown', (e) => {
   if (e.key !== 'Enter' && e.key !== ' ') return;
   const dot = e.target.closest('.ns-dot'), con = e.target.closest('.ns-con');
-  if (dot) { e.preventDefault(); selected === dot.dataset.id ? open(selected) : showTip(dot); }
+  if (dot) { e.preventDefault(); selected === dot.dataset.id ? preview(selected) : showTip(dot); }
   if (con) { e.preventDefault(); focusCon(con.dataset.con); }
 });
-$('#nsTip').addEventListener('click', (e) => { if (e.target.id === 'nsOpen' && selected) open(selected); });
+$('#nsTip').addEventListener('click', (e) => { if (e.target.id === 'nsOpen' && selected) preview(selected); });
 // Double-click (or double-tap) zooms in where you point; arrow keys and + / − work once the chart has focus.
 chart.addEventListener('dblclick', (e) => { clearTimeout(pendingFocus); e.preventDefault(); const [x, y] = toChart(e); zoomAt(x, y, 1.8); });
 chart.tabIndex = 0;

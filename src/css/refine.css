@@ -574,3 +574,24 @@ main#main { view-transition-name: page; }
 /* legend: the same symbols as on the chart */
 .ns-sym { width: 1.05rem; height: 1.05rem; flex: none; overflow: visible; }
 #sky .ns-legend button[aria-pressed="false"] .ns-sym { opacity: .35; }
+
+/* Tonight's sky: quick-look popup */
+.nsp { padding: 0; border: 0; background: none; color: var(--ink); max-width: min(560px, calc(100vw - 32px)); width: 100%; max-height: calc(100dvh - 32px); }
+.nsp::backdrop { background: rgba(3,8,22,.72); backdrop-filter: blur(3px); }
+.nsp[open] { animation: nsp-in .28s cubic-bezier(.2,.8,.2,1); }
+@keyframes nsp-in { from { opacity: 0; transform: translateY(10px) scale(.985); } }
+.nsp-card { position: relative; background: var(--paper); border: 1px solid rgba(169,198,240,.28); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; max-height: calc(100dvh - 32px); }
+.nsp-img { background: #000; flex: none; display: flex; align-items: center; justify-content: center; max-height: 52dvh; overflow: hidden; }
+.nsp-img img { display: block; width: 100%; height: auto; max-height: 52dvh; object-fit: contain; filter: blur(6px); transition: filter .4s; }
+.nsp-img img.loaded { filter: none; }
+.nsp-body { padding: 1.1rem 1.3rem 1.3rem; overflow-y: auto; }
+.nsp-kicker { margin: 0 0 .35rem; font: 500 .66rem/1.4 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); }
+.nsp h3 { margin: 0 0 .55rem; font: 400 1.45rem/1.2 var(--serif); overflow-wrap: anywhere; }
+.nsp-text { margin: 0 0 .7rem; color: var(--ink-2); line-height: 1.55; }
+.nsp-credit { margin: 0 0 1rem; font: .72rem/1.5 var(--mono); color: var(--ink-3); overflow-wrap: anywhere; }
+.nsp-full { font: 500 1rem/1 var(--serif); color: var(--ink); background: rgba(169,198,240,.1); border: 1px solid rgba(169,198,240,.55); border-radius: 999px; padding: .65rem 1.2rem; cursor: pointer; text-decoration: none; }
+.nsp-full:hover { background: rgba(169,198,240,.2); }
+.nsp-close { position: absolute; top: .55rem; right: .55rem; z-index: 2; width: 2.2rem; height: 2.2rem; border-radius: 50%; border: 1px solid rgba(255,255,255,.25); background: rgba(5,14,38,.7); color: var(--ink); font: 300 1.4rem/1 var(--serif); cursor: pointer; display: flex; align-items: center; justify-content: center; text-decoration: none; }
+.nsp-close:hover { background: rgba(5,14,38,.95); }
+@media (prefers-reduced-motion: reduce) { .nsp[open] { animation: none; } .nsp-img img { transition: none; } }
+.nsp-card:focus { outline: none; }

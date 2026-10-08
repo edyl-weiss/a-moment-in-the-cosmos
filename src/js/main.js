@@ -38,7 +38,7 @@ await initOnThisDay();
 renderLoved();
 // A shared link (#photo-id or #on-MM-DD) opens that view; otherwise today's photograph.
 const linkedPhoto = location.hash && openFromHash({ scroll: true });
-if (!linkedPhoto || /^#on-/.test(location.hash)) show(dailyId(issue), { mode: 'daily', day: issue }, { push: false });
+if (!linkedPhoto || /^#on-/.test(location.hash)) show(dailyId(issue), { mode: 'daily', day: issue, initial: true }, { push: false });
 
 // Vercel Web Analytics: page views, counted only on the live site (the script is served by Vercel).
 if (!/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) inject();

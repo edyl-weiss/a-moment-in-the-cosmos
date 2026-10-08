@@ -54,4 +54,17 @@
     <aside class="ns-panel" id="nsPanel" aria-live="polite" hidden></aside>
   </div>
   <p class="ns-foot" id="nsFoot"></p>
+  <dialog class="nsp" id="nsPreview" aria-labelledby="nspTitle">
+    <div class="nsp-card" tabindex="-1" autofocus>
+      <button type="button" class="nsp-close" id="nspClose" aria-label="Close">×</button>
+      <div class="nsp-img"><img id="nspImg" alt="" decoding="async"></div>
+      <div class="nsp-body">
+        <p class="nsp-kicker" id="nspKicker"></p>
+        <h3 id="nspTitle"></h3>
+        <p class="nsp-text" id="nspText"></p>
+        <p class="nsp-credit" id="nspCredit"></p>
+        <button type="button" class="nsp-full" id="nspFull">See full details →</button>
+      </div>
+    </div>
+  </dialog>
 </section>
