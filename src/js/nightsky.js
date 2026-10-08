@@ -18,6 +18,14 @@ const RMAX = 2 * Math.tan((90 + EDGE) / 2 * rad);
 const K = (C - 46) / RMAX;
 const KT = (C - 46) / 2;                                 // tonight view: horizon (altitude 0) at radius 2
 const PLURAL = { galaxy: 'Galaxies', nebula: 'Nebulae', star: 'Stars' };
+// Map symbols, after the conventions of printed star atlases: an oval for a galaxy, a square for a
+// nebula, a broken circle for a star cluster. Thin outlines with a faint fill, drawn in a unit box and
+// scaled per zoom level so they keep the same size on screen.
+const SYMBOLS = `
+  <g id="nsSym-galaxy" fill="none" stroke="currentColor" stroke-width=".26"><ellipse rx="1.3" ry=".55" transform="rotate(-30)" fill="currentColor" fill-opacity=".22"/></g>
+  <g id="nsSym-nebula" fill="none" stroke="currentColor" stroke-width=".24"><rect x="-.9" y="-.9" width="1.8" height="1.8" fill="currentColor" fill-opacity=".2"/></g>
+  <g id="nsSym-star" fill="none" stroke="currentColor" stroke-width=".26"><circle r="1" stroke-dasharray=".42 .3"/><circle r=".24" fill="currentColor" stroke="none"/></g>`;
+const symbolSvg = (cat, color) => `<svg class="ns-sym" viewBox="-1.7 -1.7 3.4 3.4" aria-hidden="true" style="color:${color}"><use href="#nsSym-${cat}"/></svg>`;
 const COLORS = { galaxy: '#a9c6f0', nebula: '#ec8b6d', star: '#f2c14e' };
 
 const shown = new Set(Object.keys(COLORS));
@@ -85,7 +93,7 @@ async function draw({ keepView = false } = {}) {
   if (drawnFor === key) return;
   drawnFor = key;
   const rim = mode === 'T' ? 2 * KT : RMAX * K;
-  let svg = `<defs><radialGradient id="nsSkyFill" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#11285a"/><stop offset=".6" stop-color="#0a1a3f"/><stop offset="1" stop-color="#050e26"/></radialGradient><clipPath id="nsClip"><circle cx="${C}" cy="${C}" r="${rim.toFixed(1)}"/></clipPath></defs>`;
+  let svg = `<defs>${SYMBOLS}<radialGradient id="nsSkyFill" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#11285a"/><stop offset=".6" stop-color="#0a1a3f"/><stop offset="1" stop-color="#050e26"/></radialGradient><clipPath id="nsClip"><circle cx="${C}" cy="${C}" r="${rim.toFixed(1)}"/></clipPath></defs>`;
   svg += `<circle class="ns-disc" cx="${C}" cy="${C}" r="${rim.toFixed(1)}"/><g clip-path="url(#nsClip)">`;
   if (mode === 'T') {
     // altitude rings at 30° and 60°
@@ -118,7 +126,7 @@ async function draw({ keepView = false } = {}) {
   const list = photos();
   for (const e of list) {
     const s = project(e.ra, e.dec);
-    if (s) svg += `<circle class="ns-dot" data-id="${esc(e.id)}" data-cat="${e.cat}" data-org="${e.org}" cx="${s[0].toFixed(1)}" cy="${s[1].toFixed(1)}" r="5" fill="${COLORS[e.cat] || '#ddd'}" tabindex="0" role="button" aria-label="${esc(e.title)}"/>`;
+    if (s) svg += `<g class="ns-dot" data-id="${esc(e.id)}" data-cat="${e.cat}" data-org="${e.org}" data-x="${s[0].toFixed(1)}" data-y="${s[1].toFixed(1)}" style="color:${COLORS[e.cat] || '#ddd'}" tabindex="0" role="button" aria-label="${esc(e.title)}"><use href="#nsSym-${e.cat}"/></g>`;
   }
   svg += '</g></g>';
   if (mode === 'T') {
@@ -144,7 +152,7 @@ async function draw({ keepView = false } = {}) {
   // The legend doubles as the filter: each category toggles on and off.
   total = list.length;
   $('#nsLegend').innerHTML = Object.keys(COLORS)
-    .map((c) => `<button type="button" data-cat="${c}" aria-pressed="${shown.has(c)}"><span class="ns-check" style="--c:${COLORS[c]}" aria-hidden="true"></span>${PLURAL[c]}<b>${counts[c] || 0}</b></button>`).join('');
+    .map((c) => `<button type="button" data-cat="${c}" aria-pressed="${shown.has(c)}"><span class="ns-check" style="--c:${COLORS[c]}" aria-hidden="true"></span>${symbolSvg(c, COLORS[c])}${PLURAL[c]}<b>${counts[c] || 0}</b></button>`).join('');
   const orgs = [...new Set(INDEX.filter((e) => Number.isFinite(e.ra)).map((e) => e.org))];
   $('#nsOrg').innerHTML = '<option value="all">All observatories</option>' + orgs.map((o) => `<option value="${o}">${esc(SOURCE[o] || o)}</option>`).join('');
   $('#nsOrg').value = orgFilter;
@@ -168,7 +176,8 @@ function applyView() {
   svg.setAttribute('viewBox', `${view.x.toFixed(1)} ${view.y.toFixed(1)} ${view.w.toFixed(1)} ${view.w.toFixed(1)}`);
   const z = view.w / SIZE;
   svg.style.setProperty('--z', z);
-  for (const d of svg.querySelectorAll('.ns-dot')) d.setAttribute('r', (5 * Math.max(z, 0.35)).toFixed(2));
+  const k = (5.2 * Math.max(z, 0.35)).toFixed(2);
+  for (const d of svg.querySelectorAll('.ns-dot')) d.setAttribute('transform', `translate(${d.dataset.x} ${d.dataset.y}) scale(${k})`);
   svg.classList.toggle('zoomed', z < 0.7);
   $('#nsChart').classList.toggle('pannable', z < 0.999);
 }

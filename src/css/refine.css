@@ -419,8 +419,10 @@ main#main { view-transition-name: page; }
 .ns-con:hover, .ns-con:focus { fill: var(--ink); outline: none; }
 .ns-hour { font: 12px var(--mono); fill: var(--ink-3); text-anchor: middle; }
 .ns-pole { font: italic calc(var(--z) * 11px) var(--serif); fill: rgba(200,210,235,.35); text-anchor: middle; }
-.ns-dot { stroke: #050e26; stroke-width: calc(var(--z) * 1px); cursor: pointer; opacity: .9; transition: opacity .2s; }
-.ns-dot:hover, .ns-dot:focus, .ns-dot.on { opacity: 1; stroke: #fff; stroke-width: calc(var(--z) * 1.6px); outline: none; }
+.ns-dot { cursor: pointer; opacity: .92; transition: opacity .2s, filter .2s; }
+.ns-dot use { pointer-events: all; }
+.ns-dot:hover, .ns-dot:focus, .ns-dot.on { opacity: 1; outline: none; filter: brightness(1.35); }
+.ns-dot.on use { stroke-width: .42; }
 .ns-tip { position: absolute; z-index: 5; width: min(260px, 80%); padding: .7rem .85rem .8rem; background: rgba(13,12,11,.96); border: 1px solid rgba(169,198,240,.35); border-radius: 3px; box-shadow: 0 8px 30px rgba(0,0,0,.5); }
 .ns-tip strong { display: block; font: 400 1rem/1.3 var(--serif); color: var(--ink); margin: .2rem 0 .5rem; }
 .ns-tip-cat { font: .68rem var(--mono); letter-spacing: .06em; color: var(--ink-3); }
@@ -436,7 +438,7 @@ main#main { view-transition-name: page; }
 .focusing .ns-line:not(.focus) { stroke: rgba(205,215,240,.2); }
 .ns-line.focus { stroke: rgba(225,232,250,.95); stroke-width: calc(var(--z) * 1.8px); }
 .ns-con.focus { fill: var(--ink); font-weight: 500; }
-.focusing .ns-dot { opacity: .45; }
+.focusing .ns-dot { opacity: .6; }
 .focusing .ns-dot:hover, .focusing .ns-dot.on { opacity: 1; }
 .ns-layout { display: grid; gap: 1.6rem; }
 #sky.has-panel .ns-layout { grid-template-columns: minmax(0, 1fr) minmax(260px, 340px); align-items: start; }
@@ -568,3 +570,7 @@ main#main { view-transition-name: page; }
   #nsTimeLabel, #nsNow { grid-column: auto; }
 }
 @media (max-width: 360px) { .ns-seg button { padding: .5rem .7rem; } }
+
+/* legend: the same symbols as on the chart */
+.ns-sym { width: 1.05rem; height: 1.05rem; flex: none; overflow: visible; }
+#sky .ns-legend button[aria-pressed="false"] .ns-sym { opacity: .35; }
