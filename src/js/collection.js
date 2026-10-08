@@ -17,7 +17,7 @@ const entry = (c) => ({
   y: (c.releaseDate.match(/\d{4}/) || [])[0],
   q: `${c.celestial} ${c.caption}`,
   tel: c.cat === 'night' ? ['camera'] : telescopes(`${c.behind.observatory} ${c.behind.instrument}`),
-  con: CATALOG_SKY[c.id]?.con
+  con: CATALOG_SKY[c.id]?.con, ra: CATALOG_SKY[c.id]?.ra, dec: CATALOG_SKY[c.id]?.dec
 });
 
 export let INDEX = CATALOG.map(entry);

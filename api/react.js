@@ -2,7 +2,7 @@
 //   GET  /api/react?id=<photo>   → { count }
 //   GET  /api/react?top=week     → { week, items: [{ id, count }] }   (this week, topped up from last week)
 //   POST /api/react  { id }      → { count, counted }
-// Visitors are recognised by a salted hash of their IP address per photograph; the IP itself is never stored.
+// Visitors are recognized by a salted hash of their IP address per photograph; the IP itself is never stored.
 import { createHash } from 'node:crypto';
 import { configured, credentials, pipeline } from './_redis.js';
 

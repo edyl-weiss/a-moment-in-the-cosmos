@@ -1,0 +1,57 @@
+<section id="sky" aria-labelledby="skyHead">
+  <div class="section-head">
+    <div>
+      <h2 id="skyHead">Tonight’s Sky</h2>
+      <p id="skyNote">The sky above you tonight, with every photograph in the collection placed where it sits among the stars. Tap a constellation to fly in and see what the collection holds there, or tap a dot to open that photograph.</p>
+    </div>
+  </div>
+
+  <div class="ns-controls">
+    <div class="ns-group">
+      <span class="ns-label" id="nsHemiLabel">Sky</span>
+      <div class="ns-hemi ns-seg" role="group" aria-labelledby="nsHemiLabel">
+        <button type="button" data-hemi="T" aria-pressed="false">Above me</button>
+        <button type="button" data-hemi="N" aria-pressed="false">Northern</button>
+        <button type="button" data-hemi="S" aria-pressed="false">Southern</button>
+      </div>
+    </div>
+    <div class="ns-group">
+      <span class="ns-label" id="nsShowLabel">Show</span>
+      <div class="ns-legend" id="nsLegend" role="group" aria-labelledby="nsShowLabel"></div>
+    </div>
+    <div class="ns-group">
+      <label class="ns-label" for="nsOrg">From</label>
+      <select id="nsOrg" class="ns-select"></select>
+    </div>
+    <div class="ns-group ns-timerow" id="nsTimeRow" hidden>
+      <label class="ns-label" for="nsTime">Time tonight</label>
+      <div class="ns-time">
+        <span class="ns-tick">6 pm</span>
+        <input type="range" id="nsTime" min="0" max="720" step="10" aria-describedby="nsTimeLabel">
+        <span class="ns-tick">6 am</span>
+        <output id="nsTimeLabel" for="nsTime"></output>
+        <button type="button" id="nsNow" hidden>Back to now</button>
+      </div>
+    </div>
+    <details class="ns-more">
+      <summary>Chart options</summary>
+      <div class="ns-layers" id="nsLayers" role="group" aria-label="Show on the chart"></div>
+    </details>
+  </div>
+  <p class="ns-status" id="nsStatus" aria-live="polite"></p>
+
+  <div class="ns-layout">
+    <div class="ns-wrap">
+      <div class="ns-chart" id="nsChart"></div>
+      <div class="ns-zoom" role="group" aria-label="Zoom">
+        <button type="button" id="nsIn" aria-label="Zoom in" title="Zoom in">+</button>
+        <button type="button" id="nsOut" aria-label="Zoom out" title="Zoom out">−</button>
+        <button type="button" id="nsReset" aria-label="Show the whole sky" title="Whole sky">⤢</button>
+      </div>
+      <p class="ns-hint" id="nsHint"><span class="fine">Scroll or double-click to zoom · hold and drag to move · click a constellation</span><span class="coarse">Pinch to zoom · drag to move · tap a constellation</span></p>
+      <div class="ns-tip" id="nsTip" role="status" hidden></div>
+    </div>
+    <aside class="ns-panel" id="nsPanel" aria-live="polite" hidden></aside>
+  </div>
+  <p class="ns-foot" id="nsFoot"></p>
+</section>

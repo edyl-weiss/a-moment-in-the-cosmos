@@ -18,7 +18,7 @@ export const onConstellationClick = (fn) => { browse = fn; };
 
 const loadSky = () => sky || (sky = fetch('data/sky.json').then((r) => r.json()));
 
-// Stereographic projection centred on (lon0, lat0). East is to the left, as on any sky chart.
+// Stereographic projection centered on (lon0, lat0). East is to the left, as on any sky chart.
 function projector(lon0, lat0) {
   const s0 = Math.sin(lat0 * rad), c0 = Math.cos(lat0 * rad);
   return ([lon, lat]) => {
@@ -56,10 +56,10 @@ async function draw(item) {
   if (current !== item) return;
   const south = obs.lat < 0;
 
-  // Centre on the constellation (or between it and the object), and fit its boundary in the frame.
+  // Center on the constellation (or between it and the object), and fit its boundary in the frame.
   const marked = Number.isFinite(at.ra);
-  const centre = con.c;
-  const P = projector(centre[0], centre[1]);
+  const center = con.c;
+  const P = projector(center[0], center[1]);
   const pts = con.b.map(P).filter(Boolean);
   if (marked) { const m = P([lonOf(at.ra), at.dec]); if (m) pts.push(m); }
   const xs = pts.map((p) => p[0]), ys = pts.map((p) => p[1]);

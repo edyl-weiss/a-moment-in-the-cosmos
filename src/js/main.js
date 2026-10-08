@@ -18,6 +18,7 @@ import './discover.js';
 import './motion.js';
 import { scheduleRollover } from './rollover.js';
 import './skymap.js';
+import { refreshSky } from './nightsky.js';
 import { renderLoved } from './reactions.js';
 import { SCHEDULE } from '../data/schedule.js';
 
@@ -27,6 +28,7 @@ $('#issueDate').textContent = dateOf(issue).toLocaleDateString('en-GB', { timeZo
 new ResizeObserver(fitFrame).observe($('#stage'));
 $('#cycleLen').textContent = (SCHEDULE.categoryOrder.length * Math.min(...Object.values(SCHEDULE.order).map((a) => a.length))).toLocaleString('en');
 await loadIndex();
+refreshSky();
 $('#collectionCount').textContent = INDEX.length.toLocaleString('en');
 scheduleRollover();
 initArchiveSearch();

@@ -122,6 +122,7 @@ function contextLine(item, ctx) {
   if (ctx.mode === 'link') return 'Shared photograph';
   if (ctx.mode === 'search') return 'From the collection';
   if (ctx.mode === 'loved') return 'Most loved this week';
+  if (ctx.mode === 'sky') return 'From the night sky map';
   return 'A random pick';
 }
 

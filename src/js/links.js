@@ -8,9 +8,9 @@ import { state, show } from './feature.js';
 import { INDEX_BY_ID } from './collection.js';
 import { scrollToFeature } from './tiles.js';
 
-const PAGE = /^#(onthisday|archive|favorites|about)$/;
+const PAGE = /^#(onthisday|archive|favorites|sky|about)$/;
 const DATE = /^on-(\d{2})-(\d{2})$/;
-let handlers = { date: null };
+const handlers = { date: null };
 
 export const photoLink = (id) => `${location.origin}${location.pathname}#${encodeURIComponent(id)}`;
 export const dateLink = (k) => `${location.origin}${location.pathname}#on-${k}`;

@@ -1,7 +1,7 @@
 """Sky map data. Run from the repo root after the collection changes:  python3 tools/sky/build_sky.py
 
 1. Writes src/data/sky.json: the 88 constellations (stick figure, boundary, centre) and the stars
-   down to magnitude 5, from d3-celestial (BSD licence, Olaf Frohn; see LICENSE-d3-celestial).
+   down to magnitude 5, from d3-celestial (BSD license, Olaf Frohn; see LICENSE-d3-celestial).
 2. Adds a "sky" field to each photo record: {"con": "Ori", "ra": deg, "dec": deg} where the source
    archive published a position, or just {"con": ...} where it only named the constellation.
    Positions come from the crawl files in tools/harvest (the archives' own "Position (RA/Dec)").
@@ -74,6 +74,29 @@ for f in glob.glob(os.path.join(ROOT, 'tools/harvest/**/*.json'), recursive=True
     except Exception: pass
 for k, v in json.load(open(os.path.join(HERE, 'positions_extra.json'))).items(): pos[k] = tuple(v)
 
+# Independent deep-sky catalog (d3-celestial dsos.14 + Messier), used to resolve the sign of
+# declinations the archives print as "0° 48'" for -0°48', and to place photos that name exactly one
+# catalogd object but have no published position.
+DSO = {}
+for f in ('dsos.14.json', 'messier.json'):
+    for ft in json.load(open(os.path.join(HERE, f), encoding='utf-8'))['features']:
+        lon_, lat_ = ft['geometry']['coordinates']; pr = ft['properties']
+        for nm in {ft['id'], pr.get('desig') or '', pr.get('name') or ''}:
+            for part in re.split(r'[,;/]', nm):
+                m = re.match(r'^\s*(M|NGC|IC)\s*0*(\d+)\s*$', part, re.I)
+                if m: DSO.setdefault(f'{m.group(1).upper()} {int(m.group(2))}', (lon_ % 360, lat_))
+NAMED = re.compile(r'\b(?:(Messier|M)\s?(\d{1,3})(?![-\d])|(NGC|IC)\s?(\d{1,4}))\b')
+def dso_names(text):
+    out = []
+    for m in NAMED.finditer(text):
+        if m.group(1): n = int(m.group(2)); out += [f'M {n}'] if 1 <= n <= 110 else []
+        else: out.append(f'{m.group(3).upper()} {int(m.group(4))}')
+    return [n for n in dict.fromkeys(out) if n in DSO]
+def near(a, b):
+    import math
+    ra1, d1, ra2, d2 = (math.radians(v) for v in (*a, *b))
+    return math.degrees(math.acos(max(-1, min(1, math.sin(d1) * math.sin(d2) + math.cos(d1) * math.cos(d2) * math.cos(ra1 - ra2)))))
+
 idx = json.load(open(os.path.join(COL, 'index.json'), encoding='utf-8'))
 stats = {'position': 0, 'constellation only': 0, 'none': 0}
 for e in idx:
@@ -85,6 +108,12 @@ for e in idx:
     if p and r['cat'] != 'night':
         try:
             ra, dec = parse_ra(p[0]), parse_dec(p[1])
+            if re.match(r'^\D*0°', p[1]) and dec > 0:
+                # "0° 48'" may be -0°48' with the sign lost: take whichever sign matches the named
+                # catalog object, or else the constellation the record names.
+                names_ = dso_names(f"{e['title']} {e.get('q', '')}")
+                if names_ and near((ra, -dec), DSO[names_[0]]) < near((ra, dec), DSO[names_[0]]): dec = -dec
+                elif not names_ and con and con_at(ra, -dec) == con and con_at(ra, dec) != con: dec = -dec
             at = con_at(ra, dec)
             # ESA/Hubble and ESO both use "potwNNNNa" ids, so a bare-id position can belong to the other
             # archive's photo: keep a position only when it lands in the constellation the record names
@@ -93,13 +122,22 @@ for e in idx:
             unique = e['id'] in pos or not re.match(r'^[he]-potw', e['id'])
             if at and same and (con or unique): sky = {'con': at, 'ra': round(ra, 3), 'dec': round(dec, 3)}
         except Exception: pass
+    if not sky and r['cat'] != 'night':
+        names_ = dso_names(f"{e['title']} {e.get('q', '')}")
+        if len(names_) == 1:
+            ra, dec = DSO[names_[0]]; at = con_at(ra, dec)
+            if at and (con is None or at == con or (con.startswith('Ser') and at.startswith('Ser'))):
+                sky = {'con': at, 'ra': round(ra, 3), 'dec': round(dec, 3), 'src': 'catalog'}
+                stats['from catalog'] = stats.get('from catalog', 0) + 1
     if not sky and con: sky = {'con': con}
     stats['position' if sky and 'ra' in sky else 'constellation only' if sky else 'none'] += 1
     if sky: r['sky'] = sky
     else: r.pop('sky', None)
     json.dump(r, open(path, 'w', encoding='utf-8'), ensure_ascii=False)
-    if sky: e['con'] = sky['con']
-    else: e.pop('con', None)
+    for k in ('con', 'ra', 'dec'): e.pop(k, None)
+    if sky:
+        e['con'] = sky['con']
+        if 'ra' in sky: e['ra'], e['dec'] = round(sky['ra'], 2), round(sky['dec'], 2)   # for the Night sky page
 json.dump(idx, open(os.path.join(COL, 'index.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
 print(stats)
 

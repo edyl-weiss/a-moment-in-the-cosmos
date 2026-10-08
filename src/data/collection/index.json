@@ -10,7 +10,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 83.79,
+"dec": -5.41
 },
 {
 "id": "w-weic2619a",
@@ -23,7 +25,9 @@
 "tel": [
 "webb"
 ],
-"con": "Per"
+"con": "Per",
+"ra": 56.13,
+"dec": 32.14
 },
 {
 "id": "h-heic0910h",
@@ -36,7 +40,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 258.43,
+"dec": -37.1
 },
 {
 "id": "e-eso0907a",
@@ -49,7 +55,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Aqr"
+"con": "Aqr",
+"ra": 337.41,
+"dec": -20.84
 },
 {
 "id": "e-eso0202a",
@@ -62,7 +70,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 85.25,
+"dec": -2.46
 },
 {
 "id": "h-heic1501a",
@@ -75,7 +85,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ser2"
+"con": "Ser2",
+"ra": 274.72,
+"dec": -13.84
 },
 {
 "id": "e-eso1238a",
@@ -88,7 +100,9 @@
 "tel": [
 "vlt"
 ],
-"con": "CMa"
+"con": "CMa",
+"ra": 109.62,
+"dec": -13.23
 },
 {
 "id": "e-eso0949a",
@@ -102,7 +116,9 @@
 "vista",
 "vst"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 85.43,
+"dec": -1.91
 },
 {
 "id": "e-eso1119a",
@@ -116,7 +132,9 @@
 "vst",
 "vlt"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 275.24,
+"dec": -16.15
 },
 {
 "id": "h-heic1608a",
@@ -129,7 +147,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cas"
+"con": "Cas",
+"ra": 350.18,
+"dec": 61.19
 },
 {
 "id": "h-heic1808a",
@@ -142,7 +162,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 270.91,
+"dec": -24.38
 },
 {
 "id": "e-eso1250a",
@@ -156,7 +178,9 @@
 "vst",
 "vlt"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 161.27,
+"dec": -59.86
 },
 {
 "id": "w-weic2616a",
@@ -169,7 +193,9 @@
 "tel": [
 "webb"
 ],
-"con": "Gem"
+"con": "Gem",
+"ra": 112.3,
+"dec": 20.91
 },
 {
 "id": "e-eso1105a",
@@ -182,7 +208,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 86.66,
+"dec": 0.11
 },
 {
 "id": "w-weic2513a",
@@ -195,7 +223,9 @@
 "tel": [
 "webb"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 260.18,
+"dec": -35.83
 },
 {
 "id": "e-eso0650a",
@@ -208,7 +238,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 84.66,
+"dec": -69.09
 },
 {
 "id": "e-eso1208a",
@@ -221,7 +253,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 161.03,
+"dec": -59.56
 },
 {
 "id": "e-eso1027a",
@@ -234,7 +268,9 @@
 "tel": [
 "wfi"
 ],
-"con": "CrA"
+"con": "CrA",
+"ra": 285.47,
+"dec": -36.95
 },
 {
 "id": "e-eso1017a",
@@ -248,7 +284,9 @@
 "vista",
 "vst"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 259.99,
+"dec": -35.96
 },
 {
 "id": "e-eso1740a",
@@ -262,7 +300,9 @@
 "vst",
 "vlt"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 272.42,
+"dec": -24.02
 },
 {
 "id": "h-heic2007a",
@@ -275,7 +315,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 83.1,
+"dec": -67.7
 },
 {
 "id": "w-potm2510a",
@@ -288,7 +330,9 @@
 "tel": [
 "webb"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 271.31,
+"dec": -19.84
 },
 {
 "id": "w-weic2411a",
@@ -301,7 +345,9 @@
 "tel": [
 "webb"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 85.22,
+"dec": -2.48
 },
 {
 "id": "e-eso0925a",
@@ -314,7 +360,9 @@
 "tel": [
 "lasilla"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 275.2,
+"dec": -16.17
 },
 {
 "id": "e-eso1006a",
@@ -328,7 +376,9 @@
 "vista",
 "vst"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 83.82,
+"dec": -5.39
 },
 {
 "id": "w-potm2607a",
@@ -341,7 +391,9 @@
 "tel": [
 "webb"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 161.47,
+"dec": -59.96
 },
 {
 "id": "w-weic2518a",
@@ -354,7 +406,9 @@
 "tel": [
 "webb"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 261.19,
+"dec": -34.19
 },
 {
 "id": "e-eso1625a",
@@ -367,7 +421,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 83.82,
+"dec": -5.34
 },
 {
 "id": "e-eso1233a",
@@ -380,7 +436,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Oph"
+"con": "Oph",
+"ra": 257.82,
+"dec": -27.37
 },
 {
 "id": "w-potm2605a",
@@ -393,7 +451,9 @@
 "tel": [
 "webb"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 83.86,
+"dec": -5.11
 },
 {
 "id": "e-eso1723a",
@@ -407,7 +467,9 @@
 "vst",
 "vlt"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 83.78,
+"dec": -5.48
 },
 {
 "id": "w-weic2514a",
@@ -420,7 +482,9 @@
 "tel": [
 "webb"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 243.25,
+"dec": -36.23
 },
 {
 "id": "e-eso1303a",
@@ -433,7 +497,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 242.4,
+"dec": -39.05
 },
 {
 "id": "h-heic0503a",
@@ -446,7 +512,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Mon"
+"con": "Mon",
+"ra": 106.02,
+"dec": -3.85
 },
 {
 "id": "w-weic2601a",
@@ -459,7 +527,9 @@
 "tel": [
 "webb"
 ],
-"con": "Aqr"
+"con": "Aqr",
+"ra": 337.35,
+"dec": -20.87
 },
 {
 "id": "w-weic2415a",
@@ -472,7 +542,9 @@
 "tel": [
 "webb"
 ],
-"con": "Ser2"
+"con": "Ser2",
+"ra": 277.48,
+"dec": 1.24
 },
 {
 "id": "h-heic0109a",
@@ -485,7 +557,9 @@
 "tel": [
 "other"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 271.31,
+"dec": -19.84
 },
 {
 "id": "h-heic1310a",
@@ -498,7 +572,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Lyr"
+"con": "Lyr",
+"ra": 283.4,
+"dec": 33.03
 },
 {
 "id": "w-weic2417a",
@@ -511,7 +587,9 @@
 "tel": [
 "webb"
 ],
-"con": "Tau"
+"con": "Tau",
+"ra": 83.64,
+"dec": 22.02
 },
 {
 "id": "e-eso0930a",
@@ -524,7 +602,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 270.68,
+"dec": -22.97
 },
 {
 "id": "w-weic2330a",
@@ -537,7 +617,9 @@
 "tel": [
 "other"
 ],
-"con": "Cas"
+"con": "Cas",
+"ra": 350.85,
+"dec": 58.81
 },
 {
 "id": "w-FS-Tau",
@@ -550,7 +632,9 @@
 "tel": [
 "webb"
 ],
-"con": "Tau"
+"con": "Tau",
+"ra": 65.51,
+"dec": 26.96
 },
 {
 "id": "e-eso1236a",
@@ -563,7 +647,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 135.05,
+"dec": -45.95
 },
 {
 "id": "e-eso1520a",
@@ -576,7 +662,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Gem"
+"con": "Gem",
+"ra": 112.3,
+"dec": 13.27
 },
 {
 "id": "h-heic1323a",
@@ -589,7 +677,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Pup"
+"con": "Pup",
+"ra": 123.27,
+"dec": -34.58
 },
 {
 "id": "e-eso1503a",
@@ -602,7 +692,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Pup"
+"con": "Pup",
+"ra": 113.58,
+"dec": -46.94
 },
 {
 "id": "w-potm2311a",
@@ -615,7 +707,9 @@
 "tel": [
 "webb"
 ],
-"con": "Per"
+"con": "Per",
+"ra": 55.98,
+"dec": 32.06
 },
 {
 "id": "e-eso0840a",
@@ -628,7 +722,9 @@
 "tel": [
 "apex"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 258.1,
+"dec": -38.47
 },
 {
 "id": "h-heic1520a",
@@ -641,7 +737,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cyg"
+"con": "Cyg",
+"ra": 311.43,
+"dec": 30.96
 },
 {
 "id": "h-heic1406a",
@@ -654,7 +752,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 92.29,
+"dec": 20.46
 },
 {
 "id": "e-eso1412a",
@@ -667,7 +767,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 144.77,
+"dec": -2.84
 },
 {
 "id": "e-eso1532a",
@@ -680,7 +782,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 171.68,
+"dec": -34.37
 },
 {
 "id": "w-weic2328a",
@@ -693,7 +797,9 @@
 "tel": [
 "webb"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 266.17,
+"dec": -29.45
 },
 {
 "id": "e-eso1420a",
@@ -706,7 +812,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 131.24,
+"dec": -41.25
 },
 {
 "id": "e-potw1444a",
@@ -719,7 +827,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 131.16,
+"dec": -41.31
 },
 {
 "id": "w-weic2324a",
@@ -732,7 +842,9 @@
 "tel": [
 "webb"
 ],
-"con": "Tuc"
+"con": "Tuc",
+"ra": 14.77,
+"dec": -72.17
 },
 {
 "id": "e-eso0031a",
@@ -745,7 +857,9 @@
 "tel": [
 "wfi"
 ],
-"con": "CrA"
+"con": "CrA",
+"ra": 285.47,
+"dec": -36.95
 },
 {
 "id": "h-heic0307a",
@@ -758,7 +872,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Aqr"
+"con": "Aqr",
+"ra": 337.42,
+"dec": -20.84
 },
 {
 "id": "w-weic2207b",
@@ -771,7 +887,9 @@
 "tel": [
 "webb"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 151.76,
+"dec": -40.44
 },
 {
 "id": "e-eso0030a",
@@ -784,7 +902,9 @@
 "tel": [
 "lasilla"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 275.11,
+"dec": -16.18
 },
 {
 "id": "w-weic2315b",
@@ -797,7 +917,9 @@
 "tel": [
 "webb"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 83.84,
+"dec": -5.41
 },
 {
 "id": "w-weic2311a",
@@ -810,7 +932,9 @@
 "tel": [
 "webb"
 ],
-"con": "Cas"
+"con": "Cas",
+"ra": 350.86,
+"dec": 58.82
 },
 {
 "id": "w-weic2307a",
@@ -823,7 +947,9 @@
 "tel": [
 "webb"
 ],
-"con": "Sge"
+"con": "Sge",
+"ra": 287.88,
+"dec": 16.86
 },
 {
 "id": "w-weic2322b",
@@ -836,7 +962,9 @@
 "tel": [
 "webb"
 ],
-"con": "Per"
+"con": "Per",
+"ra": 55.99,
+"dec": 32.01
 },
 {
 "id": "h-heic0416a",
@@ -849,7 +977,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 84.66,
+"dec": -69.08
 },
 {
 "id": "e-eso1003a",
@@ -862,7 +992,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 259.99,
+"dec": -35.96
 },
 {
 "id": "e-eso1008a",
@@ -875,7 +1007,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Tuc"
+"con": "Tuc",
+"ra": 14.82,
+"dec": -72.18
 },
 {
 "id": "h-heic1012a",
@@ -888,7 +1022,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Pup"
+"con": "Pup",
+"ra": 118.07,
+"dec": -26.44
 },
 {
 "id": "h-heic1707a",
@@ -901,7 +1037,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 77.22,
+"dec": -68.73
 },
 {
 "id": "e-eso0544a",
@@ -914,7 +1052,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Pup"
+"con": "Pup",
+"ra": 118.08,
+"dec": -26.44
 },
 {
 "id": "w-weic2319a",
@@ -927,7 +1067,9 @@
 "tel": [
 "other"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 126.43,
+"dec": -51.01
 },
 {
 "id": "h-heic0915a",
@@ -940,7 +1082,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cep"
+"con": "Cep",
+"ra": 315.36,
+"dec": 68.19
 },
 {
 "id": "h-heic1402a",
@@ -953,7 +1097,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 84.61,
+"dec": -69.12
 },
 {
 "id": "e-eso2309a",
@@ -967,7 +1113,9 @@
 "vst",
 "vlt"
 ],
-"con": "Mon"
+"con": "Mon",
+"ra": 101.29,
+"dec": 0.21
 },
 {
 "id": "e-eso0437a",
@@ -981,7 +1129,9 @@
 "vlt",
 "wfi"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 85.72,
+"dec": -68.95
 },
 {
 "id": "e-eso0421a",
@@ -994,7 +1144,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 83.86,
+"dec": -5.36
 },
 {
 "id": "h-heic1819a",
@@ -1007,7 +1159,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ser2"
+"con": "Ser2",
+"ra": 277.5,
+"dec": 1.24
 },
 {
 "id": "e-eso2307c",
@@ -1020,7 +1174,9 @@
 "tel": [
 "vst"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 242.37,
+"dec": -39.13
 },
 {
 "id": "h-heic1011a",
@@ -1033,7 +1189,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 74.19,
+"dec": -66.44
 },
 {
 "id": "e-eso0837a",
@@ -1046,7 +1204,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 156.06,
+"dec": -57.78
 },
 {
 "id": "e-eso1309a",
@@ -1059,7 +1219,9 @@
 "tel": [
 "vst"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 261.27,
+"dec": -34.31
 },
 {
 "id": "e-eso1207a",
@@ -1072,7 +1234,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 159.32,
+"dec": -58.63
 },
 {
 "id": "h-heic1818a",
@@ -1085,7 +1249,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cas"
+"con": "Cas",
+"ra": 14.78,
+"dec": 60.9
 },
 {
 "id": "h-heic1424a",
@@ -1098,7 +1264,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Tau"
+"con": "Tau",
+"ra": 67.91,
+"dec": 18.22
 },
 {
 "id": "e-eso1413a",
@@ -1111,7 +1279,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 172.6,
+"dec": -63.82
 },
 {
 "id": "e-eso1135a",
@@ -1124,7 +1294,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 174.59,
+"dec": -63.37
 },
 {
 "id": "e-eso1234c",
@@ -1137,7 +1309,9 @@
 "tel": [
 "other"
 ],
-"con": "Oph"
+"con": "Oph",
+"ra": 246.32,
+"dec": -24.27
 },
 {
 "id": "e-eso0102a",
@@ -1150,7 +1324,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Oph"
+"con": "Oph",
+"ra": 260.66,
+"dec": -23.83
 },
 {
 "id": "e-eso1537a",
@@ -1163,7 +1339,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 275.26,
+"dec": -16.19
 },
 {
 "id": "e-eso1308c",
@@ -1176,7 +1354,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 225.57,
+"dec": -41.75
 },
 {
 "id": "e-eso1039a",
@@ -1190,7 +1370,9 @@
 "vista",
 "vst"
 ],
-"con": "Mon"
+"con": "Mon",
+"ra": 91.94,
+"dec": -6.38
 },
 {
 "id": "h-heic0105a",
@@ -1203,7 +1385,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 85.24,
+"dec": -2.45
 },
 {
 "id": "e-eso0332a",
@@ -1216,7 +1400,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 80.4,
+"dec": -67.91
 },
 {
 "id": "h-heic1018a",
@@ -1229,7 +1415,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 77.38,
+"dec": -67.52
 },
 {
 "id": "w-weic2303a",
@@ -1242,7 +1430,9 @@
 "tel": [
 "webb"
 ],
-"con": "Cha"
+"con": "Cha",
+"ra": 166.65,
+"dec": -77.39
 },
 {
 "id": "e-eso1335a",
@@ -1255,7 +1445,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 83.1,
+"dec": -67.69
 },
 {
 "id": "e-eso2214a",
@@ -1269,7 +1461,9 @@
 "vst",
 "vlt"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 127.86,
+"dec": -43.99
 },
 {
 "id": "h-heic1118b",
@@ -1282,7 +1476,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cyg"
+"con": "Cyg",
+"ra": 306.86,
+"dec": 37.38
 },
 {
 "id": "h-heic1705a",
@@ -1295,7 +1491,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 83.81,
+"dec": -5.39
 },
 {
 "id": "w-weic2605d",
@@ -1308,7 +1506,9 @@
 "tel": [
 "webb"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 142.17,
+"dec": -49.61
 },
 {
 "id": "e-eso9921c",
@@ -1321,7 +1521,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Cha"
+"con": "Cha",
+"ra": 166.7,
+"dec": -77.3
 },
 {
 "id": "h-heic0609a",
@@ -1334,7 +1536,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cas"
+"con": "Cas",
+"ra": 350.86,
+"dec": 58.81
 },
 {
 "id": "h-potw1130a",
@@ -1347,7 +1551,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 85.4,
+"dec": -2.29
 },
 {
 "id": "e-eso1913a",
@@ -1361,7 +1567,9 @@
 "vst",
 "vlt"
 ],
-"con": "Mon"
+"con": "Mon",
+"ra": 106.3,
+"dec": -11.1
 },
 {
 "id": "e-eso0513a",
@@ -1374,7 +1582,9 @@
 "tel": [
 "lasilla"
 ],
-"con": "Men"
+"con": "Men",
+"ra": 85.42,
+"dec": -71.33
 },
 {
 "id": "h-potw1033a",
@@ -1387,7 +1597,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ser2"
+"con": "Ser2",
+"ra": 274.61,
+"dec": -13.72
 },
 {
 "id": "h-potw1024a",
@@ -1400,7 +1612,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 83.87,
+"dec": -5.5
 },
 {
 "id": "e-eso1521a",
@@ -1413,7 +1627,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 134.14,
+"dec": -43.12
 },
 {
 "id": "e-eso1343a",
@@ -1426,7 +1642,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 119.21,
+"dec": -59.12
 },
 {
 "id": "h-potw1232a",
@@ -1439,7 +1657,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 84.76,
+"dec": -69.2
 },
 {
 "id": "h-heic0301a",
@@ -1452,7 +1672,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 191.19,
+"dec": -54.52
 },
 {
 "id": "e-eso9827a",
@@ -1465,7 +1687,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Lup"
+"con": "Lup",
+"ra": 215.61,
+"dec": -44.15
 },
 {
 "id": "e-eso1306a",
@@ -1478,7 +1702,9 @@
 "tel": [
 "wfi"
 ],
-"con": "CMa"
+"con": "CMa",
+"ra": 106.1,
+"dec": -11.3
 },
 {
 "id": "e-eso1701a",
@@ -1491,7 +1717,9 @@
 "tel": [
 "vst"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 84.09,
+"dec": -6.01
 },
 {
 "id": "h-heic0607b",
@@ -1504,7 +1732,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 84.26,
+"dec": -66.37
 },
 {
 "id": "e-eso1147d",
@@ -1518,7 +1748,9 @@
 "vst",
 "wfi"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 84.41,
+"dec": -69.16
 },
 {
 "id": "h-heic2102c",
@@ -1544,7 +1776,9 @@
 "vst",
 "vlt"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 253.54,
+"dec": -43.39
 },
 {
 "id": "h-potw1721a",
@@ -1557,7 +1791,9 @@
 "tel": [
 "hubble"
 ],
-"con": "CMa"
+"con": "CMa",
+"ra": 103.31,
+"dec": -23.95
 },
 {
 "id": "h-heic1220a",
@@ -1570,7 +1806,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Mus"
+"con": "Mus",
+"ra": 203.39,
+"dec": -65.97
 },
 {
 "id": "e-potw1236a",
@@ -1583,7 +1821,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 80.41,
+"dec": -67.91
 },
 {
 "id": "h-heic1623a",
@@ -1596,7 +1836,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Tuc"
+"con": "Tuc",
+"ra": 11.35,
+"dec": -73.38
 },
 {
 "id": "e-eso1348a",
@@ -1609,7 +1851,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 83.88,
+"dec": -67.58
 },
 {
 "id": "h-potw1109a",
@@ -1622,7 +1866,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 83.85,
+"dec": -5.16
 },
 {
 "id": "e-eso1635a",
@@ -1635,7 +1881,9 @@
 "tel": [
 "vst"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 86.68,
+"dec": 0.1
 },
 {
 "id": "e-potw2322a",
@@ -1649,7 +1897,9 @@
 "vst",
 "vlt"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 128.46,
+"dec": -43.65
 },
 {
 "id": "w-weic2517d",
@@ -1663,7 +1913,9 @@
 "webb",
 "hubble"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 258.44,
+"dec": -37.1
 },
 {
 "id": "h-potw1133a",
@@ -1676,7 +1928,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sge"
+"con": "Sge",
+"ra": 296.0,
+"dec": 17.15
 },
 {
 "id": "e-eso9931c",
@@ -1689,7 +1943,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 79.66,
+"dec": -69.41
 },
 {
 "id": "h-potw1853a",
@@ -1702,7 +1958,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Per"
+"con": "Per",
+"ra": 52.25,
+"dec": 31.26
 },
 {
 "id": "e-potw1831a",
@@ -1716,7 +1974,9 @@
 "vst",
 "vlt"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 154.53,
+"dec": -57.92
 },
 {
 "id": "h-potw1630a",
@@ -1729,7 +1989,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 86.83,
+"dec": -69.69
 },
 {
 "id": "h-potw1434a",
@@ -1754,7 +2016,9 @@
 "tel": [
 "webb"
 ],
-"con": "Tau"
+"con": "Tau",
+"ra": 62.32,
+"dec": 30.78
 },
 {
 "id": "h-potw1633a",
@@ -1767,7 +2031,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 76.44,
+"dec": -67.88
 },
 {
 "id": "e-potw1949a",
@@ -1780,7 +2046,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 134.87,
+"dec": -43.76
 },
 {
 "id": "h-potw1848a",
@@ -1793,7 +2061,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 73.63,
+"dec": -67.22
 },
 {
 "id": "h-potw1421a",
@@ -1806,7 +2076,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cir"
+"con": "Cir",
+"ra": 225.24,
+"dec": -63.28
 },
 {
 "id": "h-heic0415c",
@@ -1819,7 +2091,9 @@
 "tel": [
 "other"
 ],
-"con": "Cas"
+"con": "Cas",
+"ra": 6.33,
+"dec": 64.14
 },
 {
 "id": "h-potw1944a",
@@ -1832,7 +2106,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Per"
+"con": "Per",
+"ra": 52.33,
+"dec": 31.33
 },
 {
 "id": "h-heic2011b",
@@ -1845,7 +2121,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 258.44,
+"dec": -37.1
 },
 {
 "id": "e-potw2424a",
@@ -1870,7 +2148,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 141.12,
+"dec": -51.99
 },
 {
 "id": "e-eso1317a",
@@ -1883,7 +2163,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Sct"
+"con": "Sct",
+"ra": 283.65,
+"dec": -8.83
 },
 {
 "id": "e-potw2340a",
@@ -1897,7 +2179,9 @@
 "vst",
 "vlt"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 274.4,
+"dec": -19.68
 },
 {
 "id": "e-eso2518a",
@@ -1934,7 +2218,9 @@
 "tel": [
 "other"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 251.66,
+"dec": -41.2
 },
 {
 "id": "e-potw2237a",
@@ -1948,7 +2234,9 @@
 "vst",
 "vlt"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 273.9,
+"dec": -18.17
 },
 {
 "id": "h-potw1401a",
@@ -1961,7 +2249,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 160.08,
+"dec": -59.82
 },
 {
 "id": "h-potw1636a",
@@ -1974,7 +2264,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 84.97,
+"dec": -69.75
 },
 {
 "id": "h-heic1301a",
@@ -1987,7 +2279,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 74.43,
+"dec": -66.46
 },
 {
 "id": "e-eso2301a",
@@ -2000,7 +2294,9 @@
 "tel": [
 "vst"
 ],
-"con": "Ser2"
+"con": "Ser2",
+"ra": 274.47,
+"dec": -11.74
 },
 {
 "id": "e-eso1839i",
@@ -2013,7 +2309,9 @@
 "tel": [
 "other"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 85.27,
+"dec": -2.46
 },
 {
 "id": "h-heic1912a",
@@ -2026,7 +2324,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 161.26,
+"dec": -59.68
 },
 {
 "id": "e-eso1903a",
@@ -2039,7 +2339,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Men"
+"con": "Men",
+"ra": 87.21,
+"dec": -70.06
 },
 {
 "id": "h-potw1317a",
@@ -2052,7 +2354,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 79.89,
+"dec": -69.03
 },
 {
 "id": "e-potw2518a",
@@ -2090,7 +2394,9 @@
 "vst",
 "vlt"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 274.15,
+"dec": -16.67
 },
 {
 "id": "h-opo0813a",
@@ -2103,7 +2409,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Gem"
+"con": "Gem",
+"ra": 111.39,
+"dec": 29.49
 },
 {
 "id": "h-potw2041a",
@@ -2116,7 +2424,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cas"
+"con": "Cas",
+"ra": 42.98,
+"dec": 60.1
 },
 {
 "id": "e-eso1320a",
@@ -2129,7 +2439,9 @@
 "tel": [
 "other"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 272.5,
+"dec": -24.0
 },
 {
 "id": "e-potw2415a",
@@ -2166,7 +2478,9 @@
 "tel": [
 "vst"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 254.92,
+"dec": -40.06
 },
 {
 "id": "e-potw2531a",
@@ -2191,7 +2505,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 81.5,
+"dec": -66.08
 },
 {
 "id": "e-eso2012a",
@@ -2204,7 +2520,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 141.76,
+"dec": -56.11
 },
 {
 "id": "e-potw2442a",
@@ -2229,7 +2547,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 11.77,
+"dec": -11.87
 },
 {
 "id": "w-southernring3",
@@ -2242,7 +2562,9 @@
 "tel": [
 "webb"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 151.75,
+"dec": -40.44
 },
 {
 "id": "e-potw2438a",
@@ -2267,7 +2589,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Lup"
+"con": "Lup",
+"ra": 215.61,
+"dec": -44.15
 },
 {
 "id": "e-potw1927a",
@@ -2280,7 +2604,9 @@
 "tel": [
 "vlt"
 ],
-"con": "CMi"
+"con": "CMi",
+"ra": 117.91,
+"dec": 3.01
 },
 {
 "id": "h-opo1235b",
@@ -2293,7 +2619,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 84.7,
+"dec": -69.1
 },
 {
 "id": "h-potw1008a",
@@ -2306,7 +2634,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Tau"
+"con": "Tau",
+"ra": 86.72,
+"dec": 25.06
 },
 {
 "id": "h-heic9910a",
@@ -2319,7 +2649,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Gem"
+"con": "Gem",
+"ra": 112.3,
+"dec": 20.91
 },
 {
 "id": "e-potw1724a",
@@ -2333,7 +2665,9 @@
 "hubble",
 "alma"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 191.19,
+"dec": -54.52
 },
 {
 "id": "e-wr124",
@@ -2346,7 +2680,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Sge"
+"con": "Sge",
+"ra": 287.88,
+"dec": 16.86
 },
 {
 "id": "h-opo0215a",
@@ -2359,7 +2695,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cas"
+"con": "Cas",
+"ra": 350.87,
+"dec": 58.83
 },
 {
 "id": "e-potw2604a",
@@ -2384,7 +2722,9 @@
 "tel": [
 "other"
 ],
-"con": "Oph"
+"con": "Oph",
+"ra": 256.41,
+"dec": -10.14
 },
 {
 "id": "e-potw1334a",
@@ -2397,7 +2737,9 @@
 "tel": [
 "other"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 261.62,
+"dec": -34.2
 },
 {
 "id": "e-potw2113a",
@@ -2410,7 +2752,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Pup"
+"con": "Pup",
+"ra": 112.52,
+"dec": -18.54
 },
 {
 "id": "e-potw2318a",
@@ -2423,7 +2767,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Pup"
+"con": "Pup",
+"ra": 124.06,
+"dec": -35.59
 },
 {
 "id": "h-opo0429h",
@@ -2436,7 +2782,9 @@
 "tel": [
 "other"
 ],
-"con": "Oph"
+"con": "Oph",
+"ra": 262.67,
+"dec": -21.49
 },
 {
 "id": "e-ngc2060-cc",
@@ -2449,7 +2797,9 @@
 "tel": [
 "other"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 84.66,
+"dec": -69.09
 },
 {
 "id": "e-potw2119a",
@@ -2462,7 +2812,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Pup"
+"con": "Pup",
+"ra": 113.04,
+"dec": -16.97
 },
 {
 "id": "e-eso-flame",
@@ -2475,7 +2827,9 @@
 "tel": [
 "other"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 85.43,
+"dec": -1.91
 },
 {
 "id": "h-opo0225a",
@@ -2488,7 +2842,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Oph"
+"con": "Oph",
+"ra": 262.34,
+"dec": -23.76
 },
 {
 "id": "e-trapeziumdk15b",
@@ -2501,7 +2857,9 @@
 "tel": [
 "other"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 83.84,
+"dec": -5.41
 },
 {
 "id": "e-ngc6781-potw",
@@ -2514,7 +2872,9 @@
 "tel": [
 "lasilla"
 ],
-"con": "Aql"
+"con": "Aql",
+"ra": 289.62,
+"dec": 6.54
 },
 {
 "id": "h-heic0817a",
@@ -2527,7 +2887,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Per"
+"con": "Per",
+"ra": 49.95,
+"dec": 41.51
 },
 {
 "id": "h-heic0406a",
@@ -2540,7 +2902,9 @@
 "tel": [
 "hubble"
 ],
-"con": "For"
+"con": "For",
+"ra": 53.16,
+"dec": -27.79
 },
 {
 "id": "h-heic0206a",
@@ -2553,7 +2917,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dra"
+"con": "Dra",
+"ra": 241.55,
+"dec": 55.43
 },
 {
 "id": "e-eso9845d",
@@ -2566,7 +2932,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Eri"
+"con": "Eri",
+"ra": 47.44,
+"dec": -20.58
 },
 {
 "id": "w-weic2612a",
@@ -2580,7 +2948,9 @@
 "webb",
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 148.97,
+"dec": 69.68
 },
 {
 "id": "e-eso1137a",
@@ -2594,7 +2964,9 @@
 "hubble",
 "alma"
 ],
-"con": "Crv"
+"con": "Crv",
+"ra": 180.47,
+"dec": -18.87
 },
 {
 "id": "e-eso1221a",
@@ -2607,7 +2979,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 201.37,
+"dec": -43.02
 },
 {
 "id": "w-potm2608a",
@@ -2620,7 +2994,9 @@
 "tel": [
 "webb"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 156.27,
+"dec": 17.16
 },
 {
 "id": "h-potw1345a",
@@ -2633,7 +3009,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Crv"
+"con": "Crv",
+"ra": 180.47,
+"dec": -18.88
 },
 {
 "id": "h-heic2018b",
@@ -2646,7 +3024,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Pup"
+"con": "Pup",
+"ra": 121.41,
+"dec": -11.43
 },
 {
 "id": "w-weic2420a",
@@ -2659,7 +3039,9 @@
 "tel": [
 "webb"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 144.43,
+"dec": 2.76
 },
 {
 "id": "w-potm2602a",
@@ -2672,7 +3054,9 @@
 "tel": [
 "webb"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 201.33,
+"dec": -21.13
 },
 {
 "id": "w-weic2615a",
@@ -2685,7 +3069,9 @@
 "tel": [
 "webb"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 201.36,
+"dec": -43.02
 },
 {
 "id": "h-heic1104a",
@@ -2698,7 +3084,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 140.51,
+"dec": 50.98
 },
 {
 "id": "w-potm2609a",
@@ -2711,7 +3099,9 @@
 "tel": [
 "webb"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 73.55,
+"dec": -3.01
 },
 {
 "id": "h-heic0719a",
@@ -2724,7 +3114,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Psc"
+"con": "Psc",
+"ra": 24.17,
+"dec": 15.78
 },
 {
 "id": "w-weic2608a",
@@ -2737,7 +3129,9 @@
 "tel": [
 "webb"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 202.5,
+"dec": 47.23
 },
 {
 "id": "w-potm2601a",
@@ -2750,7 +3144,9 @@
 "tel": [
 "webb"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 177.4,
+"dec": 22.4
 },
 {
 "id": "h-heic1302a",
@@ -2763,7 +3159,9 @@
 "tel": [
 "hubble"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 184.74,
+"dec": 47.31
 },
 {
 "id": "e-eso0903a",
@@ -2777,7 +3175,9 @@
 "apex",
 "wfi"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 201.37,
+"dec": -43.02
 },
 {
 "id": "h-potw1811a",
@@ -2790,7 +3190,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 39.55,
+"dec": -1.32
 },
 {
 "id": "w-potm2505a",
@@ -2803,7 +3205,9 @@
 "tel": [
 "webb"
 ],
-"con": "Gru"
+"con": "Gru",
+"ra": 342.18,
+"dec": -44.53
 },
 {
 "id": "h-heic0604a",
@@ -2816,7 +3220,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 148.98,
+"dec": 69.68
 },
 {
 "id": "h-heic0706a",
@@ -2829,7 +3235,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 71.43,
+"dec": -59.25
 },
 {
 "id": "w-potm2502a",
@@ -2842,7 +3250,9 @@
 "tel": [
 "webb"
 ],
-"con": "CMa"
+"con": "CMa",
+"ra": 101.47,
+"dec": -18.21
 },
 {
 "id": "h-potw2049a",
@@ -2855,7 +3265,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Col"
+"con": "Col",
+"ra": 76.31,
+"dec": -37.98
 },
 {
 "id": "w-weic2327a",
@@ -2869,7 +3281,9 @@
 "webb",
 "hubble"
 ],
-"con": "Eri"
+"con": "Eri",
+"ra": 64.04,
+"dec": -24.07
 },
 {
 "id": "w-potm2412a",
@@ -2882,7 +3296,9 @@
 "tel": [
 "webb"
 ],
-"con": "Pup"
+"con": "Pup",
+"ra": 124.69,
+"dec": -25.5
 },
 {
 "id": "h-potw1119a",
@@ -2895,7 +3311,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 223.49,
+"dec": 3.55
 },
 {
 "id": "w-weic2422a",
@@ -2908,7 +3326,9 @@
 "tel": [
 "webb"
 ],
-"con": "Cas"
+"con": "Cas",
+"ra": 42.12,
+"dec": 58.39
 },
 {
 "id": "h-potw1239a",
@@ -2921,7 +3341,9 @@
 "tel": [
 "hubble"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 183.32,
+"dec": 43.7
 },
 {
 "id": "w-potm2411a",
@@ -2934,7 +3356,9 @@
 "tel": [
 "webb"
 ],
-"con": "Col"
+"con": "Col",
+"ra": 86.76,
+"dec": -34.25
 },
 {
 "id": "h-heic0814a",
@@ -2947,7 +3371,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dra"
+"con": "Dra",
+"ra": 248.97,
+"dec": 66.21
 },
 {
 "id": "h-opo0328a",
@@ -2960,7 +3386,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 190.0,
+"dec": -11.62
 },
 {
 "id": "w-potm2511a",
@@ -2974,7 +3402,9 @@
 "webb",
 "hubble"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 187.64,
+"dec": 41.66
 },
 {
 "id": "w-potm2208a",
@@ -2987,7 +3417,9 @@
 "tel": [
 "webb"
 ],
-"con": "Psc"
+"con": "Psc",
+"ra": 24.17,
+"dec": 15.78
 },
 {
 "id": "e-eso0902c",
@@ -3000,7 +3432,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Scl"
+"con": "Scl",
+"ra": 11.89,
+"dec": -25.29
 },
 {
 "id": "w-potm2506a",
@@ -3013,7 +3447,9 @@
 "tel": [
 "webb"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 148.97,
+"dec": 69.68
 },
 {
 "id": "h-heic1811a",
@@ -3026,7 +3462,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 156.97,
+"dec": -43.9
 },
 {
 "id": "w-potm2407a",
@@ -3039,7 +3477,9 @@
 "tel": [
 "webb"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 184.72,
+"dec": 47.31
 },
 {
 "id": "w-weic2427a",
@@ -3052,7 +3492,9 @@
 "tel": [
 "webb"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 190.0,
+"dec": -11.62
 },
 {
 "id": "h-potw1252a",
@@ -3065,7 +3507,9 @@
 "tel": [
 "hubble"
 ],
-"con": "For"
+"con": "For",
+"ra": 41.58,
+"dec": -30.27
 },
 {
 "id": "e-eso0931a",
@@ -3078,7 +3522,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 196.36,
+"dec": -49.47
 },
 {
 "id": "w-weic2408a",
@@ -3092,7 +3538,9 @@
 "webb",
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 211.65,
+"dec": -5.45
 },
 {
 "id": "h-potw1226a",
@@ -3105,7 +3553,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 157.66,
+"dec": 70.62
 },
 {
 "id": "h-heic0905a",
@@ -3118,7 +3568,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ind"
+"con": "Ind",
+"ra": 319.75,
+"dec": -48.56
 },
 {
 "id": "h-heic1305a",
@@ -3131,7 +3583,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 40.67,
+"dec": -0.01
 },
 {
 "id": "w-weic2423a",
@@ -3144,7 +3598,9 @@
 "tel": [
 "other"
 ],
-"con": "LMi"
+"con": "LMi",
+"ra": 163.07,
+"dec": 30.06
 },
 {
 "id": "h-opo0511a",
@@ -3157,7 +3613,9 @@
 "tel": [
 "hubble"
 ],
-"con": "For"
+"con": "For",
+"ra": 50.67,
+"dec": -37.21
 },
 {
 "id": "w-potm2402a",
@@ -3170,7 +3628,9 @@
 "tel": [
 "webb"
 ],
-"con": "Ret"
+"con": "Ret",
+"ra": 64.4,
+"dec": -62.78
 },
 {
 "id": "h-opo0624a",
@@ -3183,7 +3643,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dra"
+"con": "Dra",
+"ra": 226.63,
+"dec": 55.76
 },
 {
 "id": "w-potm2405a",
@@ -3196,7 +3658,9 @@
 "tel": [
 "webb"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 187.04,
+"dec": 44.1
 },
 {
 "id": "h-potw1221a",
@@ -3209,7 +3673,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Pyx"
+"con": "Pyx",
+"ra": 141.17,
+"dec": -25.09
 },
 {
 "id": "w-potm2410a",
@@ -3222,7 +3688,9 @@
 "tel": [
 "webb"
 ],
-"con": "Psc"
+"con": "Psc",
+"ra": 24.17,
+"dec": 15.78
 },
 {
 "id": "h-potw1805a",
@@ -3235,7 +3703,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Peg"
+"con": "Peg",
+"ra": 339.27,
+"dec": 34.41
 },
 {
 "id": "w-potm2507a",
@@ -3248,7 +3718,9 @@
 "tel": [
 "webb"
 ],
-"con": "For"
+"con": "For",
+"ra": 53.16,
+"dec": -27.78
 },
 {
 "id": "h-potw1849a",
@@ -3261,7 +3733,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 194.97,
+"dec": 27.98
 },
 {
 "id": "h-heic1503a",
@@ -3274,7 +3748,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Psc"
+"con": "Psc",
+"ra": 354.05,
+"dec": 2.15
 },
 {
 "id": "h-potw1639a",
@@ -3287,7 +3763,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Scl"
+"con": "Scl",
+"ra": 2.48,
+"dec": -24.96
 },
 {
 "id": "h-potw1850a",
@@ -3300,7 +3778,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 185.72,
+"dec": 15.82
 },
 {
 "id": "h-heic1712a",
@@ -3313,7 +3793,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Hor"
+"con": "Hor",
+"ra": 60.94,
+"dec": -43.37
 },
 {
 "id": "h-heic1502a",
@@ -3326,7 +3808,9 @@
 "tel": [
 "hubble"
 ],
-"con": "And"
+"con": "And",
+"ra": 11.15,
+"dec": 41.59
 },
 {
 "id": "h-potw1618a",
@@ -3339,7 +3823,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 186.48,
+"dec": 18.21
 },
 {
 "id": "h-potw2026a",
@@ -3352,7 +3838,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cnc"
+"con": "Cnc",
+"ra": 137.58,
+"dec": 7.04
 },
 {
 "id": "w-potm2310a",
@@ -3365,7 +3853,9 @@
 "tel": [
 "webb"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 204.26,
+"dec": -29.87
 },
 {
 "id": "w-potm2403a",
@@ -3378,7 +3868,9 @@
 "tel": [
 "webb"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 143.51,
+"dec": 55.24
 },
 {
 "id": "h-potw1940a",
@@ -3391,7 +3883,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 172.88,
+"dec": -30.31
 },
 {
 "id": "h-potw1921a",
@@ -3404,7 +3898,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 190.51,
+"dec": 11.65
 },
 {
 "id": "w-potm2312a",
@@ -3417,7 +3913,9 @@
 "tel": [
 "webb"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 186.72,
+"dec": 21.87
 },
 {
 "id": "h-potw2044a",
@@ -3430,7 +3928,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sex"
+"con": "Sex",
+"ra": 150.65,
+"dec": -6.02
 },
 {
 "id": "h-opo9941a",
@@ -3443,7 +3943,9 @@
 "tel": [
 "hubble"
 ],
-"con": "CMa"
+"con": "CMa",
+"ra": 94.11,
+"dec": -21.38
 },
 {
 "id": "h-potw1924a",
@@ -3456,7 +3958,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cas"
+"con": "Cas",
+"ra": 5.08,
+"dec": 59.31
 },
 {
 "id": "h-potw2006a",
@@ -3469,7 +3973,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Pic"
+"con": "Pic",
+"ra": 83.77,
+"dec": -50.97
 },
 {
 "id": "e-eso0007a",
@@ -3482,7 +3988,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 190.0,
+"dec": -11.62
 },
 {
 "id": "e-eso0005b",
@@ -3495,7 +4003,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 201.37,
+"dec": -43.02
 },
 {
 "id": "h-opo1438b",
@@ -3508,7 +4018,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 148.94,
+"dec": 69.01
 },
 {
 "id": "e-eso9924b",
@@ -3521,7 +4033,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Pav"
+"con": "Pav",
+"ra": 304.24,
+"dec": -70.77
 },
 {
 "id": "e-eso9949a",
@@ -3534,7 +4048,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 204.25,
+"dec": -29.87
 },
 {
 "id": "e-eso0216a",
@@ -3547,7 +4063,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 84.66,
+"dec": -69.09
 },
 {
 "id": "w-weic2211a",
@@ -3560,7 +4078,9 @@
 "tel": [
 "webb"
 ],
-"con": "Scl"
+"con": "Scl",
+"ra": 9.42,
+"dec": -33.71
 },
 {
 "id": "e-eso1037a",
@@ -3573,7 +4093,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Scl"
+"con": "Scl",
+"ra": 13.72,
+"dec": -37.68
 },
 {
 "id": "h-heic0716a",
@@ -3586,7 +4108,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 143.48,
+"dec": 55.24
 },
 {
 "id": "e-eso0338c",
@@ -3599,7 +4123,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 170.06,
+"dec": 12.99
 },
 {
 "id": "e-eso0938a",
@@ -3612,7 +4138,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 296.24,
+"dec": -14.8
 },
 {
 "id": "h-heic1709a",
@@ -3625,7 +4153,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 185.41,
+"dec": 14.6
 },
 {
 "id": "h-heic1213a",
@@ -3638,7 +4168,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 190.89,
+"dec": 11.58
 },
 {
 "id": "e-eso9903a",
@@ -3651,7 +4183,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Scl"
+"con": "Scl",
+"ra": 11.93,
+"dec": -25.26
 },
 {
 "id": "h-heic1004a",
@@ -3664,7 +4198,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Col"
+"con": "Col",
+"ra": 85.03,
+"dec": -40.83
 },
 {
 "id": "w-weic2305a",
@@ -3677,7 +4213,9 @@
 "tel": [
 "webb"
 ],
-"con": "Scl"
+"con": "Scl",
+"ra": 3.58,
+"dec": -30.38
 },
 {
 "id": "h-heic0815f",
@@ -3690,7 +4228,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 187.71,
+"dec": 12.39
 },
 {
 "id": "h-heic0804a",
@@ -3703,7 +4243,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Eri"
+"con": "Eri",
+"ra": 43.22,
+"dec": -1.27
 },
 {
 "id": "e-eso1036a",
@@ -3716,7 +4258,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 191.29,
+"dec": -0.46
 },
 {
 "id": "e-eso0438d",
@@ -3729,7 +4273,9 @@
 "tel": [
 "vlt"
 ],
-"con": "For"
+"con": "For",
+"ra": 41.58,
+"dec": -30.27
 },
 {
 "id": "h-heic0902a",
@@ -3742,7 +4288,9 @@
 "tel": [
 "hubble"
 ],
-"con": "PsA"
+"con": "PsA",
+"ra": 330.52,
+"dec": -31.98
 },
 {
 "id": "e-eso0825a",
@@ -3755,7 +4303,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 204.25,
+"dec": -29.87
 },
 {
 "id": "e-eso1714a",
@@ -3769,7 +4319,9 @@
 "vista",
 "vst"
 ],
-"con": "Tuc"
+"con": "Tuc",
+"ra": 13.76,
+"dec": -72.96
 },
 {
 "id": "h-heic0812b",
@@ -3782,7 +4334,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Crv"
+"con": "Crv",
+"ra": 180.36,
+"dec": -18.99
 },
 {
 "id": "e-eso1525a",
@@ -3795,7 +4349,9 @@
 "tel": [
 "other"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 187.71,
+"dec": 12.39
 },
 {
 "id": "h-heic1816a",
@@ -3808,7 +4364,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 39.97,
+"dec": -1.58
 },
 {
 "id": "h-heic1716a",
@@ -3821,7 +4379,9 @@
 "tel": [
 "hubble"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 187.65,
+"dec": 41.64
 },
 {
 "id": "e-eso1114a",
@@ -3834,7 +4394,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Sex"
+"con": "Sex",
+"ra": 153.52,
+"dec": 3.46
 },
 {
 "id": "e-eso1042g",
@@ -3847,7 +4409,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Eri"
+"con": "Eri",
+"ra": 47.44,
+"dec": -20.58
 },
 {
 "id": "h-heic1416a",
@@ -3860,7 +4424,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Eri"
+"con": "Eri",
+"ra": 64.04,
+"dec": -24.07
 },
 {
 "id": "e-eso1020a",
@@ -3873,7 +4439,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 204.25,
+"dec": -29.87
 },
 {
 "id": "e-eso0136a",
@@ -3886,7 +4454,9 @@
 "tel": [
 "lasilla"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 204.25,
+"dec": -29.87
 },
 {
 "id": "h-heic1810a",
@@ -3899,7 +4469,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Pav"
+"con": "Pav",
+"ra": 287.43,
+"dec": -63.85
 },
 {
 "id": "h-heic0810bf",
@@ -3912,7 +4484,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ser1"
+"con": "Ser1",
+"ra": 233.74,
+"dec": 23.5
 },
 {
 "id": "e-eso1115a",
@@ -3925,7 +4499,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Vol"
+"con": "Vol",
+"ra": 114.03,
+"dec": -69.54
 },
 {
 "id": "h-heic1006a",
@@ -3938,7 +4514,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 170.07,
+"dec": 12.98
 },
 {
 "id": "h-heic1109a",
@@ -3951,7 +4529,9 @@
 "tel": [
 "hubble"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 183.91,
+"dec": 36.33
 },
 {
 "id": "h-heic0911b",
@@ -3964,7 +4544,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 188.41,
+"dec": 9.18
 },
 {
 "id": "h-heic1711a",
@@ -3977,7 +4559,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 39.97,
+"dec": -1.58
 },
 {
 "id": "e-eso1126a",
@@ -3991,7 +4575,9 @@
 "vst",
 "vlt"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 169.93,
+"dec": 13.31
 },
 {
 "id": "h-heic1107a",
@@ -4004,7 +4590,9 @@
 "tel": [
 "hubble"
 ],
-"con": "And"
+"con": "And",
+"ra": 35.38,
+"dec": 39.36
 },
 {
 "id": "h-heic1910a",
@@ -4017,7 +4605,9 @@
 "tel": [
 "hubble"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 187.63,
+"dec": 41.7
 },
 {
 "id": "e-eso1437e",
@@ -4030,7 +4620,9 @@
 "tel": [
 "hubble"
 ],
-"con": "TrA"
+"con": "TrA",
+"ra": 243.34,
+"dec": -60.76
 },
 {
 "id": "e-eso1118a",
@@ -4043,7 +4635,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Pav"
+"con": "Pav",
+"ra": 287.44,
+"dec": -63.86
 },
 {
 "id": "h-heic1409a",
@@ -4057,7 +4651,9 @@
 "hubble",
 "rubin"
 ],
-"con": "Her"
+"con": "Her",
+"ra": 260.07,
+"dec": 35.61
 },
 {
 "id": "h-heic0912a",
@@ -4070,7 +4666,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cnc"
+"con": "Cnc",
+"ra": 129.6,
+"dec": 25.75
 },
 {
 "id": "e-eso0608a",
@@ -4083,7 +4681,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 185.73,
+"dec": 15.83
 },
 {
 "id": "e-eso1038a",
@@ -4096,7 +4696,9 @@
 "tel": [
 "vlt"
 ],
-"con": "For"
+"con": "For",
+"ra": 53.4,
+"dec": -36.14
 },
 {
 "id": "e-eso0914a",
@@ -4109,7 +4711,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Scl"
+"con": "Scl",
+"ra": 3.72,
+"dec": -39.2
 },
 {
 "id": "h-heic1606a",
@@ -4122,7 +4726,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 266.42,
+"dec": -29.01
 },
 {
 "id": "h-heic1803a",
@@ -4135,7 +4741,9 @@
 "tel": [
 "hubble"
 ],
-"con": "LMi"
+"con": "LMi",
+"ra": 160.88,
+"dec": 24.92
 },
 {
 "id": "h-heic0710a",
@@ -4148,7 +4756,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 148.89,
+"dec": 69.07
 },
 {
 "id": "e-eso1411a",
@@ -4161,7 +4771,9 @@
 "tel": [
 "wfi"
 ],
-"con": "For"
+"con": "For",
+"ra": 50.67,
+"dec": -37.21
 },
 {
 "id": "w-weic2610c",
@@ -4174,7 +4786,9 @@
 "tel": [
 "webb"
 ],
-"con": "Gru"
+"con": "Gru",
+"ra": 342.18,
+"dec": -44.53
 },
 {
 "id": "h-heic1805a",
@@ -4187,7 +4801,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 4.71,
+"dec": -10.37
 },
 {
 "id": "h-heic0901a",
@@ -4200,7 +4816,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 195.36,
+"dec": 27.88
 },
 {
 "id": "e-eso0221c",
@@ -4213,7 +4831,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Scl"
+"con": "Scl",
+"ra": 13.7,
+"dec": -37.69
 },
 {
 "id": "h-heic1318a",
@@ -4226,7 +4846,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Hyi"
+"con": "Hyi",
+"ra": 25.38,
+"dec": -65.62
 },
 {
 "id": "e-eso1104a",
@@ -4239,7 +4861,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 169.57,
+"dec": -32.81
 },
 {
 "id": "h-heic1513a",
@@ -4252,7 +4876,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dra"
+"con": "Dra",
+"ra": 267.35,
+"dec": 70.15
 },
 {
 "id": "h-heic1311a",
@@ -4265,7 +4891,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 144.43,
+"dec": 2.76
 },
 {
 "id": "h-heic1108a",
@@ -4278,7 +4906,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vol"
+"con": "Vol",
+"ra": 114.09,
+"dec": -69.55
 },
 {
 "id": "e-eso0226a",
@@ -4291,7 +4921,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 266.42,
+"dec": -29.01
 },
 {
 "id": "w-weic2522b",
@@ -4304,7 +4936,9 @@
 "tel": [
 "webb"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 177.37,
+"dec": 22.36
 },
 {
 "id": "w-potm2212a",
@@ -4317,7 +4951,9 @@
 "tel": [
 "webb"
 ],
-"con": "Peg"
+"con": "Peg",
+"ra": 345.81,
+"dec": 8.88
 },
 {
 "id": "h-heic1202a",
@@ -4330,7 +4966,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 40.91,
+"dec": 1.38
 },
 {
 "id": "h-heic1901a",
@@ -4343,7 +4981,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Tri"
+"con": "Tri",
+"ra": 23.49,
+"dec": 30.67
 },
 {
 "id": "h-heic0810bn",
@@ -4356,7 +4996,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 204.57,
+"dec": 48.27
 },
 {
 "id": "h-potw1138a",
@@ -4369,7 +5011,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 194.91,
+"dec": 27.98
 },
 {
 "id": "h-potw1251a",
@@ -4382,7 +5026,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Lyn"
+"con": "Lyn",
+"ra": 123.48,
+"dec": 45.74
 },
 {
 "id": "h-potw1201a",
@@ -4395,7 +5041,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 148.97,
+"dec": 69.68
 },
 {
 "id": "h-heic2002a",
@@ -4408,7 +5056,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Per"
+"con": "Per",
+"ra": 58.26,
+"dec": 35.59
 },
 {
 "id": "h-heic0711a",
@@ -4421,7 +5071,9 @@
 "tel": [
 "hubble"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 187.04,
+"dec": 44.1
 },
 {
 "id": "h-heic1403a",
@@ -4434,7 +5086,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 204.25,
+"dec": -29.86
 },
 {
 "id": "h-heic1404a",
@@ -4447,7 +5101,9 @@
 "tel": [
 "hubble"
 ],
-"con": "TrA"
+"con": "TrA",
+"ra": 243.35,
+"dec": -60.76
 },
 {
 "id": "h-heic0805d",
@@ -4460,7 +5116,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 197.88,
+"dec": -1.34
 },
 {
 "id": "h-heic1218a",
@@ -4473,7 +5131,9 @@
 "tel": [
 "hubble"
 ],
-"con": "For"
+"con": "For",
+"ra": 36.27,
+"dec": -24.79
 },
 {
 "id": "h-potw1112a",
@@ -4486,7 +5146,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 215.6,
+"dec": -0.39
 },
 {
 "id": "e-eso9922a",
@@ -4499,7 +5161,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 196.36,
+"dec": -49.47
 },
 {
 "id": "h-potw1237a",
@@ -4512,7 +5176,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ind"
+"con": "Ind",
+"ra": 324.12,
+"dec": -54.56
 },
 {
 "id": "e-eso0841a",
@@ -4525,7 +5191,9 @@
 "tel": [
 "apex"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 266.4,
+"dec": -29.0
 },
 {
 "id": "h-potw1132a",
@@ -4538,7 +5206,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 9.81,
+"dec": 0.88
 },
 {
 "id": "e-eso9923b",
@@ -4551,7 +5221,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 197.52,
+"dec": -46.44
 },
 {
 "id": "h-potw1512a",
@@ -4564,7 +5236,9 @@
 "tel": [
 "hubble"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 198.05,
+"dec": 44.04
 },
 {
 "id": "h-heic0808a",
@@ -4577,7 +5251,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vol"
+"con": "Vol",
+"ra": 110.34,
+"dec": -69.0
 },
 {
 "id": "h-potw1451a",
@@ -4590,7 +5266,9 @@
 "tel": [
 "hubble"
 ],
-"con": "For"
+"con": "For",
+"ra": 53.88,
+"dec": -34.45
 },
 {
 "id": "e-eso1107a",
@@ -4603,7 +5281,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 11.76,
+"dec": -20.75
 },
 {
 "id": "h-heic1801a",
@@ -4616,7 +5296,9 @@
 "tel": [
 "hubble"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 203.19,
+"dec": 50.54
 },
 {
 "id": "e-eso9825a",
@@ -4629,7 +5311,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 191.2,
+"dec": -40.71
 },
 {
 "id": "h-potw1418a",
@@ -4642,7 +5326,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 190.0,
+"dec": 61.61
 },
 {
 "id": "h-potw1438a",
@@ -4655,7 +5341,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Scl"
+"con": "Scl",
+"ra": 359.46,
+"dec": -32.59
 },
 {
 "id": "h-heic1602a",
@@ -4668,7 +5356,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 195.03,
+"dec": 27.97
 },
 {
 "id": "h-heic1208a",
@@ -4681,7 +5371,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 159.3,
+"dec": -27.67
 },
 {
 "id": "h-potw1117a",
@@ -4694,7 +5386,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Boo"
+"con": "Boo",
+"ra": 213.97,
+"dec": 23.06
 },
 {
 "id": "h-opo1024a",
@@ -4707,7 +5401,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 195.24,
+"dec": 27.79
 },
 {
 "id": "h-heic2106a",
@@ -4720,7 +5416,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cep"
+"con": "Cep",
+"ra": 111.89,
+"dec": 85.76
 },
 {
 "id": "h-heic1421a",
@@ -4733,7 +5431,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 149.19,
+"dec": 28.82
 },
 {
 "id": "h-potw1427a",
@@ -4746,7 +5446,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Hor"
+"con": "Hor",
+"ra": 55.51,
+"dec": -47.22
 },
 {
 "id": "e-eso0832a",
@@ -4759,7 +5461,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cir"
+"con": "Cir",
+"ra": 213.29,
+"dec": -65.34
 },
 {
 "id": "h-potw1028a",
@@ -4772,7 +5476,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 150.87,
+"dec": 68.73
 },
 {
 "id": "h-potw1228a",
@@ -4785,7 +5491,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 189.03,
+"dec": 26.04
 },
 {
 "id": "e-eso1815b",
@@ -4798,7 +5506,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 177.4,
+"dec": 22.4
 },
 {
 "id": "h-potw1640a",
@@ -4811,7 +5521,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 11.79,
+"dec": -20.77
 },
 {
 "id": "h-heic2213a",
@@ -4824,7 +5536,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Lyn"
+"con": "Lyn",
+"ra": 120.24,
+"dec": 36.06
 },
 {
 "id": "h-potw1713a",
@@ -4837,7 +5551,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 186.8,
+"dec": 9.42
 },
 {
 "id": "w-potm2604b",
@@ -4850,7 +5566,9 @@
 "tel": [
 "webb"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 40.67,
+"dec": -0.01
 },
 {
 "id": "e-eso1610a",
@@ -4864,7 +5582,9 @@
 "vst",
 "vlt"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 0.48,
+"dec": -15.45
 },
 {
 "id": "h-potw1233a",
@@ -4877,7 +5597,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Boo"
+"con": "Boo",
+"ra": 216.18,
+"dec": 44.52
 },
 {
 "id": "h-potw1029a",
@@ -4890,7 +5612,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 187.18,
+"dec": 11.76
 },
 {
 "id": "e-eso1707a",
@@ -4903,7 +5627,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 40.44,
+"dec": 0.44
 },
 {
 "id": "w-potm2305a",
@@ -4916,7 +5642,9 @@
 "tel": [
 "webb"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 199.71,
+"dec": -21.03
 },
 {
 "id": "h-potw1841a",
@@ -4929,7 +5657,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 160.98,
+"dec": 11.69
 },
 {
 "id": "h-potw1905a",
@@ -4942,7 +5672,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 186.35,
+"dec": 18.19
 },
 {
 "id": "h-potw1422a",
@@ -4955,7 +5687,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 65.0,
+"dec": -54.94
 },
 {
 "id": "h-potw1733a",
@@ -4968,7 +5702,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Tri"
+"con": "Tri",
+"ra": 26.87,
+"dec": 27.34
 },
 {
 "id": "w-weic2425a",
@@ -4981,7 +5717,9 @@
 "tel": [
 "webb"
 ],
-"con": "Hyi"
+"con": "Hyi",
+"ra": 22.35,
+"dec": -73.56
 },
 {
 "id": "e-eso1322a",
@@ -4994,7 +5732,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 174.59,
+"dec": -63.37
 },
 {
 "id": "w-weic2617a",
@@ -5007,7 +5747,9 @@
 "tel": [
 "webb"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 266.42,
+"dec": -29.01
 },
 {
 "id": "h-heic0702a",
@@ -5020,7 +5762,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Hyi"
+"con": "Hyi",
+"ra": 22.37,
+"dec": -73.56
 },
 {
 "id": "w-weic2611a",
@@ -5034,7 +5778,9 @@
 "webb",
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 267.02,
+"dec": -24.78
 },
 {
 "id": "h-heic0514a",
@@ -5047,7 +5793,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Tuc"
+"con": "Tuc",
+"ra": 14.78,
+"dec": -72.17
 },
 {
 "id": "e-eso0848a",
@@ -5060,7 +5808,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Mon"
+"con": "Mon",
+"ra": 100.22,
+"dec": 9.61
 },
 {
 "id": "w-weic2506a",
@@ -5073,7 +5823,9 @@
 "tel": [
 "webb"
 ],
-"con": "Cha"
+"con": "Cha",
+"ra": 166.49,
+"dec": -77.55
 },
 {
 "id": "e-eso0926a",
@@ -5086,7 +5838,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Ser2"
+"con": "Ser2",
+"ra": 274.7,
+"dec": -13.82
 },
 {
 "id": "e-eso1422a",
@@ -5099,7 +5853,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 158.95,
+"dec": -58.22
 },
 {
 "id": "w-weic2503a",
@@ -5112,7 +5868,9 @@
 "tel": [
 "webb"
 ],
-"con": "Ser2"
+"con": "Ser2",
+"ra": 274.38,
+"dec": -4.66
 },
 {
 "id": "h-heic2105a",
@@ -5125,7 +5883,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 164.05,
+"dec": -60.45
 },
 {
 "id": "w-weic2519a",
@@ -5138,7 +5898,9 @@
 "tel": [
 "webb"
 ],
-"con": "Mon"
+"con": "Mon",
+"ra": 101.57,
+"dec": 0.1
 },
 {
 "id": "w-weic2407a",
@@ -5151,7 +5913,9 @@
 "tel": [
 "webb"
 ],
-"con": "Tri"
+"con": "Tri",
+"ra": 23.64,
+"dec": 30.78
 },
 {
 "id": "w-weic2520a",
@@ -5164,7 +5928,9 @@
 "tel": [
 "webb"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 266.83,
+"dec": -28.4
 },
 {
 "id": "h-potw1225a",
@@ -5177,7 +5943,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Oph"
+"con": "Oph",
+"ra": 254.29,
+"dec": -4.1
 },
 {
 "id": "w-potm2408a",
@@ -5190,7 +5958,9 @@
 "tel": [
 "webb"
 ],
-"con": "Per"
+"con": "Per",
+"ra": 52.25,
+"dec": 31.33
 },
 {
 "id": "w-potm2409a",
@@ -5203,7 +5973,9 @@
 "tel": [
 "webb"
 ],
-"con": "Ara"
+"con": "Ara",
+"ra": 251.77,
+"dec": -45.85
 },
 {
 "id": "w-weic2331a",
@@ -5216,7 +5988,9 @@
 "tel": [
 "webb"
 ],
-"con": "Per"
+"con": "Per",
+"ra": 56.14,
+"dec": 32.16
 },
 {
 "id": "h-potw1240a",
@@ -5229,7 +6003,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 277.85,
+"dec": -32.35
 },
 {
 "id": "h-potw1115a",
@@ -5242,7 +6018,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cas"
+"con": "Cas",
+"ra": 13.2,
+"dec": 56.6
 },
 {
 "id": "h-potw1150a",
@@ -5255,7 +6033,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 277.98,
+"dec": -23.48
 },
 {
 "id": "h-potw2036a",
@@ -5268,7 +6048,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 75.59,
+"dec": -66.12
 },
 {
 "id": "e-eso1436a",
@@ -5281,7 +6063,9 @@
 "tel": [
 "alma"
 ],
-"con": "Tau"
+"con": "Tau",
+"ra": 67.91,
+"dec": 18.23
 },
 {
 "id": "w-potm2404a",
@@ -5294,7 +6078,9 @@
 "tel": [
 "webb"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 267.22,
+"dec": -20.36
 },
 {
 "id": "h-potw1847a",
@@ -5307,7 +6093,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 78.41,
+"dec": -65.47
 },
 {
 "id": "e-eso1005a",
@@ -5320,7 +6108,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 168.79,
+"dec": -61.27
 },
 {
 "id": "h-potw1804a",
@@ -5333,7 +6123,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 154.4,
+"dec": -46.41
 },
 {
 "id": "e-potw1621a",
@@ -5346,7 +6138,9 @@
 "tel": [
 "other"
 ],
-"con": "Tel"
+"con": "Tel",
+"ra": 290.75,
+"dec": -54.54
 },
 {
 "id": "e-potw1714a",
@@ -5359,7 +6153,9 @@
 "tel": [
 "alma"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 276.12,
+"dec": -29.78
 },
 {
 "id": "e-eso9925a",
@@ -5372,7 +6168,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Ara"
+"con": "Ara",
+"ra": 250.0,
+"dec": -48.86
 },
 {
 "id": "h-heic0708a",
@@ -5385,7 +6183,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 138.01,
+"dec": -64.86
 },
 {
 "id": "e-eso0310a",
@@ -5398,7 +6198,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Tuc"
+"con": "Tuc",
+"ra": 15.95,
+"dec": -72.06
 },
 {
 "id": "e-eso9946a",
@@ -5411,7 +6213,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 168.79,
+"dec": -61.27
 },
 {
 "id": "h-heic0918a",
@@ -5424,7 +6228,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cap"
+"con": "Cap",
+"ra": 325.09,
+"dec": -23.18
 },
 {
 "id": "e-eso0929c",
@@ -5437,7 +6243,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 134.95,
+"dec": -47.53
 },
 {
 "id": "w-weic2219a",
@@ -5450,7 +6258,9 @@
 "tel": [
 "webb"
 ],
-"con": "Tau"
+"con": "Tau",
+"ra": 69.97,
+"dec": 26.05
 },
 {
 "id": "h-heic1321a",
@@ -5463,7 +6273,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Peg"
+"con": "Peg",
+"ra": 322.49,
+"dec": 12.17
 },
 {
 "id": "h-heic1704a",
@@ -5476,7 +6288,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 83.87,
+"dec": -69.27
 },
 {
 "id": "h-heic1221a",
@@ -5489,7 +6303,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 264.07,
+"dec": -44.73
 },
 {
 "id": "e-eso0425a",
@@ -5502,7 +6318,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Ara"
+"con": "Ara",
+"ra": 265.18,
+"dec": -53.67
 },
 {
 "id": "e-eso0844a",
@@ -5515,7 +6333,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 201.7,
+"dec": -47.48
 },
 {
 "id": "h-heic0822a",
@@ -5528,7 +6348,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 161.04,
+"dec": -59.72
 },
 {
 "id": "e-eso0620a",
@@ -5541,7 +6363,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Tuc"
+"con": "Tuc",
+"ra": 6.02,
+"dec": -72.08
 },
 {
 "id": "e-eso1235d",
@@ -5554,7 +6378,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 245.9,
+"dec": -26.52
 },
 {
 "id": "e-eso1218a",
@@ -5567,7 +6393,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Ser2"
+"con": "Ser2",
+"ra": 274.65,
+"dec": -12.09
 },
 {
 "id": "h-heic1605a",
@@ -5580,7 +6408,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 84.7,
+"dec": -69.1
 },
 {
 "id": "h-heic1601a",
@@ -5593,7 +6423,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 160.97,
+"dec": -59.55
 },
 {
 "id": "h-heic0619a",
@@ -5606,7 +6438,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 261.19,
+"dec": -34.2
 },
 {
 "id": "e-eso1326a",
@@ -5619,7 +6453,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 174.06,
+"dec": -61.62
 },
 {
 "id": "e-eso1009a",
@@ -5632,7 +6468,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 76.72,
+"dec": -3.34
 },
 {
 "id": "e-eso1406a",
@@ -5645,7 +6483,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 268.46,
+"dec": -34.79
 },
 {
 "id": "e-eso0940b",
@@ -5658,7 +6498,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Cru"
+"con": "Cru",
+"ra": 193.31,
+"dec": -60.47
 },
 {
 "id": "e-eso1323a",
@@ -5671,7 +6513,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Pav"
+"con": "Pav",
+"ra": 287.72,
+"dec": -59.98
 },
 {
 "id": "h-heic0809a",
@@ -5684,7 +6528,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 201.69,
+"dec": -47.47
 },
 {
 "id": "e-eso1439a",
@@ -5697,7 +6543,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 166.4,
+"dec": -58.73
 },
 {
 "id": "e-eso1243a",
@@ -5710,7 +6558,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Ara"
+"con": "Ara",
+"ra": 262.98,
+"dec": -67.05
 },
 {
 "id": "e-eso1316a",
@@ -5723,7 +6573,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 122.61,
+"dec": -49.17
 },
 {
 "id": "e-eso1711a",
@@ -5738,7 +6590,9 @@
 "alma",
 "gemini"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 83.81,
+"dec": -5.37
 },
 {
 "id": "h-heic1510a",
@@ -5751,7 +6605,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Tuc"
+"con": "Tuc",
+"ra": 6.03,
+"dec": -72.08
 },
 {
 "id": "e-eso0416a",
@@ -5764,7 +6620,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 275.11,
+"dec": -16.18
 },
 {
 "id": "h-heic1210a",
@@ -5777,7 +6635,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 87.86,
+"dec": 2.9
 },
 {
 "id": "e-eso0803b",
@@ -5789,7 +6649,10 @@
 "q": "MWC 147, NGC 2247 · about 2500 light-years away (source figure) The region around the young star MWC 147 in Monoceros, imaged from ESO's Paranal Observatory with a 200 mm lens",
 "tel": [
 "other"
-]
+],
+"con": "Mon",
+"ra": 98.27,
+"dec": 10.32
 },
 {
 "id": "h-potw1215a",
@@ -5802,7 +6665,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 280.8,
+"dec": -32.29
 },
 {
 "id": "h-potw1234a",
@@ -5815,7 +6680,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Lyr"
+"con": "Lyr",
+"ra": 289.15,
+"dec": 30.18
 },
 {
 "id": "e-eso1430a",
@@ -5828,7 +6695,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Sct"
+"con": "Sct",
+"ra": 282.76,
+"dec": -6.26
 },
 {
 "id": "h-potw1140a",
@@ -5841,7 +6710,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 198.23,
+"dec": 18.17
 },
 {
 "id": "h-potw1023a",
@@ -5854,7 +6725,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Del"
+"con": "Del",
+"ra": 308.55,
+"dec": 7.41
 },
 {
 "id": "h-potw1101a",
@@ -5867,7 +6740,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ser2"
+"con": "Ser2",
+"ra": 274.68,
+"dec": -13.79
 },
 {
 "id": "h-heic1905c",
@@ -5880,7 +6755,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 182.53,
+"dec": 18.54
 },
 {
 "id": "h-potw1231a",
@@ -5893,7 +6770,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 189.87,
+"dec": -26.74
 },
 {
 "id": "h-heic1617a",
@@ -5906,7 +6785,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 267.02,
+"dec": -24.78
 },
 {
 "id": "e-eso1810b",
@@ -5919,7 +6800,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Tuc"
+"con": "Tuc",
+"ra": 16.01,
+"dec": -72.03
 },
 {
 "id": "h-potw1914a",
@@ -5932,7 +6815,9 @@
 "tel": [
 "hubble"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 205.55,
+"dec": 28.38
 },
 {
 "id": "e-eso1816a",
@@ -5946,7 +6831,9 @@
 "vst",
 "vlt"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 84.75,
+"dec": -69.44
 },
 {
 "id": "h-heic0405a",
@@ -5959,7 +6846,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Mon"
+"con": "Mon",
+"ra": 106.02,
+"dec": -3.85
 },
 {
 "id": "h-potw1113a",
@@ -5972,7 +6861,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Oph"
+"con": "Oph",
+"ra": 251.81,
+"dec": -1.94
 },
 {
 "id": "e-eso1823a",
@@ -5985,7 +6876,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 134.74,
+"dec": -47.53
 },
 {
 "id": "h-potw1107a",
@@ -5998,7 +6891,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Peg"
+"con": "Peg",
+"ra": 322.49,
+"dec": 12.17
 },
 {
 "id": "e-eso2116b",
@@ -6012,7 +6907,9 @@
 "hubble",
 "vlt"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 77.19,
+"dec": -68.76
 },
 {
 "id": "e-eso1220a",
@@ -6026,7 +6923,9 @@
 "vista",
 "vst"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 295.0,
+"dec": -30.96
 },
 {
 "id": "h-potw1229a",
@@ -6039,7 +6938,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Oph"
+"con": "Oph",
+"ra": 248.13,
+"dec": -13.05
 },
 {
 "id": "h-potw1431a",
@@ -6052,7 +6953,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Aps"
+"con": "Aps",
+"ra": 225.06,
+"dec": -82.21
 },
 {
 "id": "h-potw1406a",
@@ -6065,7 +6968,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 289.43,
+"dec": -34.66
 },
 {
 "id": "h-potw1514a",
@@ -6078,7 +6983,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 279.1,
+"dec": -23.9
 },
 {
 "id": "e-eso1526a",
@@ -6091,7 +6998,9 @@
 "tel": [
 "wfi"
 ],
-"con": "CMa"
+"con": "CMa",
+"ra": 110.01,
+"dec": -21.88
 },
 {
 "id": "e-eso1441a",
@@ -6104,7 +7013,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Pup"
+"con": "Pup",
+"ra": 114.09,
+"dec": -14.49
 },
 {
 "id": "h-potw1910a",
@@ -6117,7 +7028,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 276.15,
+"dec": -24.88
 },
 {
 "id": "e-eso1510a",
@@ -6131,7 +7044,9 @@
 "vst",
 "vlt"
 ],
-"con": "Ara"
+"con": "Ara",
+"ra": 250.34,
+"dec": -48.76
 },
 {
 "id": "h-potw1001a",
@@ -6144,7 +7059,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Aqr"
+"con": "Aqr",
+"ra": 313.37,
+"dec": -12.54
 },
 {
 "id": "h-potw1137a",
@@ -6157,7 +7074,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Del"
+"con": "Del",
+"ra": 315.37,
+"dec": 16.19
 },
 {
 "id": "e-potw1341a",
@@ -6171,7 +7090,9 @@
 "vst",
 "vlt"
 ],
-"con": "Ara"
+"con": "Ara",
+"ra": 251.76,
+"dec": -45.85
 },
 {
 "id": "h-potw1145a",
@@ -6184,7 +7105,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 283.76,
+"dec": -30.48
 },
 {
 "id": "h-potw1244a",
@@ -6197,7 +7120,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ara"
+"con": "Ara",
+"ra": 262.98,
+"dec": -67.05
 },
 {
 "id": "e-eso1347a",
@@ -6210,7 +7135,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 167.6,
+"dec": -60.25
 },
 {
 "id": "h-potw1534a",
@@ -6223,7 +7150,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 74.78,
+"dec": -65.99
 },
 {
 "id": "e-eso9936a",
@@ -6236,7 +7165,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Ser1"
+"con": "Ser1",
+"ra": 238.23,
+"dec": 12.91
 },
 {
 "id": "h-potw1643a",
@@ -6249,7 +7180,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Tuc"
+"con": "Tuc",
+"ra": 15.81,
+"dec": -70.85
 },
 {
 "id": "e-eso1416a",
@@ -6262,7 +7195,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 168.25,
+"dec": -60.79
 },
 {
 "id": "h-potw1716a",
@@ -6275,7 +7210,9 @@
 "tel": [
 "hubble"
 ],
-"con": "CMa"
+"con": "CMa",
+"ra": 103.3,
+"dec": -24.05
 },
 {
 "id": "e-eso1133c",
@@ -6287,7 +7224,10 @@
 "q": "NGC 2100, Tarantula Nebula · about 170000 light-years away (source figure) The star cluster NGC 2100 and the Tarantula Nebula, imaged by the MPG/ESO 2.2-metre telescope",
 "tel": [
 "wfi"
-]
+],
+"con": "Dor",
+"ra": 85.53,
+"dec": -69.21
 },
 {
 "id": "h-potw1428a",
@@ -6300,7 +7240,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Tuc"
+"con": "Tuc",
+"ra": 6.69,
+"dec": -71.53
 },
 {
 "id": "e-eso1628a",
@@ -6314,7 +7256,9 @@
 "vst",
 "vlt"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 274.46,
+"dec": -17.33
 },
 {
 "id": "h-potw1449a",
@@ -6327,7 +7271,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Her"
+"con": "Her",
+"ra": 259.28,
+"dec": 43.14
 },
 {
 "id": "h-potw1011a",
@@ -6340,7 +7286,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Her"
+"con": "Her",
+"ra": 250.42,
+"dec": 36.46
 },
 {
 "id": "h-heic1903c",
@@ -6353,7 +7301,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Pav"
+"con": "Pav",
+"ra": 287.62,
+"dec": -59.91
 },
 {
 "id": "h-heic0913a",
@@ -6366,7 +7316,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cru"
+"con": "Cru",
+"ra": 193.44,
+"dec": -60.37
 },
 {
 "id": "h-potw1912a",
@@ -6379,7 +7331,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sct"
+"con": "Sct",
+"ra": 282.72,
+"dec": -6.24
 },
 {
 "id": "h-potw1315a",
@@ -6392,7 +7346,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Aur"
+"con": "Aur",
+"ra": 71.52,
+"dec": 31.38
 },
 {
 "id": "h-potw1118a",
@@ -6405,7 +7361,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ser1"
+"con": "Ser1",
+"ra": 229.64,
+"dec": 2.08
 },
 {
 "id": "h-potw1303a",
@@ -6418,7 +7376,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Tuc"
+"con": "Tuc",
+"ra": 16.98,
+"dec": -71.77
 },
 {
 "id": "h-potw1622a",
@@ -6431,7 +7391,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 269.76,
+"dec": -44.27
 },
 {
 "id": "e-eso2407a",
@@ -6443,7 +7405,10 @@
 "q": "HD 148937, NGC 6164, NGC 6165 · about 4000 light-years away (source figure) The Dragon's Egg nebula NGC 6164/6165 around HD 148937, imaged by the VLT Survey Telescope",
 "tel": [
 "other"
-]
+],
+"con": "Nor",
+"ra": 248.47,
+"dec": -48.11
 },
 {
 "id": "h-potw1131a",
@@ -6456,7 +7421,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Oph"
+"con": "Oph",
+"ra": 264.65,
+"dec": -23.91
 },
 {
 "id": "e-eso1023c",
@@ -6469,7 +7436,9 @@
 "tel": [
 "other"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 201.7,
+"dec": -47.48
 },
 {
 "id": "h-potw1915a",
@@ -6482,7 +7451,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Oph"
+"con": "Oph",
+"ra": 255.29,
+"dec": -30.11
 },
 {
 "id": "h-potw2223a",
@@ -6495,7 +7466,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 189.67,
+"dec": -51.15
 },
 {
 "id": "e-eso1630b",
@@ -6508,7 +7481,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 267.02,
+"dec": -24.78
 },
 {
 "id": "h-potw1631a",
@@ -6521,7 +7496,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Mus"
+"con": "Mus",
+"ra": 194.89,
+"dec": -70.88
 },
 {
 "id": "h-potw2022a",
@@ -6534,7 +7511,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 267.56,
+"dec": -37.05
 },
 {
 "id": "h-opo1801a",
@@ -6547,7 +7526,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 269.74,
+"dec": -29.21
 },
 {
 "id": "h-potw1832a",
@@ -6560,7 +7541,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 86.03,
+"dec": -69.17
 },
 {
 "id": "h-heic1509c",
@@ -6573,7 +7556,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 156.02,
+"dec": -57.76
 },
 {
 "id": "h-potw1913a",
@@ -6586,7 +7571,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Aqr"
+"con": "Aqr",
+"ra": 323.36,
+"dec": -0.82
 },
 {
 "id": "e-eso1111a",
@@ -6599,7 +7586,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Tuc"
+"con": "Tuc",
+"ra": 15.85,
+"dec": -72.07
 },
 {
 "id": "h-potw1710a",
@@ -6612,7 +7601,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ara"
+"con": "Ara",
+"ra": 251.77,
+"dec": -45.84
 },
 {
 "id": "e-eso1125a",
@@ -6625,7 +7616,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 80.53,
+"dec": -67.94
 },
 {
 "id": "h-heic0108a",
@@ -6638,7 +7631,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 77.2,
+"dec": -68.76
 },
 {
 "id": "h-potw2107a",
@@ -6651,7 +7646,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 126.44,
+"dec": -51.01
 },
 {
 "id": "w-arp220a",
@@ -6664,7 +7661,9 @@
 "tel": [
 "webb"
 ],
-"con": "Ser1"
+"con": "Ser1",
+"ra": 233.74,
+"dec": 23.5
 },
 {
 "id": "h-potw2220a",
@@ -6677,7 +7676,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 272.56,
+"dec": -31.77
 },
 {
 "id": "h-potw2301a",
@@ -6690,7 +7691,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Oph"
+"con": "Oph",
+"ra": 261.0,
+"dec": -26.36
 },
 {
 "id": "h-potw1416a",
@@ -6703,7 +7706,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ser1"
+"con": "Ser1",
+"ra": 229.64,
+"dec": 2.07
 },
 {
 "id": "h-potw1027a",
@@ -6716,7 +7721,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 75.56,
+"dec": -67.99
 },
 {
 "id": "w-potm2603b",
@@ -6731,7 +7738,9 @@
 "hubble",
 "alma"
 ],
-"con": "Oph"
+"con": "Oph",
+"ra": 247.88,
+"dec": -24.44
 },
 {
 "id": "h-potw1826a",
@@ -6744,7 +7753,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 246.92,
+"dec": -38.85
 },
 {
 "id": "h-potw2117a",
@@ -6757,7 +7768,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sge"
+"con": "Sge",
+"ra": 296.0,
+"dec": 17.15
 },
 {
 "id": "h-potw1236a",
@@ -6783,7 +7796,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 266.93,
+"dec": -24.7
 },
 {
 "id": "h-potw1852a",
@@ -6796,7 +7811,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Hyi"
+"con": "Hyi",
+"ra": 56.14,
+"dec": -71.67
 },
 {
 "id": "h-potw2030a",
@@ -6809,7 +7826,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Men"
+"con": "Men",
+"ra": 91.16,
+"dec": -75.43
 },
 {
 "id": "h-potw2233a",
@@ -6822,7 +7841,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 271.54,
+"dec": -27.77
 },
 {
 "id": "h-heic0603b",
@@ -6835,7 +7856,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Tuc"
+"con": "Tuc",
+"ra": 11.77,
+"dec": -73.49
 },
 {
 "id": "h-potw1707a",
@@ -6848,7 +7871,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Tuc"
+"con": "Tuc",
+"ra": 13.43,
+"dec": -72.22
 },
 {
 "id": "e-potw1911a",
@@ -6861,7 +7886,9 @@
 "tel": [
 "vlt"
 ],
-"con": "CMa"
+"con": "CMa",
+"ra": 109.67,
+"dec": -24.97
 },
 {
 "id": "h-heic0304c",
@@ -6874,7 +7901,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Mon"
+"con": "Mon",
+"ra": 106.02,
+"dec": -3.85
 },
 {
 "id": "e-potw1447a",
@@ -6887,7 +7916,9 @@
 "tel": [
 "other"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 34.84,
+"dec": -2.98
 },
 {
 "id": "e-potw1338a",
@@ -6900,7 +7931,9 @@
 "tel": [
 "vst"
 ],
-"con": "Oph"
+"con": "Oph",
+"ra": 261.67,
+"dec": -27.63
 },
 {
 "id": "h-potw2138a",
@@ -6913,7 +7946,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Oph"
+"con": "Oph",
+"ra": 265.93,
+"dec": -26.22
 },
 {
 "id": "h-potw1916a",
@@ -6926,7 +7961,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 301.52,
+"dec": -21.92
 },
 {
 "id": "h-potw1625a",
@@ -6939,7 +7976,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 77.33,
+"dec": -68.85
 },
 {
 "id": "e-potw2333a",
@@ -6952,7 +7991,9 @@
 "tel": [
 "vst"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 284.89,
+"dec": -36.63
 },
 {
 "id": "h-potw1642a",
@@ -6965,7 +8006,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Tuc"
+"con": "Tuc",
+"ra": 13.35,
+"dec": -72.2
 },
 {
 "id": "h-potw2224a",
@@ -6978,7 +8021,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 270.41,
+"dec": -26.84
 },
 {
 "id": "h-potw1828a",
@@ -6991,7 +8036,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Peg"
+"con": "Peg",
+"ra": 353.73,
+"dec": 18.23
 },
 {
 "id": "h-potw1608a",
@@ -7004,7 +8051,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 163.5,
+"dec": -60.45
 },
 {
 "id": "e-potw1015a",
@@ -7017,7 +8066,9 @@
 "tel": [
 "other"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 261.35,
+"dec": -34.43
 },
 {
 "id": "h-potw1609a",
@@ -7030,7 +8081,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cru"
+"con": "Cru",
+"ra": 185.6,
+"dec": -63.29
 },
 {
 "id": "h-ngc602",
@@ -7043,7 +8096,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Hyi"
+"con": "Hyi",
+"ra": 22.36,
+"dec": -73.56
 },
 {
 "id": "h-opo0224a",
@@ -7056,7 +8111,9 @@
 "tel": [
 "other"
 ],
-"con": "Tau"
+"con": "Tau",
+"ra": 83.63,
+"dec": 22.02
 },
 {
 "id": "h-ann0901a",
@@ -7069,7 +8126,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Pyx"
+"con": "Pyx",
+"ra": 139.01,
+"dec": -36.63
 },
 {
 "id": "h-opo0210c",
@@ -7082,7 +8141,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 245.99,
+"dec": -26.53
 },
 {
 "id": "e-potw2027a",
@@ -7095,7 +8156,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Cru"
+"con": "Cru",
+"ra": 192.6,
+"dec": -60.58
 },
 {
 "id": "e-ngc104-47-schmidt",
@@ -7108,7 +8171,9 @@
 "tel": [
 "other"
 ],
-"con": "Tuc"
+"con": "Tuc",
+"ra": 6.02,
+"dec": -72.08
 },
 {
 "id": "w-WR140a",
@@ -7121,7 +8186,9 @@
 "tel": [
 "webb"
 ],
-"con": "Cyg"
+"con": "Cyg",
+"ra": 305.11,
+"dec": 43.85
 },
 {
 "id": "h-opo0033b",
@@ -7134,7 +8201,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Tuc"
+"con": "Tuc",
+"ra": 6.08,
+"dec": -72.08
 },
 {
 "id": "e-ngc3201",
@@ -7147,7 +8216,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 154.4,
+"dec": -46.41
 },
 {
 "id": "e-perez-ngc_2477",
@@ -7160,7 +8231,9 @@
 "tel": [
 "other"
 ],
-"con": "Pup"
+"con": "Pup",
+"ra": 117.19,
+"dec": -38.41
 },
 {
 "id": "e-potw2050a",
@@ -7376,7 +8449,10 @@
 "q": "Gum 40, IC2872, Running Chicken Nebula The nebula Gum 40 (IC 2872), imaged by the VLT Survey Telescope",
 "tel": [
 "other"
-]
+],
+"con": "Cen",
+"ra": 172.22,
+"dec": -62.63
 },
 {
 "id": "e-potw1736a",
@@ -9297,7 +10373,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 201.34,
+"dec": -43.01
 },
 {
 "id": "h-heic1401a",
@@ -9310,7 +10388,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Scl"
+"con": "Scl",
+"ra": 3.59,
+"dec": -30.4
 },
 {
 "id": "e-eso1152a",
@@ -9324,7 +10404,9 @@
 "vst",
 "vlt"
 ],
-"con": "Scl"
+"con": "Scl",
+"ra": 11.89,
+"dec": -25.29
 },
 {
 "id": "h-heic0615a",
@@ -9337,7 +10419,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Crv"
+"con": "Crv",
+"ra": 180.47,
+"dec": -18.88
 },
 {
 "id": "e-eso0525a",
@@ -9350,7 +10434,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 189.09,
+"dec": 25.99
 },
 {
 "id": "h-potw1728a",
@@ -9363,7 +10449,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Lyn"
+"con": "Lyn",
+"ra": 120.47,
+"dec": 50.74
 },
 {
 "id": "h-potw1520a",
@@ -9376,7 +10464,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Oph"
+"con": "Oph",
+"ra": 253.25,
+"dec": 2.4
 },
 {
 "id": "h-heic0914b",
@@ -9389,7 +10479,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 192.41,
+"dec": 15.17
 },
 {
 "id": "h-potw1712a",
@@ -9402,7 +10494,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 163.35,
+"dec": 16.78
 },
 {
 "id": "h-opo1247a",
@@ -9415,7 +10509,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Her"
+"con": "Her",
+"ra": 252.78,
+"dec": 4.99
 },
 {
 "id": "e-eso0627b",
@@ -9428,7 +10524,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 197.52,
+"dec": -46.44
 },
 {
 "id": "h-potw1032a",
@@ -9441,7 +10539,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dra"
+"con": "Dra",
+"ra": 267.36,
+"dec": 70.14
 },
 {
 "id": "h-heic0007b",
@@ -9454,7 +10554,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Peg"
+"con": "Peg",
+"ra": 339.02,
+"dec": 33.97
 },
 {
 "id": "w-weic2306a",
@@ -9467,7 +10569,9 @@
 "tel": [
 "webb"
 ],
-"con": "Hor"
+"con": "Hor",
+"ra": 55.51,
+"dec": -47.22
 },
 {
 "id": "h-potw1429a",
@@ -9480,7 +10584,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 165.69,
+"dec": 17.99
 },
 {
 "id": "h-potw1328a",
@@ -9493,7 +10599,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 194.87,
+"dec": 14.17
 },
 {
 "id": "e-eso1231a",
@@ -9506,7 +10614,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Eri"
+"con": "Eri",
+"ra": 45.65,
+"dec": -22.87
 },
 {
 "id": "e-eso0434a",
@@ -9520,7 +10630,9 @@
 "hubble",
 "vlt"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 204.98,
+"dec": -31.64
 },
 {
 "id": "h-potw1248a",
@@ -9533,7 +10645,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 204.98,
+"dec": -31.64
 },
 {
 "id": "w-weic2403e",
@@ -9546,7 +10660,9 @@
 "tel": [
 "webb"
 ],
-"con": "Eri"
+"con": "Eri",
+"ra": 49.92,
+"dec": -19.41
 },
 {
 "id": "h-heic1523a",
@@ -9559,7 +10675,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Eri"
+"con": "Eri",
+"ra": 64.04,
+"dec": -24.07
 },
 {
 "id": "h-heic1523b",
@@ -9572,7 +10690,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Aur"
+"con": "Aur",
+"ra": 109.39,
+"dec": 37.75
 },
 {
 "id": "h-potw1948a",
@@ -9585,7 +10705,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 211.65,
+"dec": -5.45
 },
 {
 "id": "h-potw1440a",
@@ -9598,7 +10720,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 183.82,
+"dec": 13.03
 },
 {
 "id": "h-potw1330a",
@@ -9611,7 +10735,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 188.21,
+"dec": 0.12
 },
 {
 "id": "e-potw1739a",
@@ -9624,7 +10750,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Lep"
+"con": "Lep",
+"ra": 83.33,
+"dec": -21.94
 },
 {
 "id": "h-potw1809a",
@@ -9637,7 +10765,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Pav"
+"con": "Pav",
+"ra": 277.16,
+"dec": -66.98
 },
 {
 "id": "h-potw1213a",
@@ -9650,7 +10780,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Lyn"
+"con": "Lyn",
+"ra": 133.17,
+"dec": 33.42
 },
 {
 "id": "h-potw1541a",
@@ -9663,7 +10795,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 190.72,
+"dec": 13.26
 },
 {
 "id": "h-heic1207a",
@@ -9676,7 +10810,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cam"
+"con": "Cam",
+"ra": 112.22,
+"dec": 69.21
 },
 {
 "id": "h-potw1426a",
@@ -9689,7 +10825,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 9.88,
+"dec": 0.86
 },
 {
 "id": "h-potw1704a",
@@ -9702,7 +10840,9 @@
 "tel": [
 "hubble"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 194.76,
+"dec": 34.86
 },
 {
 "id": "w-weic2410c",
@@ -9715,7 +10855,9 @@
 "tel": [
 "webb"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 148.97,
+"dec": 69.68
 },
 {
 "id": "h-potw1620a",
@@ -9728,7 +10870,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 206.73,
+"dec": 60.98
 },
 {
 "id": "e-eso0802a",
@@ -9741,7 +10885,9 @@
 "tel": [
 "vlt"
 ],
-"con": "PsA"
+"con": "PsA",
+"ra": 330.53,
+"dec": -31.99
 },
 {
 "id": "e-eso1603a",
@@ -9755,7 +10901,9 @@
 "vst",
 "vlt"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 16.19,
+"dec": 2.12
 },
 {
 "id": "e-potw1801a",
@@ -9768,7 +10916,9 @@
 "tel": [
 "vlt"
 ],
-"con": "For"
+"con": "For",
+"ra": 54.72,
+"dec": -26.34
 },
 {
 "id": "h-potw1923a",
@@ -9781,7 +10931,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 180.79,
+"dec": 44.53
 },
 {
 "id": "h-potw1731a",
@@ -9794,7 +10946,9 @@
 "tel": [
 "hubble"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 191.0,
+"dec": 32.18
 },
 {
 "id": "e-eso0643a",
@@ -9807,7 +10961,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Ret"
+"con": "Ret",
+"ra": 49.57,
+"dec": -66.5
 },
 {
 "id": "h-potw1619a",
@@ -9820,7 +10976,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Aql"
+"con": "Aql",
+"ra": 295.67,
+"dec": -10.32
 },
 {
 "id": "h-opo1008a",
@@ -9833,7 +10991,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Eri"
+"con": "Eri",
+"ra": 75.42,
+"dec": -4.27
 },
 {
 "id": "h-heic1913c",
@@ -9846,7 +11006,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dra"
+"con": "Dra",
+"ra": 154.22,
+"dec": 73.4
 },
 {
 "id": "w-potm2302a",
@@ -9859,7 +11021,9 @@
 "tel": [
 "webb"
 ],
-"con": "Aqr"
+"con": "Aqr",
+"ra": 322.41,
+"dec": 0.09
 },
 {
 "id": "h-potw2012a",
@@ -9872,7 +11036,9 @@
 "tel": [
 "hubble"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 190.39,
+"dec": 41.15
 },
 {
 "id": "h-heic1505b",
@@ -9885,7 +11051,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 177.4,
+"dec": 22.4
 },
 {
 "id": "h-potw1735a",
@@ -9898,7 +11066,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 222.71,
+"dec": 5.12
 },
 {
 "id": "h-potw1535a",
@@ -9911,7 +11081,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 161.69,
+"dec": 11.82
 },
 {
 "id": "h-potw1206a",
@@ -9924,7 +11096,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 189.9,
+"dec": 12.43
 },
 {
 "id": "h-potw1309a",
@@ -9937,7 +11111,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Pav"
+"con": "Pav",
+"ra": 313.02,
+"dec": -69.2
 },
 {
 "id": "h-potw1242a",
@@ -9950,7 +11126,9 @@
 "tel": [
 "hubble"
 ],
-"con": "LMi"
+"con": "LMi",
+"ra": 160.88,
+"dec": 24.93
 },
 {
 "id": "h-opo0413c",
@@ -9963,7 +11141,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Scl"
+"con": "Scl",
+"ra": 13.72,
+"dec": -37.68
 },
 {
 "id": "h-potw1351a",
@@ -9976,7 +11156,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ant"
+"con": "Ant",
+"ra": 143.33,
+"dec": -33.03
 },
 {
 "id": "h-potw1103a",
@@ -9989,7 +11171,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Eri"
+"con": "Eri",
+"ra": 52.38,
+"dec": -17.78
 },
 {
 "id": "h-potw1806a",
@@ -10002,7 +11186,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ret"
+"con": "Ret",
+"ra": 64.41,
+"dec": -62.78
 },
 {
 "id": "h-potw1715a",
@@ -10015,7 +11201,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 188.59,
+"dec": 2.2
 },
 {
 "id": "h-potw1511a",
@@ -10028,7 +11216,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Boo"
+"con": "Boo",
+"ra": 214.26,
+"dec": 43.51
 },
 {
 "id": "h-opo0838a",
@@ -10041,7 +11231,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cam"
+"con": "Cam",
+"ra": 67.7,
+"dec": 64.84
 },
 {
 "id": "e-eso1129a",
@@ -10054,7 +11246,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 166.44,
+"dec": -0.03
 },
 {
 "id": "h-potw1125a",
@@ -10067,7 +11261,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Peg"
+"con": "Peg",
+"ra": 346.23,
+"dec": 12.33
 },
 {
 "id": "w-potm2211a",
@@ -10080,7 +11276,9 @@
 "tel": [
 "webb"
 ],
-"con": "Del"
+"con": "Del",
+"ra": 314.35,
+"dec": 17.13
 },
 {
 "id": "e-potw2130a",
@@ -10094,7 +11292,9 @@
 "vst",
 "vlt"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 298.0,
+"dec": -30.83
 },
 {
 "id": "h-potw2039a",
@@ -10107,7 +11307,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Lup"
+"con": "Lup",
+"ra": 218.17,
+"dec": -44.17
 },
 {
 "id": "h-potw1230a",
@@ -10120,7 +11322,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 192.28,
+"dec": -11.41
 },
 {
 "id": "h-potw1729a",
@@ -10133,7 +11337,9 @@
 "tel": [
 "hubble"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 184.38,
+"dec": 45.62
 },
 {
 "id": "h-potw1134a",
@@ -10146,7 +11352,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cam"
+"con": "Cam",
+"ra": 94.66,
+"dec": 78.36
 },
 {
 "id": "h-potw1004a",
@@ -10159,7 +11367,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 177.13,
+"dec": 12.72
 },
 {
 "id": "h-potw1035a",
@@ -10172,7 +11382,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Peg"
+"con": "Peg",
+"ra": 340.55,
+"dec": 19.99
 },
 {
 "id": "h-potw1634a",
@@ -10185,7 +11397,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 205.41,
+"dec": -29.91
 },
 {
 "id": "h-potw1415a",
@@ -10198,7 +11412,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 163.62,
+"dec": 17.29
 },
 {
 "id": "h-heic1007a",
@@ -10211,7 +11427,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 161.01,
+"dec": -59.51
 },
 {
 "id": "e-eso1103a",
@@ -10224,7 +11442,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 83.82,
+"dec": -5.39
 },
 {
 "id": "e-eso1205a",
@@ -10238,7 +11458,9 @@
 "vista",
 "vst"
 ],
-"con": "Aqr"
+"con": "Aqr",
+"ra": 337.41,
+"dec": -20.84
 },
 {
 "id": "e-eso2320a",
@@ -10252,7 +11474,9 @@
 "vst",
 "vlt"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 173.8,
+"dec": -63.17
 },
 {
 "id": "h-heic2004a",
@@ -10265,7 +11489,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 83.43,
+"dec": -68.77
 },
 {
 "id": "e-eso1403a",
@@ -10279,7 +11505,9 @@
 "vst",
 "vlt"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 270.9,
+"dec": -24.39
 },
 {
 "id": "h-heic1015a",
@@ -10292,7 +11520,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 270.94,
+"dec": -24.34
 },
 {
 "id": "h-heic0305a",
@@ -10305,7 +11535,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 275.2,
+"dec": -16.16
 },
 {
 "id": "h-potw2232a",
@@ -10318,7 +11550,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 83.67,
+"dec": -5.39
 },
 {
 "id": "e-eso1705a",
@@ -10332,7 +11566,9 @@
 "vst",
 "vlt"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 260.73,
+"dec": -34.96
 },
 {
 "id": "e-eso1834a",
@@ -10345,7 +11581,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Pup"
+"con": "Pup",
+"ra": 118.08,
+"dec": -26.44
 },
 {
 "id": "h-opo0635a",
@@ -10358,7 +11596,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Tuc"
+"con": "Tuc",
+"ra": 15.98,
+"dec": -72.03
 },
 {
 "id": "e-eso1804a",
@@ -10371,7 +11611,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 242.13,
+"dec": -39.09
 },
 {
 "id": "e-eso0928a",
@@ -10384,7 +11626,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 151.13,
+"dec": -58.66
 },
 {
 "id": "e-potw1044a",
@@ -10397,7 +11641,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 275.16,
+"dec": -16.14
 },
 {
 "id": "e-potw2403a",
@@ -10411,7 +11657,9 @@
 "vst",
 "vlt"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 128.56,
+"dec": -44.38
 },
 {
 "id": "e-potw1709a",
@@ -10425,7 +11673,9 @@
 "hubble",
 "alma"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 83.87,
+"dec": -69.27
 },
 {
 "id": "h-heic1819b",
@@ -10438,7 +11688,9 @@
 "tel": [
 "other"
 ],
-"con": "Ser2"
+"con": "Ser2",
+"ra": 277.49,
+"dec": 1.23
 },
 {
 "id": "e-ngc6188-3-6-m",
@@ -10463,7 +11715,9 @@
 "tel": [
 "other"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 151.75,
+"dec": -40.44
 },
 {
 "id": "h-opo9301a",
@@ -10475,7 +11729,10 @@
 "q": "Cygnus Loop, NGC 6960, SNR 074.0-08.5 · about 1500 light-years away (source figure) Part of the Cygnus Loop supernova remnant, imaged by the Hubble Space Telescope",
 "tel": [
 "other"
-]
+],
+"con": "Cyg",
+"ra": 311.41,
+"dec": 30.71
 },
 {
 "id": "h-opo0417b",
@@ -10488,7 +11745,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 270.59,
+"dec": -23.03
 },
 {
 "id": "h-heic1206a",
@@ -10502,7 +11761,9 @@
 "hubble",
 "wfi"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 84.57,
+"dec": -69.13
 },
 {
 "id": "h-heic0616b",
@@ -10515,7 +11776,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Tuc"
+"con": "Tuc",
+"ra": 6.02,
+"dec": -72.08
 },
 {
 "id": "h-opo1824a",
@@ -10528,7 +11791,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ara"
+"con": "Ara",
+"ra": 265.17,
+"dec": -53.67
 },
 {
 "id": "h-opo0840d",
@@ -10541,7 +11806,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Her"
+"con": "Her",
+"ra": 250.42,
+"dec": 36.46
 },
 {
 "id": "e-eso1730a",
@@ -10554,7 +11821,9 @@
 "tel": [
 "alma"
 ],
-"con": "Ant"
+"con": "Ant",
+"ra": 158.8,
+"dec": -39.56
 },
 {
 "id": "h-potw1121a",
@@ -10567,7 +11836,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 267.02,
+"dec": -24.78
 },
 {
 "id": "h-opo9313a",
@@ -10580,7 +11851,9 @@
 "tel": [
 "other"
 ],
-"con": "Peg"
+"con": "Peg",
+"ra": 322.49,
+"dec": 12.17
 },
 {
 "id": "e-image3_ncen",
@@ -11541,7 +12814,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 193.23,
+"dec": 11.23
 },
 {
 "id": "h-potw2052a",
@@ -11554,7 +12829,9 @@
 "tel": [
 "hubble"
 ],
-"con": "CMa"
+"con": "CMa",
+"ra": 95.42,
+"dec": -27.24
 },
 {
 "id": "h-potw1830a",
@@ -11567,7 +12844,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Pav"
+"con": "Pav",
+"ra": 287.43,
+"dec": -63.85
 },
 {
 "id": "h-heic1611c",
@@ -11580,7 +12859,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dra"
+"con": "Dra",
+"ra": 218.65,
+"dec": 59.34
 },
 {
 "id": "h-potw1445a",
@@ -11593,7 +12874,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 178.82,
+"dec": 23.41
 },
 {
 "id": "h-potw1537a",
@@ -11606,7 +12889,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 177.78,
+"dec": 55.08
 },
 {
 "id": "h-potw1424a",
@@ -11619,7 +12904,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 211.26,
+"dec": 53.66
 },
 {
 "id": "h-potw1647a",
@@ -11632,7 +12919,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 158.07,
+"dec": 27.67
 },
 {
 "id": "e-potw1645a",
@@ -11646,7 +12935,9 @@
 "hubble",
 "alma"
 ],
-"con": "CMa"
+"con": "CMa",
+"ra": 94.1,
+"dec": -21.37
 },
 {
 "id": "e-potw1128a",
@@ -11659,7 +12950,9 @@
 "tel": [
 "vlt"
 ],
-"con": "For"
+"con": "For",
+"ra": 41.58,
+"dec": -30.27
 },
 {
 "id": "h-potw2152a",
@@ -11672,7 +12965,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dra"
+"con": "Dra",
+"ra": 218.66,
+"dec": 59.34
 },
 {
 "id": "h-potw1650a",
@@ -11685,7 +12980,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Gru"
+"con": "Gru",
+"ra": 335.25,
+"dec": -46.03
 },
 {
 "id": "h-potw2037a",
@@ -11698,7 +12995,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 139.47,
+"dec": -22.35
 },
 {
 "id": "h-potw1623a",
@@ -11711,7 +13010,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 139.01,
+"dec": 52.85
 },
 {
 "id": "e-eso1547a",
@@ -11724,7 +13025,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 206.83,
+"dec": -30.4
 },
 {
 "id": "h-potw1706a",
@@ -11737,7 +13040,9 @@
 "tel": [
 "hubble"
 ],
-"con": "And"
+"con": "And",
+"ra": 350.53,
+"dec": 40.85
 },
 {
 "id": "h-potw1725a",
@@ -11750,7 +13055,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Lep"
+"con": "Lep",
+"ra": 75.83,
+"dec": -25.42
 },
 {
 "id": "h-potw1129a",
@@ -11763,7 +13070,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 180.29,
+"dec": 14.1
 },
 {
 "id": "h-potw1009a",
@@ -11776,7 +13085,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 136.39,
+"dec": -19.04
 },
 {
 "id": "h-potw1613a",
@@ -11789,7 +13100,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 128.53,
+"dec": 66.18
 },
 {
 "id": "h-heic0819e",
@@ -11802,7 +13115,9 @@
 "tel": [
 "hubble"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 183.04,
+"dec": 36.17
 },
 {
 "id": "w-potm2301a",
@@ -11815,7 +13130,9 @@
 "tel": [
 "webb"
 ],
-"con": "Her"
+"con": "Her",
+"ra": 254.64,
+"dec": 34.28
 },
 {
 "id": "h-potw1235a",
@@ -11828,7 +13145,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 225.0,
+"dec": 1.89
 },
 {
 "id": "h-heic1507c",
@@ -11841,7 +13160,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ser1"
+"con": "Ser1",
+"ra": 234.72,
+"dec": 17.03
 },
 {
 "id": "h-potw2018a",
@@ -11854,7 +13175,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 168.54,
+"dec": 48.32
 },
 {
 "id": "e-eso1719a",
@@ -11868,7 +13191,9 @@
 "vst",
 "vlt"
 ],
-"con": "Ser2"
+"con": "Ser2",
+"ra": 274.87,
+"dec": -14.1
 },
 {
 "id": "e-eso0142a",
@@ -11881,7 +13206,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Ser2"
+"con": "Ser2",
+"ra": 274.7,
+"dec": -13.81
 },
 {
 "id": "h-opo0932a",
@@ -11894,7 +13221,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 84.7,
+"dec": -69.1
 },
 {
 "id": "e-potw1523a",
@@ -11907,7 +13236,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Tau"
+"con": "Tau",
+"ra": 83.63,
+"dec": 22.03
 },
 {
 "id": "e-eso9948d",
@@ -11920,7 +13251,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 85.82,
+"dec": -67.85
 },
 {
 "id": "e-eso0834a",
@@ -11933,7 +13266,9 @@
 "tel": [
 "lasilla"
 ],
-"con": "Tuc"
+"con": "Tuc",
+"ra": 14.82,
+"dec": -72.18
 },
 {
 "id": "e-eso1816d",
@@ -11947,7 +13282,9 @@
 "vst",
 "vlt"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 84.45,
+"dec": -69.14
 },
 {
 "id": "e-eso2503a",
@@ -11960,7 +13297,9 @@
 "tel": [
 "vst"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 134.78,
+"dec": -47.5
 },
 {
 "id": "h-potw1205a",
@@ -11973,7 +13312,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Pav"
+"con": "Pav",
+"ra": 287.72,
+"dec": -59.99
 },
 {
 "id": "h-opo9103a",
@@ -11986,7 +13327,9 @@
 "tel": [
 "other"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 83.87,
+"dec": -69.27
 },
 {
 "id": "h-potw1253a",
@@ -11999,7 +13342,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 198.29,
+"dec": -43.26
 },
 {
 "id": "h-potw1614a",
@@ -12012,7 +13357,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Psc"
+"con": "Psc",
+"ra": 11.55,
+"dec": 19.49
 },
 {
 "id": "e-eso0116f",
@@ -12025,7 +13372,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Crv"
+"con": "Crv",
+"ra": 185.84,
+"dec": -12.55
 },
 {
 "id": "n-noirlab2521a",
@@ -12039,7 +13388,9 @@
 "vst",
 "rubin"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 186.37,
+"dec": 6.93
 },
 {
 "id": "n-gemini1210a",
@@ -12052,7 +13403,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Psc"
+"con": "Psc",
+"ra": 25.72,
+"dec": 13.69
 },
 {
 "id": "n-gemini0901a",
@@ -12065,7 +13418,9 @@
 "tel": [
 "gemini"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 161.65,
+"dec": 63.23
 },
 {
 "id": "n-gemini0501a",
@@ -12078,7 +13433,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Cyg"
+"con": "Cyg",
+"ra": 308.72,
+"dec": 60.15
 },
 {
 "id": "n-noirlab2620a",
@@ -12092,7 +13449,9 @@
 "gemini",
 "blanco"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 161.7,
+"dec": 11.82
 },
 {
 "id": "n-noirlab2106a",
@@ -12106,7 +13465,9 @@
 "gemini",
 "blanco"
 ],
-"con": "Psc"
+"con": "Psc",
+"ra": 20.03,
+"dec": 3.42
 },
 {
 "id": "n-gemini1508a",
@@ -12119,7 +13480,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 86.54,
+"dec": 0.17
 },
 {
 "id": "n-noirlab2406a",
@@ -12132,7 +13495,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 127.83,
+"dec": -43.93
 },
 {
 "id": "n-noirlab2501a",
@@ -12145,7 +13510,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Ant"
+"con": "Ant",
+"ra": 157.49,
+"dec": -35.37
 },
 {
 "id": "n-noirlab2403a",
@@ -12158,7 +13525,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 193.09,
+"dec": -1.2
 },
 {
 "id": "n-noirlab2424a",
@@ -12171,7 +13540,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Mon"
+"con": "Mon",
+"ra": 98.05,
+"dec": 4.92
 },
 {
 "id": "n-noirlab2115a",
@@ -12184,7 +13555,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Sex"
+"con": "Sex",
+"ra": 150.0,
+"dec": 5.33
 },
 {
 "id": "n-gemini1205a",
@@ -12197,7 +13570,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Aql"
+"con": "Aql",
+"ra": 285.5,
+"dec": 2.15
 },
 {
 "id": "n-noirlab2307a",
@@ -12211,7 +13586,9 @@
 "gemini",
 "blanco"
 ],
-"con": "Cir"
+"con": "Cir",
+"ra": 220.75,
+"dec": -62.57
 },
 {
 "id": "n-noirlab2204a",
@@ -12224,7 +13601,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 268.95,
+"dec": -24.67
 },
 {
 "id": "n-noirlab2515a",
@@ -12237,7 +13616,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Cir"
+"con": "Cir",
+"ra": 224.98,
+"dec": -63.34
 },
 {
 "id": "n-noirlab2507a",
@@ -12250,7 +13631,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 84.0,
+"dec": -67.58
 },
 {
 "id": "n-noirlab2103a",
@@ -12263,7 +13646,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 174.46,
+"dec": 21.98
 },
 {
 "id": "n-noirlab2315a",
@@ -12276,7 +13661,9 @@
 "tel": [
 "gemini"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 210.81,
+"dec": 54.32
 },
 {
 "id": "n-noirlab2426a",
@@ -12289,7 +13676,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Per"
+"con": "Per",
+"ra": 49.74,
+"dec": 41.47
 },
 {
 "id": "n-noirlab2519a",
@@ -12302,7 +13691,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Cha"
+"con": "Cha",
+"ra": 166.75,
+"dec": -77.56
 },
 {
 "id": "n-gemini0505a",
@@ -12315,7 +13706,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Tau"
+"con": "Tau",
+"ra": 65.51,
+"dec": 28.47
 },
 {
 "id": "n-noirlab2529a",
@@ -12328,7 +13721,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Vul"
+"con": "Vul",
+"ra": 295.91,
+"dec": 23.31
 },
 {
 "id": "n-noirlab2325a",
@@ -12341,7 +13736,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 177.57,
+"dec": -28.54
 },
 {
 "id": "n-noirlab2101a",
@@ -12354,7 +13751,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Per"
+"con": "Per",
+"ra": 39.82,
+"dec": 40.87
 },
 {
 "id": "n-noirlab2306a",
@@ -12367,7 +13766,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Ret"
+"con": "Ret",
+"ra": 55.77,
+"dec": -53.64
 },
 {
 "id": "n-noirlab2126a",
@@ -12381,7 +13782,9 @@
 "gemini",
 "blanco"
 ],
-"con": "For"
+"con": "For",
+"ra": 54.73,
+"dec": -35.49
 },
 {
 "id": "n-gemini1604a",
@@ -12394,7 +13797,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 84.92,
+"dec": -69.77
 },
 {
 "id": "n-gemini0801a",
@@ -12407,7 +13812,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 86.78,
+"dec": -69.7
 },
 {
 "id": "n-noirlab2524a",
@@ -12420,7 +13827,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Pav"
+"con": "Pav",
+"ra": 302.86,
+"dec": -56.69
 },
 {
 "id": "n-noirlab2129a",
@@ -12433,7 +13842,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Cha"
+"con": "Cha",
+"ra": 167.16,
+"dec": -77.73
 },
 {
 "id": "n-noirlab2329a",
@@ -12446,7 +13857,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Aqr"
+"con": "Aqr",
+"ra": 354.98,
+"dec": -12.29
 },
 {
 "id": "n-noirlab2328a",
@@ -12459,7 +13872,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Psc"
+"con": "Psc",
+"ra": 21.15,
+"dec": 3.79
 },
 {
 "id": "n-noirlab2029a",
@@ -12472,7 +13887,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Vul"
+"con": "Vul",
+"ra": 296.91,
+"dec": 27.31
 },
 {
 "id": "n-gemini0603a",
@@ -12485,7 +13902,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 11.77,
+"dec": -11.87
 },
 {
 "id": "n-noirlab2219a",
@@ -12498,7 +13917,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 189.14,
+"dec": 11.24
 },
 {
 "id": "n-noirlab2313a",
@@ -12524,7 +13945,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Mon"
+"con": "Mon",
+"ra": 107.34,
+"dec": -0.81
 },
 {
 "id": "n-gemini0302a",
@@ -12537,7 +13960,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Cap"
+"con": "Cap",
+"ra": 312.05,
+"dec": -19.85
 },
 {
 "id": "n-iotw2344a",
@@ -12550,7 +13975,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Gru"
+"con": "Gru",
+"ra": 329.9,
+"dec": -39.39
 },
 {
 "id": "n-gemini0502b",
@@ -12563,7 +13990,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Eri"
+"con": "Eri",
+"ra": 63.02,
+"dec": -32.87
 },
 {
 "id": "n-gemini1902a",
@@ -12588,7 +14017,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 168.07,
+"dec": -61.3
 },
 {
 "id": "n-iotw2530a",
@@ -12601,7 +14032,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Cyg"
+"con": "Cyg",
+"ra": 307.67,
+"dec": 44.24
 },
 {
 "id": "n-iotw2543a",
@@ -12614,7 +14047,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 207.04,
+"dec": -30.44
 },
 {
 "id": "n-iotw2421a",
@@ -12627,7 +14062,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 186.63,
+"dec": 9.02
 },
 {
 "id": "n-iotw2338a",
@@ -12641,7 +14078,9 @@
 "gemini",
 "blanco"
 ],
-"con": "Phe"
+"con": "Phe",
+"ra": 18.6,
+"dec": -55.4
 },
 {
 "id": "n-iotw2508a",
@@ -12654,7 +14093,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 150.78,
+"dec": -26.16
 },
 {
 "id": "n-iotw2320a",
@@ -12667,7 +14108,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Col"
+"con": "Col",
+"ra": 76.93,
+"dec": -37.51
 },
 {
 "id": "n-iotw2415a",
@@ -12680,7 +14123,9 @@
 "tel": [
 "gemini"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 133.9,
+"dec": 58.73
 },
 {
 "id": "n-iotw2241a",
@@ -12694,7 +14139,9 @@
 "gemini",
 "blanco"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 187.85,
+"dec": 29.14
 },
 {
 "id": "n-iotw2110a",
@@ -12708,7 +14155,9 @@
 "gemini",
 "blanco"
 ],
-"con": "Eri"
+"con": "Eri",
+"ra": 64.98,
+"dec": -39.19
 },
 {
 "id": "n-iotw2221a",
@@ -12721,7 +14170,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cam"
+"con": "Cam",
+"ra": 114.21,
+"dec": 65.59
 },
 {
 "id": "n-iotw2233a",
@@ -12734,7 +14185,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Tri"
+"con": "Tri",
+"ra": 23.45,
+"dec": 30.67
 },
 {
 "id": "n-iotw2347a",
@@ -12747,7 +14200,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 208.98,
+"dec": 5.12
 },
 {
 "id": "n-noirlab2406f",
@@ -12760,7 +14215,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Pup"
+"con": "Pup",
+"ra": 126.11,
+"dec": -43.01
 },
 {
 "id": "n-iotw2608a",
@@ -12773,7 +14230,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Eri"
+"con": "Eri",
+"ra": 49.33,
+"dec": -41.11
 },
 {
 "id": "n-iotw2403a",
@@ -12786,7 +14245,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Per"
+"con": "Per",
+"ra": 40.86,
+"dec": 37.34
 },
 {
 "id": "n-gemini1006b",
@@ -12799,7 +14260,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Ind"
+"con": "Ind",
+"ra": 330.47,
+"dec": -59.95
 },
 {
 "id": "n-iotw2215a",
@@ -12812,7 +14275,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 148.26,
+"dec": 13.74
 },
 {
 "id": "n-iotw2126a",
@@ -12825,7 +14290,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Sex"
+"con": "Sex",
+"ra": 152.75,
+"dec": -4.7
 },
 {
 "id": "n-iotw2325a",
@@ -12838,7 +14305,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 88.62,
+"dec": 1.81
 },
 {
 "id": "n-iotw2247a",
@@ -12851,7 +14320,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Tel"
+"con": "Tel",
+"ra": 300.24,
+"dec": -47.08
 },
 {
 "id": "n-noirlab2204c",
@@ -12864,7 +14335,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 131.39,
+"dec": -43.87
 },
 {
 "id": "n-noirlab2406g",
@@ -12877,7 +14350,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 126.3,
+"dec": -43.41
 },
 {
 "id": "n-iotw2332a",
@@ -12891,7 +14366,9 @@
 "gemini",
 "blanco"
 ],
-"con": "Scl"
+"con": "Scl",
+"ra": 13.18,
+"dec": -31.2
 },
 {
 "id": "n-iotw2316a",
@@ -12904,7 +14381,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 80.43,
+"dec": 8.43
 },
 {
 "id": "n-iotw2035a",
@@ -12917,7 +14396,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 154.98,
+"dec": 45.56
 },
 {
 "id": "n-noirlab2521bq",
@@ -12931,7 +14412,9 @@
 "vst",
 "rubin"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 186.77,
+"dec": 8.93
 },
 {
 "id": "n-noirlab2321d",
@@ -12944,7 +14427,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Eri"
+"con": "Eri",
+"ra": 62.98,
+"dec": -32.88
 },
 {
 "id": "n-iotw2023a",
@@ -12957,7 +14442,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "And"
+"con": "And",
+"ra": 35.63,
+"dec": 42.35
 },
 {
 "id": "n-iotw2224a",
@@ -12970,7 +14457,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Pav"
+"con": "Pav",
+"ra": 317.83,
+"dec": -64.03
 },
 {
 "id": "n-iotw2230a",
@@ -12983,7 +14472,9 @@
 "tel": [
 "other"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 258.12,
+"dec": -38.53
 },
 {
 "id": "n-iotw2425a",
@@ -12996,7 +14487,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Crt"
+"con": "Crt",
+"ra": 178.99,
+"dec": -19.9
 },
 {
 "id": "n-iotw2030a",
@@ -13009,7 +14502,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Lyn"
+"con": "Lyn",
+"ra": 123.67,
+"dec": 49.06
 },
 {
 "id": "n-noirlab2521ak",
@@ -13023,7 +14518,9 @@
 "vst",
 "rubin"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 185.51,
+"dec": 4.5
 },
 {
 "id": "n-iotw2301a",
@@ -13036,7 +14533,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Tau"
+"con": "Tau",
+"ra": 68.98,
+"dec": 22.9
 },
 {
 "id": "n-noirlab2521ae",
@@ -13050,7 +14549,9 @@
 "vst",
 "rubin"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 184.91,
+"dec": 5.64
 },
 {
 "id": "n-iotw2048a",
@@ -13063,7 +14564,9 @@
 "tel": [
 "other"
 ],
-"con": "Mon"
+"con": "Mon",
+"ra": 91.95,
+"dec": -6.38
 },
 {
 "id": "n-iotw2115a",
@@ -13076,7 +14579,9 @@
 "tel": [
 "other"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 128.91,
+"dec": -40.66
 },
 {
 "id": "n-iotw2248a",
@@ -13101,7 +14606,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Lac"
+"con": "Lac",
+"ra": 338.07,
+"dec": 56.17
 },
 {
 "id": "n-noirlab2521ad",
@@ -13115,7 +14622,9 @@
 "vst",
 "rubin"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 188.37,
+"dec": 8.66
 },
 {
 "id": "n-noirlab2328c",
@@ -13128,7 +14637,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 198.01,
+"dec": -6.99
 },
 {
 "id": "n-iotw2121a",
@@ -13141,7 +14652,9 @@
 "tel": [
 "other"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 272.65,
+"dec": -16.76
 },
 {
 "id": "n-iotw2414a",
@@ -13167,7 +14680,9 @@
 "gemini",
 "blanco"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 61.01,
+"dec": -54.1
 },
 {
 "id": "n-noao0001a",
@@ -13180,7 +14695,9 @@
 "tel": [
 "other"
 ],
-"con": "And"
+"con": "And",
+"ra": 10.67,
+"dec": 40.61
 },
 {
 "id": "n-noao-noao-m51-kpno-09m-2",
@@ -13193,7 +14710,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 202.47,
+"dec": 47.21
 },
 {
 "id": "n-iotw2418a",
@@ -13218,7 +14737,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 270.79,
+"dec": -27.88
 },
 {
 "id": "n-iotw2419a",
@@ -13243,7 +14764,9 @@
 "tel": [
 "other"
 ],
-"con": "Cyg"
+"con": "Cyg",
+"ra": 313.47,
+"dec": 44.31
 },
 {
 "id": "n-iotw2324a",
@@ -13279,7 +14802,10 @@
 "q": "NGC 6624 The star cluster NGC 6624, imaged by Gemini Observatory with GeMS",
 "tel": [
 "gemini"
-]
+],
+"con": "Sgr",
+"ra": 275.92,
+"dec": -30.36
 },
 {
 "id": "n-gemini-ngc7232-final",
@@ -13292,7 +14818,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Gru"
+"con": "Gru",
+"ra": 333.99,
+"dec": -45.82
 },
 {
 "id": "n-iotw2445a",
@@ -13317,7 +14845,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cyg"
+"con": "Cyg",
+"ra": 299.59,
+"dec": 35.23
 },
 {
 "id": "n-noao-m24calvert",
@@ -13330,7 +14860,9 @@
 "tel": [
 "other"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 274.11,
+"dec": -18.15
 },
 {
 "id": "n-noao0801a",
@@ -13343,7 +14875,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cyg"
+"con": "Cyg",
+"ra": 312.07,
+"dec": 31.62
 },
 {
 "id": "n-noao-m27metcalf",
@@ -13356,7 +14890,9 @@
 "tel": [
 "other"
 ],
-"con": "Vul"
+"con": "Vul",
+"ra": 299.88,
+"dec": 22.76
 },
 {
 "id": "n-noao-m76block",
@@ -13369,7 +14905,9 @@
 "tel": [
 "other"
 ],
-"con": "Per"
+"con": "Per",
+"ra": 25.45,
+"dec": 51.62
 },
 {
 "id": "n-noao0102a",
@@ -13382,7 +14920,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Her"
+"con": "Her",
+"ra": 246.89,
+"dec": 27.91
 },
 {
 "id": "n-noao1301a",
@@ -13395,7 +14935,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cep"
+"con": "Cep",
+"ra": 357.31,
+"dec": 80.97
 },
 {
 "id": "n-noao-m8wideblock",
@@ -13408,7 +14950,9 @@
 "tel": [
 "other"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 271.13,
+"dec": -24.3
 },
 {
 "id": "n-noao-n4631vickery",
@@ -13421,7 +14965,9 @@
 "tel": [
 "other"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 190.55,
+"dec": 32.6
 },
 {
 "id": "n-noaoann09007a",
@@ -13435,7 +14981,9 @@
 "blanco",
 "kittpeak"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 270.77,
+"dec": -27.88
 },
 {
 "id": "n-noao-m31fsqblock",
@@ -13448,7 +14996,9 @@
 "tel": [
 "other"
 ],
-"con": "And"
+"con": "And",
+"ra": 9.93,
+"dec": 40.41
 },
 {
 "id": "n-noao-ngc3718",
@@ -13461,7 +15011,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 173.21,
+"dec": 53.08
 },
 {
 "id": "n-noao0904a",
@@ -13474,7 +15026,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cyg"
+"con": "Cyg",
+"ra": 303.94,
+"dec": 38.12
 },
 {
 "id": "n-noao-sh2-188",
@@ -13487,7 +15041,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cas"
+"con": "Cas",
+"ra": 22.73,
+"dec": 58.54
 },
 {
 "id": "n-noao-ngc3242",
@@ -13500,7 +15056,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 156.09,
+"dec": -18.73
 },
 {
 "id": "n-noao1507a",
@@ -13513,7 +15071,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cep"
+"con": "Cep",
+"ra": 323.9,
+"dec": 57.48
 },
 {
 "id": "n-noao-noao-m17-09",
@@ -13526,7 +15086,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 275.43,
+"dec": -16.42
 },
 {
 "id": "n-noao-puwe1",
@@ -13539,7 +15101,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Lyn"
+"con": "Lyn",
+"ra": 94.94,
+"dec": 55.62
 },
 {
 "id": "n-noao-vdb152",
@@ -13552,7 +15116,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cep"
+"con": "Cep",
+"ra": 333.19,
+"dec": 70.19
 },
 {
 "id": "n-noao1303a",
@@ -13565,7 +15131,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cep"
+"con": "Cep",
+"ra": 343.98,
+"dec": 62.47
 },
 {
 "id": "n-noao-ic1396b",
@@ -13578,7 +15146,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cep"
+"con": "Cep",
+"ra": 326.73,
+"dec": 57.9
 },
 {
 "id": "n-noao-sh2-290",
@@ -13591,7 +15161,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cnc"
+"con": "Cnc",
+"ra": 133.58,
+"dec": 8.82
 },
 {
 "id": "n-noao-wr134",
@@ -13604,7 +15176,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cyg"
+"con": "Cyg",
+"ra": 302.49,
+"dec": 36.18
 },
 {
 "id": "n-noao-04494",
@@ -13617,7 +15191,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cyg"
+"con": "Cyg",
+"ra": 302.91,
+"dec": 38.61
 },
 {
 "id": "n-noaoann13006a",
@@ -13630,7 +15206,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Per"
+"con": "Per",
+"ra": 51.81,
+"dec": 45.3
 },
 {
 "id": "n-noao-m45",
@@ -13643,7 +15221,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Tau"
+"con": "Tau",
+"ra": 56.55,
+"dec": 24.11
 },
 {
 "id": "n-noao-ngc3628",
@@ -13656,7 +15236,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 170.11,
+"dec": 13.41
 },
 {
 "id": "n-noao-ngc4395",
@@ -13669,7 +15251,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 186.47,
+"dec": 33.58
 },
 {
 "id": "n-noao-hfg1",
@@ -13682,7 +15266,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cas"
+"con": "Cas",
+"ra": 45.74,
+"dec": 64.84
 },
 {
 "id": "n-noao0157a",
@@ -13695,7 +15281,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Aur"
+"con": "Aur",
+"ra": 79.4,
+"dec": 34.33
 },
 {
 "id": "n-noao-sh2-68",
@@ -13708,7 +15296,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Ser2"
+"con": "Ser2",
+"ra": 276.28,
+"dec": 0.82
 },
 {
 "id": "n-noao-ic5070",
@@ -13721,7 +15311,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cyg"
+"con": "Cyg",
+"ra": 312.96,
+"dec": 44.27
 },
 {
 "id": "n-noao-ngc5982",
@@ -13734,7 +15326,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Dra"
+"con": "Dra",
+"ra": 234.75,
+"dec": 59.3
 },
 {
 "id": "n-noao-sh2-239",
@@ -13747,7 +15341,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Tau"
+"con": "Tau",
+"ra": 68.02,
+"dec": 18.0
 },
 {
 "id": "n-noao-ngc6820",
@@ -13760,7 +15356,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Vul"
+"con": "Vul",
+"ra": 295.95,
+"dec": 23.16
 },
 {
 "id": "n-noao-vdb24",
@@ -13773,7 +15371,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Per"
+"con": "Per",
+"ra": 57.27,
+"dec": 38.89
 },
 {
 "id": "n-noao-sh2-282",
@@ -13786,7 +15386,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Mon"
+"con": "Mon",
+"ra": 99.53,
+"dec": 1.47
 },
 {
 "id": "n-noao-m39",
@@ -13799,7 +15401,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cyg"
+"con": "Cyg",
+"ra": 322.95,
+"dec": 48.46
 },
 {
 "id": "n-noao-sh2-140",
@@ -13812,7 +15416,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cep"
+"con": "Cep",
+"ra": 334.84,
+"dec": 63.25
 },
 {
 "id": "n-noao-arp286",
@@ -13825,7 +15431,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 215.12,
+"dec": 3.86
 },
 {
 "id": "n-noao-ou4",
@@ -13838,7 +15446,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cep"
+"con": "Cep",
+"ra": 317.73,
+"dec": 60.37
 },
 {
 "id": "n-noao-sh2-260",
@@ -13851,7 +15461,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 73.97,
+"dec": 5.62
 },
 {
 "id": "n-noao-m3-kpno-mayall-4-m",
@@ -13864,7 +15476,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 205.52,
+"dec": 28.35
 },
 {
 "id": "n-noao-ngc6946kpno",
@@ -13877,7 +15491,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cyg"
+"con": "Cyg",
+"ra": 308.74,
+"dec": 60.14
 },
 {
 "id": "n-noao-wlm-dwarf",
@@ -13891,7 +15507,9 @@
 "blanco",
 "kittpeak"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 0.58,
+"dec": -15.52
 },
 {
 "id": "n-noao-ngc5905",
@@ -13904,7 +15522,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Dra"
+"con": "Dra",
+"ra": 228.92,
+"dec": 55.45
 },
 {
 "id": "n-noao-sh2-82",
@@ -13917,7 +15537,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Sge"
+"con": "Sge",
+"ra": 292.44,
+"dec": 18.04
 },
 {
 "id": "n-noao-sh2-112",
@@ -13930,7 +15552,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cyg"
+"con": "Cyg",
+"ra": 308.38,
+"dec": 45.77
 },
 {
 "id": "n-noaoann02008a",
@@ -13943,7 +15567,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 270.59,
+"dec": -23.03
 },
 {
 "id": "n-noao0703a",
@@ -13956,7 +15582,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cam"
+"con": "Cam",
+"ra": 56.84,
+"dec": 68.19
 },
 {
 "id": "n-noao-m66hapeman",
@@ -13969,7 +15597,9 @@
 "tel": [
 "other"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 170.09,
+"dec": 13.0
 },
 {
 "id": "n-noao-ldn673",
@@ -13982,7 +15612,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Aql"
+"con": "Aql",
+"ra": 290.21,
+"dec": 11.21
 },
 {
 "id": "n-noao-abell74",
@@ -13995,7 +15627,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Vul"
+"con": "Vul",
+"ra": 319.32,
+"dec": 24.14
 },
 {
 "id": "n-noao-ngc7380",
@@ -14008,7 +15642,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cep"
+"con": "Cep",
+"ra": 342.1,
+"dec": 58.23
 },
 {
 "id": "n-noao-02184",
@@ -14021,7 +15657,9 @@
 "tel": [
 "other"
 ],
-"con": "Vul"
+"con": "Vul",
+"ra": 299.83,
+"dec": 22.68
 },
 {
 "id": "n-noaoann16021a",
@@ -14034,7 +15672,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 132.93,
+"dec": -2.13
 },
 {
 "id": "n-noao-sh2-126",
@@ -14047,7 +15687,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Lac"
+"con": "Lac",
+"ra": 338.74,
+"dec": 40.77
 },
 {
 "id": "n-noao-mon_r2",
@@ -14061,7 +15703,9 @@
 "blanco",
 "kittpeak"
 ],
-"con": "Mon"
+"con": "Mon",
+"ra": 91.93,
+"dec": -6.22
 },
 {
 "id": "n-noao-sh2-114",
@@ -14074,7 +15718,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cyg"
+"con": "Cyg",
+"ra": 320.35,
+"dec": 38.8
 },
 {
 "id": "n-noao-sh2-155",
@@ -14087,7 +15733,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cep"
+"con": "Cep",
+"ra": 344.4,
+"dec": 62.41
 },
 {
 "id": "n-noao-ngc5364",
@@ -14100,7 +15748,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 208.99,
+"dec": 5.05
 },
 {
 "id": "n-noao-lbn777",
@@ -14113,7 +15763,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Tau"
+"con": "Tau",
+"ra": 61.09,
+"dec": 26.38
 },
 {
 "id": "n-noao-vdb141",
@@ -14126,7 +15778,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cep"
+"con": "Cep",
+"ra": 319.27,
+"dec": 68.25
 },
 {
 "id": "n-noao-ngc1491",
@@ -14139,7 +15793,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Per"
+"con": "Per",
+"ra": 60.89,
+"dec": 51.42
 },
 {
 "id": "n-noao-m7cook",
@@ -14152,7 +15808,9 @@
 "tel": [
 "other"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 268.01,
+"dec": -34.61
 },
 {
 "id": "n-ann23034a",
@@ -14177,7 +15835,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Peg"
+"con": "Peg",
+"ra": 339.0,
+"dec": 33.96
 },
 {
 "id": "n-geminiann11015a",
@@ -14190,7 +15850,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Gru"
+"con": "Gru",
+"ra": 349.05,
+"dec": -42.59
 },
 {
 "id": "n-noao-n2158jacobstein",
@@ -14203,7 +15865,9 @@
 "tel": [
 "other"
 ],
-"con": "Gem"
+"con": "Gem",
+"ra": 91.95,
+"dec": 24.15
 },
 {
 "id": "n-noao-n4654dye",
@@ -14216,7 +15880,9 @@
 "tel": [
 "other"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 190.96,
+"dec": 13.12
 },
 {
 "id": "n-noao-n2685",
@@ -14229,7 +15895,9 @@
 "tel": [
 "other"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 133.8,
+"dec": 58.72
 },
 {
 "id": "n-gemini-ic5332final",
@@ -14242,7 +15910,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Scl"
+"con": "Scl",
+"ra": 353.65,
+"dec": -36.06
 },
 {
 "id": "n-noao-m23",
@@ -14255,7 +15925,9 @@
 "tel": [
 "other"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 269.08,
+"dec": -19.25
 },
 {
 "id": "n-noao-m24",
@@ -14268,7 +15940,9 @@
 "tel": [
 "other"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 274.35,
+"dec": -18.64
 },
 {
 "id": "n-noao-m21",
@@ -14281,7 +15955,9 @@
 "tel": [
 "other"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 270.99,
+"dec": -22.55
 },
 {
 "id": "n-noao-m105",
@@ -14294,7 +15970,9 @@
 "tel": [
 "other"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 161.99,
+"dec": 12.62
 },
 {
 "id": "n-noao-m99",
@@ -14307,7 +15985,9 @@
 "tel": [
 "other"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 184.71,
+"dec": 14.37
 },
 {
 "id": "n-noao-m71",
@@ -14332,7 +16012,9 @@
 "tel": [
 "other"
 ],
-"con": "Ser1"
+"con": "Ser1",
+"ra": 229.83,
+"dec": 1.99
 },
 {
 "id": "n-noao-m103",
@@ -14345,7 +16027,9 @@
 "tel": [
 "other"
 ],
-"con": "Cas"
+"con": "Cas",
+"ra": 23.39,
+"dec": 60.67
 },
 {
 "id": "n-noao-m92",
@@ -14358,7 +16042,9 @@
 "tel": [
 "other"
 ],
-"con": "Her"
+"con": "Her",
+"ra": 259.42,
+"dec": 43.19
 },
 {
 "id": "n-noao-m90",
@@ -14371,7 +16057,9 @@
 "tel": [
 "other"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 189.2,
+"dec": 13.18
 },
 {
 "id": "n-noao-arp-104",
@@ -14384,7 +16072,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 203.14,
+"dec": 62.73
 },
 {
 "id": "n-noao-m94",
@@ -14397,7 +16087,9 @@
 "tel": [
 "other"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 192.69,
+"dec": 41.11
 },
 {
 "id": "n-noao-m35",
@@ -14410,7 +16102,9 @@
 "tel": [
 "other"
 ],
-"con": "Gem"
+"con": "Gem",
+"ra": 92.4,
+"dec": 24.23
 },
 {
 "id": "n-noao-m41",
@@ -14423,7 +16117,9 @@
 "tel": [
 "other"
 ],
-"con": "CMa"
+"con": "CMa",
+"ra": 101.56,
+"dec": -20.69
 },
 {
 "id": "n-noao-m54",
@@ -14436,7 +16132,9 @@
 "tel": [
 "other"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 283.75,
+"dec": -30.45
 },
 {
 "id": "n-noao-m34",
@@ -14449,7 +16147,9 @@
 "tel": [
 "other"
 ],
-"con": "Per"
+"con": "Per",
+"ra": 40.68,
+"dec": 42.76
 },
 {
 "id": "n-noao-m100",
@@ -14462,7 +16162,9 @@
 "tel": [
 "other"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 185.78,
+"dec": 15.76
 },
 {
 "id": "n-noao-hcper",
@@ -14475,7 +16177,9 @@
 "tel": [
 "other"
 ],
-"con": "Per"
+"con": "Per",
+"ra": 35.59,
+"dec": 56.85
 },
 {
 "id": "n-noao-m10",
@@ -14488,7 +16192,9 @@
 "tel": [
 "other"
 ],
-"con": "Oph"
+"con": "Oph",
+"ra": 254.09,
+"dec": -3.98
 },
 {
 "id": "n-noao-m44",
@@ -14501,7 +16207,9 @@
 "tel": [
 "other"
 ],
-"con": "Cnc"
+"con": "Cnc",
+"ra": 130.07,
+"dec": 19.72
 },
 {
 "id": "n-noao-m55",
@@ -14514,7 +16222,9 @@
 "tel": [
 "other"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 294.86,
+"dec": -30.91
 },
 {
 "id": "n-noao-m50",
@@ -14527,7 +16237,9 @@
 "tel": [
 "other"
 ],
-"con": "Mon"
+"con": "Mon",
+"ra": 105.7,
+"dec": -8.38
 },
 {
 "id": "n-noao-m58",
@@ -14540,7 +16252,9 @@
 "tel": [
 "other"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 189.38,
+"dec": 11.86
 },
 {
 "id": "n-noao-m37",
@@ -14565,7 +16279,9 @@
 "tel": [
 "other"
 ],
-"con": "Aur"
+"con": "Aur",
+"ra": 84.05,
+"dec": 34.07
 },
 {
 "id": "n-noao-m75",
@@ -14578,7 +16294,9 @@
 "tel": [
 "other"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 301.56,
+"dec": -21.88
 },
 {
 "id": "n-gemini-maunakea-inversion",
@@ -14603,7 +16321,9 @@
 "tel": [
 "other"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 169.69,
+"dec": 13.13
 },
 {
 "id": "n-Ridge-from-True-Summit-Startrails2-CC2",
@@ -14640,7 +16360,9 @@
 "tel": [
 "other"
 ],
-"con": "Oph"
+"con": "Oph",
+"ra": 264.33,
+"dec": -3.21
 },
 {
 "id": "n-gemini1007a",
@@ -14653,7 +16375,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Ret"
+"con": "Ret",
+"ra": 49.54,
+"dec": -66.5
 },
 {
 "id": "n-noirlab2107a",
@@ -14666,7 +16390,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 204.25,
+"dec": -29.87
 },
 {
 "id": "n-noirlab2125a",
@@ -14679,7 +16405,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 201.36,
+"dec": -43.02
 },
 {
 "id": "n-noirlab2010a",
@@ -14693,7 +16421,9 @@
 "blanco",
 "kittpeak"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 296.24,
+"dec": -14.83
 },
 {
 "id": "n-noirlab2112a",
@@ -14706,7 +16436,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 184.73,
+"dec": 47.3
 },
 {
 "id": "n-noirlab2416a",
@@ -14719,7 +16451,9 @@
 "tel": [
 "gemini"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 187.03,
+"dec": 44.09
 },
 {
 "id": "n-gemini0607a",
@@ -14732,7 +16466,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Psc"
+"con": "Psc",
+"ra": 24.18,
+"dec": 15.78
 },
 {
 "id": "n-noirlab2013a",
@@ -14745,7 +16481,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cas"
+"con": "Cas",
+"ra": 5.07,
+"dec": 59.3
 },
 {
 "id": "n-gemini1104a",
@@ -14758,7 +16496,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Pav"
+"con": "Pav",
+"ra": 304.23,
+"dec": -70.77
 },
 {
 "id": "n-noirlab2420a",
@@ -14771,7 +16511,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 195.04,
+"dec": 28.0
 },
 {
 "id": "n-noirlab2612a",
@@ -14784,7 +16526,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 190.0,
+"dec": -11.63
 },
 {
 "id": "n-noirlab2208a",
@@ -14798,7 +16542,9 @@
 "gemini",
 "blanco"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 65.01,
+"dec": -54.94
 },
 {
 "id": "n-noirlab2030a",
@@ -14811,7 +16557,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Men"
+"con": "Men",
+"ra": 78.8,
+"dec": -71.57
 },
 {
 "id": "n-noirlab2210a",
@@ -14825,7 +16573,9 @@
 "gemini",
 "blanco"
 ],
-"con": "Hor"
+"con": "Hor",
+"ra": 60.98,
+"dec": -43.37
 },
 {
 "id": "n-noirlab2106b",
@@ -14839,7 +16589,9 @@
 "gemini",
 "blanco"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 16.25,
+"dec": 2.15
 },
 {
 "id": "n-iotw2127a",
@@ -14853,7 +16605,9 @@
 "gemini",
 "blanco"
 ],
-"con": "For"
+"con": "For",
+"ra": 53.4,
+"dec": -36.15
 },
 {
 "id": "n-iotw2434a",
@@ -14866,7 +16620,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Pav"
+"con": "Pav",
+"ra": 287.44,
+"dec": -63.86
 },
 {
 "id": "n-iotw2451a",
@@ -14879,7 +16635,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Peg"
+"con": "Peg",
+"ra": 339.26,
+"dec": 34.42
 },
 {
 "id": "n-iotw2439a",
@@ -14893,7 +16651,9 @@
 "gemini",
 "blanco"
 ],
-"con": "For"
+"con": "For",
+"ra": 36.27,
+"dec": -24.79
 },
 {
 "id": "n-iotw2140a",
@@ -14907,7 +16667,9 @@
 "gemini",
 "blanco"
 ],
-"con": "For"
+"con": "For",
+"ra": 54.71,
+"dec": -26.34
 },
 {
 "id": "n-iotw2437a",
@@ -14932,7 +16694,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Lyn"
+"con": "Lyn",
+"ra": 123.5,
+"dec": 45.74
 },
 {
 "id": "n-noirlab2030b",
@@ -14945,7 +16709,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Tuc"
+"con": "Tuc",
+"ra": 13.66,
+"dec": -72.87
 },
 {
 "id": "n-iotw2136a",
@@ -14958,7 +16724,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Scl"
+"con": "Scl",
+"ra": 359.42,
+"dec": -32.59
 },
 {
 "id": "n-iotw2019a",
@@ -14971,7 +16739,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Tri"
+"con": "Tri",
+"ra": 26.93,
+"dec": 27.37
 },
 {
 "id": "n-iotw2051b",
@@ -14984,7 +16754,9 @@
 "tel": [
 "other"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 206.84,
+"dec": -30.37
 },
 {
 "id": "n-iotw2613a",
@@ -15046,7 +16818,9 @@
 "gemini",
 "blanco"
 ],
-"con": "Oph"
+"con": "Oph",
+"ra": 253.25,
+"dec": 2.4
 },
 {
 "id": "n-iotw2614a",
@@ -15072,7 +16846,9 @@
 "blanco",
 "kittpeak"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 296.09,
+"dec": -14.99
 },
 {
 "id": "n-ann23013a",
@@ -15085,7 +16861,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 201.7,
+"dec": -47.47
 },
 {
 "id": "n-iotw2602a",
@@ -15110,7 +16888,9 @@
 "tel": [
 "other"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 211.22,
+"dec": 53.67
 },
 {
 "id": "n-noao0404a",
@@ -15124,7 +16904,9 @@
 "hubble",
 "kittpeak"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 148.9,
+"dec": 69.69
 },
 {
 "id": "n-noao-ngc206",
@@ -15137,7 +16919,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "And"
+"con": "And",
+"ra": 10.11,
+"dec": 40.87
 },
 {
 "id": "n-noao-ngc253",
@@ -15151,7 +16935,9 @@
 "blanco",
 "kittpeak"
 ],
-"con": "Scl"
+"con": "Scl",
+"ra": 11.86,
+"dec": -25.39
 },
 {
 "id": "n-noao-ngc2146",
@@ -15164,7 +16950,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cam"
+"con": "Cam",
+"ra": 95.54,
+"dec": 78.25
 },
 {
 "id": "n-noao0601b",
@@ -15177,7 +16965,9 @@
 "tel": [
 "other"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 80.5,
+"dec": -68.14
 },
 {
 "id": "n-noao-ngc3166",
@@ -15190,7 +16980,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Sex"
+"con": "Sex",
+"ra": 153.48,
+"dec": 3.48
 },
 {
 "id": "n-noao-ngc4656",
@@ -15203,7 +16995,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 190.94,
+"dec": 32.06
 },
 {
 "id": "n-noao-m81m82",
@@ -15216,7 +17010,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 148.71,
+"dec": 69.23
 },
 {
 "id": "n-noao-ngc4214",
@@ -15229,7 +17025,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 183.79,
+"dec": 36.22
 },
 {
 "id": "n-noao-m15-kpno-mayall-4-m",
@@ -15254,7 +17052,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "CVn"
+"con": "CVn",
+"ra": 187.57,
+"dec": 41.63
 },
 {
 "id": "n-noao-m13kpno4m",
@@ -15267,7 +17067,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Her"
+"con": "Her",
+"ra": 250.54,
+"dec": 36.6
 },
 {
 "id": "n-noao-ic63bash",
@@ -15280,7 +17082,9 @@
 "tel": [
 "other"
 ],
-"con": "Cas"
+"con": "Cas",
+"ra": 14.89,
+"dec": 61.3
 },
 {
 "id": "n-gemini-2013-rmc136-legacy",
@@ -15293,7 +17097,9 @@
 "tel": [
 "gemini"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 84.68,
+"dec": -69.1
 },
 {
 "id": "n-noao-ngc55lg",
@@ -15306,7 +17112,9 @@
 "tel": [
 "other"
 ],
-"con": "Scl"
+"con": "Scl",
+"ra": 3.65,
+"dec": -39.24
 },
 {
 "id": "n-noao-m4",
@@ -15319,7 +17127,9 @@
 "tel": [
 "other"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 245.76,
+"dec": -26.41
 },
 {
 "id": "n-noao-m53",
@@ -15332,7 +17142,9 @@
 "tel": [
 "other"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 198.28,
+"dec": 18.24
 },
 {
 "id": "n-baobabs",
@@ -15356,7 +17168,10 @@
 "q": "Jewel Box, NGC 4755 The Jewel Box cluster, NGC 4755, imaged by the 0.9-meter telescope at Cerro Tololo",
 "tel": [
 "other"
-]
+],
+"con": "Cru",
+"ra": 193.41,
+"dec": -60.36
 },
 {
 "id": "e-potw1701a",
@@ -15381,7 +17196,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Psc"
+"con": "Psc",
+"ra": 6.32,
+"dec": 12.88
 },
 {
 "id": "e-potw2602a",
@@ -15406,7 +17223,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 188.58,
+"dec": 8.2
 },
 {
 "id": "e-potw2204a",
@@ -15419,7 +17238,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 189.14,
+"dec": 11.24
 },
 {
 "id": "h-heic9910b",
@@ -15432,7 +17253,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dra"
+"con": "Dra",
+"ra": 248.97,
+"dec": 66.21
 },
 {
 "id": "h-potw2004a",
@@ -15445,7 +17268,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Psc"
+"con": "Psc",
+"ra": 348.68,
+"dec": 4.53
 },
 {
 "id": "h-potw1904a",
@@ -15458,7 +17283,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 195.05,
+"dec": 27.87
 },
 {
 "id": "e-potw1705a",
@@ -15495,7 +17322,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 8.7,
+"dec": -8.4
 },
 {
 "id": "h-opo0607a",
@@ -15508,7 +17337,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Eri"
+"con": "Eri",
+"ra": 50.52,
+"dec": -15.4
 },
 {
 "id": "e-potw1306a",
@@ -15533,7 +17364,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 161.26,
+"dec": -59.69
 },
 {
 "id": "e-potw2507a",
@@ -15570,7 +17403,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Eri"
+"con": "Eri",
+"ra": 75.42,
+"dec": -4.27
 },
 {
 "id": "e-eso0708a",
@@ -15583,7 +17418,9 @@
 "tel": [
 "other"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 84.66,
+"dec": -69.09
 },
 {
 "id": "e-eso1210a",
@@ -15620,7 +17457,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 178.94,
+"dec": 55.32
 },
 {
 "id": "h-potw1210a",
@@ -15632,7 +17471,10 @@
 "q": "NGC 1483 · about 40 million light-years away (source figure) The barred spiral galaxy NGC 1483, imaged by the Hubble Space Telescope",
 "tel": [
 "hubble"
-]
+],
+"con": "Hor",
+"ra": 58.2,
+"dec": -47.48
 },
 {
 "id": "h-heic0406b",
@@ -15645,7 +17487,9 @@
 "tel": [
 "hubble"
 ],
-"con": "For"
+"con": "For",
+"ra": 53.16,
+"dec": -27.79
 },
 {
 "id": "h-potw1711a",
@@ -15658,7 +17502,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Hor"
+"con": "Hor",
+"ra": 56.16,
+"dec": -44.62
 },
 {
 "id": "w-weic2307d",
@@ -15671,7 +17517,9 @@
 "tel": [
 "webb"
 ],
-"con": "Sge"
+"con": "Sge",
+"ra": 287.88,
+"dec": 16.86
 },
 {
 "id": "e-potw2111a",
@@ -15696,7 +17544,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 160.99,
+"dec": 11.7
 },
 {
 "id": "h-potw1812a",
@@ -15709,7 +17559,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Per"
+"con": "Per",
+"ra": 49.96,
+"dec": 41.58
 },
 {
 "id": "e-eso1315a",
@@ -15722,7 +17574,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Eri"
+"con": "Eri",
+"ra": 70.37,
+"dec": -2.86
 },
 {
 "id": "e-potw2312a",
@@ -15771,7 +17625,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 188.58,
+"dec": 8.2
 },
 {
 "id": "e-potw1713a",
@@ -15796,7 +17652,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 140.88,
+"dec": -23.16
 },
 {
 "id": "e-potw1616a",
@@ -15821,7 +17679,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 206.88,
+"dec": -11.75
 },
 {
 "id": "e-potw1017a",
@@ -15834,7 +17694,9 @@
 "tel": [
 "other"
 ],
-"con": "Scl"
+"con": "Scl",
+"ra": 11.89,
+"dec": -25.28
 },
 {
 "id": "e-potw2017a",
@@ -15859,7 +17721,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sex"
+"con": "Sex",
+"ra": 159.85,
+"dec": 1.72
 },
 {
 "id": "w-weic2411d",
@@ -15872,7 +17736,9 @@
 "tel": [
 "webb"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 85.22,
+"dec": -2.47
 },
 {
 "id": "e-potw2118a",
@@ -15909,7 +17775,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Psc"
+"con": "Psc",
+"ra": 8.05,
+"dec": 18.13
 },
 {
 "id": "h-opo0315a",
@@ -15922,7 +17790,9 @@
 "tel": [
 "hubble"
 ],
-"con": "And"
+"con": "And",
+"ra": 11.53,
+"dec": 40.71
 },
 {
 "id": "e-ann15034g",
@@ -15947,7 +17817,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 162.07,
+"dec": 12.63
 },
 {
 "id": "h-potw1319a",
@@ -15960,7 +17832,9 @@
 "tel": [
 "hubble"
 ],
-"con": "PsA"
+"con": "PsA",
+"ra": 344.7,
+"dec": -34.8
 },
 {
 "id": "h-potw1820a",
@@ -15973,7 +17847,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 39.85,
+"dec": 1.09
 },
 {
 "id": "h-heic0709b",
@@ -15986,7 +17862,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Psc"
+"con": "Psc",
+"ra": 6.64,
+"dec": 17.16
 },
 {
 "id": "h-potw2020a",
@@ -15999,7 +17877,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 300.99,
+"dec": -31.68
 },
 {
 "id": "e-potw1420a",
@@ -16024,7 +17904,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 192.56,
+"dec": 7.58
 },
 {
 "id": "h-potw2121a",
@@ -16037,7 +17919,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 198.75,
+"dec": -16.59
 },
 {
 "id": "e-potw1222a",
@@ -16086,7 +17970,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Pav"
+"con": "Pav",
+"ra": 294.4,
+"dec": -65.81
 },
 {
 "id": "w-JADES2",
@@ -16099,7 +17985,9 @@
 "tel": [
 "webb"
 ],
-"con": "For"
+"con": "For",
+"ra": 53.16,
+"dec": -27.79
 },
 {
 "id": "e-potw1423a",
@@ -16124,7 +18012,9 @@
 "tel": [
 "webb"
 ],
-"con": "Psc"
+"con": "Psc",
+"ra": 15.05,
+"dec": 28.04
 },
 {
 "id": "e-eso2209a",
@@ -16140,7 +18030,9 @@
 "vlt",
 "alma"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 84.69,
+"dec": -69.08
 },
 {
 "id": "e-potw2125a",
@@ -16189,7 +18081,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 83.84,
+"dec": -5.41
 },
 {
 "id": "e-eso1031b",
@@ -16202,7 +18096,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 161.26,
+"dec": -59.69
 },
 {
 "id": "e-eso0622a",
@@ -16215,7 +18111,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Lib"
+"con": "Lib",
+"ra": 230.39,
+"dec": -7.38
 },
 {
 "id": "e-potw1026a",
@@ -16228,7 +18126,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 170.06,
+"dec": 13.56
 },
 {
 "id": "e-eso1720a",
@@ -16241,7 +18141,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 40.67,
+"dec": -0.01
 },
 {
 "id": "e-potw2127a",
@@ -16266,7 +18168,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ari"
+"con": "Ari",
+"ra": 44.93,
+"dec": 25.24
 },
 {
 "id": "h-potw1928a",
@@ -16279,7 +18183,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 147.59,
+"dec": 72.28
 },
 {
 "id": "h-potw1829a",
@@ -16292,7 +18198,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 204.0,
+"dec": -3.53
 },
 {
 "id": "e-eso1229c",
@@ -16317,7 +18225,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 78.3,
+"dec": -69.31
 },
 {
 "id": "h-opo0122a",
@@ -16330,7 +18240,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Peg"
+"con": "Peg",
+"ra": 339.02,
+"dec": 33.97
 },
 {
 "id": "e-potw1429a",
@@ -16355,7 +18267,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Gru"
+"con": "Gru",
+"ra": 342.19,
+"dec": -44.53
 },
 {
 "id": "h-potw1929a",
@@ -16368,7 +18282,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sex"
+"con": "Sex",
+"ra": 153.56,
+"dec": 3.47
 },
 {
 "id": "e-eso1031a",
@@ -16381,7 +18297,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 160.37,
+"dec": -59.67
 },
 {
 "id": "e-eso0024a",
@@ -16394,7 +18312,9 @@
 "tel": [
 "vlt"
 ],
-"con": "For"
+"con": "For",
+"ra": 50.68,
+"dec": -37.2
 },
 {
 "id": "e-potw1731a",
@@ -16420,7 +18340,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 195.2,
+"dec": 28.15
 },
 {
 "id": "e-potw2532a",
@@ -16445,7 +18367,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Her"
+"con": "Her",
+"ra": 243.38,
+"dec": 51.06
 },
 {
 "id": "h-potw1332a",
@@ -16458,7 +18382,9 @@
 "tel": [
 "hubble"
 ],
-"con": "CMa"
+"con": "CMa",
+"ra": 96.57,
+"dec": -26.27
 },
 {
 "id": "h-opo1629c",
@@ -16471,7 +18397,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Psc"
+"con": "Psc",
+"ra": 19.8,
+"dec": 11.12
 },
 {
 "id": "h-potw1833a",
@@ -16484,7 +18412,9 @@
 "tel": [
 "hubble"
 ],
-"con": "And"
+"con": "And",
+"ra": 25.73,
+"dec": 44.63
 },
 {
 "id": "e-eso2211a",
@@ -16497,7 +18427,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Aqr"
+"con": "Aqr",
+"ra": 354.98,
+"dec": -12.29
 },
 {
 "id": "h-potw2033a",
@@ -16510,7 +18442,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vol"
+"con": "Vol",
+"ra": 114.07,
+"dec": -69.51
 },
 {
 "id": "e-eso0929b",
@@ -16523,7 +18457,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 134.78,
+"dec": -47.53
 },
 {
 "id": "e-eso0736c",
@@ -16536,7 +18472,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Ser2"
+"con": "Ser2",
+"ra": 277.49,
+"dec": 1.23
 },
 {
 "id": "e-potw2134a",
@@ -16561,7 +18499,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 194.06,
+"dec": 56.87
 },
 {
 "id": "e-potw1035a",
@@ -16599,7 +18539,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ser1"
+"con": "Ser1",
+"ra": 229.06,
+"dec": 7.16
 },
 {
 "id": "e-eso1235a",
@@ -16612,7 +18554,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 245.9,
+"dec": -26.52
 },
 {
 "id": "w-weic2212a",
@@ -16625,7 +18569,9 @@
 "tel": [
 "other"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 84.7,
+"dec": -69.09
 },
 {
 "id": "e-potw2437a",
@@ -16637,7 +18583,10 @@
 "q": "NGC 3312 The jellyfish galaxy NGC 3312 in the Hydra I cluster, imaged by ESO",
 "tel": [
 "other"
-]
+],
+"con": "Hya",
+"ra": 159.26,
+"dec": -27.57
 },
 {
 "id": "h-heic0910i",
@@ -16650,7 +18599,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Peg"
+"con": "Peg",
+"ra": 339.0,
+"dec": 33.96
 },
 {
 "id": "e-centaurus-ch17-bardon-cc",
@@ -16687,7 +18638,9 @@
 "tel": [
 "vst"
 ],
-"con": "Men"
+"con": "Men",
+"ra": 81.29,
+"dec": -70.07
 },
 {
 "id": "h-potw1437a",
@@ -16700,7 +18653,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Pav"
+"con": "Pav",
+"ra": 304.3,
+"dec": -70.76
 },
 {
 "id": "h-opo1029a",
@@ -16713,7 +18668,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 160.95,
+"dec": -59.58
 },
 {
 "id": "h-potw1838a",
@@ -16726,7 +18683,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 194.77,
+"dec": 28.13
 },
 {
 "id": "h-potw1238a",
@@ -16739,7 +18698,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 190.67,
+"dec": 14.3
 },
 {
 "id": "e-potw1638a",
@@ -16776,7 +18737,9 @@
 "tel": [
 "hubble"
 ],
-"con": "For"
+"con": "For",
+"ra": 53.16,
+"dec": -27.79
 },
 {
 "id": "e-eso2413d",
@@ -16788,7 +18751,10 @@
 "q": "M 22, Messier 22 The globular cluster Messier 22 in infrared, imaged by ESO's VISTA telescope",
 "tel": [
 "other"
-]
+],
+"con": "Sgr",
+"ra": 279.1,
+"dec": -23.91
 },
 {
 "id": "h-potw1139a",
@@ -16801,7 +18767,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cnc"
+"con": "Cnc",
+"ra": 135.02,
+"dec": 22.56
 },
 {
 "id": "e-potw2139a",
@@ -16826,7 +18794,9 @@
 "tel": [
 "vlt"
 ],
-"con": "For"
+"con": "For",
+"ra": 52.77,
+"dec": -33.63
 },
 {
 "id": "e-potw1939a",
@@ -16841,7 +18811,9 @@
 "vlt",
 "alma"
 ],
-"con": "TrA"
+"con": "TrA",
+"ra": 243.35,
+"dec": -60.76
 },
 {
 "id": "h-opo9026a",
@@ -16866,7 +18838,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Vul"
+"con": "Vul",
+"ra": 299.9,
+"dec": 22.72
 },
 {
 "id": "e-potw1340a",
@@ -16891,7 +18865,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Lep"
+"con": "Lep",
+"ra": 81.78,
+"dec": -20.68
 },
 {
 "id": "e-potw1641a",
@@ -16916,7 +18892,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Tuc"
+"con": "Tuc",
+"ra": 16.85,
+"dec": -69.88
 },
 {
 "id": "h-heic1115a",
@@ -16929,7 +18907,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 181.55,
+"dec": -8.8
 },
 {
 "id": "e-eso1733b",
@@ -16942,7 +18922,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 197.45,
+"dec": -23.38
 },
 {
 "id": "h-opo1036a",
@@ -16955,7 +18937,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 179.12,
+"dec": 55.12
 },
 {
 "id": "h-potw1442a",
@@ -16968,7 +18952,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 188.51,
+"dec": 7.7
 },
 {
 "id": "w-weic2425c",
@@ -16981,7 +18967,9 @@
 "tel": [
 "webb"
 ],
-"con": "Hyi"
+"con": "Hyi",
+"ra": 22.37,
+"dec": -73.56
 },
 {
 "id": "h-potw2043a",
@@ -16994,7 +18982,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 2.78,
+"dec": -12.11
 },
 {
 "id": "e-potw2344a",
@@ -17031,7 +19021,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Boo"
+"con": "Boo",
+"ra": 220.02,
+"dec": 31.5
 },
 {
 "id": "e-potw1845a",
@@ -17056,7 +19048,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 198.11,
+"dec": -15.8
 },
 {
 "id": "e-potw2145a",
@@ -17070,7 +19064,9 @@
 "vst",
 "vlt"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 159.29,
+"dec": -27.7
 },
 {
 "id": "h-potw2045a",
@@ -17083,7 +19079,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cnc"
+"con": "Cnc",
+"ra": 135.34,
+"dec": 18.24
 },
 {
 "id": "e-potw1246a",
@@ -17108,7 +19106,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dra"
+"con": "Dra",
+"ra": 147.46,
+"dec": 73.24
 },
 {
 "id": "h-potw1846a",
@@ -17121,7 +19121,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 167.56,
+"dec": 65.0
 },
 {
 "id": "h-potw1646a",
@@ -17134,7 +19136,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 193.53,
+"dec": 27.15
 },
 {
 "id": "e-eso1145a",
@@ -17147,7 +19151,9 @@
 "tel": [
 "apex"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 161.2,
+"dec": -59.65
 },
 {
 "id": "e-potw2147a",
@@ -17172,7 +19178,9 @@
 "tel": [
 "other"
 ],
-"con": "Ara"
+"con": "Ara",
+"ra": 249.86,
+"dec": -48.81
 },
 {
 "id": "h-potw1547a",
@@ -17185,7 +19193,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Her"
+"con": "Her",
+"ra": 246.75,
+"dec": 43.48
 },
 {
 "id": "e-potw1148a",
@@ -17198,7 +19208,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 169.57,
+"dec": -32.81
 },
 {
 "id": "h-potw1648a",
@@ -17211,7 +19223,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 189.19,
+"dec": 13.26
 },
 {
 "id": "h-potw1649a",
@@ -17224,7 +19238,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 186.44,
+"dec": 12.66
 },
 {
 "id": "e-potw1150a",
@@ -17249,7 +19265,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 167.71,
+"dec": -37.45
 },
 {
 "id": "e-eso0544b",
@@ -17262,7 +19280,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Pup"
+"con": "Pup",
+"ra": 118.15,
+"dec": -26.38
 },
 {
 "id": "e-potw1052a",
@@ -17443,7 +19463,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Tau"
+"con": "Tau",
+"ra": 83.63,
+"dec": 22.01
 },
 {
 "id": "e-_D5D0556-CC",
@@ -17480,7 +19502,9 @@
 "tel": [
 "vlt"
 ],
-"con": "For"
+"con": "For",
+"ra": 53.14,
+"dec": -27.79
 },
 {
 "id": "h-potw1412a",
@@ -17493,7 +19517,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ori"
+"con": "Ori",
+"ra": 73.54,
+"dec": -3.02
 },
 {
 "id": "e-potw1319a",
@@ -17650,7 +19676,9 @@
 "tel": [
 "vlt"
 ],
-"con": "Cet"
+"con": "Cet",
+"ra": 30.55,
+"dec": -0.1
 },
 {
 "id": "e-uhd_beletsky_0906c-cc",
@@ -17760,7 +19788,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 292.0,
+"dec": -41.58
 },
 {
 "id": "e-beletsky-paranal-17-cc",
@@ -17858,7 +19888,9 @@
 "blanco",
 "kittpeak"
 ],
-"con": "Pup"
+"con": "Pup",
+"ra": 113.56,
+"dec": -47.08
 },
 {
 "id": "n-iotw2411a",
@@ -17883,7 +19915,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Tau"
+"con": "Tau",
+"ra": 83.63,
+"dec": 22.01
 },
 {
 "id": "n-iotw2319a",
@@ -17932,7 +19966,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 186.72,
+"dec": 8.91
 },
 {
 "id": "n-iotw2321a",
@@ -18209,7 +20245,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Lep"
+"con": "Lep",
+"ra": 92.44,
+"dec": -21.67
 },
 {
 "id": "h-potw1519a",
@@ -18222,7 +20260,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Hya"
+"con": "Hya",
+"ra": 177.76,
+"dec": -28.81
 },
 {
 "id": "h-potw1006a",
@@ -18235,7 +20275,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 175.24,
+"dec": 11.47
 },
 {
 "id": "h-potw1752b",
@@ -18249,7 +20291,9 @@
 "hubble",
 "vlt"
 ],
-"con": "Psc"
+"con": "Psc",
+"ra": 351.87,
+"dec": -2.07
 },
 {
 "id": "e-ann15034d",
@@ -18274,7 +20318,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 195.16,
+"dec": 2.5
 },
 {
 "id": "e-eso1113a",
@@ -18287,7 +20333,9 @@
 "tel": [
 "wfi"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 168.05,
+"dec": -61.27
 },
 {
 "id": "h-heic1105a",
@@ -18300,7 +20348,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 84.44,
+"dec": -69.19
 },
 {
 "id": "h-potw2517a",
@@ -18313,7 +20363,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cam"
+"con": "Cam",
+"ra": 85.51,
+"dec": 69.38
 },
 {
 "id": "h-potw2226a",
@@ -18326,7 +20378,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 273.41,
+"dec": -31.83
 },
 {
 "id": "h-potw2252a",
@@ -18340,7 +20394,9 @@
 "hubble",
 "blanco"
 ],
-"con": "For"
+"con": "For",
+"ra": 35.26,
+"dec": -31.94
 },
 {
 "id": "h-potw2552a",
@@ -18353,7 +20409,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 85.03,
+"dec": -69.75
 },
 {
 "id": "h-potw2528a",
@@ -18366,7 +20424,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 74.78,
+"dec": -67.75
 },
 {
 "id": "n-iotw2117a",
@@ -18439,7 +20499,9 @@
 "tel": [
 "blanco"
 ],
-"con": "Sex"
+"con": "Sex",
+"ra": 150.8,
+"dec": 2.67
 },
 {
 "id": "n-noirlab2327c",
@@ -18500,7 +20562,9 @@
 "tel": [
 "webb"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 190.0,
+"dec": -11.62
 },
 {
 "id": "nasa-galaxy-cluster-macs-j1423-nircam-image",
@@ -18526,7 +20590,9 @@
 "tel": [
 "webb"
 ],
-"con": "For"
+"con": "For",
+"ra": 53.4,
+"dec": -36.14
 },
 {
 "id": "nasa-ngc-346-nircam-image",
@@ -18578,7 +20644,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Her"
+"con": "Her",
+"ra": 259.28,
+"dec": 43.14
 },
 {
 "id": "nasa-galaxy-eso-137-001-visible-hubble",
@@ -18655,7 +20723,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 187.74,
+"dec": 12.27
 },
 {
 "id": "nasa-galaxy-am-1054-325",
@@ -18772,7 +20842,9 @@
 "tel": [
 "hubble"
 ],
-"con": "And"
+"con": "And",
+"ra": 10.69,
+"dec": 41.27
 },
 {
 "id": "nasa-elliptical-galaxy-m60",
@@ -18785,7 +20857,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 190.92,
+"dec": 11.55
 },
 {
 "id": "nasa-galaxy-cluster-irc-0218-clean",
@@ -18850,7 +20924,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dor"
+"con": "Dor",
+"ra": 76.89,
+"dec": -67.46
 },
 {
 "id": "nasa-hubbles-view-of-ngc-5584",
@@ -18863,7 +20939,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 215.6,
+"dec": -0.39
 },
 {
 "id": "nasa-barred-spiral-galaxy-ngc-6217",
@@ -18888,7 +20966,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 159.33,
+"dec": -58.64
 },
 {
 "id": "nasa-sn-1006-supernova-remnant-hubble",
@@ -18927,7 +21007,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 168.85,
+"dec": -61.25
 },
 {
 "id": "nasa-barred-spiral-galaxy-ngc-1313-hst",
@@ -18940,7 +21022,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ret"
+"con": "Ret",
+"ra": 49.57,
+"dec": -66.5
 },
 {
 "id": "nasa-star-forming-region-lh-95-in-the-large-magellanic-cloud",
@@ -19006,7 +21090,9 @@
 "hubble",
 "kittpeak"
 ],
-"con": "Eri"
+"con": "Eri",
+"ra": 49.92,
+"dec": -19.41
 },
 {
 "id": "nasa-interacting-spiral-galaxies-ngc-2207-and-ic-2163",
@@ -19031,7 +21117,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Ara"
+"con": "Ara",
+"ra": 265.18,
+"dec": -53.67
 },
 {
 "id": "nasa-the-pencil-nebula-remnants-of-an-exploded-star-ngc-2736",
@@ -19044,7 +21132,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 135.05,
+"dec": -45.95
 },
 {
 "id": "nasa-galaxy-abell-1689s-gravitational-lens-magnifies-light-of-distant-galaxies",
@@ -19070,7 +21160,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Mon"
+"con": "Mon",
+"ra": 100.24,
+"dec": 9.89
 },
 {
 "id": "nasa-the-omega-nebula-hotbed-of-star-formation",
@@ -19096,7 +21188,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 191.55,
+"dec": 30.72
 },
 {
 "id": "nasa-galaxy-cluster-abell-2218s-gravitational-lens",
@@ -19122,7 +21216,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 150.49,
+"dec": 55.68
 },
 {
 "id": "nasa-vast-star-forming-region-30-doradus",
@@ -19148,7 +21244,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 188.51,
+"dec": 7.7
 },
 {
 "id": "nasa-nearby-galaxy-centaurus-a",
@@ -19161,7 +21259,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 201.37,
+"dec": -43.02
 },
 {
 "id": "nasa-ngc-7252-spiral-disk-and-globular-star-clusters-at-the-core-of-a-colliding-galaxy",
@@ -19173,7 +21273,10 @@
 "q": "NGC 7252 The core of the colliding galaxy NGC 7252, imaged by the Hubble Space Telescope",
 "tel": [
 "hubble"
-]
+],
+"con": "Aqr",
+"ra": 335.19,
+"dec": -24.68
 },
 {
 "id": "nasa-sunrise-arc-nircam-image",
@@ -19212,7 +21315,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 270.68,
+"dec": -22.97
 },
 {
 "id": "nasa-omega-centauri-2",
@@ -19225,7 +21330,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cen"
+"con": "Cen",
+"ra": 201.7,
+"dec": -47.48
 },
 {
 "id": "nasa-ngc-1333",
@@ -19238,7 +21345,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Per"
+"con": "Per",
+"ra": 52.23,
+"dec": 31.37
 },
 {
 "id": "nasa-cw-leonis",
@@ -19328,7 +21437,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Com"
+"con": "Com",
+"ra": 182.64,
+"dec": 30.4
 },
 {
 "id": "nasa-virgo-cluster-galaxy-ngc-4660",
@@ -19341,7 +21452,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 191.13,
+"dec": 11.19
 },
 {
 "id": "nasa-virgo-cluster-galaxy-ngc-4458",
@@ -19354,7 +21467,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 187.24,
+"dec": 13.24
 },
 {
 "id": "nasa-ngc-6791-full-hubble-acs-field",
@@ -19367,7 +21482,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Lyr"
+"con": "Lyr",
+"ra": 290.22,
+"dec": 37.77
 },
 {
 "id": "nasa-dwarf-galaxy-holmberg-ix",
@@ -19406,7 +21523,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Leo"
+"con": "Leo",
+"ra": 161.77,
+"dec": 17.27
 },
 {
 "id": "nasa-freewheeling-galaxies-collide-in-a-blaze-of-star-birth-ngc-1275",
@@ -19419,7 +21538,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Per"
+"con": "Per",
+"ra": 49.95,
+"dec": 41.51
 },
 {
 "id": "nasa-crucible-of-creation-panoramic-image-of-center-of-the-orion-nebula",
@@ -19445,7 +21566,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 141.76,
+"dec": -56.11
 },
 {
 "id": "nasa-little-dumbbell-nebula-wfc3-image",
@@ -19458,7 +21581,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Per"
+"con": "Per",
+"ra": 25.58,
+"dec": 51.58
 },
 {
 "id": "nasa-terzan-12",
@@ -19496,7 +21621,10 @@
 "q": "Location not published by the source Spiral galaxy M100, imaged by the Hubble Space Telescope",
 "tel": [
 "hubble"
-]
+],
+"con": "Com",
+"ra": 185.73,
+"dec": 15.82
 },
 {
 "id": "nasa-spiral-galaxy-ngc-1309",
@@ -19509,7 +21637,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Eri"
+"con": "Eri",
+"ra": 50.53,
+"dec": -15.4
 },
 {
 "id": "nasa-monster-galaxy-lacks-a-bright-core",
@@ -19535,7 +21665,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 146.81,
+"dec": 67.92
 },
 {
 "id": "nasa-hubbles-sweeping-view-of-the-coma-cluster-of-galaxies",
@@ -19613,7 +21745,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Car"
+"con": "Car",
+"ra": 168.85,
+"dec": -61.25
 },
 {
 "id": "nasa-ring-galaxy-am-0644-741",
@@ -19664,7 +21798,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vir"
+"con": "Vir",
+"ra": 218.79,
+"dec": 5.36
 },
 {
 "id": "nasa-nearby-dust-clouds-in-the-milky-way",
@@ -19677,7 +21813,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Cas"
+"con": "Cas",
+"ra": 13.11,
+"dec": 56.56
 },
 {
 "id": "nasa-hubble-interacting-galaxy-ngc-7469",
@@ -19690,7 +21828,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Peg"
+"con": "Peg",
+"ra": 345.81,
+"dec": 8.87
 },
 {
 "id": "nasa-hubble-interacting-galaxy-ngc-7674",
@@ -19703,7 +21843,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Peg"
+"con": "Peg",
+"ra": 351.99,
+"dec": 8.78
 },
 {
 "id": "nasa-hubble-interacting-galaxy-ic-2545",
@@ -19755,7 +21897,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dra"
+"con": "Dra",
+"ra": 242.92,
+"dec": 52.46
 },
 {
 "id": "nasa-hubble-interacting-galaxy-ngc-6240",
@@ -19768,7 +21912,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Oph"
+"con": "Oph",
+"ra": 253.25,
+"dec": 2.4
 },
 {
 "id": "nasa-hubble-interacting-galaxy-ngc-3256",
@@ -19781,7 +21927,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Vel"
+"con": "Vel",
+"ra": 156.97,
+"dec": -43.91
 },
 {
 "id": "nasa-hubble-interacting-galaxy-ugc-9618",
@@ -19820,7 +21968,9 @@
 "tel": [
 "hubble"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 172.13,
+"dec": 58.56
 },
 {
 "id": "nasa-hubble-interacting-galaxy-arp-256",
@@ -19846,7 +21996,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Psc"
+"con": "Psc",
+"ra": 21.15,
+"dec": 3.79
 },
 {
 "id": "nasa-jet-in-carina",
@@ -20054,7 +22206,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "Cas"
+"con": "Cas",
+"ra": 38.52,
+"dec": 61.6
 },
 {
 "id": "e-eso1340a",
@@ -20068,7 +22222,9 @@
 "vst",
 "vlt"
 ],
-"con": "Sco"
+"con": "Sco",
+"ra": 254.23,
+"dec": -40.51
 },
 {
 "id": "n-noao0310a",
@@ -20081,7 +22237,9 @@
 "tel": [
 "kittpeak"
 ],
-"con": "UMa"
+"con": "UMa",
+"ra": 168.57,
+"dec": 55.01
 },
 {
 "id": "h-potm2602b",
@@ -20094,7 +22252,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Dra"
+"con": "Dra",
+"ra": 269.64,
+"dec": 66.63
 },
 {
 "id": "h-opo0221a",
@@ -20120,7 +22280,9 @@
 "tel": [
 "webb"
 ],
-"con": "Vol"
+"con": "Vol",
+"ra": 110.79,
+"dec": -73.45
 },
 {
 "id": "h-potw1020a",
@@ -20133,7 +22295,9 @@
 "tel": [
 "hubble"
 ],
-"con": "Peg"
+"con": "Peg",
+"ra": 349.8,
+"dec": 17.2
 },
 {
 "id": "w-elgordo1",
@@ -20146,7 +22310,9 @@
 "tel": [
 "webb"
 ],
-"con": "Phe"
+"con": "Phe",
+"ra": 15.73,
+"dec": -49.26
 },
 {
 "id": "h-opo0219a",
@@ -20159,6 +22325,8 @@
 "tel": [
 "hubble"
 ],
-"con": "Sgr"
+"con": "Sgr",
+"ra": 272.31,
+"dec": -32.18
 }
 ]
