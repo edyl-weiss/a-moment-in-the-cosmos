@@ -614,5 +614,5 @@ main#main { view-transition-name: page; }
 
 /* Tonight's sky: sunset glow on the horizon */
 .ns-dusk { pointer-events: none; }
-.ns-dusk-halo { fill: none; stroke: rgba(255,168,118,.30); stroke-width: 12; pointer-events: none; }
-.ns-chart svg.mode-T .ns-disc { stroke: rgba(255,190,150,.35); }
+.ns-dusk-halo { fill: none; stroke: rgba(255,168,118,.18); stroke-width: 12; pointer-events: none; }
+.ns-chart svg.mode-T .ns-disc { stroke: rgba(255,190,150,.21); }

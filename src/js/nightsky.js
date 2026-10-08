@@ -97,8 +97,8 @@ async function draw({ keepView = false } = {}) {
   if (mode === 'T') {
     // Dusk along the horizon: a faint warm glow just outside the rim and a band of fading sunset light
     // inside it, a little stronger toward the west, where the Sun went down.
-    svg += `<defs><radialGradient id="nsDusk" cx="50%" cy="50%" r="50%"><stop offset=".74" stop-color="#ff9a62" stop-opacity="0"/><stop offset=".9" stop-color="#f08a64" stop-opacity=".07"/><stop offset="1" stop-color="#ffb07a" stop-opacity=".26"/></radialGradient>` +
-      `<radialGradient id="nsWest" cx="100%" cy="50%" r="62%"><stop offset="0" stop-color="#ff9c66" stop-opacity=".2"/><stop offset=".55" stop-color="#d77a6a" stop-opacity=".05"/><stop offset="1" stop-color="#d77a6a" stop-opacity="0"/></radialGradient>` +
+    svg += `<defs><radialGradient id="nsDusk" cx="50%" cy="50%" r="50%"><stop offset=".74" stop-color="#ff9a62" stop-opacity="0.0"/><stop offset=".9" stop-color="#f08a64" stop-opacity="0.042"/><stop offset="1" stop-color="#ffb07a" stop-opacity="0.156"/></radialGradient>` +
+      `<radialGradient id="nsWest" cx="100%" cy="50%" r="62%"><stop offset="0" stop-color="#ff9c66" stop-opacity="0.12"/><stop offset=".55" stop-color="#d77a6a" stop-opacity="0.03"/><stop offset="1" stop-color="#d77a6a" stop-opacity="0.0"/></radialGradient>` +
       `<filter id="nsBlur" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="9"/></filter></defs>` +
       `<circle class="ns-dusk-halo" cx="${C}" cy="${C}" r="${rim.toFixed(1)}" filter="url(#nsBlur)"/>`;
   }
