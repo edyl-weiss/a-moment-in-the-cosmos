@@ -856,3 +856,18 @@ main { padding-bottom: 0; }
 @media (max-width: 760px) { .nc-view .ns-seg button { text-align: center; display: inline-flex; align-items: center; justify-content: center; } }
 /* Legend pills: the check circle sits as far from the left edge as from the top and bottom */
 #sky .ns-legend button { padding: .45rem .9rem .45rem .68rem; }
+.ns-dot .d-hit { fill: transparent; }
+
+/* Several photographs in one spot: a group marker with a count, and a list to pick from */
+.ns-cluster { color: #e9e4d8; }
+.ns-badge circle { fill: #a9c6f0; stroke: #0a1a3f; stroke-width: .14; }
+.ns-badge text { font: 700 1.58px var(--mono); fill: #0a1a3f; text-anchor: middle; }
+.ns-cl { list-style: none; margin: .35rem 0 0; padding: 0; max-height: min(15rem, 45vh); overflow-y: auto; overscroll-behavior: contain; }
+.ns-cl li + li { border-top: 1px solid rgba(233,228,216,.08); }
+.ns-cl button { all: unset; box-sizing: border-box; display: flex; align-items: center; gap: .6rem; width: 100%; padding: .45rem .15rem; cursor: pointer; }
+.ns-cl button:hover strong, .ns-cl button:focus-visible strong { color: #a9c6f0; }
+.ns-cl button:focus-visible { outline: 1px solid rgba(169,198,240,.6); outline-offset: 1px; }
+.ns-cl .ns-sym { flex: none; width: 1.2rem; height: 1.2rem; }
+.ns-cl strong { display: block; margin: 0; font: 400 .95rem/1.25 var(--serif); color: var(--ink); }
+.ns-cl small { display: block; font: .66rem/1.4 var(--mono); letter-spacing: .04em; color: var(--ink-3); }
+@media (pointer: coarse) { .ns-cl button { min-height: 44px; } }

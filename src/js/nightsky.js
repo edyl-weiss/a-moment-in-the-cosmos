@@ -25,6 +25,7 @@ const PLURAL = { galaxy: 'Galaxies', nebula: 'Nebulae', star: 'Stars' };
 // nebula, a broken circle for a star cluster. Thin outlines with a faint fill, drawn in a unit box and
 // scaled per zoom level so they keep the same size on screen.
 const SYMBOLS = `
+  <g id="nsSym-group" fill="none" stroke="currentColor" stroke-width=".22"><circle r="1.25" fill="currentColor" fill-opacity=".14"/><circle cx="-.45" cy=".28" r=".27" fill="currentColor" stroke="none"/><circle cx=".45" cy=".28" r=".27" fill="currentColor" stroke="none"/><circle cy="-.42" r=".27" fill="currentColor" stroke="none"/></g>
   <g id="nsSym-galaxy" fill="none" stroke="currentColor" stroke-width=".26"><ellipse rx="1.3" ry=".55" transform="rotate(-30)" fill="currentColor" fill-opacity=".22"/></g>
   <g id="nsSym-nebula" fill="none" stroke="currentColor" stroke-width=".24"><rect x="-.9" y="-.9" width="1.8" height="1.8" fill="currentColor" fill-opacity=".2"/></g>
   <g id="nsSym-star" fill="none" stroke="currentColor" stroke-width=".26"><circle r="1" stroke-dasharray=".42 .3"/><circle r=".24" fill="currentColor" stroke="none"/></g>`;
@@ -195,11 +196,15 @@ function applyView() {
   for (const g of svg.querySelectorAll('.ns-names, .ns-pole')) g.style.setProperty('--z', z);
   // Markers keep roughly the same size on screen, a little larger on small screens so they stay tappable.
   const k = (5.2 * Math.max(z, 0.35) * Math.max(1, 0.6 / unit)).toFixed(2);
-  for (const d of svg.querySelectorAll('.ns-dot, .ns-body')) d.setAttribute('transform', `translate(${d.dataset.x} ${d.dataset.y}) scale(${k})${d.dataset.rot ? ` rotate(${d.dataset.rot})` : ''}`);
+  // Photograph markers only appear inside a chosen constellation, so they're drawn at twice the size there.
+  const kDot = (k * 2).toFixed(2);
+  for (const d of svg.querySelectorAll('.ns-dot')) d.setAttribute('transform', `translate(${d.dataset.x} ${d.dataset.y}) scale(${kDot})`);
+  for (const d of svg.querySelectorAll('.ns-body')) d.setAttribute('transform', `translate(${d.dataset.x} ${d.dataset.y}) scale(${k})${d.dataset.rot ? ` rotate(${d.dataset.rot})` : ''}`);
   svg.classList.toggle('zoomed', z < 0.7);
   svg.classList.toggle('sparse', z > 0.55 && svg.getBoundingClientRect().width < 640);   // small screen, whole sky: major names only
   $('#nsChart').classList.toggle('pannable', z < 0.999);
   $('#nsChart').parentElement.classList.toggle('zoomed', z < 0.999);
+  maybeRegroup();
 }
 // Zooming glides: each wheel tick, button press or double-click moves a goal, and the view eases
 // toward it every frame, so quick scrolls add up into one smooth movement. Pinch follows the fingers directly.
@@ -257,19 +262,14 @@ function showTip(el) {
   const tip = $('#nsTip');
   tip.innerHTML = `<span class="ns-tip-cat">${esc(CAT[e.cat] || '')}${e.con ? ` · ${esc(CON_NAMES[e.con] || '')}` : ''}</span>` +
     `<strong>${esc(e.title)}</strong><button type="button" id="nsOpen">Open photograph →</button>`;
-  const wrap = $('#nsChart').getBoundingClientRect(), r = el.getBoundingClientRect();
-  tip.hidden = false;
-  const left = Math.min(Math.max(r.left - wrap.left + r.width / 2 - tip.offsetWidth / 2, 6), wrap.width - tip.offsetWidth - 6);
-  const above = r.top - wrap.top - tip.offsetHeight - 12;
-  tip.style.left = `${left}px`;
-  tip.style.top = `${above > 6 ? above : r.bottom - wrap.top + 12}px`;
+  placeTip(el);
   $$('#nsChart .ns-dot.on').forEach((d) => d.classList.remove('on'));
   el.classList.add('on');
 }
 function nearestDot(x, y, within) {
   let best = null, bd = within;
   for (const d of document.querySelectorAll('#nsChart .ns-dot')) {
-    if (!shown.has(d.dataset.cat) || d.classList.contains('off')) continue;
+    if (d.dataset.cat && !shown.has(d.dataset.cat)) continue;
     const r = d.getBoundingClientRect(), dd = Math.hypot(r.left + r.width / 2 - x, r.top + r.height / 2 - y);
     if (dd < bd) { bd = dd; best = d; }
   }
@@ -294,7 +294,7 @@ function applyFilter() {
   $$('.ns-console button[data-layer]').forEach((b) => b.setAttribute('aria-pressed', String(layersOn.has(b.dataset.layer))));
   $$('#nsLegend button').forEach((b) => b.setAttribute('aria-pressed', String(shown.has(b.dataset.cat))));
   if (selected && !visible(INDEX_BY_ID[selected] || {})) hideTip();
-  if (focused) focusCon(focused, false);
+  if (focused) { focusCon(focused, false); renderClusters(); }
 }
 function hideTip() { $('#nsTip').hidden = true; selected = null; $$('#nsChart .ns-dot.on, #nsChart .ns-body.on').forEach((d) => d.classList.remove('on')); }
 // Explore one constellation: highlight it, zoom to it and list the photographs inside it.
@@ -333,21 +333,93 @@ async function focusCon(k, fly = true) {
   }
 }
 // Mark the photographs inside one constellation (and nothing else).
+let focusDots = [], clusteredAt = 0;
 function drawDots(k) {
-  const g = $('#nsDots');
-  if (!g) return;
-  let out = '';
+  focusDots = [];
   for (const e of INDEX) {
     if (e.con !== k || !Number.isFinite(e.ra)) continue;
     const s = project(e.ra, e.dec);
-    if (s) out += `<g class="ns-dot" data-id="${esc(e.id)}" data-cat="${e.cat}" data-org="${e.org}" data-x="${s[0].toFixed(1)}" data-y="${s[1].toFixed(1)}" style="color:${COLORS[e.cat] || '#ddd'}" tabindex="0" role="button" aria-label="${esc(e.title)}"><use href="#nsSym-${e.cat}"/></g>`;
+    if (s) focusDots.push({ e, x: s[0], y: s[1] });
   }
-  g.innerHTML = out;
+  // Several photographs often show the same object (five of the Horsehead Nebula, a dozen of the Orion Nebula).
+  // Photographs within about 7 arcminutes of each other, chained, count as one object.
+  const obj = focusDots.map((_, i) => i), find = (i) => (obj[i] === i ? i : (obj[i] = find(obj[i])));
+  for (let i = 0; i < focusDots.length; i++) {
+    for (let j = i + 1; j < focusDots.length; j++) {
+      const a = focusDots[i].e, b = focusDots[j].e, cd = Math.cos(((a.dec + b.dec) / 2) * rad);
+      if (Math.hypot((a.ra - b.ra) * cd, a.dec - b.dec) < 0.12) obj[find(i)] = find(j);
+    }
+  }
+  focusDots.forEach((d, i) => { d.obj = find(i); });
+  renderClusters();
+}
+// Markers that would overlap on screen at the current zoom merge into one group marker with a count.
+// Regrouped whenever the zoom settles, so zooming in pulls a group apart.
+const MERGE_PX = touch ? 24 : 20;
+function renderClusters() {
+  const g = $('#nsDots');
+  if (!g) return;
+  const z = view.w / SIZE, thr = MERGE_PX * z / unit;           // that many screen pixels, in chart units
+  const pts = focusDots.filter((d) => visible(d.e));
+  const used = new Set(), groups = [];
+  for (let i = 0; i < pts.length; i++) {
+    if (used.has(i)) continue;
+    const members = [pts[i]]; used.add(i);
+    for (let j = i + 1; j < pts.length; j++) {
+      if (used.has(j)) continue;
+      // join if close to any member already in the group
+      if (members.some((m) => Math.hypot(m.x - pts[j].x, m.y - pts[j].y) < thr)) { members.push(pts[j]); used.add(j); j = i; }
+    }
+    groups.push(members);
+  }
+  // Groups whose centers still crowd each other merge too, until every marker has room.
+  const center = (m) => [m.reduce((a, d) => a + d.x, 0) / m.length, m.reduce((a, d) => a + d.y, 0) / m.length];
+  for (let merged = true; merged;) {
+    merged = false;
+    outer: for (let a = 0; a < groups.length; a++) {
+      for (let b = a + 1; b < groups.length; b++) {
+        const [ax, ay] = center(groups[a]), [bx, by] = center(groups[b]);
+        if (Math.hypot(ax - bx, ay - by) < thr) { groups[a] = groups[a].concat(groups[b]); groups.splice(b, 1); merged = true; break outer; }
+      }
+    }
+  }
+  g.innerHTML = groups.map((m) => {
+    if (m.length === 1) {
+      const { e, x, y } = m[0];
+      return `<g class="ns-dot" data-id="${esc(e.id)}" data-cat="${e.cat}" data-x="${x.toFixed(1)}" data-y="${y.toFixed(1)}" style="color:${COLORS[e.cat] || '#ddd'}" tabindex="0" role="button" aria-label="${esc(e.title)}"><circle class="d-hit" r="2.1"/><use href="#nsSym-${e.cat}"/></g>`;
+    }
+    const x = m.reduce((a, d) => a + d.x, 0) / m.length, y = m.reduce((a, d) => a + d.y, 0) / m.length;
+    const objects = new Set(m.map((d) => d.obj)).size;
+    // photographs of the same object sit together in the list
+    const ids = [...m].sort((a, b) => a.obj - b.obj).map((d) => esc(d.e.id)).join(' ');
+    const what = `${objects} object${objects === 1 ? '' : 's'}, ${m.length} photographs`;
+    return `<g class="ns-dot ns-cluster" data-ids="${ids}" data-what="${what}" data-x="${x.toFixed(1)}" data-y="${y.toFixed(1)}" tabindex="0" role="button" aria-haspopup="true" aria-label="${what} here. Show the list"><circle class="d-hit" r="2.1"/><use href="#nsSym-group"/><g class="ns-badge" transform="translate(1.3 -1.3)"><circle r="1.25"/><text y=".55">${objects}</text></g></g>`;
+  }).join('');
+  clusteredAt = z;
   applyView();
+}
+let regroup = 0;
+function maybeRegroup() {
+  if (!focusDots.length) return;
+  const z = view.w / SIZE;
+  if (Math.abs(z - clusteredAt) / clusteredAt < 0.08) return;
+  clearTimeout(regroup);
+  regroup = setTimeout(() => { if (focusDots.length) { hideTip(); renderClusters(); } }, 140);
+}
+// The list for a group marker: every photograph in that spot, each opening its preview.
+function showCluster(el) {
+  hideTip();
+  const items = el.dataset.ids.split(' ').map((id) => INDEX_BY_ID[id]).filter(Boolean);
+  $('#nsTip').innerHTML = `<span class="ns-tip-cat">${el.dataset.what} here</span><ul class="ns-cl">` +
+    items.map((e) => `<li><button type="button" data-open="${esc(e.id)}">${symbolSvg(e.cat, COLORS[e.cat])}<span><strong>${esc(e.title)}</strong><small>${esc(CAT[e.cat] || '')}${e.y ? ` · ${e.y}` : ''}</small></span></button></li>`).join('') + '</ul>';
+  el.classList.add('on');
+  placeTip(el);
+  $('#nsTip button[data-open]')?.focus({ preventScroll: true });
 }
 function unfocus() {
   const was = focused;
   focused = null;
+  focusDots = [];
   const g = $('#nsDots'); if (g) g.innerHTML = '';
   if (was) applyFilter();
   $$('#nsChart .focus').forEach((el) => el.classList.remove('focus'));
@@ -445,7 +517,9 @@ chart.addEventListener('click', (e) => {
   const body = e.target.closest('.ns-body');
   if (body) { showBodyTip(body); return; }
   // Dots are small, so a tap within a finger's width of one counts as hitting it.
-  const dot = e.target.closest('.ns-dot') || nearestDot(e.clientX, e.clientY, matchMedia('(pointer: coarse)').matches ? 22 : 9);
+  // Markers are small and can sit close together: take the one nearest the tap, within a fingertip's reach.
+  const dot = nearestDot(e.clientX, e.clientY, touch ? 30 : 16) || e.target.closest('.ns-dot');
+  if (dot?.classList.contains('ns-cluster')) { showCluster(dot); return; }
   if (dot) { if (touch || selected === dot.dataset.id) preview(dot.dataset.id); else showTip(dot); return; }
   const area = e.target.closest('.ns-con, .ns-area, .ns-line');
   if (area) {
@@ -463,16 +537,22 @@ chart.addEventListener('click', (e) => {
 chart.addEventListener('mouseover', (e) => {
   if (!matchMedia('(pointer: fine)').matches) return;
   const dot = e.target.closest('.ns-dot'), body = e.target.closest('.ns-body');
-  if (dot) showTip(dot); else if (body) showBodyTip(body);
+  if (dot && !dot.classList.contains('ns-cluster')) showTip(dot); else if (body) showBodyTip(body);
 });
 chart.addEventListener('keydown', (e) => {
   if (e.key !== 'Enter' && e.key !== ' ') return;
   const dot = e.target.closest('.ns-dot'), con = e.target.closest('.ns-con'), body = e.target.closest('.ns-body');
   if (body) { e.preventDefault(); showBodyTip(body); }
-  if (dot) { e.preventDefault(); selected === dot.dataset.id ? preview(selected) : showTip(dot); }
+  if (dot) { e.preventDefault(); if (dot.classList.contains('ns-cluster')) showCluster(dot); else if (selected === dot.dataset.id) preview(selected); else showTip(dot); }
   if (con) { e.preventDefault(); focusCon(con.dataset.con); }
 });
-$('#nsTip').addEventListener('click', (e) => { if (e.target.id === 'nsOpen' && selected) preview(selected); });
+$('#nsTip').addEventListener('click', (e) => {
+  if (e.target.id === 'nsOpen' && selected) preview(selected);
+  const item = e.target.closest('button[data-open]');
+  if (item) preview(item.dataset.open);
+});
+// Escape closes a tip or group list and returns focus to the chart.
+$('#nsTip').addEventListener('keydown', (e) => { if (e.key === 'Escape') { hideTip(); chart.focus({ preventScroll: true }); } });
 // Double-click (or double-tap) zooms in where you point; arrow keys and + / − work once the chart has focus.
 chart.addEventListener('dblclick', (e) => { if (touch) return; clearTimeout(pendingFocus); e.preventDefault(); const [x, y] = toChart(e); zoomAt(x, y, 1.8); });
 chart.tabIndex = 0;
@@ -599,13 +679,21 @@ function drawBodies(at) {
   return out;
 }
 const cap = (t) => t.charAt(0).toUpperCase() + t.slice(1);
+// Put the tip above the marker if it fits, else below; a long list shrinks (and scrolls) to fit the larger side.
 function placeTip(el) {
   const tip = $('#nsTip'), wrap = $('#nsChart').getBoundingClientRect(), r = el.getBoundingClientRect();
+  const list = tip.querySelector('.ns-cl');
+  if (list) list.style.maxHeight = '';
   tip.hidden = false;
-  const left = Math.min(Math.max(r.left - wrap.left + r.width / 2 - tip.offsetWidth / 2, 6), wrap.width - tip.offsetWidth - 6);
-  const above = r.top - wrap.top - tip.offsetHeight - 12;
+  const gap = 10, edge = 6;
+  const spaceAbove = r.top - wrap.top - gap - edge, spaceBelow = wrap.bottom - r.bottom - gap - edge;
+  let below = tip.offsetHeight > spaceAbove && (tip.offsetHeight <= spaceBelow || spaceBelow > spaceAbove);
+  const room = below ? spaceBelow : spaceAbove;
+  if (list && tip.offsetHeight > room) list.style.maxHeight = `${Math.max(88, room - (tip.offsetHeight - list.offsetHeight))}px`;
+  const left = Math.min(Math.max(r.left - wrap.left + r.width / 2 - tip.offsetWidth / 2, edge), wrap.width - tip.offsetWidth - edge);
+  const top = below ? r.bottom - wrap.top + gap : r.top - wrap.top - gap - tip.offsetHeight;
   tip.style.left = `${left}px`;
-  tip.style.top = `${above > 6 ? above : r.bottom - wrap.top + 12}px`;
+  tip.style.top = `${Math.max(edge, Math.min(top, wrap.height - tip.offsetHeight - edge))}px`;
 }
 function showBodyTip(el) {
   const b = bodies.find((x) => x.id === el.dataset.body);
