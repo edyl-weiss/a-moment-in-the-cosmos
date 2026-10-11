@@ -4,10 +4,11 @@ import { configured, pipeline } from './_redis.js';
 import { mailReady, env, siteUrl, resend, dailyEmail, unsubLink } from './_mail.js';
 import { todayIndex, dailyId, dateOf } from '../src/js/util.js';
 import { CATALOG } from '../src/data/catalog.js';
+import { CATALOG_SKY } from '../src/data/constellations.js';
 
 async function photoFor(id) {
   const curated = CATALOG.find((c) => c.id === id);
-  if (curated) return curated;
+  if (curated) return { ...curated, sky: CATALOG_SKY[id] };
   const r = await fetch(`${siteUrl()}/data/collection/photos/${encodeURIComponent(id)}.json`);
   if (!r.ok) throw new Error(`photo ${id}: ${r.status}`);
   return r.json();
@@ -21,12 +22,21 @@ export default async function handler(req, res) {
   if (first !== 'OK' && req.query.force !== '1') return res.status(200).json({ skipped: 'already sent today' });
   try {
     const photo = await photoFor(dailyId(day));
-    const dateLabel = dateOf(day).toLocaleDateString('en-US', { timeZone: 'UTC', weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+    const d = dateOf(day);
+    const dateLabel = d.toLocaleDateString('en-US', { timeZone: 'UTC', weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+    const issue = `No. ${(day + 1).toLocaleString('en')}`;
+    // One "On this day" note, from the same data as the site's On this day section.
+    let event = null;
+    try {
+      const otd = await (await fetch(`${siteUrl()}/data/onthisday.json`)).json();
+      const key = `${String(d.getUTCMonth() + 1).padStart(2, '0')}-${String(d.getUTCDate()).padStart(2, '0')}`;
+      event = otd[key]?.events?.[0] || null;
+    } catch { /* the email is fine without it */ }
     const [list] = await pipeline([['SMEMBERS', 'subscribers']]);
     let sent = 0;
     for (let i = 0; i < list.length; i += 100) {
       const batch = list.slice(i, i + 100).map((to) => {
-        const m = dailyEmail(photo, to, dateLabel);
+        const m = dailyEmail(photo, to, { dateLabel, issue, event });
         return { from: env('MAIL_FROM'), to, subject: m.subject, html: m.html, text: m.text,
           headers: { 'List-Unsubscribe': `<${unsubLink(to)}>`, 'List-Unsubscribe-Post': 'List-Unsubscribe=One-Click' } };
       });
