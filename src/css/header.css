@@ -11,3 +11,5 @@ nav.site-nav a:hover{text-decoration:underline;text-decoration-color:var(--red)}
 
 main{max-width:var(--wide);margin:0 auto;padding:0 var(--gutter) 80px}
 section{scroll-margin-top:16px}
+.masthead h1 .home-link{color:inherit;text-decoration:none}
+.masthead h1 .home-link:focus-visible{outline:1px solid var(--rule);outline-offset:4px}
