@@ -1,4 +1,5 @@
 // Entry point. Importing a module wires up its own listeners; boot order is below.
+import './subscribe.js';
 import './router.js';
 import { inject } from './vendor/vercel-analytics.js';
 import { $, todayIndex, dailyId, dateOf } from './util.js';

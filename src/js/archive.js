@@ -42,7 +42,7 @@ export const countFor = (q) => {
 
 function renderDaily(grid) {
   const today = todayIndex();
-  $('#archiveNote').textContent = `Every daily photograph since ${fmtDate(dateOf(0))}. Search to see the whole collection`;
+  $('#archiveNote').textContent = `Every daily photograph since ${fmtDate(dateOf(0))}, each a small window onto the cosmos. Search to see the whole collection`;
   for (let i = today; i >= 0; i--) {
     const it = INDEX_BY_ID[dailyId(i)];
     if (!it) continue;

@@ -29,7 +29,7 @@ export function renderGrid() {
   }
   const list = all();
   if (!list.length) {
-    grid.innerHTML = '<p class="empty-state">Nothing saved yet. Hit “Save to favorites” under any photograph and it’ll turn up here.</p>';
+    grid.innerHTML = '<p class="empty-state">Nothing saved yet. When a photograph stays with you, tap “Save to favorites” and it’ll be waiting here.</p>';
     return;
   }
   for (const f of list) {

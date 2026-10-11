@@ -12,7 +12,7 @@
         <img id="photo" alt="" decoding="async">
         <div class="labels" id="labels" aria-hidden="true"></div>
       </div>
-      <p class="spinner" aria-hidden="true">Loading the photograph…</p>
+      <p class="spinner" aria-hidden="true">Light from far away, arriving…</p>
       <span class="dims" id="dims" title="Pixel dimensions of the image asset shown here"></span>
       <div class="compare" id="compare" hidden>
         <div class="cmp-box" id="cmpBox">
@@ -41,7 +41,7 @@
       <button id="immersiveBtn" type="button">Immersive view</button>
       <button id="compareBtn" type="button" aria-pressed="false" aria-controls="compare" hidden><span>Hubble vs Webb</span></button>
       <button id="tourBtn" type="button" hidden>Guided tour <span class="count" id="tourCount"></span></button>
-      <button id="understandBtn" type="button" aria-pressed="false" aria-controls="understandPanel">Understand the image</button>
+      <button id="understandBtn" type="button" aria-pressed="false" aria-controls="understandPanel" title="Which telescope took it, what each color means, and how it differs from what your eye would see">What am I looking at?</button>
     </div>
     <div class="act-secondary">
       <button id="wowBtn" type="button" class="wow" aria-pressed="false" hidden><span class="wow-star" aria-hidden="true">✦</span> Wow <span id="wowCount" class="wow-n"></span></button>
@@ -58,7 +58,7 @@
   <p class="otd-teaser" id="otdTeaser" hidden></p>
 
   <div id="understandPanel" hidden tabindex="-1">
-    <h3>Understanding this image</h3>
+    <h3>What this light is telling us</h3>
     <div id="understandBody"></div>
   </div>
 

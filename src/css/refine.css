@@ -672,3 +672,26 @@ main#main { view-transition-name: page; }
 
 /* daytime "right now": the slider rests, faded, until someone picks a time tonight */
 .ns-timerow.daylight #nsTime { opacity: .4; }
+
+/* Daily email sign-up, above the footer on every page */
+.signup { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 26rem); gap: 1rem 2.5rem; align-items: end;
+  margin: clamp(3rem, 7vw, 5rem) 0 0; padding: clamp(1.4rem, 3vw, 2rem); border: 1px solid var(--rule); border-radius: 8px; background: rgba(169,198,240,.035); }
+.signup h2 { margin: 0 0 .3rem; font: 300 clamp(1.5rem, 2.6vw, 2rem)/1.15 var(--serif); }
+.signup p { margin: 0; color: var(--ink-2); font-style: italic; }
+.signup-form { display: flex; gap: .5rem; }
+.signup-form input[type=email] { flex: 1 1 auto; min-width: 0; min-height: 44px; padding: 0 1rem; font: 1rem var(--serif); color: var(--ink);
+  background: rgba(0,0,0,.25); border: 1px solid var(--rule); border-radius: 999px; }
+.signup-form input[type=email]:focus { outline: none; border-color: rgba(169,198,240,.7); box-shadow: 0 0 0 3px rgba(169,198,240,.12); }
+.signup-form button { flex: none; min-height: 44px; padding: 0 1.2rem; justify-content: center; text-decoration: none; font-weight: 500;
+  border: 1px solid rgba(169,198,240,.55); border-radius: 999px; background: rgba(169,198,240,.1); }
+.signup-form button:hover { background: rgba(169,198,240,.2); }
+.signup-form .hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+.signup-msg { grid-column: 1 / -1; min-height: 1.2em; font-style: normal !important; font-size: .92rem; }
+.signup-msg:empty { display: none; }
+.signup-msg[data-kind="ok"] { color: #a9c6f0 !important; }
+.signup-msg[data-kind="err"] { color: #ec8b6d !important; }
+@media (max-width: 700px) { .signup { grid-template-columns: 1fr; } }
+.toast { position: fixed; left: 50%; bottom: 1.2rem; z-index: 90; transform: translate(-50%, 20px); opacity: 0; transition: opacity .3s, transform .3s;
+  max-width: calc(100vw - 32px); padding: .8rem 1.2rem; border-radius: 999px; background: rgba(13,12,11,.96); border: 1px solid rgba(169,198,240,.4);
+  color: var(--ink); font: 1rem/1.4 var(--serif); box-shadow: 0 10px 30px rgba(0,0,0,.5); cursor: pointer; text-align: center; }
+.toast.on { opacity: 1; transform: translate(-50%, 0); }
