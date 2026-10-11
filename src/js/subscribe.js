@@ -1,8 +1,12 @@
 // Daily-email sign-up form, and the short notes shown when someone arrives back from a confirm or
 // unsubscribe link (#subscribed, #unsubscribed, #email-expired, #email-error).
-import { $ } from './util.js';
+import { $, store } from './util.js';
 
 const form = $('#signupForm'), msg = $('#signupMsg'), btn = $('#signupBtn');
+
+// Once this browser has signed up, keep the sign-up box out of the way on later visits.
+const box = form.closest('.signup');
+if (store.get('subscribed')) box.hidden = true;
 
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
@@ -16,6 +20,7 @@ form.addEventListener('submit', async (e) => {
     if (!r.ok) throw new Error(j.error || 'Something went wrong. Please try again later');
     msg.textContent = 'Almost there. Check your inbox for a confirmation email';
     msg.dataset.kind = 'ok';
+    store.set('subscribed', true);
     form.reset();
   } catch (err) {
     msg.textContent = err.message.startsWith('Failed') ? 'Couldn’t reach the server. Please try again later' : err.message;
@@ -32,6 +37,8 @@ const NOTES = {
 function showNote() {
   const note = NOTES[location.hash];
   if (!note) return;
+  if (location.hash === '#subscribed') { store.set('subscribed', true); box.hidden = true; }
+  if (location.hash === '#unsubscribed') { store.set('subscribed', false); box.hidden = false; }
   history.replaceState(null, '', location.pathname + location.search);   // tidy the address bar
   const t = $('#toast');
   t.textContent = note; t.hidden = false;
