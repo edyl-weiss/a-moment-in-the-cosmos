@@ -5,7 +5,7 @@
   --plate:#000;             /* behind photographs */
   --ink:#e9e4d8;            /* body text */
   --ink-2:#a8a296;          /* secondary text */
-  --ink-3:#7b766c;          /* tertiary: rules, captions */
+  --ink-3:#8a857a;          /* tertiary: captions (at least 4.5:1 on the page, WCAG AA) */
   --rule:#34312c;           /* hairline rules between sections */
   --red:#e2553d;            /* rubric: links, active state, emphasis */
   --focus:#f2c14e;

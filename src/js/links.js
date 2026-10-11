@@ -13,7 +13,6 @@ const DATE = /^on-(\d{2})-(\d{2})$/;
 const handlers = { date: null };
 
 export const photoLink = (id) => `${location.origin}${location.pathname}#${encodeURIComponent(id)}`;
-export const dateLink = (k) => `${location.origin}${location.pathname}#on-${k}`;
 
 // Called by "On this day" so a date link can be opened without an import cycle.
 export function onDateLink(fn) { handlers.date = fn; }

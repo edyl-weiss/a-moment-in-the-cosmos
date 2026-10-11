@@ -58,7 +58,6 @@ export function flyTo(xPct, yPct, zoom, bottomInset = 0) {
 }
 img.addEventListener('transitionend', () => { img.classList.remove('flying'); mark.classList.remove('moving'); });
 
-export const isOpen = () => dlg.open;
 
 export function openViewer(opener) {
   if (!state.item) return;

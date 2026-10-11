@@ -395,7 +395,6 @@ main#main { view-transition-name: page; }
 
 /* Night sky page */
 #sky .section-head p { max-width: 40rem; }
-.ns-bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .8rem 1.4rem; margin: 0 0 1rem; }
 .ns-hemi, .ns-zoom { display: flex; gap: .4rem; }
 .ns-hemi button, .ns-zoom button { font: 500 .95rem/1 var(--serif); color: var(--ink-2); background: none; border: 1px solid var(--rule); border-radius: 999px; padding: .5rem .95rem; cursor: pointer; }
 .ns-zoom button { min-width: 2.4rem; }
@@ -407,18 +406,17 @@ main#main { view-transition-name: page; }
 .ns-wrap { position: relative; width: 100%; max-width: 940px; margin: 0 auto; }
 .ns-chart { touch-action: none; cursor: grab; user-select: none; }
 .ns-chart:active { cursor: grabbing; }
-.ns-chart svg { display: block; width: 100%; height: auto; overflow: hidden; --z: 1; }
+.ns-chart svg { display: block; width: 100%; height: auto; overflow: hidden; --z: 1; --u: 1; }
+/* Strokes keep their on-screen width while zooming (no per-frame restyling): --u is the chart's px per unit, set on resize */
+.ns-line, .ns-area { vector-effect: non-scaling-stroke; }
 .ns-wrap { overflow: hidden; }
 .ns-disc { fill: url(#nsSkyFill); stroke: rgba(169,198,240,.3); }
-.ns-grid { fill: none; stroke: rgba(169,198,240,.09); stroke-width: calc(var(--z) * 1px); }
-.ns-eq { stroke: rgba(169,198,240,.28); stroke-dasharray: calc(var(--z) * 4px) calc(var(--z) * 5px); }
-.ns-bound { fill: none; stroke: rgba(160,175,220,.13); stroke-width: calc(var(--z) * .8px); }
-.ns-line { fill: none; stroke: rgba(205,215,240,.42); stroke-width: calc(var(--z) * 1.1px); stroke-linejoin: round; }
+.ns-line { fill: none; stroke: rgba(205,215,240,.42); stroke-width: calc(var(--u) * 1.1px); stroke-linejoin: round; }
 .ns-star { fill: #eef0f6; }
-.ns-con { font: italic calc(var(--z) * 13px) var(--serif); fill: rgba(200,210,235,.5); text-anchor: middle; cursor: pointer; letter-spacing: .02em; }
+.ns-con { font: italic calc(var(--z) * max(13px, 8.5px / var(--u))) var(--serif); fill: rgba(200,210,235,.5); text-anchor: middle; cursor: pointer; letter-spacing: .02em; }
 .ns-con:hover, .ns-con:focus { fill: var(--ink); outline: none; }
 .ns-hour { font: 12px var(--mono); fill: var(--ink-3); text-anchor: middle; }
-.ns-pole { font: italic calc(var(--z) * 11px) var(--serif); fill: rgba(200,210,235,.35); text-anchor: middle; }
+.ns-pole { font: italic calc(var(--z) * max(11px, 8px / var(--u))) var(--serif); fill: rgba(200,210,235,.35); text-anchor: middle; }
 .ns-dot { cursor: pointer; opacity: .92; transition: opacity .2s, filter .2s; }
 .ns-dot use { pointer-events: all; }
 .ns-dot:hover, .ns-dot:focus, .ns-dot.on { opacity: 1; outline: none; filter: brightness(1.35); }
@@ -431,14 +429,14 @@ main#main { view-transition-name: page; }
 .ns-foot { margin: 1rem auto 0; max-width: 940px; font-size: .85rem; color: var(--ink-3); }
 
 /* Night sky: exploring a constellation */
-.ns-area { fill: rgba(169,198,240,0); stroke: rgba(160,175,220,.13); stroke-width: calc(var(--z) * .8px); cursor: pointer; transition: fill .25s; }
+.ns-area { fill: rgba(169,198,240,0); stroke: rgba(160,175,220,.13); stroke-width: calc(var(--u) * .8px); cursor: pointer; transition: fill .25s; }
 .ns-area:hover { fill: rgba(169,198,240,.05); }
-.ns-area.focus { fill: rgba(169,198,240,.09); stroke: rgba(169,198,240,.7); stroke-width: calc(var(--z) * 1.4px); stroke-dasharray: calc(var(--z) * 4px) calc(var(--z) * 4px); }
+.ns-area.focus { fill: rgba(169,198,240,.09); stroke: rgba(169,198,240,.7); stroke-width: calc(var(--u) * 1.4px); stroke-dasharray: calc(var(--u) * 4px) calc(var(--u) * 4px); }
 .ns-line { cursor: pointer; }
 .focusing .ns-line:not(.focus) { stroke: rgba(205,215,240,.2); }
-.ns-line.focus { stroke: rgba(225,232,250,.95); stroke-width: calc(var(--z) * 1.8px); }
+.ns-line.focus { stroke: rgba(225,232,250,.95); stroke-width: calc(var(--u) * 1.8px); }
 .ns-con.focus { fill: var(--ink); font-weight: 500; }
-.focusing .ns-dot { opacity: .6; }
+.focusing .ns-dot { opacity: .95; }
 .focusing .ns-dot:hover, .focusing .ns-dot.on { opacity: 1; }
 .ns-layout { display: grid; gap: 1.6rem; }
 #sky.has-panel .ns-layout { grid-template-columns: minmax(0, 1fr) minmax(260px, 340px); align-items: start; }
@@ -462,7 +460,6 @@ main#main { view-transition-name: page; }
 
 /* Night sky category filter (the legend) */
 .ns-legend { align-items: center; gap: .4rem; }
-.ns-show { font: 500 .66rem/1.4 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); margin-right: .3rem; }
 .ns-legend button { font: 400 .92rem/1 var(--serif); color: var(--ink-3); background: none; border: 1px solid var(--rule); border-radius: 999px; padding: .42rem .8rem; cursor: pointer; transition: color .2s, border-color .2s, background .2s, opacity .2s; }
 .ns-legend button[aria-pressed="true"] { color: var(--ink); border-color: rgba(169,198,240,.45); background: rgba(169,198,240,.06); }
 .ns-legend button[aria-pressed="false"] i { opacity: .3; }
@@ -470,26 +467,19 @@ main#main { view-transition-name: page; }
 .hide-galaxy .ns-dot[data-cat="galaxy"], .hide-nebula .ns-dot[data-cat="nebula"], .hide-star .ns-dot[data-cat="star"] { display: none; }
 
 /* Night sky: layer toggles and source menu, so busy areas can be thinned out */
-.ns-bar2 { margin-top: -.3rem; }
 .ns-layers { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; }
 .ns-layers button { font: 400 .88rem/1 var(--serif); color: var(--ink-3); background: none; border: 1px solid var(--rule); border-radius: 999px; padding: .38rem .72rem; cursor: pointer; transition: color .2s, border-color .2s, background .2s; }
 .ns-layers button[aria-pressed="true"] { color: var(--ink); border-color: rgba(169,198,240,.45); background: rgba(169,198,240,.06); }
 .ns-layers button:hover { border-color: rgba(169,198,240,.75); }
-.ns-org select { min-width: 12rem; }
 .no-names .ns-con:not(.focus) { display: none; }
 .no-lines .ns-line:not(.focus) { display: none; }
 .no-bounds .ns-area:not(.focus) { stroke: transparent; }
 .no-faint .ns-star.faint { display: none; }
-.no-grid .ns-grid { display: none; }
 .ns-dot.off { display: none; }
 .ns-legend button, .ns-layers button, .ns-hemi button, .ns-zoom button { text-decoration: none !important; }
 .ns-legend button b { text-decoration: none; }
 
 /* ===== Night sky controls, v2: one labeled toolbar, map-style zoom on the chart ===== */
-.ns-controls { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 1.1rem 2.2rem; padding: 1rem 1.2rem 1.1rem; margin: 0 0 .7rem;
-  background: rgba(169,198,240,.035); border: 1px solid var(--rule); border-radius: 8px; }
-.ns-group { display: flex; flex-direction: column; gap: .45rem; }
-.ns-label { font: 500 .64rem/1.2 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); }
 
 .ns-seg { display: inline-flex; padding: 3px; gap: 2px; border: 1px solid var(--rule); border-radius: 999px; }
 .ns-seg button { font: 500 .95rem/1 var(--serif); color: var(--ink-2); background: none; border: 0; border-radius: 999px; padding: .5rem 1rem; cursor: pointer; transition: background .2s, color .2s; }
@@ -505,21 +495,6 @@ main#main { view-transition-name: page; }
 .ns-check { position: relative; width: 1rem; height: 1rem; border-radius: 50%; border: 1.5px solid var(--c); flex: none; transition: background .2s; }
 [aria-pressed="true"] > .ns-check { background: var(--c); }
 [aria-pressed="true"] > .ns-check::after { content: ''; position: absolute; left: 31%; top: 14%; width: 26%; height: 50%; border: solid #0a1a3f; border-width: 0 2px 2px 0; transform: rotate(45deg); }
-
-.ns-select { font: 500 .95rem/1 var(--serif); color: var(--ink); background: transparent; border: 1px solid var(--rule); border-radius: 999px; padding: .5rem 2rem .5rem .9rem;
-  appearance: none; cursor: pointer; background-image: linear-gradient(45deg, transparent 50%, var(--ink-2) 50%), linear-gradient(135deg, var(--ink-2) 50%, transparent 50%);
-  background-position: calc(100% - 1.05rem) 55%, calc(100% - .75rem) 55%; background-size: .3rem .3rem; background-repeat: no-repeat; }
-.ns-select:hover { border-color: rgba(169,198,240,.7); }
-.ns-select option { background: #0d0c0b; }
-
-.ns-more { margin-left: auto; align-self: flex-end; }
-.ns-more summary { list-style: none; font: 500 .95rem/1 var(--serif); color: var(--ink-2); border: 1px solid var(--rule); border-radius: 999px; padding: .5rem .95rem; cursor: pointer; }
-.ns-more summary::-webkit-details-marker { display: none; }
-.ns-more summary::after { content: ' ▾'; color: var(--ink-3); }
-.ns-more[open] summary::after { content: ' ▴'; }
-.ns-more summary:hover { color: var(--ink); border-color: rgba(169,198,240,.7); }
-.ns-more[open] { flex-basis: 100%; margin-left: 0; }
-.ns-more[open] summary { display: inline-block; margin-bottom: .7rem; }
 #sky .ns-layers button { font: 400 .9rem/1 var(--serif); padding: .42rem .8rem; }
 
 .ns-status { margin: 0 0 1rem; font-size: .92rem; color: var(--ink-2); font-style: italic; }
@@ -539,8 +514,6 @@ main#main { view-transition-name: page; }
 @media (pointer: coarse) { .ns-hint .fine { display: none; } .ns-hint .coarse { display: inline; } }
 
 @media (max-width: 700px) {
-  .ns-controls { gap: .9rem 1.2rem; padding: .9rem; }
-  .ns-more { margin-left: 0; }
   .ns-hint { font-size: .64rem; }
 }
 #sky .ns-zoom button { display: flex; align-items: center; justify-content: center; }
@@ -552,7 +525,6 @@ main#main { view-transition-name: page; }
 /* Tonight's sky: time slider */
 .ns-timerow { flex: 1 1 30rem; }
 .ns-time { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem .8rem; }
-.ns-tick { font: .72rem var(--mono); color: var(--ink-3); }
 #nsTime { flex: 1 1 14rem; max-width: 26rem; accent-color: #a9c6f0; cursor: pointer; }
 #nsTimeLabel { font: 500 1rem var(--serif); color: var(--ink); min-width: 6.5rem; }
 #nsNow { all: unset; cursor: pointer; font: 500 .92rem var(--serif); color: #a9c6f0; }
@@ -614,7 +586,7 @@ main#main { view-transition-name: page; }
 
 /* Tonight's sky: sunset glow on the horizon */
 .ns-dusk { pointer-events: none; }
-.ns-dusk-halo { fill: none; stroke: rgba(255,168,118,.18); stroke-width: 12; pointer-events: none; }
+.ns-dusk-halo { fill: url(#nsHalo); stroke: none; pointer-events: none; }
 .ns-chart svg.mode-T .ns-disc { stroke: rgba(255,190,150,.21); }
 
 /* Section intros run the full width of the section instead of wrapping at a reading measure */
@@ -632,8 +604,7 @@ main#main { view-transition-name: page; }
   #otdToday { min-width: 44px; }
   #archiveQ { min-height: 44px; }
   .vbar button, #vZoomOut, #vZoomIn, #vReset, #vClose { min-width: 44px; justify-content: center; }
-  .ns-more summary { min-height: 44px; display: inline-flex; align-items: center; }
-  #sky .ns-layers button, #sky .ns-legend button, .ns-seg button, .ns-select { min-height: 44px; }
+  #sky .ns-layers button, #sky .ns-legend button, .ns-seg button{ min-height: 44px; }
   .con-chips button { min-height: 40px; padding: .55rem .85rem; }
   #nsClear, #nsNow, .ns-p-actions button, #nsOpen { display: inline-flex; align-items: center; min-height: 44px; }
   /* the time slider: a bigger thumb and track that are easy to grab */
@@ -690,8 +661,198 @@ main#main { view-transition-name: page; }
 .signup-msg:empty { display: none; }
 .signup-msg[data-kind="ok"] { color: #a9c6f0 !important; }
 .signup-msg[data-kind="err"] { color: #ec8b6d !important; }
-@media (max-width: 700px) { .signup { grid-template-columns: 1fr; } }
+@media (max-width: 900px) { .signup { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 360px) { .signup-form { flex-wrap: wrap; } .signup-form input[type=email] { flex-basis: 100%; } .signup-form button { flex: 1; } }
 .toast { position: fixed; left: 50%; bottom: 1.2rem; z-index: 90; transform: translate(-50%, 20px); opacity: 0; transition: opacity .3s, transform .3s;
   max-width: calc(100vw - 32px); padding: .8rem 1.2rem; border-radius: 999px; background: rgba(13,12,11,.96); border: 1px solid rgba(169,198,240,.4);
   color: var(--ink); font: 1rem/1.4 var(--serif); box-shadow: 0 10px 30px rgba(0,0,0,.5); cursor: pointer; text-align: center; }
 .toast.on { opacity: 1; transform: translate(-50%, 0); }
+
+/* Tonight's sky: date picker */
+@media (max-width: 600px) {
+  .ns-time { grid-template-columns: auto minmax(0, 1fr) auto; row-gap: .2rem; }
+  #nsTimeLabel { grid-column: 1 / 3; }
+  .ns-time #nsNow { grid-column: 3; justify-self: end; }
+}
+
+/* Tonight's sky: the settings console, below the chart */
+#sky .ns-console { max-width: min(100%, 1100px); margin: 1.2rem auto 0; border: 1px solid var(--rule); border-radius: 6px;
+  background: linear-gradient(180deg, rgba(169,198,240,.045), rgba(169,198,240,.015)); }
+#sky.has-panel .ns-console { max-width: none; }
+.ns-console fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+.nc-k { display: block; padding: 0; margin: 0 0 .65rem; font: 500 .64rem/1.2 var(--mono); letter-spacing: .16em; text-transform: uppercase; color: var(--ink-3); }
+.nc-k label { cursor: pointer; }
+.nc-main { display: grid; grid-template-columns: minmax(0, 1fr) auto; }
+.ns-console .nc-cell { padding: 1.1rem 1.3rem 1.2rem; }
+.nc-main > .nc-cell + .nc-cell { border-left: 1px solid var(--rule); }
+.nc-main > .nc-cell[hidden] + .nc-cell { border-left: 0; }
+.nc-main:has(> .nc-when[hidden]) { grid-template-columns: 1fr; }
+.nc-whenline { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; }
+.nc-date { font: 400 1rem var(--serif); color: var(--ink); background: transparent; border: 1px solid var(--rule); border-radius: 999px; padding: .42rem .85rem; color-scheme: dark; cursor: pointer; }
+.nc-date:hover, .nc-date:focus-visible { border-color: rgba(169,198,240,.7); outline: none; }
+#sky #nsTimeLabel { font: italic 400 1.15rem var(--serif); color: var(--ink); min-width: 0; }
+#sky #nsNow { margin-left: auto; }
+.nc-slider { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: .8rem; margin-top: .8rem; }
+.nc-tick { font: .7rem var(--mono); color: var(--ink-3); }
+#sky .nc-slider #nsTime { width: 100%; max-width: none; }
+.nc-view .ns-seg { display: inline-flex; }
+.nc-sum { font: italic .95rem var(--serif); color: var(--ink-3); flex: 1; }
+.nc-refine { display: grid; grid-template-columns: auto auto minmax(0, 1fr); border-top: 1px solid var(--rule); }
+.nc-refine > .nc-cell + .nc-cell { border-left: 1px solid var(--rule); }
+@media (pointer: coarse) { .nc-date{ min-height: 44px; } }
+@media (max-width: 760px) {
+  .nc-main, .nc-refine { grid-template-columns: 1fr; }
+  .nc-main > .nc-cell + .nc-cell, .nc-refine > .nc-cell + .nc-cell { border-left: 0; border-top: 1px solid var(--rule); }
+  .nc-main > .nc-cell[hidden] + .nc-cell { border-top: 0; }
+  .ns-console .nc-cell { padding: 1rem; }
+  .nc-sum { display: none; }
+  .nc-view .ns-seg { display: flex; } .nc-view .ns-seg button { flex: 1; }
+}
+.ns-console legend.nc-k { float: left; width: 100%; }
+.ns-console legend.nc-k + * { clear: both; }
+.nc-refine { grid-template-columns: minmax(0, 1.3fr) auto minmax(0, 1fr); }
+#sky .ns-foot { max-width: min(100%, 1100px); }
+@media (max-width: 760px) {
+  .nc-refine { grid-template-columns: 1fr; }
+  #sky #nsNow { margin-left: 0; }
+  .nc-whenline { column-gap: .8rem; }
+}
+
+/* Tonight's sky: decluttering */
+.ns-chart svg.sparse .ns-con.minor:not(.focus) { display: none; }
+.nc-refine { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+.ns-status[hidden] { display: none; }
+.ns-p-close { display: none; }
+@media (pointer: coarse) {
+  #sky #nsIn, #sky #nsOut { display: none; }
+  #sky .ns-wrap:not(.zoomed) .ns-zoom { display: none; }
+  #sky .ns-zoom { border-radius: 50%; }
+}
+/* Phones: a constellation's photographs slide up over the map instead of landing below it */
+@media (max-width: 760px) {
+  #sky.has-panel .ns-panel { position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; max-height: 46vh; overflow-y: auto; overscroll-behavior: contain;
+    margin: 0; padding: 1.1rem 1rem calc(1rem + env(safe-area-inset-bottom)); background: rgba(13,12,11,.97); border: 0; border-top: 1px solid rgba(169,198,240,.35);
+    border-radius: 14px 14px 0 0; box-shadow: 0 -12px 40px rgba(0,0,0,.55); animation: ns-sheet .35s cubic-bezier(.2,.8,.2,1) both; }
+  #sky.has-panel .ns-panel h3 { font-size: 1.5rem; padding-right: 3rem; }
+  .ns-p-close { display: flex; align-items: center; justify-content: center; position: absolute; top: .6rem; right: .6rem; width: 44px; height: 44px; border-radius: 50%;
+    background: none; border: 1px solid var(--rule); color: var(--ink); cursor: pointer; }
+  .ns-p-close svg { width: 12px; height: 12px; stroke: currentColor; stroke-width: 1.6; fill: none; }
+  #sky.has-panel { padding-bottom: 46vh; }
+}
+@keyframes ns-sheet { from { transform: translateY(100%); } to { transform: none; } }
+@media (prefers-reduced-motion: reduce) { #sky.has-panel .ns-panel { animation: none; } }
+
+/* Tonight's sky: Moon and planets */
+.ns-body { cursor: pointer; outline: none; }
+.ns-planet .p-hit { fill: transparent; }
+.ns-planet .p-dot { fill: currentColor; filter: drop-shadow(0 0 .35px currentColor); }
+.ns-planet .ns-bname { font: italic 2.3px var(--serif); fill: currentColor; opacity: .85; letter-spacing: .02em; }
+.ns-planet.glare { opacity: .45; }
+.ns-moon .m-halo { fill: rgba(233,228,216,.07); }
+.ns-moon .m-dark { fill: #0b1530; stroke: rgba(233,228,216,.35); stroke-width: .12; }
+.ns-moon .m-lit { fill: #ece6d6; }
+.ns-body:hover .p-dot, .ns-body.on .p-dot, .ns-body:focus-visible .p-dot { filter: drop-shadow(0 0 .8px currentColor); }
+.ns-body:focus-visible .m-dark, .ns-body.on .m-dark, .ns-body:focus-visible .p-hit, .ns-body.on .p-hit { stroke: rgba(169,198,240,.8); stroke-width: .15; }
+.no-planets .ns-bodies { display: none; }
+.ns-tip-line { display: block; font: italic .92rem/1.35 var(--serif); color: var(--ink-2); }
+
+/* Find, night vision, share */
+.nc-find { position: relative; margin-top: 1rem; max-width: 22rem; }
+.nc-find-icon { position: absolute; left: .85rem; top: 50%; width: 15px; height: 15px; transform: translateY(-50%); fill: none; stroke: var(--ink-3); stroke-width: 1.4; stroke-linecap: round; pointer-events: none; }
+.nc-find input { width: 100%; box-sizing: border-box; font: 400 1rem var(--serif); color: var(--ink); background: rgba(13,12,11,.4); border: 1px solid var(--rule); border-radius: 999px; padding: .5rem .9rem .5rem 2.3rem; color-scheme: dark; }
+.nc-find input::placeholder { color: var(--ink-3); font-style: italic; opacity: 1; }
+.nc-find input:hover, .nc-find input:focus { border-color: rgba(169,198,240,.7); outline: none; }
+.nc-find-msg { margin: .45rem 0 0; font: italic .92rem/1.4 var(--serif); color: var(--ink-2); min-height: 0; }
+.nc-find-msg:empty { display: none; }
+.nc-actions { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .9rem; }
+.nc-act { display: inline-flex; align-items: center; gap: .45rem; font: 400 .92rem/1 var(--serif); color: var(--ink-2); background: none; border: 1px solid var(--rule); border-radius: 999px; padding: .45rem .85rem; cursor: pointer; transition: color .2s, border-color .2s, background .2s; }
+.nc-act svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 1.3; stroke-linecap: round; stroke-linejoin: round; }
+.nc-act:hover, .nc-act:focus-visible { color: var(--ink); border-color: rgba(169,198,240,.7); outline: none; }
+#nsNight[aria-pressed="true"] { color: #f2a08c; border-color: rgba(236,139,109,.6); background: rgba(236,139,109,.08); }
+#nsNight[aria-pressed="true"] svg { fill: currentColor; }
+@media (pointer: coarse) { .nc-find input, .nc-act { min-height: 44px; } }
+@media (max-width: 760px) { .nc-find { max-width: none; } .nc-act { flex: 1; justify-content: center; } }
+
+/* The chart in words */
+.nl { display: grid; grid-template-columns: minmax(12rem, 1fr) minmax(0, 2.4fr); gap: 1.2rem 2rem; padding: 1.1rem 1.3rem 1.3rem; border-top: 1px solid var(--rule); }
+.nl ul { list-style: none; margin: 0; padding: 0; }
+.nl-cons ul { columns: 2 14rem; column-gap: 2rem; }
+.nl li { break-inside: avoid; }
+.nl button { all: unset; box-sizing: border-box; display: block; width: 100%; padding: .38rem 0; cursor: pointer; border-bottom: 1px solid rgba(233,228,216,.06); }
+.nl button:hover .nl-name, .nl button:focus-visible .nl-name { color: #a9c6f0; }
+.nl button:focus-visible { outline: 1px solid rgba(169,198,240,.6); outline-offset: 2px; }
+.nl-name { font: 400 1rem/1.3 var(--serif); color: var(--ink); }
+.nl-where { display: block; font: italic .86rem/1.3 var(--serif); color: var(--ink-2); }
+.nl-none { font: italic .95rem var(--serif); color: var(--ink-2); margin: 0; }
+@media (pointer: coarse) { .nl button { min-height: 44px; } }
+@media (max-width: 760px) { .nl { grid-template-columns: 1fr; padding: 1rem; } .nl-cons ul { columns: 1; } }
+
+/* Night vision: everything turns red (red light keeps your eyes adjusted to the dark) */
+.nv-overlay { position: fixed; inset: 0; z-index: 2147483000; pointer-events: none; background: #d42000; mix-blend-mode: multiply; opacity: 0; transition: opacity .4s; }
+html.nv .nv-overlay { opacity: 1; }
+html.nv .nsp-card { filter: grayscale(1) sepia(1) saturate(8) hue-rotate(-40deg) brightness(.75); }
+html.nv .nsp::backdrop { background: rgba(0,0,0,.85); }
+/* Readable labels on the sky (WCAG AA, 4.5:1 against the chart's blue) */
+.ns-con { fill: rgba(200,210,235,.66); }
+.ns-pole { fill: rgba(200,210,235,.66); }
+.nc-act, #sky .nc-act { text-decoration: none !important; }
+
+/* What to look for, in one line */
+.nc-tonight { margin: 0; padding: 1rem 1.3rem; border-bottom: 1px solid var(--rule); font: italic 400 1.08rem/1.5 var(--serif); color: var(--ink); }
+.nc-tonight[hidden] { display: none; }
+/* "In words" and "Refine": one row of tabs */
+.nc-tabs { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--rule); }
+.nc-tabs [role="tab"] { all: unset; box-sizing: border-box; display: flex; align-items: baseline; gap: .8rem; padding: .85rem 1.3rem; cursor: pointer; position: relative; }
+.nc-tabs [role="tab"] + [role="tab"] { border-left: 1px solid var(--rule); }
+.nc-tabs [role="tab"] .nc-k { margin: 0; }
+.nc-tabs [role="tab"]::after { content: '+'; margin-left: auto; font: 300 1.3rem/1 var(--serif); color: var(--ink-3); transition: transform .25s; }
+.nc-tabs [role="tab"][aria-selected="true"]::after { transform: rotate(45deg); }
+.nc-tabs [role="tab"][aria-selected="true"] { background: rgba(169,198,240,.06); box-shadow: inset 0 -2px 0 rgba(169,198,240,.6); }
+.nc-tabs [role="tab"]:hover .nc-sum, .nc-tabs [role="tab"][aria-selected="true"] .nc-sum { color: var(--ink); }
+.nc-tabs [role="tab"]:focus-visible { outline: 1px solid rgba(169,198,240,.6); outline-offset: -3px; }
+.nc-panel { border-top: 1px solid var(--rule); }
+.nc-panel .nl { border-top: 0; }
+.nc-panel .nc-refine { border-top: 0; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+@media (pointer: coarse) { .nc-tabs [role="tab"] { min-height: 48px; align-items: center; } }
+@media (max-width: 760px) {
+  .nc-tonight { padding: .9rem 1rem; font-size: 1rem; }
+  .nc-tabs [role="tab"] { padding: .7rem 1rem; }
+  .nc-tabs .nc-sum { display: none; }
+  .nc-panel .nc-refine { grid-template-columns: 1fr; }
+  /* date on its own line; the time and "Right now" share the next */
+  .nc-whenline { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: .5rem .8rem; }
+  .nc-whenline .nc-date { grid-column: 1 / -1; justify-self: start; }
+  #sky .nc-whenline #nsNow { justify-self: end; }
+  .nc-slider { margin-top: .5rem; }
+}
+@media (max-width: 760px) {
+  #sky .nc-whenline #nsTimeLabel { grid-column: 1; }
+  #sky .nc-whenline #nsNow { grid-column: 2; }
+}
+
+/* Constellations with photographs: brighter name and a small count */
+.ns-con.has { fill: rgba(233,228,216,.95); }
+.ns-con .ns-count { font: 400 .78em var(--mono); fill: #a9c6f0; font-style: normal; letter-spacing: 0; }
+.ns-chart svg.sparse .ns-con .ns-count { font-size: .72em; }
+/* View buttons: three longer labels; on narrow screens they share the width */
+@media (max-width: 760px) { .nc-view .ns-seg button { padding-left: .4rem; padding-right: .4rem; white-space: normal; line-height: 1.15; } }
+.nl-n { display: block; font: .72rem/1.4 var(--mono); color: #a9c6f0; letter-spacing: .02em; }
+
+/* Sign-up card lines up with the page content instead of running edge to edge */
+.signup { box-sizing: border-box; width: min(calc(var(--wide) - 2 * var(--gutter)), calc(100% - 2 * var(--gutter))); margin-left: auto; margin-right: auto; }
+@media (max-width: 380px) { .nc-act { flex-basis: 100%; } }
+/* Spacing between the page, the sign-up card and the footer */
+main { padding-bottom: 0; }
+.signup { margin-bottom: clamp(1.5rem, 3vw, 2.25rem); }
+/* Sky settings: When and View sit side by side only when there's room for the time slider */
+@media (max-width: 980px) {
+  .nc-main { grid-template-columns: minmax(0, 1fr); }
+  .nc-main > .nc-cell + .nc-cell { border-left: 0; border-top: 1px solid var(--rule); }
+  .nc-main > .nc-cell[hidden] + .nc-cell { border-top: 0; }
+}
+/* Night vision and Share: a quiet row at the foot of the settings panel */
+#sky .nc-actions { margin: 0; padding: .9rem 1.3rem; border-top: 1px solid var(--rule); justify-content: flex-end; }
+@media (max-width: 760px) { #sky .nc-actions { padding: .8rem 1rem; } }
+@media (max-width: 760px) { .nc-view .ns-seg button { text-align: center; display: inline-flex; align-items: center; justify-content: center; } }
+/* Legend pills: the check circle sits as far from the left edge as from the top and bottom */
+#sky .ns-legend button { padding: .45rem .9rem .45rem .68rem; }

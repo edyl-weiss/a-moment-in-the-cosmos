@@ -2,42 +2,10 @@
   <div class="section-head">
     <div>
       <h2 id="skyHead">Tonight’s sky</h2>
-      <p id="skyNote">Look up. This is the sky above you tonight, and every marker is a place someone once pointed a telescope. Tap a constellation to visit it, or a marker to look closer</p>
+      <p id="skyNote">Look up. This is the sky above you tonight. Tap a constellation to see what telescopes have found there</p>
     </div>
   </div>
 
-  <div class="ns-controls">
-    <div class="ns-group">
-      <span class="ns-label" id="nsHemiLabel">Sky</span>
-      <div class="ns-hemi ns-seg" role="group" aria-labelledby="nsHemiLabel">
-        <button type="button" data-hemi="T" aria-pressed="false">Above me</button>
-        <button type="button" data-hemi="N" aria-pressed="false">Northern</button>
-        <button type="button" data-hemi="S" aria-pressed="false">Southern</button>
-      </div>
-    </div>
-    <div class="ns-group">
-      <span class="ns-label" id="nsShowLabel">Show</span>
-      <div class="ns-legend" id="nsLegend" role="group" aria-labelledby="nsShowLabel"></div>
-    </div>
-    <div class="ns-group">
-      <label class="ns-label" for="nsOrg">From</label>
-      <select id="nsOrg" class="ns-select"></select>
-    </div>
-    <div class="ns-group ns-timerow" id="nsTimeRow" hidden>
-      <label class="ns-label" for="nsTime">Time tonight</label>
-      <div class="ns-time">
-        <span class="ns-tick">6 pm</span>
-        <input type="range" id="nsTime" min="0" max="720" step="10" aria-describedby="nsTimeLabel">
-        <span class="ns-tick">6 am</span>
-        <output id="nsTimeLabel" for="nsTime"></output>
-        <button type="button" id="nsNow" hidden>Back to now</button>
-      </div>
-    </div>
-    <details class="ns-more">
-      <summary>Chart options</summary>
-      <div class="ns-layers" id="nsLayers" role="group" aria-label="Show on the chart"></div>
-    </details>
-  </div>
   <p class="ns-status" id="nsStatus" aria-live="polite"></p>
 
   <div class="ns-layout">
@@ -48,10 +16,68 @@
         <button type="button" id="nsOut" aria-label="Zoom out" title="Zoom out">−</button>
         <button type="button" id="nsReset" aria-label="Show the whole sky" title="Whole sky">⤢</button>
       </div>
-      <p class="ns-hint" id="nsHint"><span class="fine">Scroll to zoom · drag to look around · click a constellation to visit it</span><span class="coarse">Pinch to zoom · drag to look around · tap a constellation to visit it</span></p>
+      <p class="ns-hint" id="nsHint"><span class="fine">Scroll to zoom · drag to look around · click a constellation to explore it</span><span class="coarse">Pinch to zoom · drag to look around · tap a constellation to explore it</span></p>
       <div class="ns-tip" id="nsTip" role="status" hidden></div>
     </div>
     <aside class="ns-panel" id="nsPanel" aria-live="polite" hidden></aside>
+  </div>
+  <div class="ns-console" aria-label="Chart settings">
+    <p class="nc-tonight" id="nsTonight" aria-live="polite" hidden></p>
+    <div class="nc-main">
+      <fieldset class="nc-cell nc-when ns-timerow" id="nsTimeRow" hidden>
+        <legend class="nc-k">When</legend>
+        <div class="nc-whenline">
+          <label class="sr-only" for="nsDate">Date</label>
+          <input type="date" id="nsDate" class="nc-date">
+          <output id="nsTimeLabel" for="nsTime"></output>
+          <button type="button" id="nsNow" hidden>Back to now</button>
+        </div>
+        <div class="nc-slider">
+          <span class="nc-tick" aria-hidden="true">6 pm</span>
+          <label class="sr-only" for="nsTime">Time of night</label>
+          <input type="range" id="nsTime" min="0" max="720" step="10" aria-describedby="nsTimeLabel">
+          <span class="nc-tick" aria-hidden="true">6 am</span>
+        </div>
+      </fieldset>
+      <fieldset class="nc-cell nc-view">
+        <legend class="nc-k" id="nsHemiLabel">View</legend>
+        <div class="ns-hemi ns-seg" role="group" aria-labelledby="nsHemiLabel">
+          <button type="button" data-hemi="T" aria-pressed="false">Above me</button>
+          <button type="button" data-hemi="N" aria-pressed="false">Whole northern</button>
+          <button type="button" data-hemi="S" aria-pressed="false">Whole southern</button>
+        </div>
+        <form class="nc-find" id="nsFindForm" role="search">
+          <label class="sr-only" for="nsFind">Find a constellation, planet or the Moon</label>
+          <svg class="nc-find-icon" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.6"/><path d="M10.4 10.4L14 14"/></svg>
+          <input type="search" id="nsFind" list="nsFindList" placeholder="Search the sky" autocomplete="off" enterkeyhint="search">
+          <datalist id="nsFindList"></datalist>
+        </form>
+        <p class="nc-find-msg" id="nsFindMsg" aria-live="polite"></p>
+      </fieldset>
+    </div>
+    <div class="nc-tabs" role="tablist" aria-label="More about the chart">
+      <button type="button" role="tab" id="ncTabList" aria-selected="false" aria-expanded="false" aria-controls="ncPanelList" tabindex="0"><span class="nc-k">In words</span><span class="nc-sum" id="nsListSum">Everything above the horizon</span></button>
+      <button type="button" role="tab" id="ncTabRefine" aria-selected="false" aria-expanded="false" aria-controls="ncPanelRefine" tabindex="-1"><span class="nc-k">Refine</span><span class="nc-sum">Photograph types and layers</span></button>
+    </div>
+    <div class="nc-panel" role="tabpanel" id="ncPanelList" aria-labelledby="ncTabList" hidden>
+      <div class="nl" id="nsList"></div>
+    </div>
+    <div class="nc-panel" role="tabpanel" id="ncPanelRefine" aria-labelledby="ncTabRefine" hidden>
+      <div class="nc-refine">
+        <fieldset class="nc-cell">
+          <legend class="nc-k" id="nsShowLabel">Photographs</legend>
+          <div class="ns-legend" id="nsLegend" role="group" aria-labelledby="nsShowLabel"></div>
+        </fieldset>
+        <fieldset class="nc-cell">
+          <legend class="nc-k">Layers</legend>
+          <div class="ns-layers" id="nsLayers" role="group" aria-label="Show on the chart"></div>
+        </fieldset>
+      </div>
+    </div>
+    <div class="nc-actions">
+      <button type="button" class="nc-act" id="nsNight" aria-pressed="false"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M12.8 10.2A5.6 5.6 0 0 1 5.8 3.2a5.6 5.6 0 1 0 7 7z"/></svg><span>Night vision</span></button>
+      <button type="button" class="nc-act" id="nsShare"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 10V2.5M5 5.2L8 2.3l3 2.9M3.5 8.5v5h9v-5"/></svg><span class="nc-act-label">Share this view</span></button>
+    </div>
   </div>
   <p class="ns-foot" id="nsFoot"></p>
   <dialog class="nsp" id="nsPreview" aria-labelledby="nspTitle">
