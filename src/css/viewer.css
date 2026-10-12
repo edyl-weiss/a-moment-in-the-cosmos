@@ -10,7 +10,7 @@ dialog#viewer::backdrop{background:#000}
 .vbar.bottom{bottom:0;justify-content:space-between;flex-wrap:wrap;background:linear-gradient(transparent,rgba(0,0,0,.75));padding-bottom:calc(10px + env(safe-area-inset-bottom))}
 .vbar button{color:#fff;text-decoration-color:rgba(255,255,255,.35);text-shadow:0 0 4px #000}
 .vbar #vZoomOut,.vbar #vZoomIn{font:400 1.2rem var(--mono);text-decoration:none;min-width:28px;justify-content:center}
-.vcredit{font:400 .74rem/1.5 var(--mono);color:#d5d0c4;max-width:70ch}
-.vstatus{font:400 .72rem var(--mono);color:#a9a397}
+.vcredit{font:400 .829rem/1.5 var(--mono);color:#d5d0c4;max-width:70ch}
+.vstatus{font:400 .806rem var(--mono);color:#a9a397}
 .vgroup{display:flex;gap:0 18px;flex-wrap:wrap;align-items:center}
 .vsurface img.flying{transition:transform .9s cubic-bezier(.3,.1,.2,1)}

@@ -23,16 +23,13 @@ import { refreshSky } from './nightsky.js';
 import { renderLoved } from './reactions.js';
 import { initPlay } from './play.js';
 import './passport.js';
-import { SCHEDULE } from '../data/schedule.js';
 
 const issue = todayIndex();
 $('#issueNo').textContent = `No. ${(issue + 1).toLocaleString('en')}`;
 $('#issueDate').textContent = dateOf(issue).toLocaleDateString('en-GB', { timeZone: 'UTC', weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
 new ResizeObserver(fitFrame).observe($('#stage'));
-$('#cycleLen').textContent = (SCHEDULE.categoryOrder.length * Math.min(...Object.values(SCHEDULE.order).map((a) => a.length))).toLocaleString('en');
 await loadIndex();
 refreshSky();
-$('#collectionCount').textContent = INDEX.length.toLocaleString('en');
 scheduleRollover();
 initArchiveSearch();
 renderArchive();

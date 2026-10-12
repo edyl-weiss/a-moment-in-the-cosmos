@@ -40,7 +40,7 @@ function eventHtml(e, i) {
         `<button type="button" data-ev="${i}" data-photo="${j}">${esc(INDEX_BY_ID[id].title)}</button> ${RELATION[rel] ? `<span class="rel">${RELATION[rel]}</span>` : ''}`).join('<br>')}</p>`
     : '';
   const obj = objectOf(e.text);
-  const find = obj ? `<p class="ev-find"><button type="button" data-find="${esc(obj[0])}">All photographs of ${esc(obj[0])}</button> <span class="rel">${obj[1]} photographs</span></p>` : '';
+  const find = obj ? `<p class="ev-find"><button type="button" data-find="${esc(obj[0])}">All photographs of ${esc(obj[0])}</button> <span class="rel">${obj[1]} photograph${obj[1] === 1 ? '' : 's'}</span></p>` : '';
   return `<li><span class="yr">${year(e.year)}</span><div><p>${esc(e.text)}</p>` +
     `<p class="ev-src"><a href="${esc(e.source[1])}" target="_blank" rel="noopener">${esc(e.source[0])}</a></p>${links}${find}</div></li>`;
 }
@@ -50,7 +50,7 @@ function render() {
   $('#otdMonth').value = String(month);
   fillDays();
   $('#otdDay').value = String(day);
-  $('#otdDateText').textContent = label(month, day);
+
   $('#otdBig').textContent = label(month, day);
 
   const events = $('#otdEvents');

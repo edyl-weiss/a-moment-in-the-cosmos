@@ -3,7 +3,7 @@
 .masthead-row{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:6px 24px}
 .masthead-row + .masthead-row{border-top:1px solid var(--rule);margin-top:14px;padding:8px 0 0}
 .masthead h1{margin:0;font:300 clamp(2.2rem,6vw,4.4rem)/1 var(--serif);letter-spacing:-.02em}
-.issue{margin:0;display:flex;gap:18px;font-size:.8rem;color:var(--ink-2)}
+.issue{margin:0;display:flex;gap:18px;font-size:.896rem;color:var(--ink-2)}
 .motto{margin:0;font-style:italic;color:var(--ink-2);font-size:1rem}
 nav.site-nav ul{list-style:none;margin:0;padding:0;display:flex;gap:22px;flex-wrap:wrap}
 nav.site-nav a{text-decoration:none;font-size:1rem}

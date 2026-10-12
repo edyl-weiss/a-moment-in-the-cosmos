@@ -116,12 +116,29 @@ const loadSky = () => SKY || (SKY = fetch('data/sky.json').then((r) => r.json())
 const hash = (s) => [...s].reduce((a, c) => (a * 31 + c.charCodeAt(0)) >>> 0, 7);
 
 // The constellation's stick figure, flattened around its center and fitted inside the stamp.
+let STAR_GRID = null;
+// The brightness (magnitude) of the catalog star at a line's corner, so brighter stars press in deeper.
+function magAt(sky, lon, lat) {
+  if (!STAR_GRID) { STAR_GRID = new Map(); for (const [ra, dec, m] of sky.stars) { const key = `${Math.round(ra)},${Math.round(dec)}`; (STAR_GRID.get(key) || STAR_GRID.set(key, []).get(key)).push([ra, dec, m]); } }
+  const ra = ((lon % 360) + 360) % 360; let best = null, bd = 0.6;
+  for (let i = -1; i <= 1; i++) for (let j = -1; j <= 1; j++) {
+    for (const [r, d, m] of STAR_GRID.get(`${(Math.round(ra) + i + 360) % 360},${Math.round(lat) + j}`) || []) {
+      const dd = Math.hypot(((r - ra + 540) % 360 - 180) * Math.cos(lat * Math.PI / 180), d - lat);
+      if (dd < bd) { bd = dd; best = m; }
+    }
+  }
+  return best ?? 4.5;
+}
+
+// The constellation's stick figure, flattened around its center and fitted inside the stamp. Each corner of the
+// figure is a star; it comes back with its magnitude so the seal can size it.
 function figure(k, sky) {
   const parts = k === 'Ser' ? [sky.con.Ser1, sky.con.Ser2] : [sky.con[k]];
   const [lon0, lat0] = parts.length > 1 ? [(parts[0].c[0] + parts[1].c[0]) / 2, (parts[0].c[1] + parts[1].c[1]) / 2] : parts[0].c;
   const cos = Math.cos(lat0 * Math.PI / 180);
   const P = ([lon, lat]) => [-(((lon - lon0 + 540) % 360) - 180) * cos, -(lat - lat0)];
-  let lines = parts.flatMap((c) => (c.l?.length ? c.l : [c.b]).map((l) => l.map(P)));
+  const raw = parts.flatMap((c) => (c.l?.length ? c.l : [c.b]));
+  let lines = raw.map((l) => l.map(P));
   const pts = lines.flat();
   const xs = pts.map((p) => p[0]), ys = pts.map((p) => p[1]);
   const cx = (Math.min(...xs) + Math.max(...xs)) / 2, cy = (Math.min(...ys) + Math.max(...ys)) / 2;
@@ -129,7 +146,10 @@ function figure(k, sky) {
   const s = 46 / span;
   lines = lines.map((l) => l.map(([x, y]) => [50 + (x - cx) * s, 50 + (y - cy) * s]));
   const seen = new Set(), stars = [];
-  for (const [x, y] of lines.flat()) { const key = `${x.toFixed(0)},${y.toFixed(0)}`; if (!seen.has(key)) { seen.add(key); stars.push([x, y]); } }
+  lines.forEach((l, li) => l.forEach(([x, y], pi) => {
+    const key = `${x.toFixed(0)},${y.toFixed(0)}`;
+    if (!seen.has(key)) { seen.add(key); stars.push([x, y, sky.stars ? magAt(sky, ...raw[li][pi]) : 3]); }
+  }));
   return { lines, pts: stars };
 }
 
@@ -152,78 +172,68 @@ function sketch(lines, r, amp = 1.1, passes = 2) {
 }
 // a closed outline from a function of the angle, with a little overshoot where the pencil comes round again
 const loop = (rad, n = 48) => { const pts = []; for (let i = 0; i <= n + 3; i++) { const a = (i / n) * Math.PI * 2 - Math.PI / 2; const r = rad(a); pts.push([50 + r * Math.cos(a), 50 + r * Math.sin(a)]); } return pts; };
-// crayon colouring: loose, slightly curved strokes back and forth across the shape
-function scribble(r, box = [6, 6, 94, 94], gap = 2.6) {
-  const [x0, y0, x1, y1] = box, ang = (-32 + r() * 18) * Math.PI / 180, cx = (x0 + x1) / 2, cy = (y0 + y1) / 2;
-  const L = Math.hypot(x1 - x0, y1 - y0) / 2 + 4, ca = Math.cos(ang), sa = Math.sin(ang);
-  const T = (u, v) => `${f1(cx + u * ca - v * sa)} ${f1(cy + u * sa + v * ca)}`;
-  let d = '';
-  for (let v = -L; v <= L; v += gap * (0.8 + r() * 0.45)) {
-    const a = -L - r() * 3, b = L + r() * 3, bow = (r() - 0.5) * 3;
-    d += `M${T(a, v)}Q${T(0, v + bow)} ${T(b, v + (r() - 0.5) * 1.5)}`;
-  }
-  return d;
-}
-// a little doodled five-pointed star
-function doodleStar(x, y, rad, r) {
-  const pts = [];
-  for (let i = 0; i <= 10; i++) { const a = (i / 10) * Math.PI * 2 - Math.PI / 2 + (r() - 0.5) * 0.18; const q = (i % 2 ? rad * 0.46 : rad) * (0.9 + r() * 0.2); pts.push(`${f1(x + q * Math.cos(a))} ${f1(y + q * Math.sin(a))}`); }
-  return `<path class="pp-sp" d="M${pts.join('L')}Z"/>`;
-}
-
-// Stamps come in four shapes, each in a soft pastel crayon: a postage stamp with a perforated edge, a scalloped
-// flower, a little cloud and a round badge with a wavy rim. A ribbon carries the name.
-const SHAPES = {
-  postage: (r) => {
-    const w = () => (r() - 0.5) * 1.6;
-    const box = [[9 + w(), 9 + w()], [91 + w(), 9 + w()], [91 + w(), 91 + w()], [9 + w(), 91 + w()]];
-    let holes = '';
-    for (let i = 0; i <= 8; i++) { const p = 12 + i * 9.5; holes += `<circle cx="${f1(p + w() / 2)}" cy="9" r="2.5"/><circle cx="${f1(p + w() / 2)}" cy="91" r="2.5"/><circle cx="9" cy="${f1(p + w() / 2)}" r="2.5"/><circle cx="91" cy="${f1(p + w() / 2)}" r="2.5"/>`; }
-    return { outline: [[...box, box[0], [box[1][0] - 3, box[1][1] + 0.6]]], inner: [[[16, 16.5], [84, 15.5], [84.5, 84], [15.5, 84.5], [16, 16.5]]], holes };
-  },
-  flower: () => ({ outline: [loop((a) => 41 + 6 * Math.abs(Math.cos(a * 8)), 96)], inner: [loop(() => 34, 40)] }),
-  cloud: () => ({ outline: [loop((a) => 34 + 6 * Math.abs(Math.sin(a * 2.5 + 0.4)) + 4 * Math.sin(a) , 72)], inner: [] }),
-  badge: () => ({ outline: [loop((a) => 44 + 2.4 * Math.sin(a * 12), 120)], inner: [loop(() => 36, 40)] })
-};
-const SHAPE_NAMES = Object.keys(SHAPES);
-const PASTELS = ['#ffb3c1', '#a9c6f0', '#ffd98a', '#b8e0c8', '#d9c2f0', '#ffc8a2'];
 const cap = (t) => t.replace(/\b\w/g, (c) => c.toUpperCase());
 const nickname = (k) => { const a = (CON_ALIASES[k === 'Ser' ? 'Ser1' : k] || [])[0]; return a && a.toLowerCase() !== NAME(k).toLowerCase() ? `the ${cap(a).replace(/^The /, '')}` : ''; };
 const closed = (l) => `M${l.map(([x, y]) => `${f1(x)} ${f1(y)}`).join('L')}Z`;
 
+// Wax colors for the seals: deep, slightly dusty tones that read as real sealing wax.
+const WAX = ['#a4282f', '#2d4a86', '#b8841f', '#2f6a4f', '#6a3a88', '#bf5a26', '#8a2f55', '#1f6470'];
+// The outline of a blob of melted wax: round, but lumpy, with a few spills where it ran out from under the seal.
+function waxBlob(r) {
+  const ph = [r() * 6.3, r() * 6.3, r() * 6.3];
+  const spills = Array.from({ length: 2 + Math.floor(r() * 3) }, () => [r() * Math.PI * 2, 2.5 + r() * 3.5, 0.18 + r() * 0.22]);
+  const pts = [];
+  for (let i = 0; i < 120; i++) {
+    const a = (i / 120) * Math.PI * 2;
+    let rad = 40 + 1.4 * Math.sin(3 * a + ph[0]) + 0.9 * Math.sin(5 * a + ph[1]) + 0.5 * Math.sin(11 * a + ph[2]);
+    for (const [c, h, w] of spills) { const d = Math.atan2(Math.sin(a - c), Math.cos(a - c)); rad += h * Math.exp(-(d * d) / (2 * w * w)); }
+    pts.push([50 + rad * Math.cos(a), 50 + rad * Math.sin(a)]);
+  }
+  return closed(pts);
+}
+
 function stampHtml(k, sky) {
   const st = book.stamps[k];
-  const h = hash(k), ink = PASTELS[h % PASTELS.length], tilt = ((h % 15) - 7) * 1.1;
+  const h = hash(k), wax = WAX[h % WAX.length], tilt = ((h % 15) - 7) * 1.4;
   const r = rng(h);
-  const shape = SHAPES[SHAPE_NAMES[(h >> 3) % SHAPE_NAMES.length]](r);
   const { lines, pts } = figure(k, sky);
   const name = NAME(k);
   const fresh = st && !book.seen?.[k];
   const nick = nickname(k);
   const id = `pp${k}`;
   const label = st ? `${name}${nick ? `, ${nick}` : ''}, stamped ${short(st.date)} from ${VIA[st.via] || 'the site'}` : `${name}, not stamped yet`;
-  const ribbon = [[10, 70.5], [90, 69.5], [85.5, 78], [90, 86.5], [10, 86], [14.5, 78], [10, 70.5]];
-  const stars = pts.map(([x, y], i) => (st ? doodleStar(x, y, i % 3 ? 3.2 : 4.2, r) : `<circle cx="${f1(x)}" cy="${f1(y)}" r="1.3"/>`)).join('');
-  const twinkles = st ? [[18 + (h % 7), 22], [80 - (h % 5), 26], [84, 70 - (h % 9)]].map(([x, y], i) => doodleStar(x, y, i === 1 ? 4.2 : 3, r)).join('') : '';
-  const fs = name.length > 14 ? 7.6 : name.length > 10 ? 9 : 10.5;
-  const body = closed(shape.outline[0]);
-  return `<li><button type="button" class="pp-stamp${st ? ' on' : ''}${fresh ? ' fresh' : ''}" data-con="${k}" aria-label="${esc(label)}. Show it on Tonight’s sky" style="--stamp:${ink};--tilt:${st ? tilt : 0}deg">
-    <svg viewBox="0 0 100 100" aria-hidden="true">
-      <defs><clipPath id="${id}s"><path d="${body}"/></clipPath><clipPath id="${id}r"><path d="${closed(ribbon)}"/></clipPath></defs>
+  // the figure, pressed into the middle of the seal
+  const fig = (cls) => `<g class="${cls}" transform="translate(50 61) scale(.52) translate(-50 -50)"><path d="${lines.map((l) => `M${l.map(([x, y]) => `${f1(x)} ${f1(y)}`).join('L')}`).join('')}"/>${pts.map(([x, y, m]) => `<circle cx="${f1(x)}" cy="${f1(y)}" r="${f1(Math.max(1.9, Math.min(4.6, 4.1 - 0.55 * m)))}"/>`).join('')}</g>`;
+  // the name runs around the rim, as on a real seal
+  const fs = name.length > 13 ? 5.1 : name.length > 9 ? 5.9 : 6.8;
+  const rim = `<path id="${id}t" d="M27.5 58a22.5 22.5 0 0 1 45 0" fill="none"/>`;
+  const text = (cls, dx = 0, dy = 0) => `<text class="${cls}" style="font-size:${fs}px" ${dx || dy ? `transform="translate(${dx} ${dy})"` : ''}><textPath href="#${id}t" startOffset="50%" text-anchor="middle">${esc(name.toUpperCase())}</textPath></text>`;
+  const svg = st
+    ? `<defs>
+        <radialGradient id="${id}g" cx="36%" cy="30%" r="78%"><stop offset="0" class="w-hi"/><stop offset=".55" class="w-mid"/><stop offset="1" class="w-lo"/></radialGradient>
+        <linearGradient id="${id}d" x1="0" y1="0" x2="1" y2="1"><stop offset="0" class="w-lo"/><stop offset="1" class="w-mid"/></linearGradient>
+        <linearGradient id="${id}f" x1=".2" y1=".1" x2=".8" y2=".95"><stop offset="0" class="f-a"/><stop offset="1" class="f-b"/></linearGradient>
+        ${rim}
+      </defs>
+      <g class="pp-wax" filter="url(#ppWax)">
+        <path class="w-blob" d="${waxBlob(r)}" fill="url(#${id}g)"/>
+        <circle class="w-well" cx="50" cy="54" r="28" fill="url(#${id}d)"/>
+        <circle class="w-lip" cx="50" cy="54" r="28"/>
+        <circle class="w-face" cx="50" cy="54" r="27.2" fill="url(#${id}f)"/>
+        ${fig('w-fig hi')}${fig('w-fig')}
+        ${text('w-name hi', 0.35, 0.45)}${text('w-name')}
+      </g>`
+    : `<defs>${rim}</defs>
       <g class="pp-draw">
-        ${st ? `<path class="pp-wash" d="${body}"/><path class="pp-crayon" clip-path="url(#${id}s)" d="${scribble(r)}"/>` : ''}
-        ${shape.holes ? `<g class="pp-holes">${shape.holes}</g>` : ''}
-        <path class="pp-shape" d="${sketch(shape.outline, r, 1.4)}"/>
-        ${shape.inner.length ? `<path class="pp-inner" d="${sketch(shape.inner, r, 1, 1)}"/>` : ''}
-        <g class="pp-fig" transform="translate(50 45) scale(.62) translate(-50 -50)"><path d="${sketch(lines, r, 1.6)}"/>${stars}</g>
-        ${twinkles}
-        ${st ? `<path class="pp-wash rib" d="${closed(ribbon)}"/><path class="pp-crayon rib" clip-path="url(#${id}r)" d="${scribble(r, [8, 68, 92, 88], 2.4)}"/>` : ''}
-        <path class="pp-rib" d="${sketch([ribbon], r, 1.1)}"/>
+        <path class="pp-ghost" d="${sketch([loop(() => 38, 60)], r, 1.2)}"/>
+        <path class="pp-ghost thin" d="${sketch([loop(() => 28, 48).map(([x, y]) => [x, y + 4])], r, 0.8, 1)}"/>
+        ${fig('pp-ghost-fig')}
       </g>
-      <text class="pp-label" x="50" y="81.4" text-anchor="middle" style="font-size:${fs}px">${esc(name)}</text>
-    </svg>
+      ${text('pp-ghost-name')}`;
+  return `<li><button type="button" class="pp-stamp${st ? ' on' : ''}${fresh ? ' fresh' : ''}" data-con="${k}" aria-label="${esc(label)}. Show it on Tonight’s sky" style="--stamp:${wax};--tilt:${st ? tilt : 0}deg">
+    <svg viewBox="0 0 100 100" aria-hidden="true">${svg}</svg>
     <span class="pp-nick">${esc(nick || ' ')}</span>
-    <span class="pp-when">${st ? esc(short(st.date)) : 'not yet'}</span></button></li>`;
+    <span class="pp-when">${st ? esc(short(st.date)) : ''}</span></button></li>`;
 }
 
 const ICONS = {
