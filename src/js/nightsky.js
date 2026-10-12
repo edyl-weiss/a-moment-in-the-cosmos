@@ -402,11 +402,10 @@ function renderClusters() {
       return `<g class="ns-dot" data-id="${esc(e.id)}" data-cat="${e.cat}" data-x="${x.toFixed(1)}" data-y="${y.toFixed(1)}" style="color:${COLORS[e.cat] || '#ddd'}" tabindex="0" role="button" aria-label="${esc(e.title)}"><circle class="d-hit" r="2.1"/><use href="#nsSym-${e.cat}"/></g>`;
     }
     const x = m.reduce((a, d) => a + d.x, 0) / m.length, y = m.reduce((a, d) => a + d.y, 0) / m.length;
-    const objects = new Set(m.map((d) => d.obj)).size;
-    // photographs of the same object sit together in the list
+    // one count: everything under this marker (photographs of the same object still sit together in the list)
     const ids = [...m].sort((a, b) => a.obj - b.obj).map((d) => esc(d.e.id)).join(' ');
-    const what = `${objects} object${objects === 1 ? '' : 's'}, ${m.length} photographs`;
-    return `<g class="ns-dot ns-cluster" data-ids="${ids}" data-what="${what}" data-x="${x.toFixed(1)}" data-y="${y.toFixed(1)}" tabindex="0" role="button" aria-haspopup="true" aria-label="${what} here. Show the list"><circle class="d-hit" r="2.1"/><use href="#nsSym-group"/><g class="ns-badge" transform="translate(1.3 -1.3)"><circle r="1.25"/><text y=".55">${objects}</text></g></g>`;
+    const what = `${m.length} objects`;
+    return `<g class="ns-dot ns-cluster" data-ids="${ids}" data-what="${what}" data-x="${x.toFixed(1)}" data-y="${y.toFixed(1)}" tabindex="0" role="button" aria-haspopup="true" aria-label="${what} here. Show the list"><circle class="d-hit" r="2.1"/><use href="#nsSym-group"/><g class="ns-badge" transform="translate(1.3 -1.3)"><circle r="1.25"/><text y=".55"${m.length > 99 ? ' class="n3"' : m.length > 9 ? ' class="n2"' : ''}>${m.length}</text></g></g>`;
   }).join('');
   clusteredAt = z;
   applyView();

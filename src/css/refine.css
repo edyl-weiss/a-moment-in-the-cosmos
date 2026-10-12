@@ -1150,3 +1150,4 @@ section { padding-block: clamp(1.2rem, 2.4vw, 2.2rem); }
 .discovery .disc-year a:hover, .discovery .disc-year a:focus-visible { color: var(--ink); border-bottom-color: currentColor; }
 .disc-sep { color: var(--ink-3); }
 .name-note + .discovery, .discovery + .scale { margin-top: 1em; }
+.ns-badge text.n2 { font-size: 1.3px; letter-spacing: -.04px; } .ns-badge text.n3 { font-size: 1.02px; letter-spacing: -.04px; }
