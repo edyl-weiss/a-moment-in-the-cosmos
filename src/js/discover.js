@@ -20,6 +20,8 @@ export function showToday() {
 $$('[data-random]').forEach((b) => b.addEventListener('click', () => {
   const cats = Object.keys(CAT);
   const cat = b.dataset.random === 'surprise' ? cats[Math.floor(Math.random() * cats.length)] : b.dataset.random;
+  if (b.dataset.random === 'surprise') document.dispatchEvent(new CustomEvent('seal:surprise'));
+  else document.dispatchEvent(new CustomEvent('seal:warp', { detail: { cat } }));
   const id = randomIn(cat);
   if (id) { show(id, { mode: 'random' }); scrollToFeature(); }
 }));
@@ -34,6 +36,7 @@ function prevDay() {
   return d > 0 ? d - 1 : null;
 }
 $('#prevBtn').addEventListener('click', () => {
+  document.dispatchEvent(new CustomEvent('seal:prev'));
   if (!onDay() && state.history.length) back();
   else {
     const d = prevDay();

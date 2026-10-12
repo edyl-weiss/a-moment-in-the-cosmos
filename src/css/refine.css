@@ -1215,3 +1215,50 @@ section { padding-block: clamp(1.2rem, 2.4vw, 2.2rem); }
 .pp-wax .w-name { font-weight: 700; fill: color-mix(in srgb, var(--stamp) 15%, #000); } .pp-wax .w-name.hi { fill: color-mix(in srgb, var(--stamp) 35%, #fff3e0); fill-opacity: .85; } .pp-ghost-name { fill: rgba(233,228,216,.55); }
 .pp-wax .w-fig.hi { transform: translate(50.5px, 59.6px) scale(.54) translate(-50px, -50px); }
 .pp-wax .w-fig.hi { transform: translate(50.5px, 61.6px) scale(.52) translate(-50px, -50px); }
+/* puffier seal: a thick raised rim with light catching its inner edge, and a deep, shadowed well */
+.pp-stamp .rh-a { stop-color: #fff3e0; stop-opacity: 0; }
+.pp-stamp .rh-b { stop-color: #fff3e0; stop-opacity: .55; }
+.pp-stamp .ws-a { stop-color: #000; stop-opacity: .7; }
+.pp-stamp .ws-b { stop-color: #000; stop-opacity: 0; }
+.pp-wax .w-rimhi { fill: none; stroke-width: 2.4; }
+.pp-wax .w-shade { fill: none; stroke-width: 6; }
+.pp-wax .w-lip { fill: none; stroke: color-mix(in srgb, var(--stamp) 30%, #000); stroke-opacity: .8; stroke-width: 1; }
+.pp-wax .w-face { stroke: none; }
+.pp-wax .w-scallop { fill: none; stroke: color-mix(in srgb, var(--stamp) 22%, #000); stroke-width: .7; stroke-opacity: .8; }
+.pp-wax .w-scallop.hi { stroke: color-mix(in srgb, var(--stamp) 40%, #fff3e0); stroke-opacity: .55; }
+/* Seals (milestones): wax seals with the emblem pressed in */
+.pp-sticker.on .pp-sticker-badge { border: 0; background: none; box-shadow: none; width: 5rem; height: 5rem; margin: -.5rem; transform: rotate(var(--tilt)); }
+.pp-sticker.on .pp-sticker-badge svg.pp-seal { width: 100%; height: 100%; filter: drop-shadow(0 3px 4px rgba(0,0,0,.5)); }
+.pp-seal .w-icon { color: color-mix(in srgb, var(--stamp) 16%, #000); fill: currentColor; stroke: currentColor; stroke-width: 1.3; stroke-linecap: round; stroke-linejoin: round; }
+.pp-seal .w-icon.hi { color: color-mix(in srgb, var(--stamp) 38%, #fff3e0); opacity: .75; }
+.pp-sticker-badge svg.pp-seal { stroke: none; fill: none; }
+.pp-seal .w-hi { stop-color: color-mix(in srgb, var(--stamp) 78%, #fff1dc); }
+.pp-seal .w-mid { stop-color: var(--stamp); }
+.pp-seal .w-lo { stop-color: color-mix(in srgb, var(--stamp) 52%, #000); }
+.pp-seal .f-a { stop-color: color-mix(in srgb, var(--stamp) 38%, #000); }
+.pp-seal .f-b { stop-color: color-mix(in srgb, var(--stamp) 82%, #000); }
+.pp-seal .rh-a { stop-color: #fff3e0; stop-opacity: 0; }
+.pp-seal .rh-b { stop-color: #fff3e0; stop-opacity: .55; }
+.pp-seal .ws-a { stop-color: #000; stop-opacity: .7; }
+.pp-seal .ws-b { stop-color: #000; stop-opacity: 0; }
+.pp-seal .w-icon { stroke-width: 1.15; }
+/* passport pages fold on phones: the heading is the toggle */
+summary.pp-page-head { list-style: none; cursor: default; }
+summary.pp-page-head::-webkit-details-marker { display: none; }
+details.pp-page:not([open]) > summary.pp-page-head { margin-bottom: 0; }
+@media (max-width: 600px) {
+  summary.pp-page-head { cursor: pointer; padding-right: 2rem; }
+  summary.pp-page-head::after { content: ''; position: absolute; right: .2rem; top: .55rem; width: .6rem; height: .6rem;
+    border-right: 1.5px solid var(--ink-2); border-bottom: 1.5px solid var(--ink-2); transform: rotate(45deg); transition: transform .25s; }
+  details.pp-page[open] > summary.pp-page-head::after { transform: rotate(-135deg); top: .85rem; }
+  .pp-book { gap: 1.2rem; }
+}
+@media (min-width: 601px) { summary.pp-page-head { pointer-events: none; } }
+/* glossier wax: a soft streak and a bright point of light on the raised rim */
+.pp-seal .w-gloss { fill: none; stroke: #fff; stroke-width: 2.6; stroke-linecap: round; opacity: .38; }
+.pp-seal .w-gloss-dot { fill: #fff; opacity: .7; }
+.pp-seal .w-hi { stop-color: color-mix(in srgb, var(--stamp) 70%, #fff1dc); }
+.pp-seal .w-lo { stop-color: color-mix(in srgb, var(--stamp) 45%, #000); }
+.pp-seal .w-gloss { fill: none; stroke: #fff; stroke-width: 3.2; stroke-linecap: round; opacity: .42; }
+.pp-seal .w-gloss.thin { stroke-width: .9; opacity: .5; }
+.pp-seal .w-gloss-dot { fill: #fff; opacity: .85; }

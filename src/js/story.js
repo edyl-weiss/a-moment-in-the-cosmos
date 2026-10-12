@@ -66,6 +66,7 @@ document.addEventListener('photo:change', ({ detail: { item, dims } }) => {
   const nm = nameNote(item);
   $('#nameBox').hidden = !nm;
   $('#nameText').textContent = nm ? nm.text : '';
+  if (nm) document.dispatchEvent(new CustomEvent('seal:name', { detail: { key: nm.key } }));
   const disc = nm?.discovery;
   $('#discBox').hidden = !disc;
   $('#discText').textContent = disc ? disc.text : '';

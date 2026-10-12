@@ -111,6 +111,7 @@ function go(m, d, { link = true } = {}) {
   month = m; day = Math.min(d, LENGTH[m]);
   render();
   if (link) setDateHash(key(month, day));
+  document.dispatchEvent(new CustomEvent('seal:otd', { detail: { date: key(month, day) } }));
   say(`On this day: ${label(month, day)}`);
 }
 

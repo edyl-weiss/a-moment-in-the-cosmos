@@ -43,6 +43,7 @@ btn.addEventListener('click', async () => {
   btn.classList.remove('pop'); void btn.offsetWidth; btn.classList.add('pop');
   paint(id, (parseInt(num.textContent, 10) || 0) + 1);       // optimiztic
   say('You said wow');
+  document.dispatchEvent(new CustomEvent('seal:wow'));
   try { const { count } = await api('/api/react', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ id }) }); paint(id, count); }
   catch { /* keep the optimiztic count; it will correct itself next visit */ }
 });

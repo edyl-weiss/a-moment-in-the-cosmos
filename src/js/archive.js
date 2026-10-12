@@ -127,9 +127,9 @@ export function initArchiveSearch() {
   let t;
   $('#archiveQ').addEventListener('input', (e) => {
     clearTimeout(t);
-    t = setTimeout(() => { F.q = e.target.value; F.shown = PAGE; renderArchive(); }, 180);
+    t = setTimeout(() => { F.q = e.target.value; F.shown = PAGE; renderArchive(); document.dispatchEvent(new CustomEvent('seal:search', { detail: { q: F.q } })); }, 600);
   });
-  $('#archiveForm').addEventListener('submit', (e) => { e.preventDefault(); F.q = $('#archiveQ').value; F.shown = PAGE; renderArchive(); });
+  $('#archiveForm').addEventListener('submit', (e) => { e.preventDefault(); F.q = $('#archiveQ').value; document.dispatchEvent(new CustomEvent('seal:search', { detail: { q: F.q } })); F.shown = PAGE; renderArchive(); });
   for (const [sel, key] of [['#archiveCat', 'cat'], ['#archiveOrg', 'org'], ['#archiveTel', 'tel'], ['#archiveCon', 'con']]) {
     $(sel).addEventListener('change', (e) => { F[key] = e.target.value; F.shown = PAGE; renderArchive(); });
   }

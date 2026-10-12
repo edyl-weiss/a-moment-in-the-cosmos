@@ -606,6 +606,7 @@ document.querySelector('.ns-console').addEventListener('click', (e) => {
   if (!b) return;
   layersOn.has(b.dataset.layer) ? layersOn.delete(b.dataset.layer) : layersOn.add(b.dataset.layer);
   applyFilter(); savePrefs();
+  if (!layersOn.has('names') && !layersOn.has('lines')) document.dispatchEvent(new CustomEvent('sky:bare'));
 });
 $('#nsStatus').addEventListener('click', (e) => {
   if (e.target.id !== 'nsClear') return;
@@ -616,7 +617,7 @@ $('#nsStatus').addEventListener('click', (e) => {
 if (store.get('nsHintSeen')) $('#nsHint').hidden = true;
 const quiet = () => { $('#nsHint').classList.add('gone'); store.set('nsHintSeen', true); };
 ['wheel', 'pointerdown', 'keydown'].forEach((t) => chart.addEventListener(t, quiet, { once: true, passive: true }));
-$$('.ns-hemi button').forEach((b) => b.addEventListener('click', () => { mode = b.dataset.hemi; savePrefs(); draw(); }));
+$$('.ns-hemi button').forEach((b) => b.addEventListener('click', () => { mode = b.dataset.hemi; savePrefs(); draw(); document.dispatchEvent(new CustomEvent('sky:hemi', { detail: { mode } })); }));
 
 // Tonight's time: "now", or any time from 6 pm tonight to 6 am tomorrow with the slider.
 // "Tonight" runs from 6 pm to 6 am. In the daytime the slider looks ahead to the coming night
@@ -672,6 +673,7 @@ function unitVec(ra, dec) { return [Math.cos(dec * rad) * Math.cos(ra * rad), Ma
 function drawBodies(at) {
   const moon = moonAt(at);
   bodies = [...planetsAt(at), moon];
+  if (moon.lit >= 0.97 && location.hash === '#sky') document.dispatchEvent(new CustomEvent('sky:fullmoon'));
   let out = '';
   for (const b of bodies) {
     const par = b.id === 'moon' ? b.parallax : 0;
@@ -870,7 +872,11 @@ function openMarkerFor(id) {
   tipFor = id;
 }
 async function go(x) {
+  const typed = normFind($('#nsFind').value || '');
+  document.dispatchEvent(new CustomEvent('seal:search', { detail: { q: $('#nsFind').value || '' } }));
   const data = await loadSky(), msg = $('#nsFindMsg');
+  // found by a nickname ("Big Dipper", "the Hunter") rather than its proper name
+  if (typed && (x.kind === 'asterism' || (x.kind === 'con' && !normFind(x.label).startsWith(typed.slice(0, 3))))) document.dispatchEvent(new CustomEvent('seal:nickname'));
   closeResults();
   $('#nsFind').value = x.label;
   msg.textContent = '';

@@ -51,6 +51,7 @@ $('#favBtn').addEventListener('click', () => {
     say(`Removed ${it.title} from favorites`);
   } else {
     store.set(KEY, [{ id: it.id, title: it.title, cat: it.cat, thumb: it.img.thumb, savedAt: new Date().toISOString() }, ...all()]);
+    document.dispatchEvent(new CustomEvent('favorites:change'));
     say(`Saved ${it.title} to favorites`);
   }
   syncButton();

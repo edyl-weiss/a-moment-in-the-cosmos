@@ -43,6 +43,7 @@ function zoomAt(px, py, s) {
   V.y = py - (py - V.y) * (s / V.s);
   V.s = s;
   apply();
+  if (s >= 4) document.dispatchEvent(new CustomEvent('seal:zoom'));
 }
 const zoomCenter = (factor) => { const [vw, vh] = size(); zoomAt(vw / 2, vh / 2, V.s * factor); };
 

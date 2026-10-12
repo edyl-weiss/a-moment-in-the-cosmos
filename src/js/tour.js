@@ -46,7 +46,7 @@ export function startTour(opener) {
 }
 
 $('#tourPrev').addEventListener('click', () => go(Math.max(0, i - 1)));
-$('#tourNext').addEventListener('click', () => (i < stops.length - 1 ? go(i + 1) : end()));
+$('#tourNext').addEventListener('click', () => (i < stops.length - 1 ? go(i + 1) : (document.dispatchEvent(new CustomEvent('seal:tour')), end())));
 $('#tourEnd').addEventListener('click', end);
 window.addEventListener('keydown', (e) => {
   if (!stops || e.target.closest('input,select,textarea')) return;

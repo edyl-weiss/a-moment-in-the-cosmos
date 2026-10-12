@@ -167,13 +167,16 @@ function tick() {
 }
 setInterval(tick, 60000);
 
+// when today's puzzle first came into view, for the "Quick draw" seal
+let seenAt = 0;
+new IntersectionObserver((es, o) => { if (es.some((x) => x.isIntersecting)) { seenAt = performance.now(); o.disconnect(); } }, { threshold: 0.15 }).observe($('#guessView'));
 function pick(i) {
   const r = record();
   if (r.done || r.picks.includes(i) || i < 0 || i > 3) return;
   r.picks.push(i);
   if (i === puzzle.answer) { r.won = true; r.done = true; } else if (r.picks.length >= TRIES) r.done = true;
   save();
-  if (r.done) { sync(r); tally(r).finally(everyone); document.dispatchEvent(new CustomEvent('guess:done', { detail: { ...r, id: puzzle.id } })); }
+  if (r.done) { sync(r); tally(r).finally(everyone); document.dispatchEvent(new CustomEvent('guess:done', { detail: { ...r, id: puzzle.id, secs: (performance.now() - (seenAt || 0)) / 1000 } })); }
   else $('#guessView').classList.add('nudge');
   setTimeout(() => $('#guessView').classList.remove('nudge'), 500);
   renderGuess();

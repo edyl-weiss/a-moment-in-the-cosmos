@@ -41,6 +41,7 @@ function fit() {
 new ResizeObserver(fit).observe($('#stage'));
 
 async function open() {
+  document.dispatchEvent(new CustomEvent('seal:compare'));
   const c = COMPARISONS[state.item.id], mine = ++token;
   current = c;
   btn.setAttribute('aria-pressed', 'true');
