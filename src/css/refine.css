@@ -1138,3 +1138,4 @@ main { padding-bottom: 0; }
 .pp-stamp.on svg { filter: drop-shadow(0 2px 3px rgba(0,0,0,.35)); }
 .pp-nick { font-family: 'Patrick Hand', var(--serif); font-style: normal; font-size: .92rem; }
 @media (max-width: 600px) { .pp-nick { font-size: .84rem; } }
+.ns-p-note { margin: 0 0 .3rem; font: italic .92rem/1.4 var(--serif); color: #f2c14e; }

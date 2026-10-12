@@ -299,9 +299,20 @@ function applyFilter() {
 }
 function hideTip() { $('#nsTip').hidden = true; selected = null; tipFor = null; $$('#nsChart .ns-dot.on, #nsChart .ns-body.on').forEach((d) => d.classList.remove('on')); }
 // Explore one constellation: highlight it, zoom to it and list the photographs inside it.
-async function focusCon(k, fly = true) {
+async function focusCon(k, fly = true, { anyView = false } = {}) {
   const data = await loadSky(), c = data.con[k];
   if (!c) return;
+  // Opened from elsewhere (the sky passport): if most of it is below the horizon or off this half of the sky,
+  // switch to the whole-sky chart that holds it rather than flying to an empty patch.
+  let note = '';
+  const shown = (m) => { const was = mode; mode = m; const n = c.b.filter((q) => P(q)).length; mode = was; return n / c.b.length; };
+  if (anyView && shown(mode) < 0.5) {
+    const hemi = shown('N') >= shown('S') ? 'N' : 'S';
+    note = mode === 'T' ? `Below the horizon ${when ? 'then' : 'right now'}, so here it is on the whole ${hemi === 'N' ? 'northern' : 'southern'} sky` : '';
+    mode = hemi;
+    if (focused) unfocus();
+    await draw();
+  }
   const changed = focused !== k;
   focused = k;
   if (changed) document.dispatchEvent(new CustomEvent('sky:visit', { detail: { con: k } }));
@@ -318,7 +329,7 @@ async function focusCon(k, fly = true) {
   const inside = INDEX.filter((e) => e.con === k && visible(e));
   const name = CON_NAMES[k] || c.n;
   const panel = $('#nsPanel');
-  panel.innerHTML = `<button type="button" class="ns-p-close" id="nsPClose" aria-label="Close and show the whole sky"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 2.5l7 7M9.5 2.5l-7 7"/></svg></button><div class="ns-p-head"><p class="ns-p-k">Constellation</p><h3>${esc(name)}</h3>
+  panel.innerHTML = `<button type="button" class="ns-p-close" id="nsPClose" aria-label="Close and show the whole sky"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 2.5l7 7M9.5 2.5l-7 7"/></svg></button><div class="ns-p-head"><p class="ns-p-k">Constellation</p><h3>${esc(name)}</h3>${note ? `<p class="ns-p-note">${esc(note)}</p>` : ''}
     <p class="ns-p-n">${inside.length ? `${inside.length} ${filtered() ? 'matching ' : ''}photograph${inside.length === 1 ? '' : 's'} in the collection` : filtered() ? 'Nothing matching your filters here' : 'Nothing from here in the collection yet'}</p></div>
     <div class="grid small" id="nsPGrid"></div>
     <p class="ns-p-actions">${inside.length > 8 ? `<button type="button" id="nsAll">See all ${inside.length} in the collection →</button>` : ''}
@@ -928,7 +939,7 @@ $('#nsShare').addEventListener('click', async () => {
   }
   setTimeout(() => { label.textContent = 'Share this view'; }, 2200);
 });
-let pendingCon = null;
+let pendingCon = null, pendingAny = false;
 // Read a shared link once, then tidy the address bar.
 function readLink() {
   const q = new URLSearchParams(location.search);
@@ -976,12 +987,12 @@ async function maybeDraw() {
   syncTime();
   await draw();
   buildFind(await loadSky());
-  if (pendingCon) { const k = pendingCon; pendingCon = null; focusCon(k); }
+  if (pendingCon) { const k = pendingCon, anyView = pendingAny; pendingCon = null; pendingAny = false; focusCon(k, true, { anyView }); }
 }
 // Fly to a constellation on Tonight's sky (from the sky passport).
 export function showConOnSky(k) {
-  if (location.hash === '#sky' && mode) { focusCon(k); return; }
-  pendingCon = k;
+  if (location.hash === '#sky' && mode) { focusCon(k, true, { anyView: true }); return; }
+  pendingCon = k; pendingAny = true;
   location.hash = 'sky';
 }
 
