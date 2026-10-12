@@ -145,7 +145,6 @@ function render(item, ctx, dims) {
   $('#caption').innerHTML = item.captureShort
     ? `${esc(item.caption)}, <span class="date">${esc(item.captureShort)}</span>. Released ${esc(item.releaseDate)}.`
     : `${esc(item.caption)}. Released ${esc(item.releaseDate)}.`;
-  $('#creditLine').innerHTML = `<strong>Credit:</strong> ${esc(item.credit)} · <a href="${esc(item.source)}" target="_blank" rel="noopener">Source</a> · ${esc(RIGHTS[item.org].short)}`;
   $('#sourceLink').href = item.source;
   $('#rights').innerHTML = `<a href="${esc(RIGHTS[item.org].url)}" target="_blank" rel="noopener">${esc(RIGHTS[item.org].label)}</a>. If you use it, keep the credit with it.`;
   requestAnimationFrame(() => $('#stage').classList.remove('loading', 'sharpening'));

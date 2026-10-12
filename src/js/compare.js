@@ -52,7 +52,6 @@ async function open() {
   $('#cmpNote').innerHTML = `<details><summary>What changes between the two</summary>${esc(c.note)} <span class="src">Aligned pair from <a href="${esc(c.source)}" target="_blank" rel="noopener">ESA/Webb’s comparison page</a>.</span></details>`;
   $('#cmpCredit').innerHTML = `<strong>Left:</strong> ${esc(c.left.credit)} · <strong>Right:</strong> ${esc(c.right.credit)} · CC BY 4.0`;
   $('#cmpNote').hidden = $('#cmpCredit').hidden = false;
-  $('#creditLine').hidden = true;
   fit();
   $('#stage').scrollIntoView({ block: 'nearest', behavior: reducedMotion() ? 'auto' : 'smooth' });
   try {
@@ -81,7 +80,6 @@ function close() {
   $('#stage').classList.remove('comparing', 'loading');
   panel.hidden = true;
   $('#cmpNote').hidden = $('#cmpCredit').hidden = true;
-  $('#creditLine').hidden = false;
   $('#cmpLeft').removeAttribute('src');
   $('#cmpRight').removeAttribute('src');
 }
