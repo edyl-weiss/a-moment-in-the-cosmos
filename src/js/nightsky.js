@@ -14,6 +14,7 @@ import { CON_NAMES } from '../data/constellations.js';
 import { whereAmI } from './geo.js';
 import { browseConstellation } from './archive.js';
 import { planetsAt, moonAt } from './planets.js';
+import { buildIndex, search, norm as normSearch } from './skysearch.js';
 
 const SIZE = 1000, C = SIZE / 2, EDGE = 20;              // degrees beyond the equator (pole views)
 const rad = Math.PI / 180;
@@ -296,13 +297,14 @@ function applyFilter() {
   if (selected && !visible(INDEX_BY_ID[selected] || {})) hideTip();
   if (focused) { focusCon(focused, false); renderClusters(); }
 }
-function hideTip() { $('#nsTip').hidden = true; selected = null; $$('#nsChart .ns-dot.on, #nsChart .ns-body.on').forEach((d) => d.classList.remove('on')); }
+function hideTip() { $('#nsTip').hidden = true; selected = null; tipFor = null; $$('#nsChart .ns-dot.on, #nsChart .ns-body.on').forEach((d) => d.classList.remove('on')); }
 // Explore one constellation: highlight it, zoom to it and list the photographs inside it.
 async function focusCon(k, fly = true) {
   const data = await loadSky(), c = data.con[k];
   if (!c) return;
   const changed = focused !== k;
   focused = k;
+  if (changed) document.dispatchEvent(new CustomEvent('sky:visit', { detail: { con: k } }));
   $$('#nsChart [data-con]').forEach((el) => el.classList.toggle('focus', el.dataset.con === k));
   if (changed || !$('#nsDots')?.childElementCount) drawDots(k);
   $('#nsStatus').innerHTML = '';                            // the panel says what's here instead
@@ -319,7 +321,7 @@ async function focusCon(k, fly = true) {
   panel.innerHTML = `<button type="button" class="ns-p-close" id="nsPClose" aria-label="Close and show the whole sky"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 2.5l7 7M9.5 2.5l-7 7"/></svg></button><div class="ns-p-head"><p class="ns-p-k">Constellation</p><h3>${esc(name)}</h3>
     <p class="ns-p-n">${inside.length ? `${inside.length} ${filtered() ? 'matching ' : ''}photograph${inside.length === 1 ? '' : 's'} in the collection` : filtered() ? 'Nothing matching your filters here' : 'Nothing from here in the collection yet'}</p></div>
     <div class="grid small" id="nsPGrid"></div>
-    <p class="ns-p-actions">${inside.length > 8 ? `<button type="button" id="nsAll">See all ${inside.length} in the archive →</button>` : ''}
+    <p class="ns-p-actions">${inside.length > 8 ? `<button type="button" id="nsAll">See all ${inside.length} in the collection →</button>` : ''}
     <button type="button" id="nsWhole">← Whole sky</button></p>`;
   const grid = $('#nsPGrid');
   for (const e of inside.slice(0, 8)) grid.appendChild(tile({ id: e.id, title: e.title, cat: e.cat, thumb: e.thumb, sub: e.y, onOpen: () => preview(e.id) }));
@@ -404,7 +406,12 @@ function maybeRegroup() {
   const z = view.w / SIZE;
   if (Math.abs(z - clusteredAt) / clusteredAt < 0.08) return;
   clearTimeout(regroup);
-  regroup = setTimeout(() => { if (focusDots.length) { hideTip(); renderClusters(); } }, 140);
+  regroup = setTimeout(() => {
+    if (!focusDots.length) return;
+    const keep = tipFor;
+    hideTip(); renderClusters();
+    if (keep) openMarkerFor(keep);
+  }, 140);
 }
 // The list for a group marker: every photograph in that spot, each opening its preview.
 function showCluster(el) {
@@ -640,6 +647,7 @@ $('#nsDate').addEventListener('change', (e) => {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(v)) return;
   const now = new Date();
   night = v === ymd(eveningStart(now)) ? null : v;
+  if (night) document.dispatchEvent(new CustomEvent('sky:date', { detail: { date: night } }));
   if (!night && isNight(now)) when = null;                     // tonight, and it's dark: back to now
   else when = new Date(eveningStart(now).getTime() + (Number($('#nsTime').value) || 180) * 6e4);
   syncTime();
@@ -696,6 +704,7 @@ function placeTip(el) {
   tip.style.top = `${Math.max(edge, Math.min(top, wrap.height - tip.offsetHeight - edge))}px`;
 }
 function showBodyTip(el) {
+  document.dispatchEvent(new CustomEvent('sky:body', { detail: { id: el.dataset.body } }));
   const b = bodies.find((x) => x.id === el.dataset.body);
   if (!b) return;
   hideTip();
@@ -750,7 +759,7 @@ function buildList(data) {
 function tonightLine() {
   if (mode !== 'T') return '';
   const lead = !when ? 'Right now' : night
-    ? `On ${eveningStart().toLocaleDateString([], { month: 'long', day: 'numeric' })} at ${timeLabel(when)}`
+    ? `On ${eveningStart().toLocaleDateString([], { month: 'long', day: 'numeric', ...(eveningStart().getFullYear() !== new Date().getFullYear() ? { year: 'numeric' } : {}) })} at ${timeLabel(when)}`
     : `At ${timeLabel(when)} tonight`;
   const moon = bodies.find((b) => b.id === 'moon');
   if (moon && horizontal(moon.sun.ra, moon.sun.dec).alt > -6 * rad) return `${lead}, the Sun is up. Slide the time into the evening to see the night sky`;
@@ -795,42 +804,109 @@ $('#nsList').addEventListener('click', (e) => {
 });
 
 // ---------------------------------------------------------------------------------------------
-// Find: a constellation, a planet or the Moon by name.
-const norm = (t) => String(t).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/^the\s+/, '').trim();
+// Find: constellations and their everyday names, bright stars, the Moon and planets, and every object in
+// the collection (famous ones first). Suggestions appear as you type; Enter takes the top one.
 let findReady = false;
 function buildFind(data) {
-  if (findReady) return;
+  if (findReady || INDEX.length < 100) return;               // wait for the full collection index
   findReady = true;
-  const names = [...Object.entries(data.con).map(([k, c]) => CON_NAMES[k] || c.n), 'Moon', 'Mercury', 'Venus', 'Mars', 'Jupiter', 'Saturn'].sort((a, b) => a.localeCompare(b));
-  $('#nsFindList').innerHTML = names.map((n) => `<option value="${esc(n)}"></option>`).join('');
+  buildIndex({ cons: Object.entries(data.con).map(([k, c]) => [k, CON_NAMES[k] || c.n]), index: INDEX, bodies });
 }
-async function find(q) {
-  const n = norm(q), msg = $('#nsFindMsg');
-  if (!n) { msg.textContent = ''; return; }
-  const data = await loadSky();
-  const off = (name) => (mode === 'T' ? `${name} is below the horizon ${when ? 'then' : 'right now'}`
-    : `${name} isn’t in this half of the sky. Try the Whole ${mode === 'N' ? 'southern' : 'northern'} view`);
-  const body = bodies.find((b) => norm(b.name) === n);
-  if (body) {
-    msg.textContent = body.xy ? '' : off(body.id === 'moon' ? 'The Moon' : body.name);
-    if (body.xy) { bringChartIntoView(); flyToBody(body.id); }
+const KIND = { con: 'Constellation', star: 'Star', body: 'Moon and planets' };
+const offMsg = (name) => (mode === 'T' ? `${name} is below the horizon ${when ? 'then' : 'right now'}`
+  : `${name} isn’t in this half of the sky. Try the Whole ${mode === 'N' ? 'southern' : 'northern'} view`);
+let results = [], active = -1;
+function describe(x) {
+  if (x.kind === 'object') {
+    // describe it by a photograph of the object itself rather than a landscape that happens to include it
+    const all = x.ids.map((id) => INDEX_BY_ID[id]).filter(Boolean);
+    const e = all.find((y) => y.cat !== 'night' && y.con) || all[0];
+    const where = e?.con ? ` · ${CON_NAMES[e.con] || ''}` : '';
+    return `${CAT[e?.cat] || 'Object'}${where} · ${x.ids.length} photograph${x.ids.length === 1 ? '' : 's'}`;
+  }
+  if (x.kind === 'star') return `Star in ${CON_NAMES[x.id]}`;
+  if (x.kind === 'asterism') return `Star pattern in ${CON_NAMES[x.id]}`;
+  if (x.kind === 'body') return x.id === 'moon' ? 'Our Moon' : 'Planet';
+  return KIND[x.kind];
+}
+function showResults() {
+  const box = $('#nsFindList'), input = $('#nsFind');
+  results = search(input.value);
+  active = results.length ? 0 : -1;
+  // say which nickname matched ("Big Dipper" → Ursa Major)
+  const typed = normFind(input.value);
+  box.innerHTML = results.map((x, i) => {
+    const alias = (x.aliases || []).find((a) => normFind(a).startsWith(typed) && !normFind(x.label).startsWith(typed));
+    return `<li role="option" id="nsOpt${i}" aria-selected="${i === active}" data-i="${i}"><span class="nf-name">${esc(x.label)}${alias ? ` <em>“${esc(alias)}”</em>` : ''}</span><span class="nf-kind">${esc(describe(x))}</span></li>`;
+  }).join('');
+  box.hidden = !results.length || !input.value.trim();
+  input.setAttribute('aria-expanded', String(!box.hidden));
+  input.setAttribute('aria-activedescendant', active >= 0 ? `nsOpt${active}` : '');
+  $('#nsFindMsg').textContent = input.value.trim() && !results.length ? `Nothing called “${input.value.trim()}” here. Try a constellation, a star, a planet or an object like the Pleiades` : '';
+}
+function setActive(i) {
+  active = i;
+  $$('#nsFindList [role="option"]').forEach((li, j) => li.setAttribute('aria-selected', String(j === i)));
+  $('#nsFind').setAttribute('aria-activedescendant', i >= 0 ? `nsOpt${i}` : '');
+  $(`#nsOpt${i}`)?.scrollIntoView({ block: 'nearest' });
+}
+function closeResults() { $('#nsFindList').hidden = true; $('#nsFind').setAttribute('aria-expanded', 'false'); }
+// Open the marker that holds a photograph (on its own or in a group) once the chart has flown there.
+let tipFor = null;                                              // the photograph a search opened, kept open through regrouping
+function openMarkerFor(id) {
+  const el = $(`#nsChart .ns-dot[data-id="${CSS.escape(id)}"]`) || $$('#nsChart .ns-cluster').find((c) => c.dataset.ids.split(' ').includes(id));
+  if (!el) return;
+  if (el.classList.contains('ns-cluster')) showCluster(el); else showTip(el);
+  tipFor = id;
+}
+async function go(x) {
+  const data = await loadSky(), msg = $('#nsFindMsg');
+  closeResults();
+  $('#nsFind').value = x.label;
+  msg.textContent = '';
+  if (x.kind === 'body') {
+    const b = bodies.find((y) => y.id === x.id);
+    if (!b?.xy) { msg.textContent = offMsg(x.label); return; }
+    bringChartIntoView(); flyToBody(b.id); return;
+  }
+  if (x.kind === 'con' || x.kind === 'star' || x.kind === 'asterism') {
+    const name = CON_NAMES[x.id];
+    if (!conVisible(data.con[x.id])) { msg.textContent = offMsg(x.kind === 'con' ? name : `${x.label} (in ${name})`); return; }
+    if (x.kind !== 'con') msg.textContent = `${x.label} is in ${name}`;
+    bringChartIntoView(); focusCon(x.id); return;
+  }
+  // an object: go to a photograph of it that's on the chart, or open one if none can be shown
+  const placed = x.ids.map((id) => INDEX_BY_ID[id]).filter((e) => e && e.con && Number.isFinite(e.ra));
+  const here = placed.find((e) => project(e.ra, e.dec));
+  if (!here) {
+    const why = placed.length ? offMsg(x.label) : `${x.label} has no position on the chart`;
+    msg.innerHTML = `${esc(why)}. <button type="button" class="nf-open" data-open="${esc(x.ids[0])}">See ${x.ids.length === 1 ? 'the photograph' : 'a photograph'}</button>`;
     return;
   }
-  const entries = Object.entries(data.con).map(([k, c]) => [k, CON_NAMES[k] || c.n]);
-  const hit = entries.find(([, name]) => norm(name) === n) || entries.find(([, name]) => norm(name).startsWith(n));
-  if (!hit) { msg.textContent = `Nothing called “${q.trim()}” here. Try a constellation, a planet or the Moon`; return; }
-  const [k, name] = hit;
-  if (!conVisible(data.con[k])) { msg.textContent = off(name); return; }
-  msg.textContent = '';
   bringChartIntoView();
-  focusCon(k);
+  await focusCon(here.con);
+  setTimeout(() => openMarkerFor(here.id), 760);
 }
-$('#nsFindForm').addEventListener('submit', (e) => { e.preventDefault(); find($('#nsFind').value); });
-// picking a suggestion from the list goes straight there
-$('#nsFind').addEventListener('input', (e) => {
-  const v = norm(e.target.value);
-  if ([...$('#nsFindList').options].some((o) => norm(o.value) === v) && e.inputType !== 'insertText') find(e.target.value);
+const normFind = (t) => normSearch(t);
+const findInput = $('#nsFind');
+findInput.addEventListener('input', async () => { buildFind(await loadSky()); showResults(); });
+findInput.addEventListener('focus', async () => { buildFind(await loadSky()); if (findInput.value.trim()) showResults(); });
+findInput.addEventListener('keydown', (e) => {
+  const open = !$('#nsFindList').hidden;
+  if (e.key === 'ArrowDown' && results.length) { e.preventDefault(); if (!open) showResults(); else setActive((active + 1) % results.length); }
+  else if (e.key === 'ArrowUp' && open) { e.preventDefault(); setActive((active - 1 + results.length) % results.length); }
+  else if (e.key === 'Escape' && open) { e.preventDefault(); closeResults(); }
 });
+$('#nsFindForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  buildFind(await loadSky());
+  if (!results.length) showResults();
+  if (results[active >= 0 ? active : 0]) go(results[active >= 0 ? active : 0]);
+});
+$('#nsFindList').addEventListener('mousedown', (e) => e.preventDefault());   // keep focus in the field
+$('#nsFindList').addEventListener('click', (e) => { const li = e.target.closest('[data-i]'); if (li) go(results[Number(li.dataset.i)]); });
+findInput.addEventListener('blur', () => setTimeout(closeResults, 120));
+$('#nsFindMsg').addEventListener('click', (e) => { const b = e.target.closest('[data-open]'); if (b) preview(b.dataset.open); });
 
 // ---------------------------------------------------------------------------------------------
 // Share this view: a link with the view, night, time and constellation in it.
@@ -881,7 +957,10 @@ function applyNight() {
   document.documentElement.classList.toggle('nv', nightVision && location.hash === '#sky');
   $('#nsNight').setAttribute('aria-pressed', String(nightVision));
 }
-$('#nsNight').addEventListener('click', () => { nightVision = !nightVision; store.set('nsNight', nightVision); applyNight(); });
+$('#nsNight').addEventListener('click', () => {
+  nightVision = !nightVision; store.set('nsNight', nightVision); applyNight();
+  if (nightVision) document.dispatchEvent(new CustomEvent('sky:nightvision'));
+});
 window.addEventListener('hashchange', applyNight);
 applyNight();
 
@@ -899,8 +978,25 @@ async function maybeDraw() {
   buildFind(await loadSky());
   if (pendingCon) { const k = pendingCon; pendingCon = null; focusCon(k); }
 }
+// Fly to a constellation on Tonight's sky (from the sky passport).
+export function showConOnSky(k) {
+  if (location.hash === '#sky' && mode) { focusCon(k); return; }
+  pendingCon = k;
+  location.hash = 'sky';
+}
+
+// Open Tonight's sky on a given night (YYYY-MM-DD) at a time after 6 pm, in minutes: used by "Your birthday in the cosmos".
+export function openSkyOn(d, minutes = 180) {
+  mode = 'T';
+  night = d;
+  document.dispatchEvent(new CustomEvent('sky:date', { detail: { date: d } }));
+  when = new Date(eveningStart().getTime() + minutes * 6e4);
+  if (focused) unfocus();
+  drawnFor = null;
+  if (location.hash === '#sky') { syncTime(); draw(); } else location.hash = 'sky';
+}
 // Called once the full collection index has loaded, so a page opened straight at #sky gets every dot.
-export function refreshSky() { drawnFor = null; maybeDraw(); }
+export function refreshSky() { drawnFor = null; findReady = false; maybeDraw(); }
 window.addEventListener('hashchange', maybeDraw);
 window.addEventListener('popstate', maybeDraw);
 maybeDraw();

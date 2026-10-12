@@ -29,7 +29,7 @@ form.addEventListener('submit', async (e) => {
 });
 
 const NOTES = {
-  '#subscribed': 'You’re subscribed. Tomorrow’s photograph will find its way to you just after midnight UTC',
+  '#subscribed': 'You’re subscribed. Tomorrow’s Cosmic guess will find its way to you just after midnight UTC',
   '#unsubscribed': 'You’re unsubscribed. No more emails',
   '#email-expired': 'That link has expired or isn’t valid. Try signing up again',
   '#email-error': 'Something went wrong confirming your email. Please try the link again'

@@ -21,6 +21,8 @@ import { scheduleRollover } from './rollover.js';
 import './skymap.js';
 import { refreshSky } from './nightsky.js';
 import { renderLoved } from './reactions.js';
+import { initPlay } from './play.js';
+import './passport.js';
 import { SCHEDULE } from '../data/schedule.js';
 
 const issue = todayIndex();
@@ -37,6 +39,7 @@ renderArchive();
 renderGrid();
 await initOnThisDay();
 renderLoved();
+initPlay();
 // A shared link (#photo-id or #on-MM-DD) opens that view; otherwise today's photograph.
 const linkedPhoto = location.hash && openFromHash({ scroll: true });
 if (!linkedPhoto || /^#on-/.test(location.hash)) show(dailyId(issue), { mode: 'daily', day: issue, initial: true }, { push: false });

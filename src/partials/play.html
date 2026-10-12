@@ -1,0 +1,56 @@
+<section id="play" aria-labelledby="playHead">
+  <div class="section-head">
+    <div>
+      <h2 id="playHead">Play</h2>
+      <p>A small puzzle every day, the universe on your birthday, and a <a href="#passport">sky passport</a> to fill</p>
+    </div>
+  </div>
+  <div class="play-grid">
+
+    <article class="play-card guess" id="guess" aria-labelledby="guessHead">
+      <header class="play-k"><span id="guessHead">Cosmic guess</span><span class="play-no" id="guessNo"></span></header>
+      <div class="guess-view" id="guessView" role="img" aria-label="A close-up of today's mystery object">
+        <div class="guess-img" id="guessImg"></div>
+        <div class="guess-loading" id="guessLoading">Pointing the telescope…</div>
+      </div>
+      <div class="guess-play" id="guessPlay">
+        <p class="guess-q" id="guessQ">What are you looking at?</p>
+        <div class="guess-opts" id="guessOpts" role="group" aria-labelledby="guessQ"></div>
+        <p class="guess-tries" id="guessTries" aria-live="polite"></p>
+      </div>
+      <div class="guess-done" id="guessDone" hidden>
+        <p class="guess-verdict" id="guessVerdict" aria-live="polite"></p>
+        <h3 class="guess-name" id="guessName"></h3>
+        <div class="guess-everyone" id="guessEveryone" hidden aria-live="polite"></div>
+        <div class="guess-stats" id="guessStats"></div>
+        <p class="play-actions">
+          <button type="button" class="play-btn" id="guessOpen">See the photograph →</button>
+          <button type="button" class="play-btn quiet" id="guessShare">Share result</button>
+        </p>
+        <p class="guess-next" id="guessNext"></p>
+      </div>
+    </article>
+
+    <article class="play-card bday" id="bday" aria-labelledby="bdayHead">
+      <header class="play-k"><span id="bdayHead">Your birthday in the cosmos</span></header>
+      <form class="bday-form" id="bdayForm">
+        <label class="sr-only" for="bdayDate">Your birthday</label>
+        <input type="date" id="bdayDate" class="bday-date" min="1900-01-01" required>
+        <button type="submit" class="play-btn">Show me</button>
+      </form>
+      <p class="bday-note" id="bdayNote">Your date stays in this browser. Nothing is sent anywhere</p>
+      <div class="bday-out" id="bdayOut" hidden aria-live="polite">
+        <p class="bday-title" id="bdayTitle"></p>
+        <div class="bday-photo" id="bdayPhoto"></div>
+        <div class="bday-row" id="bdayEvent"></div>
+        <div class="bday-row bday-moon" id="bdayMoon"></div>
+        <p class="play-actions">
+          <button type="button" class="play-btn" id="bdaySky">See the sky that night →</button>
+          <button type="button" class="play-btn quiet" id="bdayShare">Share</button>
+          <button type="button" class="play-link" id="bdayForget">Forget my date</button>
+        </p>
+      </div>
+    </article>
+
+  </div>
+</section>

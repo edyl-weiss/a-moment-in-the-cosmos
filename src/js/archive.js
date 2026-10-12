@@ -1,12 +1,13 @@
-// Daily archive and collection search.
-// With no search terms or filters the section lists every daily feature since launch, newest first.
-// Typing a word or choosing a filter searches the whole collection instead: titles, object names,
-// constellations and captions, by category, source and telescope.
-import { $, $$, esc, CAT, todayIndex, dateOf, fmtDate, dailyId } from './util.js';
+// Collection search, at the top of the home page under "Travel to another random".
+// Typing a word or choosing a filter searches the whole collection: titles, object names, constellations
+// and captions, by category, source and telescope. Nicknames work too ("seven sisters", "big dipper").
+// With nothing typed and no filters, the results area stays closed.
+import { $, esc, CAT } from './util.js';
 import { show, SOURCE } from './feature.js';
 import { INDEX, INDEX_BY_ID } from './collection.js';
 import { tile, scrollToFeature } from './tiles.js';
 import { CON_NAMES, onConstellationClick } from './skymap.js';
+import { aliasMatch } from './skysearch.js';
 
 export const TELESCOPES = {
   hubble: 'Hubble', webb: 'Webb', vlt: 'Very Large Telescope', vista: 'VISTA', vst: 'VLT Survey Telescope',
@@ -31,8 +32,12 @@ export function matches(e, q = F.q) {
   if (F.con !== 'all' && e.con !== F.con) return false;
   const words = expand(q).split(/\s+/).filter(Boolean);
   const h = haystack(e);
-  return words.every((w) => h.includes(w));
+  if (words.every((w) => h.includes(w))) return true;
+  const alias = aliasFor(q);
+  return alias ? alias(e) : false;
 }
+let aliasQ = null, aliasFn = null;
+const aliasFor = (q) => (q === aliasQ ? aliasFn : (aliasFn = aliasMatch((aliasQ = q))));
 
 // How many photographs a search for `q` alone (no filters) would return. Used by "On this day".
 export const countFor = (q) => {
@@ -40,27 +45,12 @@ export const countFor = (q) => {
   return words.length ? INDEX.filter((e) => words.every((w) => haystack(e).includes(w))).length : 0;
 };
 
-function renderDaily(grid) {
-  const today = todayIndex();
-  $('#archiveNote').textContent = `Every daily photograph since ${fmtDate(dateOf(0))}, each a small window onto the cosmos. Search to see the whole collection`;
-  for (let i = today; i >= 0; i--) {
-    const it = INDEX_BY_ID[dailyId(i)];
-    if (!it) continue;
-    grid.appendChild(tile({
-      id: it.id, title: it.title, cat: it.cat, thumb: it.thumb,
-      sub: i === today ? 'Today' : fmtDate(dateOf(i)),
-      onOpen: () => { show(it.id, { mode: i === today ? 'daily' : 'archive', day: i }); scrollToFeature(); }
-    }));
-  }
-}
-
 function renderResults(grid) {
   const hits = INDEX.filter((e) => matches(e));
   const only = F.con !== 'all' && !F.q.trim() && F.cat === 'all' && F.org === 'all' && F.tel === 'all';
-  $('#archiveHead').textContent = only ? `In ${CON_NAMES[F.con] || 'this constellation'}` : 'Search the collection';
-  $('#archiveNote').textContent = hits.length
-    ? `${hits.length.toLocaleString('en')} ${hits.length === 1 ? 'photograph matches' : 'photographs match'}`
-    : 'No matches. Try fewer words, or clear a filter';
+  const n = `${hits.length.toLocaleString('en')} photograph${hits.length === 1 ? '' : 's'}`;
+  $('#archiveNote').textContent = !hits.length ? 'No matches. Try fewer words, or clear a filter'
+    : only ? `${n} in ${CON_NAMES[F.con] || 'this constellation'}` : `${n} ${hits.length === 1 ? 'matches' : 'match'}`;
   for (const it of hits.slice(0, F.shown)) {
     grid.appendChild(tile({
       id: it.id, title: it.title, cat: it.cat, thumb: it.thumb,
@@ -78,8 +68,11 @@ export function renderArchive() {
   grid.innerHTML = '';
   $('#archiveMore').hidden = true;
   $('#archiveClear').hidden = !searching();
+  $('#archiveResults').hidden = !searching();
+  const filters = ['cat', 'org', 'tel', 'con'].filter((k) => F[k] !== 'all').length;
+  $('#archiveFilterCount').hidden = !filters;
+  $('#archiveFilterCount').textContent = filters;
   if (searching()) renderResults(grid);
-  else { $('#archiveHead').textContent = 'Daily archive'; renderDaily(grid); }
 }
 
 // Used by "On this day": fill the search box, run it and bring the results into view.
@@ -87,13 +80,14 @@ export function searchFor(q) {
   Object.assign(F, BLANK, { q, shown: PAGE });
   syncControls();
   renderArchive();
-  location.hash = 'archive';   // opens the Archive page
+  location.hash = 'archive';   // goes to the search, at the top of the home page
 }
 
 // Constellation collections: everything the collection holds in one constellation.
 export function browseConstellation(con) {
   Object.assign(F, BLANK, { con, shown: PAGE });
   syncControls();
+  openFilters(con !== 'all');
   renderArchive();
   if (location.hash === '#archive') document.getElementById('archive').scrollIntoView({ behavior: 'smooth' });
   else location.hash = 'archive';
@@ -105,9 +99,11 @@ function syncControls() {
   $('#archiveOrg').value = F.org;
   $('#archiveTel').value = F.tel;
   $('#archiveCon').value = F.con;
-  markChips();
 }
-const markChips = () => $$('#conChips button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.con === F.con)));
+function openFilters(open) {
+  $('#archiveFilters').hidden = !open;
+  $('#archiveFiltersBtn').setAttribute('aria-expanded', String(open));
+}
 
 export function initArchiveSearch() {
   onConstellationClick(browseConstellation);
@@ -120,19 +116,13 @@ export function initArchiveSearch() {
   $('#archiveCat').innerHTML = '<option value="all">Any category</option>' +
     Object.entries(CAT).map(([k, v]) => `<option value="${k}">${esc(v)}</option>`).join('');
 
-  // Constellations: a menu of all of them (with counts) and chips for the best-stocked ones.
+  // Constellations: a menu of all of them, with how many photographs each holds.
   const count = {};
   for (const e of INDEX) if (e.con) count[e.con] = (count[e.con] || 0) + 1;
   const byName = Object.keys(count).sort((a, b) => CON_NAMES[a].localeCompare(CON_NAMES[b]));
   $('#archiveCon').innerHTML = '<option value="all">Any constellation</option>' +
     byName.map((k) => `<option value="${k}">${esc(CON_NAMES[k])} (${count[k]})</option>`).join('');
-  const top = Object.keys(count).sort((a, b) => count[b] - count[a]).slice(0, 12);
-  $('#conChips').innerHTML = '<span class="chips-label">Browse by constellation</span>' +
-    top.map((k) => `<button type="button" data-con="${k}" aria-pressed="false">${esc(CON_NAMES[k])} <span>${count[k]}</span></button>`).join('');
-  $('#conChips').addEventListener('click', (e) => {
-    const b = e.target.closest('button[data-con]');
-    if (b) browseConstellation(F.con === b.dataset.con ? 'all' : b.dataset.con);
-  });
+  $('#archiveFiltersBtn').addEventListener('click', () => openFilters($('#archiveFilters').hidden));
 
   let t;
   $('#archiveQ').addEventListener('input', (e) => {
@@ -141,9 +131,9 @@ export function initArchiveSearch() {
   });
   $('#archiveForm').addEventListener('submit', (e) => { e.preventDefault(); F.q = $('#archiveQ').value; F.shown = PAGE; renderArchive(); });
   for (const [sel, key] of [['#archiveCat', 'cat'], ['#archiveOrg', 'org'], ['#archiveTel', 'tel'], ['#archiveCon', 'con']]) {
-    $(sel).addEventListener('change', (e) => { F[key] = e.target.value; F.shown = PAGE; markChips(); renderArchive(); });
+    $(sel).addEventListener('change', (e) => { F[key] = e.target.value; F.shown = PAGE; renderArchive(); });
   }
   $('#archiveMore').addEventListener('click', () => { F.shown += PAGE; renderArchive(); });
-  $('#archiveClear').addEventListener('click', () => { Object.assign(F, BLANK, { shown: PAGE }); syncControls(); renderArchive(); });
+  $('#archiveClear').addEventListener('click', () => { Object.assign(F, BLANK, { shown: PAGE }); syncControls(); openFilters(false); renderArchive(); $('#archiveQ').focus(); });
 }
 

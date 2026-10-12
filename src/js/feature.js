@@ -123,6 +123,8 @@ function contextLine(item, ctx) {
   if (ctx.mode === 'search') return 'From the collection';
   if (ctx.mode === 'loved') return 'Most loved this week';
   if (ctx.mode === 'sky') return 'From the night sky map';
+  if (ctx.mode === 'guess') return 'Today’s Cosmic guess';
+  if (ctx.mode === 'birthday') return `Released on ${ctx.label}`;
   return 'A random pick';
 }
 

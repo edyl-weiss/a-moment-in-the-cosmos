@@ -49,8 +49,8 @@
         <form class="nc-find" id="nsFindForm" role="search">
           <label class="sr-only" for="nsFind">Find a constellation, planet or the Moon</label>
           <svg class="nc-find-icon" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.6"/><path d="M10.4 10.4L14 14"/></svg>
-          <input type="search" id="nsFind" list="nsFindList" placeholder="Search the sky" autocomplete="off" enterkeyhint="search">
-          <datalist id="nsFindList"></datalist>
+          <input type="search" id="nsFind" placeholder="Search the sky" autocomplete="off" enterkeyhint="search" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="nsFindList">
+          <ul class="nf-list" id="nsFindList" role="listbox" aria-label="Suggestions" hidden></ul>
         </form>
         <p class="nc-find-msg" id="nsFindMsg" aria-live="polite"></p>
       </fieldset>

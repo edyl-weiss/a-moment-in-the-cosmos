@@ -1,0 +1,26 @@
+<section id="passport" aria-labelledby="passHead">
+  <div class="section-head">
+    <div>
+      <h2 id="passHead">Sky passport</h2>
+      <p id="passIntro">A scrapbook of the sky you’ve explored. Visit a constellation on Tonight’s sky, open a photograph from it or solve a Cosmic guess, and it earns a stamp</p>
+    </div>
+  </div>
+  <p class="pp-tally" id="ppTally"></p>
+  <div class="pp-book" id="ppBook"></div>
+  <p class="pp-note">Your passport lives in this browser</p>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <filter id="ppInk" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="7" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -1.1 1.4" result="m"/>
+      <feComposite in="SourceGraphic" in2="m" operator="in"/>
+    </filter>
+    <!-- pencil and crayon: lines wobble a little, and the colour catches on the paper's grain -->
+    <filter id="ppCrayon" x="-8%" y="-8%" width="116%" height="116%">
+      <feTurbulence type="fractalNoise" baseFrequency=".06" numOctaves="2" seed="3" result="w"/>
+      <feDisplacementMap in="SourceGraphic" in2="w" scale="1.8" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feTurbulence type="fractalNoise" baseFrequency="1.4" numOctaves="1" seed="11" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -1.6 1.75" result="m"/>
+      <feComposite in="d" in2="m" operator="in"/>
+    </filter>
+  </svg>
+</section>

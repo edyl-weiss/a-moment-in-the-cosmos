@@ -79,3 +79,17 @@ US copyright; NASA asks to be credited as the source.
 26 photographs in the collection now open one (`new_comparisons.json`, merged into `src/data/comparisons.js`).
 Tours for 11 more photographs were added by hand to `src/data/tours.js`: each stop is a position the photo's
 own caption states, read off the published image on a 10% grid.
+
+## October 2026 additions and the newest-first schedule
+
+`add_2026_10.py` adds recent, well-received images (Rubin's Trifid and Lagoon first look, Webb's Butterfly
+Star and NGC 7129, Hubble's N44 superbubble), each written from its source page. Webb's Apep image was
+considered but is only 1021 × 773, below the site's display minimum, so the script skips it.
+
+`reschedule.py` orders every day after tomorrow by score instead of by when photos were added: release date
+(newer first) plus head starts for a Top-100 ranking, a famous object, a colorful (narrowband or many-color)
+image, a headline release, and a small one for Webb data, with no more than two days in a row from one
+observatory in a category when another is close behind. Days already shown never change. Run it after
+`export_collection.py` or any addition:
+
+    python3 tools/harvest/reschedule.py

@@ -1,8 +1,10 @@
-// Vercel Cron, a few minutes after midnight UTC: email today's photograph to every subscriber.
+// Vercel Cron, a few minutes after midnight UTC: email today's Cosmic guess to every subscriber.
 // Runs at most once per day (a "sent" marker in Redis), sends in batches of 100 through Resend.
+// The puzzle comes from the same code the site uses (src/js/guess-core.js), so the email and the site agree.
 import { configured, pipeline } from './_redis.js';
-import { mailReady, env, siteUrl, resend, dailyEmail, unsubLink } from './_mail.js';
-import { todayIndex, dailyId, dateOf } from '../src/js/util.js';
+import { mailReady, env, siteUrl, resend, guessEmail, unsubLink } from './_mail.js';
+import { puzzleFor, cropUrl } from '../src/js/guess-core.js';
+import { todayIndex, dateOf } from '../src/js/util.js';
 import { CATALOG } from '../src/data/catalog.js';
 import { CATALOG_SKY } from '../src/data/constellations.js';
 
@@ -21,7 +23,11 @@ export default async function handler(req, res) {
   const [first] = await pipeline([['SET', `sent:${day}`, '1', 'EX', 172800, 'NX']]);
   if (first !== 'OK' && req.query.force !== '1') return res.status(200).json({ skipped: 'already sent today' });
   try {
-    const photo = await photoFor(dailyId(day));
+    const index = await (await fetch(`${siteUrl()}/data/collection/index.json`)).json();
+    const puzzle = puzzleFor(day, index);
+    if (!puzzle) throw new Error('no puzzle for today');
+    const photo = await photoFor(puzzle.id);
+    const crop = cropUrl(photo, puzzle, 0);
     const d = dateOf(day);
     const dateLabel = d.toLocaleDateString('en-US', { timeZone: 'UTC', weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
     const issue = `No. ${(day + 1).toLocaleString('en')}`;
@@ -36,14 +42,14 @@ export default async function handler(req, res) {
     let sent = 0;
     for (let i = 0; i < list.length; i += 100) {
       const batch = list.slice(i, i + 100).map((to) => {
-        const m = dailyEmail(photo, to, { dateLabel, issue, event });
+        const m = guessEmail(puzzle, crop, to, { dateLabel, issue, event });
         return { from: env('MAIL_FROM'), to, subject: m.subject, html: m.html, text: m.text,
           headers: { 'List-Unsubscribe': `<${unsubLink(to)}>`, 'List-Unsubscribe-Post': 'List-Unsubscribe=One-Click' } };
       });
       await resend('/emails/batch', batch);
       sent += batch.length;
     }
-    return res.status(200).json({ day, photo: photo.id, sent });
+    return res.status(200).json({ day, puzzle: puzzle.id, sent });
   } catch (e) {
     await pipeline([['DEL', `sent:${day}`]]).catch(() => {});   // let a retry go out
     return res.status(500).json({ error: String(e.message || e) });

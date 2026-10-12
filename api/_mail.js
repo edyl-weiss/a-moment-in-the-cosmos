@@ -87,14 +87,14 @@ export function confirmEmail(link) {
       <tr><td style="padding:30px 28px 32px">
         <p style="margin:0 0 10px">${label('One more step')}</p>
         <p style="margin:0 0 14px;font:400 26px/1.25 ${SERIF};color:${C.ink}">Welcome aboard!</p>
-        <p style="margin:0 0 24px;font:17px/1.6 ${SERIF};color:${C.ink2}">Confirm your email below, and each day a new photograph of the universe, along with the story behind it, will find its way to you.</p>
+        <p style="margin:0 0 24px;font:17px/1.6 ${SERIF};color:${C.ink2}">Confirm your email below, and each day a new Cosmic guess, a close-up of something wonderful in the universe, will find its way to you.</p>
         ${button(link, 'Confirm my email')}
       </td></tr></table></td></tr>
   <tr><td style="padding:18px 2px 0;font:italic 14px/1.6 ${SERIF};color:${C.ink3}">If this message was sent by mistake, no worries! Just ignore it, and you won’t receive another one.</td></tr>`;
   return {
     subject: 'Confirm your daily photograph',
     html: frame({ preheader: 'One click and the universe starts arriving in your inbox.', issue: 'Welcome', date: '', inner, email: null }),
-    text: `Welcome aboard! Confirm your email, and each day a new photograph of the universe, along with the story behind it, will find its way to you.\n\n${link}\n\nIf this message was sent by mistake, no worries! Just ignore it, and you won't receive another one.`
+    text: `Welcome aboard! Confirm your email, and each day a new Cosmic guess, a close-up of something wonderful in the universe, will find its way to you.\n\n${link}\n\nIf this message was sent by mistake, no worries! Just ignore it, and you won't receive another one.`
   };
 }
 
@@ -134,5 +134,37 @@ export function dailyEmail(photo, email, { dateLabel = '', issue = '', event = n
     subject: photo.title,
     html: frame({ preheader: (story.match(/^.*?[.!?](\s|$)/)?.[0] || story).slice(0, 140), issue, date: dateLabel, inner, email }),
     text: `${photo.title}\n${dateLabel}\n\n${story}\n\n${url}\n\n${event ? `On this day in ${event.year}: ${event.text}\n\n` : ''}Clear skies,\nJoe\n\nUnsubscribe: ${unsubLink(email)}${env('MAIL_ADDRESS') ? `\n${env('MAIL_ADDRESS')}` : ''}`
+  };
+}
+
+// The daily email: today's Cosmic guess. Each answer is a link that opens the site with that answer
+// already given; the signed `t` ties the result to this subscriber, so their record follows them.
+export const guessToken = (email) => sign(`g:${email}`);
+export function guessEmail(puzzle, cropSrc, email, { dateLabel = '', issue = '', event = null } = {}) {
+  const t = guessToken(email);
+  const link = (i) => `${siteUrl()}/?g=${puzzle.day}&a=${i}&t=${encodeURIComponent(t)}#play`;
+  const play = `${siteUrl()}/?t=${encodeURIComponent(t)}#play`;
+  const kind = { galaxy: 'a galaxy', nebula: 'a nebula', star: 'a star or star cluster' }[puzzle.cat] || 'an object';
+  const option = (name, i) => `<tr><td style="padding:0 0 10px"><a href="${link(i)}" style="display:block;padding:14px 18px;border:1px solid ${C.rule};border-radius:10px;background:#141311;color:${C.ink};font:400 18px/1.3 ${SERIF};text-decoration:none">
+    <span style="font:600 12px/1 ${MONO};color:${C.blue};margin-right:12px">${'ABCD'[i]}</span>${esc(name)}</a></td></tr>`;
+  const inner = `
+  <tr><td style="padding:28px 0 6px">${label(`<span style="color:${C.red}">Cosmic guess</span>`)}</td></tr>
+  <tr><td style="padding:0 0 18px;font:400 32px/1.15 ${SERIF};letter-spacing:-.01em;color:${C.ink}">What are you looking at?</td></tr>
+  <tr><td style="padding:0"><a href="${play}"><img src="${esc(cropSrc)}" alt="A close-up of today’s mystery object" width="600" style="display:block;width:100%;max-width:600px;height:auto;border:0;border-radius:6px;background:#000"></a></td></tr>
+  <tr><td style="padding:16px 0 18px;font:17px/1.6 ${SERIF};color:${C.ink2}">A close-up of ${kind} from the collection. Choose an answer and the site will tell you if you’re right. If not, you get two more looks, each a little wider.</td></tr>
+  ${puzzle.options.map(option).join('')}
+  <tr><td style="padding:14px 0 0;font:italic 15px/1.6 ${SERIF};color:${C.ink3}">Your answers count toward your streak and stats on the site, on any device.</td></tr>
+  ${event ? `<tr><td style="padding:34px 0 0">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:${C.navy};border:1px solid #1d2c55;border-radius:10px">
+      <tr><td style="padding:20px 22px 22px">
+        <p style="margin:0 0 8px">${label(`On this day in ${event.year}`)}</p>
+        <p style="margin:0;font:16px/1.6 ${SERIF};color:${C.ink2}">${esc(event.text)}</p>
+      </td></tr></table></td></tr>` : ''}`;
+  return {
+    subject: `${issue}: What are you looking at?`,
+    html: frame({ preheader: `Today’s Cosmic guess: is it ${puzzle.options.slice(0, 3).join(', ')} or ${puzzle.options[3]}?`, issue, date: dateLabel, inner, email }),
+    text: `Cosmic guess, ${issue}\n${dateLabel}\n\nWhat are you looking at? A close-up of ${kind} from the collection.\n\n` +
+      puzzle.options.map((n, i) => `${'ABCD'[i]}. ${n}\n${link(i)}`).join('\n\n') +
+      `\n\n${event ? `On this day in ${event.year}: ${event.text}\n\n` : ''}Clear skies,\nJoe\n\nUnsubscribe: ${unsubLink(email)}${env('MAIL_ADDRESS') ? `\n${env('MAIL_ADDRESS')}` : ''}`
   };
 }
