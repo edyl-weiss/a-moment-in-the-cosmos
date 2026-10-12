@@ -1139,3 +1139,6 @@ main { padding-bottom: 0; }
 .pp-nick { font-family: 'Patrick Hand', var(--serif); font-style: normal; font-size: .92rem; }
 @media (max-width: 600px) { .pp-nick { font-size: .84rem; } }
 .ns-p-note { margin: 0 0 .3rem; font: italic .92rem/1.4 var(--serif); color: #f2c14e; }
+/* tighter rhythm between sections (about 60% less empty space) */
+section { padding-block: clamp(1.2rem, 2.4vw, 2.2rem); }
+#feature { padding-top: clamp(.5rem, 2vw, 1.5rem); }
