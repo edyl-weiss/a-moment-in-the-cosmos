@@ -1142,3 +1142,11 @@ main { padding-bottom: 0; }
 /* tighter rhythm between sections (about 60% less empty space) */
 section { padding-block: clamp(1.2rem, 2.4vw, 2.2rem); }
 #feature { padding-top: clamp(.5rem, 2vw, 1.5rem); }
+.name-note + .scale { margin-top: 1em; }
+/* discovery moment: who, when, with what, and what else the world was doing that year */
+.discovery p { margin: 0; }
+.discovery .disc-year { margin-top: .45em; font-size: .94em; }
+.discovery .disc-year a { color: inherit; text-decoration: none; border-bottom: 1px solid rgba(233,228,216,.22); transition: border-color .2s, color .2s; }
+.discovery .disc-year a:hover, .discovery .disc-year a:focus-visible { color: var(--ink); border-bottom-color: currentColor; }
+.disc-sep { color: var(--ink-3); }
+.name-note + .discovery, .discovery + .scale { margin-top: 1em; }
