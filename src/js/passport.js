@@ -310,7 +310,8 @@ function stampHtml(k, sky) {
   const ribbon = [[10, 70.5], [90, 69.5], [85.5, 78], [90, 86.5], [10, 86], [14.5, 78], [10, 70.5]];
   const stars = pts.map(([x, y], i) => (st ? doodleStar(x, y, i % 3 ? 3.2 : 4.2, r) : `<circle cx="${f1(x)}" cy="${f1(y)}" r="1.3"/>`)).join('');
   const twinkles = st ? [[18 + (h % 7), 22], [80 - (h % 5), 26], [84, 70 - (h % 9)]].map(([x, y], i) => doodleStar(x, y, i === 1 ? 4.2 : 3, r)).join('') : '';
-  const fs = name.length > 14 ? 8.4 : name.length > 10 ? 10 : 11.5;
+  const fs = name.length > 14 ? 10.6 : name.length > 10 ? 12.4 : 14.2;
+  const fit = name.length * fs * 0.46 > 66 ? ' textLength="66" lengthAdjust="spacingAndGlyphs"' : '';
   const body = closed(shape.outline[0]);
   return `<li><button type="button" class="pp-stamp crayon${st ? ' on' : ''}${fresh ? ' fresh' : ''}" data-con="${k}" aria-label="${esc(label)}. Show it on Tonight’s sky" style="--stamp:${ink};--tilt:${st ? tilt : 0}deg">
     <svg viewBox="0 0 100 100" aria-hidden="true">
@@ -320,12 +321,12 @@ function stampHtml(k, sky) {
         ${shape.holes ? `<g class="pp-holes">${shape.holes}</g>` : ''}
         <path class="pp-shape" d="${sketch(shape.outline, r, 1.4)}"/>
         ${shape.inner.length ? `<path class="pp-inner" d="${sketch(shape.inner, r, 1, 1)}"/>` : ''}
-        <g class="pp-fig" transform="translate(50 45) scale(.62) translate(-50 -50)"><path d="${sketch(lines, r, 1.6)}"/>${stars}</g>
+        <g class="pp-fig" transform="translate(50 42) scale(.78) translate(-50 -50)"><path d="${sketch(lines, r, 1.6)}"/>${stars}</g>
         ${twinkles}
         ${st ? `<path class="pp-wash rib" d="${closed(ribbon)}"/><path class="pp-crayon rib" clip-path="url(#${id}r)" d="${scribble(r, [8, 68, 92, 88], 2.4)}"/>` : ''}
         <path class="pp-rib" d="${sketch([ribbon], r, 1.1)}"/>
       </g>
-      <text class="pp-label" x="50" y="81.4" text-anchor="middle" style="font-size:${fs}px">${esc(name)}</text>
+      <text class="pp-label" x="50" y="82.6" text-anchor="middle" style="font-size:${fs}px"${fit}>${esc(name)}</text>
     </svg>
     <span class="pp-nick">${esc(nick || ' ')}</span>
     <span class="pp-when">${st ? esc(short(st.date)) : ''}</span></button></li>`;
