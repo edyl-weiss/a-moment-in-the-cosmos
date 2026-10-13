@@ -23,6 +23,28 @@ export function nameOf(e) {
   return n.replace(/'/g, '’');
 }
 
+// Star days also draw on well-known star clusters and stars that go by catalog names.
+const STAR_EXTRA = { 'Jewel Box': 'Jewel Box', 'M 4': 'Messier 4', 'M 15': 'Messier 15', 'Messier 92': 'Messier 92', 'M 7': 'Ptolemy Cluster',
+  'Westerlund 1': 'Westerlund 1', 'R136': 'R136', 'Pismis 24': 'Pismis 24', 'Terzan 5': 'Terzan 5', 'SN 1987A': 'Supernova 1987A',
+  'Trumpler 14': 'Trumpler 14', 'NGC 3603': 'NGC 3603', 'NGC 6397': 'NGC 6397', 'NGC 6752': 'NGC 6752', 'NGC 1850': 'NGC 1850' };
+let starCache = null;
+function starPool(index, all) {
+  if (starCache && starCache.size === index.length) return starCache.objects;
+  const by = new Map(all.filter((o) => kindOf(o.name) === 'star').map((o) => [key(o.name), o]));
+  for (const e of index) {
+    if (!/^(h|w|e|n|nasa)-/.test(e.id) || e.cat !== 'star' || !e.q) continue;
+    const first = e.q.split(/ · constellation| · about /)[0].split(/\s*[·;]\s*|,\s+/)[0].trim();
+    const n = STAR_EXTRA[first];
+    if (!n) continue;
+    const k = key(n);
+    if (!by.has(k)) by.set(k, { name: n, cat: 'star', ids: [] });
+    if (!by.get(k).ids.includes(e.id)) by.get(k).ids.push(e.id);
+  }
+  const objects = [...by.values()].sort((a, b) => key(a.name).localeCompare(key(b.name)));
+  starCache = { size: index.length, objects };
+  return objects;
+}
+
 let cache = null;
 function pool(index) {
   if (cache && cache.size === index.length) return cache.objects;
@@ -49,13 +71,28 @@ function rng(seed) {
 }
 const gcd = (a, b) => (b ? gcd(b, a % b) : a);
 
+// From this puzzle on, the mystery object takes turns: a nebula, then a galaxy, then a star or star cluster.
+// Earlier puzzles keep the objects they were drawn with, so past results never change.
+export const ROTATE_FROM = 15;
+const TURNS = ['nebula', 'galaxy', 'star'];
+// what a name says the object is: a galaxy, a nebula, or otherwise a star or star cluster
+const kindOf = (name) => (/Galax|Magellanic|Quintet|Septet|Centaurus A|Triplet|Antennae|Mice|(Bullet|Antlia|Virgo|Coma|Fornax|Pandora|Perseus|Norma|Phoenix|Hydra|Abell) ?.{0,3}Cluster/i.test(name) ? 'galaxy'
+  : /Nebula|Pillars|Remnant|Loop|Superbubble|Bubble|Helmet|Wolf|Cloud/i.test(name) ? 'nebula' : 'star');
+
 export function puzzleFor(day, index) {
-  const objects = pool(index);
+  const all = pool(index);
+  if (all.length < 4) return null;
+  // the objects to draw from today, and the day count within that set
+  const turn = day >= ROTATE_FROM ? TURNS[(day - ROTATE_FROM) % TURNS.length] : null;
+  let objects = all, t = day;
+  if (turn) {
+    const mine = turn === 'star' ? starPool(index, all) : all.filter((o) => kindOf(o.name) === turn);
+    if (mine.length >= 4) { objects = mine; t = Math.floor((day - ROTATE_FROM) / TURNS.length); }
+  }
   const n = objects.length;
-  if (n < 4) return null;
   let step = 37; while (gcd(step, n) !== 1) step++;
   const today = dailyId(day);
-  let k = day, obj = null;
+  let k = t, obj = null;
   for (let tries = 0; tries < n; tries++, k++) {
     obj = objects[(k * step) % n];
     if (!obj.ids.includes(today)) break;                 // never the photograph already on the front page
@@ -63,13 +100,14 @@ export function puzzleFor(day, index) {
   const cycle = Math.floor(k / n);
   const id = obj.ids[cycle % obj.ids.length];
   const r = rng(day * 9973 + 17);
-  const same = objects.filter((o) => o !== obj && o.cat === obj.cat);
-  const others = (same.length >= 3 ? same : objects.filter((o) => o !== obj));
+  // decoys of the same kind (by name on rotating days, so a star never sits beside three galaxies)
+  const same = turn ? objects.filter((o) => o !== obj) : all.filter((o) => o !== obj && o.cat === obj.cat);
+  const others = (same.length >= 3 ? same : all.filter((o) => o !== obj));
   const decoys = [];
   while (decoys.length < 3) { const o = others[Math.floor(r() * others.length)]; if (!decoys.includes(o)) decoys.push(o); }
   const options = [obj, ...decoys].map((o) => o.name);
   for (let i = options.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [options[i], options[j]] = [options[j], options[i]]; }
-  return { no: day + 1, day, id, name: obj.name, cat: obj.cat, options, answer: options.indexOf(obj.name), focal: [0.38 + r() * 0.24, 0.38 + r() * 0.24] };
+  return { no: day + 1, day, id, name: obj.name, cat: turn || obj.cat, options, answer: options.indexOf(obj.name), focal: [0.38 + r() * 0.24, 0.38 + r() * 0.24] };
 }
 
 // A close-up of the photograph for a given look, cut by a public image service (images.weserv.nl): the

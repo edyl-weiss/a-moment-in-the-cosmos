@@ -151,7 +151,7 @@ export function guessEmail(puzzle, cropSrc, email, { dateLabel = '', issue = '',
   <tr><td style="padding:28px 0 6px">${label(`<span style="color:${C.red}">Cosmic guess</span>`)}</td></tr>
   <tr><td style="padding:0 0 18px;font:400 32px/1.15 ${SERIF};letter-spacing:-.01em;color:${C.ink}">What are you looking at?</td></tr>
   <tr><td style="padding:0"><a href="${play}"><img src="${esc(cropSrc)}" alt="A close-up of today’s mystery object" width="600" style="display:block;width:100%;max-width:600px;height:auto;border:0;border-radius:6px;background:#000"></a></td></tr>
-  <tr><td style="padding:16px 0 18px;font:17px/1.6 ${SERIF};color:${C.ink2}">A close-up of ${kind} from the collection. Choose an answer and the site will tell you if you’re right. If not, you get two more looks, each a little wider.</td></tr>
+  <tr><td style="padding:16px 0 18px;font:17px/1.6 ${SERIF};color:${C.ink2}">I’ve hidden ${kind} behind a very close zoom. Think you can name it? Pick one! Each miss pulls the view back a little further, and you’ve got three chances to get it.</td></tr>
   ${puzzle.options.map(option).join('')}
   <tr><td style="padding:14px 0 0;font:italic 15px/1.6 ${SERIF};color:${C.ink3}">Your answers count toward your streak and stats on the site, on any device.</td></tr>
   ${event ? `<tr><td style="padding:34px 0 0">
@@ -163,7 +163,7 @@ export function guessEmail(puzzle, cropSrc, email, { dateLabel = '', issue = '',
   return {
     subject: `${issue}: What are you looking at?`,
     html: frame({ preheader: `Today’s Cosmic guess: is it ${puzzle.options.slice(0, 3).join(', ')} or ${puzzle.options[3]}?`, issue, date: dateLabel, inner, email }),
-    text: `Cosmic guess, ${issue}\n${dateLabel}\n\nWhat are you looking at? A close-up of ${kind} from the collection.\n\n` +
+    text: `Cosmic guess, ${issue}\n${dateLabel}\n\nWhat are you looking at? I’ve hidden ${kind} behind a very close zoom. Think you can name it? Pick one! Each miss pulls the view back a little further, and you’ve got three chances to get it.\n\n` +
       puzzle.options.map((n, i) => `${'ABCD'[i]}. ${n}\n${link(i)}`).join('\n\n') +
       `\n\n${event ? `On this day in ${event.year}: ${event.text}\n\n` : ''}Clear skies,\nJoe\n\nUnsubscribe: ${unsubLink(email)}${env('MAIL_ADDRESS') ? `\n${env('MAIL_ADDRESS')}` : ''}`
   };
