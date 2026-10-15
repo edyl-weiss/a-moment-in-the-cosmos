@@ -8,6 +8,8 @@
    The catalog is APPEND-ONLY: the daily schedule is derived from the
    order lists in SCHEDULE, so editing past entries would rewrite history.
 ------------------------------------------------------------------- */
+import { IMAGE_HOST, MIRRORED } from './mirror.js';
+
 export const HUB = 'https://cdn.esahubble.org/archives/images/';
 export const WEBB = 'https://cdn.esawebb.org/archives/images/';
 export const ESO = 'https://cdn.eso.org/images/';
@@ -23,12 +25,15 @@ export const RIGHTS = {
 
 function assets(base, id, opts = {}) {
   const pubPath = opts.noPub ? 'large/' : 'publicationjpg/';
-  return {
+  const out = {
     pub: base + pubPath + id + '.jpg',
     screen: base + 'screen/' + id + '.jpg',
     thumb: base + 'thumb300y/' + id + '.jpg',
     large: opts.noLarge ? null : base + 'large/' + id + '.jpg'
   };
+  // served from the site's own image host once copied there (tools/images)
+  for (const v of MIRRORED[id] || []) if (IMAGE_HOST && out[v]) out[v] = `${IMAGE_HOST}/${id}/${v}.jpg`;
+  return out;
 }
 
 export const CATALOG = [

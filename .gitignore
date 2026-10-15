@@ -1,3 +1,5 @@
 dist/
 node_modules/
 test-results/
+tools/images/cache/
+tools/images/.env
