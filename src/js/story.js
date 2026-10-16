@@ -72,7 +72,7 @@ document.addEventListener('photo:change', ({ detail: { item, dims } }) => {
   $('#discText').textContent = disc ? disc.text : '';
   const yr = disc && disc.year < 0 ? `${-disc.year} BCE` : disc?.year;
   $('#discYear').innerHTML = disc && nm.events?.length
-    ? `<span class="label">Also in ${esc(String(yr))}:</span> ${nm.events.map((e) => `<a href="${esc(e.source.url)}" target="_blank" rel="noopener">${esc(e.text)}</a>`).join('<span class="disc-sep"> · </span>')}`
+    ? `<span class="label">Also in ${esc(String(yr))}:</span> ${nm.events.map((e) => esc(e.text)).join('<span class="disc-sep"> · </span>')}`
     : '';
   $('#discYear').hidden = !(disc && nm.events?.length);
   $('#scaleBox').hidden = !item.scale;
@@ -88,8 +88,7 @@ document.addEventListener('photo:change', ({ detail: { item, dims } }) => {
   const extra = nm ? [[`Name origin: ${nm.source.title}`, nm.source.url]] : [];
   if (disc) extra.push([`Discovery: ${disc.source.title}`, disc.source.url]);
   $('#sourcesList').innerHTML = list([...item.sources, ...extra]);
-  $('#exploreBody').innerHTML = item.explore.map((p) => `<p>${esc(p)}</p>`).join('') +
-    `<p><strong>Further reading</strong></p><ul>${list(item.sources)}</ul>`;
+  $('#exploreBody').innerHTML = item.explore.map((p) => `<p>${esc(p)}</p>`).join('');
   // A sentence or two isn't worth a panel; the sources are already listed beside the story.
   $('#exploreDetails').hidden = words(item.explore) < MIN_EXPLORE_WORDS;
   $('#behindList').innerHTML = behind(item, dims);

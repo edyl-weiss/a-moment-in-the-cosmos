@@ -50,7 +50,7 @@ async function open() {
   panel.hidden = false;
   $('#cmpLeftLabel').textContent = c.left.label;
   $('#cmpRightLabel').textContent = c.right.label;
-  $('#cmpNote').innerHTML = `<details><summary>What changes between the two</summary>${esc(c.note)} <span class="src">Aligned pair from <a href="${esc(c.source)}" target="_blank" rel="noopener">ESA/Webb’s comparison page</a>.</span></details>`;
+  $('#cmpNote').innerHTML = `<details><summary>What changes between the two</summary>${esc(c.note)}</details>`;
   $('#cmpCredit').innerHTML = `<strong>Left:</strong> ${esc(c.left.credit)} · <strong>Right:</strong> ${esc(c.right.credit)} · CC BY 4.0`;
   $('#cmpNote').hidden = $('#cmpCredit').hidden = false;
   fit();
