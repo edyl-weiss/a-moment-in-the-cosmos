@@ -5146,5 +5146,41 @@ export const NAMES = [
    "title": "Webb zooms in on a dusty disc (IRAS 04302+2247)",
    "url": "https://esawebb.org/images/potm2508a/"
   }
+ },
+ {
+  "key": "apep",
+  "aliases": [
+   "Apep",
+   "2XMM J160050.7-514245"
+  ],
+  "text": "The system is named for Apep, the giant serpent of chaos in ancient Egyptian myth, whom the sun god Ra was said to battle every night. Its coiling dust plumes suggested the name.",
+  "source": {
+   "title": "ESO press release eso1838",
+   "url": "https://www.eso.org/public/news/eso1838/"
+  },
+  "discovery": {
+   "text": "A team led by Joseph Callingham and Peter Tuthill revealed Apep’s Wolf-Rayet stars and serpentine dust in 2018, using the VISIR instrument on ESO’s Very Large Telescope.",
+   "year": 2018,
+   "source": {
+    "title": "ESO press release eso1838",
+    "url": "https://www.eso.org/public/news/eso1838/"
+   }
+  },
+  "events": [
+   {
+    "text": "Rescuers bring 12 boys and their football coach out of Thailand’s flooded Tham Luang cave",
+    "source": {
+     "title": "Tham Luang cave rescue – Britannica",
+     "url": "https://www.britannica.com/event/Tham-Luang-cave-rescue"
+    }
+   },
+   {
+    "text": "France wins the FIFA World Cup in Russia",
+    "source": {
+     "title": "2018 FIFA World Cup – Britannica",
+     "url": "https://www.britannica.com/sports/2018-FIFA-World-Cup"
+    }
+   }
+  ]
  }
 ];
