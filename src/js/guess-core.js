@@ -1,7 +1,7 @@
 // Cosmic guess: the daily puzzle, shared by the site and the daily email (no DOM here).
 // Each day picks one famous object from the collection, a photograph of it, three decoys of the same kind,
 // and a point to zoom in on. The same day number always gives the same puzzle, everywhere.
-import { dailyId } from './util.js';
+import { dailyIds } from './util.js';
 
 // How far in each look is: the first look is 1/4.5 of the photograph's width, then wider, then wider still.
 export const ZOOMS = [4.5, 2.6, 1.5];
@@ -91,11 +91,11 @@ export function puzzleFor(day, index) {
   }
   const n = objects.length;
   let step = 37; while (gcd(step, n) !== 1) step++;
-  const today = dailyId(day);
+  const front = dailyIds(day);
   let k = t, obj = null;
   for (let tries = 0; tries < n; tries++, k++) {
     obj = objects[(k * step) % n];
-    if (!obj.ids.includes(today)) break;                 // never the photograph already on the front page
+    if (!obj.ids.some((x) => front.includes(x))) break;  // never a photograph already on the front page
   }
   const cycle = Math.floor(k / n);
   const id = obj.ids[cycle % obj.ids.length];

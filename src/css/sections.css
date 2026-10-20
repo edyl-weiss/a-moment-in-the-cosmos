@@ -1,7 +1,7 @@
 /* Archive, favorites, about, footer. */
-.section-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:12px 24px;margin:96px 0 22px;border-top:1px solid var(--ink-3);padding-top:18px}
-.section-head h2{font:300 clamp(1.9rem,3.4vw,2.6rem)/1.1 var(--serif);letter-spacing:-.01em;margin:0}
-.section-head p{margin:6px 0 0;color:var(--ink-2);font-style:italic;max-width:60ch}
+.section-head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 24px;margin:96px 0 22px;border-top:1px solid var(--ink-3);padding-top:18px}
+.section-head h2{font:300 clamp(1.9rem,3.4vw,2.6rem)/1.1 var(--serif);margin:0}
+.section-head p{margin:6px 0 0;font-style:italic;max-width:60ch}
 
 /* Contact sheet: pictures first, a line of type under each, no boxes. */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(180px,42vw),1fr));gap:28px 18px}
@@ -34,16 +34,14 @@ footer p{display:flex;flex-wrap:wrap;gap:4px 28px;margin:0;padding-top:14px;bord
 .otd-pick select{font:400 1rem var(--serif);color:var(--ink);background:none;border:0;border-bottom:1px solid var(--rule);padding:4px 2px;cursor:pointer}
 .otd-pick select:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
 .otd-pick option{background:var(--paper);color:var(--ink)}
-.otd-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:28px clamp(32px,6vw,80px);align-items:start}
+.otd-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);align-items:start}
 @media (max-width:860px){.otd-grid{grid-template-columns:minmax(0,1fr)}}
-.otd-grid h3{font:italic 400 1.3rem/1.2 var(--serif);margin:0 0 12px}
+.otd-grid h3{margin:0 0 12px}
 ol.events{list-style:none;margin:0;padding:0}
 ol.events > li{display:grid;grid-template-columns:5.5rem minmax(0,1fr);gap:0 14px;margin:0 0 20px}
 ol.events > li.none{display:block}
 ol.events .yr{font:400 .918rem/1.9 var(--mono);color:var(--red)}
 ol.events p{margin:0}
-ol.events .ev-src{margin-top:4px;font-size:.986rem;color:var(--ink-3)}
-ol.events .ev-src a{color:var(--ink-2)}
 ol.events .ev-photos{margin-top:6px;font-size:.997rem}
 ol.events .ev-photos button{min-height:0;padding:2px 0}
 ol.events .rel{font-size:.952rem;color:var(--ink-3);font-style:italic}

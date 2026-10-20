@@ -1,5 +1,5 @@
 // Random discovery by category, Surprise Me, Back to Today and Previous image.
-import { $, $$, CAT, todayIndex, dailyId } from './util.js';
+import { $, $$, CAT, todayIndex, dailyId, stepDaily } from './util.js';
 import { state, show, back } from './feature.js';
 import { INDEX } from './collection.js';
 import { scrollToFeature } from './tiles.js';
@@ -12,10 +12,12 @@ function randomIn(cat) {
   return choices[Math.floor(Math.random() * choices.length)]?.id;
 }
 
-export function showToday() {
+export function showToday(slot = 0) {
   const d = todayIndex();
-  return show(dailyId(d), { mode: 'daily', day: d });
+  return show(dailyId(d, slot), { mode: 'daily', day: d, slot });
 }
+// Open one photograph from the daily lineup: today's are "daily", earlier days come from the archive.
+export const showDaily = (day, slot) => show(dailyId(day, slot), { mode: day === todayIndex() ? 'daily' : 'archive', day, slot });
 
 $$('[data-random]').forEach((b) => b.addEventListener('click', () => {
   const cats = Object.keys(CAT);
@@ -27,38 +29,32 @@ $$('[data-random]').forEach((b) => b.addEventListener('click', () => {
 }));
 // The bar sits below the story, so bring the new photograph into view.
 $('#backToday').addEventListener('click', () => { showToday(); scrollToFeature(); });
-// Previous: on a daily photograph (today or an archive day) it steps one day back each time.
-// On anything else (a random pick, a search result, a shared link) it returns to the photograph
-// viewed before it, or to yesterday when there is none.
+// Previous: on a daily photograph (today or an archive day) it steps back one photograph at a time,
+// through each day's lineup and on into the days before. On anything else (a random pick, a search result,
+// a shared link) it returns to the photograph viewed before it, or to the last one shown yesterday.
 const onDay = () => Number.isInteger(state.ctx?.day);
-function prevDay() {
-  const d = onDay() ? state.ctx.day : todayIndex();
-  return d > 0 ? d - 1 : null;
-}
+const here = () => (onDay() ? { day: state.ctx.day, slot: state.ctx.slot || 0 } : { day: todayIndex(), slot: 0 });
+const prevDay = () => stepDaily(here().day, here().slot, -1);
 $('#prevBtn').addEventListener('click', () => {
   document.dispatchEvent(new CustomEvent('seal:prev'));
   if (!onDay() && state.history.length) back();
   else {
-    const d = prevDay();
-    if (d === null) return;
-    show(dailyId(d), { mode: 'archive', day: d });
+    const p = prevDay();
+    if (!p) return;
+    showDaily(p.day, p.slot);
   }
   scrollToFeature();
 });
-// Next: one day forward through the daily archive, up to today's photograph.
-function nextDay() {
-  if (!onDay()) return null;
-  const d = state.ctx.day + 1;
-  return d <= todayIndex() ? d : null;
-}
+// Next: forward through the daily photographs, up to the last of today's.
+const nextDay = () => (onDay() ? stepDaily(state.ctx.day, state.ctx.slot || 0, 1) : null);
 $('#nextBtn').addEventListener('click', () => {
-  const d = nextDay();
-  if (d === null) return;
-  show(dailyId(d), d === todayIndex() ? { mode: 'daily', day: d } : { mode: 'archive', day: d });
+  const n = nextDay();
+  if (!n) return;
+  showDaily(n.day, n.slot);
   scrollToFeature();
 });
 const syncPrev = (busy = false) => {
-  $('#nextBtn').hidden = onDay() && state.ctx.day >= todayIndex() - 1; $('#nextBtn').disabled = busy || nextDay() === null; $('#prevBtn').disabled = busy || (prevDay() === null && (onDay() || !state.history.length)); };
+  $('#nextBtn').hidden = !nextDay(); $('#nextBtn').disabled = busy || !nextDay(); $('#prevBtn').disabled = busy || (!prevDay() && (onDay() || !state.history.length)); };
 document.addEventListener('photo:change', () => syncPrev());
 
 document.addEventListener('photo:busy', ({ detail: busy }) => {

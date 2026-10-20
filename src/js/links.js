@@ -3,7 +3,7 @@
 //   #on-12-26      "On this day" open at a calendar date
 // Section anchors (#archive, #about…) are left alone. Opening a link restores the view,
 // and the browser's Back / Forward buttons walk through photographs opened on the page.
-import { $, say, todayIndex, dailyId } from './util.js';
+import { $, say, todayIndex, dailyId, slotOf } from './util.js';
 import { state, show } from './feature.js';
 import { INDEX_BY_ID } from './collection.js';
 import { scrollToFeature } from './tiles.js';
@@ -37,7 +37,8 @@ export function openFromHash({ scroll = true } = {}) {
   if (!INDEX_BY_ID[h]) return false;
   if (state.item?.id === h) return true;
   const today = todayIndex();
-  const ctx = dailyId(today) === h ? { mode: 'daily', day: today } : { mode: 'link' };
+  const slot = slotOf(today, h);
+  const ctx = slot >= 0 ? { mode: 'daily', day: today, slot } : { mode: 'link' };
   show(h, ctx, { push: false });
   if (scroll) scrollToFeature();
   return true;
@@ -55,7 +56,7 @@ document.addEventListener('photo:change', ({ detail: { item, ctx } }) => {
 window.addEventListener('popstate', () => {
   if (!location.hash) {
     const today = todayIndex();
-    if (state.item?.id !== dailyId(today)) show(dailyId(today), { mode: 'daily', day: today }, { push: false });
+    if (slotOf(today, state.item?.id) < 0) show(dailyId(today), { mode: 'daily', day: today, slot: 0 }, { push: false });
     return;
   }
   openFromHash();

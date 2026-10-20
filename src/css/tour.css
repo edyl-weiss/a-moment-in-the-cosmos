@@ -1,5 +1,5 @@
 /* Guided tour caption inside the immersive viewer: a plain caption block, not a card. */
-.tour-card{position:absolute;left:16px;bottom:calc(64px + env(safe-area-inset-bottom));width:min(26rem,calc(100vw - 32px));padding:14px 18px 10px;background:rgba(13,12,11,.92)}
+.tour-card{position:absolute;left:16px;bottom:calc(64px + env(safe-area-inset-bottom));width:min(26rem,calc(100vw - 32px));background:rgba(13,12,11,.92)}
 .tour-card .step{margin:0;font:400 .829rem/1 var(--mono);color:var(--red)}
 .tour-card h3{margin:6px 0 6px;font:italic 400 1.4rem/1.2 var(--serif)}
 .tour-card p{margin:0 0 8px;font-size:1rem;color:var(--ink)}

@@ -1,7 +1,7 @@
 // Pages. Today's photograph (with collection search), On this day, Favorites and About each show on their own;
 // the address bar says which (#archive, #about…), so Back/Forward and shared links work.
 // Each section belongs to a page; everything shares the home page except About.
-const PAGE_OF = { feature: 'home', play: 'home', loved: 'home', onthisday: 'home', archive: 'home', favorites: 'home', sky: 'sky', passport: 'passport', about: 'about' };
+const PAGE_OF = { feature: 'home', winner: 'home', play: 'home', loved: 'home', onthisday: 'home', archive: 'home', favorites: 'home', sky: 'sky', passport: 'passport', about: 'about' };
 const VIEWS = Object.keys(PAGE_OF);
 const sectionEls = Object.fromEntries(VIEWS.map((v) => [v, document.getElementById(v)]));
 const links = [...document.querySelectorAll('.site-nav a')];
@@ -74,6 +74,11 @@ function land(smooth) {
   else window.scrollTo({ top: 0, behavior: smooth && !calm() ? 'smooth' : 'auto' });
 }
 export const currentView = () => current;
+// A section that had nothing to show (data-empty) now has content: show it if it belongs to the current page.
+export function reveal(el) {
+  delete el.dataset.empty;
+  el.hidden = PAGE_OF[el.id] !== current;
+}
 
 // The fades at the menu's edges only show while there is more menu to swipe to on that side.
 {

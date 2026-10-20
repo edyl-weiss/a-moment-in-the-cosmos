@@ -49,7 +49,7 @@ const STICKERS = [
   { id: 'calendar', label: 'Calendar hopper', hint: 'Visit “On this day” on five different dates', test: () => Object.keys(book.otd || {}).length >= 5, icon: 'calhop' },
   { id: 'starcrossed', label: 'Star-crossed', hint: 'Save five photographs to your Favorites', test: () => (store.get('amitc.favorites.v1', []) || []).length >= 5, icon: 'heart' },
   { id: 'moonstruck', label: 'Moonstruck', hint: 'Find a full Moon on Tonight’s sky (try another date)', test: () => Boolean(book.flags.fullmoon), icon: 'fullmoon' },
-  { id: 'firstline', label: 'First in line', hint: 'Visit within an hour of a new photograph arriving', test: () => Boolean(book.flags.early), icon: 'clock' },
+  { id: 'firstline', label: 'First in line', hint: 'Visit within an hour of the new photographs arriving', test: () => Boolean(book.flags.early), icon: 'clock' },
   { id: 'hemi', label: 'Hemisphere hopper', hint: 'Switch Tonight’s sky between the whole northern and southern views', test: () => Boolean(book.flags.hemiN && book.flags.hemiS), icon: 'globe' },
   { id: 'twin', label: 'Birthday twin', hint: 'Open a photograph released on your birthday', test: () => Boolean(book.flags.twin), icon: 'twin' },
   { id: 'hopping', label: 'Star-hopping', hint: 'Visit ten constellations on Tonight’s sky in one visit', test: () => Boolean(book.flags.hop), icon: 'hop' },
@@ -235,7 +235,7 @@ const nickname = (k) => { const a = (CON_ALIASES[k === 'Ser' ? 'Ser1' : k] || []
 const closed = (l) => `M${l.map(([x, y]) => `${f1(x)} ${f1(y)}`).join('L')}Z`;
 
 // Wax colors for the seals: deep, slightly dusty tones that read as real sealing wax.
-const WAX = ['#a4282f', '#2d4a86', '#b8841f', '#2f6a4f', '#6a3a88', '#bf5a26', '#8a2f55', '#1f6470'];
+export const WAX = ['#a4282f', '#2d4a86', '#b8841f', '#2f6a4f', '#6a3a88', '#bf5a26', '#8a2f55', '#1f6470'];
 // The outline of a blob of melted wax: round, but lumpy, with a few spills where it ran out from under the seal.
 function waxBlob(r) {
   const ph = [r() * 6.3, r() * 6.3, r() * 6.3];
@@ -333,15 +333,22 @@ function stampHtml(k, sky) {
 }
 
 // Seals (the milestones): a blob of glossy sealing wax with the milestone's emblem pressed into it.
-function sealSvg(s, i) {
-  const r = rng(hash(s.id)), id = `sl${s.id}`;
-  return `<svg class="pp-seal" viewBox="0 0 100 100" style="--stamp:${WAX[(i * 3) % WAX.length]}">
+function sealSvg(s, i) { return waxSeal(s.id, WAX[(i * 3) % WAX.length], ICONS[s.icon]); }
+
+// A seal of melted wax: a lumpy blob (its shape set by `key`), a pressed face with a scalloped border and an
+// emblem (24 × 24 SVG markup), lit by the shared #ppWax filter. A `label` runs around the bottom of the face.
+// Used for the passport's milestone seals and, from votes.js, for your pick and Yesterday's winner.
+export function waxSeal(key, color, icon, { label = '', cls = '' } = {}) {
+  const h = hash(key), r = rng(h), id = `w${h.toString(36)}`;
+  const s = label ? 1.55 : 2.05, iy = label ? 46 : 50;
+  return `<svg class="pp-seal${cls ? ` ${cls}` : ''}" viewBox="0 0 100 100" style="--stamp:${color}" aria-hidden="true" focusable="false">
     <defs>
       <radialGradient id="${id}g" cx="36%" cy="30%" r="78%"><stop offset="0" class="w-hi"/><stop offset=".55" class="w-mid"/><stop offset="1" class="w-lo"/></radialGradient>
       <linearGradient id="${id}f" x1=".2" y1=".1" x2=".8" y2=".95"><stop offset="0" class="f-a"/><stop offset="1" class="f-b"/></linearGradient>
       <linearGradient id="${id}rh" x1="0" y1="0" x2="1" y2="1"><stop offset=".35" class="rh-a"/><stop offset="1" class="rh-b"/></linearGradient>
       <linearGradient id="${id}ws" x1="0" y1="0" x2="1" y2="1"><stop offset="0" class="ws-a"/><stop offset=".7" class="ws-b"/></linearGradient>
       <clipPath id="${id}c"><circle cx="50" cy="50" r="29"/></clipPath>
+      ${label ? `<path id="${id}t" d="M29 52A21 21 0 0 0 71 52"/>` : ''}
     </defs>
     <g class="pp-wax" filter="url(#ppWax)">
       <path d="${waxBlob(r)}" fill="url(#${id}g)"/>
@@ -350,10 +357,12 @@ function sealSvg(s, i) {
       <circle class="w-rimhi" cx="50" cy="50" r="31.6" stroke="url(#${id}rh)" filter="url(#ppSoft)"/>
       <circle class="w-lip" cx="50" cy="50" r="29.2"/>
       <path class="w-gloss" d="M19.5 37A33.5 33.5 0 0 1 38 18.5" filter="url(#ppSoft)"/><path class="w-gloss thin" d="M23.5 36.5A29 29 0 0 1 36.5 23.5"/><circle class="w-gloss-dot" cx="22.5" cy="31" r="1.2"/>
-      <g filter="url(#ppMelt${hash(s.id) % 3})">
+      <g filter="url(#ppMelt${h % 3})">
         <path class="w-scallop hi" d="${scallop(50.4, 50.5, 26.6)}"/><path class="w-scallop" d="${scallop(50, 50, 26.6)}"/>
-        <g class="w-icon hi" transform="translate(50.7 50.8) scale(2.05) translate(-12 -12)">${ICONS[s.icon]}</g>
-        <g class="w-icon" transform="translate(50 50) scale(2.05) translate(-12 -12)">${ICONS[s.icon]}</g>
+        <g class="w-icon hi" transform="translate(50.7 ${iy + 0.8}) scale(${s}) translate(-12 -12)">${icon}</g>
+        <g class="w-icon" transform="translate(50 ${iy}) scale(${s}) translate(-12 -12)">${icon}</g>
+        ${label ? `<text class="w-label hi" dx=".5" dy=".6"><textPath href="#${id}t" startOffset="50%" text-anchor="middle">${label}</textPath></text>
+        <text class="w-label"><textPath href="#${id}t" startOffset="50%" text-anchor="middle">${label}</textPath></text>` : ''}
       </g>
     </g></svg>`;
 }

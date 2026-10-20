@@ -8,14 +8,14 @@
 .scale .label{font-style:normal;font-size:.851rem;color:var(--red);margin-right:.4em}
 
 .notes dl{margin:0;display:grid;gap:0}
-.notes dt{font-size:.851rem;color:var(--ink-3);margin-top:22px}
+.notes dt{margin-top:22px}
 .notes dt:first-child{margin-top:4px}
-.notes dd{margin:4px 0 0;font-size:1rem;line-height:1.5;color:var(--ink-2)}
+.notes dd{font-size:1rem;line-height:1.5;color:var(--ink-2)}
 .notes .src{color:var(--ink-3)}
 .notes ul{margin:0;padding:0;list-style:none}
 .notes li{margin:2px 0}
 
-#understandPanel{margin:28px 0 0;max-width:46rem}
+#understandPanel{max-width:46rem}
 #understandPanel h3{margin:0 0 8px;font:italic 400 1.35rem/1.2 var(--serif)}
 #understandPanel p{margin:0 0 .8em;color:var(--ink)}
 table.filters{border-collapse:collapse;width:100%;margin:14px 0 18px;font:400 .896rem/1.45 var(--mono)}

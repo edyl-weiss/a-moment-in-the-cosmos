@@ -1,19 +1,18 @@
 /* Dateline, notice, the photograph (edge to edge), overlay labels, credit, title and actions. */
-.dateline{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 18px;margin:28px 0 12px;font-size:.896rem;color:var(--ink-2)}
+.dateline{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 18px;margin:28px 0 12px;color:var(--ink-2)}
 .dateline .cat{color:var(--red)}
 .dateline .when{color:var(--ink)}
 .dateline .rollover{margin-left:auto}
 
 .notice{margin:0 0 14px;font-style:italic;color:var(--ink-2);max-width:70ch}
 
-
 figure.feature{margin:0 calc(50% - 50vw)}          /* bleed to the viewport edges */
-.stage{position:relative;height:clamp(320px,78vh,980px);background:var(--plate);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.stage{position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden}
 .frame{position:relative;cursor:zoom-in;transition:opacity .45s ease}
 .frame img{display:block;width:100%;height:100%;object-fit:contain;user-select:none}
 .stage.loading .frame{opacity:.2}
 @media (prefers-reduced-motion: reduce){.frame{transition:none}}
-.spinner{position:absolute;inset:0;display:none;align-items:center;justify-content:center;margin:0;font:400 .896rem var(--mono);color:var(--ink-2)}
+.spinner{position:absolute;inset:0;display:none;align-items:center;justify-content:center;margin:0;color:var(--ink-2)}
 .stage.loading .spinner{display:flex}
 .dims{position:absolute;right:12px;bottom:8px;font-size:.806rem;color:rgba(233,228,216,.6)}
 .labels{position:absolute;inset:0;pointer-events:none;opacity:0;transition:opacity .3s}
@@ -27,12 +26,12 @@ figcaption.credit strong{font-weight:400;color:var(--ink-2)}
 figcaption.credit a{color:var(--ink-2)}
 
 .titlebar{margin:52px 0 0}
-.titlebar h2{font:300 clamp(2.1rem,4.8vw,3.8rem)/1.05 var(--serif);letter-spacing:-.015em;margin:0;max-width:24ch}
-.titlebar .cap{margin:12px 0 0;font-style:italic;color:var(--ink-2);font-size:1.12rem;line-height:1.5;max-width:60ch}
+.titlebar h2{font:300 clamp(2.1rem,4.8vw,3.8rem)/1.05 var(--serif);max-width:24ch}
+.titlebar .cap{max-width:60ch}
 .titlebar .cap .date{font-style:normal}
 
 /* Options sit directly under the photograph, one line on wide screens. */
-.actions{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 28px;margin:14px 0 0}
+.actions{flex-wrap:wrap;margin:14px 0 0}
 @media (max-width:600px){.actions{gap:0 20px}}
 @media (max-width:600px){.dateline .rollover{margin-left:0;flex-basis:100%}}
 

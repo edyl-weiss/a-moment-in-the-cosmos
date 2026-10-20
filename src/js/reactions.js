@@ -4,6 +4,7 @@ import { $, say, store } from './util.js';
 import { state, show } from './feature.js';
 import { INDEX_BY_ID } from './collection.js';
 import { tile, scrollToFeature } from './tiles.js';
+import { reveal } from './router.js';
 
 const MINE = 'wowed';
 const btn = $('#wowBtn'), num = $('#wowCount');
@@ -64,7 +65,6 @@ export async function renderLoved() {
         onOpen: () => { show(it.id, { mode: 'loved' }); scrollToFeature(); }
       }));
     }
-    delete $('#loved').dataset.empty;
-    $('#loved').hidden = location.hash === '#about';
+    reveal($('#loved'));
   } catch { /* reactions not available */ }
 }

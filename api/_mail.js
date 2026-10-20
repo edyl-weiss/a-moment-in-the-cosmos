@@ -71,7 +71,7 @@ function frame({ preheader = '', issue = '', date = '', inner, email }) {
       <td align="right" style="font:12px/1.4 ${MONO};color:${C.ink3}">${esc(date)}</td>
     </tr></table></td></tr>
   ${inner}
-  <tr><td style="padding:34px 0 0;font:italic 17px/1.5 ${SERIF};color:${C.ink2}">Clear skies,<br><span style="font-style:normal;color:${C.ink}">Joe</span></td></tr>
+  <tr><td style="padding:34px 0 0;font:italic 17px/1.5 ${SERIF};color:${C.ink2}">Ad astra,<br><span style="font-style:normal;color:${C.ink}">Joe</span></td></tr>
   <tr><td style="padding:28px 0 0"><div style="border-top:1px solid ${C.rule};font-size:0;line-height:0">&nbsp;</div></td></tr>
   <tr><td style="padding:16px 0 0;font:12px/1.7 ${MONO};color:${C.ink3}">
     ${unsub}<a href="${siteUrl()}" style="color:${C.ink2};text-decoration:underline">${esc(site)}</a>
@@ -133,14 +133,42 @@ export function dailyEmail(photo, email, { dateLabel = '', issue = '', event = n
   return {
     subject: photo.title,
     html: frame({ preheader: (story.match(/^.*?[.!?](\s|$)/)?.[0] || story).slice(0, 140), issue, date: dateLabel, inner, email }),
-    text: `${photo.title}\n${dateLabel}\n\n${story}\n\n${url}\n\n${event ? `On this day in ${event.year}: ${event.text}\n\n` : ''}Clear skies,\nJoe\n\nUnsubscribe: ${unsubLink(email)}${env('MAIL_ADDRESS') ? `\n${env('MAIL_ADDRESS')}` : ''}`
+    text: `${photo.title}\n${dateLabel}\n\n${story}\n\n${url}\n\n${event ? `On this day in ${event.year}: ${event.text}\n\n` : ''}Ad astra,\nJoe\n\nUnsubscribe: ${unsubLink(email)}${env('MAIL_ADDRESS') ? `\n${env('MAIL_ADDRESS')}` : ''}`
   };
 }
 
 // The daily email: today's Cosmic guess. Each answer is a link that opens the site with that answer
 // already given; the signed `t` ties the result to this subscriber, so their record follows them.
 export const guessToken = (email) => sign(`g:${email}`);
-export function guessEmail(puzzle, cropSrc, email, { dateLabel = '', issue = '', event = null } = {}) {
+// Yesterday's winner and today's three, below the puzzle. `lineup` = { three: [index entries], winner: { photo, n, total, pct, tiedWith } | null }.
+const KIND = { galaxy: 'Galaxy', nebula: 'Nebula', star: 'Star', night: 'Night sky' };
+function lineupHtml(lineup) {
+  if (!lineup?.three?.length) return '';
+  const site = siteUrl(), link = (id) => `${site}/#${encodeURIComponent(id)}`;
+  const w = lineup.winner;
+  const wImg = w && (w.photo.img?.screen || w.photo.img?.thumb || w.photo.thumb);
+  const winner = w ? `
+  <tr><td style="padding:40px 0 6px">${label(`<span style="color:${C.red}">Yesterday’s winner</span>`)}</td></tr>
+  <tr><td style="padding:0 0 14px;font:400 26px/1.2 ${SERIF};color:${C.ink}"><a href="${link(w.photo.id)}" style="color:${C.ink};text-decoration:none">${esc(w.photo.title)}</a></td></tr>
+  ${wImg ? `<tr><td style="padding:0"><a href="${link(w.photo.id)}"><img src="${esc(wImg)}" alt="${esc(w.photo.alt || w.photo.title)}" width="600" style="display:block;width:100%;max-width:600px;height:auto;border:0;border-radius:6px;background:#000"></a></td></tr>` : ''}
+  <tr><td style="padding:10px 0 0;font:13px/1.5 ${MONO};color:${C.ink3}"><span style="color:${C.ink}">${w.pct}%</span> of ${w.total.toLocaleString('en')} vote${w.total === 1 ? '' : 's'}${w.tiedWith ? ` · tied with ${esc(w.tiedWith)}` : ''}</td></tr>` : '';
+  const last = lineup.three.length - 1;
+  const cell = (e, i) => `<td width="33%" valign="top" style="padding:0 ${i === last ? 0 : 5}px 0 ${i ? 5 : 0}px">
+      <a href="${link(e.id)}" style="text-decoration:none;color:${C.ink}">
+        ${e.thumb ? `<img src="${esc(e.thumb)}" alt="" width="186" style="display:block;width:100%;height:auto;border:0;border-radius:4px;background:#000">` : ''}
+        <p style="margin:8px 0 3px;font:500 10px/1.3 ${MONO};letter-spacing:.12em;text-transform:uppercase;color:${C.red}">${esc(KIND[e.cat] || '')}</p>
+        <p style="margin:0;font:15px/1.35 ${SERIF};color:${C.ink}">${esc(e.title)}</p></a></td>`;
+  return `${winner}
+  <tr><td style="padding:40px 0 6px">${label(`<span style="color:${C.red}">Today’s three</span>`)}</td></tr>
+  <tr><td style="padding:0 0 16px;font:17px/1.6 ${SERIF};color:${C.ink2}">A galaxy, a little stardust and a night sky. Which one’s your favorite? Cast your vote on the site, and I’ll share the winner tomorrow.</td></tr>
+  <tr><td style="padding:0"><table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>${lineup.three.map(cell).join('')}</tr></table></td></tr>
+  <tr><td style="padding:22px 0 0">${button(`${site}/#trio`, 'Vote for your favorite')}</td></tr>`;
+}
+const lineupText = (lineup) => !lineup?.three?.length ? '' :
+  (lineup.winner ? `Yesterday’s winner: ${lineup.winner.photo.title} (${lineup.winner.pct}% of ${lineup.winner.total} votes)\n${siteUrl()}/#${encodeURIComponent(lineup.winner.photo.id)}\n\n` : '') +
+  `Today’s three. Vote for your favorite:\n${lineup.three.map((e) => `- ${KIND[e.cat] || ''}: ${e.title}`).join('\n')}\n${siteUrl()}/#trio\n\n`;
+
+export function guessEmail(puzzle, cropSrc, email, { dateLabel = '', issue = '', event = null, lineup = null } = {}) {
   const t = guessToken(email);
   const link = (i) => `${siteUrl()}/?g=${puzzle.day}&a=${i}&t=${encodeURIComponent(t)}#play`;
   const play = `${siteUrl()}/?t=${encodeURIComponent(t)}#play`;
@@ -154,6 +182,7 @@ export function guessEmail(puzzle, cropSrc, email, { dateLabel = '', issue = '',
   <tr><td style="padding:16px 0 18px;font:17px/1.6 ${SERIF};color:${C.ink2}">I’ve hidden ${kind} behind a very close zoom. Think you can name it? Pick one! Each miss pulls the view back a little further, and you’ve got three chances to get it.</td></tr>
   ${puzzle.options.map(option).join('')}
   <tr><td style="padding:14px 0 0;font:italic 15px/1.6 ${SERIF};color:${C.ink3}">Your answers count toward your streak and stats on the site, on any device.</td></tr>
+  ${lineupHtml(lineup)}
   ${event ? `<tr><td style="padding:34px 0 0">
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:${C.navy};border:1px solid #1d2c55;border-radius:10px">
       <tr><td style="padding:20px 22px 22px">
@@ -165,6 +194,6 @@ export function guessEmail(puzzle, cropSrc, email, { dateLabel = '', issue = '',
     html: frame({ preheader: `Today’s Cosmic guess: is it ${puzzle.options.slice(0, 3).join(', ')} or ${puzzle.options[3]}?`, issue, date: dateLabel, inner, email }),
     text: `Cosmic guess, ${issue}\n${dateLabel}\n\nWhat are you looking at? I’ve hidden ${kind} behind a very close zoom. Think you can name it? Pick one! Each miss pulls the view back a little further, and you’ve got three chances to get it.\n\n` +
       puzzle.options.map((n, i) => `${'ABCD'[i]}. ${n}\n${link(i)}`).join('\n\n') +
-      `\n\n${event ? `On this day in ${event.year}: ${event.text}\n\n` : ''}Clear skies,\nJoe\n\nUnsubscribe: ${unsubLink(email)}${env('MAIL_ADDRESS') ? `\n${env('MAIL_ADDRESS')}` : ''}`
+      `\n\n${lineupText(lineup)}${event ? `On this day in ${event.year}: ${event.text}\n\n` : ''}Ad astra,\nJoe\n\nUnsubscribe: ${unsubLink(email)}${env('MAIL_ADDRESS') ? `\n${env('MAIL_ADDRESS')}` : ''}`
   };
 }

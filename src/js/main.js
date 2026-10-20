@@ -22,6 +22,7 @@ import './skymap.js';
 import { refreshSky } from './nightsky.js';
 import { renderLoved } from './reactions.js';
 import { initPlay } from './play.js';
+import { initVotes } from './votes.js';
 import './passport.js';
 
 const issue = todayIndex();
@@ -37,9 +38,10 @@ renderGrid();
 await initOnThisDay();
 renderLoved();
 initPlay();
+initVotes();
 // A shared link (#photo-id or #on-MM-DD) opens that view; otherwise today's photograph.
 const linkedPhoto = location.hash && openFromHash({ scroll: true });
-if (!linkedPhoto || /^#on-/.test(location.hash)) show(dailyId(issue), { mode: 'daily', day: issue, initial: true }, { push: false });
+if (!linkedPhoto || /^#on-/.test(location.hash)) show(dailyId(issue), { mode: 'daily', day: issue, slot: 0, initial: true }, { push: false });
 
 // Vercel Web Analytics: page views, counted only on the live site (the script is served by Vercel).
 if (!/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) inject();

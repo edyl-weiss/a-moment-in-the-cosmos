@@ -1,10 +1,12 @@
-// Vercel Cron, a few minutes after midnight UTC: email today's Cosmic guess to every subscriber.
+// Vercel Cron, a few minutes after midnight UTC: email today's Cosmic guess (plus yesterday's winner and
+// today's three photographs, once the daily vote has begun) to every subscriber.
 // Runs at most once per day (a "sent" marker in Redis), sends in batches of 100 through Resend.
 // The puzzle comes from the same code the site uses (src/js/guess-core.js), so the email and the site agree.
 import { configured, pipeline } from './_redis.js';
 import { mailReady, env, siteUrl, resend, guessEmail, unsubLink } from './_mail.js';
 import { puzzleFor, cropUrl } from '../src/js/guess-core.js';
-import { todayIndex, dateOf } from '../src/js/util.js';
+import { todayIndex, dateOf, trioDay, dailyIds, shares, WINNER_MIN_VOTES } from '../src/js/util.js';
+import { readCounts } from './_votes.js';
 import { CATALOG } from '../src/data/catalog.js';
 import { CATALOG_SKY } from '../src/data/constellations.js';
 
@@ -14,6 +16,24 @@ async function photoFor(id) {
   const r = await fetch(`${siteUrl()}/data/collection/photos/${encodeURIComponent(id)}.json`);
   if (!r.ok) throw new Error(`photo ${id}: ${r.status}`);
   return r.json();
+}
+
+async function lineupFor(day, index) {
+  if (!trioDay(day)) return null;
+  const byId = Object.fromEntries(index.map((e) => [e.id, e]));
+  const entry = (id) => byId[id] || (() => { const c = CATALOG.find((x) => x.id === id); return c && { id, title: c.title, cat: c.cat, thumb: c.img.thumb }; })();
+  const three = dailyIds(day).map(entry).filter(Boolean);
+  let winner = null;
+  if (trioDay(day - 1)) {
+    const ids = dailyIds(day - 1);
+    const counts = await readCounts(day - 1, ids.length), total = counts.reduce((a, b) => a + b, 0), top = Math.max(...counts);
+    if (total >= WINNER_MIN_VOTES) {
+      const won = ids.filter((_, i) => counts[i] === top), pct = shares(counts)[counts.indexOf(top)];
+      const photo = await photoFor(won[0]).catch(() => entry(won[0]));
+      winner = { photo, n: top, total, pct, tiedWith: won[1] ? entry(won[1])?.title : null };
+    }
+  }
+  return { three, winner };
 }
 
 export default async function handler(req, res) {
@@ -38,11 +58,14 @@ export default async function handler(req, res) {
       const key = `${String(d.getUTCMonth() + 1).padStart(2, '0')}-${String(d.getUTCDate()).padStart(2, '0')}`;
       event = otd[key]?.events?.[0] || null;
     } catch { /* the email is fine without it */ }
+    // Today's three and yesterday's winner, from the same lineup and votes the site shows.
+    let lineup = null;
+    try { lineup = await lineupFor(day, index); } catch { /* the email is fine without it */ }
     const [list] = await pipeline([['SMEMBERS', 'subscribers']]);
     let sent = 0;
     for (let i = 0; i < list.length; i += 100) {
       const batch = list.slice(i, i + 100).map((to) => {
-        const m = guessEmail(puzzle, crop, to, { dateLabel, issue, event });
+        const m = guessEmail(puzzle, crop, to, { dateLabel, issue, event, lineup });
         return { from: env('MAIL_FROM'), to, subject: m.subject, html: m.html, text: m.text,
           headers: { 'List-Unsubscribe': `<${unsubLink(to)}>`, 'List-Unsubscribe-Post': 'List-Unsubscribe=One-Click' } };
       });

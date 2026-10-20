@@ -2,7 +2,7 @@
 // on-demand full-resolution file, and flyTo() for the guided tour.
 import { $, reducedMotion } from './util.js';
 import { state, altText, show } from './feature.js';
-import { todayIndex, dailyId, dateOf, fmtDate, say } from './util.js';
+import { todayIndex, dailyId, dateOf, fmtDate, say, stepDaily } from './util.js';
 
 const dlg = $('#viewer'), surf = $('#vsurface'), img = $('#vimg');
 const V = { s: 1, x: 0, y: 0, fitW: 0, fitH: 0, maxS: 8, ptrs: new Map(), pinch: null, opener: null };
@@ -87,23 +87,24 @@ function fill() {
   pageButtons();
 }
 
-// Paging: step through the daily photographs like turning pages. A photograph opened from the
-// archive keeps its day; anything else pages outward from today. Days after today are never shown.
+// Paging: step through the daily photographs like turning pages, each day's lineup in order. A photograph
+// opened from the archive keeps its place; anything else pages outward from today. Days after today are never shown.
 const touring = () => !$('#tourCard').hidden;
-function currentDay() { return Number.isInteger(state.ctx?.day) ? state.ctx.day : todayIndex(); }
+const onDay = () => Number.isInteger(state.ctx?.day);
+const here = () => (onDay() ? [state.ctx.day, state.ctx.slot || 0] : [todayIndex(), 0]);
 export function pageButtons() {
-  const d = currentDay(), t = touring();
-  $('#vPrevDay').disabled = t || d <= 0;
-  $('#vNextDay').disabled = t || d >= todayIndex() || !Number.isInteger(state.ctx?.day);
+  const t = touring();
+  $('#vPrevDay').disabled = t || !stepDaily(...here(), -1);
+  $('#vNextDay').disabled = t || !onDay() || !stepDaily(...here(), 1);
   $('#vPrevDay').closest('.vpage').hidden = t;
 }
 export function page(step) {
   if (touring()) return;
-  const today = todayIndex(), d = currentDay() + step;
-  if (d < 0 || d > today) return;
+  const to = stepDaily(...here(), step);
+  if (!to || (step > 0 && !onDay())) return;
   surf.classList.add('turning');
-  show(dailyId(d), d === today ? { mode: 'daily', day: d } : { mode: 'archive', day: d });
-  say(`Showing the photograph for ${fmtDate(dateOf(d))}`);
+  show(dailyId(to.day, to.slot), { mode: to.day === todayIndex() ? 'daily' : 'archive', day: to.day, slot: to.slot });
+  say(`Showing a photograph from ${fmtDate(dateOf(to.day))}`);
 }
 document.addEventListener('photo:change', () => {
   if (!dlg.open) return;

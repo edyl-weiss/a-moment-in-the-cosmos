@@ -3,7 +3,7 @@
 // Other modules react to the 'photo:change' event instead of being called from here.
 import { RIGHTS } from '../data/catalog.js';
 import { INDEX, getPhoto } from './collection.js';
-import { $, esc, CAT, fmtDate, dateOf, meetsMinimum, say, loadImage, todayIndex, dailyId } from './util.js';
+import { $, esc, CAT, fmtDate, dateOf, meetsMinimum, say, loadImage, todayIndex, dailyIds, slotOf, trioDay } from './util.js';
 
 export const state = { item: null, ctx: null, dims: null, history: [], recent: [], failed: new Set() };
 export const SOURCE = { hubble: 'ESA/Hubble', webb: 'ESA/Webb', eso: 'ESO', noirlab: 'NSF NOIRLab', nasa: 'NASA' };
@@ -25,6 +25,8 @@ function fallbackFor(cat) {
 
 export async function show(id, ctx, { push = true, notice = '' } = {}) {
   const mine = ++token;
+  // A daily photograph knows its place in the day's lineup (one a day before the trio began, three after).
+  if (Number.isInteger(ctx.day) && ctx.slot == null) ctx = { ...ctx, slot: Math.max(0, slotOf(ctx.day, id)) };
   const known = INDEX.find((e) => e.id === id);
   let item = null;
   $('#stage').classList.add('loading');
@@ -96,7 +98,7 @@ let prefetched = false;
 function prefetchTomorrow() {
   if (prefetched) return;
   prefetched = true;
-  const go = () => getPhoto(dailyId(todayIndex() + 1)).then((it) => { if (it.img.screen) new Image().src = it.img.screen; }).catch(() => {});
+  const go = () => dailyIds(todayIndex() + 1).forEach((id) => getPhoto(id).then((it) => { if (it.img.screen) new Image().src = it.img.screen; }).catch(() => {}));
   ('requestIdleCallback' in window ? requestIdleCallback : (f) => setTimeout(f, 3000))(go);
 }
 
@@ -113,15 +115,17 @@ function setNotice(text) {
   n.hidden = !text;
 }
 
+const KIND = { galaxy: 'galaxy', nebula: 'nebula', star: 'star', night: 'night sky' };
 function contextLine(item, ctx) {
   if (ctx.standIn) return `In place of “${ctx.standIn}”`;
-  if (ctx.mode === 'daily') return 'Today’s photograph';
+  if (ctx.mode === 'daily') return trioDay(ctx.day) ? `Today’s ${KIND[item.cat] || 'photograph'}` : 'Today’s photograph';
   if (ctx.mode === 'archive') return `From the archive, ${fmtDate(dateOf(ctx.day))}`;
   if (ctx.mode === 'favorite') return 'From your favorites';
   if (ctx.mode === 'onthisday') return `On this day, ${ctx.label}`;
   if (ctx.mode === 'link') return 'Shared photograph';
   if (ctx.mode === 'search') return 'From the collection';
   if (ctx.mode === 'loved') return 'Most loved this week';
+  if (ctx.mode === 'winner') return ctx.won ? `Yesterday’s winner, ${fmtDate(dateOf(ctx.day))}` : `In the running, ${fmtDate(dateOf(ctx.day))}`;
   if (ctx.mode === 'sky') return 'From the night sky map';
   if (ctx.mode === 'guess') return 'Today’s Cosmic guess';
   if (ctx.mode === 'birthday') return `Released on ${ctx.label}`;

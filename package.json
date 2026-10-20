@@ -5,7 +5,9 @@
   "scripts": {
     "build": "node build.mjs",
     "check": "node scripts/validate-data.mjs",
-    "dev": "node build.mjs && node scripts/serve.mjs dist"
+    "dev": "node build.mjs && node scripts/serve.mjs dist",
+    "test": "node scripts/test.mjs && node scripts/validate-data.mjs",
+    "test:ui": "node scripts/test-ui.cjs"
   },
   "engines": {
     "node": ">=18"
