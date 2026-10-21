@@ -1,5 +1,6 @@
 // Small shared helpers: DOM lookup, escaping, dates, storage, announcements.
 import { SCHEDULE } from '../data/schedule.js';
+import { makeLineup } from './lineup.js';
 
 export const $ = (s, r = document) => r.querySelector(s);
 export const $$ = (s, r = document) => [...r.querySelectorAll(s)];
@@ -14,25 +15,10 @@ export const dateOf = (i) => new Date(LAUNCH + i * DAY);
 export const nextRollover = () => LAUNCH + (todayIndex() + 1) * DAY;
 export const fmtDate = (d) => d.toLocaleDateString('en-GB', { timeZone: 'UTC', day: 'numeric', month: 'long', year: 'numeric' });
 
-// The daily lineup. Before SCHEDULE.trioFrom, each day showed one photograph, rotating through
-// categoryOrder. From trioFrom on, each day shows one photograph per slot in trioSlots (a galaxy, a nebula
-// or star on alternate days, and a night sky), and visitors vote for their favorite. Each category keeps
-// walking its own list, picking up where the one-a-day rotation left off, so no day's photographs change.
+// The daily lineup (the rules are in lineup.js).
 const TRIO_FROM = SCHEDULE.trioFrom ?? Infinity;
 export const trioDay = (i) => i >= TRIO_FROM;
-function used(cat) {   // photographs of `cat` shown before trioFrom
-  const p = SCHEDULE.categoryOrder.indexOf(cat), n = SCHEDULE.categoryOrder.length;
-  return p < 0 || TRIO_FROM <= p ? 0 : Math.floor((TRIO_FROM - 1 - p) / n) + 1;
-}
-export function dailyPicks(i) {
-  if (!trioDay(i)) {
-    const cats = SCHEDULE.categoryOrder;
-    return [{ cat: cats[i % cats.length], n: Math.floor(i / cats.length) }];
-  }
-  const k = i - TRIO_FROM;
-  return SCHEDULE.trioSlots.map((slot) => { const cat = slot[k % slot.length]; return { cat, n: used(cat) + Math.floor(k / slot.length) }; });
-}
-export const dailyIds = (i) => dailyPicks(i).map(({ cat, n }) => SCHEDULE.order[cat][n % SCHEDULE.order[cat].length]);
+export const dailyIds = makeLineup(SCHEDULE);
 export const dailyId = (i, slot = 0) => dailyIds(i)[slot] ?? dailyIds(i)[0];
 // Where a photograph sits in day i's lineup, or -1.
 export const slotOf = (i, id) => dailyIds(i).indexOf(id);

@@ -159,14 +159,14 @@ function lineupHtml(lineup) {
         <p style="margin:8px 0 3px;font:500 10px/1.3 ${MONO};letter-spacing:.12em;text-transform:uppercase;color:${C.red}">${esc(KIND[e.cat] || '')}</p>
         <p style="margin:0;font:15px/1.35 ${SERIF};color:${C.ink}">${esc(e.title)}</p></a></td>`;
   return `${winner}
-  <tr><td style="padding:40px 0 6px">${label(`<span style="color:${C.red}">Today’s three</span>`)}</td></tr>
+  <tr><td style="padding:40px 0 6px">${label(`<span style="color:${C.red}">Today’s destinations</span>`)}</td></tr>
   <tr><td style="padding:0 0 16px;font:17px/1.6 ${SERIF};color:${C.ink2}">A galaxy, a little stardust and a night sky. Which one’s your favorite? Cast your vote on the site, and I’ll share the winner tomorrow.</td></tr>
   <tr><td style="padding:0"><table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>${lineup.three.map(cell).join('')}</tr></table></td></tr>
   <tr><td style="padding:22px 0 0">${button(`${site}/#trio`, 'Vote for your favorite')}</td></tr>`;
 }
 const lineupText = (lineup) => !lineup?.three?.length ? '' :
   (lineup.winner ? `Yesterday’s winner: ${lineup.winner.photo.title} (${lineup.winner.pct}% of ${lineup.winner.total} votes)\n${siteUrl()}/#${encodeURIComponent(lineup.winner.photo.id)}\n\n` : '') +
-  `Today’s three. Vote for your favorite:\n${lineup.three.map((e) => `- ${KIND[e.cat] || ''}: ${e.title}`).join('\n')}\n${siteUrl()}/#trio\n\n`;
+  `Today’s destinations. Vote for your favorite:\n${lineup.three.map((e) => `- ${KIND[e.cat] || ''}: ${e.title}`).join('\n')}\n${siteUrl()}/#trio\n\n`;
 
 export function guessEmail(puzzle, cropSrc, email, { dateLabel = '', issue = '', event = null, lineup = null } = {}) {
   const t = guessToken(email);

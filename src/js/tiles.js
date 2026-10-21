@@ -26,7 +26,7 @@ export function tile({ id, title, cat, thumb, sub, onOpen, onRemove }) {
 export async function scrollToFeature() {
   const away = currentView() !== 'home';
   if (away) await setView('home');   // opened from another page: switch to the photograph first
-  (document.querySelector('#feature .discover') || document.getElementById('feature')).scrollIntoView({ behavior: away || reducedMotion() ? 'auto' : 'smooth' });
+  (document.querySelector('#feature .dateline') || document.getElementById('feature')).scrollIntoView({ behavior: away || reducedMotion() ? 'auto' : 'smooth' });
   const title = document.getElementById('photoTitle');
   title.tabIndex = -1;
   title.focus({ preventScroll: true });

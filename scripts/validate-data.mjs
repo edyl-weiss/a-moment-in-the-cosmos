@@ -49,6 +49,8 @@ export function validate() {
     if (!SCHEDULE.categoryOrder.includes(cat)) problems.push(`schedule: "${cat}" is not in categoryOrder`);
     for (const id of list) if (!ids.has(id)) problems.push(`schedule ${cat}: unknown id "${id}"`);
   }
+  for (const [day, list] of Object.entries(SCHEDULE.shown || {}))
+    for (const id of list) if (!ids.has(id)) problems.push(`schedule shown day ${day}: unknown id "${id}"`);
   for (const [id, stops] of Object.entries(TOURS)) {
     if (!ids.has(id)) problems.push(`tours: unknown id "${id}"`);
     stops.forEach((s, i) => {

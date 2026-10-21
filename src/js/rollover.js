@@ -10,7 +10,7 @@ let timer;
 export function scheduleRollover() {
   const next = nextRollover();
   const local = new Date(next).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
-  $('#rollover').textContent = trioDay(todayIndex() + 1) ? `Tomorrow’s three arrive at ${local} (00:00 UTC)` : `The next photograph arrives at ${local} (00:00 UTC)`;
+  $('#rollover').textContent = trioDay(todayIndex() + 1) ? `Tomorrow’s destinations arrive at ${local} (00:00 UTC)` : `The next photograph arrives at ${local} (00:00 UTC)`;
   clearTimeout(timer);
   timer = setTimeout(() => {
     renderArchive();

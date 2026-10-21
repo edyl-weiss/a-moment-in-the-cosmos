@@ -6,6 +6,7 @@ const NOW = Date.parse('2026-10-25T15:00:00Z');
 Date.now = () => NOW;
 import { dailyIds, dailyId, trioDay, stepDaily, shares } from '../src/js/util.js';
 import { SCHEDULE } from '../src/data/schedule.js';
+import { makeLineup } from '../src/js/lineup.js';
 
 let failed = 0;
 const test = async (name, fn) => { try { await fn(); console.log(`ok   ${name}`); } catch (e) { failed++; console.log(`FAIL ${name}\n     ${e.message}`); } };
@@ -32,6 +33,32 @@ await test('each slot shows its own kind: galaxy, nebula or star, night sky', as
 await test('no photograph repeats within the first year', () => {
   const seen = new Map();
   for (let d = 0; d < 365; d++) for (const id of dailyIds(d)) { assert.ok(!seen.has(id), `${id} on day ${seen.get(id)} and ${d}`); seen.set(id, d); }
+});
+// A small made-up schedule, so running out of photographs can be tested.
+const TINY = { trioFrom: 2, categoryOrder: ['nebula', 'galaxy', 'night', 'star'], trioSlots: [['galaxy'], ['nebula', 'star'], ['night']],
+  order: { nebula: ['n1', 'n2', 'n3', 'n4'], galaxy: ['g1', 'g2', 'g3', 'g4', 'g5'], night: ['s1', 's2'], star: ['x1', 'x2', 'x3'] } };
+await test('a category that runs out borrows from one that has photographs left', () => {
+  const ids = makeLineup(TINY), all = [];
+  for (let d = 0; d < 6; d++) all.push(...ids(d));
+  // day 0 n1, day 1 g1; then three a day. Night has only two, so from day 3 its slot borrows.
+  assert.deepEqual(ids(2), ['g2', 'n2', 's1']);
+  assert.deepEqual(ids(3), ['g3', 'x1', 's2']);
+  assert.deepEqual(ids(4), ['g4', 'n3', 'x2']);   // night is out: borrows star, the category with most left not already in the lineup
+  assert.equal(new Set(all).size, all.length, `a photograph repeated before every list ran out: ${all}`);
+});
+await test('lists start over only when every category has run out', () => {
+  const ids = makeLineup(TINY), seen = [];
+  let d = 0;
+  for (; seen.length < 14; d++) seen.push(...ids(d));
+  assert.equal(new Set(seen.slice(0, 14)).size, 14, 'all 14 photographs appear once before any repeats');
+});
+await test('recorded days never change when photographs are added later', () => {
+  const before = makeLineup(TINY);
+  const shown = Object.fromEntries([2, 3, 4].map((d) => [d, before(d)]));
+  const grown = { ...TINY, shown, order: { ...TINY.order, night: ['s1', 's2', 's3', 's4'] } };
+  const after = makeLineup(grown);
+  for (const d of [2, 3, 4]) assert.deepEqual(after(d), before(d), `day ${d}`);
+  assert.deepEqual(after(5)[2], 's3', 'from the next day on, the new night photographs are used');
 });
 await test('Previous and Next walk every daily photograph in order', () => {
   const T = SCHEDULE.trioFrom;

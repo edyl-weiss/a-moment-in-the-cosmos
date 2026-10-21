@@ -1,4 +1,4 @@
-// Today's three and Yesterday's winner. From SCHEDULE.trioFrom on, each day brings three photographs
+// Today's destinations (the three daily photographs) and Yesterday's winner. From SCHEDULE.trioFrom on, each day brings three photographs
 // (a galaxy, a nebula or star, and a night sky); visitors vote for one, and see how everyone voted once
 // they have. The next day, the photograph with the most votes is shown as Yesterday's winner.
 // Talks to /api/vote. If that isn't available (local preview, storage not connected), the three still
@@ -38,7 +38,7 @@ async function api(path, opts) {
 
 const votesLabel = (n) => `${n.toLocaleString('en')} vote${n === 1 ? '' : 's'}`;
 
-// ---------- Today's three ----------
+// ---------- Today's destinations ----------
 const PLATE = ['I', 'II', 'III', 'IV'];   // numbered like the plates in an old almanac
 
 // Percentages tick up to their new value instead of jumping.
@@ -124,7 +124,7 @@ function paint() {
   });
   markShowing();
   const note = $('#trioNote');
-  note.textContent = tally.error || (!tally.live ? 'Voting is taking a short break. The three photographs are all here to enjoy in the meantime'
+  note.textContent = tally.error || (!tally.live ? 'Voting is taking a short break. Today’s destinations are all here to enjoy in the meantime'
     : voted && tally.counts ? `${votesLabel(tally.total)} so far. You can change your pick until midnight UTC, and the winner goes up tomorrow`
     : 'Pick your favorite to see how everyone else voted');
   syncFeatureButton();
