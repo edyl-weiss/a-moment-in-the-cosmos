@@ -20,6 +20,10 @@ export const RIGHTS = {
   eso:    { short: 'CC BY 4.0', label: 'CC BY 4.0, ESO usage terms',        url: 'https://www.eso.org/public/outreach/copyright/' },
   noirlab: { short: 'CC BY 4.0', label: 'CC BY 4.0, NOIRLab usage terms',   url: 'https://noirlab.edu/public/copyright/' },
   // NASA media are generally not under US copyright; NASA asks to be credited as the source.
+  // Euclid images are ESA's, under Creative Commons Attribution-ShareAlike 3.0 IGO.
+  esa:    { short: 'CC BY-SA 3.0 IGO', label: 'CC BY-SA 3.0 IGO, ESA usage terms', url: 'https://www.esa.int/ESA_Multimedia/Copyright_Notice_Images' },
+  // NASA claims no copyright on Chandra material; data from other observatories in a composite keep their own terms.
+  chandra: { short: 'No copyright claimed (NASA/CXC)', label: 'No copyright claimed by NASA/CXC; any data from other observatories keeps its own terms (Chandra image use policy)', url: 'https://chandra.harvard.edu/photo/image_use.html' },
   nasa:   { short: 'Public domain (NASA)', label: 'Not copyrighted in the US; credit NASA as the source (NASA media guidelines)', url: 'https://www.nasa.gov/nasa-brand-center/images-and-media/' }
 };
 

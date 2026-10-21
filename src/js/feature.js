@@ -6,7 +6,7 @@ import { INDEX, getPhoto } from './collection.js';
 import { $, esc, CAT, fmtDate, dateOf, meetsMinimum, say, loadImage, todayIndex, dailyIds, slotOf, trioDay } from './util.js';
 
 export const state = { item: null, ctx: null, dims: null, history: [], recent: [], failed: new Set() };
-export const SOURCE = { hubble: 'ESA/Hubble', webb: 'ESA/Webb', eso: 'ESO', noirlab: 'NSF NOIRLab', nasa: 'NASA' };
+export const SOURCE = { hubble: 'ESA/Hubble', webb: 'ESA/Webb', eso: 'ESO', noirlab: 'NSF NOIRLab', nasa: 'NASA', esa: 'ESA/Euclid', chandra: 'NASA/Chandra' };
 let token = 0;
 
 const emit = (name, detail) => document.dispatchEvent(new CustomEvent(name, { detail }));

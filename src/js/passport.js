@@ -211,7 +211,7 @@ function figure(k, sky) {
   return { lines, pts: stars };
 }
 
-// ---- hand drawing: everything on a stamp is sketched as if with a pencil and coloured in with crayon ----
+// ---- hand drawing: everything on a stamp is sketched as if with a pencil and colored in with crayon ----
 // seeded wobble, so each stamp is drawn the same way every time
 const rng = (seed) => { let t = seed >>> 0; return () => { t += 0x6D2B79F5; let r = Math.imul(t ^ (t >>> 15), 1 | t); r ^= r + Math.imul(r ^ (r >>> 7), 61 | r); return ((r ^ (r >>> 14)) >>> 0) / 4294967296; }; };
 const f1 = (n) => (+n).toFixed(1);
@@ -260,7 +260,7 @@ function waxBlob(r) {
 // the scalloped border pressed into the seal face
 const scallop = (cx, cy, rad, n = 30, amp = 0.9) => { let d = ''; for (let i = 0; i <= n * 4; i++) { const a = (i / (n * 4)) * Math.PI * 2, q = rad + amp * Math.abs(Math.sin((a * n) / 2)) * -1 + amp / 2; d += `${i ? 'L' : 'M'}${f1(cx + q * Math.cos(a))} ${f1(cy + q * Math.sin(a))}`; } return d + 'Z'; };
 
-// crayon colouring: loose, slightly curved strokes back and forth across the shape
+// crayon coloring: loose, slightly curved strokes back and forth across the shape
 function scribble(r, box = [6, 6, 94, 94], gap = 2.6) {
   const [x0, y0, x1, y1] = box, ang = (-32 + r() * 18) * Math.PI / 180, cx = (x0 + x1) / 2, cy = (y0 + y1) / 2;
   const L = Math.hypot(x1 - x0, y1 - y0) / 2 + 4, ca = Math.cos(ang), sa = Math.sin(ang);

@@ -1,6 +1,6 @@
 // Checks the data files before anything is built. Any problem fails the build
 // with a readable list, so a typo can't reach the live site.
-import { CATALOG } from '../src/data/catalog.js';
+import { CATALOG, RIGHTS } from '../src/data/catalog.js';
 import { SCHEDULE } from '../src/data/schedule.js';
 import { TOURS } from '../src/data/tours.js';
 import { COMPARISONS } from '../src/data/comparisons.js';
@@ -37,6 +37,7 @@ export function validate() {
       const c = JSON.parse(readFileSync(file, 'utf8'));
       for (const k of REQUIRED) if (!c[k]) problems.push(`${at}: missing "${k}"`);
       if (!/^https:\/\//.test(c.source || '')) problems.push(`${at}: source must be an https link`);
+      if (!RIGHTS[c.org]) problems.push(`${at}: no usage terms for source "${c.org}" (add it to RIGHTS in data/catalog.js)`);
       if (!(c.img?.pub && c.img?.pubW && c.img?.pubH)) problems.push(`${at}: image fields missing`);
       else if (!meetsMinimum(c.img.pubW, c.img.pubH)) problems.push(`${at}: ${c.img.pubW} × ${c.img.pubH} is below the display minimum`);
       const words = (c.story || []).join(' ').split(/\s+/).filter(Boolean).length;

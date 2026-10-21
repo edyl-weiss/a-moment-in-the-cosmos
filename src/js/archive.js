@@ -12,7 +12,7 @@ import { aliasMatch } from './skysearch.js';
 export const TELESCOPES = {
   hubble: 'Hubble', webb: 'Webb', vlt: 'Very Large Telescope', vista: 'VISTA', vst: 'VLT Survey Telescope',
   alma: 'ALMA', apex: 'APEX', wfi: 'MPG/ESO 2.2-meter', lasilla: 'La Silla (NTT, 3.6-meter)', gemini: 'Gemini',
-  blanco: 'Blanco (DECam)', kittpeak: 'Kitt Peak', soar: 'SOAR', rubin: 'Rubin', camera: 'Camera (night sky)', other: 'Other'
+  blanco: 'Blanco (DECam)', kittpeak: 'Kitt Peak', soar: 'SOAR', rubin: 'Rubin', euclid: 'Euclid', chandra: 'Chandra (X-ray)', spitzer: 'Spitzer (infrared)', camera: 'Camera (night sky)', other: 'Other'
 };
 const PAGE = 48;
 const BLANK = { q: '', cat: 'all', org: 'all', tel: 'all', con: 'all' };

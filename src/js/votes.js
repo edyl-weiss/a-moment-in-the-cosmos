@@ -150,7 +150,7 @@ function syncFeatureButton() {
 async function vote(slot) {
   if (!tally.live || tally.busy || tally.mine === slot) return;
   const before = { mine: tally.mine, counts: tally.counts && [...tally.counts], total: tally.total };
-  if (tally.counts) {                     // optimistic: move the vote now, correct it when the server answers
+  if (tally.counts) {                     // optimiztic: move the vote now, correct it when the server answers
     if (tally.mine !== null) tally.counts[tally.mine]--;
     else tally.total++;
     tally.counts[slot]++;

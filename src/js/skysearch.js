@@ -39,7 +39,7 @@ const STARS = [
 // Star patterns that aren't constellations, each found through the constellation it sits in (or mostly in).
 const ASTERISMS = [
   ['Summer Triangle', 'Lyr', ['vega deneb altair']], ['Winter Triangle', 'CMi'], ['Winter Hexagon', 'Ori', ['winter circle']],
-  ['Orion’s Belt', 'Ori', ['belt of orion', 'three kings', 'three sisters']], ['Big Dipper', 'UMa', ['plough', 'plow']], ['Little Dipper', 'UMi'],
+  ['Orion’s Belt', 'Ori', ['belt of orion', 'three kings', 'three sisters']], ['Big Dipper', 'UMa', ['plow', 'plow']], ['Little Dipper', 'UMi'],
   ['Great Square of Pegasus', 'Peg', ['great square']], ['Northern Cross', 'Cyg'], ['Teapot', 'Sgr'], ['Sickle', 'Leo'], ['Keystone', 'Her'],
   ['False Cross', 'Car'], ['Diamond Cross', 'Car'], ['Coathanger', 'Vul', ['brocchis cluster']], ['Kids', 'Aur']
 ];
@@ -76,7 +76,7 @@ export const FAMOUS = [
   ['Flame Nebula', ['flame nebula', 'ngc 2024'], /\b(flame nebula|ngc ?2024)\b/],
   ['Jewel Box', ['jewel box', 'kappa crucis', 'ngc 4755'], /\b(jewel box|ngc ?4755)\b/],
   ['Westerlund 2', ['westerlund'], /\bwesterlund\b/],
-  ['Milky Way', ['milky way', 'galactic center', 'galactic centre'], /\bmilky way\b/]
+  ['Milky Way', ['milky way', 'galactic center', 'galactic center'], /\bmilky way\b/]
 ];
 
 const WORDS = { one: '1', two: '2', three: '3', four: '4', five: '5', six: '6', seven: '7', eight: '8', nine: '9', ten: '10', eleven: '11', twelve: '12' };

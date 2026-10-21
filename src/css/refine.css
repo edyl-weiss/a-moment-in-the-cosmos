@@ -1080,7 +1080,7 @@ main { padding-bottom: 0; }
 @media (prefers-reduced-motion: reduce) { .pp-stamp.fresh svg, .pp-stamp.on:hover .pp-sp { animation: none; } }
 @media (max-width: 600px) { .pp-stamps { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem .5rem; } }
 
-/* Hand-drawn stamps: pencil outlines gone over twice, coloured in with crayon, names written by hand */
+/* Hand-drawn stamps: pencil outlines gone over twice, colored in with crayon, names written by hand */
 .pp-draw { filter: url(#ppCrayon); }
 .pp-stamp .pp-shape, .pp-stamp .pp-inner, .pp-stamp .pp-rib, .pp-stamp .pp-fig path:not(.pp-sp) { fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: none; }
 .pp-stamp .pp-shape { stroke: rgba(233,228,216,.2); stroke-width: 1.1; }

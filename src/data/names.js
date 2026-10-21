@@ -752,7 +752,7 @@ export const NAMES = [
    {
     "text": "Brasília is inaugurated as Brazil’s new capital",
     "source": {
-     "title": "Brasilia | UNESCO World Heritage Centre",
+     "title": "Brasilia | UNESCO World Heritage Center",
      "url": "https://whc.unesco.org/en/list/445/"
     }
    }
@@ -893,7 +893,7 @@ export const NAMES = [
    "ω Centauri",
    "NGC 5139"
   ],
-  "text": "Both Ptolemy and, much later, Johann Bayer catalogued it as a single star, hence a star-style Greek-letter name. Only in the early 19th century did John Herschel realize it was a globular cluster.",
+  "text": "Both Ptolemy and, much later, Johann Bayer cataloged it as a single star, hence a star-style Greek-letter name. Only in the early 19th century did John Herschel realize it was a globular cluster.",
   "source": {
    "title": "Omega Centauri (eso0844) – ESO",
    "url": "https://www.eso.org/public/news/eso0844/"
@@ -1390,10 +1390,10 @@ export const NAMES = [
   },
   "events": [
    {
-    "text": "The Pompidou Centre opens in Paris",
+    "text": "The Pompidou Center opens in Paris",
     "source": {
-     "title": "Pompidou Centre – Britannica",
-     "url": "https://www.britannica.com/topic/Pompidou-Centre"
+     "title": "Pompidou Center – Britannica",
+     "url": "https://www.britannica.com/topic/Pompidou-Center"
     }
    },
    {
@@ -1420,7 +1420,7 @@ export const NAMES = [
   ],
   "text": "The whole glowing region is named after R Coronae Australis, a young star at its center whose brightness varies. It lies in Corona Australis, the Southern Crown, a small constellation the ancient Greeks pictured as a wreath of leaves.",
   "source": {
-   "title": "R Coronae Australis: A Cosmic Watercolour (ESO)",
+   "title": "R Coronae Australis: A Cosmic Watercolor (ESO)",
    "url": "https://www.eso.org/public/news/eso1027/"
   },
   "discovery": {
@@ -1521,10 +1521,10 @@ export const NAMES = [
   },
   "events": [
    {
-    "text": "The Pompidou Centre opens in Paris",
+    "text": "The Pompidou Center opens in Paris",
     "source": {
-     "title": "Pompidou Centre – Britannica",
-     "url": "https://www.britannica.com/topic/Pompidou-Centre"
+     "title": "Pompidou Center – Britannica",
+     "url": "https://www.britannica.com/topic/Pompidou-Center"
     }
    },
    {
@@ -2628,7 +2628,7 @@ export const NAMES = [
    {
     "text": "Cologne Cathedral is completed, six centuries after construction began",
     "source": {
-     "title": "Cologne Cathedral | UNESCO World Heritage Centre",
+     "title": "Cologne Cathedral | UNESCO World Heritage Center",
      "url": "https://whc.unesco.org/en/list/292/"
     }
    },
@@ -2713,7 +2713,7 @@ export const NAMES = [
    {
     "text": "The world’s first cast-iron bridge is erected at Coalbrookdale, England",
     "source": {
-     "title": "Ironbridge Gorge | UNESCO World Heritage Centre",
+     "title": "Ironbridge Gorge | UNESCO World Heritage Center",
      "url": "https://whc.unesco.org/en/list/371/"
     }
    },
@@ -3084,7 +3084,7 @@ export const NAMES = [
    "text": "DeLisle Stewart first found it in 1899 on a photographic plate from Harvard’s station in Arequipa, Peru. Robert Innes rediscovered it in 1901 with a 7-inch refractor.",
    "year": 1899,
    "source": {
-    "title": "nDaba, Monthly Newsletter of the Durban Centre (ASSA), June 2022",
+    "title": "nDaba, Monthly Newsletter of the Durban Center (ASSA), June 2022",
     "url": "https://astronomydurban.co.za/wp-content/uploads/2022/07/nDaba-202206.pdf"
    }
   },
@@ -3249,7 +3249,7 @@ export const NAMES = [
    "url": "https://science.nasa.gov/image-article/apod-2020-august-7-the-pipe-nebula/"
   },
   "discovery": {
-   "text": "Edward Emerson Barnard, a pioneer of photographing dark nebulae, catalogued the dusty clouds that form the Pipe. Its pieces still carry his numbers, like Barnard 59.",
+   "text": "Edward Emerson Barnard, a pioneer of photographing dark nebulae, cataloged the dusty clouds that form the Pipe. Its pieces still carry his numbers, like Barnard 59.",
    "year": null,
    "source": {
     "title": "Ceci N’est Pas Une Pipe: Curious dark nebula seen as never before | ESO",
@@ -3695,7 +3695,7 @@ export const NAMES = [
   "aliases": [
    "Jewel Box"
   ],
-  "text": "John Herschel described this cluster of brilliant, differently colored stars as a ’casket of variously coloured precious stones,’ and the Jewel Box name grew from that line.",
+  "text": "John Herschel described this cluster of brilliant, differently colored stars as a ’casket of variously colored precious stones,’ and the Jewel Box name grew from that line.",
   "source": {
    "title": "The Jewel Box Cluster",
    "url": "https://www.astronomy.com/science/jewel-box-cluster/"
@@ -4579,7 +4579,7 @@ export const NAMES = [
   },
   "events": [
    {
-    "text": "Tchaikovsky’s Swan Lake premieres at Moscow’s Bolshoi Theatre",
+    "text": "Tchaikovsky’s Swan Lake premieres at Moscow’s Bolshoi Theater",
     "source": {
      "title": "Swan Lake – Britannica",
      "url": "https://www.britannica.com/topic/Swan-Lake-ballet-by-Tchaikovsky"
@@ -4878,7 +4878,7 @@ export const NAMES = [
    {
     "text": "Brasília is inaugurated as Brazil’s new capital",
     "source": {
-     "title": "Brasilia | UNESCO World Heritage Centre",
+     "title": "Brasilia | UNESCO World Heritage Center",
      "url": "https://whc.unesco.org/en/list/445/"
     }
    }
