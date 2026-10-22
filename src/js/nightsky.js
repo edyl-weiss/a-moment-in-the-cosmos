@@ -187,6 +187,22 @@ async function draw({ keepView = false } = {}) {
   if (!keepView) { hideTip(); unfocus(); } else if (focused) focusCon(focused, false);
 }
 
+// The chosen constellation's name sits on a translucent plaque. SVG text can't carry a background, so a
+// rectangle is drawn just behind it, sized from the text itself; it is resized whenever the zoom changes the label.
+function labelPlaque() {
+  const svg = $('#nsChart svg');
+  if (!svg) return;
+  let box = svg.querySelector('.ns-con-box');
+  const label = focused && svg.querySelector('.ns-con.focus');
+  if (!label || getComputedStyle(label).display === 'none') { box?.remove(); return; }
+  if (!box) { box = document.createElementNS('http://www.w3.org/2000/svg', 'rect'); box.setAttribute('class', 'ns-con-box'); box.setAttribute('aria-hidden', 'true'); }
+  if (box.nextSibling !== label) label.parentNode.insertBefore(box, label);
+  const b = label.getBBox(), fs = parseFloat(getComputedStyle(label).fontSize) || b.height;
+  const px = fs * 0.5, py = fs * 0.16;
+  Object.entries({ x: b.x - px, y: b.y - py, width: b.width + 2 * px, height: b.height + 2 * py, rx: fs * 0.32 })
+    .forEach(([k, v]) => box.setAttribute(k, v.toFixed(2)));
+}
+
 // Zoom and pan by moving the viewBox; labels and dots keep their on-screen size.
 function applyView() {
   const svg = $('#nsChart svg');
@@ -195,6 +211,7 @@ function applyView() {
   const z = view.w / SIZE;
   // Only the labels need restyling as the zoom changes (strokes don't scale; see --u)
   for (const g of svg.querySelectorAll('.ns-names, .ns-pole')) g.style.setProperty('--z', z);
+  labelPlaque();
   // Markers keep roughly the same size on screen, a little larger on small screens so they stay tappable.
   const k = (5.2 * Math.max(z, 0.35) * Math.max(1, 0.6 / unit)).toFixed(2);
   // Photograph markers only appear inside a chosen constellation, so they're drawn at twice the size there.
@@ -317,6 +334,7 @@ async function focusCon(k, fly = true, { anyView = false } = {}) {
   focused = k;
   if (changed) document.dispatchEvent(new CustomEvent('sky:visit', { detail: { con: k } }));
   $$('#nsChart [data-con]').forEach((el) => el.classList.toggle('focus', el.dataset.con === k));
+  labelPlaque();
   if (changed || !$('#nsDots')?.childElementCount) drawDots(k);
   $('#nsStatus').innerHTML = '';                            // the panel says what's here instead
   $('#nsChart svg').classList.add('focusing');
@@ -440,6 +458,7 @@ function unfocus() {
   const g = $('#nsDots'); if (g) g.innerHTML = '';
   if (was) applyFilter();
   $$('#nsChart .focus').forEach((el) => el.classList.remove('focus'));
+  labelPlaque();
   $('#nsChart svg')?.classList.remove('focusing');
   $('#nsPanel').hidden = true;
   $('#sky').classList.remove('has-panel');
