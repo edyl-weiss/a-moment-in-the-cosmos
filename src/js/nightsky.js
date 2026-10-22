@@ -497,7 +497,7 @@ async function preview(id) {
   img.src = e.thumb; img.alt = '';
   $('#nspKicker').textContent = [CAT[e.cat], e.con && CON_NAMES[e.con], e.y].filter(Boolean).join(' · ');
   $('#nspTitle').textContent = e.title;
-  $('#nspText').textContent = ''; $('#nspCredit').textContent = '';
+  $('#nspText').textContent = '';
   if (!dlg.open) dlg.showModal();
   try {
     const r = await getPhoto(id);
@@ -509,7 +509,6 @@ async function preview(id) {
     // first sentence (a full stop after a lowercase letter or digit, so "Nicholas U. Mayall" isn't cut short)
     const first = (r.story?.[0] || '').match(/^.*?[a-z0-9)”'"][.!?](?=\s+[A-Z“"']|\s*$)/);
     $('#nspText').textContent = first ? first[0].trim() : (r.caption || '');
-    $('#nspCredit').textContent = r.credit ? `Credit: ${r.credit}` : '';
   } catch { /* the summary is optional; the popup still shows the title and thumbnail */ }
 }
 $('#nspFull').addEventListener('click', () => { const id = previewing; dlg.close(); if (id) open(id); });
