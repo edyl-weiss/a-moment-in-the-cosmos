@@ -23,6 +23,7 @@ import { refreshSky } from './nightsky.js';
 import { renderLoved } from './reactions.js';
 import { initPlay } from './play.js';
 import { initVotes } from './votes.js';
+import { initPast } from './past.js';
 import './passport.js';
 
 const issue = todayIndex();
@@ -39,6 +40,7 @@ await initOnThisDay();
 renderLoved();
 initPlay();
 initVotes();
+initPast();
 // A shared link (#photo-id or #on-MM-DD) opens that view; otherwise today's photograph.
 const linkedPhoto = location.hash && openFromHash({ scroll: true });
 if (!linkedPhoto || /^#on-/.test(location.hash)) show(dailyId(issue), { mode: 'daily', day: issue, slot: 0, initial: true }, { push: false });

@@ -6,7 +6,7 @@ const NOW = Date.parse('2026-10-25T15:00:00Z');
 Date.now = () => NOW;
 import { dailyIds, dailyId, trioDay, stepDaily, shares } from '../src/js/util.js';
 import { SCHEDULE } from '../src/data/schedule.js';
-import { makeLineup } from '../src/js/lineup.js';
+import { makeLineup, RECYCLE_AFTER } from '../src/js/lineup.js';
 
 let failed = 0;
 const test = async (name, fn) => { try { await fn(); console.log(`ok   ${name}`); } catch (e) { failed++; console.log(`FAIL ${name}\n     ${e.message}`); } };
@@ -46,11 +46,24 @@ await test('a category that runs out borrows from one that has photographs left'
   assert.deepEqual(ids(4), ['g4', 'n3', 'x2']);   // night is out: borrows star, the category with most left not already in the lineup
   assert.equal(new Set(all).size, all.length, `a photograph repeated before every list ran out: ${all}`);
 });
-await test('lists start over only when every category has run out', () => {
+await test('every photograph appears once before any comes back', () => {
   const ids = makeLineup(TINY), seen = [];
   let d = 0;
   for (; seen.length < 14; d++) seen.push(...ids(d));
   assert.equal(new Set(seen.slice(0, 14)).size, 14, 'all 14 photographs appear once before any repeats');
+});
+await test('a photograph comes back only after resting six months, keeping its slot\'s category', () => {
+  const big = { ...TINY, order: { ...TINY.order, galaxy: Array.from({ length: 400 }, (_, i) => `g${i}`), nebula: Array.from({ length: 200 }, (_, i) => `n${i}`), star: Array.from({ length: 200 }, (_, i) => `x${i}`) } };
+  const ids = makeLineup(big), last = new Map();
+  for (let d = 0; d < 400; d++) ids(d).forEach((id) => { if (last.has(id)) assert.ok(d - last.get(id) >= RECYCLE_AFTER, `${id} back after ${d - last.get(id)} days`); last.set(id, d); });
+  // night has two photographs: once they have rested, the night slot shows night skies again instead of borrowing
+  // s1 was shown on day 2: the night slot brings it back on day 2 + RECYCLE_AFTER, the first day it may
+  assert.equal(ids(2 + RECYCLE_AFTER)[2], 's1');
+  assert.equal(ids(3 + RECYCLE_AFTER)[2], 's2');
+});
+await test('the real schedule never repeats a photograph within six months', () => {
+  const last = new Map();
+  for (let d = 0; d < 1500; d++) dailyIds(d).forEach((id) => { if (last.has(id)) assert.ok(d - last.get(id) >= RECYCLE_AFTER, `${id} on day ${last.get(id)} and ${d}`); last.set(id, d); });
 });
 await test('recorded days never change when photographs are added later', () => {
   const before = makeLineup(TINY);

@@ -6,6 +6,7 @@
 <title>A Moment in the Cosmos</title>
 <meta name="description" content="Glimpses of the infinite, gathered daily.">
 <meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#060a16">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;1,300;1,400;1,700&family=IBM+Plex+Mono:wght@400;500&family=Patrick+Hand&display=swap" rel="stylesheet">
@@ -15,6 +16,7 @@
 <link rel="preconnect" href="https://storage.noirlab.edu">
 <link rel="preconnect" href="https://www.astropix.org">
 <link rel="stylesheet" href="css/site.css">
+<script>document.documentElement.dataset.page = { '#sky': 'sky', '#passport': 'passport', '#archive': 'archive', '#about': 'about' }[location.hash] || 'home';</script>
 </head>
 <body>
 <!-- @include partials/filters.html -->
@@ -25,7 +27,7 @@
 <main id="main">
 <section id="feature" aria-labelledby="photoTitle">
 <!-- @include partials/discover.html -->
-<!-- @include partials/archive.html -->
+<!-- @include partials/search.html -->
 <!-- @include partials/trio.html -->
 <!-- @include partials/feature.html -->
 <!-- @include partials/story.html -->
@@ -38,6 +40,7 @@
 <!-- @include partials/onthisday.html -->
 <!-- @include partials/favorites.html -->
 <!-- @include partials/passport.html -->
+<!-- @include partials/past.html -->
 <!-- @include partials/nightsky.html -->
 <!-- @include partials/about.html -->
 </main>

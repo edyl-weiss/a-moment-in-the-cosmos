@@ -1,12 +1,14 @@
 /* Colors, type and spacing. Change them here only.
    One ink, one paper, one red for emphasis, as in a printed almanac. */
 :root{
-  --paper:#0d0c0b;          /* page: warm near-black, flat */
+  --paper:#060a16;          /* page: deep blue-black, like a clear night */
+  --paper-rgb:6,10,22;      /* the same, for translucent panels: rgba(var(--paper-rgb), .9) */
+  --band:rgba(18,30,60,.38); /* a lifted band behind some sections; translucent so the star pattern shows through */
   --plate:#000;             /* behind photographs */
   --ink:#e9e4d8;            /* body text */
   --ink-2:#b6b0a4;          /* secondary text */
   --ink-3:#9c968a;          /* tertiary: captions (about 6.5:1 on the page) */
-  --rule:#34312c;           /* hairline rules between sections */
+  --rule:#22304a;           /* hairline rules between sections */
   --red:#e2553d;            /* rubric: links, active state, emphasis */
   --focus:#f2c14e;
 

@@ -4,7 +4,8 @@
 // Talks to /api/vote. If that isn't available (local preview, storage not connected), the three still
 // show and open as usual; only the voting rests.
 import { $, esc, CAT, say, store, todayIndex, trioDay, dailyIds, dateOf, fmtDate, shares, WINNER_MIN_VOTES } from './util.js';
-import { state, show } from './feature.js';
+import { state, show, setBrowsing } from './feature.js';
+import { scrollToFeature } from './tiles.js';
 import { INDEX_BY_ID } from './collection.js';
 import { showToday } from './discover.js';
 import { reveal } from './router.js';
@@ -14,7 +15,6 @@ import { waxSeal } from './passport.js';
 const STAR = '<path d="M12 2.6C12.7 8.2 15.8 11.3 21.4 12C15.8 12.7 12.7 15.8 12 21.4C11.3 15.8 8.2 12.7 2.6 12C8.2 11.3 11.3 8.2 12 2.6Z"/>';
 
 const calm = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
-const toFeature = () => document.querySelector('#feature .dateline')?.scrollIntoView({ behavior: calm() ? 'auto' : 'smooth', block: 'start' });
 const LOCAL = 'votes';            // { day: slot } — this browser's picks, so the cards look right before the server answers
 const tally = { day: null, counts: null, total: 0, mine: null, live: true, busy: false, error: '' };
 
@@ -88,8 +88,9 @@ function renderCards() {
   $('#trioCards').querySelectorAll('.trio-card').forEach((li) => {
     const slot = Number(li.dataset.slot);
     li.querySelector('.trio-open').addEventListener('click', () => {
+      setBrowsing(false);
       showToday(slot);
-      toFeature();
+      scrollToFeature();
     });
     li.querySelector('.trio-btn').addEventListener('click', (ev) => { if (tally.mine !== slot && tally.live && !tally.busy) sparkle(ev.currentTarget); vote(slot); });
     li.querySelector('img')?.addEventListener('error', (e) => e.target.remove());
@@ -217,7 +218,7 @@ async function loadWinner() {
     (rest.length ? `<div class="win-rest"><p class="win-rest-h">Also in the running</p>${rest.map((x) => card(x, false)).join('')}</div>` : '');
   $('#winnerBody').querySelectorAll('.win-card').forEach((b) => b.addEventListener('click', () => {
     show(b.dataset.id, { mode: 'winner', day, slot: Number(b.dataset.slot), won: won.some((x) => x.id === b.dataset.id) });
-    toFeature();
+    scrollToFeature();
   }));
   $('#winnerBody').querySelectorAll('img').forEach((im) => im.addEventListener('error', () => im.remove()));
   revealWinner();
@@ -225,6 +226,12 @@ async function loadWinner() {
 }
 
 document.addEventListener('photo:change', () => { if (trioDay(todayIndex())) { markShowing(); syncFeatureButton(); } });
+// Fold away while the visitor browses earlier days (see setBrowsing in discover.js).
+document.addEventListener('browsing', ({ detail: on }) => {
+  const box = $('#trio');
+  box.classList.toggle('away', on);
+  box.inert = on;
+});
 $('#voteBtn').addEventListener('click', (ev) => { if (state.ctx?.slot == null) return; if (tally.mine !== state.ctx.slot && tally.live) sparkle(ev.currentTarget); vote(state.ctx.slot); });
 document.addEventListener('day:change', () => initVotes());
 

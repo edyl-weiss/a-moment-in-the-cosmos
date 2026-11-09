@@ -86,36 +86,59 @@ def varied(ranked, info, before):
         out.append(i); last = (last + [info[i][2]])[-2:]
     return out
 
+RECYCLE_AFTER = 183   # days; same as RECYCLE_AFTER in src/js/lineup.js
+
 def lineup(s, through):
     """{day: [ids]} for every day up to `through`, by the rules in src/js/lineup.js (keep the two identical):
-    one a day before trioFrom; from then on one per slot in trioSlots, each category walking its own list;
-    a slot whose category has run out borrows from another with photographs left (one not already in that
-    day's lineup if possible, then the one with the most left); lists start over only when all have run out.
+    one a day before trioFrom; then for each slot in trioSlots the first that applies of: a never-shown photo of
+    the slot's category; one of that category rested at least RECYCLE_AFTER days (longest-rested first); a
+    never-shown photo borrowed from another category (not already in the day's lineup if possible, then the
+    category with most left); a rested photo from another category; the longest-rested photo of all.
     Days recorded in s['shown'] are taken as they are."""
     cats, T, order = s['categoryOrder'], s.get('trioFrom', 10 ** 9), s['order']
     shown = {int(k): v for k, v in s.get('shown', {}).items()}
     cat_of = {i: c for c, ids in order.items() for i in ids}
+    one = lambda d: order[cats[d % len(cats)]][(d // len(cats)) % len(order[cats[d % len(cats)]])]
     recorded = sorted(d for d in shown if d >= T)
     start = recorded[-1] + 1 if recorded else T
-    used = {c: 0 for c in order}
-    for d in range(min(T, start)): used[cats[d % len(cats)]] += 1
+    last, ptr = {}, {c: 0 for c in order}
+    for d in range(min(T, start)): last[one(d)] = d
     for d in recorded:
-        for i in shown[d]:
-            if i in cat_of: used[cat_of[i]] += 1
+        for i in shown[d]: last[i] = d
+    def fresh(c):
+        lst = order[c]
+        while ptr[c] < len(lst) and lst[ptr[c]] in last: ptr[c] += 1
+        return lst[ptr[c]] if ptr[c] < len(lst) else None
+    fresh_left = lambda c: sum(1 for i in order[c][ptr[c]:] if i not in last)
+    def rested(ids, d, taken):
+        best = None
+        for i in ids:
+            l = last.get(i)
+            if l is None or d - l < RECYCLE_AFTER or i in taken: continue
+            if best is None or l < last[best]: best = i
+        return best
     out = {}
     for d in range(0, through + 1):
-        if d < T: c = cats[d % len(cats)]; out[d] = [order[c][(d // len(cats)) % len(order[c])]]; continue
+        if d < T: out[d] = [one(d)]; continue
         if d in shown: out[d] = shown[d]; continue
         if d < start: continue
-        k, ids, picked = d - T, [], []
+        k, ids, cs, taken = d - T, [], [], set()
         for slot in s['trioSlots']:
             c = slot[k % len(slot)]
-            left = lambda x: len(order[x]) - used[x]
-            if left(c) <= 0:
-                spare = [x for x in order if left(x) > 0]
-                pool = [x for x in spare if x not in picked] or spare
-                if pool: c = max(pool, key=lambda x: (left(x), -list(order).index(x)))
-            ids.append(order[c][used[c] % len(order[c])]); used[c] += 1; picked.append(c)
+            others = [x for x in order if x != c]
+            i = fresh(c)
+            if i is None: i = rested(order[c], d, taken)
+            if i is None:
+                spare = [x for x in others if fresh(x) is not None]
+                pool = [x for x in spare if x not in cs] or spare
+                if pool:
+                    best = pool[0]
+                    for x in pool[1:]:
+                        if fresh_left(x) > fresh_left(best): best = x
+                    i = fresh(best)
+            if i is None: i = rested([j for x in others for j in order[x]], d, taken)
+            if i is None: i = sorted((j for j in last if j in cat_of and j not in taken), key=lambda j: last[j])[0]
+            ids.append(i); cs.append(cat_of[i]); taken.add(i); last[i] = d
         out[d] = ids
     return out
 
@@ -132,9 +155,8 @@ def main():
     T = s.get('trioFrom', 10 ** 9)
     s['shown'] = {str(d): ids for d, ids in sorted(days.items()) if d >= T}
     cat_of = {i: c for c, ids in s['order'].items() for i in ids}
-    keep = {c: 0 for c in cats}
-    for ids in days.values():
-        for i in ids: keep[cat_of[i]] = min(keep[cat_of[i]] + 1, len(s['order'][cat_of[i]]))
+    keep = {c: 0 for c in cats}   # the photographs shown so far are the first `keep` of each list
+    for i in {i for ids in days.values() for i in ids}: keep[cat_of[i]] += 1
     info = photos()
     order = {}
     for c in cats:

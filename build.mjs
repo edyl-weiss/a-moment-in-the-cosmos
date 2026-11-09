@@ -36,6 +36,7 @@ write('css/site.css', css.replace(/^\/\* Import list[^\n]*\n/, ''));
 cpSync(join(SRC, 'js'), join(OUT, 'js'), { recursive: true });
 cpSync(join(SRC, 'data'), join(OUT, 'data'), { recursive: true });
 cpSync(join(SRC, 'email'), join(OUT, 'email'), { recursive: true });   // images used by the emails
+cpSync(join(SRC, 'img'), join(OUT, 'img'), { recursive: true });       // images the site's styles use
 
 // Self-hosted images: when IMAGE_HOST is set (e.g. https://images.amomentinthecosmos.com) and
 // tools/images/manifest.json lists what has been copied there, point those photographs at the copies.

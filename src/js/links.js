@@ -1,14 +1,14 @@
 // Shareable links. The address bar follows what is on screen:
 //   #e-potw1052a   a photograph (any id in the collection)
 //   #on-12-26      "On this day" open at a calendar date
-// Section anchors (#archive, #about…) are left alone. Opening a link restores the view,
+// Section anchors (#search, #archive, #about…) are left alone. Opening a link restores the view,
 // and the browser's Back / Forward buttons walk through photographs opened on the page.
 import { $, say, todayIndex, dailyId, slotOf } from './util.js';
 import { state, show } from './feature.js';
 import { INDEX_BY_ID } from './collection.js';
 import { scrollToFeature } from './tiles.js';
 
-const PAGE = /^#(play|onthisday|archive|favorites|sky|passport|about)$/;
+const PAGE = /^#(play|onthisday|search|archive|favorites|sky|passport|about)$/;
 const DATE = /^on-(\d{2})-(\d{2})$/;
 const handlers = { date: null };
 

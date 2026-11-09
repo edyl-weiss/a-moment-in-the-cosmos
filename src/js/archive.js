@@ -80,7 +80,7 @@ export function searchFor(q) {
   Object.assign(F, BLANK, { q, shown: PAGE });
   syncControls();
   renderArchive();
-  location.hash = 'archive';   // goes to the search, at the top of the home page
+  location.hash = 'search';   // goes to the search, at the top of the home page
 }
 
 // Constellation collections: everything the collection holds in one constellation.
@@ -89,8 +89,8 @@ export function browseConstellation(con) {
   syncControls();
   openFilters(con !== 'all');
   renderArchive();
-  if (location.hash === '#archive') document.getElementById('archive').scrollIntoView({ behavior: 'smooth' });
-  else location.hash = 'archive';
+  if (location.hash === '#search') document.getElementById('search').scrollIntoView({ behavior: 'smooth' });
+  else location.hash = 'search';
 }
 
 function syncControls() {

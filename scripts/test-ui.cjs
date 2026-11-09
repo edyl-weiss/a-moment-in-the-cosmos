@@ -34,7 +34,7 @@ async function page(b, hash = '', width = 1280, yesterday = [41, 87, 22]) {
 const checks = [];
 const check = (name, fn) => checks.push([name, fn]);
 
-for (const [hash, w] of [['', 1280], ['', 390], ['#sky', 1280], ['#passport', 1280], ['#about', 390], ['#on-03-14', 1280], ['#e-eso1838a', 1280]])
+for (const [hash, w] of [['', 1280], ['', 390], ['#sky', 1280], ['#passport', 1280], ['#archive', 390], ['#about', 390], ['#on-03-14', 1280], ['#e-eso1838a', 1280]])
   check(`${hash || 'home'} at ${w}px loads without script errors`, async (b) => {
     const { p, errors } = await page(b, hash, w);
     assert.deepEqual(errors, []);
@@ -43,7 +43,7 @@ for (const [hash, w] of [['', 1280], ['', 390], ['#sky', 1280], ['#passport', 12
 
 check('sections from the home page stay off other pages', async (b) => {
   const { p } = await page(b, '#passport');
-  for (const id of ['loved', 'winner', 'feature']) assert.equal(await p.$eval(`#${id}`, (e) => e.hidden), true, `#${id} shows on #passport`);
+  for (const id of ['loved', 'winner', 'feature', 'archive']) assert.equal(await p.$eval(`#${id}`, (e) => getComputedStyle(e).display === 'none' || e.hidden), true, `#${id} shows on #passport`);
   await p.close();
 });
 
@@ -82,6 +82,35 @@ check('Yesterday’s winner shows the photograph with the most votes', async (b)
   assert.equal(await p.$eval('#winner', (e) => e.hidden), false);
   assert.equal(await p.$eval('.win-card.big', (e) => e.dataset.slot), '1');
   assert.equal(await p.textContent('.win-card.big .win-pct'), '58%');
+  await p.close();
+});
+
+check('Previous folds the destinations away without scrolling, and Back to Today brings them back', async (b) => {
+  const { p } = await page(b);
+  await p.evaluate(() => scrollTo(0, document.querySelector('#feature .discover').getBoundingClientRect().top + scrollY - 20));
+  await p.waitForTimeout(200);
+  const before = await p.evaluate(() => [scrollY, document.getElementById('prevBtn').getBoundingClientRect().top]);
+  await p.click('#prevBtn'); await p.waitForTimeout(1000);
+  const after = await p.evaluate(() => [scrollY, document.getElementById('prevBtn').getBoundingClientRect().top]);
+  assert.deepEqual(after, before, 'the page moved');
+  assert.equal(await p.$eval('#trio', (e) => e.classList.contains('away')), true);
+  assert.match(await p.textContent('#whenLabel'), /^From the archive/);
+  await p.click('#backToday'); await p.waitForTimeout(800);
+  assert.equal(await p.$eval('#trio', (e) => e.classList.contains('away')), false);
+  await p.close();
+});
+
+check('the Archive page lists every day so far, oldest first, and opens a photograph', async (b) => {
+  const { p, errors } = await page(b, '#archive');
+  const days = await p.$$eval('#pastList .past-day', (l) => l.length);
+  assert.equal(days, 27, 'days 1 to 27, through 25 October 2026');
+  assert.match(await p.textContent('#pastList .past-day:first-child .past-date'), /No\. 1\s+29 September 2026/);
+  await p.click('.past-order [data-order="new"]');
+  assert.match(await p.textContent('#pastList .past-day:first-child .past-date'), /Today/);
+  await p.click('#pastList .past-day:nth-child(3) .tile .open'); await p.waitForTimeout(1000);
+  assert.equal(await p.evaluate(() => document.documentElement.dataset.page), 'home');
+  assert.match(await p.textContent('#whenLabel'), /^From the archive/);
+  assert.deepEqual(errors, []);
   await p.close();
 });
 

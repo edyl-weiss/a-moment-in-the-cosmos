@@ -1,7 +1,7 @@
 // Pages. Today's photograph (with collection search), On this day, Favorites and About each show on their own;
-// the address bar says which (#archive, #about…), so Back/Forward and shared links work.
+// the address bar says which (#archive, #search, #about…), so Back/Forward and shared links work.
 // Each section belongs to a page; everything shares the home page except About.
-const PAGE_OF = { feature: 'home', winner: 'home', play: 'home', loved: 'home', onthisday: 'home', archive: 'home', favorites: 'home', sky: 'sky', passport: 'passport', about: 'about' };
+const PAGE_OF = { feature: 'home', winner: 'home', play: 'home', loved: 'home', onthisday: 'home', search: 'home', favorites: 'home', sky: 'sky', passport: 'passport', archive: 'archive', about: 'about' };
 const VIEWS = Object.keys(PAGE_OF);
 const sectionEls = Object.fromEntries(VIEWS.map((v) => [v, document.getElementById(v)]));
 const links = [...document.querySelectorAll('.site-nav a')];
@@ -47,8 +47,10 @@ export function setView(name) {
 }
 
 function apply(name) {
+  document.documentElement.dataset.page = name;   // the head script set this before the first paint; keep it in step
   for (const [k, el] of Object.entries(sectionEls)) if (el) el.hidden = PAGE_OF[k] !== name || 'empty' in el.dataset;   // data-empty: nothing to show yet
   document.querySelectorAll('[data-home-only]').forEach((el) => { el.hidden = name !== 'home'; });
+  document.dispatchEvent(new CustomEvent('view:change', { detail: name }));
 }
 
 // The menu marks the section the address names, or the page's first section.

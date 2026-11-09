@@ -53,3 +53,14 @@ ol.events .rel{font-size:.952rem;color:var(--ink-3);font-style:italic}
 .more-row{margin:22px 0 0}
 ol.events .ev-find{margin-top:4px;font-size:.997rem}
 ol.events .ev-find button{min-height:0;padding:2px 0}
+
+/* Archive page: every day's photographs, in order */
+#archive .section-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .8rem 2rem; }
+.past-order { display: flex; gap: .4rem; margin: 0; }
+.past-order button { padding: .45rem .95rem; border: 1px solid var(--rule); border-radius: 999px; background: transparent; color: var(--ink-2); font: 400 .95rem/1 var(--serif); cursor: pointer; }
+.past-order button[aria-pressed="true"] { border-color: var(--ink-3); color: var(--ink); background: rgba(169,198,240,.08); }
+.past { list-style: none; margin: 0; padding: 0; display: grid; gap: clamp(1.4rem, 3vw, 2.2rem); }
+.past-date { display: flex; align-items: baseline; gap: .8rem; margin: 0 0 .7rem; font: 400 1.15rem/1.3 var(--serif); color: var(--ink); }
+.past-no { font: 500 .74rem/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); }
+.past .grid.past-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+@media (max-width: 560px) { .past .grid.past-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

@@ -1,6 +1,11 @@
 /* Today's three: the vote cards at the top of the home page (js/votes.js). */
-.trio { position: relative; margin: clamp(1.2rem, 3vw, 2.2rem) 0 0; }
-.trio > :not(.trio-sky) { position: relative; z-index: 1; }
+.trio { display: grid; grid-template-rows: 1fr; margin: clamp(1.2rem, 3vw, 2.2rem) 0 0; }
+.trio-fold { position: relative; min-height: 0; }
+.trio-fold > :not(.trio-sky) { position: relative; z-index: 1; }
+/* Browsing earlier days with Previous and Next: the section folds away, so the photograph sits right under the bar
+   and nothing on the page has to scroll. "Back to Today" opens it again. */
+.trio.away { grid-template-rows: 0fr; margin-top: 0; opacity: 0; }
+.trio.away .trio-fold { overflow: hidden; visibility: hidden; }
 .trio-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .2rem 1.5rem; }
 .trio-head h2 { margin: 0; font: 300 clamp(1.6rem, 3.2vw, 2.2rem)/1.1 var(--serif); letter-spacing: -.005em; color: var(--ink); }
 .trio-date { margin: 0; font: 400 .806rem/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); }
@@ -32,7 +37,7 @@
 .trio-open:hover .trio-thumb::after, .trio-open:focus-visible .trio-thumb::after { opacity: .4; }
 .trio-card.is-showing .trio-thumb { outline-color: var(--ink-3); }
 .trio-card.is-mine .trio-thumb { outline-color: rgba(242,193,78,.55); }
-.trio-now { position: absolute; left: 8px; top: 8px; padding: 3px 7px 2px; border-radius: 999px; background: rgba(13,12,11,.78); font: 500 .7rem/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--ink); opacity: 0; transition: opacity .25s; }
+.trio-now { position: absolute; left: 8px; top: 8px; padding: 3px 7px 2px; border-radius: 999px; background: rgba(var(--paper-rgb),.78); font: 500 .7rem/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--ink); opacity: 0; transition: opacity .25s; }
 .trio-card.is-showing .trio-now { opacity: 1; }
 /* your pick: a wax seal (waxSeal in passport.js), added only once you've voted */
 .trio-seal { position: absolute; z-index: 2; right: 6px; top: 6px; width: 46px; height: 46px; transform: rotate(-8deg); pointer-events: none; }
@@ -87,6 +92,10 @@
 
 /* Motion, for visitors who haven't asked for less of it. Everything above is the still version. */
 @media (prefers-reduced-motion: no-preference) {
+  .trio { transition: grid-template-rows .5s cubic-bezier(.3,.7,.2,1), margin-top .5s cubic-bezier(.3,.7,.2,1), opacity .35s; }
+  .trio .trio-fold { transition: visibility 0s .5s; }
+  .trio:not(.away) .trio-fold { transition: visibility 0s; }
+  .trio.snap, .trio.snap .trio-fold { transition: none; }
   .trio-sky { animation: trio-twinkle 7s ease-in-out infinite alternate; }
   .trio-sky::after { animation: trio-twinkle 5s ease-in-out 2.5s infinite alternate-reverse; }
   /* the three arrive one after another */

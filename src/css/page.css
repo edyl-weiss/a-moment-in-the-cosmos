@@ -1,2 +1,12 @@
 /* Page layer (formerly a decorative star field; removed so the photographs carry the spectacle). */
 .page{position:relative}
+
+/* Which page shows, from the first paint (a head script sets data-page from the address; router.js keeps it in step) */
+html:not([data-page="home"]) :is(#feature, #winner, #play, #loved, #onthisday, #favorites, [data-home-only]),
+html:not([data-page="sky"]) #sky, html:not([data-page="passport"]) #passport,
+html:not([data-page="archive"]) #archive, html:not([data-page="about"]) #about { display: none; }
+/* Reserve room for things filled in by script, so the page doesn't nudge down as they arrive */
+.issue { min-height: 1.6em; }
+.trio-date { min-height: 1em; }
+@media (max-width: 600px) { .trio-date { flex-basis: 100%; } }
+.ns-chart:empty { aspect-ratio: 1; }

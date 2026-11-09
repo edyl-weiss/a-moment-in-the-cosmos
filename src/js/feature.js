@@ -5,7 +5,8 @@ import { RIGHTS } from '../data/catalog.js';
 import { INDEX, getPhoto } from './collection.js';
 import { $, esc, CAT, fmtDate, dateOf, meetsMinimum, say, loadImage, todayIndex, dailyIds, slotOf, trioDay } from './util.js';
 
-export const state = { item: null, ctx: null, dims: null, history: [], recent: [], failed: new Set() };
+// browsing: the visitor is stepping through earlier days with Previous and Next (Today's destinations fold away).
+export const state = { item: null, ctx: null, dims: null, history: [], recent: [], failed: new Set(), browsing: false };
 export const SOURCE = { hubble: 'ESA/Hubble', webb: 'ESA/Webb', eso: 'ESO', noirlab: 'NSF NOIRLab', nasa: 'NASA', esa: 'ESA/Euclid', chandra: 'NASA/Chandra' };
 let token = 0;
 
@@ -23,8 +24,17 @@ function fallbackFor(cat) {
   return (ok.find((c) => c.cat === cat) || ok[0])?.id;
 }
 
+// Stepping back through earlier days, or opening any photograph that isn't one of today's, folds Today's
+// destinations away (votes.js listens), so the photograph sits right under the bar. "Back to Today" undoes it.
+export function setBrowsing(on) {
+  if (state.browsing === on) return;
+  state.browsing = on;
+  document.dispatchEvent(new CustomEvent('browsing', { detail: on }));
+}
+
 export async function show(id, ctx, { push = true, notice = '' } = {}) {
   const mine = ++token;
+  if (ctx.mode !== 'daily') setBrowsing(true);
   // A daily photograph knows its place in the day's lineup (one a day before the trio began, three after).
   if (Number.isInteger(ctx.day) && ctx.slot == null) ctx = { ...ctx, slot: Math.max(0, slotOf(ctx.day, id)) };
   const known = INDEX.find((e) => e.id === id);
@@ -143,7 +153,7 @@ function render(item, ctx, dims) {
   chip.dataset.cat = item.cat;
   chip.textContent = CAT[item.cat];
   $('#whenLabel').textContent = contextLine(item, ctx);
-  $('#backToday').hidden = ctx.mode === 'daily' && !ctx.standIn;
+  $('#backToday').hidden = ctx.mode === 'daily' && !ctx.standIn && !state.browsing;
 
   $('#photoTitle').textContent = item.title;
   $('#caption').innerHTML = item.captureShort
