@@ -132,7 +132,7 @@ body {
   background-color: var(--paper);
   /* a faint glow of deep blue at the top, over a tiled field of star figures that stays put as the page scrolls */
   background-image: radial-gradient(ellipse 120% 60% at 50% -10%, rgba(40,70,140,.22), transparent 70%), url(../img/constellations.svg);
-  background-size: auto, 900px 900px;
+  background-size: auto, 1840px 1656px;
   background-attachment: fixed, fixed;
 }
 #onthisday, #about { background: var(--band); }
