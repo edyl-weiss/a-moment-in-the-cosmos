@@ -130,10 +130,17 @@ details[open] > summary::before { transform: rotate(45deg); }
 /* 15 · Darkness with tonal separation: warm near-black, slightly lifted bands for reference sections */
 body {
   background-color: var(--paper);
-  /* a faint glow of deep blue at the top, over a tiled field of star figures that stays put as the page scrolls */
-  background-image: radial-gradient(ellipse 120% 60% at 50% -10%, rgba(40,70,140,.22), transparent 70%), url(../img/constellations.svg);
-  background-size: auto, 1840px 1656px;
-  background-attachment: fixed, fixed;
+  /* a faint glow of deep blue at the top of the screen */
+  background-image: radial-gradient(ellipse 120% 60% at 50% -10%, rgba(40,70,140,.22), transparent 70%);
+  background-attachment: fixed;
+}
+/* The constellations: a tall tile on a fixed layer that drifts up slowly as the page scrolls (js/skybg.js sets
+   --sky-y). Without motion it simply stays put. */
+:root { --sky-w: 1620px; --sky-h: 4050px; }
+body::before {
+  content: ''; position: fixed; left: 0; right: 0; top: 0; height: calc(100vh + var(--sky-h)); z-index: -1; pointer-events: none;
+  background: url(../img/constellations.svg) 0 0 / var(--sky-w) var(--sky-h) repeat;
+  transform: translate3d(0, var(--sky-y, 0px), 0); will-change: transform;
 }
 #onthisday, #about { background: var(--band); }
 .stage { background: #050505; }

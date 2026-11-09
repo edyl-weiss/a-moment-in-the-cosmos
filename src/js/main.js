@@ -25,6 +25,7 @@ import { initPlay } from './play.js';
 import { initVotes } from './votes.js';
 import { initPast } from './past.js';
 import './passport.js';
+import './skybg.js';
 
 const issue = todayIndex();
 $('#issueNo').textContent = `No. ${(issue + 1).toLocaleString('en')}`;

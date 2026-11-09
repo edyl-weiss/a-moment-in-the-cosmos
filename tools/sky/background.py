@@ -6,7 +6,7 @@ Same seed, same picture; change SEED for a different arrangement.
 import json, math, os, random
 
 ROOT = os.path.join(os.path.dirname(__file__), '..', '..')
-SEED, COLS, ROWS, CELL = 7, 10, 9, 230
+SEED, COLS, ROWS, CELL = 7, 6, 15, 300   # a tall tile: the page scrolls through it slowly (see js/skybg.js)
 W, H = COLS * CELL, ROWS * CELL
 
 sky = json.load(open(os.path.join(ROOT, 'src', 'data', 'sky.json'), encoding='utf-8'))
@@ -45,7 +45,7 @@ for name, (cx, cy) in zip(names, cells):
     xs = [p[0] for l in proj for p in l]; ys = [p[1] for l in proj for p in l]
     ext = max(max(xs) - min(xs), max(ys) - min(ys)) or 1
     # Big constellations fill most of a cell; small ones stay small, but not tiny.
-    size = CELL * min(.92, max(.38, .3 + ext * 1.1))
+    size = CELL * min(.7, max(.3, (.3 + ext * 1.1) * .76))
     s = size / ext
     rot = math.radians(rnd.uniform(-25, 25)); cr, sr = math.cos(rot), math.sin(rot)
     mx, my = (max(xs) + min(xs)) / 2, (max(ys) + min(ys)) / 2
@@ -67,7 +67,7 @@ for name, (cx, cy) in zip(names, cells):
     paths.append(f'<path d="{" ".join(d)}"><title>{name}</title></path>')
 
 # Scattered faint stars, wrapped so the edges match up.
-for _ in range(420):
+for _ in range(700):
     dots.append((rnd.uniform(0, W), rnd.uniform(0, H), rnd.choice((.5, .6, .7, .9)), rnd.choice((.08, .12, .16, .22))))
 
 out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">',
