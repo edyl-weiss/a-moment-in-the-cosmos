@@ -7,6 +7,10 @@ import { show } from './feature.js';
 import { tile, scrollToFeature } from './tiles.js';
 import { currentView } from './router.js';
 
+// Three columns: galaxies, nebulae and star clusters (they share the middle slot), and night skies.
+const COL = { galaxy: 1, nebula: 2, star: 2, night: 3 };
+const COL_NAME = ['', 'Galaxy', 'Nebula or star', 'Night sky'];
+
 const KEY = 'archiveOrder';
 let order = store.get(KEY, 'old') === 'new' ? 'new' : 'old';
 let drawnFor = null;
@@ -21,10 +25,16 @@ function day(d, today) {
   ids.forEach((id, slot) => {
     const e = INDEX_BY_ID[id];
     if (!e) return;
-    grid.appendChild(tile({
+    const t = tile({
       id, title: e.title, cat: e.cat, thumb: e.thumb, sub: e.y,
       onOpen: () => { show(id, { mode: d === today ? 'daily' : 'archive', day: d, slot }); scrollToFeature(); }
-    }));
+    });
+    // Three-photo days keep their slot order (a slot occasionally borrows from another category);
+    // the early one-photo days go in their category's column.
+    const col = ids.length === 3 ? slot + 1 : COL[e.cat] || 2;
+    t.style.gridColumn = col;
+    t.dataset.col = COL_NAME[col];
+    grid.appendChild(t);
   });
   return li;
 }
